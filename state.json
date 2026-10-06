@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 492,
+  "credits_remaining": 488,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:10:00Z",
@@ -55,6 +55,21 @@
               "under": -130
             }
           }
+        },
+        "fanduel": {
+          "at": "2026-10-06T17:45:10Z",
+          "lines": {
+            "Jake Allen": {
+              "over": -102,
+              "point": 23.5,
+              "under": -130
+            },
+            "Karel Vejmelka": {
+              "over": -130,
+              "point": 25.5,
+              "under": -102
+            }
+          }
         }
       }
     },
@@ -72,6 +87,21 @@
       "commence_time": "2026-10-06T23:10:00Z",
       "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
       "posted": {
+        "draftkings": {
+          "at": "2026-10-06T17:45:10Z",
+          "lines": {
+            "Brandon Bussi": {
+              "over": -115,
+              "point": 22.5,
+              "under": -120
+            },
+            "Jakub Dobes": {
+              "over": -110,
+              "point": 27.5,
+              "under": -125
+            }
+          }
+        },
         "fanduel": {
           "at": "2026-10-06T16:44:48Z",
           "lines": {
@@ -83,6 +113,11 @@
           }
         }
       }
+    },
+    "8112572f236320d4d4c99b6eb0989b94": {
+      "commence_time": "2026-10-07T23:40:00Z",
+      "matchup": "Pittsburgh Penguins @ Washington Capitals",
+      "posted": {}
     },
     "ab12d4dc632ea010114de1409ca7a64b": {
       "commence_time": "2026-10-06T23:40:00Z",
@@ -128,8 +163,28 @@
               "under": -120
             }
           }
+        },
+        "fanduel": {
+          "at": "2026-10-06T17:45:10Z",
+          "lines": {
+            "Anthony Stolarz": {
+              "over": -128,
+              "point": 23.5,
+              "under": -104
+            },
+            "Juuse Saros": {
+              "over": -118,
+              "point": 24.5,
+              "under": -112
+            }
+          }
         }
       }
+    },
+    "c8c270e79cd56ca57baa21a49a0d1d9d": {
+      "commence_time": "2026-10-07T23:30:00Z",
+      "matchup": "Colorado Avalanche @ Winnipeg Jets",
+      "posted": {}
     },
     "e77f5de1229c03c1338f5cf3eb6797ba": {
       "commence_time": "2026-10-07T00:10:00Z",
@@ -142,6 +197,21 @@
               "over": -105,
               "point": 22.5,
               "under": -130
+            }
+          }
+        },
+        "fanduel": {
+          "at": "2026-10-06T17:45:10Z",
+          "lines": {
+            "Joel Hofer": {
+              "over": -128,
+              "point": 22.5,
+              "under": -104
+            },
+            "Spencer Knight": {
+              "over": -130,
+              "point": 21.5,
+              "under": -102
             }
           }
         }
