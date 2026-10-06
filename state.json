@@ -1,10 +1,41 @@
 {
-  "credits_remaining": 500,
+  "credits_remaining": 492,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:10:00Z",
       "matchup": "Minnesota Wild @ Buffalo Sabres",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Colten Ellis": {
+              "over": -125,
+              "point": 24.5,
+              "under": -105
+            },
+            "Jesper Wallstedt": {
+              "over": -110,
+              "point": 24.5,
+              "under": -125
+            }
+          }
+        },
+        "fanduel": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Colten Ellis": {
+              "over": -118,
+              "point": 24.5,
+              "under": -112
+            },
+            "Jesper Wallstedt": {
+              "over": -112,
+              "point": 24.5,
+              "under": -118
+            }
+          }
+        }
+      }
     },
     "10b0f8b34314309a388225ab503d8172": {
       "commence_time": "2026-10-07T01:10:00Z",
@@ -14,7 +45,18 @@
     "21ac7b574ba4b532a5962a3f55feabeb": {
       "commence_time": "2026-10-06T23:10:00Z",
       "matchup": "Utah Mammoth @ New Jersey Devils",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Jake Allen": {
+              "over": -105,
+              "point": 23.5,
+              "under": -130
+            }
+          }
+        }
+      }
     },
     "2c216d3aae0eeb236312763bf1ca61db": {
       "commence_time": "2026-10-06T23:10:00Z",
@@ -29,22 +71,81 @@
     "3b7b6520b0bc91f44cf9c9575d7e29f7": {
       "commence_time": "2026-10-06T23:10:00Z",
       "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
-      "posted": {}
+      "posted": {
+        "fanduel": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Brandon Bussi": {
+              "over": -114,
+              "point": 22.5,
+              "under": -114
+            }
+          }
+        }
+      }
     },
     "ab12d4dc632ea010114de1409ca7a64b": {
       "commence_time": "2026-10-06T23:40:00Z",
       "matchup": "New York Islanders @ New York Rangers",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Semyon Varlamov": {
+              "over": -130,
+              "point": 23.5,
+              "under": -105
+            }
+          }
+        },
+        "fanduel": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Semyon Varlamov": {
+              "over": -132,
+              "point": 23.5,
+              "under": 100
+            }
+          }
+        }
+      }
     },
     "b9036900ce6fd27ce3095db6c5481f29": {
       "commence_time": "2026-10-06T23:10:00Z",
       "matchup": "Nashville Predators @ Toronto Maple Leafs",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Anthony Stolarz": {
+              "over": -110,
+              "point": 24.5,
+              "under": -125
+            },
+            "Juuse Saros": {
+              "over": -110,
+              "point": 24.5,
+              "under": -120
+            }
+          }
+        }
+      }
     },
     "e77f5de1229c03c1338f5cf3eb6797ba": {
       "commence_time": "2026-10-07T00:10:00Z",
       "matchup": "St Louis Blues @ Chicago Blackhawks",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-06T16:44:48Z",
+          "lines": {
+            "Spencer Knight": {
+              "over": -105,
+              "point": 22.5,
+              "under": -130
+            }
+          }
+        }
+      }
     }
   },
   "low_credit_warned": false
