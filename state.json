@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 483,
+  "credits_remaining": 482,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:10:00Z",
@@ -41,6 +41,16 @@
       "commence_time": "2026-10-07T01:10:00Z",
       "matchup": "Vegas Golden Knights @ Seattle Kraken",
       "posted": {
+        "draftkings": {
+          "at": "2026-10-06T21:30:21Z",
+          "lines": {
+            "Joey Daccord": {
+              "over": -130,
+              "point": 24.5,
+              "under": -105
+            }
+          }
+        },
         "fanduel": {
           "at": "2026-10-06T18:00:28Z",
           "lines": {
