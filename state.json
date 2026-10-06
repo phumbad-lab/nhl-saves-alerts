@@ -1,1 +1,51 @@
-{"events": {}, "low_credit_warned": false}
+{
+  "credits_remaining": 500,
+  "events": {
+    "057cbe42c7df314de9ef60d00db04222": {
+      "commence_time": "2026-10-06T23:10:00Z",
+      "matchup": "Minnesota Wild @ Buffalo Sabres",
+      "posted": {}
+    },
+    "10b0f8b34314309a388225ab503d8172": {
+      "commence_time": "2026-10-07T01:10:00Z",
+      "matchup": "Vegas Golden Knights @ Seattle Kraken",
+      "posted": {}
+    },
+    "21ac7b574ba4b532a5962a3f55feabeb": {
+      "commence_time": "2026-10-06T23:10:00Z",
+      "matchup": "Utah Mammoth @ New Jersey Devils",
+      "posted": {}
+    },
+    "2c216d3aae0eeb236312763bf1ca61db": {
+      "commence_time": "2026-10-06T23:10:00Z",
+      "matchup": "Ottawa Senators @ Detroit Red Wings",
+      "posted": {}
+    },
+    "3a95439904d3d0af12970bb0c8e66a3a": {
+      "commence_time": "2026-10-07T02:40:00Z",
+      "matchup": "Florida Panthers @ Los Angeles Kings",
+      "posted": {}
+    },
+    "3b7b6520b0bc91f44cf9c9575d7e29f7": {
+      "commence_time": "2026-10-06T23:10:00Z",
+      "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens",
+      "posted": {}
+    },
+    "ab12d4dc632ea010114de1409ca7a64b": {
+      "commence_time": "2026-10-06T23:40:00Z",
+      "matchup": "New York Islanders @ New York Rangers",
+      "posted": {}
+    },
+    "b9036900ce6fd27ce3095db6c5481f29": {
+      "commence_time": "2026-10-06T23:10:00Z",
+      "matchup": "Nashville Predators @ Toronto Maple Leafs",
+      "posted": {}
+    },
+    "e77f5de1229c03c1338f5cf3eb6797ba": {
+      "commence_time": "2026-10-07T00:10:00Z",
+      "matchup": "St Louis Blues @ Chicago Blackhawks",
+      "posted": {}
+    }
+  },
+  "low_credit_warned": false
+}
