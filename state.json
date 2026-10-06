@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 488,
+  "credits_remaining": 487,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:10:00Z",
@@ -76,7 +76,18 @@
     "2c216d3aae0eeb236312763bf1ca61db": {
       "commence_time": "2026-10-06T23:10:00Z",
       "matchup": "Ottawa Senators @ Detroit Red Wings",
-      "posted": {}
+      "posted": {
+        "fanduel": {
+          "at": "2026-10-06T17:55:17Z",
+          "lines": {
+            "John Gibson": {
+              "over": -112,
+              "point": 24.5,
+              "under": -118
+            }
+          }
+        }
+      }
     },
     "3a95439904d3d0af12970bb0c8e66a3a": {
       "commence_time": "2026-10-07T02:40:00Z",
