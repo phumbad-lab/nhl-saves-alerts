@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 487,
+  "credits_remaining": 486,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:10:00Z",
@@ -40,7 +40,18 @@
     "10b0f8b34314309a388225ab503d8172": {
       "commence_time": "2026-10-07T01:10:00Z",
       "matchup": "Vegas Golden Knights @ Seattle Kraken",
-      "posted": {}
+      "posted": {
+        "fanduel": {
+          "at": "2026-10-06T18:00:28Z",
+          "lines": {
+            "Joey Daccord": {
+              "over": -102,
+              "point": 25.5,
+              "under": -130
+            }
+          }
+        }
+      }
     },
     "21ac7b574ba4b532a5962a3f55feabeb": {
       "commence_time": "2026-10-06T23:10:00Z",
