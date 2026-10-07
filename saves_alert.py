@@ -29,12 +29,24 @@ Environment variables:
   RECHECK_WINDOW_HOURS  Only recheck games starting within this many hours (default 10)
   RECHECK_RESERVE       Stop rechecks when credits fall to this level (default 150)
   MIN_CREDITS           Stop all checks below this many credits (default 20)
+  SHOT_THRESHOLD        Only watch games where a goalie's expected shots differ from the
+                        league average by at least this much (default 2). 0 = watch every game.
+  TARGET_SAVES          Tag a line OVER TARGET / UNDER TARGET when the goalie's expected saves
+                        are at least this far above / below the line (default 1.5).
   TEST_PUSH             "true" = send a test notification and exit
+
+Matchup filter (uses this season's NHL team stats, free, refreshed every 6 hours):
+  expected shots on a goalie = (opponent shots for/game + own team shots against/game) / 2
+  expected saves             = expected shots x league save percentage
+  A game is watched if either goalie's expected shots is SHOT_THRESHOLD or more away
+  from the league average. If the stats can't be loaded, every game is watched.
 """
 
 import json
 import os
+import re
 import sys
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -65,6 +77,12 @@ RECHECK_MINUTES = env_int("RECHECK_MINUTES", 60)
 RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
+SHOT_THRESHOLD = float(os.getenv("SHOT_THRESHOLD", "") or "2")
+TARGET_SAVES = float(os.getenv("TARGET_SAVES", "") or "1.5")
+NHL_STATS_URL = "https://api.nhle.com/stats/rest/en/team/summary"
+NHL_WEB = "https://api-web.nhle.com/v1"
+STATS_REFRESH = timedelta(hours=6)
+ROSTER_REFRESH = timedelta(hours=12)
 TEST_PUSH = os.getenv("TEST_PUSH", "").strip().lower() in ("1", "true", "yes")
 
 
@@ -187,6 +205,163 @@ def extract_lines(event_odds):
     return out
 
 
+def team_key(name):
+    """'Montréal Canadiens' / 'St. Louis Blues' -> 'montrealcanadiens' / 'stlouisblues'."""
+    plain = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z]", "", plain.lower())
+
+
+def nickname(name):
+    return (name or "").split()[-1]
+
+
+def season_id(now):
+    y = now.astimezone(LOCAL_TZ).year
+    return f"{y}{y + 1}" if now.astimezone(LOCAL_TZ).month >= 8 else f"{y - 1}{y}"
+
+
+def fetch_shot_stats(now):
+    """Pull this season's team shots for/against from the NHL's free stats feed."""
+    params = urllib.parse.urlencode({"cayenneExp": f"seasonId={season_id(now)} and gameTypeId=2"})
+    req = urllib.request.Request(f"{NHL_STATS_URL}?{params}",
+                                 headers={"User-Agent": "nhl-saves-alerts/2.1"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = json.loads(resp.read().decode("utf-8"))
+    rows = raw.get("data", []) if isinstance(raw, dict) else raw
+    teams, shots_against, goals_against = {}, 0.0, 0.0
+    for r in rows:
+        gp = r.get("gamesPlayed") or 0
+        sf, sa = r.get("shotsForPerGame"), r.get("shotsAgainstPerGame")
+        if not gp or sf is None or sa is None:
+            continue
+        teams[team_key(r.get("teamFullName"))] = {"sf": sf, "sa": sa, "gp": gp}
+        shots_against += sa * gp
+        goals_against += r.get("goalsAgainst") or 0
+    if len(teams) < 20:
+        return None  # season hasn't really started; don't filter
+    avg = sum(t["sf"] for t in teams.values()) / len(teams)
+    sv = 1 - goals_against / shots_against if shots_against else 0.9
+    return {"fetched": iso(now), "season": season_id(now), "teams": teams,
+            "avg_shots": round(avg, 2), "save_pct": round(sv, 4)}
+
+
+def get_shot_stats(state, now):
+    cached = state.get("shot_stats")
+    if cached and now - parse_iso(cached["fetched"]) < STATS_REFRESH \
+            and cached.get("season") == season_id(now):
+        return cached
+    try:
+        fresh = fetch_shot_stats(now)
+    except Exception as e:  # network hiccup: fall back to the last good copy
+        print(f"Couldn't load NHL team stats ({e}); using last saved copy if any.")
+        return cached
+    if fresh:
+        state["shot_stats"] = fresh
+    return fresh or cached
+
+
+def matchup(event, stats):
+    """Expected shots/saves on each goalie, or None if a team is missing from the stats."""
+    if not stats:
+        return None
+    home = stats["teams"].get(team_key(event["home_team"]))
+    away = stats["teams"].get(team_key(event["away_team"]))
+    if not (home and away):
+        return None
+    avg, sv = stats["avg_shots"], stats["save_pct"]
+    out = {}
+    for side, own, opp, name in (("home", home, away, event["home_team"]),
+                                 ("away", away, home, event["away_team"])):
+        shots = (opp["sf"] + own["sa"]) / 2
+        out[side] = {"team": nickname(name), "shots": shots, "saves": shots * sv,
+                     "delta": shots - avg}
+    return out
+
+
+def nhl_get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "nhl-saves-alerts/2.2"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def cached(state, key, now, max_age, loader):
+    """Return state[key]['value'], reloading it when older than max_age."""
+    entry = state.get(key)
+    if entry and now - parse_iso(entry["fetched"]) < max_age:
+        return entry["value"]
+    try:
+        value = loader()
+    except Exception as e:
+        print(f"Couldn't load {key} ({e}); using last saved copy if any.")
+        return entry["value"] if entry else None
+    state[key] = {"fetched": iso(now), "value": value}
+    return value
+
+
+def load_abbrevs():
+    data = nhl_get(f"{NHL_WEB}/standings/now")
+    return {team_key(t["teamName"]["default"]): t["teamAbbrev"]["default"]
+            for t in data.get("standings", [])}
+
+
+def load_goalies(abbrev):
+    data = nhl_get(f"{NHL_WEB}/roster/{abbrev}/current")
+    return [f"{g['firstName']['default']} {g['lastName']['default']}"
+            for g in data.get("goalies", [])]
+
+
+def goalie_sides(event, players, state, now):
+    """Map goalie name -> 'home'/'away' using current NHL rosters."""
+    abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+    rosters = {}
+    for side in ("home", "away"):
+        ab = abbrevs.get(team_key(event[f"{side}_team"]))
+        if ab:
+            rosters[side] = cached(state, f"roster_{ab}", now, ROSTER_REFRESH,
+                                   lambda ab=ab: load_goalies(ab)) or []
+    out = {}
+    for p in players:
+        pk = team_key(p)
+        last = team_key(p.split()[-1]) if p.split() else ""
+        for side, names in rosters.items():
+            if any(team_key(n) == pk for n in names):
+                out[p] = side
+        if p not in out:  # fall back to a unique last-name match
+            hits = [s for s, names in rosters.items()
+                    if any(team_key(n.split()[-1]) == last for n in names)]
+            if len(hits) == 1:
+                out[p] = hits[0]
+    return out
+
+
+def target_tag(expected, point):
+    if expected is None or point is None:
+        return ""
+    gap = expected - point
+    if gap >= TARGET_SAVES:
+        return " OVER TARGET"
+    if gap <= -TARGET_SAVES:
+        return " UNDER TARGET"
+    return " (fade)"
+
+
+def watch_game(m):
+    if SHOT_THRESHOLD <= 0 or m is None:
+        return True
+    return any(abs(g["delta"]) >= SHOT_THRESHOLD for g in m.values())
+
+
+def fmt_matchup(m):
+    if not m:
+        return ""
+    parts = []
+    for side in ("away", "home"):
+        g = m[side]
+        parts.append(f"{g['team']} goalie ~{g['saves']:.1f} saves "
+                     f"({g['shots']:.1f} shots, {g['delta']:+.1f} vs avg)")
+    return "Expected: " + " · ".join(parts)
+
+
 def wanted(event):
     if not TEAMS:
         return True
@@ -198,22 +373,34 @@ def is_complete(rec):
     return all(len(rec["lines"].get(b, {})) >= GOALIES_PER_GAME for b in BOOKS)
 
 
-def build_message(event, new_pairs, current):
-    """new_pairs: set of (book, player) just posted. current: all lines now."""
+def build_message(event, new_pairs, current, m=None, sides=None):
+    """new_pairs: set of (book, player) just posted. current: all lines now.
+    m: expected saves per side. sides: goalie name -> 'home'/'away'."""
+    sides = sides or {}
+    players = sorted({p for _, p in new_pairs})
     header = f"{event['away_team']} @ {event['home_team']} · {fmt_time(event['commence_time'])}"
+    if m and not all(p in sides for p in players):
+        # Couldn't match every goalie to a team, so list both teams' expectations.
+        for side in ("away", "home"):
+            header += f"\n{m[side]['team']} goalie: expected {m[side]['saves']:.1f} saves"
     rows = []
-    for player in sorted({p for _, p in new_pairs}):
+    for player in players:
+        side = sides.get(player)
+        expected = m[side]["saves"] if (m and side) else None
+        title = player
+        if expected is not None:
+            title += f" ({m[side]['team']}) · expected {expected:.1f} saves"
         parts = []
         for book in BOOKS:
             ln = current.get(book, {}).get(player)
             short = BOOK_SHORT.get(book, book)
             if ln:
-                tag = " (new)" if (book, player) in new_pairs else ""
+                new = " (new)" if (book, player) in new_pairs else ""
                 parts.append(f"{short} {ln.get('point')} ({fmt_odds(ln.get('over'))}/"
-                             f"{fmt_odds(ln.get('under'))}){tag}")
+                             f"{fmt_odds(ln.get('under'))}){target_tag(expected, ln.get('point'))}{new}")
             else:
                 parts.append(f"{short} not yet")
-        rows.append(f"{player}\n  " + " · ".join(parts))
+        rows.append(f"{title}\n  " + " · ".join(parts))
     return header + "\n" + "\n".join(rows)
 
 
@@ -246,11 +433,23 @@ def main():
     print(f"{len(events)} upcoming game(s) in the next {LOOKAHEAD_HOURS}h"
           + (f" (filter: {', '.join(TEAMS)})" if TEAMS else ""))
 
+    stats = get_shot_stats(state, now) if SHOT_THRESHOLD > 0 else None
+    if SHOT_THRESHOLD > 0:
+        print(f"Matchup filter: ±{SHOT_THRESHOLD:g} shots"
+              + (f" (league avg {stats['avg_shots']:.1f} shots, save% {stats['save_pct']:.3f})"
+                 if stats else " — stats unavailable, watching every game"))
+
     credits = remaining
-    alerts = checks = skipped_rechecks = 0
+    alerts = checks = skipped_rechecks = skipped_games = 0
 
     for event in events:
         eid = event["id"]
+        m = matchup(event, stats)
+        if not watch_game(m):
+            skipped_games += 1
+            print(f"Skip (middling matchup): {event['away_team']} @ {event['home_team']} | "
+                  + fmt_matchup(m))
+            continue
         rec = state["events"].setdefault(eid, {
             "matchup": f"{event['away_team']} @ {event['home_team']}",
             "commence_time": event["commence_time"],
@@ -305,7 +504,9 @@ def main():
             rec["lines"].setdefault(book, {}).update(players)
 
         if new_pairs:
-            send_push("Goalie saves posted", build_message(event, new_pairs, rec["lines"]))
+            sides = goalie_sides(event, {p for _, p in new_pairs}, state, now) if m else {}
+            send_push("Goalie saves posted",
+                      build_message(event, new_pairs, rec["lines"], m, sides))
             alerts += 1
             names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
             print(f"ALERT {rec['matchup']}: {names}")
@@ -321,7 +522,8 @@ def main():
     state["credits_remaining"] = credits
     save_state(state)
     print(f"Done: {checks} odds check(s), {alerts} alert(s), "
-          f"{skipped_rechecks} recheck(s) not due yet, credits remaining: {credits}")
+          f"{skipped_rechecks} recheck(s) not due yet, {skipped_games} middling game(s) skipped, "
+          f"credits remaining: {credits}")
 
 
 if __name__ == "__main__":

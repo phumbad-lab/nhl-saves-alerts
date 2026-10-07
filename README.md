@@ -83,9 +83,32 @@ Set these under **Settings → Secrets and variables → Actions → Variables t
 |---|---|
 | `TEAMS` | Only watch certain teams, comma-separated: `Red Wings,Rangers,Bruins`. Leave unset to watch every game. |
 | `TELEGRAM_SILENT` | `true` (default) delivers alerts without sound. `false` uses normal sound. |
+| `SHOT_THRESHOLD` | Only watch games where a goalie's expected shots differ from the league average by at least this much. Default `2`. Set `0` to watch every game. |
+| `TARGET_SAVES` | How far expected saves must differ from the line to tag it OVER/UNDER TARGET. Default `1.5`. |
 | `RECHECK_MINUTES` | How often to recheck a game where some goalies are posted but not all. Default `60`. |
 | `RECHECK_WINDOW_HOURS` | Only recheck games starting within this many hours. Default `10`. |
 | `RECHECK_RESERVE` | Stop rechecks (but keep first-goalie alerts) when credits drop to this. Default `150`. |
+
+## Which games are watched
+Using this season's NHL team stats (free, refreshed every 6 hours), each goalie gets:
+
+- **expected shots** = (opponent's shots for per game + own team's shots against per game) ÷ 2
+- **expected saves** = expected shots × the league's save percentage
+
+A game is watched only if at least one goalie's expected shots are `SHOT_THRESHOLD` (default 2) or more above or below the league average. Skipped games cost nothing and are listed in each run's log as `Skip (middling matchup)`. If the NHL stats can't be loaded, every game is watched.
+
+Each goalie is matched to his team using NHL rosters, and every line is compared to his expected saves:
+```
+Dan Vladar (Flyers) · expected 34.4 saves
+  DK 29.5 (-115/-105) OVER TARGET (new) · FD not yet
+Jacob Markstrom (Devils) · expected 21.6 saves
+  DK 24.5 (-110/-110) UNDER TARGET · FD 22.5 (-120/+100) (fade)
+```
+- **OVER TARGET:** expected saves are at least `TARGET_SAVES` (default 1.5) above the line.
+- **UNDER TARGET:** expected saves are at least 1.5 below the line.
+- **(fade):** the line is within 1.5 of the expectation, so no edge.
+
+If a goalie can't be matched to a team (e.g. a fresh call-up), the alert lists both teams' expected saves instead and leaves the tag off. The full math for every game is in each run's log.
 
 ## How alerts work
 Books often post one goalie early and the other hours later, so every goalie is tracked separately. You get a message each time a goalie's line appears at a book for the first time, showing both books side by side (`not yet` if one hasn't posted). A game stops being checked once both books show both goalies.
