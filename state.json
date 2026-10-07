@@ -379,5 +379,173 @@
       "matchup": "Nashville Predators @ Montr\u00e9al Canadiens"
     }
   },
-  "low_credit_warned": false
+  "low_credit_warned": false,
+  "shot_stats": {
+    "avg_shots": 26.94,
+    "fetched": "2026-10-07T22:45:17Z",
+    "save_pct": 0.8841,
+    "season": "20262027",
+    "teams": {
+      "anaheimducks": {
+        "gp": 2,
+        "sa": 30.5,
+        "sf": 20.0
+      },
+      "bostonbruins": {
+        "gp": 4,
+        "sa": 27.75,
+        "sf": 24.75
+      },
+      "buffalosabres": {
+        "gp": 3,
+        "sa": 19.33333,
+        "sf": 27.33333
+      },
+      "calgaryflames": {
+        "gp": 3,
+        "sa": 28.33333,
+        "sf": 27.33333
+      },
+      "carolinahurricanes": {
+        "gp": 4,
+        "sa": 21.25,
+        "sf": 30.25
+      },
+      "chicagoblackhawks": {
+        "gp": 4,
+        "sa": 31.0,
+        "sf": 19.25
+      },
+      "coloradoavalanche": {
+        "gp": 2,
+        "sa": 28.5,
+        "sf": 32.5
+      },
+      "columbusbluejackets": {
+        "gp": 2,
+        "sa": 28.5,
+        "sf": 21.0
+      },
+      "dallasstars": {
+        "gp": 3,
+        "sa": 21.0,
+        "sf": 27.0
+      },
+      "detroitredwings": {
+        "gp": 3,
+        "sa": 24.33333,
+        "sf": 31.33333
+      },
+      "edmontonoilers": {
+        "gp": 3,
+        "sa": 21.66666,
+        "sf": 31.33333
+      },
+      "floridapanthers": {
+        "gp": 4,
+        "sa": 21.75,
+        "sf": 26.75
+      },
+      "losangeleskings": {
+        "gp": 3,
+        "sa": 28.0,
+        "sf": 28.66666
+      },
+      "minnesotawild": {
+        "gp": 3,
+        "sa": 25.0,
+        "sf": 26.66666
+      },
+      "montrealcanadiens": {
+        "gp": 3,
+        "sa": 30.33333,
+        "sf": 23.0
+      },
+      "nashvillepredators": {
+        "gp": 3,
+        "sa": 32.33333,
+        "sf": 23.66666
+      },
+      "newjerseydevils": {
+        "gp": 3,
+        "sa": 29.33333,
+        "sf": 38.0
+      },
+      "newyorkislanders": {
+        "gp": 3,
+        "sa": 29.0,
+        "sf": 26.0
+      },
+      "newyorkrangers": {
+        "gp": 5,
+        "sa": 23.6,
+        "sf": 23.2
+      },
+      "ottawasenators": {
+        "gp": 3,
+        "sa": 28.0,
+        "sf": 26.0
+      },
+      "philadelphiaflyers": {
+        "gp": 4,
+        "sa": 39.5,
+        "sf": 19.25
+      },
+      "pittsburghpenguins": {
+        "gp": 3,
+        "sa": 26.33333,
+        "sf": 33.0
+      },
+      "sanjosesharks": {
+        "gp": 3,
+        "sa": 29.0,
+        "sf": 23.33333
+      },
+      "seattlekraken": {
+        "gp": 4,
+        "sa": 28.0,
+        "sf": 26.5
+      },
+      "stlouisblues": {
+        "gp": 3,
+        "sa": 27.33333,
+        "sf": 25.66666
+      },
+      "tampabaylightning": {
+        "gp": 3,
+        "sa": 20.33333,
+        "sf": 30.0
+      },
+      "torontomapleleafs": {
+        "gp": 4,
+        "sa": 26.25,
+        "sf": 30.0
+      },
+      "utahmammoth": {
+        "gp": 4,
+        "sa": 22.25,
+        "sf": 31.0
+      },
+      "vancouvercanucks": {
+        "gp": 4,
+        "sa": 30.0,
+        "sf": 22.75
+      },
+      "vegasgoldenknights": {
+        "gp": 4,
+        "sa": 23.25,
+        "sf": 30.75
+      },
+      "washingtoncapitals": {
+        "gp": 2,
+        "sa": 31.5,
+        "sf": 24.0
+      },
+      "winnipegjets": {
+        "gp": 3,
+        "sa": 32.33333,
+        "sf": 31.66666
+      }
+    }
+  }
 }
