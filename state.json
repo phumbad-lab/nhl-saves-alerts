@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 482,
+  "credits_remaining": 481,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:15:00Z",
@@ -180,7 +180,18 @@
     "8112572f236320d4d4c99b6eb0989b94": {
       "commence_time": "2026-10-07T23:40:00Z",
       "matchup": "Pittsburgh Penguins @ Washington Capitals",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-07T16:05:16Z",
+          "lines": {
+            "Arturs Silovs": {
+              "over": -115,
+              "point": 26.5,
+              "under": -120
+            }
+          }
+        }
+      }
     },
     "ab12d4dc632ea010114de1409ca7a64b": {
       "commence_time": "2026-10-06T23:45:00Z",
