@@ -5,13 +5,15 @@ Checks DraftKings and FanDuel every 20 minutes (10 AM – 10 PM Eastern). The fi
 Example alert:
 
 ```
-FanDuel: goalie saves posted
-Boston Bruins @ Detroit Red Wings · Mon 7 PM
-Cam Talbot: O/U 26.5 (-115/-105) | DK 26.5
-Jeremy Swayman: O/U 27.5 (-110/-110) | DK 28.5
+Goalie saves posted
+Utah Mammoth @ Boston Bruins · Thu 7:10 PM
+Jeremy Swayman
+  DK 27.5 (-115/-105) · FD 27.5 (-110/-110) (new)
+Karel Vejmelka
+  DK 25.5 (-115/-105) (new) · FD not yet
 ```
 
-When the second book posts, the alert shows the first book's line next to it so you can spot the better number.
+Each alert shows both books side by side so you can spot the better number.
 
 Everything here is free.
 
@@ -81,9 +83,15 @@ Set these under **Settings → Secrets and variables → Actions → Variables t
 |---|---|
 | `TEAMS` | Only watch certain teams, comma-separated: `Red Wings,Rangers,Bruins`. Leave unset to watch every game. |
 | `TELEGRAM_SILENT` | `true` (default) delivers alerts without sound. `false` uses normal sound. |
+| `RECHECK_MINUTES` | How often to recheck a game where some goalies are posted but not all. Default `60`. |
+| `RECHECK_WINDOW_HOURS` | Only recheck games starting within this many hours. Default `10`. |
+| `RECHECK_RESERVE` | Stop rechecks (but keep first-goalie alerts) when credits drop to this. Default `150`. |
+
+## How alerts work
+Books often post one goalie early and the other hours later, so every goalie is tracked separately. You get a message each time a goalie's line appears at a book for the first time, showing both books side by side (`not yet` if one hasn't posted). A game stops being checked once both books show both goalies.
 
 ## Good to know
-- **Credits:** each game costs about 1 credit per book, and only once the line is posted. Checks that find nothing are free. A full NHL slate is roughly 350–400 credits a month for both books, which fits the free 500. If you get close, the script pauses itself and messages you once. Setting `TEAMS` stretches it a lot.
+- **Credits:** checking a game with nothing posted is free. Any check that returns lines costs 1 credit (both books in one call). That means the first post for each game costs 1, and each hourly recheck of a partly-posted game costs 1. A full NHL slate can run past the free 500 a month. When credits fall to `RECHECK_RESERVE`, rechecks pause so first-goalie alerts keep working, and if credits fall below 20 everything pauses and you get one message. To catch every goalie all month, either set `TEAMS` or move to the $30/month plan and set `RECHECK_MINUTES` to `10` and `RECHECK_RESERVE` to `1000`.
 - **Timing:** GitHub sometimes runs scheduled jobs a few minutes late, so expect alerts within ~20–30 minutes of a line posting.
 - **Free usage:** about 1,100 GitHub Actions minutes a month, inside the 2,000 free minutes for private repos.
 - **Coverage:** alerts depend on The Odds API carrying the market. If a book posts saves for a goalie it doesn't cover, you won't get that one.
