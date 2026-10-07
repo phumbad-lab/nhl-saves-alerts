@@ -110,6 +110,25 @@ Jacob Markstrom (Devils) · expected 21.6 saves
 
 If a goalie can't be matched to a team (e.g. a fresh call-up), the alert lists both teams' expected saves instead and leaves the tag off. The full math for every game is in each run's log.
 
+## Pick log and results
+Every line that gets alerted is saved to **`picks.csv`** in the repo (click it on GitHub to see it as a table): date, game, goalie, team, book, line, odds, expected saves and tag.
+
+Each morning after 8 AM Eastern, the script pulls the previous night's NHL box scores (free), fills in **actual saves**, **outcome** (OVER / UNDER / PUSH) and **result**, and sends one Telegram message:
+
+```
+Saves results: Oct 7
+Lukas Dostal o25.5 (DK/FD): 28 saves ✅
+Devon Levi u23.5 (DK/FD): 17 saves ✅
+Stuart Skinner 28.5 fade (DK): 25 saves → went under
+
+Season: OVER TARGET 3-0 (100%) · UNDER TARGET 2-0 (100%)
+```
+
+- **result:** W / L / P for OVER and UNDER TARGET picks. Fades are recorded with what happened (`-` in the result column) but don't count toward the record.
+- **VOID:** the goalie didn't play, or the game was postponed.
+- The season record counts each goalie/line once, even if both books posted it.
+- The line logged is the first one seen (what you could have bet when alerted), not the closing line.
+
 ## How alerts work
 Books often post one goalie early and the other hours later, so every goalie is tracked separately. You get a message each time a goalie's line appears at a book for the first time, showing both books side by side (`not yet` if one hasn't posted). A game stops being checked once both books show both goalies.
 
