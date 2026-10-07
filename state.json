@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 479,
+  "credits_remaining": 478,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:15:00Z",
@@ -198,6 +198,16 @@
               "over": -115,
               "point": 26.5,
               "under": -120
+            }
+          }
+        },
+        "fanduel": {
+          "at": "2026-10-07T17:25:15Z",
+          "lines": {
+            "Arturs Silovs": {
+              "over": -120,
+              "point": 26.5,
+              "under": -110
             }
           }
         }
