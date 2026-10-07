@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 481,
+  "credits_remaining": 480,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:15:00Z",
@@ -258,7 +258,18 @@
     "c8c270e79cd56ca57baa21a49a0d1d9d": {
       "commence_time": "2026-10-07T23:30:00Z",
       "matchup": "Colorado Avalanche @ Winnipeg Jets",
-      "posted": {}
+      "posted": {
+        "draftkings": {
+          "at": "2026-10-07T16:19:15Z",
+          "lines": {
+            "Mackenzie Blackwood": {
+              "over": -125,
+              "point": 23.5,
+              "under": -105
+            }
+          }
+        }
+      }
     },
     "db23cd7cb712b5c14c297aa6eece3627": {
       "commence_time": "2026-10-08T02:00:00Z",
