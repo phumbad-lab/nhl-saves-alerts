@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 480,
+  "credits_remaining": 479,
   "events": {
     "057cbe42c7df314de9ef60d00db04222": {
       "commence_time": "2026-10-06T23:15:00Z",
@@ -291,6 +291,16 @@
               "over": -125,
               "point": 23.5,
               "under": -105
+            }
+          }
+        },
+        "fanduel": {
+          "at": "2026-10-07T17:15:19Z",
+          "lines": {
+            "Mackenzie Blackwood": {
+              "over": -130,
+              "point": 23.5,
+              "under": -102
             }
           }
         }
