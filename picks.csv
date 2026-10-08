@@ -31,3 +31,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,DK,19.5,-110,-120,20.9,FADE,,,,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T18:25:13Z
 2026-10-08,Predators @ Canadiens,Jacob Fowler,MTL,FD,23.5,-120,-110,23.4,FADE,,,,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T18:40:16Z
 2026-10-08,Predators @ Canadiens,Juuse Saros,NSH,FD,25.5,-130,-102,25.8,OVER,,,,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T18:40:16Z
+2026-10-08,Flyers @ Senators,Joseph Woll,PHI,FD,25.5,-108,-122,27.9,OVER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z
+2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,FD,22.5,-108,-122,20.3,UNDER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z
