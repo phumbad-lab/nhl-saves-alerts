@@ -104,53 +104,6 @@
       "lines": {},
       "matchup": "Pittsburgh Penguins @ Columbus Blue Jackets"
     },
-    "21ac7b574ba4b532a5962a3f55feabeb": {
-      "commence_time": "2026-10-06T23:10:00Z",
-      "last_paid_check": "2026-10-06T17:45:10Z",
-      "lines": {
-        "draftkings": {
-          "Jake Allen": {
-            "over": -105,
-            "point": 23.5,
-            "under": -130
-          }
-        },
-        "fanduel": {
-          "Jake Allen": {
-            "over": -102,
-            "point": 23.5,
-            "under": -130
-          },
-          "Karel Vejmelka": {
-            "over": -130,
-            "point": 25.5,
-            "under": -102
-          }
-        }
-      },
-      "matchup": "Utah Mammoth @ New Jersey Devils"
-    },
-    "2c216d3aae0eeb236312763bf1ca61db": {
-      "commence_time": "2026-10-06T23:10:00Z",
-      "last_paid_check": "2026-10-06T20:50:22Z",
-      "lines": {
-        "draftkings": {
-          "John Gibson": {
-            "over": -110,
-            "point": 25.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "John Gibson": {
-            "over": -112,
-            "point": 24.5,
-            "under": -118
-          }
-        }
-      },
-      "matchup": "Ottawa Senators @ Detroit Red Wings"
-    },
     "30e778f30fcb48f94af24793f5bd201a": {
       "commence_time": "2026-10-09T23:10:00Z",
       "last_paid_check": null,
@@ -229,32 +182,6 @@
         }
       },
       "matchup": "Minnesota Wild @ Tampa Bay Lightning"
-    },
-    "3b7b6520b0bc91f44cf9c9575d7e29f7": {
-      "commence_time": "2026-10-06T23:10:00Z",
-      "last_paid_check": "2026-10-06T17:45:10Z",
-      "lines": {
-        "draftkings": {
-          "Brandon Bussi": {
-            "over": -115,
-            "point": 22.5,
-            "under": -120
-          },
-          "Jakub Dobes": {
-            "over": -110,
-            "point": 27.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "Brandon Bussi": {
-            "over": -114,
-            "point": 22.5,
-            "under": -114
-          }
-        }
-      },
-      "matchup": "Carolina Hurricanes @ Montr\u00e9al Canadiens"
     },
     "456511627961686e38a6c7699142504c": {
       "commence_time": "2026-10-08T23:40:00Z",
@@ -377,7 +304,7 @@
       "matchup": "Vancouver Canucks @ Carolina Hurricanes"
     },
     "9f6db651fe2d7363616cc72625c4972d": {
-      "commence_time": "2026-10-08T23:10:00Z",
+      "commence_time": "2026-10-08T23:15:00Z",
       "last_paid_check": "2026-10-08T18:50:16Z",
       "lines": {
         "draftkings": {
@@ -458,37 +385,6 @@
         }
       },
       "matchup": "New York Islanders @ New York Rangers"
-    },
-    "b9036900ce6fd27ce3095db6c5481f29": {
-      "commence_time": "2026-10-06T23:10:00Z",
-      "last_paid_check": "2026-10-06T17:45:10Z",
-      "lines": {
-        "draftkings": {
-          "Anthony Stolarz": {
-            "over": -110,
-            "point": 24.5,
-            "under": -125
-          },
-          "Juuse Saros": {
-            "over": -110,
-            "point": 24.5,
-            "under": -120
-          }
-        },
-        "fanduel": {
-          "Anthony Stolarz": {
-            "over": -128,
-            "point": 23.5,
-            "under": -104
-          },
-          "Juuse Saros": {
-            "over": -118,
-            "point": 24.5,
-            "under": -112
-          }
-        }
-      },
-      "matchup": "Nashville Predators @ Toronto Maple Leafs"
     },
     "c8c270e79cd56ca57baa21a49a0d1d9d": {
       "commence_time": "2026-10-07T23:40:00Z",
