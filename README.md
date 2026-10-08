@@ -1,19 +1,24 @@
 # NHL goalie saves alerts
 
-Checks DraftKings and FanDuel every 20 minutes (10 AM – 10 PM Eastern). The first time each book posts goalie saves lines for a game, your own Telegram bot sends you a message. Unread alerts show as a red badge number on the Telegram app icon.
+Checks DraftKings and FanDuel every 5 minutes (via cron-job.org). When a book posts a goalie saves line, your own Telegram bot sends you a message. Unread alerts show as a red badge number on the Telegram app icon.
 
-Example alert:
+Example alert (first time a goalie posts):
 
 ```
 Saves - VAN @ CAR · Thu 7:10 PM
-Exp. shots: on VAN 30.1 (+3.2) · on CAR 22.0 (-4.9)
-H2H last 4: on VAN 33, 29, 35, 31 (avg 32.0)
-            on CAR 24, 27, 22, 26 (avg 24.8)
-Kevin Lankinen (VAN) · exp. 26.6 saves
-DK 27.5 (-115/-120) (lean over) · FD 26.5 (-110/-110) (over)
+Kevin Lankinen (VAN) · DK 28.5 (-105/-130) (fade) · FD not yet
+Exp. 25.6 saves, 29.0 shots
+H2H last 4: on VAN 33, 38, 20, 32 (avg 30.8)
+on CAR 22, 17, 14, 27 (avg 20.0)
+CAR shots for 7th most (30.2) · VAN shots against 7th most (30.0)
 ```
 
-`Exp. shots` is how many shots each team's goalie should face, with the difference from league average in parentheses. `H2H last 4` lists the shots each goalie's team faced in their last four meetings (regular season and playoffs, newest first, going back up to three seasons), with the average. It's shown for context only and doesn't change the expected saves. Each alert shows both books side by side so you can spot the better number.
+- **Exp.** = expected saves and shots for this goalie tonight (opponent-adjusted, home/road blended).
+- **H2H last 4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
+- **Rank line** = the opponent's shots for and this goalie's team's shots against, ranked across the league from raw season numbers ("most" for the top half, "least" for the bottom half), with the per-game average.
+- The second goalie in a game gets the same block (without H2H) when he posts.
+- When the other book posts a goalie you've already been alerted on, you get one line:
+  `FD added - VAN @ CAR: Lankinen 27.5 (-114/-114) (fade)`
 
 Everything here is free.
 
@@ -133,6 +138,9 @@ Season: Over 3-0 (100%) · Lean over 1-1 (50%) · Under 2-0 (100%) · Lean under
 - **VOID:** the goalie didn't play, or the game was postponed.
 - The season record counts each goalie/line once, even if both books posted it.
 - The line logged is the first one seen (what you could have bet when alerted), not the closing line.
+
+## Rechecks (where credits go)
+Checking a game with nothing posted is free, so the first goalie in every game reaches you within about 5 minutes. Once some lines are up, the game is rechecked hourly (1 credit each), **but only while a goalie with a lean tonight is still missing** at either book. A goalie has a lean when his expected shots are 2+ above or below average for that night's matchup. Goalies without a lean are always tagged fade, so the script doesn't spend credits waiting on them. If it can't tell which team a goalie plays for, it keeps rechecking to be safe. Each run's log shows how many rechecks were skipped this way.
 
 ## How alerts work
 Books often post one goalie early and the other hours later, so every goalie is tracked separately. You get a message each time a goalie's line appears at a book for the first time, showing both books side by side (`not yet` if one hasn't posted). A game stops being checked once both books show both goalies.
