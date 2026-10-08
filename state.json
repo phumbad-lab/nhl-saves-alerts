@@ -381,9 +381,9 @@
   },
   "low_credit_warned": false,
   "shot_stats": {
-    "avg_shots": 26.94,
-    "fetched": "2026-10-07T22:45:17Z",
-    "save_pct": 0.8841,
+    "avg_shots": 26.86,
+    "fetched": "2026-10-08T04:45:17Z",
+    "save_pct": 0.884,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
@@ -417,9 +417,9 @@
         "sf": 19.25
       },
       "coloradoavalanche": {
-        "gp": 2,
-        "sa": 28.5,
-        "sf": 32.5
+        "gp": 3,
+        "sa": 25.33333,
+        "sf": 33.0
       },
       "columbusbluejackets": {
         "gp": 2,
@@ -492,9 +492,9 @@
         "sf": 19.25
       },
       "pittsburghpenguins": {
-        "gp": 3,
-        "sa": 26.33333,
-        "sf": 33.0
+        "gp": 4,
+        "sa": 26.5,
+        "sf": 32.25
       },
       "sanjosesharks": {
         "gp": 3,
@@ -537,14 +537,14 @@
         "sf": 30.75
       },
       "washingtoncapitals": {
-        "gp": 2,
-        "sa": 31.5,
-        "sf": 24.0
+        "gp": 3,
+        "sa": 31.0,
+        "sf": 25.0
       },
       "winnipegjets": {
-        "gp": 3,
-        "sa": 32.33333,
-        "sf": 31.66666
+        "gp": 4,
+        "sa": 32.75,
+        "sf": 28.5
       }
     }
   }
