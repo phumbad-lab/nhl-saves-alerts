@@ -1,13 +1,13 @@
 date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_saves,outcome,result,event_id,commence_time,away_team,home_team,logged_at
-2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,DK,23.5,-125,-105,26.6,OVER,,,,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,FD,23.5,-128,-104,26.6,OVER,,,,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,DK,28.5,-105,-130,28.7,FADE,,,,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,FD,27.5,-114,-114,28.7,FADE,,,,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,DK,26.5,-120,-115,22.2,UNDER,,,,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,FD,26.5,-106,-125,22.2,UNDER,,,,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,DK,24.5,-115,-115,28.5,OVER,,,,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,FD,24.5,-122,-108,28.5,OVER,,,,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Devon Levi,EDM,DK,23.5,-130,+100,18.4,UNDER,,,,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Devon Levi,EDM,FD,23.5,-112,-118,18.4,UNDER,,,,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,DK,25.5,-120,-110,27.3,OVER,,,,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,FD,25.5,-118,-112,27.3,OVER,,,,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
+2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,DK,23.5,-125,-105,26.6,OVER,16,UNDER,L,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
+2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,FD,23.5,-128,-104,26.6,OVER,16,UNDER,L,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
+2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,DK,28.5,-105,-130,28.7,FADE,32,OVER,-,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
+2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,FD,27.5,-114,-114,28.7,FADE,32,OVER,-,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
+2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,DK,26.5,-120,-115,22.2,UNDER,22,UNDER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
+2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,FD,26.5,-106,-125,22.2,UNDER,22,UNDER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
+2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,DK,24.5,-115,-115,28.5,OVER,27,OVER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
+2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,FD,24.5,-122,-108,28.5,OVER,27,OVER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
+2026-10-07,Oilers @ Ducks,Devon Levi,EDM,DK,23.5,-130,+100,18.4,UNDER,29,OVER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
+2026-10-07,Oilers @ Ducks,Devon Levi,EDM,FD,23.5,-112,-118,18.4,UNDER,29,OVER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
+2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,DK,25.5,-120,-110,27.3,OVER,12,UNDER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
+2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,FD,25.5,-118,-112,27.3,OVER,12,UNDER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z

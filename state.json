@@ -547,5 +547,42 @@
         "sf": 28.5
       }
     }
+  },
+  "team_abbrevs": {
+    "fetched": "2026-10-08T12:00:23Z",
+    "value": {
+      "anaheimducks": "ANA",
+      "bostonbruins": "BOS",
+      "buffalosabres": "BUF",
+      "calgaryflames": "CGY",
+      "carolinahurricanes": "CAR",
+      "chicagoblackhawks": "CHI",
+      "coloradoavalanche": "COL",
+      "columbusbluejackets": "CBJ",
+      "dallasstars": "DAL",
+      "detroitredwings": "DET",
+      "edmontonoilers": "EDM",
+      "floridapanthers": "FLA",
+      "losangeleskings": "LAK",
+      "minnesotawild": "MIN",
+      "montrealcanadiens": "MTL",
+      "nashvillepredators": "NSH",
+      "newjerseydevils": "NJD",
+      "newyorkislanders": "NYI",
+      "newyorkrangers": "NYR",
+      "ottawasenators": "OTT",
+      "philadelphiaflyers": "PHI",
+      "pittsburghpenguins": "PIT",
+      "sanjosesharks": "SJS",
+      "seattlekraken": "SEA",
+      "stlouisblues": "STL",
+      "tampabaylightning": "TBL",
+      "torontomapleleafs": "TOR",
+      "utahmammoth": "UTA",
+      "vancouvercanucks": "VAN",
+      "vegasgoldenknights": "VGK",
+      "washingtoncapitals": "WSH",
+      "winnipegjets": "WPG"
+    }
   }
 }
