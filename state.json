@@ -65,6 +65,12 @@
       },
       "matchup": "Vegas Golden Knights @ Seattle Kraken"
     },
+    "1eb386b963ae5a82eba436c25e50cf24": {
+      "commence_time": "2026-10-09T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Pittsburgh Penguins @ Columbus Blue Jackets"
+    },
     "21ac7b574ba4b532a5962a3f55feabeb": {
       "commence_time": "2026-10-06T23:10:00Z",
       "last_paid_check": "2026-10-06T17:45:10Z",
@@ -111,6 +117,12 @@
         }
       },
       "matchup": "Ottawa Senators @ Detroit Red Wings"
+    },
+    "30e778f30fcb48f94af24793f5bd201a": {
+      "commence_time": "2026-10-09T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Seattle Kraken @ Detroit Red Wings"
     },
     "3a95439904d3d0af12970bb0c8e66a3a": {
       "commence_time": "2026-10-07T02:30:00Z",
@@ -242,6 +254,12 @@
         }
       },
       "matchup": "Dallas Stars @ Buffalo Sabres"
+    },
+    "86ba05a73a0355958b629023b20ba955": {
+      "commence_time": "2026-10-09T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "New York Rangers @ Washington Capitals"
     },
     "89c5018d1ea1a2a1b79d4e805e10be46": {
       "commence_time": "2026-10-08T23:10:00Z",
