@@ -5,15 +5,13 @@ Checks DraftKings and FanDuel every 20 minutes (10 AM – 10 PM Eastern). The fi
 Example alert:
 
 ```
-Goalie saves posted
-Utah Mammoth @ Boston Bruins · Thu 7:10 PM
-Jeremy Swayman
-  DK 27.5 (-115/-105) · FD 27.5 (-110/-110) (new)
-Karel Vejmelka
-  DK 25.5 (-115/-105) (new) · FD not yet
+Saves - VAN @ CAR · Thu 7:10 PM
+Exp. shots: on VAN 30.1 (+3.2) · on CAR 22.0 (-4.9)
+Kevin Lankinen (VAN) · exp. 26.6 saves
+DK 27.5 (-115/-120) (lean over) · FD 26.5 (-110/-110) (over)
 ```
 
-Each alert shows both books side by side so you can spot the better number.
+`Exp. shots` is how many shots each team's goalie should face, with the difference from league average in parentheses. Each alert shows both books side by side so you can spot the better number.
 
 Everything here is free.
 
@@ -84,7 +82,7 @@ Set these under **Settings → Secrets and variables → Actions → Variables t
 | `TEAMS` | Only watch certain teams, comma-separated: `Red Wings,Rangers,Bruins`. Leave unset to watch every game. |
 | `TELEGRAM_SILENT` | `true` (default) delivers alerts without sound. `false` uses normal sound. |
 | `SHOT_THRESHOLD` | Only watch games where a goalie's expected shots differ from the league average by at least this much. Default `2`. Set `0` to watch every game. |
-| `TARGET_SAVES` | How far expected saves must differ from the line to tag it OVER/UNDER TARGET. Default `1.5`. |
+| `TARGET_SAVES` | Size of the lean zone in saves. Default `1`. |
 | `RECHECK_MINUTES` | How often to recheck a game where some goalies are posted but not all. Default `60`. |
 | `RECHECK_WINDOW_HOURS` | Only recheck games starting within this many hours. Default `10`. |
 | `RECHECK_RESERVE` | Stop rechecks (but keep first-goalie alerts) when credits drop to this. Default `150`. |
@@ -92,28 +90,32 @@ Set these under **Settings → Secrets and variables → Actions → Variables t
 ## Which games are watched
 Using this season's NHL team stats (free, refreshed every 6 hours), each goalie gets:
 
-- **expected shots** = (opponent's shots for per game + own team's shots against per game) ÷ 2
+- **expected shots** = (opponent's shots for per game + own team's shots against per game) ÷ 2, using **home/road splits**: the home goalie uses the opponent's road shooting and his team's home defense, and vice versa.
+  - Splits are blended with each team's overall numbers and trusted more as games pile up: weight = split games ÷ (split games + 5). That's 17% after 1 game, 50% after 5 and 67% after 10. To change how fast splits take over, edit `HOME_ROAD_K = 5` near the top of `saves_alert.py` (lower = sooner).
 - **expected saves** = expected shots × the league's save percentage
 
 A game is watched only if at least one goalie's expected shots are `SHOT_THRESHOLD` (default 2) or more above or below the league average. Skipped games cost nothing and are listed in each run's log as `Skip (middling matchup)`. If the NHL stats can't be loaded, every game is watched.
 
-Each goalie is matched to his team using NHL rosters, and every line is compared to his expected saves:
-```
-Dan Vladar (Flyers) · expected 34.4 saves
-  DK 29.5 (-115/-105) OVER TARGET (new) · FD not yet
-Jacob Markstrom (Devils) · expected 21.6 saves
-  DK 24.5 (-110/-110) UNDER TARGET · FD 22.5 (-120/+100) (fade)
-```
-- **OVER TARGET:** expected saves are at least `TARGET_SAVES` (default 1.5) above the line.
-- **UNDER TARGET:** expected saves are at least 1.5 below the line.
-- **(fade):** the line is within 1.5 of the expectation, so no edge.
+Each goalie is matched to his team using NHL rosters. **The matchup picks the direction, and the line picks the strength:**
+
+| Goalie's expected shots | Line vs his expected saves | Tag |
+|---|---|---|
+| **+2 or more** vs average (overs only) | at or below expected | **(over)** |
+| | up to 1 save above | **(lean over)** |
+| | more than 1 above | **(fade)**, never an under |
+| **−2 or more** vs average (unders only) | at or above expected | **(under)** |
+| | up to 1 save below | **(lean under)** |
+| | more than 1 below | **(fade)**, never an over |
+| in between (middling) | any | **(fade)** |
+
+Example: Lankinen expected 26.6 saves facing Carolina (+3.2 shots), so 26.5 is over, 27.5 is lean over and 28.5 is fade.
 
 If a goalie can't be matched to a team (e.g. a fresh call-up), the alert lists both teams' expected saves instead and leaves the tag off. The full math for every game is in each run's log.
 
 ## Pick log and results
 Every line that gets alerted is saved to **`picks.csv`** in the repo (click it on GitHub to see it as a table): date, game, goalie, team, book, line, odds, expected saves and tag.
 
-Each morning after 8 AM Eastern, the script pulls the previous night's NHL box scores (free), fills in **actual saves**, **outcome** (OVER / UNDER / PUSH) and **result**, and sends one Telegram message:
+Each morning after 7 AM Eastern, the script pulls the previous night's NHL box scores (free), fills in **actual saves**, **outcome** (OVER / UNDER / PUSH) and **result**, and sends one Telegram message:
 
 ```
 Saves results: Oct 7
@@ -121,10 +123,10 @@ Lukas Dostal o25.5 (DK/FD): 28 saves ✅
 Devon Levi u23.5 (DK/FD): 17 saves ✅
 Stuart Skinner 28.5 fade (DK): 25 saves → went under
 
-Season: OVER TARGET 3-0 (100%) · UNDER TARGET 2-0 (100%)
+Season: Over 3-0 (100%) · Lean over 1-1 (50%) · Under 2-0 (100%) · Lean under no picks yet
 ```
 
-- **result:** W / L / P for OVER and UNDER TARGET picks. Fades are recorded with what happened (`-` in the result column) but don't count toward the record.
+- **result:** W / L / P for over, lean over, under and lean under picks, each with its own season record. Fades are recorded with what happened (`-` in the result column) but don't count.
 - **VOID:** the goalie didn't play, or the game was postponed.
 - The season record counts each goalie/line once, even if both books posted it.
 - The line logged is the first one seen (what you could have bet when alerted), not the closing line.

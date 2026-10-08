@@ -31,8 +31,7 @@ Environment variables:
   MIN_CREDITS           Stop all checks below this many credits (default 20)
   SHOT_THRESHOLD        Only watch games where a goalie's expected shots differ from the
                         league average by at least this much (default 2). 0 = watch every game.
-  TARGET_SAVES          Tag a line OVER TARGET / UNDER TARGET when the goalie's expected saves
-                        are at least this far above / below the line (default 1.5).
+  TARGET_SAVES          Size of the "lean" zone in saves (default 1). See tag_code().
   TEST_PUSH             "true" = send a test notification and exit
 
 Matchup filter (uses this season's NHL team stats, free, refreshed every 6 hours):
@@ -85,10 +84,14 @@ RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
 SHOT_THRESHOLD = float(os.getenv("SHOT_THRESHOLD", "") or "2")
-TARGET_SAVES = float(os.getenv("TARGET_SAVES", "") or "1.5")
+LEAN_SAVES = float(os.getenv("TARGET_SAVES", "") or "1")
 NHL_STATS_URL = "https://api.nhle.com/stats/rest/en/team/summary"
 NHL_WEB = "https://api-web.nhle.com/v1"
 STATS_REFRESH = timedelta(hours=6)
+# Home/road blend: weight on a team's home (or road) split = split games / (split games + this).
+# 5 -> 1 game 17%, 5 games 50%, 10 games 67%, 20 games 80%. Lower = trust splits sooner.
+HOME_ROAD_K = 5
+STATS_VERSION = 2  # bump when the saved stats format changes
 ROSTER_REFRESH = timedelta(hours=12)
 TEST_PUSH = os.getenv("TEST_PUSH", "").strip().lower() in ("1", "true", "yes")
 
@@ -144,7 +147,7 @@ def send_push(title, message, silent=None):
         return
     payload = urllib.parse.urlencode({
         "chat_id": TELEGRAM_CHAT_ID,
-        "text": f"{title}\n{message}"[:4096],
+        "text": (f"{title}\n{message}" if title else message)[:4096],
         "disable_notification": "true" if (SILENT if silent is None else silent) else "false",
         "disable_web_page_preview": "true",
     }).encode("utf-8")
@@ -227,14 +230,29 @@ def season_id(now):
     return f"{y}{y + 1}" if now.astimezone(LOCAL_TZ).month >= 8 else f"{y - 1}{y}"
 
 
-def fetch_shot_stats(now):
-    """Pull this season's team shots for/against from the NHL's free stats feed."""
-    params = urllib.parse.urlencode({"cayenneExp": f"seasonId={season_id(now)} and gameTypeId=2"})
+def fetch_team_rows(now, extra=""):
+    exp = f"seasonId={season_id(now)} and gameTypeId=2" + (f" and {extra}" if extra else "")
+    params = urllib.parse.urlencode({"cayenneExp": exp})
     req = urllib.request.Request(f"{NHL_STATS_URL}?{params}",
-                                 headers={"User-Agent": "nhl-saves-alerts/2.1"})
+                                 headers={"User-Agent": "nhl-saves-alerts/2.3"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         raw = json.loads(resp.read().decode("utf-8"))
-    rows = raw.get("data", []) if isinstance(raw, dict) else raw
+    return raw.get("data", []) if isinstance(raw, dict) else raw
+
+
+def split_stats(rows):
+    out = {}
+    for r in rows:
+        gp = r.get("gamesPlayed") or 0
+        sf, sa = r.get("shotsForPerGame"), r.get("shotsAgainstPerGame")
+        if gp and sf is not None and sa is not None:
+            out[team_key(r.get("teamFullName"))] = {"sf": sf, "sa": sa, "gp": gp}
+    return out
+
+
+def fetch_shot_stats(now):
+    """Pull this season's team shots for/against (overall, home, road) from the NHL's free stats feed."""
+    rows = fetch_team_rows(now)
     teams, shots_against, goals_against = {}, 0.0, 0.0
     for r in rows:
         gp = r.get("gamesPlayed") or 0
@@ -246,16 +264,24 @@ def fetch_shot_stats(now):
         goals_against += r.get("goalsAgainst") or 0
     if len(teams) < 20:
         return None  # season hasn't really started; don't filter
+    try:
+        home = split_stats(fetch_team_rows(now, 'homeRoad="H"'))
+        road = split_stats(fetch_team_rows(now, 'homeRoad="R"'))
+    except Exception as e:  # splits are a refinement; overall numbers still work
+        print(f"Couldn't load home/road splits ({e}); using overall numbers.")
+        home, road = {}, {}
+    for key, t in teams.items():
+        t["home"], t["road"] = home.get(key), road.get(key)
     avg = sum(t["sf"] for t in teams.values()) / len(teams)
     sv = 1 - goals_against / shots_against if shots_against else 0.9
     return {"fetched": iso(now), "season": season_id(now), "teams": teams,
-            "avg_shots": round(avg, 2), "save_pct": round(sv, 4)}
+            "avg_shots": round(avg, 2), "save_pct": round(sv, 4), "version": STATS_VERSION}
 
 
 def get_shot_stats(state, now):
     cached = state.get("shot_stats")
     if cached and now - parse_iso(cached["fetched"]) < STATS_REFRESH \
-            and cached.get("season") == season_id(now):
+            and cached.get("season") == season_id(now) and cached.get("version") == STATS_VERSION:
         return cached
     try:
         fresh = fetch_shot_stats(now)
@@ -265,6 +291,16 @@ def get_shot_stats(state, now):
     if fresh:
         state["shot_stats"] = fresh
     return fresh or cached
+
+
+def blend(team, split, stat):
+    """Mix a team's home or road number into its overall number, trusting it more as games add up."""
+    sp = team.get(split) or {}
+    gp = sp.get("gp", 0)
+    if not gp:
+        return team[stat]
+    w = gp / (gp + HOME_ROAD_K)
+    return w * sp[stat] + (1 - w) * team[stat]
 
 
 def matchup(event, stats):
@@ -279,7 +315,8 @@ def matchup(event, stats):
     out = {}
     for side, own, opp, name in (("home", home, away, event["home_team"]),
                                  ("away", away, home, event["away_team"])):
-        shots = (opp["sf"] + own["sa"]) / 2
+        own_split, opp_split = ("home", "road") if side == "home" else ("road", "home")
+        shots = (blend(opp, opp_split, "sf") + blend(own, own_split, "sa")) / 2
         out[side] = {"team": nickname(name), "shots": shots, "saves": shots * sv,
                      "delta": shots - avg}
     return out
@@ -341,20 +378,35 @@ def goalie_sides(event, players, state, now):
     return out
 
 
-def tag_code(expected, point):
-    if expected is None or point is None:
+def tag_code(expected, point, delta):
+    """The matchup picks the direction; the line picks the strength.
+    delta = goalie's expected shots minus league average.
+      delta >= +SHOT_THRESHOLD (overs only):  line <= expected -> OVER,
+          line within LEAN_SAVES above expected -> LEAN_OVER, else FADE (never an under)
+      delta <= -SHOT_THRESHOLD (unders only): mirror image -> UNDER / LEAN_UNDER / FADE
+      otherwise (middling): FADE"""
+    if expected is None or point is None or delta is None:
         return ""
-    gap = expected - point
-    if gap >= TARGET_SAVES:
-        return "OVER"
-    if gap <= -TARGET_SAVES:
-        return "UNDER"
+    edge = max(SHOT_THRESHOLD, 0.01)
+    if delta >= edge:
+        if point <= expected:
+            return "OVER"
+        return "LEAN_OVER" if point <= expected + LEAN_SAVES else "FADE"
+    if delta <= -edge:
+        if point >= expected:
+            return "UNDER"
+        return "LEAN_UNDER" if point >= expected - LEAN_SAVES else "FADE"
     return "FADE"
 
 
-def target_tag(expected, point):
-    return {"OVER": " OVER TARGET", "UNDER": " UNDER TARGET", "FADE": " (fade)"}.get(
-        tag_code(expected, point), "")
+TAG_LABELS = {"OVER": "over", "LEAN_OVER": "lean over", "UNDER": "under",
+              "LEAN_UNDER": "lean under", "FADE": "fade"}
+BET_SIDE = {"OVER": "OVER", "LEAN_OVER": "OVER", "UNDER": "UNDER", "LEAN_UNDER": "UNDER"}
+
+
+def target_tag(expected, point, delta):
+    code = tag_code(expected, point, delta)
+    return f" ({TAG_LABELS[code]})" if code else ""
 
 
 # ---------- pick log & grading ----------
@@ -392,7 +444,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now):
             "book": BOOK_SHORT.get(book, book), "line": ln.get("point"),
             "over_odds": fmt_odds(ln.get("over")), "under_odds": fmt_odds(ln.get("under")),
             "expected_saves": f"{expected:.1f}" if expected is not None else "",
-            "tag": tag_code(expected, ln.get("point")),
+            "tag": tag_code(expected, ln.get("point"), m[side]["delta"] if (m and side) else None),
             "event_id": event["id"], "commence_time": event["commence_time"],
             "away_team": event["away_team"], "home_team": event["home_team"],
             "logged_at": iso(now),
@@ -464,8 +516,8 @@ def grade_picks(state, now):
         else:
             saves, line = hit[0], float(r["line"])
             outcome = "OVER" if saves > line else "UNDER" if saves < line else "PUSH"
-            if r["tag"] in ("OVER", "UNDER"):
-                result = "P" if outcome == "PUSH" else ("W" if outcome == r["tag"] else "L")
+            if r["tag"] in BET_SIDE:
+                result = "P" if outcome == "PUSH" else ("W" if outcome == BET_SIDE[r["tag"]] else "L")
             else:
                 result = "-"  # fade / untagged: recorded, not scored
             r.update(actual_saves=saves, outcome=outcome, result=result)
@@ -510,12 +562,14 @@ def results_message(graded):
         if key in seen:
             continue
         seen.add(key)
-        label = {"OVER": f"o{r['line']}", "UNDER": f"u{r['line']}"}.get(r["tag"], f"{r['line']} fade")
+        label = {"OVER": f"o{r['line']}", "LEAN_OVER": f"lean o{r['line']}",
+                 "UNDER": f"u{r['line']}", "LEAN_UNDER": f"lean u{r['line']}"}.get(
+                     r["tag"], f"{r['line']} fade")
         mark = {"W": " ✅", "L": " ❌", "P": " push"}.get(r["result"], f" → went {r['outcome'].lower()}")
         lines.append(f"{r['goalie']} {label} ({'/'.join(books)}): {r['actual_saves']} saves{mark}")
     all_rows = load_picks()
-    season = (f"OVER TARGET {fmt_record(*record_line(all_rows, 'OVER'))} · "
-              f"UNDER TARGET {fmt_record(*record_line(all_rows, 'UNDER'))}")
+    season = " · ".join(f"{TAG_LABELS[t].capitalize()} {fmt_record(*record_line(all_rows, t))}"
+                        for t in ("OVER", "LEAN_OVER", "UNDER", "LEAN_UNDER"))
     return "\n".join(lines) + "\n\nSeason: " + season
 
 
@@ -547,35 +601,42 @@ def is_complete(rec):
     return all(len(rec["lines"].get(b, {})) >= GOALIES_PER_GAME for b in BOOKS)
 
 
-def build_message(event, new_pairs, current, m=None, sides=None):
-    """new_pairs: set of (book, player) just posted. current: all lines now.
-    m: expected saves per side. sides: goalie name -> 'home'/'away'."""
-    sides = sides or {}
-    players = sorted({p for _, p in new_pairs})
-    header = f"{event['away_team']} @ {event['home_team']} · {fmt_time(event['commence_time'])}"
-    if m and not all(p in sides for p in players):
-        # Couldn't match every goalie to a team, so list both teams' expectations.
-        for side in ("away", "home"):
-            header += f"\n{m[side]['team']} goalie: expected {m[side]['saves']:.1f} saves"
-    rows = []
-    for player in players:
+def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None):
+    """Short alert, e.g.
+        Saves - VAN @ CAR · Thu 7:10 PM
+        Exp. shots: on VAN 30.1 (+3.2) · on CAR 22.0 (-4.9)
+        Kevin Lankinen (VAN) · exp. 26.6 saves
+        DK 27.5 (-115/-120) (fade) · FD not yet
+    new_pairs: set of (book, player) just posted. current: all lines now.
+    m: expected shots/saves per side. sides: goalie name -> 'home'/'away'."""
+    sides, abbrevs = sides or {}, abbrevs or {}
+    ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) or nickname(event[f"{s}_team"])
+          for s in ("away", "home")}
+    out = [f"Saves - {ab['away']} @ {ab['home']} · {fmt_time(event['commence_time'])}"]
+    if m:
+        out.append("Exp. shots: " + " · ".join(
+            f"on {ab[s]} {m[s]['shots']:.1f} ({m[s]['delta']:+.1f})" for s in ("away", "home")))
+    for player in sorted({p for _, p in new_pairs}):
         side = sides.get(player)
         expected = m[side]["saves"] if (m and side) else None
-        title = player
         if expected is not None:
-            title += f" ({m[side]['team']}) · expected {expected:.1f} saves"
+            out.append(f"{player} ({ab[side]}) · exp. {expected:.1f} saves")
+        elif m:
+            out.append(f"{player} (team unknown) · exp. {ab['away']} {m['away']['saves']:.1f} / "
+                       f"{ab['home']} {m['home']['saves']:.1f} saves")
+        else:
+            out.append(player)
         parts = []
         for book in BOOKS:
             ln = current.get(book, {}).get(player)
             short = BOOK_SHORT.get(book, book)
             if ln:
-                new = " (new)" if (book, player) in new_pairs else ""
                 parts.append(f"{short} {ln.get('point')} ({fmt_odds(ln.get('over'))}/"
-                             f"{fmt_odds(ln.get('under'))}){target_tag(expected, ln.get('point'))}{new}")
+                             f"{fmt_odds(ln.get('under'))}){target_tag(expected, ln.get('point'), m[side]['delta'] if (m and side) else None)}")
             else:
                 parts.append(f"{short} not yet")
-        rows.append(f"{title}\n  " + " · ".join(parts))
-    return header + "\n" + "\n".join(rows)
+        out.append(" · ".join(parts))
+    return "\n".join(out)
 
 
 # ---------- main ----------
@@ -688,9 +749,8 @@ def main():
 
         if new_pairs:
             sides = goalie_sides(event, {p for _, p in new_pairs}, state, now) if m else {}
-            send_push("Goalie saves posted",
-                      build_message(event, new_pairs, rec["lines"], m, sides))
             abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+            send_push("", build_message(event, new_pairs, rec["lines"], m, sides, abbrevs))
             log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now)
             alerts += 1
             names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
