@@ -334,27 +334,6 @@
       },
       "matchup": "Toronto Maple Leafs @ Vegas Golden Knights"
     },
-    "ab12d4dc632ea010114de1409ca7a64b": {
-      "commence_time": "2026-10-06T23:45:00Z",
-      "last_paid_check": "2026-10-06T16:44:48Z",
-      "lines": {
-        "draftkings": {
-          "Semyon Varlamov": {
-            "over": -130,
-            "point": 23.5,
-            "under": -105
-          }
-        },
-        "fanduel": {
-          "Semyon Varlamov": {
-            "over": -132,
-            "point": 23.5,
-            "under": 100
-          }
-        }
-      },
-      "matchup": "New York Islanders @ New York Rangers"
-    },
     "c8c270e79cd56ca57baa21a49a0d1d9d": {
       "commence_time": "2026-10-07T23:40:00Z",
       "last_paid_check": "2026-10-07T22:07:25Z",
