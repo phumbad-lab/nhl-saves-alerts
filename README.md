@@ -7,11 +7,13 @@ Example alert:
 ```
 Saves - VAN @ CAR · Thu 7:10 PM
 Exp. shots: on VAN 30.1 (+3.2) · on CAR 22.0 (-4.9)
+H2H last 4: on VAN 33, 29, 35, 31 (avg 32.0)
+            on CAR 24, 27, 22, 26 (avg 24.8)
 Kevin Lankinen (VAN) · exp. 26.6 saves
 DK 27.5 (-115/-120) (lean over) · FD 26.5 (-110/-110) (over)
 ```
 
-`Exp. shots` is how many shots each team's goalie should face, with the difference from league average in parentheses. Each alert shows both books side by side so you can spot the better number.
+`Exp. shots` is how many shots each team's goalie should face, with the difference from league average in parentheses. `H2H last 4` lists the shots each goalie's team faced in their last four meetings (regular season and playoffs, newest first, going back up to three seasons), with the average. It's shown for context only and doesn't change the expected saves. Each alert shows both books side by side so you can spot the better number.
 
 Everything here is free.
 
@@ -90,6 +92,7 @@ Set these under **Settings → Secrets and variables → Actions → Variables t
 ## Which games are watched
 Using this season's NHL team stats (free, refreshed every 6 hours), each goalie gets:
 
+- Team numbers are **opponent-adjusted**: each game a team plays is rated against what that opponent usually shoots or allows (leaving out its games against this team). A team that has faced weak shooters doesn't look like an elite defense, and one that has faced strong shooters isn't punished as hard.
 - **expected shots** = (opponent's shots for per game + own team's shots against per game) ÷ 2, using **home/road splits**: the home goalie uses the opponent's road shooting and his team's home defense, and vice versa.
   - Splits are blended with each team's overall numbers and trusted more as games pile up: weight = split games ÷ (split games + 5). That's 17% after 1 game, 50% after 5 and 67% after 10. To change how fast splits take over, edit `HOME_ROAD_K = 5` near the top of `saves_alert.py` (lower = sooner).
 - **expected saves** = expected shots × the league's save percentage

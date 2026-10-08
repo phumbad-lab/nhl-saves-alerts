@@ -35,6 +35,9 @@ Environment variables:
   TEST_PUSH             "true" = send a test notification and exit
 
 Matchup filter (uses this season's NHL team stats, free, refreshed every 6 hours):
+  Team shots for/against are opponent-adjusted: each game is rated against what that
+  opponent usually allows/shoots (excluding its games vs. this team), so a team that has
+  faced weak shooters doesn't look like an elite defense. Home/road splits are blended in.
   expected shots on a goalie = (opponent shots for/game + own team shots against/game) / 2
   expected saves             = expected shots x league save percentage
   A game is watched if either goalie's expected shots is SHOT_THRESHOLD or more away
@@ -91,7 +94,10 @@ STATS_REFRESH = timedelta(hours=6)
 # Home/road blend: weight on a team's home (or road) split = split games / (split games + this).
 # 5 -> 1 game 17%, 5 games 50%, 10 games 67%, 20 games 80%. Lower = trust splits sooner.
 HOME_ROAD_K = 5
-STATS_VERSION = 2  # bump when the saved stats format changes
+STATS_VERSION = 3  # bump when the saved stats format changes
+OPPONENT_ADJUST = True  # rate shots for/against vs. the strength of opponents faced
+H2H_GAMES = 4           # head-to-head meetings shown in each alert (0 = hide)
+H2H_SEASONS = 3         # how many seasons back to look for meetings
 ROSTER_REFRESH = timedelta(hours=12)
 TEST_PUSH = os.getenv("TEST_PUSH", "").strip().lower() in ("1", "true", "yes")
 
@@ -278,19 +284,145 @@ def fetch_shot_stats(now):
             "avg_shots": round(avg, 2), "save_pct": round(sv, 4), "version": STATS_VERSION}
 
 
+def update_game_log(state, now):
+    """Keep a log of every finished regular-season game this season: [date, away, home, away_sog, home_sog].
+    Each date is fetched once from the NHL scores feed; only new dates are pulled."""
+    season = season_id(now)
+    log = state.get("game_log")
+    if not log or log.get("season") != season:
+        log = {"season": season, "dates_done": [], "games": []}
+    done = set(log["dates_done"])
+    start = datetime(int(season[:4]), 9, 25, tzinfo=LOCAL_TZ).date()
+    yesterday = (now.astimezone(LOCAL_TZ) - timedelta(days=1)).date()
+    day = start
+    while day <= yesterday:
+        ds = day.strftime("%Y-%m-%d")
+        if ds not in done:
+            games = nhl_get(f"{NHL_WEB}/score/{ds}").get("games", [])
+            complete = True
+            for g in games:
+                if g.get("gameType") != 2 or g.get("gameScheduleState", "OK") != "OK":
+                    continue
+                if g.get("gameState") not in ("OFF", "FINAL"):
+                    complete = False
+                    continue
+                a, h = g["awayTeam"], g["homeTeam"]
+                if a.get("sog") is None or h.get("sog") is None:
+                    complete = False
+                    continue
+                log["games"].append([ds, a["abbrev"], h["abbrev"], a["sog"], h["sog"]])
+            if complete:
+                log["dates_done"].append(ds)
+            else:  # try this date again next refresh; drop partial rows to avoid duplicates
+                log["games"] = [x for x in log["games"] if x[0] != ds]
+        day += timedelta(days=1)
+    state["game_log"] = log
+    return log["games"]
+
+
+def adjusted_team_stats(games, abbrev_to_key):
+    """Opponent-adjusted shots for/against per team, overall and home/road, from the game log."""
+    by_team = {}
+    for ds, away, home, a_sog, h_sog in games:
+        by_team.setdefault(away, []).append({"opp": home, "sf": a_sog, "sa": h_sog, "home": False})
+        by_team.setdefault(home, []).append({"opp": away, "sf": h_sog, "sa": a_sog, "home": True})
+    n = sum(len(v) for v in by_team.values())
+    if not n:
+        return None, None
+    lg = sum(g["sf"] for v in by_team.values() for g in v) / n
+
+    def opp_avg(opp, stat, excluding):
+        vals = [g[stat] for g in by_team.get(opp, []) if g["opp"] != excluding]
+        if not vals:  # only played this team so far: fall back to all its games, then league avg
+            vals = [g[stat] for g in by_team.get(opp, [])]
+        return sum(vals) / len(vals) if vals else lg
+
+    teams = {}
+    for team, glist in by_team.items():
+        rows = []
+        for g in glist:
+            sf_adj = g["sf"] - (opp_avg(g["opp"], "sa", team) - lg)  # vs. how much opp usually allows
+            sa_adj = g["sa"] - (opp_avg(g["opp"], "sf", team) - lg)  # vs. how much opp usually shoots
+            rows.append((sf_adj, sa_adj, g["home"]))
+
+        def summary(sub):
+            return ({"sf": sum(r[0] for r in sub) / len(sub), "sa": sum(r[1] for r in sub) / len(sub),
+                     "gp": len(sub)} if sub else None)
+        key = abbrev_to_key.get(team)
+        if not key:
+            continue
+        t = summary(rows)
+        t["home"] = summary([r for r in rows if r[2]])
+        t["road"] = summary([r for r in rows if not r[2]])
+        teams[key] = t
+    return teams, lg
+
+
+def load_h2h(away, home, now):
+    """Last H2H_GAMES meetings (regular season + playoffs), newest first:
+    [[date, away_abbrev, home_abbrev, away_sog, home_sog], ...]"""
+    y = int(season_id(now)[:4])
+    meetings = []
+    for k in range(H2H_SEASONS):
+        sched = nhl_get(f"{NHL_WEB}/club-schedule-season/{away}/{y - k}{y - k + 1}").get("games", [])
+        for g in sched:
+            teams = {g.get("awayTeam", {}).get("abbrev"), g.get("homeTeam", {}).get("abbrev")}
+            if (teams == {away, home} and g.get("gameType") in (2, 3)
+                    and g.get("gameState") in ("OFF", "FINAL")):
+                meetings.append((g["gameDate"], g["id"]))
+        if len(meetings) >= H2H_GAMES:
+            break
+    out = []
+    for date, gid in sorted(meetings, reverse=True)[:H2H_GAMES]:
+        box = nhl_get(f"{NHL_WEB}/gamecenter/{gid}/boxscore")
+        a, h = box.get("awayTeam", {}), box.get("homeTeam", {})
+        if a.get("sog") is not None and h.get("sog") is not None:
+            out.append([date, a["abbrev"], h["abbrev"], a["sog"], h["sog"]])
+    return out
+
+
+def get_h2h(state, away, home, now):
+    if H2H_GAMES <= 0 or not away or not home:
+        return []
+    return cached(state, f"h2h_{'-'.join(sorted((away, home)))}", now, timedelta(hours=12),
+                  lambda: load_h2h(away, home, now)) or []
+
+
+def fmt_h2h(h2h, ab):
+    """Two lines: shots faced by each team's goalie in recent meetings, newest first."""
+    if not h2h:
+        return []
+    lines = []
+    for i, team in enumerate((ab["away"], ab["home"])):
+        faced = [(g[4] if g[1] == team else g[3]) for g in h2h]  # opponent's shots = shots on this goalie
+        nums = ", ".join(str(x) for x in faced)
+        label = f"H2H last {len(h2h)}: " if i == 0 else " " * len(f"H2H last {len(h2h)}: ")
+        lines.append(f"{label}on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
+    return lines
+
+
 def get_shot_stats(state, now):
-    cached = state.get("shot_stats")
-    if cached and now - parse_iso(cached["fetched"]) < STATS_REFRESH \
-            and cached.get("season") == season_id(now) and cached.get("version") == STATS_VERSION:
-        return cached
+    saved = state.get("shot_stats")
+    if saved and now - parse_iso(saved["fetched"]) < STATS_REFRESH \
+            and saved.get("season") == season_id(now) and saved.get("version") == STATS_VERSION:
+        return saved
     try:
         fresh = fetch_shot_stats(now)
     except Exception as e:  # network hiccup: fall back to the last good copy
         print(f"Couldn't load NHL team stats ({e}); using last saved copy if any.")
-        return cached
+        return saved
+    if fresh and OPPONENT_ADJUST:
+        try:
+            abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+            teams, lg = adjusted_team_stats(update_game_log(state, now),
+                                            {ab: key for key, ab in abbrevs.items()})
+            if teams and len(teams) >= 20:
+                fresh.update(teams=teams, avg_shots=round(lg, 2), adjusted=True)
+        except Exception as e:  # adjustment is a refinement; raw numbers still work
+            print(f"Couldn't build opponent adjustment ({e}); using raw team numbers.")
     if fresh:
         state["shot_stats"] = fresh
-    return fresh or cached
+    return fresh or saved
 
 
 def blend(team, split, stat):
@@ -601,7 +733,7 @@ def is_complete(rec):
     return all(len(rec["lines"].get(b, {})) >= GOALIES_PER_GAME for b in BOOKS)
 
 
-def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None):
+def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h2h=None):
     """Short alert, e.g.
         Saves - VAN @ CAR · Thu 7:10 PM
         Exp. shots: on VAN 30.1 (+3.2) · on CAR 22.0 (-4.9)
@@ -616,6 +748,7 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None):
     if m:
         out.append("Exp. shots: " + " · ".join(
             f"on {ab[s]} {m[s]['shots']:.1f} ({m[s]['delta']:+.1f})" for s in ("away", "home")))
+    out.extend(fmt_h2h(h2h, ab))
     for player in sorted({p for _, p in new_pairs}):
         side = sides.get(player)
         expected = m[side]["saves"] if (m and side) else None
@@ -680,7 +813,8 @@ def main():
     stats = get_shot_stats(state, now) if SHOT_THRESHOLD > 0 else None
     if SHOT_THRESHOLD > 0:
         print(f"Matchup filter: ±{SHOT_THRESHOLD:g} shots"
-              + (f" (league avg {stats['avg_shots']:.1f} shots, save% {stats['save_pct']:.3f})"
+              + (f" (league avg {stats['avg_shots']:.1f} shots, save% {stats['save_pct']:.3f}, "
+                 f"{'opponent-adjusted' if stats.get('adjusted') else 'raw'})"
                  if stats else " — stats unavailable, watching every game"))
 
     credits = remaining
@@ -750,7 +884,9 @@ def main():
         if new_pairs:
             sides = goalie_sides(event, {p for _, p in new_pairs}, state, now) if m else {}
             abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
-            send_push("", build_message(event, new_pairs, rec["lines"], m, sides, abbrevs))
+            h2h = get_h2h(state, abbrevs.get(team_key(event["away_team"])),
+                          abbrevs.get(team_key(event["home_team"])), now)
+            send_push("", build_message(event, new_pairs, rec["lines"], m, sides, abbrevs, h2h))
             log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now)
             alerts += 1
             names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
