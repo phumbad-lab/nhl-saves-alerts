@@ -34,3 +34,7 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Flyers @ Senators,Joseph Woll,PHI,FD,25.5,-108,-122,27.9,OVER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z
 2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,FD,22.5,-108,-122,20.3,UNDER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z
 2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,DK,27.5,-120,-115,26.4,FADE,,,,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T19:00:22Z
+2026-10-08,Mammoth @ Bruins,Jeremy Swayman,BOS,FD,24.5,-108,-122,26.3,OVER,,,,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z
+2026-10-08,Mammoth @ Bruins,Sebastian Cossa,UTA,FD,23.5,-102,-130,19.7,UNDER,,,,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z
+2026-10-08,Canucks @ Hurricanes,Kevin Lankinen,VAN,FD,27.5,-114,-114,25.6,FADE,,,,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z
+2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,FD,19.5,-112,-118,20.9,FADE,,,,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z
