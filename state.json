@@ -381,15 +381,15 @@
   },
   "low_credit_warned": false,
   "shot_stats": {
-    "avg_shots": 26.86,
-    "fetched": "2026-10-08T04:45:17Z",
-    "save_pct": 0.884,
+    "avg_shots": 26.88,
+    "fetched": "2026-10-08T10:50:14Z",
+    "save_pct": 0.8836,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
-        "gp": 2,
-        "sa": 30.5,
-        "sf": 20.0
+        "gp": 3,
+        "sa": 26.66666,
+        "sf": 23.66666
       },
       "bostonbruins": {
         "gp": 4,
@@ -437,9 +437,9 @@
         "sf": 31.33333
       },
       "edmontonoilers": {
-        "gp": 3,
-        "sa": 21.66666,
-        "sf": 31.33333
+        "gp": 4,
+        "sa": 24.0,
+        "sf": 28.25
       },
       "floridapanthers": {
         "gp": 4,
