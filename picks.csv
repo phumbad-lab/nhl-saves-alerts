@@ -38,3 +38,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Mammoth @ Bruins,Sebastian Cossa,UTA,FD,23.5,-102,-130,19.7,UNDER,,,,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z
 2026-10-08,Canucks @ Hurricanes,Kevin Lankinen,VAN,FD,27.5,-114,-114,25.6,FADE,,,,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z
 2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,FD,19.5,-112,-118,20.9,FADE,,,,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z
+2026-10-08,Avalanche @ Flames,Devin Cooley,CGY,FD,28.5,-110,-120,28.5,LEAN_OVER,,,,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T19:55:14Z
+2026-10-08,Avalanche @ Flames,Scott Wedgewood,COL,FD,21.5,-114,-114,21.1,UNDER,,,,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T19:55:14Z
