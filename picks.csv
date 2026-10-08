@@ -16,3 +16,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,DK,23.5,-120,-115,21.3,UNDER,,,,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T16:30:22Z
 2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,DK,21.5,-135,+100,21.8,LEAN_UNDER,,,,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T16:45:52Z
 2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,DK,21.5,-125,-110,20.5,UNDER,,,,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T16:45:52Z
+2026-10-08,Flyers @ Senators,Joseph Woll,PHI,DK,24.5,-130,-105,29.0,OVER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T16:50:15Z
