@@ -24,7 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          ref: main  # always start from the latest saved data, not the trigger-time copy
 
       - name: Check for new saves lines
         run: python3 saves_alert.py
@@ -34,6 +36,11 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_SILENT: ${{ vars.TELEGRAM_SILENT }}
           TEAMS: ${{ vars.TEAMS }}
+          SHOT_THRESHOLD: ${{ vars.SHOT_THRESHOLD }}
+          TARGET_SAVES: ${{ vars.TARGET_SAVES }}
+          RECHECK_MINUTES: ${{ vars.RECHECK_MINUTES }}
+          RECHECK_WINDOW_HOURS: ${{ vars.RECHECK_WINDOW_HOURS }}
+          RECHECK_RESERVE: ${{ vars.RECHECK_RESERVE }}
           TEST_PUSH: ${{ inputs.test_push }}
 
       - name: Save which games have already alerted
