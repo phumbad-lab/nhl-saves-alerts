@@ -22,3 +22,6 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Wild @ Lightning,Jesper Wallstedt,MIN,FD,24.5,-122,-108,24.6,FADE,,,,3b702ab811bcab589f06bf21e93f1543,2026-10-08T23:10:00Z,Minnesota Wild,Tampa Bay Lightning,2026-10-08T17:25:13Z
 2026-10-08,Predators @ Canadiens,Jacob Fowler,MTL,DK,23.5,-130,-105,23.4,FADE,,,,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T17:35:14Z
 2026-10-08,Predators @ Canadiens,Juuse Saros,NSH,DK,26.5,-110,-125,25.8,LEAN_OVER,,,,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T17:35:14Z
+2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,FD,21.5,-130,-102,21.8,LEAN_UNDER,,,,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z
+2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,FD,21.5,-122,-106,19.9,UNDER,,,,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z
+2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,DK,22.5,-115,-115,20.3,UNDER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T17:50:16Z
