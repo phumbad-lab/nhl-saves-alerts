@@ -25,3 +25,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,FD,21.5,-130,-102,21.8,LEAN_UNDER,,,,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z
 2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,FD,21.5,-122,-106,19.9,UNDER,,,,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z
 2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,DK,22.5,-115,-115,20.3,UNDER,,,,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T17:50:16Z
+2026-10-08,Avalanche @ Flames,Devin Cooley,CGY,DK,28.5,-115,-115,28.5,LEAN_OVER,,,,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T17:55:14Z
+2026-10-08,Avalanche @ Flames,Scott Wedgewood,COL,DK,21.5,-115,-120,21.1,UNDER,,,,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T17:55:14Z
