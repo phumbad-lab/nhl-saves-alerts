@@ -65,7 +65,7 @@ PICKS_FILE = os.path.join(HERE, "picks.csv")
 PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "under_odds",
                "expected_saves", "tag", "actual_saves", "outcome", "result",
                "event_id", "commence_time", "away_team", "home_team", "logged_at"]
-GRADE_AFTER_HOUR = 8  # grade yesterday's games once it's past 8 AM Eastern
+GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
 
