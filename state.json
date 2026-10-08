@@ -15,37 +15,6 @@
       },
       "matchup": "San Jose Sharks @ St Louis Blues"
     },
-    "057cbe42c7df314de9ef60d00db04222": {
-      "commence_time": "2026-10-06T23:15:00Z",
-      "last_paid_check": "2026-10-06T16:44:48Z",
-      "lines": {
-        "draftkings": {
-          "Colten Ellis": {
-            "over": -125,
-            "point": 24.5,
-            "under": -105
-          },
-          "Jesper Wallstedt": {
-            "over": -110,
-            "point": 24.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "Colten Ellis": {
-            "over": -118,
-            "point": 24.5,
-            "under": -112
-          },
-          "Jesper Wallstedt": {
-            "over": -112,
-            "point": 24.5,
-            "under": -118
-          }
-        }
-      },
-      "matchup": "Minnesota Wild @ Buffalo Sabres"
-    },
     "100868f90e5446c13a23eb2b7710724d": {
       "commence_time": "2026-10-08T23:10:00Z",
       "last_paid_check": "2026-10-08T19:25:16Z",
