@@ -1280,7 +1280,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.03,
-    "fetched": "2026-10-09T08:40:15Z",
+    "fetched": "2026-10-09T14:40:16Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.66666,
@@ -1886,7 +1886,7 @@
     "version": 4
   },
   "team_abbrevs": {
-    "fetched": "2026-10-08T12:00:23Z",
+    "fetched": "2026-10-09T14:40:16Z",
     "value": {
       "anaheimducks": "ANA",
       "bostonbruins": "BOS",
