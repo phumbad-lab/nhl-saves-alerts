@@ -44,3 +44,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Leafs @ Knights,Adin Hill,VGK,FD,22.5,-122,-108,24.1,FADE,21,UNDER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z
 2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,FD,26.5,-114,-114,26.4,LEAN_OVER,40,OVER,W,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z
 2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,FD,22.5,-128,-104,20.7,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T21:50:15Z
+2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,DK,26.5,-120,-115,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z
+2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,DK,21.5,-125,-105,21.7,LEAN_UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z
