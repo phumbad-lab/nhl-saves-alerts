@@ -87,6 +87,7 @@ RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
 # Goalies with no lean (always "no edge") are rechecked this often while missing; 0 = never.
 NOLEAN_RECHECK_MINUTES = 180
+FINAL_CHECK_MINUTES = 75  # one last recheck of any game still missing a goalie, this long before puck drop
 SKIP_MIDDLING_GAMES = False  # True = don't check games where neither goalie has a lean
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
 SHOT_THRESHOLD = float(os.getenv("SHOT_THRESHOLD", "") or "2")
@@ -1000,10 +1001,15 @@ def main():
             due = last is None or now - parse_iso(last) >= timedelta(minutes=RECHECK_MINUTES)
             in_window = starts_in <= timedelta(hours=RECHECK_WINDOW_HOURS)
             budget_ok = credits is None or credits > RECHECK_RESERVE
-            if not (due and in_window and budget_ok):
+            # Last call: once inside the final window before puck drop, every incomplete game
+            # gets one more check (lean or not, hourly timer or not), since late confirmations land then.
+            final_window = timedelta(minutes=FINAL_CHECK_MINUTES)
+            last_call = (FINAL_CHECK_MINUTES > 0 and starts_in <= final_window and budget_ok and
+                         (last is None or parse_iso(last) < parse_iso(event["commence_time"]) - final_window))
+            if not last_call and not (due and in_window and budget_ok):
                 skipped_rechecks += 1
                 continue
-            if not lean_goalie_missing(event, rec, m, state, now):
+            if not last_call and not lean_goalie_missing(event, rec, m, state, now):
                 # Only no-lean goalies left to post: recheck far less often (or never).
                 nolean_due = NOLEAN_RECHECK_MINUTES > 0 and (
                     last is None or now - parse_iso(last) >= timedelta(minutes=NOLEAN_RECHECK_MINUTES))
