@@ -1,51 +1,53 @@
-date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_saves,outcome,result,event_id,commence_time,away_team,home_team,logged_at
-2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,DK,23.5,-125,-105,26.6,OVER,16,UNDER,L,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,FD,23.5,-128,-104,26.6,OVER,16,UNDER,L,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,DK,28.5,-105,-130,28.7,FADE,32,OVER,-,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,FD,27.5,-114,-114,28.7,FADE,32,OVER,-,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,DK,26.5,-120,-115,22.2,UNDER,22,UNDER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,FD,26.5,-106,-125,22.2,UNDER,22,UNDER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,DK,24.5,-115,-115,28.5,OVER,27,OVER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,FD,24.5,-122,-108,28.5,OVER,27,OVER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Devon Levi,EDM,DK,23.5,-130,+100,18.4,UNDER,29,OVER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Devon Levi,EDM,FD,23.5,-112,-118,18.4,UNDER,29,OVER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,DK,25.5,-120,-110,27.3,OVER,12,UNDER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,FD,25.5,-118,-112,27.3,OVER,12,UNDER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z
-2026-10-08,Canucks @ Hurricanes,Kevin Lankinen,VAN,DK,27.5,-115,-120,26.6,FADE,12,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T16:20:17Z
-2026-10-08,Wild @ Lightning,Jesper Wallstedt,MIN,DK,24.5,-125,-105,24.3,FADE,32,OVER,-,3b702ab811bcab589f06bf21e93f1543,2026-10-08T23:10:00Z,Minnesota Wild,Tampa Bay Lightning,2026-10-08T16:20:17Z
-2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,DK,23.5,-120,-115,21.3,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T16:30:22Z
-2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,DK,21.5,-135,+100,21.8,LEAN_UNDER,26,OVER,L,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T16:45:52Z
-2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,DK,21.5,-125,-110,20.5,UNDER,14,UNDER,W,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T16:45:52Z
-2026-10-08,Flyers @ Senators,Joseph Woll,PHI,DK,24.5,-130,-105,29.0,OVER,24,UNDER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T16:50:15Z
-2026-10-08,Sharks @ Blues,Joel Hofer,STL,DK,22.5,-105,-130,21.6,UNDER,24,OVER,L,01d78cd04d7c4fb958e1d02bace05ec4,2026-10-09T00:10:00Z,San Jose Sharks,St Louis Blues,2026-10-08T17:15:17Z
-2026-10-08,Mammoth @ Bruins,Jeremy Swayman,BOS,DK,24.5,-115,-115,25.4,FADE,36,OVER,-,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T17:25:13Z
-2026-10-08,Wild @ Lightning,Jesper Wallstedt,MIN,FD,24.5,-122,-108,24.6,FADE,32,OVER,-,3b702ab811bcab589f06bf21e93f1543,2026-10-08T23:10:00Z,Minnesota Wild,Tampa Bay Lightning,2026-10-08T17:25:13Z
-2026-10-08,Predators @ Canadiens,Jacob Fowler,MTL,DK,23.5,-130,-105,23.4,FADE,15,UNDER,-,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T17:35:14Z
-2026-10-08,Predators @ Canadiens,Juuse Saros,NSH,DK,26.5,-110,-125,25.8,LEAN_OVER,32,OVER,W,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T17:35:14Z
-2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,FD,21.5,-130,-102,21.8,LEAN_UNDER,26,OVER,L,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z
-2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,FD,21.5,-122,-106,19.9,UNDER,14,UNDER,W,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z
-2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,DK,22.5,-115,-115,20.3,UNDER,28,OVER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T17:50:16Z
-2026-10-08,Avalanche @ Flames,Devin Cooley,CGY,DK,28.5,-115,-115,28.5,LEAN_OVER,23,UNDER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T17:55:14Z
-2026-10-08,Avalanche @ Flames,Scott Wedgewood,COL,DK,21.5,-115,-120,21.1,UNDER,26,OVER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T17:55:14Z
-2026-10-08,Mammoth @ Bruins,Sebastian Cossa,UTA,DK,23.5,-105,-125,19.7,UNDER,5,UNDER,W,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T18:25:13Z
-2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,DK,19.5,-110,-120,20.9,FADE,18,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T18:25:13Z
-2026-10-08,Predators @ Canadiens,Jacob Fowler,MTL,FD,23.5,-120,-110,23.4,FADE,15,UNDER,-,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T18:40:16Z
-2026-10-08,Predators @ Canadiens,Juuse Saros,NSH,FD,25.5,-130,-102,25.8,OVER,32,OVER,W,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T18:40:16Z
-2026-10-08,Flyers @ Senators,Joseph Woll,PHI,FD,25.5,-108,-122,27.9,OVER,24,UNDER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z
-2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,FD,22.5,-108,-122,20.3,UNDER,28,OVER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z
-2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,DK,27.5,-120,-115,26.4,FADE,40,OVER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T19:00:22Z
-2026-10-08,Mammoth @ Bruins,Jeremy Swayman,BOS,FD,24.5,-108,-122,26.3,OVER,36,OVER,W,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z
-2026-10-08,Mammoth @ Bruins,Sebastian Cossa,UTA,FD,23.5,-102,-130,19.7,UNDER,5,UNDER,W,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z
-2026-10-08,Canucks @ Hurricanes,Kevin Lankinen,VAN,FD,27.5,-114,-114,25.6,FADE,12,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z
-2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,FD,19.5,-112,-118,20.9,FADE,18,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z
-2026-10-08,Avalanche @ Flames,Devin Cooley,CGY,FD,28.5,-110,-120,28.5,LEAN_OVER,23,UNDER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T19:55:14Z
-2026-10-08,Avalanche @ Flames,Scott Wedgewood,COL,FD,21.5,-114,-114,21.1,UNDER,26,OVER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T19:55:14Z
-2026-10-08,Leafs @ Knights,Adin Hill,VGK,DK,22.5,-120,-115,24.1,FADE,21,UNDER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z
-2026-10-08,Leafs @ Knights,Adin Hill,VGK,FD,22.5,-122,-108,24.1,FADE,21,UNDER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z
-2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,FD,26.5,-114,-114,26.4,LEAN_OVER,40,OVER,W,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z
-2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,FD,22.5,-128,-104,20.7,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T21:50:15Z
-2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,DK,26.5,-120,-115,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z
-2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,DK,21.5,-125,-105,21.7,LEAN_UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z
-2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,DK,24.5,-130,-105,24.9,FADE,,,,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T18:15:15Z
-2026-10-09,Kraken @ Wings,John Gibson,DET,DK,24.5,-120,-110,23.1,FADE,,,,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T18:15:15Z
-2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,DK,23.5,-130,-105,25.7,OVER,,,,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T19:25:14Z
+date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_saves,outcome,result,event_id,commence_time,away_team,home_team,logged_at,fire
+2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,DK,23.5,-125,-105,26.6,OVER,16,UNDER,L,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z,
+2026-10-07,Avalanche @ Jets,Mackenzie Blackwood,COL,FD,23.5,-128,-104,26.6,OVER,16,UNDER,L,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z,
+2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,DK,28.5,-105,-130,28.7,FADE,32,OVER,-,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z,
+2026-10-07,Avalanche @ Jets,Stuart Skinner,WPG,FD,27.5,-114,-114,28.7,FADE,32,OVER,-,c8c270e79cd56ca57baa21a49a0d1d9d,2026-10-07T23:30:00Z,Colorado Avalanche,Winnipeg Jets,2026-10-07T22:55:00Z,
+2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,DK,26.5,-120,-115,22.2,UNDER,22,UNDER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z,
+2026-10-07,Penguins @ Capitals,Arturs Silovs,PIT,FD,26.5,-106,-125,22.2,UNDER,22,UNDER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z,
+2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,DK,24.5,-115,-115,28.5,OVER,27,OVER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z,
+2026-10-07,Penguins @ Capitals,Logan Thompson,WSH,FD,24.5,-122,-108,28.5,OVER,27,OVER,W,8112572f236320d4d4c99b6eb0989b94,2026-10-07T23:40:00Z,Pittsburgh Penguins,Washington Capitals,2026-10-07T22:55:00Z,
+2026-10-07,Oilers @ Ducks,Devon Levi,EDM,DK,23.5,-130,+100,18.4,UNDER,29,OVER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z,
+2026-10-07,Oilers @ Ducks,Devon Levi,EDM,FD,23.5,-112,-118,18.4,UNDER,29,OVER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z,
+2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,DK,25.5,-120,-110,27.3,OVER,12,UNDER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z,
+2026-10-07,Oilers @ Ducks,Lukas Dostal,ANA,FD,25.5,-118,-112,27.3,OVER,12,UNDER,L,db23cd7cb712b5c14c297aa6eece3627,2026-10-08T02:00:00Z,Edmonton Oilers,Anaheim Ducks,2026-10-07T22:55:00Z,
+2026-10-08,Canucks @ Hurricanes,Kevin Lankinen,VAN,DK,27.5,-115,-120,26.6,FADE,12,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T16:20:17Z,
+2026-10-08,Wild @ Lightning,Jesper Wallstedt,MIN,DK,24.5,-125,-105,24.3,FADE,32,OVER,-,3b702ab811bcab589f06bf21e93f1543,2026-10-08T23:10:00Z,Minnesota Wild,Tampa Bay Lightning,2026-10-08T16:20:17Z,
+2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,DK,23.5,-120,-115,21.3,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T16:30:22Z,
+2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,DK,21.5,-135,+100,21.8,LEAN_UNDER,26,OVER,L,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T16:45:52Z,
+2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,DK,21.5,-125,-110,20.5,UNDER,14,UNDER,W,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T16:45:52Z,
+2026-10-08,Flyers @ Senators,Joseph Woll,PHI,DK,24.5,-130,-105,29.0,OVER,24,UNDER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T16:50:15Z,
+2026-10-08,Sharks @ Blues,Joel Hofer,STL,DK,22.5,-105,-130,21.6,UNDER,24,OVER,L,01d78cd04d7c4fb958e1d02bace05ec4,2026-10-09T00:10:00Z,San Jose Sharks,St Louis Blues,2026-10-08T17:15:17Z,
+2026-10-08,Mammoth @ Bruins,Jeremy Swayman,BOS,DK,24.5,-115,-115,25.4,FADE,36,OVER,-,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T17:25:13Z,
+2026-10-08,Wild @ Lightning,Jesper Wallstedt,MIN,FD,24.5,-122,-108,24.6,FADE,32,OVER,-,3b702ab811bcab589f06bf21e93f1543,2026-10-08T23:10:00Z,Minnesota Wild,Tampa Bay Lightning,2026-10-08T17:25:13Z,
+2026-10-08,Predators @ Canadiens,Jacob Fowler,MTL,DK,23.5,-130,-105,23.4,FADE,15,UNDER,-,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T17:35:14Z,
+2026-10-08,Predators @ Canadiens,Juuse Saros,NSH,DK,26.5,-110,-125,25.8,LEAN_OVER,32,OVER,W,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T17:35:14Z,
+2026-10-08,Stars @ Sabres,Jake Oettinger,DAL,FD,21.5,-130,-102,21.8,LEAN_UNDER,26,OVER,L,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z,
+2026-10-08,Stars @ Sabres,Ukko-Pekka Luukkonen,BUF,FD,21.5,-122,-106,19.9,UNDER,14,UNDER,W,841087bae12b56c16406af177d78ea01,2026-10-08T23:09:00Z,Dallas Stars,Buffalo Sabres,2026-10-08T17:50:16Z,
+2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,DK,22.5,-115,-115,20.3,UNDER,28,OVER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T17:50:16Z,
+2026-10-08,Avalanche @ Flames,Devin Cooley,CGY,DK,28.5,-115,-115,28.5,LEAN_OVER,23,UNDER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T17:55:14Z,
+2026-10-08,Avalanche @ Flames,Scott Wedgewood,COL,DK,21.5,-115,-120,21.1,UNDER,26,OVER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T17:55:14Z,
+2026-10-08,Mammoth @ Bruins,Sebastian Cossa,UTA,DK,23.5,-105,-125,19.7,UNDER,5,UNDER,W,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T18:25:13Z,
+2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,DK,19.5,-110,-120,20.9,FADE,18,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T18:25:13Z,
+2026-10-08,Predators @ Canadiens,Jacob Fowler,MTL,FD,23.5,-120,-110,23.4,FADE,15,UNDER,-,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T18:40:16Z,
+2026-10-08,Predators @ Canadiens,Juuse Saros,NSH,FD,25.5,-130,-102,25.8,OVER,32,OVER,W,fb3c9515a5d3d97871d8e1a16b66bbad,2026-10-08T23:10:00Z,Nashville Predators,Montréal Canadiens,2026-10-08T18:40:16Z,
+2026-10-08,Flyers @ Senators,Joseph Woll,PHI,FD,25.5,-108,-122,27.9,OVER,24,UNDER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z,
+2026-10-08,Flyers @ Senators,Linus Ullmark,OTT,FD,22.5,-108,-122,20.3,UNDER,28,OVER,L,9f6db651fe2d7363616cc72625c4972d,2026-10-08T23:10:00Z,Philadelphia Flyers,Ottawa Senators,2026-10-08T18:50:16Z,
+2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,DK,27.5,-120,-115,26.4,FADE,40,OVER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T19:00:22Z,
+2026-10-08,Mammoth @ Bruins,Jeremy Swayman,BOS,FD,24.5,-108,-122,26.3,OVER,36,OVER,W,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z,
+2026-10-08,Mammoth @ Bruins,Sebastian Cossa,UTA,FD,23.5,-102,-130,19.7,UNDER,5,UNDER,W,100868f90e5446c13a23eb2b7710724d,2026-10-08T23:00:00Z,Utah Mammoth,Boston Bruins,2026-10-08T19:25:16Z,
+2026-10-08,Canucks @ Hurricanes,Kevin Lankinen,VAN,FD,27.5,-114,-114,25.6,FADE,12,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z,
+2026-10-08,Canucks @ Hurricanes,Pyotr Kochetkov,CAR,FD,19.5,-112,-118,20.9,FADE,18,UNDER,-,89c5018d1ea1a2a1b79d4e805e10be46,2026-10-08T23:10:00Z,Vancouver Canucks,Carolina Hurricanes,2026-10-08T19:25:16Z,
+2026-10-08,Avalanche @ Flames,Devin Cooley,CGY,FD,28.5,-110,-120,28.5,LEAN_OVER,23,UNDER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T19:55:14Z,
+2026-10-08,Avalanche @ Flames,Scott Wedgewood,COL,FD,21.5,-114,-114,21.1,UNDER,26,OVER,L,3b439dd85f763c0f6ac04f3ade1e6117,2026-10-09T01:10:00Z,Colorado Avalanche,Calgary Flames,2026-10-08T19:55:14Z,
+2026-10-08,Leafs @ Knights,Adin Hill,VGK,DK,22.5,-120,-115,24.1,FADE,21,UNDER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z,
+2026-10-08,Leafs @ Knights,Adin Hill,VGK,FD,22.5,-122,-108,24.1,FADE,21,UNDER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z,
+2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,FD,26.5,-114,-114,26.4,LEAN_OVER,40,OVER,W,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z,
+2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,FD,22.5,-128,-104,20.7,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T21:50:15Z,
+2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,DK,26.5,-120,-115,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z,
+2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,DK,21.5,-125,-105,21.7,LEAN_UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z,
+2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,DK,24.5,-130,-105,24.9,FADE,,,,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T18:15:15Z,
+2026-10-09,Kraken @ Wings,John Gibson,DET,DK,24.5,-120,-110,23.1,FADE,,,,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T18:15:15Z,
+2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,DK,23.5,-130,-105,25.7,OVER,,,,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T19:25:14Z,
+2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,FD,26.5,+100,-132,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,1
+2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,FD,22.5,-104,-128,21.7,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,
