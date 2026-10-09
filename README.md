@@ -6,7 +6,7 @@ Example alert (first time a goalie posts):
 
 ```
 Saves - VAN @ CAR · Thu 7:10 PM
-Kevin Lankinen (VAN) · DK 28.5 (-105/-130) (fade) · FD not yet
+Kevin Lankinen (VAN) · DK 28.5 (-105/-130) (no edge) · FD not yet
 Exp. 25.6 saves, 29.0 shots
 H2H last 4: on VAN 33, 38, 20, 32 (avg 30.8)
 on CAR 22, 17, 14, 27 (avg 20.0)
@@ -18,7 +18,7 @@ CAR shots for 7th most (30.2) · VAN shots against 7th most (30.0)
 - **Rank line** = the opponent's shots for and this goalie's team's shots against, ranked across the league from raw season numbers ("most" for the top half, "least" for the bottom half), with the per-game average.
 - The second goalie in a game gets the same block (without H2H) when he posts.
 - When the other book posts a goalie you've already been alerted on, you get one line:
-  `FD added - VAN @ CAR: Lankinen 27.5 (-114/-114) (fade)`
+  `FD added - VAN @ CAR: Lankinen 27.5 (-114/-114) (no edge)`
 
 Everything here is free.
 
@@ -102,7 +102,7 @@ Using this season's NHL team stats (free, refreshed every 6 hours), each goalie 
   - Splits are blended with each team's overall numbers and trusted more as games pile up: weight = split games ÷ (split games + 5). That's 17% after 1 game, 50% after 5 and 67% after 10. To change how fast splits take over, edit `HOME_ROAD_K = 5` near the top of `saves_alert.py` (lower = sooner).
 - **expected saves** = expected shots × the league's save percentage
 
-A game is watched only if at least one goalie's expected shots are `SHOT_THRESHOLD` (default 2) or more above or below the league average. Skipped games cost nothing and are listed in each run's log as `Skip (middling matchup)`. If the NHL stats can't be loaded, every game is watched.
+Every game is watched. A goalie has a **lean** when his expected shots are `SHOT_THRESHOLD` (default 2) or more above or below the league average; games where neither goalie has a lean are listed in each run's log as `Middling matchup` and their lines are tagged (no edge).
 
 Each goalie is matched to his team using NHL rosters. **The matchup picks the direction, and the line picks the strength:**
 
@@ -110,13 +110,13 @@ Each goalie is matched to his team using NHL rosters. **The matchup picks the di
 |---|---|---|
 | **+2 or more** vs average (overs only) | at or below expected | **(over)** |
 | | up to 1 save above | **(lean over)** |
-| | more than 1 above | **(fade)**, never an under |
+| | more than 1 above | **(no edge)**, never an under |
 | **−2 or more** vs average (unders only) | at or above expected | **(under)** |
 | | up to 1 save below | **(lean under)** |
-| | more than 1 below | **(fade)**, never an over |
-| in between (middling) | any | **(fade)** |
+| | more than 1 below | **(no edge)**, never an over |
+| in between (middling) | any | **(no edge)** |
 
-Example: Lankinen expected 26.6 saves facing Carolina (+3.2 shots), so 26.5 is over, 27.5 is lean over and 28.5 is fade.
+Example: Lankinen expected 26.6 saves facing Carolina (+3.2 shots), so 26.5 is over, 27.5 is lean over and 28.5 is no edge.
 
 If a goalie can't be matched to a team (e.g. a fresh call-up), the alert lists both teams' expected saves instead and leaves the tag off. The full math for every game is in each run's log.
 
@@ -129,7 +129,7 @@ Each morning after 7 AM Eastern, the script pulls the previous night's NHL box s
 Saves results: Oct 7
 Lukas Dostal o25.5 (DK/FD): 28 saves ✅
 Devon Levi u23.5 (DK/FD): 17 saves ✅
-Stuart Skinner 28.5 fade (DK): 25 saves → went under
+Stuart Skinner 28.5 no edge (DK): 25 saves → went under
 
 Season: Over 3-0 (100%) · Lean over 1-1 (50%) · Under 2-0 (100%) · Lean under no picks yet
 ```
@@ -140,7 +140,7 @@ Season: Over 3-0 (100%) · Lean over 1-1 (50%) · Under 2-0 (100%) · Lean under
 - The line logged is the first one seen (what you could have bet when alerted), not the closing line.
 
 ## Rechecks (where credits go)
-Checking a game with nothing posted is free, so the first goalie in every game reaches you within about 5 minutes. Once some lines are up, the game is rechecked hourly (1 credit each), **but only while a goalie with a lean tonight is still missing** at either book. A goalie has a lean when his expected shots are 2+ above or below average for that night's matchup. Goalies without a lean are always tagged fade, so the script doesn't spend credits waiting on them. If it can't tell which team a goalie plays for, it keeps rechecking to be safe. Each run's log shows how many rechecks were skipped this way.
+Checking a game with nothing posted is free, so the first goalie in every game reaches you within about 5 minutes. Once some lines are up, the game is rechecked hourly (1 credit each) **while a goalie with a lean tonight is still missing** at either book. If only no-lean goalies are missing, it's rechecked every 3 hours instead (`NOLEAN_RECHECK_MINUTES = 180` near the top of `saves_alert.py`; set 0 to never recheck them). A goalie has a lean when his expected shots are 2+ above or below average for that night's matchup. Goalies without a lean are always tagged no edge, so they get the slower schedule. If it can't tell which team a goalie plays for, it keeps rechecking to be safe. Each run's log shows how many rechecks were held back this way.
 
 ## How alerts work
 Books often post one goalie early and the other hours later, so every goalie is tracked separately. You get a message each time a goalie's line appears at a book for the first time, showing both books side by side (`not yet` if one hasn't posted). A game stops being checked once both books show both goalies.

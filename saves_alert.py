@@ -85,6 +85,9 @@ LOOKAHEAD_HOURS = env_int("LOOKAHEAD_HOURS", 30)
 RECHECK_MINUTES = env_int("RECHECK_MINUTES", 60)
 RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
+# Goalies with no lean (always "no edge") are rechecked this often while missing; 0 = never.
+NOLEAN_RECHECK_MINUTES = 180
+SKIP_MIDDLING_GAMES = False  # True = don't check games where neither goalie has a lean
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
 SHOT_THRESHOLD = float(os.getenv("SHOT_THRESHOLD", "") or "2")
 LEAN_SAVES = float(os.getenv("TARGET_SAVES", "") or "1")
@@ -533,7 +536,7 @@ def tag_code(expected, point, delta):
 
 
 TAG_LABELS = {"OVER": "over", "LEAN_OVER": "lean over", "UNDER": "under",
-              "LEAN_UNDER": "lean under", "FADE": "fade"}
+              "LEAN_UNDER": "lean under", "FADE": "no edge"}
 BET_SIDE = {"OVER": "OVER", "LEAN_OVER": "OVER", "UNDER": "UNDER", "LEAN_UNDER": "UNDER"}
 
 
@@ -652,7 +655,7 @@ def grade_picks(state, now):
             if r["tag"] in BET_SIDE:
                 result = "P" if outcome == "PUSH" else ("W" if outcome == BET_SIDE[r["tag"]] else "L")
             else:
-                result = "-"  # fade / untagged: recorded, not scored
+                result = "-"  # no edge / untagged: recorded, not scored
             r.update(actual_saves=saves, outcome=outcome, result=result)
         graded.append(r)
     if graded:
@@ -697,7 +700,7 @@ def results_message(graded):
         seen.add(key)
         label = {"OVER": f"o{r['line']}", "LEAN_OVER": f"lean o{r['line']}",
                  "UNDER": f"u{r['line']}", "LEAN_UNDER": f"lean u{r['line']}"}.get(
-                     r["tag"], f"{r['line']} fade")
+                     r["tag"], f"{r['line']} no edge")
         mark = {"W": " ✅", "L": " ❌", "P": " push"}.get(r["result"], f" → went {r['outcome'].lower()}")
         lines.append(f"{r['goalie']} {label} ({'/'.join(books)}): {r['actual_saves']} saves{mark}")
     all_rows = load_picks()
@@ -713,7 +716,7 @@ def has_lean(m, side):
 
 def lean_goalie_missing(event, rec, m, state, now):
     """True if some book is still missing the goalie for a side that has a lean tonight.
-    Missing no-lean goalies (always tagged fade) aren't worth a credit to wait for.
+    Missing no-lean goalies (always tagged no edge) are rechecked only every NOLEAN_RECHECK_MINUTES.
     If anything is unclear (no stats, a goalie we can't place on a team), say True to be safe."""
     if not m:
         return True
@@ -799,13 +802,13 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
     """One message per game per run.
     Goalies seen for the first time get a full block:
         Saves - VAN @ CAR · Thu 7:10 PM
-        Kevin Lankinen (VAN) · DK 28.5 (-105/-130) (fade) · FD not yet
+        Kevin Lankinen (VAN) · DK 28.5 (-105/-130) (no edge) · FD not yet
         Exp. 25.6 saves, 29.0 shots
         H2H last 4: on VAN 33, 38, 20, 32 (avg 30.8)       <- once per game
         on CAR 22, 17, 14, 27 (avg 20.0)
         CAR shots for 7th most (30.3) · VAN shots against 5th most (30.5)
     A goalie already alerted who shows up at the other book gets one line:
-        FD added - VAN @ CAR: Lankinen 27.5 (-114/-114) (fade)"""
+        FD added - VAN @ CAR: Lankinen 27.5 (-114/-114) (no edge)"""
     sides, abbrevs = sides or {}, abbrevs or {}
     ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) or nickname(event[f"{s}_team"])
           for s in ("away", "home")}
@@ -868,7 +871,14 @@ def main():
         dates = sorted({r["date"] for r in graded})
         title = "Saves results: " + ", ".join(
             datetime.strptime(d, "%Y-%m-%d").strftime("%b %-d") for d in dates)
-        send_push(title, results_message(graded))
+        msg = results_message(graded)
+        left = state.get("credits_remaining")  # as of the last run
+        if left is not None:
+            before = state.get("credits_at_summary")
+            used = f" ({before - left} used since last summary)" if before is not None and before >= left else ""
+            msg += f"\nCredits: {left} left{used}"
+            state["credits_at_summary"] = left
+        send_push(title, msg)
         print(f"Graded {len(graded)} pick(s) from {', '.join(dates)}")
 
     events, remaining = api_get(f"/sports/{SPORT}/events", {
@@ -894,9 +904,10 @@ def main():
         m = matchup(event, stats)
         if not watch_game(m):
             skipped_games += 1
-            print(f"Skip (middling matchup): {event['away_team']} @ {event['home_team']} | "
-                  + fmt_matchup(m))
-            continue
+            print(f"Middling matchup (no lean either side): {event['away_team']} @ "
+                  f"{event['home_team']} | " + fmt_matchup(m))
+            if SKIP_MIDDLING_GAMES:
+                continue
         rec = state["events"].setdefault(eid, {
             "matchup": f"{event['away_team']} @ {event['home_team']}",
             "commence_time": event["commence_time"],
@@ -929,8 +940,12 @@ def main():
                 skipped_rechecks += 1
                 continue
             if not lean_goalie_missing(event, rec, m, state, now):
-                skipped_nolean += 1  # only no-lean goalies left to post: not worth a credit
-                continue
+                # Only no-lean goalies left to post: recheck far less often (or never).
+                nolean_due = NOLEAN_RECHECK_MINUTES > 0 and (
+                    last is None or now - parse_iso(last) >= timedelta(minutes=NOLEAN_RECHECK_MINUTES))
+                if not nolean_due:
+                    skipped_nolean += 1
+                    continue
 
         data, rem = api_get(f"/sports/{SPORT}/events/{eid}/odds", {
             "bookmakers": ",".join(BOOKS),
@@ -980,8 +995,8 @@ def main():
     state["credits_remaining"] = credits
     save_state(state)
     print(f"Done: {checks} odds check(s), {alerts} alert(s), "
-          f"{skipped_rechecks} recheck(s) not due yet, {skipped_nolean} recheck(s) skipped (only no-lean "
-          f"goalies missing), {skipped_games} middling game(s) skipped, "
+          f"{skipped_rechecks} recheck(s) not due yet, {skipped_nolean} recheck(s) held back (only no-lean "
+          f"goalies missing), {skipped_games} middling game(s), "
           f"credits remaining: {credits}")
 
 
