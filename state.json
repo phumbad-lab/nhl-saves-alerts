@@ -212,6 +212,12 @@
       "lines": {},
       "matchup": "Utah Mammoth @ Buffalo Sabres"
     },
+    "7ff1567200cc7c7c7d901f32f81ad4d4": {
+      "commence_time": "2026-10-11T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Anaheim Ducks @ Calgary Flames"
+    },
     "8112572f236320d4d4c99b6eb0989b94": {
       "commence_time": "2026-10-07T23:40:00Z",
       "last_paid_check": "2026-10-07T22:07:25Z",
@@ -441,6 +447,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Philadelphia Flyers @ Boston Bruins"
+    },
+    "d9285582597ee00291a57aaf08f4bd50": {
+      "commence_time": "2026-10-11T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Los Angeles Kings @ Vegas Golden Knights"
     },
     "db23cd7cb712b5c14c297aa6eece3627": {
       "commence_time": "2026-10-08T02:10:00Z",
