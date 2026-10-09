@@ -51,3 +51,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,DK,23.5,-130,-105,25.7,OVER,,,,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T19:25:14Z,
 2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,FD,26.5,+100,-132,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,1
 2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,FD,22.5,-104,-128,21.7,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,
+2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,FD,24.5,-130,-102,24.9,FADE,,,,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T21:15:16Z,
+2026-10-09,Kraken @ Wings,John Gibson,DET,FD,23.5,-128,-104,23.1,FADE,,,,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T21:15:16Z,
