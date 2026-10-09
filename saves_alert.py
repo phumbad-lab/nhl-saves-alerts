@@ -66,7 +66,7 @@ STATE_FILE = os.path.join(HERE, "state.json")
 PICKS_FILE = os.path.join(HERE, "picks.csv")
 PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "under_odds",
                "expected_saves", "tag", "actual_saves", "outcome", "result",
-               "event_id", "commence_time", "away_team", "home_team", "logged_at"]
+               "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire"]
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -535,14 +535,55 @@ def tag_code(expected, point, delta):
     return "FADE"
 
 
-TAG_LABELS = {"OVER": "over", "LEAN_OVER": "lean over", "UNDER": "under",
-              "LEAN_UNDER": "lean under", "FADE": "no edge"}
+TAG_LABELS = {"OVER": "OVER", "LEAN_OVER": "LEAN OVER", "UNDER": "UNDER",
+              "LEAN_UNDER": "LEAN UNDER", "FADE": "NO EDGE"}
 BET_SIDE = {"OVER": "OVER", "LEAN_OVER": "OVER", "UNDER": "UNDER", "LEAN_UNDER": "UNDER"}
 
 
-def target_tag(expected, point, delta):
+FIRE_GAP = 2.0   # 🔥 needs expected saves at least this far past the line (OVER/UNDER only)
+FIRE_RANK = 10   # ...and a raw shots rank in the top/bottom this many
+
+
+def is_fire(code, expected, point, side, ctx):
+    """🔥 = an OVER/UNDER where three things agree:
+      1. expected saves are FIRE_GAP+ past the line,
+      2. H2H: this goalie's team faced above-average shots in recent meetings (over) / below (under),
+      3. raw ranks: opponent shots-for or own shots-against is top-FIRE_RANK (over) / bottom-FIRE_RANK (under)."""
+    if code not in ("OVER", "UNDER") or not ctx or not side or expected is None or point is None:
+        return False
+    over = code == "OVER"
+    if (expected - point if over else point - expected) < FIRE_GAP:
+        return False
+    event, ab, h2h, raw, lg = ctx["event"], ctx["ab"], ctx.get("h2h"), ctx.get("raw"), ctx.get("lg")
+    if not h2h or not raw or lg is None:
+        return False
+    team = ab[side]
+    faced = [(g[4] if g[1] == team else g[3]) for g in h2h]
+    h2h_avg = sum(faced) / len(faced)
+    if (h2h_avg <= lg) if over else (h2h_avg >= lg):
+        return False
+    other = "home" if side == "away" else "away"
+    opp, own = team_key(event[f"{other}_team"]), team_key(event[f"{side}_team"])
+    if opp not in raw or own not in raw:
+        return False
+    def rank(key, stat, most):
+        v = raw[key][stat]
+        return 1 + sum(1 for t in raw.values() if (t[stat] > v if most else t[stat] < v))
+    return (rank(opp, "sf", over) <= FIRE_RANK) or (rank(own, "sa", over) <= FIRE_RANK)
+
+
+def fire_context(event, ab, h2h, raw, m):
+    side = "away"
+    lg = (m[side]["shots"] - m[side]["delta"]) if m else None
+    return {"event": event, "ab": ab, "h2h": h2h, "raw": raw, "lg": lg}
+
+
+def target_tag(expected, point, delta, side=None, ctx=None):
     code = tag_code(expected, point, delta)
-    return f" ({TAG_LABELS[code]})" if code else ""
+    if not code:
+        return ""
+    fire = " 🔥" if is_fire(code, expected, point, side, ctx) else ""
+    return f" ({TAG_LABELS[code]}{fire})"
 
 
 # ---------- pick log & grading ----------
@@ -562,12 +603,15 @@ def save_picks(rows):
         w.writerows(rows)
 
 
-def log_picks(event, new_pairs, lines, m, sides, abbrevs, now):
+def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None):
     """Append one row per newly posted (book, goalie) line."""
     rows = load_picks()
     seen = {(r["event_id"], r["goalie"], r["book"]) for r in rows}
     date = parse_iso(event["commence_time"]).astimezone(LOCAL_TZ).strftime("%Y-%m-%d")
     game = f"{nickname(event['away_team'])} @ {nickname(event['home_team'])}"
+    ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) or nickname(event[f"{s}_team"])
+          for s in ("away", "home")}
+    ctx = fire_context(event, ab, h2h, raw, m)
     for book, player in sorted(new_pairs):
         if (event["id"], player, BOOK_SHORT.get(book, book)) in seen:
             continue
@@ -581,6 +625,8 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now):
             "over_odds": fmt_odds(ln.get("over")), "under_odds": fmt_odds(ln.get("under")),
             "expected_saves": f"{expected:.1f}" if expected is not None else "",
             "tag": tag_code(expected, ln.get("point"), m[side]["delta"] if (m and side) else None),
+            "fire": "1" if is_fire(tag_code(expected, ln.get("point"), m[side]["delta"] if (m and side) else None),
+                                   expected, ln.get("point"), side, ctx) else "",
             "event_id": event["id"], "commence_time": event["commence_time"],
             "away_team": event["away_team"], "home_team": event["home_team"],
             "logged_at": iso(now),
@@ -684,28 +730,49 @@ def fmt_record(w, l, p):
     return f"{w}-{l}" + (f"-{p}" if p else "") + pct
 
 
-def results_message(graded):
+def last_name(player):
+    return player.split()[-1] if player and player.split() else player
+
+
+def who(r, abbrevs):
+    """'Shesterkin (NYR) vs. WSH' from a picks.csv row (falls back to last name only)."""
+    name, team = last_name(r["goalie"]), r.get("team") or ""
+    if not team:
+        return name
+    away = abbrevs.get(team_key(r.get("away_team", "")))
+    home = abbrevs.get(team_key(r.get("home_team", "")))
+    opp = home if team == away else away if team == home else None
+    return f"{name} ({team})" + (f" vs. {opp}" if opp else "")
+
+
+def results_message(graded, abbrevs=None):
+    abbrevs = abbrevs or {}
     lines, seen = [], set()
     for r in sorted(graded, key=lambda r: (r["date"], r["game"], r["goalie"], r["book"])):
         if r["outcome"] == "VOID":
             key = (r["event_id"], r["goalie"], "void")
             if key not in seen:
                 seen.add(key)
-                lines.append(f"{r['goalie']}: didn't play (void)")
+                lines.append(f"{who(r, abbrevs)}: didn't play (void)")
             continue
         key = (r["event_id"], r["goalie"], r["line"])
         books = [x["book"] for x in graded if (x["event_id"], x["goalie"], x["line"]) == key]
         if key in seen:
             continue
         seen.add(key)
-        label = {"OVER": f"o{r['line']}", "LEAN_OVER": f"lean o{r['line']}",
-                 "UNDER": f"u{r['line']}", "LEAN_UNDER": f"lean u{r['line']}"}.get(
-                     r["tag"], f"{r['line']} no edge")
+        label = {"OVER": f"o{r['line']} OVER", "LEAN_OVER": f"o{r['line']} LEAN OVER",
+                 "UNDER": f"u{r['line']} UNDER", "LEAN_UNDER": f"u{r['line']} LEAN UNDER"}.get(
+                     r["tag"], f"{r['line']} NO EDGE")
+        if r.get("fire") == "1":
+            label += " 🔥"
         mark = {"W": " ✅", "L": " ❌", "P": " push"}.get(r["result"], f" → went {r['outcome'].lower()}")
-        lines.append(f"{r['goalie']} {label} ({'/'.join(books)}): {r['actual_saves']} saves{mark}")
+        lines.append(f"{who(r, abbrevs)} {label} ({'/'.join(books)}): {r['actual_saves']} saves{mark}")
     all_rows = load_picks()
-    season = " · ".join(f"{TAG_LABELS[t].capitalize()} {fmt_record(*record_line(all_rows, t))}"
+    season = " · ".join(f"{TAG_LABELS[t]} {fmt_record(*record_line(all_rows, t))}"
                         for t in ("OVER", "LEAN_OVER", "UNDER", "LEAN_UNDER"))
+    fire_rows = [r for r in all_rows if r.get("fire") == "1"]
+    season += " · 🔥 " + fmt_record(*[a + b for a, b in zip(record_line(fire_rows, "OVER"),
+                                                          record_line(fire_rows, "UNDER"))])
     return "\n".join(lines) + "\n\nSeason: " + season
 
 
@@ -784,14 +851,14 @@ def rank_line(event, side, ab, raw):
             f"{ab[side]} shots against {place(own, 'sa')} ({raw[own]['sa']:.1f})")
 
 
-def book_parts(player, current, expected, delta):
+def book_parts(player, current, expected, delta, side=None, ctx=None):
     parts = []
     for book in BOOKS:
         ln = current.get(book, {}).get(player)
         short = BOOK_SHORT.get(book, book)
         if ln:
             parts.append(f"{short} {ln.get('point')} ({fmt_odds(ln.get('over'))}/"
-                         f"{fmt_odds(ln.get('under'))}){target_tag(expected, ln.get('point'), delta)}")
+                         f"{fmt_odds(ln.get('under'))}){target_tag(expected, ln.get('point'), delta, side, ctx)}")
         else:
             parts.append(f"{short} not yet")
     return parts
@@ -802,16 +869,17 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
     """One message per game per run.
     Goalies seen for the first time get a full block:
         Saves - VAN @ CAR · Thu 7:10 PM
-        Kevin Lankinen (VAN) · DK 28.5 (-105/-130) (no edge) · FD not yet
+        Lankinen (VAN) · DK 28.5 (-105/-130) (NO EDGE) · FD not yet
         Exp. 25.6 saves, 29.0 shots
         H2H last 4: on VAN 33, 38, 20, 32 (avg 30.8)       <- once per game
         on CAR 22, 17, 14, 27 (avg 20.0)
         CAR shots for 7th most (30.3) · VAN shots against 5th most (30.5)
     A goalie already alerted who shows up at the other book gets one line:
-        FD added - VAN @ CAR: Lankinen 27.5 (-114/-114) (no edge)"""
+        FD added: Lankinen (VAN) vs. CAR 27.5 (-114/-114) (NO EDGE)"""
     sides, abbrevs = sides or {}, abbrevs or {}
     ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) or nickname(event[f"{s}_team"])
           for s in ("away", "home")}
+    ctx = fire_context(event, ab, h2h, raw, m)
     new_goalies = sorted({p for _, p in new_pairs if p not in known_before})
     added = sorted((b, p) for b, p in new_pairs if p in known_before)
     out = []
@@ -821,8 +889,8 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
             side = sides.get(player)
             g = m[side] if (m and side) else None
             expected, delta = (g["saves"], g["delta"]) if g else (None, None)
-            team = f" ({ab[side]})" if side else ""
-            out.append(f"{player}{team} · " + " · ".join(book_parts(player, current, expected, delta)))
+            label = f"{last_name(player)} ({ab[side]})" if side else last_name(player)
+            out.append(f"{label} · " + " · ".join(book_parts(player, current, expected, delta, side, ctx)))
             if g:
                 out.append(f"Exp. {g['saves']:.1f} saves, {g['shots']:.1f} shots")
             elif m:
@@ -837,10 +905,12 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
         side = sides.get(player)
         g = m[side] if (m and side) else None
         ln = current.get(book, {}).get(player, {})
-        tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None)
-        out.append(f"{BOOK_SHORT.get(book, book)} added - {ab['away']} @ {ab['home']}: "
-                   f"{player.split()[-1]} {ln.get('point')} ({fmt_odds(ln.get('over'))}/"
-                   f"{fmt_odds(ln.get('under'))}){tag}")
+        tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx)
+        other = "home" if side == "away" else "away"
+        who_ = (f"{last_name(player)} ({ab[side]}) vs. {ab[other]}" if side
+                else f"{last_name(player)} ({ab['away']} @ {ab['home']})")
+        out.append(f"{BOOK_SHORT.get(book, book)} added: {who_} {ln.get('point')} "
+                   f"({fmt_odds(ln.get('over'))}/{fmt_odds(ln.get('under'))}){tag}")
     return "\n".join(out)
 
 
@@ -871,14 +941,8 @@ def main():
         dates = sorted({r["date"] for r in graded})
         title = "Saves results: " + ", ".join(
             datetime.strptime(d, "%Y-%m-%d").strftime("%b %-d") for d in dates)
-        msg = results_message(graded)
-        left = state.get("credits_remaining")  # as of the last run
-        if left is not None:
-            before = state.get("credits_at_summary")
-            used = f" ({before - left} used since last summary)" if before is not None and before >= left else ""
-            msg += f"\nCredits: {left} left{used}"
-            state["credits_at_summary"] = left
-        send_push(title, msg)
+        abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+        send_push(title, results_message(graded, abbrevs))
         print(f"Graded {len(graded)} pick(s) from {', '.join(dates)}")
 
     events, remaining = api_get(f"/sports/{SPORT}/events", {
@@ -979,7 +1043,7 @@ def main():
                                         known_before, show_h2h, (stats or {}).get("raw")))
             if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
                 rec["h2h_sent"] = True
-            log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now)
+            log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"))
             alerts += 1
             names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
             print(f"ALERT {rec['matchup']}: {names}")
