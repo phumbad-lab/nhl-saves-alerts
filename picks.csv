@@ -46,3 +46,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,FD,22.5,-128,-104,20.7,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T21:50:15Z
 2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,DK,26.5,-120,-115,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z
 2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,DK,21.5,-125,-105,21.7,LEAN_UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z
+2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,DK,24.5,-130,-105,24.9,FADE,,,,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T18:15:15Z
+2026-10-09,Kraken @ Wings,John Gibson,DET,DK,24.5,-120,-110,23.1,FADE,,,,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T18:15:15Z
