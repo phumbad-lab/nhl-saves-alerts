@@ -396,32 +396,6 @@
       },
       "matchup": "Edmonton Oilers @ Anaheim Ducks"
     },
-    "e77f5de1229c03c1338f5cf3eb6797ba": {
-      "commence_time": "2026-10-07T00:20:00Z",
-      "last_paid_check": "2026-10-06T17:45:10Z",
-      "lines": {
-        "draftkings": {
-          "Spencer Knight": {
-            "over": -105,
-            "point": 22.5,
-            "under": -130
-          }
-        },
-        "fanduel": {
-          "Joel Hofer": {
-            "over": -128,
-            "point": 22.5,
-            "under": -104
-          },
-          "Spencer Knight": {
-            "over": -130,
-            "point": 21.5,
-            "under": -102
-          }
-        }
-      },
-      "matchup": "St Louis Blues @ Chicago Blackhawks"
-    },
     "fb3c9515a5d3d97871d8e1a16b66bbad": {
       "commence_time": "2026-10-08T23:10:00Z",
       "last_paid_check": "2026-10-08T18:40:16Z",
