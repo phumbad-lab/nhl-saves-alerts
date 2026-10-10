@@ -1540,7 +1540,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.03,
-    "fetched": "2026-10-09T20:40:16Z",
+    "fetched": "2026-10-10T02:45:18Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.66666,
@@ -1571,16 +1571,16 @@
         "sf": 32.25
       },
       "columbusbluejackets": {
-        "sa": 28.5,
-        "sf": 21.0
+        "sa": 26.33333,
+        "sf": 29.0
       },
       "dallasstars": {
         "sa": 22.25,
         "sf": 24.75
       },
       "detroitredwings": {
-        "sa": 24.33333,
-        "sf": 31.33333
+        "sa": 24.25,
+        "sf": 33.5
       },
       "edmontonoilers": {
         "sa": 24.0,
@@ -1615,8 +1615,8 @@
         "sf": 24.25
       },
       "newyorkrangers": {
-        "sa": 23.6,
-        "sf": 23.2
+        "sa": 24.16666,
+        "sf": 23.0
       },
       "ottawasenators": {
         "sa": 28.25,
@@ -1627,16 +1627,16 @@
         "sf": 21.2
       },
       "pittsburghpenguins": {
-        "sa": 26.5,
-        "sf": 32.25
+        "sa": 30.2,
+        "sf": 30.2
       },
       "sanjosesharks": {
         "sa": 28.25,
         "sf": 24.25
       },
       "seattlekraken": {
-        "sa": 28.0,
-        "sf": 26.5
+        "sa": 30.4,
+        "sf": 26.0
       },
       "stlouisblues": {
         "sa": 27.25,
@@ -1663,15 +1663,15 @@
         "sf": 33.2
       },
       "washingtoncapitals": {
-        "sa": 31.0,
-        "sf": 25.0
+        "sa": 28.75,
+        "sf": 25.5
       },
       "winnipegjets": {
         "sa": 32.75,
         "sf": 28.5
       }
     },
-    "save_pct": 0.8847,
+    "save_pct": 0.8857,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
