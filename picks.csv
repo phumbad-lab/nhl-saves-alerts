@@ -80,3 +80,6 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-10,Canucks @ Devils,Jake Allen,NJD,DK,20.5,-135,+100,24.3,FADE,,,,c7f455eb3013583ec1f49f025b777801,2026-10-10T19:40:00Z,Vancouver Canucks,New Jersey Devils,2026-10-10T17:40:15Z,
 2026-10-10,Canucks @ Devils,Jake Allen,NJD,FD,21.5,-108,-122,24.3,FADE,,,,c7f455eb3013583ec1f49f025b777801,2026-10-10T19:40:00Z,Vancouver Canucks,New Jersey Devils,2026-10-10T17:40:15Z,
 2026-10-10,Lightning @ Islanders,Ilya Sorokin,NYI,FD,23.5,-125,-106,25.0,FADE,,,,15f36c06476a3c7811b74283878ee66e,2026-10-10T23:40:00Z,Tampa Bay Lightning,New York Islanders,2026-10-10T17:45:16Z,
+2026-10-10,Predators @ Senators,Juuse Saros,NSH,DK,27.5,+100,-135,24.7,FADE,,,,a0b4b7224d0d849d54511cd9a4780531,2026-10-10T23:10:00Z,Nashville Predators,Ottawa Senators,2026-10-10T17:55:12Z,
+2026-10-10,Predators @ Senators,Juuse Saros,NSH,FD,26.5,-128,-104,24.7,FADE,,,,a0b4b7224d0d849d54511cd9a4780531,2026-10-10T23:10:00Z,Nashville Predators,Ottawa Senators,2026-10-10T17:55:12Z,
+2026-10-10,Predators @ Senators,Linus Ullmark,OTT,FD,21.5,-112,-118,22.6,FADE,,,,a0b4b7224d0d849d54511cd9a4780531,2026-10-10T23:10:00Z,Nashville Predators,Ottawa Senators,2026-10-10T17:55:12Z,
