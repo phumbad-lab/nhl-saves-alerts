@@ -44,14 +44,14 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-08,Leafs @ Knights,Adin Hill,VGK,FD,22.5,-122,-108,24.1,FADE,21,UNDER,-,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z,
 2026-10-08,Leafs @ Knights,Sergei Bobrovsky,TOR,FD,26.5,-114,-114,26.4,LEAN_OVER,40,OVER,W,a46280b902edb2cb0a859b0efcd01e8e,2026-10-09T02:10:00Z,Toronto Maple Leafs,Vegas Golden Knights,2026-10-08T20:00:22Z,
 2026-10-08,Blackhawks @ Islanders,Ilya Sorokin,NYI,FD,22.5,-128,-104,20.7,UNDER,22,UNDER,W,456511627961686e38a6c7699142504c,2026-10-08T23:40:00Z,Chicago Blackhawks,New York Islanders,2026-10-08T21:50:15Z,
-2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,DK,26.5,-120,-115,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z,
-2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,DK,21.5,-125,-105,21.7,LEAN_UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z,
-2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,DK,24.5,-130,-105,24.9,FADE,,,,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T18:15:15Z,
-2026-10-09,Kraken @ Wings,John Gibson,DET,DK,24.5,-120,-110,23.1,FADE,,,,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T18:15:15Z,
-2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,DK,23.5,-130,-105,25.7,OVER,,,,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T19:25:14Z,
-2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,FD,26.5,+100,-132,21.2,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,1
-2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,FD,22.5,-104,-128,21.7,UNDER,,,,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,
-2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,FD,24.5,-130,-102,24.9,FADE,,,,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T21:15:16Z,
-2026-10-09,Kraken @ Wings,John Gibson,DET,FD,23.5,-128,-104,23.1,FADE,,,,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T21:15:16Z,
-2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,FD,23.5,-130,-102,25.7,OVER,,,,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T21:30:19Z,1
-2026-10-09,Ducks @ Jets,Lukas Dostal,ANA,DK,24.5,-120,-115,22.7,FADE,,,,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:15:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-10T00:10:15Z,
+2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,DK,26.5,-120,-115,21.2,UNDER,13,UNDER,W,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z,
+2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,DK,21.5,-125,-105,21.7,LEAN_UNDER,21,UNDER,W,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T15:45:17Z,
+2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,DK,24.5,-130,-105,24.9,FADE,43,OVER,-,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T18:15:15Z,
+2026-10-09,Kraken @ Wings,John Gibson,DET,DK,24.5,-120,-110,23.1,FADE,10,UNDER,-,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T18:15:15Z,
+2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,DK,23.5,-130,-105,25.7,OVER,12,UNDER,L,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T19:25:14Z,
+2026-10-09,Rangers @ Capitals,Igor Shesterkin,NYR,FD,26.5,+100,-132,21.2,UNDER,13,UNDER,W,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,1
+2026-10-09,Rangers @ Capitals,Logan Thompson,WSH,FD,22.5,-104,-128,21.7,UNDER,21,UNDER,W,86ba05a73a0355958b629023b20ba955,2026-10-09T23:10:00Z,New York Rangers,Washington Capitals,2026-10-09T20:55:13Z,
+2026-10-09,Penguins @ Jackets,Sergei Murashov,PIT,FD,24.5,-130,-102,24.9,FADE,43,OVER,-,1eb386b963ae5a82eba436c25e50cf24,2026-10-09T23:10:00Z,Pittsburgh Penguins,Columbus Blue Jackets,2026-10-09T21:15:16Z,
+2026-10-09,Kraken @ Wings,John Gibson,DET,FD,23.5,-128,-104,23.1,FADE,10,UNDER,-,30e778f30fcb48f94af24793f5bd201a,2026-10-09T23:10:00Z,Seattle Kraken,Detroit Red Wings,2026-10-09T21:15:16Z,
+2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,FD,23.5,-130,-102,25.7,OVER,12,UNDER,L,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T21:30:19Z,1
+2026-10-09,Ducks @ Jets,Lukas Dostal,ANA,DK,24.5,-120,-115,22.7,FADE,15,UNDER,-,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:15:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-10T00:10:15Z,
