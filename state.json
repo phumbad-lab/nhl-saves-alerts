@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 362,
+  "credits_remaining": 361,
   "events": {
     "01d78cd04d7c4fb958e1d02bace05ec4": {
       "commence_time": "2026-10-09T00:10:00Z",
@@ -609,7 +609,7 @@
     "b75f9f59f0f845e2ba7dc5f8e5b3e35d": {
       "commence_time": "2026-10-10T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-10T17:25:13Z",
+      "last_paid_check": "2026-10-10T20:30:18Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
