@@ -123,9 +123,12 @@ def fmt_odds(price):
     return f"+{price}" if price > 0 else str(price)
 
 
-def fmt_time(commence):
+def fmt_time(commence, now=None):
+    """'7:10PM' for a game today (Eastern); 'Sun 7:10PM' if it's another day."""
     local = parse_iso(commence).astimezone(LOCAL_TZ)
-    return local.strftime("%a %-I:%M %p").replace(":00 ", " ")
+    today = (now or datetime.now(timezone.utc)).astimezone(LOCAL_TZ).date()
+    t = local.strftime("%-I:%M%p")
+    return t if local.date() == today else f"{local.strftime('%a')} {t}"
 
 
 def api_get(path, params):
@@ -890,7 +893,7 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
                   known_before=(), show_h2h=True, raw=None, games=None):
     """One message per game per run.
     Goalies seen for the first time get a full block:
-        Kuemper (LAK) - LAK @ VGK · Sat 10:10 PM
+        Kuemper (LAK) - LAK@VGK 10:10PM
         DK 26.5 OVER · FD not yet
         30.9 shots, 27.3 saves expected
         H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)            <- once per game
@@ -898,7 +901,7 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
         VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
         LAK L4 Against: 30-FLA 25-SJS 29-COL 22-BOS (15th most 28.0)
     A goalie already alerted who shows up at the other book gets one line:
-        FD added: Kuemper (LAK) vs. VGK 26.5 OVER"""
+        Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)"""
     sides, abbrevs = sides or {}, abbrevs or {}
     ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) or nickname(event[f"{s}_team"])
           for s in ("away", "home")}
@@ -906,7 +909,8 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
     new_goalies = sorted({p for _, p in new_pairs if p not in known_before})
     added = sorted((b, p) for b, p in new_pairs if p in known_before)
     out = []
-    game = f"{ab['away']} @ {ab['home']} · {fmt_time(event['commence_time'])}"
+    when = fmt_time(event['commence_time'])
+    game = f"{ab['away']}@{ab['home']} {when}"
     for i, player in enumerate(new_goalies):
         if out:
             out.append("")  # blank line between goalies
@@ -930,10 +934,9 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
         g = m[side] if (m and side) else None
         ln = current.get(book, {}).get(player, {})
         tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx)
-        other = "home" if side == "away" else "away"
-        who_ = (f"{last_name(player)} ({ab[side]}) vs. {ab[other]}" if side
-                else f"{last_name(player)} ({ab['away']} @ {ab['home']})")
-        out.append(f"{BOOK_SHORT.get(book, book)} added: {who_} {ln.get('point')}{tag}")
+        who_ = (f"{last_name(player)} ({ab[side]})" if side
+                else f"{last_name(player)} ({ab['away']}@{ab['home']})")
+        out.append(f"{who_} {ln.get('point')}{tag} · {when} ({BOOK_SHORT.get(book, book)} added)")
     return "\n".join(out)
 
 

@@ -5,7 +5,7 @@ Checks DraftKings and FanDuel every 5 minutes (via cron-job.org). When a book po
 Example alert (first time a goalie posts):
 
 ```
-Kuemper (LAK) - LAK @ VGK · Sat 10:10 PM
+Kuemper (LAK) - LAK@VGK 10:10PM
 DK 26.5 OVER · FD not yet
 30.9 shots, 27.3 saves expected
 H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
@@ -20,7 +20,8 @@ LAK L3 Against: 30-FLA 25-SJS 29-COL (15th most 28.0)
 - **L4 For / L4 Against** = the opponent's shots in each of its last four games and this goalie's team's shots allowed in each of its last four, newest first, with the opponent for each game (raw numbers). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than four games shows what it has (L3, etc.). To change the count, edit `RECENT_GAMES = 4` in `saves_alert.py`.
 - The second goalie in a game gets the same block (without H2H) when he posts.
 - When the other book posts a goalie you've already been alerted on, you get one line:
-  `FD added: Kuemper (LAK) vs. VGK 26.5 OVER`
+  `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`
+- Times are Eastern. A game on a later day shows the day too (`Sun 7:10PM`).
 
 Everything here is free.
 
