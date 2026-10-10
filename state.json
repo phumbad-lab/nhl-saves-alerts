@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 357,
+  "credits_remaining": 356,
   "events": {
     "01d78cd04d7c4fb958e1d02bace05ec4": {
       "commence_time": "2026-10-09T00:10:00Z",
@@ -704,13 +704,20 @@
     "d9285582597ee00291a57aaf08f4bd50": {
       "commence_time": "2026-10-11T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-10T20:05:12Z",
+      "last_paid_check": "2026-10-10T21:05:13Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
             "over": -110,
             "point": 26.5,
             "under": -120
+          }
+        },
+        "fanduel": {
+          "Darcy Kuemper": {
+            "over": -108,
+            "point": 26.5,
+            "under": -122
           }
         }
       },
