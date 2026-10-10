@@ -246,7 +246,7 @@
       "matchup": "Minnesota Wild @ Florida Panthers"
     },
     "525f2399515c855c7a1ae5b984deeb6a": {
-      "commence_time": "2026-10-10T23:10:00Z",
+      "commence_time": "2026-10-10T23:20:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-10-10T22:55:12Z",
       "lines": {
@@ -407,39 +407,8 @@
       },
       "matchup": "New York Rangers @ Washington Capitals"
     },
-    "9f6db651fe2d7363616cc72625c4972d": {
-      "commence_time": "2026-10-08T23:15:00Z",
-      "last_paid_check": "2026-10-08T18:50:16Z",
-      "lines": {
-        "draftkings": {
-          "Joseph Woll": {
-            "over": -115,
-            "point": 25.5,
-            "under": -115
-          },
-          "Linus Ullmark": {
-            "over": -110,
-            "point": 22.5,
-            "under": -120
-          }
-        },
-        "fanduel": {
-          "Joseph Woll": {
-            "over": -108,
-            "point": 25.5,
-            "under": -122
-          },
-          "Linus Ullmark": {
-            "over": -108,
-            "point": 22.5,
-            "under": -122
-          }
-        }
-      },
-      "matchup": "Philadelphia Flyers @ Ottawa Senators"
-    },
     "a0b4b7224d0d849d54511cd9a4780531": {
-      "commence_time": "2026-10-10T23:10:00Z",
+      "commence_time": "2026-10-10T23:20:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-10-10T17:55:12Z",
       "lines": {
