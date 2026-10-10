@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 396,
+  "credits_remaining": 395,
   "events": {
     "01d78cd04d7c4fb958e1d02bace05ec4": {
       "commence_time": "2026-10-09T00:10:00Z",
@@ -252,8 +252,17 @@
     },
     "7824aa2e736cf181d6d0e9e45b228f2b": {
       "commence_time": "2026-10-10T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-10T15:30:18Z",
+      "lines": {
+        "draftkings": {
+          "Spencer Knight": {
+            "over": -105,
+            "point": 26.5,
+            "under": -130
+          }
+        }
+      },
       "matchup": "Carolina Hurricanes @ Chicago Blackhawks"
     },
     "7895b6bd10de620acba34059d4ad4e09": {
@@ -1192,6 +1201,39 @@
       ]
     ]
   },
+  "h2h_CAR-CHI": {
+    "fetched": "2026-10-10T15:30:18Z",
+    "value": [
+      [
+        "2026-04-09",
+        "CAR",
+        "CHI",
+        22,
+        25
+      ],
+      [
+        "2026-01-22",
+        "CHI",
+        "CAR",
+        22,
+        31
+      ],
+      [
+        "2025-01-30",
+        "CHI",
+        "CAR",
+        20,
+        27
+      ],
+      [
+        "2025-01-20",
+        "CAR",
+        "CHI",
+        48,
+        25
+      ]
+    ]
+  },
   "h2h_CAR-VAN": {
     "fetched": "2026-10-08T18:25:13Z",
     "value": [
@@ -1645,7 +1687,7 @@
     ]
   },
   "roster_CAR": {
-    "fetched": "2026-10-08T16:20:17Z",
+    "fetched": "2026-10-10T15:30:18Z",
     "value": [
       "Brandon Bussi",
       "Pyotr Kochetkov"
@@ -1666,7 +1708,7 @@
     ]
   },
   "roster_CHI": {
-    "fetched": "2026-10-08T16:30:22Z",
+    "fetched": "2026-10-10T15:30:18Z",
     "value": [
       "Spencer Knight",
       "Arvid Soderblom"
