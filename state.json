@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 368,
+  "credits_remaining": 366,
   "events": {
     "01d78cd04d7c4fb958e1d02bace05ec4": {
       "commence_time": "2026-10-09T00:10:00Z",
@@ -107,13 +107,20 @@
     "1e0601b21b573df36bc79e769dcd5e4b": {
       "commence_time": "2026-10-10T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-10T16:25:13Z",
+      "last_paid_check": "2026-10-10T19:25:13Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
             "over": 100,
             "point": 22.5,
             "under": -135
+          }
+        },
+        "fanduel": {
+          "Jake Oettinger": {
+            "over": -104,
+            "point": 22.5,
+            "under": -128
           }
         }
       },
@@ -624,20 +631,30 @@
     "c7f455eb3013583ec1f49f025b777801": {
       "commence_time": "2026-10-10T19:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-10T18:25:12Z",
+      "last_paid_check": "2026-10-10T19:25:13Z",
       "lines": {
         "draftkings": {
           "Jake Allen": {
-            "over": -135,
+            "over": -130,
             "point": 20.5,
-            "under": 100
+            "under": -105
+          },
+          "Leevi Merilainen": {
+            "over": -120,
+            "point": 28.5,
+            "under": -115
           }
         },
         "fanduel": {
           "Jake Allen": {
-            "over": -110,
+            "over": -106,
             "point": 21.5,
-            "under": -122
+            "under": -125
+          },
+          "Leevi Merilainen": {
+            "over": -110,
+            "point": 29.5,
+            "under": -120
           }
         }
       },
