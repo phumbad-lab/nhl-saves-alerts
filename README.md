@@ -5,20 +5,22 @@ Checks DraftKings and FanDuel every 5 minutes (via cron-job.org). When a book po
 Example alert (first time a goalie posts):
 
 ```
-Saves - VAN @ CAR · Thu 7:10 PM
-Lankinen (VAN) · DK 28.5 (-105/-130) (NO EDGE) · FD not yet
-Exp. 25.6 saves, 29.0 shots
-H2H last 4: on VAN 33, 38, 20, 32 (avg 30.8)
-on CAR 22, 17, 14, 27 (avg 20.0)
-CAR shots for 7th most (30.2) · VAN shots against 7th most (30.0)
+Kuemper (LAK) - LAK @ VGK · Sat 10:10 PM
+DK 26.5 OVER · FD not yet
+30.9 shots, 27.3 saves expected
+H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
+H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
+VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
+LAK L3 Against: 30-FLA 25-SJS 29-COL (15th most 28.0)
 ```
 
-- **Exp.** = expected saves and shots for this goalie tonight (opponent-adjusted, home/road blended).
-- **H2H last 4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
-- **Rank line** = the opponent's shots for and this goalie's team's shots against, ranked across the league from raw season numbers ("most" for the top half, "least" for the bottom half), with the per-game average.
+- **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
+- **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
+- **H2H L4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
+- **L4 For / L4 Against** = the opponent's shots in each of its last four games and this goalie's team's shots allowed in each of its last four, newest first, with the opponent for each game (raw numbers). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than four games shows what it has (L3, etc.). To change the count, edit `RECENT_GAMES = 4` in `saves_alert.py`.
 - The second goalie in a game gets the same block (without H2H) when he posts.
 - When the other book posts a goalie you've already been alerted on, you get one line:
-  `FD added: Lankinen (VAN) vs. CAR 27.5 (-114/-114) (NO EDGE)`
+  `FD added: Kuemper (LAK) vs. VGK 26.5 OVER`
 
 Everything here is free.
 
@@ -102,19 +104,19 @@ Using this season's NHL team stats (free, refreshed every 6 hours), each goalie 
   - Splits are blended with each team's overall numbers and trusted more as games pile up: weight = split games ÷ (split games + 5). That's 17% after 1 game, 50% after 5 and 67% after 10. To change how fast splits take over, edit `HOME_ROAD_K = 5` near the top of `saves_alert.py` (lower = sooner).
 - **expected saves** = expected shots × the league's save percentage
 
-Every game is watched. A goalie has a **lean** when his expected shots are `SHOT_THRESHOLD` (default 2) or more above or below the league average; games where neither goalie has a lean are listed in each run's log as `Middling matchup` and their lines are tagged (NO EDGE).
+Every game is watched. A goalie has a **lean** when his expected shots are `SHOT_THRESHOLD` (default 2) or more above or below the league average; games where neither goalie has a lean are listed in each run's log as `Middling matchup` and their lines are tagged NO EDGE.
 
 Each goalie is matched to his team using NHL rosters. **The matchup picks the direction, and the line picks the strength:**
 
 | Goalie's expected shots | Line vs his expected saves | Tag |
 |---|---|---|
-| **+2 or more** vs average (overs only) | at or below expected | **(OVER)** |
-| | up to 1 save above | **(LEAN OVER)** |
-| | more than 1 above | **(NO EDGE)**, never an under |
-| **−2 or more** vs average (unders only) | at or above expected | **(UNDER)** |
-| | up to 1 save below | **(LEAN UNDER)** |
-| | more than 1 below | **(NO EDGE)**, never an over |
-| in between (middling) | any | **(NO EDGE)** |
+| **+2 or more** vs average (overs only) | at or below expected | **OVER** |
+| | up to 1 save above | **LEAN OVER** |
+| | more than 1 above | **NO EDGE**, never an under |
+| **−2 or more** vs average (unders only) | at or above expected | **UNDER** |
+| | up to 1 save below | **LEAN UNDER** |
+| | more than 1 below | **NO EDGE**, never an over |
+| in between (middling) | any | **NO EDGE** |
 
 Example: Lankinen expected 26.6 saves facing Carolina (+3.2 shots), so 26.5 is over, 27.5 is lean over and 28.5 is no edge.
 
@@ -140,7 +142,7 @@ Season: Over 3-0 (100%) · Lean over 1-1 (50%) · Under 2-0 (100%) · Lean under
 - The line logged is the first one seen (what you could have bet when alerted), not the closing line.
 
 ## 🔥 Fire picks
-A tag gets a 🔥, as in `(OVER 🔥)`, only when three things agree:
+A tag gets a 🔥, as in `OVER 🔥`, only when three things agree:
 1. It's an **OVER or UNDER** (never a lean) and expected saves are **2+ saves** past the line.
 2. **H2H agrees**: in recent meetings, this goalie's team faced above-average shots (for an over) or below-average (for an under). No H2H means no fire.
 3. **Raw ranks agree**: for an over, the opponent is top-10 in shots for or his team is top-10 in shots allowed; for an under, the bottom-10 versions.

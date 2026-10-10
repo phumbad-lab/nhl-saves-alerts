@@ -401,8 +401,7 @@ def fmt_h2h(h2h, ab):
     for i, team in enumerate((ab["away"], ab["home"])):
         faced = [(g[4] if g[1] == team else g[3]) for g in h2h]  # opponent's shots = shots on this goalie
         nums = ", ".join(str(x) for x in faced)
-        label = f"H2H last {len(h2h)}: " if i == 0 else ""
-        lines.append(f"{label}on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
+        lines.append(f"H2H L{len(h2h)}: on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
     return lines
 
 
@@ -584,7 +583,7 @@ def target_tag(expected, point, delta, side=None, ctx=None):
     if not code:
         return ""
     fire = " 🔥" if is_fire(code, expected, point, side, ctx) else ""
-    return f" ({TAG_LABELS[code]}{fire})"
+    return f" {TAG_LABELS[code]}{fire}"
 
 
 # ---------- pick log & grading ----------
@@ -834,22 +833,45 @@ def ordinal(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
 
 
-def rank_line(event, side, ab, raw):
-    """e.g. 'CAR shots for 7th most (30.2) · VAN shots against 7th most (30.0)' or '... 4th least (21.2)'.
-    Uses raw (unadjusted) season numbers, the ones you'd see looking a team up."""
+RECENT_GAMES = 4  # games listed on the "L4 For / L4 Against" lines
+
+
+def recent_games(games, team, stat, n=RECENT_GAMES):
+    """Last n games for a team, newest first, as '43-TOR 28-SEA ...'.
+    stat 'sf' = shots the team took, 'sa' = shots it allowed. Raw numbers."""
+    out = []
+    for d, a, h, asog, hsog in sorted(games or [], key=lambda g: g[0], reverse=True):
+        if team not in (a, h):
+            continue
+        away = team == a
+        shots = (asog if away else hsog) if stat == "sf" else (hsog if away else asog)
+        out.append(f"{shots}-{h if away else a}")
+        if len(out) == n:
+            break
+    return out
+
+
+def rank_line(event, side, ab, raw, games=None):
+    """Two lines, e.g.
+        VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
+        LAK L4 Against: 30-FLA 25-SJS 29-COL (15th most 28.0)
+    Ranks and averages use raw (unadjusted) season numbers, the ones you'd see looking a team up."""
     if not raw:
-        return None
+        return []
     other = "home" if side == "away" else "away"
     opp, own = team_key(event[f"{other}_team"]), team_key(event[f"{side}_team"])
     if opp not in raw or own not in raw:
-        return None
+        return []
     def place(key, stat):  # "7th most" for the top half, "4th least" for the bottom half
         val = raw[key][stat]
         most = 1 + sum(1 for t in raw.values() if t[stat] > val)
         least = 1 + sum(1 for t in raw.values() if t[stat] < val)
         return f"{ordinal(most)} most" if most <= least else f"{ordinal(least)} least"
-    return (f"{ab[other]} shots for {place(opp, 'sf')} ({raw[opp]['sf']:.1f}) · "
-            f"{ab[side]} shots against {place(own, 'sa')} ({raw[own]['sa']:.1f})")
+    def line(team, key, stat, word):
+        recent = recent_games(games, team, stat)
+        label = f"L{len(recent)} {word}: " + " ".join(recent) + " " if recent else f"{word}: "
+        return f"{team} {label}({place(key, stat)} {raw[key][stat]:.1f})"
+    return [line(ab[other], opp, "sf", "For"), line(ab[side], own, "sa", "Against")]
 
 
 def book_parts(player, current, expected, delta, side=None, ctx=None):
@@ -858,25 +880,25 @@ def book_parts(player, current, expected, delta, side=None, ctx=None):
         ln = current.get(book, {}).get(player)
         short = BOOK_SHORT.get(book, book)
         if ln:
-            parts.append(f"{short} {ln.get('point')} ({fmt_odds(ln.get('over'))}/"
-                         f"{fmt_odds(ln.get('under'))}){target_tag(expected, ln.get('point'), delta, side, ctx)}")
+            parts.append(f"{short} {ln.get('point')}{target_tag(expected, ln.get('point'), delta, side, ctx)}")
         else:
             parts.append(f"{short} not yet")
     return parts
 
 
 def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h2h=None,
-                  known_before=(), show_h2h=True, raw=None):
+                  known_before=(), show_h2h=True, raw=None, games=None):
     """One message per game per run.
     Goalies seen for the first time get a full block:
-        Saves - VAN @ CAR · Thu 7:10 PM
-        Lankinen (VAN) · DK 28.5 (-105/-130) (NO EDGE) · FD not yet
-        Exp. 25.6 saves, 29.0 shots
-        H2H last 4: on VAN 33, 38, 20, 32 (avg 30.8)       <- once per game
-        on CAR 22, 17, 14, 27 (avg 20.0)
-        CAR shots for 7th most (30.3) · VAN shots against 5th most (30.5)
+        Kuemper (LAK) - LAK @ VGK · Sat 10:10 PM
+        DK 26.5 OVER · FD not yet
+        30.9 shots, 27.3 saves expected
+        H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)            <- once per game
+        H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
+        VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
+        LAK L4 Against: 30-FLA 25-SJS 29-COL 22-BOS (15th most 28.0)
     A goalie already alerted who shows up at the other book gets one line:
-        FD added: Lankinen (VAN) vs. CAR 27.5 (-114/-114) (NO EDGE)"""
+        FD added: Kuemper (LAK) vs. VGK 26.5 OVER"""
     sides, abbrevs = sides or {}, abbrevs or {}
     ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) or nickname(event[f"{s}_team"])
           for s in ("away", "home")}
@@ -884,24 +906,25 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
     new_goalies = sorted({p for _, p in new_pairs if p not in known_before})
     added = sorted((b, p) for b, p in new_pairs if p in known_before)
     out = []
-    if new_goalies:
-        out.append(f"Saves - {ab['away']} @ {ab['home']} · {fmt_time(event['commence_time'])}")
-        for i, player in enumerate(new_goalies):
-            side = sides.get(player)
-            g = m[side] if (m and side) else None
-            expected, delta = (g["saves"], g["delta"]) if g else (None, None)
-            label = f"{last_name(player)} ({ab[side]})" if side else last_name(player)
-            out.append(f"{label} · " + " · ".join(book_parts(player, current, expected, delta, side, ctx)))
-            if g:
-                out.append(f"Exp. {g['saves']:.1f} saves, {g['shots']:.1f} shots")
-            elif m:
-                out.append(f"Exp. {ab['away']} goalie {m['away']['saves']:.1f} / "
-                           f"{ab['home']} goalie {m['home']['saves']:.1f} saves (team unknown)")
-            if i == 0 and show_h2h:
-                out.extend(fmt_h2h(h2h, ab))
-            rl = rank_line(event, side, ab, raw) if side else None
-            if rl:
-                out.append(rl)
+    game = f"{ab['away']} @ {ab['home']} · {fmt_time(event['commence_time'])}"
+    for i, player in enumerate(new_goalies):
+        if out:
+            out.append("")  # blank line between goalies
+        side = sides.get(player)
+        g = m[side] if (m and side) else None
+        expected, delta = (g["saves"], g["delta"]) if g else (None, None)
+        label = f"{last_name(player)} ({ab[side]})" if side else last_name(player)
+        out.append(f"{label} - {game}")
+        out.append(" · ".join(book_parts(player, current, expected, delta, side, ctx)))
+        if g:
+            out.append(f"{g['shots']:.1f} shots, {g['saves']:.1f} saves expected")
+        elif m:
+            out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
+                       f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
+        if i == 0 and show_h2h:
+            out.extend(fmt_h2h(h2h, ab))
+        if side:
+            out.extend(rank_line(event, side, ab, raw, games))
     for book, player in added:
         side = sides.get(player)
         g = m[side] if (m and side) else None
@@ -910,8 +933,7 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
         other = "home" if side == "away" else "away"
         who_ = (f"{last_name(player)} ({ab[side]}) vs. {ab[other]}" if side
                 else f"{last_name(player)} ({ab['away']} @ {ab['home']})")
-        out.append(f"{BOOK_SHORT.get(book, book)} added: {who_} {ln.get('point')} "
-                   f"({fmt_odds(ln.get('over'))}/{fmt_odds(ln.get('under'))}){tag}")
+        out.append(f"{BOOK_SHORT.get(book, book)} added: {who_} {ln.get('point')}{tag}")
     return "\n".join(out)
 
 
@@ -1046,7 +1068,8 @@ def main():
                           abbrevs.get(team_key(event["home_team"])), now)
             show_h2h = not rec.get("h2h_sent")
             send_push("", build_message(event, new_pairs, rec["lines"], m, sides, abbrevs, h2h,
-                                        known_before, show_h2h, (stats or {}).get("raw")))
+                                        known_before, show_h2h, (stats or {}).get("raw"),
+                                        (state.get("game_log") or {}).get("games")))
             if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
                 rec["h2h_sent"] = True
             log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"))
