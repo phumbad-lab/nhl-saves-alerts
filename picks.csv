@@ -65,3 +65,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-10,Lightning @ Islanders,Ilya Sorokin,NYI,DK,23.5,-120,-110,25.0,FADE,,,,15f36c06476a3c7811b74283878ee66e,2026-10-10T23:40:00Z,Tampa Bay Lightning,New York Islanders,2026-10-10T15:40:15Z,
 2026-10-10,Flyers @ Bruins,Dan Vladar,PHI,FD,23.5,-132,+100,25.2,FADE,,,,d85b0a6ad02d473031876a3286f80638,2026-10-10T17:10:00Z,Philadelphia Flyers,Boston Bruins,2026-10-10T15:55:12Z,
 2026-10-10,Flyers @ Bruins,Jeremy Swayman,BOS,FD,21.5,-114,-114,22.0,LEAN_UNDER,,,,d85b0a6ad02d473031876a3286f80638,2026-10-10T17:10:00Z,Philadelphia Flyers,Boston Bruins,2026-10-10T15:55:12Z,
+2026-10-10,Oilers @ Sharks,Tristan Jarry,EDM,DK,23.5,-120,-110,25.4,FADE,,,,08385500bdc8f9cbcab43927a7d21671,2026-10-10T20:10:00Z,Edmonton Oilers,San Jose Sharks,2026-10-10T16:15:14Z,
