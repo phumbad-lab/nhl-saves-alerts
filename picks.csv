@@ -56,3 +56,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-09,Ducks @ Jets,Clay Stevenson,WPG,FD,23.5,-130,-102,25.7,OVER,12,UNDER,L,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:10:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-09T21:30:19Z,1
 2026-10-09,Ducks @ Jets,Lukas Dostal,ANA,DK,24.5,-120,-115,22.7,FADE,15,UNDER,-,48ce8ebb422982764994cd25c5f253c7,2026-10-10T00:15:00Z,Anaheim Ducks,Winnipeg Jets,2026-10-10T00:10:15Z,
 2026-10-10,Lightning @ Islanders,Andrei Vasilevskiy,TBL,DK,23.5,-125,-110,22.0,UNDER,,,,15f36c06476a3c7811b74283878ee66e,2026-10-10T23:40:00Z,Tampa Bay Lightning,New York Islanders,2026-10-10T14:40:15Z,
+2026-10-10,Mammoth @ Sabres,Colten Ellis,BUF,DK,25.5,-120,-115,22.6,FADE,,,,7895b6bd10de620acba34059d4ad4e09,2026-10-10T23:10:00Z,Utah Mammoth,Buffalo Sabres,2026-10-10T14:50:16Z,
+2026-10-10,Predators @ Senators,Linus Ullmark,OTT,DK,22.5,-105,-130,22.6,FADE,,,,a0b4b7224d0d849d54511cd9a4780531,2026-10-10T23:10:00Z,Nashville Predators,Ottawa Senators,2026-10-10T14:50:16Z,
