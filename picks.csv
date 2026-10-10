@@ -70,3 +70,6 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-10,Stars @ Penguins,Jake Oettinger,DAL,DK,22.5,+100,-135,23.4,FADE,,,,1e0601b21b573df36bc79e769dcd5e4b,2026-10-10T23:10:00Z,Dallas Stars,Pittsburgh Penguins,2026-10-10T16:25:13Z,
 2026-10-10,Hurricanes @ Blackhawks,Spencer Knight,CHI,FD,26.5,-122,-108,25.5,FADE,,,,7824aa2e736cf181d6d0e9e45b228f2b,2026-10-10T23:10:00Z,Carolina Hurricanes,Chicago Blackhawks,2026-10-10T16:30:18Z,
 2026-10-10,Ducks @ Flames,Dustin Wolf,CGY,DK,25.5,-110,-125,23.0,FADE,,,,7ff1567200cc7c7c7d901f32f81ad4d4,2026-10-11T02:10:00Z,Anaheim Ducks,Calgary Flames,2026-10-10T16:35:15Z,
+2026-10-10,Flyers @ Bruins,Jeremy Swayman,BOS,DK,22.5,-110,-125,22.0,UNDER,,,,d85b0a6ad02d473031876a3286f80638,2026-10-10T17:10:00Z,Philadelphia Flyers,Boston Bruins,2026-10-10T16:55:12Z,
+2026-10-10,Mammoth @ Sabres,Colten Ellis,BUF,FD,23.5,-102,-130,22.6,FADE,,,,7895b6bd10de620acba34059d4ad4e09,2026-10-10T23:10:00Z,Utah Mammoth,Buffalo Sabres,2026-10-10T16:55:12Z,
+2026-10-10,Mammoth @ Sabres,Karel Vejmelka,UTA,FD,24.5,-114,-118,21.6,UNDER,,,,7895b6bd10de620acba34059d4ad4e09,2026-10-10T23:10:00Z,Utah Mammoth,Buffalo Sabres,2026-10-10T16:55:12Z,1
