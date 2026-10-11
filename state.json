@@ -384,37 +384,6 @@
       "lines": {},
       "matchup": "Vancouver Canucks @ New York Rangers"
     },
-    "a46280b902edb2cb0a859b0efcd01e8e": {
-      "commence_time": "2026-10-09T02:10:00Z",
-      "last_paid_check": "2026-10-08T20:00:22Z",
-      "lines": {
-        "draftkings": {
-          "Adin Hill": {
-            "over": -120,
-            "point": 22.5,
-            "under": -115
-          },
-          "Sergei Bobrovsky": {
-            "over": -130,
-            "point": 26.5,
-            "under": -105
-          }
-        },
-        "fanduel": {
-          "Adin Hill": {
-            "over": -122,
-            "point": 22.5,
-            "under": -108
-          },
-          "Sergei Bobrovsky": {
-            "over": -114,
-            "point": 26.5,
-            "under": -114
-          }
-        }
-      },
-      "matchup": "Toronto Maple Leafs @ Vegas Golden Knights"
-    },
     "a49ddd8a44071e340299ae7f22b4f359": {
       "commence_time": "2026-10-11T23:10:00Z",
       "last_paid_check": null,
