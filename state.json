@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19972,
+  "credits_remaining": 19971,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -23,8 +23,17 @@
     },
     "12a90ee4a941f857d0fc417663fb00c1": {
       "commence_time": "2026-10-11T21:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-11T18:56:10Z",
+      "lines": {
+        "draftkings": {
+          "Logan Thompson": {
+            "over": -115,
+            "point": 23.5,
+            "under": -115
+          }
+        }
+      },
       "matchup": "Seattle Kraken @ Washington Capitals"
     },
     "15f36c06476a3c7811b74283878ee66e": {
@@ -2045,6 +2054,39 @@
       ]
     ]
   },
+  "h2h_SEA-WSH": {
+    "fetched": "2026-10-11T18:56:10Z",
+    "value": [
+      [
+        "2026-01-27",
+        "WSH",
+        "SEA",
+        20,
+        32
+      ],
+      [
+        "2025-10-21",
+        "SEA",
+        "WSH",
+        19,
+        34
+      ],
+      [
+        "2025-03-09",
+        "SEA",
+        "WSH",
+        32,
+        24
+      ],
+      [
+        "2025-01-23",
+        "WSH",
+        "SEA",
+        32,
+        22
+      ]
+    ]
+  },
   "h2h_TOR-VGK": {
     "fetched": "2026-10-08T19:00:22Z",
     "value": [
@@ -2241,7 +2283,7 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-10-09T18:15:15Z",
+    "fetched": "2026-10-11T18:56:10Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
@@ -2306,7 +2348,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-10-09T15:45:17Z",
+    "fetched": "2026-10-11T18:56:10Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -2336,6 +2378,12 @@
       "book": null,
       "event_id": "a49ddd8a44071e340299ae7f22b4f359",
       "goalie": "Joseph Woll"
+    },
+    "128": {
+      "at": "2026-10-11T18:56:10Z",
+      "book": null,
+      "event_id": "12a90ee4a941f857d0fc417663fb00c1",
+      "goalie": "Logan Thompson"
     }
   },
   "shot_stats": {
