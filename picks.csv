@@ -109,3 +109,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-11,Canucks @ Rangers,Kevin Lankinen,VAN,FD,24.5,-122,-108,24.3,FADE,,,,a3bbd0dafd4fc9789cb6c3292aad999b,2026-10-11T22:10:00Z,Vancouver Canucks,New York Rangers,2026-10-11T21:50:16Z,,,,,
 2026-10-11,Canucks @ Rangers,Dylan Garand,NYR,FD,20.5,-106,-125,20.0,UNDER,,,,a3bbd0dafd4fc9789cb6c3292aad999b,2026-10-11T22:10:00Z,Vancouver Canucks,New York Rangers,2026-10-11T22:05:16Z,,,,,
 2026-10-11,Hurricanes @ Flyers,Pyotr Kochetkov,CAR,FD,20.5,-104,-128,19.6,UNDER,,,,a49ddd8a44071e340299ae7f22b4f359,2026-10-11T23:10:00Z,Carolina Hurricanes,Philadelphia Flyers,2026-10-11T22:50:19Z,,,,,
+2026-10-11,Hurricanes @ Flyers,Joseph Woll,PHI,FD,27.5,-122,-108,29.7,OVER,,,,a49ddd8a44071e340299ae7f22b4f359,2026-10-11T23:10:00Z,Carolina Hurricanes,Philadelphia Flyers,2026-10-11T23:06:11Z,1,,,,
