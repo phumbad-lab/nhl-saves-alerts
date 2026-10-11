@@ -2424,7 +2424,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 26.89,
-    "fetched": "2026-10-11T15:01:10Z",
+    "fetched": "2026-10-11T21:01:11Z",
     "raw": {
       "anaheimducks": {
         "sa": 25.2,
@@ -2459,7 +2459,7 @@
         "sf": 28.0
       },
       "dallasstars": {
-        "sa": 21.8,
+        "sa": 22.0,
         "sf": 24.8
       },
       "detroitredwings": {
@@ -2512,7 +2512,7 @@
       },
       "pittsburghpenguins": {
         "sa": 29.66666,
-        "sf": 28.5
+        "sf": 28.66666
       },
       "sanjosesharks": {
         "sa": 26.6,
