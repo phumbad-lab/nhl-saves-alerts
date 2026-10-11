@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 342,
+  "credits_remaining": 341,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -321,7 +321,7 @@
     "7ff1567200cc7c7c7d901f32f81ad4d4": {
       "commence_time": "2026-10-11T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-10T23:50:15Z",
+      "last_paid_check": "2026-10-11T00:50:15Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
