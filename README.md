@@ -155,10 +155,10 @@ Dostal (ANA) vs. EDM o25.5 OVER (DK/FD): 28 saves ✅
 Levi (EDM) vs. ANA u23.5 UNDER (DK/FD): 17 saves ✅
 Skinner (WPG) vs. COL 28.5 NO EDGE (DK): 25 saves → went under
 
-Season: Over 3-0 (100%) · Lean over 1-1 (50%) · Under 2-0 (100%) · Lean under no picks yet
+Season: OVER 3-0 (100%) · LEAN OVER 1-1 (50%) · UNDER 2-0 (100%) · LEAN UNDER no picks yet · 🔥 1-0 (100%) · NO EDGE 37% over 63% under (30)
 ```
 
-- **result:** W / L / P for over, lean over, under and lean under picks, each with its own season record. Fades are recorded with what happened (`-` in the result column) but don't count.
+- **result:** W / L / P for over, lean over, under and lean under picks, each with its own season record. **NO EDGE** shows how often no-read lines have gone over vs under all season (each goalie/line counted once). Fades are recorded with what happened (`-` in the result column) but don't count.
 - **VOID:** the goalie didn't play, or the game was postponed.
 - The season record counts each goalie/line once, even if both books posted it.
 - The line logged is the first one seen (what you could have bet when alerted), not the closing line.

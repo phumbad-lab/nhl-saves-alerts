@@ -733,6 +733,24 @@ def record_line(rows, tag):
     return w, l, p
 
 
+def no_edge_split(rows):
+    """How NO EDGE lines landed, all season: 'NO EDGE 37% over 63% under (30)'.
+    Each goalie/line counts once even if both books posted it; pushes are counted separately."""
+    seen, o, u, p = set(), 0, 0, 0
+    for r in rows:
+        if r.get("tag") != "FADE" or r.get("outcome") not in ("OVER", "UNDER", "PUSH"):
+            continue
+        key = (r["event_id"], r["goalie"], r["line"])
+        if key in seen:
+            continue
+        seen.add(key)
+        o += r["outcome"] == "OVER"; u += r["outcome"] == "UNDER"; p += r["outcome"] == "PUSH"
+    if not (o + u):
+        return "NO EDGE no results yet"
+    return (f"NO EDGE {o / (o + u):.0%} over {u / (o + u):.0%} under ({o + u}"
+            + (f", {p} push" if p else "") + ")")
+
+
 def fmt_record(w, l, p):
     if not (w or l or p):
         return "no picks yet"
@@ -783,6 +801,7 @@ def results_message(graded, abbrevs=None):
     fire_rows = [r for r in all_rows if r.get("fire") == "1"]
     season += " · 🔥 " + fmt_record(*[a + b for a, b in zip(record_line(fire_rows, "OVER"),
                                                           record_line(fire_rows, "UNDER"))])
+    season += " · " + no_edge_split(all_rows)
     out = "\n".join(lines) + "\n\nSeason: " + season
     mine = [r for r in graded if r.get("taken")]
     if mine:
