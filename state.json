@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19987,
+  "credits_remaining": 19986,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -401,9 +401,14 @@
     "a49ddd8a44071e340299ae7f22b4f359": {
       "commence_time": "2026-10-11T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-11T16:48:12Z",
+      "last_paid_check": "2026-10-11T17:04:10Z",
       "lines": {
         "draftkings": {
+          "Joseph Woll": {
+            "over": -120,
+            "point": 28.5,
+            "under": -115
+          },
           "Pyotr Kochetkov": {
             "over": -135,
             "point": 19.5,
@@ -2313,6 +2318,12 @@
       "book": null,
       "event_id": "a49ddd8a44071e340299ae7f22b4f359",
       "goalie": "Pyotr Kochetkov"
+    },
+    "125": {
+      "at": "2026-10-11T17:04:10Z",
+      "book": null,
+      "event_id": "a49ddd8a44071e340299ae7f22b4f359",
+      "goalie": "Joseph Woll"
     }
   },
   "shot_stats": {
