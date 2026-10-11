@@ -18,7 +18,7 @@ LAK L3 Against: 30-FLA 25-@SJS 29-@COL (15th most 28.0)
 - **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
 - **H2H L4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
 - **L4 For / L4 Against** = the opponent's shots in each of its last four games and this goalie's team's shots allowed in each of its last four, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28-@SEA` = 28 shots at Seattle). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than four games shows what it has (L3, etc.). To change the count, edit `RECENT_GAMES = 4` in `saves_alert.py`.
-- The second goalie in a game gets the same block (without H2H) when he posts.
+- Each goalie comes as its own message (so you can reply `in` to it). H2H shows only on the first goalie alerted for a game.
 - When the other book posts a goalie you've already been alerted on, you get one line:
   `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`
 - Times are Eastern. A game on a later day shows the day too (`Sun 7:10PM`).
@@ -122,6 +122,21 @@ Each goalie is matched to his team using NHL rosters. **The matchup picks the di
 Example: Lankinen expected 26.6 saves facing Carolina (+3.2 shots), so 26.5 is over, 27.5 is lean over and 28.5 is no edge.
 
 If a goalie can't be matched to a team (e.g. a fresh call-up), the alert lists both teams' expected saves instead and leaves the tag off. The full math for every game is in each run's log.
+
+## Logging your bets: reply "in"
+Each goalie comes as its own message. When you bet one, swipe left on that alert in Telegram and reply **`in`**. The bot reads replies on its next run (within about 5 minutes) and puts a 👍 on yours once it's logged.
+
+| Reply | What gets logged |
+|---|---|
+| `in` | The alert's direction. If both books are up, the better number for that side (lower line for an over, higher for an under), using the newest line seen. |
+| `in DK` / `in FD` | That book. |
+| `in o` / `in u` | Over or under. Needed for NO EDGE alerts, or to go against the tag. |
+| `in 24.5` or `in u24.5` | The exact line you got, if it moved. |
+| `out` | Removes the bet. |
+
+On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, e.g. `in u 24.5 fd`. Without swiping, you can type the goalie's last name instead: `in Kuemper o26.5 FD` (matches alerts from the last two days). If the bot can't tell what you meant, it replies with what it needs.
+
+Bets go in the `taken`, `taken_line` and `taken_result` columns of `picks.csv`, are graded the next morning against the line you took, and the results message adds a **Your bets** section and **Your season** record. Only alerts sent after this feature was added can be replied to; for older ones, type the name.
 
 ## Pick log and results
 Every line that gets alerted is saved to **`picks.csv`** in the repo (click it on GitHub to see it as a table): date, game, goalie, team, book, line, odds, expected saves and tag.

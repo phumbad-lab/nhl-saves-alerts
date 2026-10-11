@@ -66,7 +66,8 @@ STATE_FILE = os.path.join(HERE, "state.json")
 PICKS_FILE = os.path.join(HERE, "picks.csv")
 PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "under_odds",
                "expected_saves", "tag", "actual_saves", "outcome", "result",
-               "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire"]
+               "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire",
+               "taken", "taken_line", "taken_result", "taken_at"]  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -171,6 +172,8 @@ def send_push(title, message, silent=None):
             result = json.loads(resp.read().decode("utf-8"))
             if not result.get("ok"):
                 print(f"Telegram error: {result}")
+                return None
+            return (result.get("result") or {}).get("message_id")
     except urllib.error.HTTPError as e:
         detail = e.read().decode("utf-8", "ignore")[:300]
         sys.exit(f"Telegram rejected the message ({e.code}). Check TELEGRAM_BOT_TOKEN and "
@@ -196,6 +199,7 @@ def load_state():
         state = {}
     state.setdefault("events", {})
     state.setdefault("low_credit_warned", False)
+    state.setdefault("sent", {})  # Telegram message id -> which goalie alert it was (for "in" replies)
     for rec in state["events"].values():
         migrate_event(rec)
     return state
@@ -686,6 +690,7 @@ def grade_picks(state, now):
                 continue
             if game.get("gameScheduleState", "OK") != "OK":
                 r.update(outcome="VOID", result="VOID")  # postponed / cancelled
+                grade_taken(r)
                 graded.append(r)
                 continue
             if game.get("gameState") not in ("OFF", "FINAL"):
@@ -698,6 +703,7 @@ def grade_picks(state, now):
         hit = find_goalie(boxes[game["id"]], r["goalie"], r.get("team"))
         if not hit or not hit[1]:
             r.update(actual_saves="", outcome="VOID", result="VOID")  # didn't play
+            grade_taken(r)
         else:
             saves, line = hit[0], float(r["line"])
             outcome = "OVER" if saves > line else "UNDER" if saves < line else "PUSH"
@@ -706,6 +712,7 @@ def grade_picks(state, now):
             else:
                 result = "-"  # no edge / untagged: recorded, not scored
             r.update(actual_saves=saves, outcome=outcome, result=result)
+        grade_taken(r)
         graded.append(r)
     if graded:
         save_picks(rows)
@@ -776,7 +783,18 @@ def results_message(graded, abbrevs=None):
     fire_rows = [r for r in all_rows if r.get("fire") == "1"]
     season += " · 🔥 " + fmt_record(*[a + b for a, b in zip(record_line(fire_rows, "OVER"),
                                                           record_line(fire_rows, "UNDER"))])
-    return "\n".join(lines) + "\n\nSeason: " + season
+    out = "\n".join(lines) + "\n\nSeason: " + season
+    mine = [r for r in graded if r.get("taken")]
+    if mine:
+        out += "\n\nYour bets:\n" + "\n".join(
+            f"{who(r, abbrevs)} {r['taken'][0].lower()}{r['taken_line']} ({r['book']}): "
+            + ("didn't play (void)" if r["taken_result"] == "VOID" else
+               f"{r['actual_saves']} saves" + {"W": " ✅", "L": " ❌", "P": " push"}.get(r["taken_result"], ""))
+            for r in sorted(mine, key=lambda r: (r["date"], r["game"], r["goalie"])))
+    w, l, p = my_record(all_rows)
+    if w or l or p:
+        out += "\nYour season: " + fmt_record(w, l, p)
+    return out
 
 
 def has_lean(m, side):
@@ -889,9 +907,10 @@ def book_parts(player, current, expected, delta, side=None, ctx=None):
     return parts
 
 
-def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h2h=None,
-                  known_before=(), show_h2h=True, raw=None, games=None):
-    """One message per game per run.
+def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, h2h=None,
+                   known_before=(), show_h2h=True, raw=None, games=None):
+    """One message per goalie, so a reply of "in" always points at one goalie.
+    Returns [(text, player, book or None)]; book is set for "added" one-liners.
     Goalies seen for the first time get a full block:
         Kuemper (LAK) - LAK@VGK 10:10PM
         DK 26.5 OVER · FD not yet
@@ -908,12 +927,11 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
     ctx = fire_context(event, ab, h2h, raw, m)
     new_goalies = sorted({p for _, p in new_pairs if p not in known_before})
     added = sorted((b, p) for b, p in new_pairs if p in known_before)
-    out = []
+    msgs = []
     when = fmt_time(event['commence_time'])
     game = f"{ab['away']}@{ab['home']} {when}"
     for i, player in enumerate(new_goalies):
-        if out:
-            out.append("")  # blank line between goalies
+        out = []
         side = sides.get(player)
         g = m[side] if (m and side) else None
         expected, delta = (g["saves"], g["delta"]) if g else (None, None)
@@ -929,6 +947,7 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
             out.extend(fmt_h2h(h2h, ab))
         if side:
             out.extend(rank_line(event, side, ab, raw, games))
+        msgs.append(("\n".join(out), player, None))
     for book, player in added:
         side = sides.get(player)
         g = m[side] if (m and side) else None
@@ -936,8 +955,170 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
         tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx)
         who_ = (f"{last_name(player)} ({ab[side]})" if side
                 else f"{last_name(player)} ({ab['away']}@{ab['home']})")
-        out.append(f"{who_} {ln.get('point')}{tag} · {when} ({BOOK_SHORT.get(book, book)} added)")
-    return "\n".join(out)
+        msgs.append((f"{who_} {ln.get('point')}{tag} · {when} ({BOOK_SHORT.get(book, book)} added)",
+                     player, book))
+    return msgs
+
+
+# ---------- your bets: reply "in" to an alert ----------
+
+def tg_call(method, params):
+    """Telegram Bot API call that never stops the run; returns the result or None."""
+    if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
+        return None
+    req = urllib.request.Request(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/{method}",
+                                 data=urllib.parse.urlencode(params).encode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            return data.get("result") if data.get("ok") else None
+    except Exception as e:
+        print(f"Telegram {method} failed: {e}")
+        return None
+
+
+def tg_reply(msg, text):
+    tg_call("sendMessage", {"chat_id": TELEGRAM_CHAT_ID, "text": text,
+                            "reply_to_message_id": msg["message_id"],
+                            "disable_notification": "true"})
+
+
+def tg_react(msg, emoji="👍"):
+    ok = tg_call("setMessageReaction", {"chat_id": TELEGRAM_CHAT_ID, "message_id": msg["message_id"],
+                                        "reaction": json.dumps([{"type": "emoji", "emoji": emoji}])})
+    if ok is None:  # reactions unavailable: fall back to a short text
+        tg_reply(msg, "Logged ✅")
+
+
+def grade_taken(r):
+    """Score a bet you logged, against the line you took."""
+    if not r.get("taken"):
+        return
+    if r.get("outcome") == "VOID":
+        r["taken_result"] = "VOID"
+        return
+    if r.get("actual_saves") in (None, ""):
+        return
+    saves, line = float(r["actual_saves"]), float(r["taken_line"])
+    r["taken_result"] = ("P" if saves == line else
+                         "W" if (saves > line) == (r["taken"] == "OVER") else "L")
+
+
+def my_record(rows):
+    w = sum(r.get("taken_result") == "W" for r in rows)
+    l = sum(r.get("taken_result") == "L" for r in rows)
+    p = sum(r.get("taken_result") == "P" for r in rows)
+    return w, l, p
+
+
+def parse_bet(words):
+    """'in', 'in fd', 'in u', 'in o 24.5 dk', 'out' -> dict of what was said."""
+    bet = {"book": None, "side": None, "line": None, "name": None}
+    for w in words[1:]:
+        if w in ("dk", "draftkings"):
+            bet["book"] = "DK"
+        elif w in ("fd", "fanduel"):
+            bet["book"] = "FD"
+        elif w in ("o", "over"):
+            bet["side"] = "OVER"
+        elif w in ("u", "under"):
+            bet["side"] = "UNDER"
+        elif w[:1] in "ou" and w[1:].replace(".", "", 1).isdigit():  # o24.5 / u22
+            bet["side"] = "OVER" if w[0] == "o" else "UNDER"
+            bet["line"] = float(w[1:])
+        elif w.replace(".", "", 1).isdigit():
+            bet["line"] = float(w)
+        else:
+            bet["name"] = w
+    return bet
+
+
+def apply_bet(rows, state, event_id, goalie, alert_book, words, now):
+    """Mark one picks.csv row as your bet. Returns (ok, message for you or None)."""
+    mine = [r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie]
+    if not mine:
+        return False, "Couldn't find that goalie in the pick log."
+    if words[0] == "out":
+        for r in mine:
+            r.update(taken="", taken_line="", taken_result="", taken_at="")
+        return True, None
+    bet = parse_bet(words)
+    book = bet["book"] or alert_book
+    pool = [r for r in mine if r["book"] == book] if book else mine
+    if not pool:
+        return False, f"{book} hasn't posted {last_name(goalie)}, so I can't log that one."
+    side = bet["side"]
+    if not side:
+        sides = {BET_SIDE.get(r["tag"]) for r in pool}
+        if len(sides) != 1 or None in sides:
+            return False, f"No direction on {last_name(goalie)} (NO EDGE). Reply in o or in u."
+        side = sides.pop()
+    rec = state["events"].get(event_id, {})
+    def latest(r):  # newest line seen for that book, else the one logged with the alert
+        for full, short in BOOK_SHORT.items():
+            if short == r["book"]:
+                pt = rec.get("lines", {}).get(full, {}).get(goalie, {}).get("point")
+                if pt is not None:
+                    return float(pt)
+        return float(r["line"])
+    if bet["line"] is not None:
+        row, line = pool[0], bet["line"]
+    else:  # best number for your side across the books shown
+        row = (min if side == "OVER" else max)(pool, key=latest)
+        line = latest(row)
+    for r in mine:
+        r.update(taken="", taken_line="", taken_result="", taken_at="")
+    row.update(taken=side, taken_line=f"{line:g}", taken_at=iso(now))
+    grade_taken(row)  # in case the game is already graded
+    return True, None
+
+
+def find_by_name(rows, name, now):
+    """Most recent alerted goalie whose last name starts with `name`, from the last two days."""
+    since = (now.astimezone(LOCAL_TZ) - timedelta(days=2)).strftime("%Y-%m-%d")
+    hits = [r for r in rows if r["date"] >= since and team_key(last_name(r["goalie"])).startswith(team_key(name))]
+    if not hits:
+        return None
+    best = max(hits, key=lambda r: (r["date"], r.get("logged_at", "")))
+    return best["event_id"], best["goalie"]
+
+
+def process_replies(state, now):
+    """Read your replies to the bot. Swipe left on an alert and reply "in" to log the bet."""
+    updates = tg_call("getUpdates", {"offset": state.get("tg_offset", 0), "timeout": 0,
+                                     "allowed_updates": json.dumps(["message"])})
+    if not updates:
+        return
+    rows, changed = None, False
+    for u in updates:
+        state["tg_offset"] = u["update_id"] + 1
+        msg = u.get("message") or {}
+        if str((msg.get("chat") or {}).get("id")) != str(TELEGRAM_CHAT_ID):
+            continue
+        words = (msg.get("text") or "").lower().replace(",", " ").split()
+        if words:
+            words[0] = words[0].strip(".!")  # "In." from autocorrect
+        if not words or words[0] not in ("in", "out"):
+            continue
+        rows = rows if rows is not None else load_picks()
+        target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
+        if target:
+            event_id, goalie, alert_book = target["event_id"], target["goalie"], target.get("book")
+        else:
+            name = parse_bet(words)["name"]
+            found = find_by_name(rows, name, now) if name else None
+            if not found:
+                tg_reply(msg, "Swipe left on an alert and reply in (or type: in Kuemper o26.5 FD).")
+                continue
+            (event_id, goalie), alert_book = found, None
+        ok, note = apply_bet(rows, state, event_id, goalie, alert_book, words, now)
+        if ok:
+            changed = True
+            tg_react(msg, "👍" if words[0] == "in" else "👌")
+        if note:
+            tg_reply(msg, note)
+    if changed:
+        save_picks(rows)
 
 
 # ---------- main ----------
@@ -960,6 +1141,8 @@ def main():
 
     state = load_state()
     now = datetime.now(timezone.utc)
+
+    process_replies(state, now)  # your "in" replies (free)
 
     # Grade yesterday's picks against box scores (free; once each morning).
     graded = grade_picks(state, now)
@@ -1073,9 +1256,14 @@ def main():
             h2h = get_h2h(state, abbrevs.get(team_key(event["away_team"])),
                           abbrevs.get(team_key(event["home_team"])), now)
             show_h2h = not rec.get("h2h_sent")
-            send_push("", build_message(event, new_pairs, rec["lines"], m, sides, abbrevs, h2h,
-                                        known_before, show_h2h, (stats or {}).get("raw"),
-                                        (state.get("game_log") or {}).get("games")))
+            for text, player, book in build_messages(
+                    event, new_pairs, rec["lines"], m, sides, abbrevs, h2h, known_before, show_h2h,
+                    (stats or {}).get("raw"), (state.get("game_log") or {}).get("games")):
+                mid = send_push("", text)
+                if mid:
+                    state["sent"][str(mid)] = {"event_id": eid, "goalie": player,
+                                               "book": BOOK_SHORT.get(book, book) if book else None,
+                                               "at": iso(now)}
             if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
                 rec["h2h_sent"] = True
             log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"))
@@ -1091,6 +1279,8 @@ def main():
     cutoff = now - timedelta(days=2)
     state["events"] = {k: v for k, v in state["events"].items()
                        if parse_iso(v["commence_time"]) > cutoff}
+    old = iso(now - timedelta(days=3))
+    state["sent"] = {k: v for k, v in state["sent"].items() if v.get("at", "") > old}
     state["credits_remaining"] = credits
     save_state(state)
     print(f"Done: {checks} odds check(s), {alerts} alert(s), "
