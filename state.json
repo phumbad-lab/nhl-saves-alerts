@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19976,
+  "credits_remaining": 19975,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -381,7 +381,7 @@
     "a3bbd0dafd4fc9789cb6c3292aad999b": {
       "commence_time": "2026-10-11T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-11T18:12:10Z",
+      "last_paid_check": "2026-10-11T18:27:10Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
