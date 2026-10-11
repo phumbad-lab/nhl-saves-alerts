@@ -877,7 +877,7 @@ RECENT_GAMES = 5  # games listed on the "L5 For / L5 Against" lines
 
 
 def recent_games(games, team, stat, n=RECENT_GAMES):
-    """Last n games for a team, newest first, as '43-@TOR 28-SEA ...' (@ = played on the road).
+    """Last n games for a team, newest first, as '43@TOR, 28SEA, ...' (@ = played on the road).
     stat 'sf' = shots the team took, 'sa' = shots it allowed. Raw numbers."""
     out = []
     for d, a, h, asog, hsog in sorted(games or [], key=lambda g: g[0], reverse=True):
@@ -885,7 +885,7 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
             continue
         away = team == a
         shots = (asog if away else hsog) if stat == "sf" else (hsog if away else asog)
-        out.append(f"{shots}-@{h}" if away else f"{shots}-{a}")  # @ = team was on the road
+        out.append(f"{shots}@{h}" if away else f"{shots}{a}")  # @ = team was on the road
         if len(out) == n:
             break
     return out
@@ -893,8 +893,8 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
 
 def rank_line(event, side, ab, raw, games=None):
     """Two lines, e.g.
-        VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
-        LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
+        VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
+        LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
     Ranks and averages use raw (unadjusted) season numbers, the ones you'd see looking a team up."""
     if not raw:
         return []
@@ -936,8 +936,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         30.9 shots, 27.3 saves expected
         H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)            <- once per game
         H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-        VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
-        LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
+        VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
+        LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
     A goalie already alerted who shows up at the other book gets one line:
         Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)"""
     sides, abbrevs = sides or {}, abbrevs or {}

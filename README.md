@@ -10,14 +10,14 @@ DK 26.5 OVER · FD not yet
 30.9 shots, 27.3 saves expected
 H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
 H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
-LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
+VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
+LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
 ```
 
 - **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
 - **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
 - **H2H L4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
-- **L5 For / L5 Against** = the opponent's shots in each of its last five games and this goalie's team's shots allowed in each of its last five, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28-@SEA` = 28 shots at Seattle). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than five games shows what it has (L4, etc.). To change the count, edit `RECENT_GAMES = 5` in `saves_alert.py`.
+- **L5 For / L5 Against** = the opponent's shots in each of its last five games and this goalie's team's shots allowed in each of its last five, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28@SEA` = 28 shots at Seattle, `30ANA` = 30 shots at home vs Anaheim). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than five games shows what it has (L4, etc.). To change the count, edit `RECENT_GAMES = 5` in `saves_alert.py`.
 - Each goalie comes as its own message (so you can reply `in` to it). H2H shows only on the first goalie alerted for a game.
 - When the other book posts a goalie you've already been alerted on, you get one line:
   `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`

@@ -36,8 +36,8 @@ DK 26.5 OVER · FD not yet
 30.9 shots, 27.3 saves expected
 H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
 H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
-LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
+VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
+LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
 ```
 - One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game. `@` = that team was on the road. Day name only if the game isn't today.
 - Second book posting later: `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`.
