@@ -87,7 +87,7 @@ RECHECK_MINUTES = env_int("RECHECK_MINUTES", 60)
 RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
 # Goalies with no lean (always "no edge") are rechecked this often while missing; 0 = never.
-NOLEAN_RECHECK_MINUTES = 180
+NOLEAN_RECHECK_MINUTES = 15  # paid plan (20K credits); use 180 on the free 500-credit plan
 FINAL_CHECKS = (45, 20)  # minutes before puck drop: any game still missing a goalie gets a check at each
 SKIP_MIDDLING_GAMES = False  # True = don't check games where neither goalie has a lean
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
