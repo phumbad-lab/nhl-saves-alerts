@@ -873,7 +873,7 @@ def ordinal(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
 
 
-RECENT_GAMES = 4  # games listed on the "L4 For / L4 Against" lines
+RECENT_GAMES = 5  # games listed on the "L5 For / L5 Against" lines
 
 
 def recent_games(games, team, stat, n=RECENT_GAMES):
@@ -893,8 +893,8 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
 
 def rank_line(event, side, ab, raw, games=None):
     """Two lines, e.g.
-        VGK L4 For: 43-TOR 28-@SEA 28-@VAN 30-ANA (3rd most 33.2)
-        LAK L4 Against: 30-FLA 25-@SJS 29-@COL (15th most 28.0)
+        VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
+        LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
     Ranks and averages use raw (unadjusted) season numbers, the ones you'd see looking a team up."""
     if not raw:
         return []
@@ -909,7 +909,7 @@ def rank_line(event, side, ab, raw, games=None):
         return f"{ordinal(most)} most" if most <= least else f"{ordinal(least)} least"
     def line(team, key, stat, word):
         recent = recent_games(games, team, stat)
-        label = f"L{len(recent)} {word}: " + " ".join(recent) + " " if recent else f"{word}: "
+        label = f"L{len(recent)} {word}: " + ", ".join(recent) + " " if recent else f"{word}: "
         return f"{team} {label}({place(key, stat)} {raw[key][stat]:.1f})"
     return [line(ab[other], opp, "sf", "For"), line(ab[side], own, "sa", "Against")]
 
@@ -936,8 +936,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         30.9 shots, 27.3 saves expected
         H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)            <- once per game
         H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-        VGK L4 For: 43-TOR 28-@SEA 28-@VAN 30-ANA (3rd most 33.2)
-        LAK L4 Against: 30-FLA 25-@SJS 29-@COL 22-BOS (15th most 28.0)
+        VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
+        LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
     A goalie already alerted who shows up at the other book gets one line:
         Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)"""
     sides, abbrevs = sides or {}, abbrevs or {}

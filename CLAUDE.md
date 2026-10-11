@@ -27,7 +27,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 - **Lean**: goalie's expected shots ≥ `SHOT_THRESHOLD` (2) above/below league average. Direction first: + lean → overs only, − lean → unders only, middling → NO EDGE.
 - **Tags**: line at/below expected → OVER (mirror UNDER); within `TARGET_SAVES` (1) save on the wrong side → LEAN OVER/UNDER; else NO EDGE. Internally NO EDGE is stored as tag `FADE`.
 - **🔥**: OVER/UNDER only, expected ≥ `FIRE_GAP` (2.0) saves past the line, H2H avg agrees vs league avg, and raw rank top/bottom `FIRE_RANK` (10) agrees (opp shots-for or own shots-against).
-- Context shown but not in the math: H2H last 4 (`H2H_GAMES`, up to 3 seasons), L4 game logs, raw ranks.
+- Context shown but not in the math: H2H last 4 (`H2H_GAMES`, up to 3 seasons), last 5 games for/against (`RECENT_GAMES`, comma-separated), raw ranks.
 
 ## Alert format (owner-approved — don't change without asking)
 ```
@@ -36,8 +36,8 @@ DK 26.5 OVER · FD not yet
 30.9 shots, 27.3 saves expected
 H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
 H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-VGK L4 For: 43-TOR 28-@SEA 28-@VAN 30-ANA (3rd most 33.2)
-LAK L3 Against: 30-FLA 25-@SJS 29-@COL (15th most 28.0)
+VGK L5 For: 32-LAK, 43-TOR, 28-@SEA, 28-@VAN, 30-ANA (2nd most 33.0)
+LAK L4 Against: 32-@VGK, 30-FLA, 25-@SJS, 29-@COL (9th most 29.0)
 ```
 - One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game. `@` = that team was on the road. Day name only if the game isn't today.
 - Second book posting later: `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`.
