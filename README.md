@@ -10,14 +10,14 @@ DK 26.5 OVER · FD not yet
 30.9 shots, 27.3 saves expected
 H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
 H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
-LAK L3 Against: 30-FLA 25-SJS 29-COL (15th most 28.0)
+VGK L4 For: 43-TOR 28-@SEA 28-@VAN 30-ANA (3rd most 33.2)
+LAK L3 Against: 30-FLA 25-@SJS 29-@COL (15th most 28.0)
 ```
 
 - **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
 - **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
 - **H2H L4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
-- **L4 For / L4 Against** = the opponent's shots in each of its last four games and this goalie's team's shots allowed in each of its last four, newest first, with the opponent for each game (raw numbers). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than four games shows what it has (L3, etc.). To change the count, edit `RECENT_GAMES = 4` in `saves_alert.py`.
+- **L4 For / L4 Against** = the opponent's shots in each of its last four games and this goalie's team's shots allowed in each of its last four, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28-@SEA` = 28 shots at Seattle). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than four games shows what it has (L3, etc.). To change the count, edit `RECENT_GAMES = 4` in `saves_alert.py`.
 - The second goalie in a game gets the same block (without H2H) when he posts.
 - When the other book posts a goalie you've already been alerted on, you get one line:
   `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`
@@ -152,6 +152,8 @@ Fire picks are marked in `picks.csv` (`fire` column) and get their own record in
 
 ## Rechecks (where credits go)
 Checking a game with nothing posted is free, so the first goalie in every game reaches you within about 5 minutes. Once some lines are up, the game is rechecked hourly (1 credit each) **while a goalie with a lean tonight is still missing** at either book. If only no-lean goalies are missing, it's rechecked every 3 hours instead (`NOLEAN_RECHECK_MINUTES = 180` near the top of `saves_alert.py`; set 0 to never recheck them). A goalie has a lean when his expected shots are 2+ above or below average for that night's matchup. Goalies without a lean are always tagged no edge, so they get the slower schedule. If it can't tell which team a goalie plays for, it keeps rechecking to be safe. Each run's log shows how many rechecks were held back this way.
+
+**Final checks:** any game still missing a goalie at either book gets two more checks, 45 and 20 minutes before puck drop, lean or not, because starters often get confirmed late. Each costs 1 credit even if nothing new has posted (the response includes the goalies already up), so that's 2 credits per incomplete game. If an hourly recheck already landed after one of those marks, it counts and isn't repeated. To change it, edit `FINAL_CHECKS = (45, 20)` near the top of `saves_alert.py` (`()` turns it off).
 
 ## How alerts work
 Books often post one goalie early and the other hours later, so every goalie is tracked separately. You get a message each time a goalie's line appears at a book for the first time, showing both books side by side (`not yet` if one hasn't posted). A game stops being checked once both books show both goalies.

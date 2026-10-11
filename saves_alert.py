@@ -87,7 +87,7 @@ RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
 # Goalies with no lean (always "no edge") are rechecked this often while missing; 0 = never.
 NOLEAN_RECHECK_MINUTES = 180
-FINAL_CHECK_MINUTES = 75  # one last recheck of any game still missing a goalie, this long before puck drop
+FINAL_CHECKS = (45, 20)  # minutes before puck drop: any game still missing a goalie gets a check at each
 SKIP_MIDDLING_GAMES = False  # True = don't check games where neither goalie has a lean
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
 SHOT_THRESHOLD = float(os.getenv("SHOT_THRESHOLD", "") or "2")
@@ -840,7 +840,7 @@ RECENT_GAMES = 4  # games listed on the "L4 For / L4 Against" lines
 
 
 def recent_games(games, team, stat, n=RECENT_GAMES):
-    """Last n games for a team, newest first, as '43-TOR 28-SEA ...'.
+    """Last n games for a team, newest first, as '43-@TOR 28-SEA ...' (@ = played on the road).
     stat 'sf' = shots the team took, 'sa' = shots it allowed. Raw numbers."""
     out = []
     for d, a, h, asog, hsog in sorted(games or [], key=lambda g: g[0], reverse=True):
@@ -848,7 +848,7 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
             continue
         away = team == a
         shots = (asog if away else hsog) if stat == "sf" else (hsog if away else asog)
-        out.append(f"{shots}-{h if away else a}")
+        out.append(f"{shots}-@{h}" if away else f"{shots}-{a}")  # @ = team was on the road
         if len(out) == n:
             break
     return out
@@ -856,8 +856,8 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
 
 def rank_line(event, side, ab, raw, games=None):
     """Two lines, e.g.
-        VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
-        LAK L4 Against: 30-FLA 25-SJS 29-COL (15th most 28.0)
+        VGK L4 For: 43-TOR 28-@SEA 28-@VAN 30-ANA (3rd most 33.2)
+        LAK L4 Against: 30-FLA 25-@SJS 29-@COL (15th most 28.0)
     Ranks and averages use raw (unadjusted) season numbers, the ones you'd see looking a team up."""
     if not raw:
         return []
@@ -898,8 +898,8 @@ def build_message(event, new_pairs, current, m=None, sides=None, abbrevs=None, h
         30.9 shots, 27.3 saves expected
         H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)            <- once per game
         H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
-        VGK L4 For: 43-TOR 28-SEA 28-VAN 30-ANA (3rd most 33.2)
-        LAK L4 Against: 30-FLA 25-SJS 29-COL 22-BOS (15th most 28.0)
+        VGK L4 For: 43-TOR 28-@SEA 28-@VAN 30-ANA (3rd most 33.2)
+        LAK L4 Against: 30-FLA 25-@SJS 29-@COL 22-BOS (15th most 28.0)
     A goalie already alerted who shows up at the other book gets one line:
         Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)"""
     sides, abbrevs = sides or {}, abbrevs or {}
@@ -1026,11 +1026,14 @@ def main():
             due = last is None or now - parse_iso(last) >= timedelta(minutes=RECHECK_MINUTES)
             in_window = starts_in <= timedelta(hours=RECHECK_WINDOW_HOURS)
             budget_ok = credits is None or credits > RECHECK_RESERVE
-            # Last call: once inside the final window before puck drop, every incomplete game
-            # gets one more check (lean or not, hourly timer or not), since late confirmations land then.
-            final_window = timedelta(minutes=FINAL_CHECK_MINUTES)
-            last_call = (FINAL_CHECK_MINUTES > 0 and starts_in <= final_window and budget_ok and
-                         (last is None or parse_iso(last) < parse_iso(event["commence_time"]) - final_window))
+            # Final checks: late starter confirmations land in the last hour, so every incomplete
+            # game (lean or not) gets a check at each FINAL_CHECKS mark, e.g. 45 and 20 min before
+            # puck drop. A check that already happened after a mark counts for it.
+            start = parse_iso(event["commence_time"])
+            last_call = budget_ok and any(
+                starts_in <= timedelta(minutes=mark) and
+                (last is None or parse_iso(last) < start - timedelta(minutes=mark))
+                for mark in FINAL_CHECKS)
             if not last_call and not (due and in_window and budget_ok):
                 skipped_rechecks += 1
                 continue
