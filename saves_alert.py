@@ -1011,10 +1011,16 @@ def my_record(rows):
     return w, l, p
 
 
+
+BET_TOKEN = re.compile(r"^(?:([ou])(\d+(?:\.\d+)?)|(\d+(?:\.\d+)?)([ou])?)$")
+
+
 def parse_bet(words):
-    """'in', 'in fd', 'in u', 'in o 24.5 dk', 'out' -> dict of what was said."""
+    """One bet: 'jarry 23u', 'u24 fd', 'o', '24.5', 'dk' ... -> {name, side, line, book}.
+    A whole number means the half-point line bettors shorthand it for: 23 -> 23.5."""
     bet = {"book": None, "side": None, "line": None, "name": None}
-    for w in words[1:]:
+    for w in words:
+        m = BET_TOKEN.match(w)
         if w in ("dk", "draftkings"):
             bet["book"] = "DK"
         elif w in ("fd", "fanduel"):
@@ -1023,54 +1029,80 @@ def parse_bet(words):
             bet["side"] = "OVER"
         elif w in ("u", "under"):
             bet["side"] = "UNDER"
-        elif w[:1] in "ou" and w[1:].replace(".", "", 1).isdigit():  # o24.5 / u22
-            bet["side"] = "OVER" if w[0] == "o" else "UNDER"
-            bet["line"] = float(w[1:])
-        elif w.replace(".", "", 1).isdigit():
-            bet["line"] = float(w)
-        else:
+        elif m:
+            side = m.group(1) or m.group(4)
+            num = m.group(2) or m.group(3)
+            if side:
+                bet["side"] = "OVER" if side == "o" else "UNDER"
+            line = float(num)
+            bet["line"] = line + 0.5 if line == int(line) else line
+        elif w not in ("and", "the", "at", "on", "for", "i", "took", "in"):
             bet["name"] = w
     return bet
 
 
-def apply_bet(rows, state, event_id, goalie, alert_book, words, now):
-    """Mark one picks.csv row as your bet. Returns (ok, message for you or None)."""
+def parse_message(text):
+    """Split a typed message into bets. Returns (command, [bet, ...]) or (None, []).
+    Understands 'in ...', 'took ...', 'I took ...', 'out ...', with bets separated by commas,
+    new lines or 'and': 'I took Jarry 23u, Fowler 22o, Ellis 23 and 25o'."""
+    t = text.lower().strip()
+    m = re.match(r"^(?:i\s+)?(in|took|out)\b[\s.!:,-]*(.*)$", t, re.S)
+    if not m:
+        return None, []
+    cmd = "out" if m.group(1) == "out" else "in"
+    chunks = [c.split() for c in re.split(r",|\n|;|\band\b|&", m.group(2))]
+    bets = [parse_bet(c) for c in chunks if c] or [parse_bet([])]
+    for i, b in enumerate(bets):  # 'Ellis 23 and 25o': carry the name forward, share the side
+        if not b["name"] and i:
+            b["name"] = bets[i - 1]["name"]
+    for b in bets:
+        if not b["side"]:
+            same = {x["side"] for x in bets if x["name"] == b["name"] and x["side"]}
+            if len(same) == 1:
+                b["side"] = same.pop()
+    return cmd, bets
+
+
+def apply_bet(rows, state, event_id, goalie, alert_book, bet, cmd, now):
+    """Mark one picks.csv row as your bet. Returns (ok, text describing it or the problem)."""
     mine = [r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie]
+    name = last_name(goalie)
     if not mine:
-        return False, "Couldn't find that goalie in the pick log."
-    if words[0] == "out":
+        return False, f"Couldn't find {name} in the pick log."
+    if cmd == "out":
         for r in mine:
             r.update(taken="", taken_line="", taken_result="", taken_at="")
-        return True, None
-    bet = parse_bet(words)
+        return True, f"{name} removed"
     book = bet["book"] or alert_book
     pool = [r for r in mine if r["book"] == book] if book else mine
     if not pool:
-        return False, f"{book} hasn't posted {last_name(goalie)}, so I can't log that one."
+        return False, f"{book} hasn't posted {name}, so I can't log that one."
     side = bet["side"]
     if not side:
         sides = {BET_SIDE.get(r["tag"]) for r in pool}
         if len(sides) != 1 or None in sides:
-            return False, f"No direction on {last_name(goalie)} (NO EDGE). Reply in o or in u."
+            return False, f"No direction on {name} (NO EDGE). Add o or u, like: in {name} o{pool[0]['line']}"
         side = sides.pop()
     rec = state["events"].get(event_id, {})
-    def latest(r):  # newest line seen for that book, else the one logged with the alert
+    def lines_of(r):  # line logged with the alert and the newest seen for that book
+        out = {float(r["line"])}
         for full, short in BOOK_SHORT.items():
             if short == r["book"]:
                 pt = rec.get("lines", {}).get(full, {}).get(goalie, {}).get("point")
                 if pt is not None:
-                    return float(pt)
-        return float(r["line"])
-    if bet["line"] is not None:
-        row, line = pool[0], bet["line"]
-    else:  # best number for your side across the books shown
-        row = (min if side == "OVER" else max)(pool, key=latest)
-        line = latest(row)
-    for r in mine:
-        r.update(taken="", taken_line="", taken_result="", taken_at="")
+                    out.add(float(pt))
+        return out
+    if bet["line"] is not None:  # the book whose line matches what you took
+        line = bet["line"]
+        row = min(pool, key=lambda r: min(abs(x - line) for x in lines_of(r)))
+    else:  # best number for your side across the books shown, using the newest line
+        def newest(r):
+            return float(r["line"]) if len(lines_of(r)) == 1 else max(lines_of(r) - {float(r["line"])})
+        row = (min if side == "OVER" else max)(pool, key=newest)
+        line = newest(row)
     row.update(taken=side, taken_line=f"{line:g}", taken_at=iso(now))
     grade_taken(row)  # in case the game is already graded
-    return True, None
+    return True, f"{name} {side[0].lower()}{line:g} {row['book']}"
 
 
 def find_by_name(rows, name, now):
@@ -1084,7 +1116,8 @@ def find_by_name(rows, name, now):
 
 
 def process_replies(state, now):
-    """Read your replies to the bot. Swipe left on an alert and reply "in" to log the bet."""
+    """Read your messages to the bot. Swipe left on an alert and reply "in", or type
+    "I took Jarry 23u, Fowler 22o". Each run reads new messages once."""
     updates = tg_call("getUpdates", {"offset": state.get("tg_offset", 0), "timeout": 0,
                                      "allowed_updates": json.dumps(["message"])})
     if not updates:
@@ -1095,28 +1128,31 @@ def process_replies(state, now):
         msg = u.get("message") or {}
         if str((msg.get("chat") or {}).get("id")) != str(TELEGRAM_CHAT_ID):
             continue
-        words = (msg.get("text") or "").lower().replace(",", " ").split()
-        if words:
-            words[0] = words[0].strip(".!")  # "In." from autocorrect
-        if not words or words[0] not in ("in", "out"):
+        cmd, bets = parse_message(msg.get("text") or "")
+        if not cmd:
             continue
         rows = rows if rows is not None else load_picks()
         target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
-        if target:
-            event_id, goalie, alert_book = target["event_id"], target["goalie"], target.get("book")
-        else:
-            name = parse_bet(words)["name"]
-            found = find_by_name(rows, name, now) if name else None
-            if not found:
-                tg_reply(msg, "Swipe left on an alert and reply in (or type: in Kuemper o26.5 FD).")
-                continue
-            (event_id, goalie), alert_book = found, None
-        ok, note = apply_bet(rows, state, event_id, goalie, alert_book, words, now)
-        if ok:
-            changed = True
-            tg_react(msg, "👍" if words[0] == "in" else "👌")
-        if note:
-            tg_reply(msg, note)
+        done, problems = [], []
+        for bet in (bets[:1] if target else bets):
+            if target:
+                event_id, goalie, alert_book = target["event_id"], target["goalie"], target.get("book")
+            else:
+                found = find_by_name(rows, bet["name"], now) if bet["name"] else None
+                if not found:
+                    problems.append(f"Couldn't find {bet['name']} in the last two days of alerts."
+                                    if bet["name"] else
+                                    "Swipe left on an alert and reply in, or type: I took Kuemper 26o")
+                    continue
+                (event_id, goalie), alert_book = found, None
+            ok, note = apply_bet(rows, state, event_id, goalie, alert_book, bet, cmd, now)
+            (done if ok else problems).append(note)
+            changed = changed or ok
+        if target and done and not problems:
+            tg_react(msg, "👍" if cmd == "in" else "👌")
+        elif done or problems:
+            tg_reply(msg, ("Logged: " + " · ".join(done) if done else "")
+                     + ("\n" if done and problems else "") + "\n".join(problems))
     if changed:
         save_picks(rows)
 

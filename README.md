@@ -134,7 +134,13 @@ Each goalie comes as its own message. When you bet one, swipe left on that alert
 | `in 24.5` or `in u24.5` | The exact line you got, if it moved. |
 | `out` | Removes the bet. |
 
-On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, e.g. `in u 24.5 fd`. Without swiping, you can type the goalie's last name instead: `in Kuemper o26.5 FD` (matches alerts from the last two days). If the bot can't tell what you meant, it replies with what it needs.
+On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, e.g. `in u 24.5 fd`.
+
+**Typing instead of swiping:** start with `in`, `took` or `I took`, then list bets separated by commas: `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o`. Each bet is a last name plus the line and `o`/`u` in any order (`23u`, `u23`, `o24.5`), optionally `DK`/`FD`. It matches alerts from the last two days. The bot replies with what it logged (`Logged: Jarry u23.5 DK · Fowler o22.5 FD ...`) or what it couldn't match.
+
+- A whole number means the half-point line: `23` is logged as 23.5.
+- With a line given, it picks the book that had that line. Two bets on one goalie at different books (Ellis o23.5 FD and o25.5 DK) are both kept.
+- `out Ellis` removes all bets on that goalie.
 
 Bets go in the `taken`, `taken_line` and `taken_result` columns of `picks.csv`, are graded the next morning against the line you took, and the results message adds a **Your bets** section and **Your season** record. Only alerts sent after this feature was added can be replied to; for older ones, type the name.
 
