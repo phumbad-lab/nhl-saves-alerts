@@ -130,37 +130,6 @@
       },
       "matchup": "Seattle Kraken @ Detroit Red Wings"
     },
-    "3b439dd85f763c0f6ac04f3ade1e6117": {
-      "commence_time": "2026-10-09T01:10:00Z",
-      "last_paid_check": "2026-10-08T19:55:14Z",
-      "lines": {
-        "draftkings": {
-          "Devin Cooley": {
-            "over": -120,
-            "point": 28.5,
-            "under": -115
-          },
-          "Scott Wedgewood": {
-            "over": 100,
-            "point": 22.5,
-            "under": -135
-          }
-        },
-        "fanduel": {
-          "Devin Cooley": {
-            "over": -110,
-            "point": 28.5,
-            "under": -120
-          },
-          "Scott Wedgewood": {
-            "over": -114,
-            "point": 21.5,
-            "under": -114
-          }
-        }
-      },
-      "matchup": "Colorado Avalanche @ Calgary Flames"
-    },
     "48ce8ebb422982764994cd25c5f253c7": {
       "commence_time": "2026-10-10T00:15:00Z",
       "h2h_sent": true,
