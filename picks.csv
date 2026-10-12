@@ -112,3 +112,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-11,Hurricanes @ Flyers,Joseph Woll,PHI,FD,27.5,-122,-108,29.7,OVER,26,UNDER,L,a49ddd8a44071e340299ae7f22b4f359,2026-10-11T23:10:00Z,Carolina Hurricanes,Philadelphia Flyers,2026-10-11T23:06:11Z,1,,,,,
 2026-10-12,Panthers @ Sabres,Jacob Markstrom,FLA,DK,23.5,-130,-105,21.9,UNDER,,,,e85cb8fcbbddd2332b24db4bfe564345,2026-10-12T17:10:00Z,Florida Panthers,Buffalo Sabres,2026-10-12T14:47:39Z,,,,,,FLA:Marchand;BUF:
 2026-10-12,Panthers @ Sabres,Jacob Markstrom,FLA,FD,24.5,-104,-128,21.9,UNDER,,,,e85cb8fcbbddd2332b24db4bfe564345,2026-10-12T17:10:00Z,Florida Panthers,Buffalo Sabres,2026-10-12T15:03:14Z,,,,,,FLA:Marchand;BUF:
+2026-10-12,Senators @ Devils,Nico Daws,NJD,DK,22.5,-125,-110,23.1,FADE,,,,bddca6412454c40a2860b4e2e3e85968,2026-10-12T23:10:00Z,Ottawa Senators,New Jersey Devils,2026-10-12T15:20:16Z,,,,,,OTT:Sanderson(DTD);NJD:

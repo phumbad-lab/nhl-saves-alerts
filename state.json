@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19926,
+  "credits_remaining": 19925,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -389,8 +389,17 @@
     },
     "bddca6412454c40a2860b4e2e3e85968": {
       "commence_time": "2026-10-12T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-12T15:20:16Z",
+      "lines": {
+        "draftkings": {
+          "Nico Daws": {
+            "over": -125,
+            "point": 22.5,
+            "under": -110
+          }
+        }
+      },
       "matchup": "Ottawa Senators @ New Jersey Devils"
     },
     "c7f455eb3013583ec1f49f025b777801": {
@@ -1146,6 +1155,12 @@
       "2026-10-06"
     ]
   },
+  "gl_8482105": {
+    "fetched": "2026-10-12T15:20:16Z",
+    "value": [
+      "2026-10-03"
+    ]
+  },
   "h2h_ANA-CGY": {
     "fetched": "2026-10-10T16:35:15Z",
     "value": [
@@ -1869,6 +1884,39 @@
         "MTL",
         29,
         30
+      ]
+    ]
+  },
+  "h2h_NJD-OTT": {
+    "fetched": "2026-10-12T15:20:16Z",
+    "value": [
+      [
+        "2026-04-12",
+        "OTT",
+        "NJD",
+        30,
+        30
+      ],
+      [
+        "2026-01-31",
+        "NJD",
+        "OTT",
+        27,
+        34
+      ],
+      [
+        "2025-12-09",
+        "NJD",
+        "OTT",
+        32,
+        38
+      ],
+      [
+        "2025-03-22",
+        "OTT",
+        "NJD",
+        19,
+        27
       ]
     ]
   },
@@ -4164,7 +4212,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-10-10T17:40:15Z",
+    "fetched": "2026-10-12T15:20:16Z",
     "value": [
       "Jake Allen",
       "Nico Daws",
@@ -4195,7 +4243,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-10-10T14:50:16Z",
+    "fetched": "2026-10-12T15:20:16Z",
     "value": [
       "Samuel Ersson",
       "Linus Ullmark"
@@ -4371,6 +4419,12 @@
       "book": "FD",
       "event_id": "e85cb8fcbbddd2332b24db4bfe564345",
       "goalie": "Jacob Markstrom"
+    },
+    "139": {
+      "at": "2026-10-12T15:20:16Z",
+      "book": null,
+      "event_id": "bddca6412454c40a2860b4e2e3e85968",
+      "goalie": "Nico Daws"
     }
   },
   "shot_stats": {
