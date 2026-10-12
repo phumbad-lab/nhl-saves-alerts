@@ -4582,6 +4582,12 @@
       "book": null,
       "event_id": "bddca6412454c40a2860b4e2e3e85968",
       "goalie": "Linus Ullmark"
+    },
+    "162": {
+      "at": "2026-10-12T22:16:12Z",
+      "book": null,
+      "event_id": "bddca6412454c40a2860b4e2e3e85968",
+      "goalie": "Linus Ullmark"
     }
   },
   "shot_stats": {
@@ -5241,5 +5247,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088025
+  "tg_offset": 69088026
 }
