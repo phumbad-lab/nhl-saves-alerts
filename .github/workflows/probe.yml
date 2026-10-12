@@ -1,0 +1,37 @@
+name: Probe injury feeds (temporary)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Probe
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          def get(u):
+              req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return json.loads(r.read().decode())
+          try:
+              d = get("https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries")
+              print("ESPN top keys:", list(d.keys()))
+              teams = d.get("injuries", [])
+              print("ESPN teams:", len(teams), "total entries:", sum(len(t.get("injuries", [])) for t in teams))
+              for t in teams[:2]:
+                  print("TEAM", t.get("displayName"), json.dumps(t.get("injuries", [])[:1])[:1500])
+          except Exception as e:
+              print("ESPN FAILED", e)
+          try:
+              d = get("https://api-web.nhle.com/v1/club-stats/WSH/now")
+              print("CLUB keys:", list(d.keys()))
+              print("SKATER sample:", json.dumps(d.get("skaters", [])[:1])[:1200])
+          except Exception as e:
+              print("CLUB FAILED", e)
+          try:
+              d = get("https://api-web.nhle.com/v1/club-stats/WSH/20252026/2")
+              sk = d.get("skaters", [])
+              print("LAST SEASON skaters:", len(sk), json.dumps(sk[:1])[:400])
+          except Exception as e:
+              print("LAST SEASON FAILED", e)
+          PY
