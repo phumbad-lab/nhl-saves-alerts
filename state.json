@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19915,
+  "credits_remaining": 19914,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -275,6 +275,12 @@
       "lines": {},
       "matchup": "New Jersey Devils @ Detroit Red Wings"
     },
+    "9cc2460df91fb95f776e0e893a60985c": {
+      "commence_time": "2026-10-13T22:25:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Florida Panthers @ Columbus Blue Jackets"
+    },
     "a0b4b7224d0d849d54511cd9a4780531": {
       "commence_time": "2026-10-10T23:20:00Z",
       "h2h_sent": true,
@@ -519,13 +525,18 @@
     "e85cb8fcbbddd2332b24db4bfe564345": {
       "commence_time": "2026-10-12T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-12T16:21:11Z",
+      "last_paid_check": "2026-10-12T16:25:13Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
             "over": -115,
             "point": 23.5,
             "under": -115
+          },
+          "Ukko-Pekka Luukkonen": {
+            "over": -105,
+            "point": 25.5,
+            "under": -125
           }
         },
         "fanduel": {
@@ -4523,6 +4534,12 @@
       "book": "FD",
       "event_id": "bddca6412454c40a2860b4e2e3e85968",
       "goalie": "Nico Daws"
+    },
+    "146": {
+      "at": "2026-10-12T16:25:13Z",
+      "book": null,
+      "event_id": "e85cb8fcbbddd2332b24db4bfe564345",
+      "goalie": "Ukko-Pekka Luukkonen"
     }
   },
   "shot_stats": {
