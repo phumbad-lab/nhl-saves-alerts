@@ -77,33 +77,6 @@
       },
       "matchup": "Tampa Bay Lightning @ New York Islanders"
     },
-    "1e0601b21b573df36bc79e769dcd5e4b": {
-      "commence_time": "2026-10-10T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-10T21:55:12Z",
-      "lines": {
-        "draftkings": {
-          "Arturs Silovs": {
-            "over": -115,
-            "point": 26.5,
-            "under": -115
-          },
-          "Jake Oettinger": {
-            "over": 100,
-            "point": 22.5,
-            "under": -135
-          }
-        },
-        "fanduel": {
-          "Jake Oettinger": {
-            "over": -104,
-            "point": 22.5,
-            "under": -128
-          }
-        }
-      },
-      "matchup": "Dallas Stars @ Pittsburgh Penguins"
-    },
     "1fa1e7fd3028995ab8ffb6b498e4899d": {
       "commence_time": "2026-10-14T02:40:00Z",
       "last_paid_check": null,
@@ -155,92 +128,6 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Vegas Golden Knights @ Nashville Predators"
-    },
-    "5ea535b759f889f989e5c6ed8f046bf7": {
-      "commence_time": "2026-10-10T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-10T17:25:13Z",
-      "lines": {
-        "draftkings": {
-          "Jet Greaves": {
-            "over": -130,
-            "point": 23.5,
-            "under": -105
-          },
-          "Jordan Binnington": {
-            "over": -115,
-            "point": 24.5,
-            "under": -120
-          }
-        },
-        "fanduel": {
-          "Jet Greaves": {
-            "over": -125,
-            "point": 23.5,
-            "under": -106
-          },
-          "Jordan Binnington": {
-            "over": -125,
-            "point": 23.5,
-            "under": -106
-          }
-        }
-      },
-      "matchup": "Columbus Blue Jackets @ St Louis Blues"
-    },
-    "7824aa2e736cf181d6d0e9e45b228f2b": {
-      "commence_time": "2026-10-10T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-10T22:55:12Z",
-      "lines": {
-        "draftkings": {
-          "Spencer Knight": {
-            "over": -120,
-            "point": 26.5,
-            "under": -115
-          }
-        },
-        "fanduel": {
-          "Spencer Knight": {
-            "over": -122,
-            "point": 26.5,
-            "under": -108
-          }
-        }
-      },
-      "matchup": "Carolina Hurricanes @ Chicago Blackhawks"
-    },
-    "7895b6bd10de620acba34059d4ad4e09": {
-      "commence_time": "2026-10-10T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-10T18:55:12Z",
-      "lines": {
-        "draftkings": {
-          "Colten Ellis": {
-            "over": -120,
-            "point": 24.5,
-            "under": -110
-          },
-          "Karel Vejmelka": {
-            "over": -105,
-            "point": 24.5,
-            "under": -130
-          }
-        },
-        "fanduel": {
-          "Colten Ellis": {
-            "over": -118,
-            "point": 23.5,
-            "under": -112
-          },
-          "Karel Vejmelka": {
-            "over": -110,
-            "point": 24.5,
-            "under": -120
-          }
-        }
-      },
-      "matchup": "Utah Mammoth @ Buffalo Sabres"
     },
     "7ff1567200cc7c7c7d901f32f81ad4d4": {
       "commence_time": "2026-10-11T02:10:00Z",
@@ -388,28 +275,6 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Seattle Kraken @ Philadelphia Flyers"
-    },
-    "b75f9f59f0f845e2ba7dc5f8e5b3e35d": {
-      "commence_time": "2026-10-10T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-10T21:55:12Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Fowler": {
-            "over": -110,
-            "point": 23.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "Jacob Fowler": {
-            "over": -130,
-            "point": 22.5,
-            "under": -102
-          }
-        }
-      },
-      "matchup": "Detroit Red Wings @ Montr\u00e9al Canadiens"
     },
     "b9d4f3cf4a46b1fd55b2020f0a70783a": {
       "commence_time": "2026-10-13T23:25:00Z",
