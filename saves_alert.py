@@ -999,6 +999,7 @@ KEY_MIN_GP = 5        # games (this season + last, with this team) before a play
 SHOW_GTD = False      # owner: hide day-to-day players in alerts (Oct 12); True shows a GTD line
 WITH_WITHOUT_MIN = 2  # show team shots with/without a key player once he's missed (and played) this many
 INJURY_URL = "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries"
+INJURY_FEED_MIN = 30  # the league-wide list normally has ~100+ players; fewer means a bad fetch
 
 
 def load_key_players(abbrev, now):
@@ -1049,7 +1050,8 @@ def name_match(first, last, ln, fn):
 
 def injury_report(state, events, abbrevs, now):
     """Key players currently on the injury list for every team playing in `events`.
-    Returns ({abbrev: [player dict + status, new]}, [newly OUT players]). Free; runs every time."""
+    Returns ({abbrev: [player dict + status, new]}, [newly OUT players], [players back from OUT]).
+    Free; runs every time."""
     teams = set(abbrevs.values())  # every team, so "NEW" really means it happened today
     keys = {t: cached(state, f"keys_{t}", now, timedelta(hours=12), lambda t=t: load_key_players(t, now)) or []
             for t in sorted(teams)}
@@ -1057,7 +1059,11 @@ def injury_report(state, events, abbrevs, now):
         feed = nhl_get_any(INJURY_URL).get("injuries", [])
     except Exception as e:
         print(f"Couldn't load injuries ({e}); skipping them this run.")
-        return {}, []
+        return {}, [], []
+    if sum(len(t.get("injuries", [])) for t in feed) < INJURY_FEED_MIN:
+        # A short/empty feed is almost surely a hiccup; don't treat everyone as healthy.
+        print("Injury feed looks incomplete; skipping it this run.")
+        return {}, [], []
     listed = {}
     for team in feed:
         ab = abbrevs.get(team_key(team.get("displayName", "")))
@@ -1069,7 +1075,7 @@ def injury_report(state, events, abbrevs, now):
     book = state.setdefault("injuries", {})       # "TEAM:id" -> {status, seen, out_at}
     seeded = set(state.setdefault("injury_teams", []))
     today = now.astimezone(LOCAL_TZ).date()
-    report, newly_out = {}, []
+    report, newly_out, newly_back = {}, [], []
     for t in sorted(teams):
         first_look = t not in seeded
         current = {}
@@ -1093,10 +1099,13 @@ def injury_report(state, events, abbrevs, now):
                       for x in (prev["seen"], prev["out_at"]))
             report.setdefault(t, []).append(dict(k, status=st, new=new))
         for kid in [x for x in book if x.startswith(f"{t}:") and x not in current]:
-            del book[kid]  # back in the lineup
+            was = book.pop(kid)  # off the injury list: back in the lineup
+            k = next((k for k in keys[t] if f"{t}:{k['id']}" == kid), None)
+            if k and was.get("status") == "OUT" and not first_look:
+                newly_back.append((t, k))
         seeded.add(t)
     state["injury_teams"] = sorted(seeded)
-    return report, newly_out
+    return report, newly_out, newly_back
 
 
 def nhl_get_any(url):
@@ -1165,7 +1174,7 @@ def injury_lines(report, ab, state=None, games=None, now=None):
     return lines
 
 
-def send_injury_change(state, events, stats, abbrevs, team, k, now):
+def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
     """'⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM' + which already-alerted goalie it affects.
     Only for games today that haven't started and that you've already had an alert for."""
     today = now.astimezone(LOCAL_TZ).date()
@@ -1183,10 +1192,14 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now):
         team_side = "away" if ab["away"] == team else "home"
         other = "home" if team_side == "away" else "away"
         # A missing shooter means fewer shots on the other goalie; a missing D means more on his own.
+        # A player coming back flips it.
         hit_side, effect = (other, "Fewer") if k["role"] == "shooter" else (team_side, "More")
+        if back:
+            effect = "More" if effect == "Fewer" else "Fewer"
         m = matchup(event, stats)
         sides = goalie_sides(event, posted, state, now) if m else {}
-        lines = [f"⚠️ {k['last']} {pos(k)} ({team}) OUT - {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
+        head = f"✅ {k['last']} {pos(k)} ({team}) BACK" if back else f"⚠️ {k['last']} {pos(k)} ({team}) OUT"
+        lines = [f"{head} - {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
         for player in sorted(p for p in posted if sides.get(p) == hit_side):
             g = m[hit_side]
             lines.append(f"{effect} shots on {last_name(player)} ({ab[hit_side]}): "
@@ -1194,7 +1207,7 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now):
         if len(lines) == 1:
             lines.append(f"{effect} shots expected on the {ab[hit_side]} goalie")
         send_push("", "\n".join(lines))
-        print(f"INJURY ALERT {k['last']} ({team})")
+        print(f"INJURY ALERT {k['last']} ({team}) {'BACK' if back else 'OUT'}")
 
 
 def key_out_summary(report, ab):
@@ -1455,9 +1468,11 @@ def main():
     # Key-player injuries (free). Change alerts go out when a key player is ruled OUT for a
     # game you've already been alerted on.
     abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
-    injuries, newly_out = injury_report(state, events, abbrevs, now) if abbrevs else ({}, [])
+    injuries, newly_out, newly_back = injury_report(state, events, abbrevs, now) if abbrevs else ({}, [], [])
     for team, k in newly_out:
         send_injury_change(state, events, stats, abbrevs, team, k, now)
+    for team, k in newly_back:
+        send_injury_change(state, events, stats, abbrevs, team, k, now, back=True)
 
     for event in events:
         eid = event["id"]

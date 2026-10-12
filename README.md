@@ -134,6 +134,7 @@ INJ: Faber D (MIN) 25 min NEW
 ```
 
 - **INJ** = out (not playing). After name, position and team: shots per game for shooters, ice time for defensemen, then **NEW** if tonight is the first game he misses, or **(3)** = games missed in a row so far.
+- **Back alert:** if a key player who was out comes off the injury list after you've had an alert for that game (before puck drop): `✅ Ovechkin LW (WSH) BACK - NYR@WSH 7:10PM` / `More shots on Shesterkin (NYR): DK 25.5 UNDER`. Moving from out to day-to-day doesn't trigger it; only being cleared does.
 - Day-to-day players are hidden (`SHOW_GTD = False`). They're still watched: if one is ruled out after you've had an alert, you get a change alert.
 - **w/ and w/o** = his team's shots for (shooters) or shots against (defensemen) in games with and without him this season, shown once he's missed and played at least 2 (numbers in parentheses = games).
 - **Change alert:** if a key player is ruled **OUT** after you've already had an alert for that game (and before puck drop), you get one message, e.g. `⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM` / `More shots on Ullmark (OTT): DK 24.5 OVER · FD not yet`. A missing shooter means fewer shots on the other goalie; a missing defenseman means more shots on his own. Day-to-day news never sends a separate message.
