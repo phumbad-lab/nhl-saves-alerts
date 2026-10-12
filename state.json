@@ -4378,7 +4378,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 26.87,
-    "fetched": "2026-10-12T17:51:09Z",
+    "fetched": "2026-10-12T23:51:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 25.2,
@@ -4389,8 +4389,8 @@
         "sf": 25.5
       },
       "buffalosabres": {
-        "sa": 21.2,
-        "sf": 26.4
+        "sa": 21.5,
+        "sf": 27.33333
       },
       "calgaryflames": {
         "sa": 28.6,
@@ -4425,8 +4425,8 @@
         "sf": 26.6
       },
       "floridapanthers": {
-        "sa": 23.2,
-        "sf": 27.4
+        "sa": 24.66666,
+        "sf": 26.66666
       },
       "losangeleskings": {
         "sa": 29.0,
@@ -4509,7 +4509,7 @@
         "sf": 26.2
       }
     },
-    "save_pct": 0.8873,
+    "save_pct": 0.8869,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
