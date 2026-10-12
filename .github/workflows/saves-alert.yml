@@ -2,9 +2,9 @@ name: Goalie saves alerts
 
 on:
   schedule:
-    # Every 20 minutes, 10:00 AM to 9:59 PM Eastern (times below are UTC).
-    - cron: "*/20 14-23 * * *"
-    - cron: "*/20 0-1 * * *"
+    # Backup only: cron-job.org triggers every minute. This keeps things running
+    # (incl. the 7 AM results) every 15 minutes, all day, if that ever stops.
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       test_push:
