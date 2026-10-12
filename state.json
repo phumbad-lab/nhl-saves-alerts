@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19912,
+  "credits_remaining": 19911,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -535,7 +535,7 @@
       "matchup": "Buffalo Sabres @ Montr\u00e9al Canadiens"
     },
     "e85cb8fcbbddd2332b24db4bfe564345": {
-      "commence_time": "2026-10-12T17:10:00Z",
+      "commence_time": "2026-10-12T17:15:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-10-12T16:25:13Z",
       "lines": {
@@ -569,7 +569,7 @@
     "fcf3af0dc532d226597dc5a8a2d55f78": {
       "commence_time": "2026-10-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-12T16:50:18Z",
+      "last_paid_check": "2026-10-12T17:06:12Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
