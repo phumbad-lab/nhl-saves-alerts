@@ -131,11 +131,10 @@ When a key player is out or day-to-day, he gets one line at the bottom of the al
 ```
 INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 INJ: Faber D (MIN) 25 min NEW
-GTD: Dahlin D (BUF) 25 min
 ```
 
 - **INJ** = out (not playing). After name, position and team: shots per game for shooters, ice time for defensemen, then **NEW** if tonight is the first game he misses, or **(3)** = games missed in a row so far.
-- **GTD** = day-to-day / game-time decision; he may still play. If he's ruled out after you've had an alert, you get a change alert.
+- Day-to-day players are hidden (`SHOW_GTD = False`). They're still watched: if one is ruled out after you've had an alert, you get a change alert.
 - **w/ and w/o** = his team's shots for (shooters) or shots against (defensemen) in games with and without him this season, shown once he's missed and played at least 2 (numbers in parentheses = games).
 - **Change alert:** if a key player is ruled **OUT** after you've already had an alert for that game (and before puck drop), you get one message, e.g. `⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM` / `More shots on Ullmark (OTT): DK 24.5 OVER · FD not yet`. A missing shooter means fewer shots on the other goalie; a missing defenseman means more shots on his own. Day-to-day news never sends a separate message.
 - Each logged pick records who was out in the `key_out` column, so we can later check how those games went.

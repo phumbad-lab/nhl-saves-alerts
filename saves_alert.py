@@ -996,6 +996,7 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
 KEY_SHOOTERS = 3      # top shots-per-game skaters per team
 KEY_DEFENSE = 2       # top ice-time defensemen per team
 KEY_MIN_GP = 5        # games (this season + last, with this team) before a player can be "key"
+SHOW_GTD = False      # owner: hide day-to-day players in alerts (Oct 12); True shows a GTD line
 WITH_WITHOUT_MIN = 2  # show team shots with/without a key player once he's missed (and played) this many
 INJURY_URL = "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries"
 
@@ -1152,8 +1153,10 @@ def injury_lines(report, ab, state=None, games=None, now=None):
                 missed = games_missed(state, t, k, games, now) if live else None
                 tag = ("NEW" if k["new"] else "") if missed is None else ("NEW" if missed == 0 else f"({missed})")
                 line = f"INJ: {k['last']} {pos(k)} ({t}) {what}" + (f" {tag}" if tag else "")
-            else:
+            elif SHOW_GTD:
                 line = f"GTD: {k['last']} {pos(k)} ({t}) {what}"
+            else:
+                continue  # day-to-day hidden; a change alert comes if he's ruled out
             ww = with_without(state, t, k, games, now) if live else None
             if ww:
                 stat = "SF" if k["role"] == "shooter" else "SA"
