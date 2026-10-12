@@ -2137,9 +2137,9 @@
       "status": "DTD"
     },
     "WSH:8478911": {
-      "out_at": "2026-10-12T14:28:12Z",
+      "out_at": "2026-10-12T14:32:30Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "DTD"
+      "status": "OUT"
     }
   },
   "injury_teams": [
