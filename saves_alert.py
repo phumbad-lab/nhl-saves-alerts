@@ -408,7 +408,8 @@ def fmt_h2h(h2h, ab):
     lines = []
     for i, team in enumerate((ab["away"], ab["home"])):
         faced = [(g[4] if g[1] == team else g[3]) for g in h2h]  # opponent's shots = shots on this goalie
-        nums = ", ".join(str(x) for x in faced)
+        where = [("A" if g[1] == team else "H") for g in h2h]      # was this team away or home
+        nums = ", ".join(f"{w}{x}" for w, x in zip(where, faced))
         lines.append(f"H2H L{len(h2h)}: on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
     return lines
 
@@ -937,8 +938,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         Kuemper (LAK) - LAK@VGK 10:10PM
         DK 26.5 OVER · FD not yet
         30.9 shots, 27.3 saves expected
-        H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)            <- once per game
-        H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
+        H2H L4: on LAK H25, A22, H27, A35 (avg 27.2)            <- once per game
+        H2H L4: on VGK A19, H33, A24, H26 (avg 25.5)
         VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
         LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
     A goalie already alerted who shows up at the other book gets one line:
@@ -965,12 +966,12 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
-        if injuries:
-            out.extend(injury_lines(injuries, ab, state, games, now))
         if i == 0 and show_h2h:
             out.extend(fmt_h2h(h2h, ab))
         if side:
             out.extend(rank_line(event, side, ab, raw, games))
+        if injuries:
+            out.extend(injury_lines(injuries, ab, state, games, now))
         msgs.append(("\n".join(out), player, None))
     for book, player in added:
         side = sides.get(player)
@@ -1109,30 +1110,20 @@ def with_without(state, team, k, games, now):
             sum(stat_without) / len(stat_without), len(stat_without))
 
 
-def fmt_player(k):
-    what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"D {k['toi']:.0f} min"
-    tail = (" DTD" if k["status"] == "DTD" else "") + (" NEW" if k["new"] else "")
-    return f"{k['last']} ({what}){tail}"
-
-
 def injury_lines(report, ab, state=None, games=None, now=None):
-    """'Out: WSH Ovechkin (3.4 SOG/g) NEW · NYR none' plus with/without lines. Empty when nobody key is out."""
-    teams = [ab["away"], ab["home"]]
-    if not any(report.get(t) for t in teams):
-        return []
-    parts = [f"{t} " + (", ".join(fmt_player(k) for k in report.get(t, [])) or "none") for t in teams]
-    lines = ["Out: " + " · ".join(parts)]
-    if state is not None and now is not None:
-        shown = 0
-        for t in teams:
-            for k in report.get(t, []):
-                if k["status"] != "OUT" or shown >= 2:
-                    continue
-                ww = with_without(state, t, k, games, now)
-                if ww:
-                    stat = "SF" if k["role"] == "shooter" else "SA"
-                    lines.append(f"{t} {stat} with {k['last']} {ww[0]:.1f} ({ww[1]}) · without {ww[2]:.1f} ({ww[3]})")
-                    shown += 1
+    """One line per key player out or day-to-day, nothing when nobody key is missing:
+        FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
+        EDM DTD: Ekholm D 22 min NEW"""
+    lines = []
+    for t in (ab["away"], ab["home"]):
+        for k in report.get(t, []):
+            what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"D {k['toi']:.0f} min"
+            line = f"{t} {'out' if k['status'] == 'OUT' else 'DTD'}: {k['last']} {what}" + (" NEW" if k["new"] else "")
+            ww = with_without(state, t, k, games, now) if (state is not None and now is not None) else None
+            if ww:
+                stat = "SF" if k["role"] == "shooter" else "SA"
+                line += f" · {stat} w/ {ww[0]:.1f} ({ww[1]}), w/o {ww[2]:.1f} ({ww[3]})"
+            lines.append(line)
     return lines
 
 

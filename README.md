@@ -8,8 +8,8 @@ Example alert (first time a goalie posts):
 Kuemper (LAK) - LAK@VGK 10:10PM
 DK 26.5 OVER · FD not yet
 30.9 shots, 27.3 saves expected
-H2H L4: on LAK 25, 22, 27, 35 (avg 27.2)
-H2H L4: on VGK 19, 33, 24, 26 (avg 25.5)
+H2H L4: on LAK H25, A22, H27, A35 (avg 27.2)
+H2H L4: on VGK A19, H33, A24, H26 (avg 25.5)
 VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
 LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
 ```
