@@ -45,6 +45,7 @@ Matchup filter (uses this season's NHL team stats, free, refreshed every 6 hours
 """
 
 import csv
+import html
 import json
 import os
 import re
@@ -155,17 +156,36 @@ def api_get(path, params):
         raise
 
 
+UL, UL_END = "\x01", "\x02"  # underline markers used inside alert text
+
+
+def ul(label):
+    """Underline a label in an alert, e.g. ul('VGK L5 For:')."""
+    return f"{UL}{label}{UL_END}"
+
+
+def plain(text):
+    return text.replace(UL, "").replace(UL_END, "")
+
+
 def send_push(title, message, silent=None):
-    """Send a Telegram message from your bot to your chat."""
+    """Send a Telegram message from your bot to your chat. Text with ul() labels is sent as HTML
+    so the labels show underlined."""
+    text = f"{title}\n{message}" if title else message
     if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
-        print(f"[dry run, no Telegram keys] {title}\n{message}\n")
+        print(f"[dry run, no Telegram keys] {plain(text)}\n")
         return
-    payload = urllib.parse.urlencode({
+    fields = {
         "chat_id": TELEGRAM_CHAT_ID,
-        "text": (f"{title}\n{message}" if title else message)[:4096],
+        "text": text[:4096],
         "disable_notification": "true" if (SILENT if silent is None else silent) else "false",
         "disable_web_page_preview": "true",
-    }).encode("utf-8")
+    }
+    if UL in text:
+        fields["text"] = (html.escape(text, quote=False)
+                          .replace(UL, "<u>").replace(UL_END, "</u>"))[:4096]
+        fields["parse_mode"] = "HTML"
+    payload = urllib.parse.urlencode(fields).encode("utf-8")
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     req = urllib.request.Request(url, data=payload)
     try:
@@ -412,7 +432,7 @@ def fmt_h2h(h2h, ab, side=None):
         shooter = ab["home"] if team == ab["away"] else ab["away"]
         faced = [(g[4] if g[1] == team else g[3]) for g in h2h]  # opponent's shots = shots on this goalie
         nums = ", ".join(("@" if g[1] == shooter else "") + str(x) for g, x in zip(h2h, faced))  # @ = shooting team on the road
-        lines.append(f"H2H L{len(h2h)} on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
+        lines.append(f"{ul(f'H2H L{len(h2h)} on {team}:')} {nums} (avg {sum(faced) / len(faced):.1f})")
     return lines
 
 
@@ -918,8 +938,9 @@ def rank_line(event, side, ab, raw, games=None):
         return f"{ordinal(most)} most" if most <= least else f"{ordinal(least)} least"
     def line(team, key, stat, word):
         recent = recent_games(games, team, stat)
-        label = f"L{len(recent)} {word}: " + ", ".join(recent) + " " if recent else f"{word}: "
-        return f"{team} {label}({place(key, stat)} {raw[key][stat]:.1f})"
+        head = ul(f"{team} L{len(recent)} {word}:") if recent else ul(f"{team} {word}:")
+        body = (", ".join(recent) + " ") if recent else ""
+        return f"{head} {body}({place(key, stat)} {raw[key][stat]:.1f})"
     return [line(ab[other], opp, "sf", "For"), line(ab[side], own, "sa", "Against")]
 
 
@@ -1161,9 +1182,9 @@ def injury_lines(report, ab, state=None, games=None, now=None):
             if k["status"] == "OUT":
                 missed = games_missed(state, t, k, games, now) if live else None
                 tag = ("NEW" if k["new"] else "") if missed is None else ("NEW" if missed == 0 else f"({missed})")
-                line = f"INJ: {k['last']} {pos(k)} ({t}) {what}" + (f" {tag}" if tag else "")
+                line = f"{ul('INJ:')} {k['last']} {pos(k)} ({t}) {what}" + (f" {tag}" if tag else "")
             elif SHOW_GTD:
-                line = f"GTD: {k['last']} {pos(k)} ({t}) {what}"
+                line = f"{ul('GTD:')} {k['last']} {pos(k)} ({t}) {what}"
             else:
                 continue  # day-to-day hidden; a change alert comes if he's ruled out
             ww = with_without(state, t, k, games, now) if live else None

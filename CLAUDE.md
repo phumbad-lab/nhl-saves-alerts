@@ -34,12 +34,13 @@ what's been decided and why, and what's still pending. Keep it current when thin
 Markstrom (FLA) - FLA@BUF 1:10PM
 DK 23.5 UNDER · FD not yet
 24.6 shots, 21.9 saves expected
-H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)
+H2H L4 on FLA: @39, @20, 23, 31 (avg 28.2)
 BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
 FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
 INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 ```
-- One message per goalie (so replies map to one goalie). Every full goalie alert has one H2H line for his own team: `H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)` = shots on FLA in the last 4 meetings, `@` = the shooting team was on the road (game at FLA). Owner asked for only the goalie's side (Oct 12). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
+- One message per goalie (so replies map to one goalie). Every full goalie alert has one H2H line for his own team: `H2H L4 on FLA: @39, @20, 23, 31 (avg 28.2)` = shots on FLA in the last 4 meetings, `@` = the shooting team was on the road (game at FLA). Owner asked for only the goalie's side (Oct 12). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
+- Labels `H2H L4 on X:`, `X L5 For:`, `X L5 Against:`, `INJ:` are underlined (owner, Oct 12): wrap with `ul()`; `send_push` switches to Telegram HTML (escaped) when a message contains `ul()` markers.
 - Second book posting later: `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`.
 - Season records, 🔥 record and NO EDGE split count each goalie once per game (first line alerted), not per book/line (owner, Oct 12).
 - Morning summary (after 7 AM ET): per-goalie results, `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.

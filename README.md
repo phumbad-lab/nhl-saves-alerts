@@ -8,7 +8,7 @@ Example alert (first time a goalie posts):
 Markstrom (FLA) - FLA@BUF 1:10PM
 DK 23.5 UNDER · FD not yet
 24.6 shots, 21.9 saves expected
-H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)
+H2H L4 on FLA: @39, @20, 23, 31 (avg 28.2)
 BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
 FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
 INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
@@ -16,6 +16,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 
 - **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
 - **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
+- The labels `H2H L4 on FLA:`, `BUF L5 For:`, `FLA L5 Against:` and `INJ:` show **underlined** in Telegram.
 - **H2H L4 on FLA** = shots on this goalie's team in the last four meetings with tonight's opponent, newest first; `@` = the opponent was on the road (regular season and playoffs, up to three seasons back). On every goalie's alert, for context only.
 - **L5 For / L5 Against** = the opponent's shots in each of its last five games and this goalie's team's shots allowed in each of its last five, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28@SEA` = 28 shots at Seattle, `30ANA` = 30 shots at home vs Anaheim). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than five games shows what it has (L4, etc.). To change the count, edit `RECENT_GAMES = 5` in `saves_alert.py`.
 - Each goalie comes as its own message (so you can reply `in` to it). H2H shows only on the first goalie alerted for a game.
