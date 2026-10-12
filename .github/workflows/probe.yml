@@ -15,23 +15,24 @@ jobs:
                   return json.loads(r.read().decode())
           try:
               d = get("https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries")
-              print("ESPN top keys:", list(d.keys()))
+              N=lambda m: print("::notice::"+str(m).replace("\n"," ").replace("%","%25")[:3000])
+              N("ESPN keys "+str(list(d.keys())))
               teams = d.get("injuries", [])
-              print("ESPN teams:", len(teams), "total entries:", sum(len(t.get("injuries", [])) for t in teams))
+              N("ESPN teams %d entries %d" % (len(teams), sum(len(t.get("injuries", [])) for t in teams)))
               for t in teams[:2]:
-                  print("TEAM", t.get("displayName"), json.dumps(t.get("injuries", [])[:1])[:1500])
+                  N("TEAM "+str(t.get("displayName"))+" "+json.dumps(t.get("injuries", [])[:1])[:2800])
           except Exception as e:
-              print("ESPN FAILED", e)
+              print("::notice::ESPN FAILED "+str(e))
           try:
               d = get("https://api-web.nhle.com/v1/club-stats/WSH/now")
-              print("CLUB keys:", list(d.keys()))
-              print("SKATER sample:", json.dumps(d.get("skaters", [])[:1])[:1200])
+              print("::notice::CLUB keys "+str(list(d.keys())))
+              print("::notice::SKATER "+json.dumps(d.get("skaters", [])[:1])[:1500])
           except Exception as e:
-              print("CLUB FAILED", e)
+              print("::notice::CLUB FAILED "+str(e))
           try:
               d = get("https://api-web.nhle.com/v1/club-stats/WSH/20252026/2")
               sk = d.get("skaters", [])
-              print("LAST SEASON skaters:", len(sk), json.dumps(sk[:1])[:400])
+              print("::notice::LAST "+str(len(sk))+" "+json.dumps(sk[:1])[:400])
           except Exception as e:
-              print("LAST SEASON FAILED", e)
+              print("::notice::LAST FAILED "+str(e))
           PY
