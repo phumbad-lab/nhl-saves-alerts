@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19920,
+  "credits_remaining": 19919,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -496,7 +496,7 @@
     "e85cb8fcbbddd2332b24db4bfe564345": {
       "commence_time": "2026-10-12T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-12T15:50:16Z",
+      "last_paid_check": "2026-10-12T16:06:11Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
@@ -507,9 +507,9 @@
         },
         "fanduel": {
           "Jacob Markstrom": {
-            "over": -130,
+            "over": -112,
             "point": 23.5,
-            "under": -102
+            "under": -118
           }
         }
       },
