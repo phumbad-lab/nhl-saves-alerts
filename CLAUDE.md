@@ -15,7 +15,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 - `saves_alert.py` runs on GitHub Actions (`.github/workflows/saves-alert.yml`), triggered **every minute** by cron-job.org (POST to the workflow_dispatch API); the built-in GitHub schedule (every 15 min, all day) is a backup. The owner pauses the cron-job.org saves job overnight (midnight–6 AM ET as of Oct 12; it was 9 AM once, which skipped the 7 AM results until a manual run). The backup was widened to all day so results go out at 7 AM regardless. If runs stop, check the cron-job.org job first. Repo is public, so Actions minutes are free.
 - Secrets: `ODDS_API_KEY` (new key issued Oct 10 with the paid plan), `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. Variables currently set: `RECHECK_MINUTES=15`, `RECHECK_RESERVE=1000`.
 - The bot commits `state.json` and `picks.csv` after runs ("Update alert state"). **Those two files are the bot's. Never edit or commit them by hand**, and never ask the owner to upload them.
-- **Pushing changes (Claude):** edit only code/docs, `git pull --rebase origin main` right before committing and pushing (the bot pushes often), `git add` the specific files only, push to `main`. Test first with the scratch harnesses (copy the script + a copy of live `picks.csv`/`state.json` into a scratch dir; never run it inside the repo, and delete `__pycache__`).
+- **Pushing changes (Claude):** commit (or stash) local edits BEFORE `git pull --rebase` — a pull with a dirty tree fails and, chained with `&&`, silently skips the rest. Edit only code/docs, `git pull --rebase origin main` right before committing and pushing (the bot pushes often), `git add` the specific files only, push to `main`. Test first with the scratch harnesses (copy the script + a copy of live `picks.csv`/`state.json` into a scratch dir; never run it inside the repo, and delete `__pycache__`).
 - **Repo stays public** (owner's call, Oct 11): free unlimited Actions minutes make every-minute runs possible; private would cap at 2,000 min/month. Code, picks.csv and his logged bets are publicly visible; secrets are not. Revisit if he ever shares or sells picks (move the runner somewhere private).
 - Odds API: market `player_total_saves`; one call covers both books; a response with lines costs 1 credit, an empty one is free, `/events` is free.
 
@@ -34,14 +34,14 @@ what's been decided and why, and what's still pending. Keep it current when thin
 Markstrom (FLA) - FLA@BUF 1:10PM
 DK 23.5 UNDER · FD not yet
 24.6 shots, 21.9 saves expected
-H2H L4 BUF on FLA @39, @20, 23, 31 (avg 28.2)
-H2H L4 FLA on BUF 29, 42, @32, @32 (avg 33.8)
+H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)
 BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
 FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
 INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
 ```
-- One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game, written `H2H L4 BUF on FLA @39, ...` (shooter on goalie; `@` = shooting team on the road). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
+- One message per goalie (so replies map to one goalie). Every full goalie alert has one H2H line for his own team: `H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)` = shots on FLA in the last 4 meetings, `@` = the shooting team was on the road (game at FLA). Owner asked for only the goalie's side (Oct 12). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
 - Second book posting later: `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`.
+- Season records, 🔥 record and NO EDGE split count each goalie once per game (first line alerted), not per book/line (owner, Oct 12).
 - Morning summary (after 7 AM ET): per-goalie results, `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.
 
 ## Injuries (stage 1 + 2 built Oct 12; stage 3 pending)
