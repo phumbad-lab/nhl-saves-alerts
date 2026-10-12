@@ -16,7 +16,7 @@ LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
 
 - **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
 - **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
-- **H2H L4** = shots each team's goalie faced in their last four meetings, newest first (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
+- **H2H L4** = shots each team's goalie faced in their last four meetings, newest first, H/A = that team was home/away (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
 - **L5 For / L5 Against** = the opponent's shots in each of its last five games and this goalie's team's shots allowed in each of its last five, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28@SEA` = 28 shots at Seattle, `30ANA` = 30 shots at home vs Anaheim). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than five games shows what it has (L4, etc.). To change the count, edit `RECENT_GAMES = 5` in `saves_alert.py`.
 - Each goalie comes as its own message (so you can reply `in` to it). H2H shows only on the first goalie alerted for a game.
 - When the other book posts a goalie you've already been alerted on, you get one line:
@@ -122,6 +122,24 @@ Each goalie is matched to his team using NHL rosters. **The matchup picks the di
 Example: Lankinen expected 26.6 saves facing Carolina (+3.2 shots), so 26.5 is over, 27.5 is lean over and 28.5 is no edge.
 
 If a goalie can't be matched to a team (e.g. a fresh call-up), the alert lists both teams' expected saves instead and leaves the tag off. The full math for every game is in each run's log.
+
+## Injuries (key players only)
+Only each team's **top 3 shooters** (shots per game) and **top 2 defensemen** (ice time) count, using this season plus last season with that team and the current roster. Depth players never show up. Injury news comes from ESPN's injury list, checked every run (free).
+
+When a key player is out or day-to-day, he gets one line at the bottom of the alert (nothing at all when nobody key is missing):
+
+```
+FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
+BUF DTD: Dahlin D 25 min NEW
+```
+
+- **out** / **DTD** (day-to-day). **NEW** = he went on the list, or from day-to-day to out, today.
+- **w/ and w/o** = his team's shots for (shooters) or shots against (defensemen) in games with and without him this season, shown once he's missed and played at least 2 (numbers in parentheses = games).
+- **Change alert:** if a key player is ruled **OUT** after you've already had an alert for that game (and before puck drop), you get one message, e.g. `⚠️ Ovechkin (WSH) OUT · NYR@WSH 7:10PM` / `Fewer shots on Shesterkin (NYR): DK 25.5 OVER · FD not yet`. A missing shooter means fewer shots on the other goalie; a missing defenseman means more shots on his own. Day-to-day news never sends a separate message.
+- Each logged pick records who was out in the `key_out` column, so we can later check how those games went.
+- Injuries don't change expected saves yet. That comes only after the data shows how much they matter.
+- Settings in the injuries section of `saves_alert.py`: `KEY_SHOOTERS = 3`, `KEY_DEFENSE = 2`, `KEY_MIN_GP = 5`, `WITH_WITHOUT_MIN = 2`.
+- Limit: true warmup scratches only show up if ESPN posts them before puck drop.
 
 ## Logging your bets: reply "in"
 Each goalie comes as its own message. When you bet one, swipe left on that alert in Telegram and reply **`in`**. The bot reads replies on its next run (within about 5 minutes) and puts a 👍 on yours once it's logged.

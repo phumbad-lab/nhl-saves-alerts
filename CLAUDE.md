@@ -39,9 +39,18 @@ H2H L4: on VGK A19, H33, A24, H26 (avg 25.5)
 VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
 LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
 ```
-- One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game. `@` = that team was on the road. Day name only if the game isn't today.
+- One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game; H/A = that team home/away. Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
 - Second book posting later: `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`.
 - Morning summary (after 7 AM ET): per-goalie results, `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.
+
+## Injuries (stage 1 + 2 built Oct 12; stage 3 pending)
+- Key players only: top `KEY_SHOOTERS` (3) by SOG/GP and top `KEY_DEFENSE` (2) D by TOI, this + last season with the team, current roster, ≥ `KEY_MIN_GP` (5). Owner explicitly does NOT want depth-player noise.
+- Source: ESPN `site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries` (unofficial, free, every run). NHL `club-stats`, `roster`, `player/{id}/game-log` for keys and with/without. All 32 teams tracked so NEW = changed today; a team's first look seeds silently.
+- One line per key player at the bottom of the alert, only when out/DTD: `FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)`; w/ & w/o once ≥2 games missed and played.
+- Change alert only when a key player goes newly OUT for an already-alerted game today before puck drop. DTD never pings.
+- `picks.csv` `key_out` column logs who was out at alert time (stage 2 measurement).
+- **Stage 3 (not built, needs his OK after data):** shadow injury-adjusted expected shots, e.g. shooter out → team shots −(his SOG/g − ~1.2 replacement); D effect later.
+- Can't reach NHL/ESPN from Claude's workspace (proxy); test feeds via a temporary workflow that prints `::notice::` annotations (read with `gh api .../check-runs/{job}/annotations`), then delete it.
 
 ## Rechecks / credits (paid-plan settings)
 - Empty games checked every run (free). Partly posted games: every `RECHECK_MINUTES` (15) while a lean goalie is missing; every `NOLEAN_RECHECK_MINUTES` (15) if only no-lean goalies are missing; within `RECHECK_WINDOW_HOURS` (10) of puck drop.
@@ -58,7 +67,7 @@ LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
 - **Wed Oct 14, 10 AM ET: accuracy analysis** (scheduled in the original thread). Expected vs actual saves (bias, MAE), shots error vs save% luck, by tag/home-road/lean; retro-test (1) shrinking small samples toward league avg (K≈4) — the Ellis/Buffalo case, (2) goalie-specific save% (last season, this season, blend); line-vs-actual; did the final checks catch anything; credit burn rate. Present findings, build nothing until approved.
 - Observed early: NO EDGE lines went 37% over / 63% under (n=30, Oct 10). Watch it.
 - More bot commands offered: `record`, `today`, `credits`, `check <name>` (1 credit), `note <name> …`.
-- Longer term: injuries/late scratches, recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.
+- Longer term: injury stage 3 (math), recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.
 
 ## Known limits
 - Late-posted goalies can still be missed if a book posts after the last check (Talbot Oct 9, Bussi Oct 10 never appeared in the feed).
