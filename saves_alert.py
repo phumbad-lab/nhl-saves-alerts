@@ -401,17 +401,18 @@ def get_h2h(state, away, home, now):
                   lambda: load_h2h(away, home, now)) or []
 
 
-def fmt_h2h(h2h, ab):
-    """Two lines, newest first: 'H2H L4 BUF on FLA @39, @20, 23, 31 (avg 28.2)'
-    = shots Buffalo put on Florida's goalie; @ = Buffalo was on the road."""
+def fmt_h2h(h2h, ab, side=None):
+    """Shots on this goalie's team in recent meetings, newest first:
+    'H2H L4 on MIN 31, 16, @25, @24 (avg 24.0)'; @ = the shooting team was on the road
+    (game at MIN). With no side given, both teams' lines."""
     if not h2h:
         return []
     lines = []
-    for i, team in enumerate((ab["away"], ab["home"])):
+    for i, team in enumerate([ab[side]] if side else (ab["away"], ab["home"])):
         shooter = ab["home"] if team == ab["away"] else ab["away"]
         faced = [(g[4] if g[1] == team else g[3]) for g in h2h]  # opponent's shots = shots on this goalie
         nums = ", ".join(("@" if g[1] == shooter else "") + str(x) for g, x in zip(h2h, faced))  # @ = shooting team on the road
-        lines.append(f"H2H L{len(h2h)} {shooter} on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
+        lines.append(f"H2H L{len(h2h)} on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
     return lines
 
 
@@ -723,31 +724,35 @@ def grade_picks(state, now):
     return graded
 
 
-def record_line(rows, tag):
-    """W-L-P for a tag, counting each goalie/line once even if both books posted it."""
-    seen, w, l, p = set(), 0, 0, 0
+def first_per_goalie(rows):
+    """One row per goalie per game: the first line alerted (what you could bet first),
+    so a goalie posted at both books, or at two different lines, counts once."""
+    seen, out = set(), []
     for r in rows:
+        key = (r["event_id"], r["goalie"])
+        if key not in seen:
+            seen.add(key)
+            out.append(r)
+    return out
+
+
+def record_line(rows, tag):
+    """W-L-P for a tag, counting each goalie once per game."""
+    w = l = p = 0
+    for r in first_per_goalie(rows):
         if r.get("tag") != tag or r.get("result") not in ("W", "L", "P"):
             continue
-        key = (r["event_id"], r["goalie"], r["line"])
-        if key in seen:
-            continue
-        seen.add(key)
         w += r["result"] == "W"; l += r["result"] == "L"; p += r["result"] == "P"
     return w, l, p
 
 
 def no_edge_split(rows):
     """How NO EDGE lines landed, all season: 'NO EDGE 37% over 63% under (30)'.
-    Each goalie/line counts once even if both books posted it; pushes are counted separately."""
-    seen, o, u, p = set(), 0, 0, 0
-    for r in rows:
+    Each goalie counts once per game; pushes are counted separately."""
+    o = u = p = 0
+    for r in first_per_goalie(rows):
         if r.get("tag") != "FADE" or r.get("outcome") not in ("OVER", "UNDER", "PUSH"):
             continue
-        key = (r["event_id"], r["goalie"], r["line"])
-        if key in seen:
-            continue
-        seen.add(key)
         o += r["outcome"] == "OVER"; u += r["outcome"] == "UNDER"; p += r["outcome"] == "PUSH"
     if not (o + u):
         return "NO EDGE no results yet"
@@ -967,8 +972,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
-        if i == 0 and show_h2h:
-            out.extend(fmt_h2h(h2h, ab))
+        if side:  # every goalie gets his own H2H line: shots on his team in recent meetings
+            out.extend(fmt_h2h(h2h, ab, side))
         if side:
             out.extend(rank_line(event, side, ab, raw, games))
         if injuries:
