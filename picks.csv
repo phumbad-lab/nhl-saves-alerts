@@ -114,3 +114,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-12,Panthers @ Sabres,Jacob Markstrom,FLA,FD,24.5,-104,-128,21.9,UNDER,,,,e85cb8fcbbddd2332b24db4bfe564345,2026-10-12T17:10:00Z,Florida Panthers,Buffalo Sabres,2026-10-12T15:03:14Z,,,,,,FLA:Marchand;BUF:
 2026-10-12,Senators @ Devils,Nico Daws,NJD,DK,22.5,-125,-110,23.1,FADE,,,,bddca6412454c40a2860b4e2e3e85968,2026-10-12T23:10:00Z,Ottawa Senators,New Jersey Devils,2026-10-12T15:20:16Z,,,,,,OTT:Sanderson(DTD);NJD:
 2026-10-12,Knights @ Wild,Jesper Wallstedt,MIN,DK,26.5,-110,-120,25.7,LEAN_OVER,,,,fcf3af0dc532d226597dc5a8a2d55f78,2026-10-13T00:10:00Z,Vegas Golden Knights,Minnesota Wild,2026-10-12T16:19:10Z,,,,,,VGK:;MIN:Faber
+2026-10-12,Panthers @ Sabres,Colten Ellis,BUF,FD,25.5,-102,-130,21.4,UNDER,,,,e85cb8fcbbddd2332b24db4bfe564345,2026-10-12T17:10:00Z,Florida Panthers,Buffalo Sabres,2026-10-12T16:21:11Z,,,,,,FLA:Marchand;BUF:

@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19917,
+  "credits_remaining": 19916,
   "events": {
     "08385500bdc8f9cbcab43927a7d21671": {
       "commence_time": "2026-10-10T20:15:00Z",
@@ -502,7 +502,7 @@
     "e85cb8fcbbddd2332b24db4bfe564345": {
       "commence_time": "2026-10-12T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-12T16:06:11Z",
+      "last_paid_check": "2026-10-12T16:21:11Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
@@ -512,6 +512,11 @@
           }
         },
         "fanduel": {
+          "Colten Ellis": {
+            "over": -102,
+            "point": 25.5,
+            "under": -130
+          },
           "Jacob Markstrom": {
             "over": -112,
             "point": 23.5,
@@ -4483,6 +4488,12 @@
       "book": null,
       "event_id": "fcf3af0dc532d226597dc5a8a2d55f78",
       "goalie": "Jesper Wallstedt"
+    },
+    "143": {
+      "at": "2026-10-12T16:21:11Z",
+      "book": null,
+      "event_id": "e85cb8fcbbddd2332b24db4bfe564345",
+      "goalie": "Colten Ellis"
     }
   },
   "shot_stats": {
