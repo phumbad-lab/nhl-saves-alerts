@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19893,
+  "credits_remaining": 19892,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -557,9 +557,14 @@
     "fcf3af0dc532d226597dc5a8a2d55f78": {
       "commence_time": "2026-10-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-12T21:48:13Z",
+      "last_paid_check": "2026-10-12T22:04:11Z",
       "lines": {
         "draftkings": {
+          "Carter Hart": {
+            "over": -130,
+            "point": 23.5,
+            "under": -105
+          },
           "Jesper Wallstedt": {
             "over": -115,
             "point": 26.5,
@@ -4579,6 +4584,12 @@
     "153": {
       "at": "2026-10-12T21:48:13Z",
       "book": null,
+      "event_id": "fcf3af0dc532d226597dc5a8a2d55f78",
+      "goalie": "Carter Hart"
+    },
+    "156": {
+      "at": "2026-10-12T22:04:11Z",
+      "book": "DK",
       "event_id": "fcf3af0dc532d226597dc5a8a2d55f78",
       "goalie": "Carter Hart"
     }
