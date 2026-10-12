@@ -12,7 +12,7 @@ H2H L4 BUF on FLA @39, @20, 23, 31 (avg 28.2)
 H2H L4 FLA on BUF 29, 42, @32, @32 (avg 33.8)
 BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
 FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
-FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
+INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
 ```
 
 - **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
@@ -130,13 +130,13 @@ Only each team's **top 3 shooters** (shots per game) and **top 2 defensemen** (i
 When a key player is out or day-to-day, he gets one line at the bottom of the alert (nothing at all when nobody key is missing):
 
 ```
-FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
-BUF DTD: Dahlin D 25 min NEW
+INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
+INJURY: DTD Dahlin D (BUF) 25 min NEW
 ```
 
-- **out** / **DTD** (day-to-day). **NEW** = he went on the list, or from day-to-day to out, today.
+- **Out** / **DTD** (day-to-day), then name, position and team. Shooters show shots per game; defensemen show ice time. **NEW** = he went on the list, or from day-to-day to out, today.
 - **w/ and w/o** = his team's shots for (shooters) or shots against (defensemen) in games with and without him this season, shown once he's missed and played at least 2 (numbers in parentheses = games).
-- **Change alert:** if a key player is ruled **OUT** after you've already had an alert for that game (and before puck drop), you get one message, e.g. `⚠️ Ovechkin (WSH) OUT · NYR@WSH 7:10PM` / `Fewer shots on Shesterkin (NYR): DK 25.5 OVER · FD not yet`. A missing shooter means fewer shots on the other goalie; a missing defenseman means more shots on his own. Day-to-day news never sends a separate message.
+- **Change alert:** if a key player is ruled **OUT** after you've already had an alert for that game (and before puck drop), you get one message, e.g. `⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM` / `More shots on Ullmark (OTT): DK 24.5 OVER · FD not yet`. A missing shooter means fewer shots on the other goalie; a missing defenseman means more shots on his own. Day-to-day news never sends a separate message.
 - Each logged pick records who was out in the `key_out` column, so we can later check how those games went.
 - Injuries don't change expected saves yet. That comes only after the data shows how much they matter.
 - Settings in the injuries section of `saves_alert.py`: `KEY_SHOOTERS = 3`, `KEY_DEFENSE = 2`, `KEY_MIN_GP = 5`, `WITH_WITHOUT_MIN = 2`.

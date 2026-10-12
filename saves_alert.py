@@ -1030,6 +1030,13 @@ def load_key_players(abbrev, now):
     return list(keys.values())
 
 
+POSITIONS = {"C": "C", "L": "LW", "R": "RW", "D": "D"}
+
+
+def pos(k):
+    return POSITIONS.get(k.get("pos", ""), k.get("pos", ""))
+
+
 def name_match(first, last, ln, fn):
     return team_key(last) == team_key(ln) and (not fn or team_key(first)[:1] == team_key(fn)[:1])
 
@@ -1113,13 +1120,14 @@ def with_without(state, team, k, games, now):
 
 def injury_lines(report, ab, state=None, games=None, now=None):
     """One line per key player out or day-to-day, nothing when nobody key is missing:
-        FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
-        EDM DTD: Ekholm D 22 min NEW"""
+        INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
+        INJURY: DTD Ekholm D (EDM) 22 min NEW"""
     lines = []
     for t in (ab["away"], ab["home"]):
         for k in report.get(t, []):
-            what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"D {k['toi']:.0f} min"
-            line = f"{t} {'out' if k['status'] == 'OUT' else 'DTD'}: {k['last']} {what}" + (" NEW" if k["new"] else "")
+            what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"{k['toi']:.0f} min"
+            line = (f"INJURY: {'Out' if k['status'] == 'OUT' else 'DTD'} {k['last']} {pos(k)} ({t}) {what}"
+                    + (" NEW" if k["new"] else ""))
             ww = with_without(state, t, k, games, now) if (state is not None and now is not None) else None
             if ww:
                 stat = "SF" if k["role"] == "shooter" else "SA"
@@ -1129,7 +1137,7 @@ def injury_lines(report, ab, state=None, games=None, now=None):
 
 
 def send_injury_change(state, events, stats, abbrevs, team, k, now):
-    """'⚠️ Ovechkin (WSH) OUT · NYR@WSH 7:10PM' + which already-alerted goalie it affects.
+    """'⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM' + which already-alerted goalie it affects.
     Only for games today that haven't started and that you've already had an alert for."""
     today = now.astimezone(LOCAL_TZ).date()
     for event in events:
@@ -1149,7 +1157,7 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now):
         hit_side, effect = (other, "Fewer") if k["role"] == "shooter" else (team_side, "More")
         m = matchup(event, stats)
         sides = goalie_sides(event, posted, state, now) if m else {}
-        lines = [f"⚠️ {k['last']} ({team}) OUT · {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
+        lines = [f"⚠️ {k['last']} {pos(k)} ({team}) OUT - {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
         for player in sorted(p for p in posted if sides.get(p) == hit_side):
             g = m[hit_side]
             lines.append(f"{effect} shots on {last_name(player)} ({ab[hit_side]}): "
