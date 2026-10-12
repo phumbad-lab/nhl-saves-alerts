@@ -12,7 +12,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 - Explain things plainly, no jargon. He reads alerts on his iPhone (Telegram, badge-only).
 
 ## How it runs
-- `saves_alert.py` runs on GitHub Actions (`.github/workflows/saves-alert.yml`), triggered **every minute** by cron-job.org (POST to the workflow_dispatch API); the built-in GitHub schedule is a backup. Repo is public, so Actions minutes are free.
+- `saves_alert.py` runs on GitHub Actions (`.github/workflows/saves-alert.yml`), triggered **every minute** by cron-job.org (POST to the workflow_dispatch API); the built-in GitHub schedule (every 15 min, all day) is a backup. Oct 12: cron-job.org stopped triggering at ~midnight and the old backup only covered 10 AM–10 PM, so the 7 AM results didn't go out until a manual run; backup widened to all day. If runs stop, check the cron-job.org job first. Repo is public, so Actions minutes are free.
 - Secrets: `ODDS_API_KEY` (new key issued Oct 10 with the paid plan), `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. Variables currently set: `RECHECK_MINUTES=15`, `RECHECK_RESERVE=1000`.
 - The bot commits `state.json` and `picks.csv` after runs ("Update alert state"). **Those two files are the bot's. Never edit or commit them by hand**, and never ask the owner to upload them.
 - **Pushing changes (Claude):** edit only code/docs, `git pull --rebase origin main` right before committing and pushing (the bot pushes often), `git add` the specific files only, push to `main`. Test first with the scratch harnesses (copy the script + a copy of live `picks.csv`/`state.json` into a scratch dir; never run it inside the repo, and delete `__pycache__`).
