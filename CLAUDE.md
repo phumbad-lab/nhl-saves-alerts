@@ -9,7 +9,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 - **Don't build rules on hunches.** "I don't want to build inaccurate rules." Model changes get tested against graded results first (shadow numbers, retro tests), then he approves. Never change model math without his OK.
 - Cost: was strictly free; on **Oct 10 2026 he moved to the Odds API $30/month plan (20,000 credits)** for a month of tuning. See "If he goes back to free" below.
 - Alert style he chose: last names, team abbreviations, ALL-CAPS tags, no odds in alerts (lines move too much; the 🔥 tells him when to act fast), short lines that are easy to search by last name.
-- Explain things plainly, no jargon. He reads alerts on his iPhone (Telegram, badge-only).
+- Explain things plainly, no jargon. He reads alerts on his iPhone (Telegram). Since Oct 12 messages are sent non-silent (`TELEGRAM_SILENT` default false) because he disliked the crossed-out bell iOS shows on silent messages; he turned the chat's sound off in Telegram instead.
 
 ## How it runs
 - `saves_alert.py` runs on GitHub Actions (`.github/workflows/saves-alert.yml`), triggered **every minute** by cron-job.org (POST to the workflow_dispatch API); the built-in GitHub schedule (every 15 min, all day) is a backup. The owner pauses the cron-job.org saves job overnight (midnight–6 AM ET as of Oct 12; it was 9 AM once, which skipped the 7 AM results until a manual run). The backup was widened to all day so results go out at 7 AM regardless. If runs stop, check the cron-job.org job first. Repo is public, so Actions minutes are free.

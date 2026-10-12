@@ -81,7 +81,7 @@ def env_int(name, default):
 ODDS_API_KEY = os.getenv("ODDS_API_KEY", "").strip()
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-SILENT = (os.getenv("TELEGRAM_SILENT", "") or "true").strip().lower() in ("1", "true", "yes")
+SILENT = (os.getenv("TELEGRAM_SILENT", "") or "false").strip().lower() in ("1", "true", "yes")
 TEAMS = [t.strip().lower() for t in os.getenv("TEAMS", "").split(",") if t.strip()]
 BOOKS = [b.strip().lower() for b in (os.getenv("BOOKS", "") or "draftkings,fanduel").split(",") if b.strip()]
 LOOKAHEAD_HOURS = env_int("LOOKAHEAD_HOURS", 30)

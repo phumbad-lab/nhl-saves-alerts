@@ -91,7 +91,7 @@ Set these under **Settings → Secrets and variables → Actions → Variables t
 | Variable | What it does |
 |---|---|
 | `TEAMS` | Only watch certain teams, comma-separated: `Red Wings,Rangers,Bruins`. Leave unset to watch every game. |
-| `TELEGRAM_SILENT` | `true` (default) delivers alerts without sound. `false` uses normal sound. |
+| `TELEGRAM_SILENT` | `false` (default) sends normal messages (no crossed-out bell); turn sound off in Telegram's chat settings. `true` sends silent messages, which iOS marks with a crossed-out bell. |
 | `SHOT_THRESHOLD` | Only watch games where a goalie's expected shots differ from the league average by at least this much. Default `2`. Set `0` to watch every game. |
 | `TARGET_SAVES` | Size of the lean zone in saves. Default `1`. |
 | `RECHECK_MINUTES` | How often to recheck a game where some goalies are posted but not all. Default `60`. |
