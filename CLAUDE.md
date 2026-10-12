@@ -37,7 +37,7 @@ DK 23.5 UNDER · FD not yet
 H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)
 BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
 FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
-INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
+INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 ```
 - One message per goalie (so replies map to one goalie). Every full goalie alert has one H2H line for his own team: `H2H L4 on FLA @39, @20, 23, 31 (avg 28.2)` = shots on FLA in the last 4 meetings, `@` = the shooting team was on the road (game at FLA). Owner asked for only the goalie's side (Oct 12). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
 - Second book posting later: `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`.
@@ -47,7 +47,7 @@ INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
 ## Injuries (stage 1 + 2 built Oct 12; stage 3 pending)
 - Key players only: top `KEY_SHOOTERS` (3) by SOG/GP and top `KEY_DEFENSE` (2) D by TOI, this + last season with the team, current roster, ≥ `KEY_MIN_GP` (5). Owner explicitly does NOT want depth-player noise.
 - Source: ESPN `site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries` (unofficial, free, every run). NHL `club-stats`, `roster`, `player/{id}/game-log` for keys and with/without. All 32 teams tracked so NEW = changed today; a team's first look seeds silently.
-- One line per key player at the bottom of the alert, only when out/DTD: `INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)`; w/ & w/o once ≥2 games missed and played.
+- One line per key player at the bottom of the alert, only when out/DTD: `INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)`; w/ & w/o once ≥2 games missed and played. INJ = out; NEW = tonight is his first missed game, (N) = games missed in a row (from his NHL game log vs team games). GTD = day-to-day (owner unsure whether he wants these shown; asked Oct 12).
 - Change alert (`⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM` + affected goalie line) only when a key player goes newly OUT for an already-alerted game today before puck drop. DTD never pings.
 - `picks.csv` `key_out` column logs who was out at alert time (stage 2 measurement).
 - **Stage 3 (not built, needs his OK after data):** shadow injury-adjusted expected shots, e.g. shooter out → team shots −(his SOG/g − ~1.2 replacement); D effect later.

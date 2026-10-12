@@ -1104,12 +1104,27 @@ def nhl_get_any(url):
         return json.loads(resp.read().decode("utf-8"))
 
 
-def with_without(state, team, k, games, now):
-    """Team shots with and without a player this season: (with_avg, n_with, without_avg, n_without)."""
+def played_dates(state, k, now):
+    """Dates this season the player dressed (NHL game log, refreshed every 6 hours)."""
     def load():
         log = nhl_get(f"{NHL_WEB}/player/{k['id']}/game-log/{season_id(now)}/2").get("gameLog", [])
         return sorted({g.get("gameDate") for g in log if g.get("gameDate")})
-    played = set(cached(state, f"gl_{k['id']}", now, timedelta(hours=12), load) or [])
+    return set(cached(state, f"gl_{k['id']}", now, timedelta(hours=6), load) or [])
+
+
+def games_missed(state, team, k, games, now):
+    """Team games in a row he's missed so far (0 = tonight is the first). None if unknown."""
+    if not games:
+        return None
+    played = played_dates(state, k, now)
+    team_dates = sorted({d for d, a, h, *_ in games if team in (a, h)})
+    last = max((d for d in team_dates if d in played), default=None)
+    return sum(1 for d in team_dates if last is None or d > last)
+
+
+def with_without(state, team, k, games, now):
+    """Team shots with and without a player this season: (with_avg, n_with, without_avg, n_without)."""
+    played = played_dates(state, k, now)
     stat_with, stat_without = [], []
     for d, a, h, asog, hsog in games or []:
         if team not in (a, h):
@@ -1124,16 +1139,22 @@ def with_without(state, team, k, games, now):
 
 
 def injury_lines(report, ab, state=None, games=None, now=None):
-    """One line per key player out or day-to-day, nothing when nobody key is missing:
-        INJURY: Out Marchand LW (FLA) 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
-        INJURY: DTD Ekholm D (EDM) 22 min NEW"""
+    """One line per key player missing, nothing when nobody key is:
+        INJ: Faber D (MIN) 25 min NEW                     <- out; tonight is his first game missed
+        INJ: Marchand LW (FLA) 2.6 SOG/g (3) · SF w/ 30.5 (2), w/o 25.3 (3)   <- out, missed 3 so far
+        GTD: Ekholm D (EDM) 22 min                        <- day-to-day, may still play"""
     lines = []
+    live = state is not None and now is not None
     for t in (ab["away"], ab["home"]):
         for k in report.get(t, []):
             what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"{k['toi']:.0f} min"
-            line = (f"INJURY: {'Out' if k['status'] == 'OUT' else 'DTD'} {k['last']} {pos(k)} ({t}) {what}"
-                    + (" NEW" if k["new"] else ""))
-            ww = with_without(state, t, k, games, now) if (state is not None and now is not None) else None
+            if k["status"] == "OUT":
+                missed = games_missed(state, t, k, games, now) if live else None
+                tag = ("NEW" if k["new"] else "") if missed is None else ("NEW" if missed == 0 else f"({missed})")
+                line = f"INJ: {k['last']} {pos(k)} ({t}) {what}" + (f" {tag}" if tag else "")
+            else:
+                line = f"GTD: {k['last']} {pos(k)} ({t}) {what}"
+            ww = with_without(state, t, k, games, now) if live else None
             if ww:
                 stat = "SF" if k["role"] == "shooter" else "SA"
                 line += f" · {stat} w/ {ww[0]:.1f} ({ww[1]}), w/o {ww[2]:.1f} ({ww[3]})"
