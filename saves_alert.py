@@ -67,7 +67,8 @@ PICKS_FILE = os.path.join(HERE, "picks.csv")
 PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "under_odds",
                "expected_saves", "tag", "actual_saves", "outcome", "result",
                "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire",
-               "taken", "taken_line", "taken_result", "taken_at"]  # taken_* = bets you logged with "in"
+               "taken", "taken_line", "taken_result", "taken_at",
+               "key_out"]  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -610,7 +611,7 @@ def save_picks(rows):
         w.writerows(rows)
 
 
-def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None):
+def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None, injuries=None):
     """Append one row per newly posted (book, goalie) line."""
     rows = load_picks()
     seen = {(r["event_id"], r["goalie"], r["book"]) for r in rows}
@@ -637,6 +638,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "event_id": event["id"], "commence_time": event["commence_time"],
             "away_team": event["away_team"], "home_team": event["home_team"],
             "logged_at": iso(now),
+            "key_out": key_out_summary(injuries or {}, ab),
         })
     save_picks(rows)
 
@@ -927,7 +929,8 @@ def book_parts(player, current, expected, delta, side=None, ctx=None):
 
 
 def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, h2h=None,
-                   known_before=(), show_h2h=True, raw=None, games=None):
+                   known_before=(), show_h2h=True, raw=None, games=None, injuries=None,
+                   state=None, now=None):
     """One message per goalie, so a reply of "in" always points at one goalie.
     Returns [(text, player, book or None)]; book is set for "added" one-liners.
     Goalies seen for the first time get a full block:
@@ -962,6 +965,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
+        if injuries:
+            out.extend(injury_lines(injuries, ab, state, games, now))
         if i == 0 and show_h2h:
             out.extend(fmt_h2h(h2h, ab))
         if side:
@@ -977,6 +982,197 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         msgs.append((f"{who_} {ln.get('point')}{tag} · {when} ({BOOK_SHORT.get(book, book)} added)",
                      player, book))
     return msgs
+
+
+# ---------- injuries: key players only ----------
+# Only a team's top shooters and top-minute defensemen count, so depth injuries never show up.
+KEY_SHOOTERS = 3      # top shots-per-game skaters per team
+KEY_DEFENSE = 2       # top ice-time defensemen per team
+KEY_MIN_GP = 5        # games (this season + last, with this team) before a player can be "key"
+WITH_WITHOUT_MIN = 2  # show team shots with/without a key player once he's missed (and played) this many
+INJURY_URL = "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries"
+
+
+def load_key_players(abbrev, now):
+    """[{id, first, last, pos, sog, toi, role}] for a team's key players, from this season + last
+    (games with this team only), limited to the current roster."""
+    season = season_id(now)
+    prev = f"{int(season[:4]) - 1}{season[:4]}"
+    roster = nhl_get(f"{NHL_WEB}/roster/{abbrev}/current")
+    on_roster = {p["id"] for grp in ("forwards", "defensemen") for p in roster.get(grp, [])}
+    agg = {}
+    for sid in (season, prev):
+        try:
+            skaters = nhl_get(f"{NHL_WEB}/club-stats/{abbrev}/{sid}/2").get("skaters", [])
+        except Exception:
+            skaters = []
+        for p in skaters:
+            if p["playerId"] not in on_roster:
+                continue
+            gp = p.get("gamesPlayed") or 0
+            a = agg.setdefault(p["playerId"], {
+                "id": p["playerId"], "first": p["firstName"]["default"], "last": p["lastName"]["default"],
+                "pos": p.get("positionCode", ""), "gp": 0, "shots": 0, "toi": 0.0})
+            a["gp"] += gp
+            a["shots"] += p.get("shots") or 0
+            a["toi"] += (p.get("avgTimeOnIcePerGame") or 0) * gp
+    players = [a for a in agg.values() if a["gp"] >= KEY_MIN_GP]
+    for a in players:
+        a["sog"] = round(a["shots"] / a["gp"], 1)
+        a["toi"] = round(a["toi"] / a["gp"] / 60, 1)  # minutes per game
+    keys = {}
+    for a in sorted(players, key=lambda a: -a["sog"])[:KEY_SHOOTERS]:
+        keys[a["id"]] = dict(a, role="shooter")
+    for a in sorted([a for a in players if a["pos"] == "D"], key=lambda a: -a["toi"])[:KEY_DEFENSE]:
+        keys.setdefault(a["id"], dict(a, role="defense"))
+    return list(keys.values())
+
+
+def name_match(first, last, ln, fn):
+    return team_key(last) == team_key(ln) and (not fn or team_key(first)[:1] == team_key(fn)[:1])
+
+
+def injury_report(state, events, abbrevs, now):
+    """Key players currently on the injury list for every team playing in `events`.
+    Returns ({abbrev: [player dict + status, new]}, [newly OUT players]). Free; runs every time."""
+    teams = set(abbrevs.values())  # every team, so "NEW" really means it happened today
+    keys = {t: cached(state, f"keys_{t}", now, timedelta(hours=12), lambda t=t: load_key_players(t, now)) or []
+            for t in sorted(teams)}
+    try:
+        feed = nhl_get_any(INJURY_URL).get("injuries", [])
+    except Exception as e:
+        print(f"Couldn't load injuries ({e}); skipping them this run.")
+        return {}, []
+    listed = {}
+    for team in feed:
+        ab = abbrevs.get(team_key(team.get("displayName", "")))
+        for inj in team.get("injuries", []):
+            ath = inj.get("athlete") or {}
+            raw = (inj.get("status") or "").lower()
+            status = "DTD" if ("day" in raw or raw in ("questionable", "probable")) else "OUT"
+            listed.setdefault(ab, []).append((ath.get("firstName", ""), ath.get("lastName", ""), status))
+    book = state.setdefault("injuries", {})       # "TEAM:id" -> {status, seen, out_at}
+    seeded = set(state.setdefault("injury_teams", []))
+    today = now.astimezone(LOCAL_TZ).date()
+    report, newly_out = {}, []
+    for t in sorted(teams):
+        first_look = t not in seeded
+        current = {}
+        for k in keys[t]:
+            hit = next((st for fn, ln, st in listed.get(t, []) if name_match(k["first"], k["last"], ln, fn)), None)
+            if hit:
+                current[f"{t}:{k['id']}"] = (k, hit)
+        for kid, (k, st) in current.items():
+            prev = book.get(kid)
+            stamp = iso(now - timedelta(days=2)) if first_look else iso(now)
+            if not prev:
+                prev = book[kid] = {"status": st, "seen": stamp, "out_at": stamp if st == "OUT" else None}
+            elif st == "OUT" and prev["status"] != "OUT":
+                prev.update(status="OUT", out_at=iso(now))
+                newly_out.append((t, k))
+            else:
+                prev["status"] = st
+            if not first_look and prev["seen"] == iso(now) and st == "OUT":
+                newly_out.append((t, k))
+            new = any(x and parse_iso(x).astimezone(LOCAL_TZ).date() == today
+                      for x in (prev["seen"], prev["out_at"]))
+            report.setdefault(t, []).append(dict(k, status=st, new=new))
+        for kid in [x for x in book if x.startswith(f"{t}:") and x not in current]:
+            del book[kid]  # back in the lineup
+        seeded.add(t)
+    state["injury_teams"] = sorted(seeded)
+    return report, newly_out
+
+
+def nhl_get_any(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (nhl-saves-alerts)"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def with_without(state, team, k, games, now):
+    """Team shots with and without a player this season: (with_avg, n_with, without_avg, n_without)."""
+    def load():
+        log = nhl_get(f"{NHL_WEB}/player/{k['id']}/game-log/{season_id(now)}/2").get("gameLog", [])
+        return sorted({g.get("gameDate") for g in log if g.get("gameDate")})
+    played = set(cached(state, f"gl_{k['id']}", now, timedelta(hours=12), load) or [])
+    stat_with, stat_without = [], []
+    for d, a, h, asog, hsog in games or []:
+        if team not in (a, h):
+            continue
+        away = team == a
+        val = (asog if away else hsog) if k["role"] == "shooter" else (hsog if away else asog)
+        (stat_with if d in played else stat_without).append(val)
+    if len(stat_with) < WITH_WITHOUT_MIN or len(stat_without) < WITH_WITHOUT_MIN:
+        return None
+    return (sum(stat_with) / len(stat_with), len(stat_with),
+            sum(stat_without) / len(stat_without), len(stat_without))
+
+
+def fmt_player(k):
+    what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"D {k['toi']:.0f} min"
+    tail = (" DTD" if k["status"] == "DTD" else "") + (" NEW" if k["new"] else "")
+    return f"{k['last']} ({what}){tail}"
+
+
+def injury_lines(report, ab, state=None, games=None, now=None):
+    """'Out: WSH Ovechkin (3.4 SOG/g) NEW · NYR none' plus with/without lines. Empty when nobody key is out."""
+    teams = [ab["away"], ab["home"]]
+    if not any(report.get(t) for t in teams):
+        return []
+    parts = [f"{t} " + (", ".join(fmt_player(k) for k in report.get(t, [])) or "none") for t in teams]
+    lines = ["Out: " + " · ".join(parts)]
+    if state is not None and now is not None:
+        shown = 0
+        for t in teams:
+            for k in report.get(t, []):
+                if k["status"] != "OUT" or shown >= 2:
+                    continue
+                ww = with_without(state, t, k, games, now)
+                if ww:
+                    stat = "SF" if k["role"] == "shooter" else "SA"
+                    lines.append(f"{t} {stat} with {k['last']} {ww[0]:.1f} ({ww[1]}) · without {ww[2]:.1f} ({ww[3]})")
+                    shown += 1
+    return lines
+
+
+def send_injury_change(state, events, stats, abbrevs, team, k, now):
+    """'⚠️ Ovechkin (WSH) OUT · NYR@WSH 7:10PM' + which already-alerted goalie it affects.
+    Only for games today that haven't started and that you've already had an alert for."""
+    today = now.astimezone(LOCAL_TZ).date()
+    for event in events:
+        start = parse_iso(event["commence_time"])
+        if start <= now or start.astimezone(LOCAL_TZ).date() != today:
+            continue
+        ab = {s: abbrevs.get(team_key(event[f"{s}_team"])) for s in ("away", "home")}
+        if team not in ab.values():
+            continue
+        rec = state["events"].get(event["id"], {})
+        posted = {p for players in rec.get("lines", {}).values() for p in players}
+        if not posted:
+            continue  # no alert yet; the injury will show in the alert when it comes
+        team_side = "away" if ab["away"] == team else "home"
+        other = "home" if team_side == "away" else "away"
+        # A missing shooter means fewer shots on the other goalie; a missing D means more on his own.
+        hit_side, effect = (other, "Fewer") if k["role"] == "shooter" else (team_side, "More")
+        m = matchup(event, stats)
+        sides = goalie_sides(event, posted, state, now) if m else {}
+        lines = [f"⚠️ {k['last']} ({team}) OUT · {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
+        for player in sorted(p for p in posted if sides.get(p) == hit_side):
+            g = m[hit_side]
+            lines.append(f"{effect} shots on {last_name(player)} ({ab[hit_side]}): "
+                         + " · ".join(book_parts(player, rec["lines"], g["saves"], g["delta"], hit_side)))
+        if len(lines) == 1:
+            lines.append(f"{effect} shots expected on the {ab[hit_side]} goalie")
+        send_push("", "\n".join(lines))
+        print(f"INJURY ALERT {k['last']} ({team})")
+
+
+def key_out_summary(report, ab):
+    """For the pick log: 'WSH:Ovechkin,Carlson(DTD);NYR:'."""
+    return ";".join(f"{t}:" + ",".join(k["last"] + ("(DTD)" if k["status"] == "DTD" else "")
+                                       for k in report.get(t, []))
+                    for t in (ab["away"], ab["home"]))
 
 
 # ---------- your bets: reply "in" to an alert ----------
@@ -1227,6 +1423,13 @@ def main():
     credits = remaining
     alerts = checks = skipped_rechecks = skipped_games = skipped_nolean = 0
 
+    # Key-player injuries (free). Change alerts go out when a key player is ruled OUT for a
+    # game you've already been alerted on.
+    abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+    injuries, newly_out = injury_report(state, events, abbrevs, now) if abbrevs else ({}, [])
+    for team, k in newly_out:
+        send_injury_change(state, events, stats, abbrevs, team, k, now)
+
     for event in events:
         eid = event["id"]
         m = matchup(event, stats)
@@ -1313,7 +1516,8 @@ def main():
             show_h2h = not rec.get("h2h_sent")
             for text, player, book in build_messages(
                     event, new_pairs, rec["lines"], m, sides, abbrevs, h2h, known_before, show_h2h,
-                    (stats or {}).get("raw"), (state.get("game_log") or {}).get("games")):
+                    (stats or {}).get("raw"), (state.get("game_log") or {}).get("games"),
+                    injuries, state, now):
                 mid = send_push("", text)
                 if mid:
                     state["sent"][str(mid)] = {"event_id": eid, "goalie": player,
@@ -1321,7 +1525,8 @@ def main():
                                                "at": iso(now)}
             if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
                 rec["h2h_sent"] = True
-            log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"))
+            log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"),
+                      injuries)
             alerts += 1
             names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
             print(f"ALERT {rec['matchup']}: {names}")
