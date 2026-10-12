@@ -62,13 +62,14 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 
 ## Logging his bets (Telegram)
 - Swipe-reply `in` on an alert (options: `DK`/`FD`, `o`/`u`, a line, `out`), or type `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o` (also `in …` / `took …`). Whole numbers mean the .5 line. Line picks the book. Bot 👍s swipe replies, replies with "Logged: …" for typed ones.
+- `resend <name>` (or `show <name>`, or swipe-reply `resend`) rebuilds and resends a goalie's full alert from saved state (latest lines/tags/H2H/L5/injuries, no odds credit); resent messages are mapped in `state['sent']` so `in` works on them. Built Oct 12 for busy days.
 - Stored in `picks.csv` columns `taken`, `taken_line`, `taken_result`, `taken_at`; graded against the line he took.
 - Logged so far: Oct 10 — Jarry u23.5 W, Fowler o22.5 W, Ellis o23.5 W, Ellis o25.5 W, Vejmelka u24.5 W, Binnington o24.5 L. Gibson u24.5 (Oct 9, W) still to be sent by him. Earlier bets (Oct 7: 2–2, Oct 8: 4–2–1, Talbot o24 Oct 9) predate logging.
 
 ## Pending / ideas (nothing built without his OK)
 - **Wed Oct 14, 10 AM ET: accuracy analysis** (scheduled in the original thread). Expected vs actual saves (bias, MAE), shots error vs save% luck, by tag/home-road/lean; retro-test (1) shrinking small samples toward league avg (K≈4) — the Ellis/Buffalo case, (2) goalie-specific save% (last season, this season, blend); line-vs-actual; did the final checks catch anything; credit burn rate. Present findings, build nothing until approved.
 - Observed early: NO EDGE lines went 37% over / 63% under (n=30, Oct 10). Watch it.
-- More bot commands offered: `record`, `today`, `credits`, `check <name>` (1 credit), `note <name> …`.
+- More bot commands offered: `record`, `today`, `credits`, `check <name>` (1 credit), `note <name> …` (`resend` built).
 - Longer term: injury stage 3 (math), recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.
 
 ## Known limits

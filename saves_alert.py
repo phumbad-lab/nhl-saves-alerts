@@ -1377,13 +1377,18 @@ def process_replies(state, now):
     "I took Jarry 23u, Fowler 22o". Each run reads new messages once."""
     updates = tg_call("getUpdates", {"offset": state.get("tg_offset", 0), "timeout": 0,
                                      "allowed_updates": json.dumps(["message"])})
+    resends = []  # handled later in the run, once stats and injuries are loaded
     if not updates:
-        return
+        return resends
     rows, changed = None, False
     for u in updates:
         state["tg_offset"] = u["update_id"] + 1
         msg = u.get("message") or {}
         if str((msg.get("chat") or {}).get("id")) != str(TELEGRAM_CHAT_ID):
+            continue
+        words = (msg.get("text") or "").lower().split()
+        if words and words[0].strip(".!") in ("resend", "show"):
+            resends.append((msg, (msg.get("text") or "").split()[1:]))  # names as you typed them
             continue
         cmd, bets = parse_message(msg.get("text") or "")
         if not cmd:
@@ -1412,6 +1417,46 @@ def process_replies(state, now):
                      + ("\n" if done and problems else "") + "\n".join(problems))
     if changed:
         save_picks(rows)
+    return resends
+
+
+def handle_resends(resends, state, stats, abbrevs, injuries, now):
+    """'resend Wallstedt' (or swipe-reply 'resend' on any alert): send that goalie's full alert
+    again with the latest lines, tags, H2H, last-5 and injuries. Free (no odds call)."""
+    if not resends:
+        return
+    rows = load_picks()
+    for msg, names in resends:
+        target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
+        wanted = [(target["event_id"], target["goalie"])] if target else []
+        for name in names:
+            found = find_by_name(rows, name.strip(",."), now)
+            if found:
+                wanted.append(found)
+            else:
+                tg_reply(msg, f"Couldn't find {name} in the last two days of alerts.")
+        if not wanted and not names:
+            tg_reply(msg, "Type a goalie's last name, like: resend Wallstedt")
+        for event_id, goalie in wanted:
+            rec = state["events"].get(event_id)
+            if not rec or " @ " not in rec.get("matchup", ""):
+                tg_reply(msg, f"{last_name(goalie)}'s game is too old to resend.")
+                continue
+            away, home = rec["matchup"].split(" @ ", 1)
+            event = {"id": event_id, "away_team": away, "home_team": home,
+                     "commence_time": rec["commence_time"]}
+            m = matchup(event, stats)
+            sides = goalie_sides(event, {goalie}, state, now) if m else {}
+            h2h = get_h2h(state, abbrevs.get(team_key(away)), abbrevs.get(team_key(home)), now)
+            pairs = {(b, goalie) for b, players in rec.get("lines", {}).items() if goalie in players}
+            for text, player, book in build_messages(
+                    event, pairs, rec["lines"], m, sides, abbrevs, h2h, set(), True,
+                    (stats or {}).get("raw"), (state.get("game_log") or {}).get("games"),
+                    injuries, state, now):
+                mid = send_push("", text)
+                if mid:  # so you can swipe-reply "in" on the resent alert too
+                    state["sent"][str(mid)] = {"event_id": event_id, "goalie": player,
+                                               "book": None, "at": iso(now)}
 
 
 # ---------- main ----------
@@ -1435,7 +1480,7 @@ def main():
     state = load_state()
     now = datetime.now(timezone.utc)
 
-    process_replies(state, now)  # your "in" replies (free)
+    resends = process_replies(state, now)  # your "in" replies and "resend" requests (free)
 
     # Grade yesterday's picks against box scores (free; once each morning).
     graded = grade_picks(state, now)
@@ -1473,6 +1518,7 @@ def main():
         send_injury_change(state, events, stats, abbrevs, team, k, now)
     for team, k in newly_back:
         send_injury_change(state, events, stats, abbrevs, team, k, now, back=True)
+    handle_resends(resends, state, stats, abbrevs, injuries, now)
 
     for event in events:
         eid = event["id"]

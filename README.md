@@ -156,6 +156,8 @@ Each goalie comes as its own message. When you bet one, swipe left on that alert
 
 On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, e.g. `in u 24.5 fd`.
 
+**Resend an alert:** text `resend Wallstedt` (or several names, or swipe-reply `resend` on any of his alerts) and the bot sends that goalie's full alert again within a minute or two, with the latest lines, tags, H2H, last 5 and injuries. Free, no odds credits. Works for alerts from the last two days; you can reply `in` to the resent alert too.
+
 **Typing instead of swiping:** start with `in`, `took` or `I took`, then list bets separated by commas: `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o`. Each bet is a last name plus the line and `o`/`u` in any order (`23u`, `u23`, `o24.5`), optionally `DK`/`FD`. It matches alerts from the last two days. The bot replies with what it logged (`Logged: Jarry u23.5 DK · Fowler o22.5 FD ...`) or what it couldn't match.
 
 - A whole number means the half-point line: `23` is logged as 23.5.
