@@ -4564,6 +4564,12 @@
       "book": null,
       "event_id": "fcf3af0dc532d226597dc5a8a2d55f78",
       "goalie": "Jesper Wallstedt"
+    },
+    "152": {
+      "at": "2026-10-12T21:14:12Z",
+      "book": null,
+      "event_id": "fcf3af0dc532d226597dc5a8a2d55f78",
+      "goalie": "Jesper Wallstedt"
     }
   },
   "shot_stats": {
@@ -5223,5 +5229,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088020
+  "tg_offset": 69088021
 }
