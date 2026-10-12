@@ -5,22 +5,23 @@ Checks DraftKings and FanDuel every 5 minutes (via cron-job.org). When a book po
 Example alert (first time a goalie posts):
 
 ```
-Kuemper (LAK) - LAK@VGK 10:10PM
-DK 26.5 OVER · FD not yet
-30.9 shots, 27.3 saves expected
-H2H L4: on LAK H25, A22, H27, A35 (avg 27.2)
-H2H L4: on VGK A19, H33, A24, H26 (avg 25.5)
-VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
-LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
+Markstrom (FLA) - FLA@BUF 1:10PM
+DK 23.5 UNDER · FD not yet
+24.6 shots, 21.9 saves expected
+H2H L4 BUF on FLA @39, @20, 23, 31 (avg 28.2)
+H2H L4 FLA on BUF 29, 42, @32, @32 (avg 33.8)
+BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
+FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
+FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
 ```
 
 - **Book line** = each book's line and its tag. 🔥 follows the tag when it qualifies (`OVER 🔥`). Odds aren't shown.
 - **Shots/saves expected** = for this goalie tonight (opponent-adjusted, home/road blended).
-- **H2H L4** = shots each team's goalie faced in their last four meetings, newest first, H/A = that team was home/away (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
+- **H2H L4 BUF on FLA** = shots Buffalo put on Florida's goalie in their last four meetings, newest first; `@` = the shooting team was on the road (regular season and playoffs, up to three seasons back). Shown once per game, for context only.
 - **L5 For / L5 Against** = the opponent's shots in each of its last five games and this goalie's team's shots allowed in each of its last five, newest first, with the opponent for each game (raw numbers). `@` means the team was on the road (`28@SEA` = 28 shots at Seattle, `30ANA` = 30 shots at home vs Anaheim). In parentheses: the league rank from raw season numbers ("most" for the top half, "least" for the bottom half) and the per-game average. A team with fewer than five games shows what it has (L4, etc.). To change the count, edit `RECENT_GAMES = 5` in `saves_alert.py`.
 - Each goalie comes as its own message (so you can reply `in` to it). H2H shows only on the first goalie alerted for a game.
 - When the other book posts a goalie you've already been alerted on, you get one line:
-  `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`
+  `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`
 - Times are Eastern. A game on a later day shows the day too (`Sun 7:10PM`).
 
 Everything here is free.

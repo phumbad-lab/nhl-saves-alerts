@@ -31,16 +31,17 @@ what's been decided and why, and what's still pending. Keep it current when thin
 
 ## Alert format (owner-approved — don't change without asking)
 ```
-Kuemper (LAK) - LAK@VGK 10:10PM
-DK 26.5 OVER · FD not yet
-30.9 shots, 27.3 saves expected
-H2H L4: on LAK H25, A22, H27, A35 (avg 27.2)
-H2H L4: on VGK A19, H33, A24, H26 (avg 25.5)
-VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
-LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
+Markstrom (FLA) - FLA@BUF 1:10PM
+DK 23.5 UNDER · FD not yet
+24.6 shots, 21.9 saves expected
+H2H L4 BUF on FLA @39, @20, 23, 31 (avg 28.2)
+H2H L4 FLA on BUF 29, 42, @32, @32 (avg 33.8)
+BUF L5 For: 24UTA, 26DAL, 28MIN, 28CHI, 26@CBJ (15th least 26.4)
+FLA L5 Against: 29MIN, 20@LAK, 20@ANA, 32@SJS, 15@CAR (5th least 23.2)
+FLA out: Marchand 2.6 SOG/g · SF w/ 30.5 (2), w/o 25.3 (3)
 ```
-- One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game; H/A = that team home/away. Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
-- Second book posting later: `Kuemper (LAK) 26.5 OVER · 10:10PM (FD added)`.
+- One message per goalie (so replies map to one goalie). H2H only on the first goalie of a game, written `H2H L4 BUF on FLA @39, ...` (shooter on goalie; `@` = shooting team on the road). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
+- Second book posting later: `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`.
 - Morning summary (after 7 AM ET): per-goalie results, `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.
 
 ## Injuries (stage 1 + 2 built Oct 12; stage 3 pending)

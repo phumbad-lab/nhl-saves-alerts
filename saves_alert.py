@@ -402,15 +402,16 @@ def get_h2h(state, away, home, now):
 
 
 def fmt_h2h(h2h, ab):
-    """Two lines: shots faced by each team's goalie in recent meetings, newest first."""
+    """Two lines, newest first: 'H2H L4 BUF on FLA @39, @20, 23, 31 (avg 28.2)'
+    = shots Buffalo put on Florida's goalie; @ = Buffalo was on the road."""
     if not h2h:
         return []
     lines = []
     for i, team in enumerate((ab["away"], ab["home"])):
+        shooter = ab["home"] if team == ab["away"] else ab["away"]
         faced = [(g[4] if g[1] == team else g[3]) for g in h2h]  # opponent's shots = shots on this goalie
-        where = [("A" if g[1] == team else "H") for g in h2h]      # was this team away or home
-        nums = ", ".join(f"{w}{x}" for w, x in zip(where, faced))
-        lines.append(f"H2H L{len(h2h)}: on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
+        nums = ", ".join(("@" if g[1] == shooter else "") + str(x) for g, x in zip(h2h, faced))  # @ = shooting team on the road
+        lines.append(f"H2H L{len(h2h)} {shooter} on {team} {nums} (avg {sum(faced) / len(faced):.1f})")
     return lines
 
 
@@ -938,8 +939,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         Kuemper (LAK) - LAK@VGK 10:10PM
         DK 26.5 OVER · FD not yet
         30.9 shots, 27.3 saves expected
-        H2H L4: on LAK H25, A22, H27, A35 (avg 27.2)            <- once per game
-        H2H L4: on VGK A19, H33, A24, H26 (avg 25.5)
+        H2H L4 VGK on LAK @25, 22, @27, 35 (avg 27.2)            <- once per game
+        H2H L4 LAK on VGK 19, @33, 24, @26 (avg 25.5)
         VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
         LAK L4 Against: 32@VGK, 30FLA, 25@SJS, 29@COL (9th most 29.0)
     A goalie already alerted who shows up at the other book gets one line:
