@@ -43,7 +43,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - Labels `H2H L4 on X:`, `X L5 For:`, `X L5 Against:`, `INJ:` are underlined (owner, Oct 12): wrap with `ul()`; `send_push` switches to Telegram HTML (escaped) when a message contains `ul()` markers.
 - Second book posting later: `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`.
 - Season records, 🔥 record and NO EDGE split count each goalie once per game (first line alerted), not per book/line (owner, Oct 12).
-- Morning summary (after 7 AM ET): per-goalie results, `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.
+- Morning summary (after 7 AM ET): one line per goalie (different lines at DK/FD listed one after another: `Markstrom (FLA) vs. BUF u23.5 UNDER (DK) ✅ · u24.5 UNDER (FD) ✅: 9 saves`), `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.
 
 ## Injuries (stage 1 + 2 built Oct 12; stage 3 pending)
 - Key players only: top `KEY_SHOOTERS` (3) by SOG/GP and top `KEY_DEFENSE` (2) D by TOI, this + last season with the team, current roster, ≥ `KEY_MIN_GP` (5). Owner explicitly does NOT want depth-player noise.

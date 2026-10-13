@@ -804,26 +804,33 @@ def who(r, abbrevs):
 
 def results_message(graded, abbrevs=None):
     abbrevs = abbrevs or {}
-    lines, seen = [], set()
-    for r in sorted(graded, key=lambda r: (r["date"], r["game"], r["goalie"], r["book"])):
-        if r["outcome"] == "VOID":
-            key = (r["event_id"], r["goalie"], "void")
-            if key not in seen:
-                seen.add(key)
-                lines.append(f"{who(r, abbrevs)}: didn't play (void)")
+    # One line per goalie; if his line differed between books (or moved), each line's
+    # result follows the other: "Markstrom (FLA) vs. BUF u23.5 UNDER (DK) ✅ · u24.5 UNDER (FD) ✅: 9 saves"
+    lines, done = [], set()
+    ordered = sorted(graded, key=lambda r: (r["date"], r["game"], r["goalie"], r.get("logged_at", ""), r["book"]))
+    for r in ordered:
+        gkey = (r["event_id"], r["goalie"])
+        if gkey in done:
             continue
-        key = (r["event_id"], r["goalie"], r["line"])
-        books = [x["book"] for x in graded if (x["event_id"], x["goalie"], x["line"]) == key]
-        if key in seen:
+        done.add(gkey)
+        mine = [x for x in ordered if (x["event_id"], x["goalie"]) == gkey]
+        if all(x["outcome"] == "VOID" for x in mine):
+            lines.append(f"{who(r, abbrevs)}: didn't play (void)")
             continue
-        seen.add(key)
-        label = {"OVER": f"o{r['line']} OVER", "LEAN_OVER": f"o{r['line']} LEAN OVER",
-                 "UNDER": f"u{r['line']} UNDER", "LEAN_UNDER": f"u{r['line']} LEAN UNDER"}.get(
-                     r["tag"], f"{r['line']} NO EDGE")
-        if r.get("fire") == "1":
-            label += " 🔥"
-        mark = {"W": " ✅", "L": " ❌", "P": " push"}.get(r["result"], f" → went {r['outcome'].lower()}")
-        lines.append(f"{who(r, abbrevs)} {label} ({'/'.join(books)}): {r['actual_saves']} saves{mark}")
+        parts, seen_lines = [], []
+        for x in mine:
+            if x["line"] in seen_lines:
+                continue
+            seen_lines.append(x["line"])
+            books = "/".join(y["book"] for y in mine if y["line"] == x["line"])
+            label = {"OVER": f"o{x['line']} OVER", "LEAN_OVER": f"o{x['line']} LEAN OVER",
+                     "UNDER": f"u{x['line']} UNDER", "LEAN_UNDER": f"u{x['line']} LEAN UNDER"}.get(
+                         x["tag"], f"{x['line']} NO EDGE")
+            if x.get("fire") == "1":
+                label += " 🔥"
+            mark = {"W": " ✅", "L": " ❌", "P": " push"}.get(x["result"], f" → went {x['outcome'].lower()}")
+            parts.append(f"{label} ({books}){mark}")
+        lines.append(f"{who(r, abbrevs)} " + " · ".join(parts) + f": {r['actual_saves']} saves")
     all_rows = load_picks()
     season = " · ".join(f"{TAG_LABELS[t]} {fmt_record(*record_line(all_rows, t))}"
                         for t in ("OVER", "LEAN_OVER", "UNDER", "LEAN_UNDER"))

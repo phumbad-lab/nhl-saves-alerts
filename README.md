@@ -173,12 +173,12 @@ Every line that gets alerted is saved to **`picks.csv`** in the repo (click it o
 Each morning after 7 AM Eastern, the script pulls the previous night's NHL box scores (free), fills in **actual saves**, **outcome** (OVER / UNDER / PUSH) and **result**, and sends one Telegram message:
 
 ```
-Saves results: Oct 7
-Dostal (ANA) vs. EDM o25.5 OVER (DK/FD): 28 saves ✅
-Levi (EDM) vs. ANA u23.5 UNDER (DK/FD): 17 saves ✅
-Skinner (WPG) vs. COL 28.5 NO EDGE (DK): 25 saves → went under
+Saves results: Oct 12
+Markstrom (FLA) vs. BUF u23.5 UNDER (DK) ✅ · u24.5 UNDER (FD) ✅: 9 saves
+Ullmark (OTT) vs. NJD o24.5 OVER 🔥 (DK/FD) ✅: 29 saves
+Daws (NJD) vs. OTT 22.5 NO EDGE (DK/FD) → went under: 16 saves
 
-Season: OVER 3-0 (100%) · LEAN OVER 1-1 (50%) · UNDER 2-0 (100%) · LEAN UNDER no picks yet · 🔥 1-0 (100%) · NO EDGE 37% over 63% under (30)
+Season: OVER 6-6 (50%) · LEAN OVER 1-2 (33%) · UNDER 12-5 (71%) · LEAN UNDER 3-1 (75%) · 🔥 4-3 (57%) · NO EDGE 38% over 62% under (29)
 ```
 
 - **result:** W / L / P for over, lean over, under and lean under picks, each with its own season record. **NO EDGE** shows how often no-read lines have gone over vs under all season (each goalie/line counted once). Fades are recorded with what happened (`-` in the result column) but don't count.
