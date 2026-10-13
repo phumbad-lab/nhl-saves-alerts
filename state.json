@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19779,
+  "credits_remaining": 19778,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -389,13 +389,20 @@
     "e0f35b340012c950aac314ee30660274": {
       "commence_time": "2026-10-13T22:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:27:11Z",
+      "last_paid_check": "2026-10-13T17:42:12Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
             "over": -110,
             "point": 22.5,
             "under": -125
+          }
+        },
+        "fanduel": {
+          "Jacob Fowler": {
+            "over": 102,
+            "point": 22.5,
+            "under": -136
           }
         }
       },
@@ -2661,7 +2668,7 @@
   },
   "injuries": {
     "ANA:8483445": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-13T17:36:13Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
@@ -5149,6 +5156,12 @@
       "book": null,
       "event_id": "52b4edae40c883606966ff2b620547a5",
       "goalie": "Karel Vejmelka"
+    },
+    "222": {
+      "at": "2026-10-13T17:42:12Z",
+      "book": "FD",
+      "event_id": "e0f35b340012c950aac314ee30660274",
+      "goalie": "Jacob Fowler"
     }
   },
   "shot_stats": {
@@ -5808,5 +5821,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088042
+  "tg_offset": 69088043
 }
