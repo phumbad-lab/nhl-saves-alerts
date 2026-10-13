@@ -160,3 +160,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Canucks @ Islanders,Leevi Merilainen,VAN,FD,27.5,-102,-130,24.3,FADE,,,,e06b043ca7e5c58f3a5786e5c7479520,2026-10-13T23:55:00Z,Vancouver Canucks,New York Islanders,2026-10-13T18:26:13Z,,,,,,VAN:Chytil;NYI:
 2026-10-13,Penguins @ Blackhawks,Spencer Knight,CHI,FD,25.5,+100,-132,25.0,FADE,,,,11760a5fc0040c4da450ea890d491b7b,2026-10-14T00:10:00Z,Pittsburgh Penguins,Chicago Blackhawks,2026-10-13T18:26:13Z,,,,,,PIT:;CHI:
 2026-10-13,Wild @ Jets,Stuart Skinner,WPG,FD,24.5,-132,+100,26.1,OVER,,,,ab01aeb40725b42695be877e6745effa,2026-10-14T00:25:00Z,Minnesota Wild,Winnipeg Jets,2026-10-13T18:39:11Z,,,,,,MIN:Faber;WPG:Morrissey
+2026-10-13,Avalanche @ Stars,Jake Oettinger,DAL,FD,24.5,-122,-108,23.3,FADE,,,,033a7fbe94c870533285eca92f2907fb,2026-10-14T00:40:00Z,Colorado Avalanche,Dallas Stars,2026-10-13T18:54:11Z,,,,,,COL:Makar;DAL:
+2026-10-13,Avalanche @ Stars,Mackenzie Blackwood,COL,FD,21.5,-112,-118,21.8,LEAN_UNDER,,,,033a7fbe94c870533285eca92f2907fb,2026-10-14T00:40:00Z,Colorado Avalanche,Dallas Stars,2026-10-13T18:54:11Z,,,,,,COL:Makar;DAL:
