@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19783,
+  "credits_remaining": 19779,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -24,9 +24,14 @@
     "11760a5fc0040c4da450ea890d491b7b": {
       "commence_time": "2026-10-14T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:24:55Z",
+      "last_paid_check": "2026-10-13T17:40:17Z",
       "lines": {
         "draftkings": {
+          "Sergei Murashov": {
+            "over": -125,
+            "point": 22.5,
+            "under": -110
+          },
           "Spencer Knight": {
             "over": -130,
             "point": 24.5,
@@ -35,6 +40,12 @@
         }
       },
       "matchup": "Pittsburgh Penguins @ Chicago Blackhawks"
+    },
+    "11b474310b2b60cbae546d9c517444c6": {
+      "commence_time": "2026-10-14T23:40:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Montr\u00e9al Canadiens @ Washington Capitals"
     },
     "12a90ee4a941f857d0fc417663fb00c1": {
       "commence_time": "2026-10-11T21:10:00Z",
@@ -115,13 +126,18 @@
     "52b4edae40c883606966ff2b620547a5": {
       "commence_time": "2026-10-14T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:24:55Z",
+      "last_paid_check": "2026-10-13T17:40:17Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
             "over": -125,
             "point": 28.5,
             "under": -105
+          },
+          "Karel Vejmelka": {
+            "over": -110,
+            "point": 24.5,
+            "under": -125
           }
         }
       },
@@ -130,7 +146,7 @@
     "587a79e5ddfb564cdee42db19af6422f": {
       "commence_time": "2026-10-14T00:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:24:55Z",
+      "last_paid_check": "2026-10-13T17:40:17Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -346,7 +362,7 @@
     "e06b043ca7e5c58f3a5786e5c7479520": {
       "commence_time": "2026-10-13T23:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:24:55Z",
+      "last_paid_check": "2026-10-13T17:40:17Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -5121,6 +5137,18 @@
       "book": null,
       "event_id": "e2c675c14d7afbf6164f9eb51e66e615",
       "goalie": "Lukas Dostal"
+    },
+    "218": {
+      "at": "2026-10-13T17:40:17Z",
+      "book": null,
+      "event_id": "11760a5fc0040c4da450ea890d491b7b",
+      "goalie": "Sergei Murashov"
+    },
+    "219": {
+      "at": "2026-10-13T17:40:17Z",
+      "book": null,
+      "event_id": "52b4edae40c883606966ff2b620547a5",
+      "goalie": "Karel Vejmelka"
     }
   },
   "shot_stats": {

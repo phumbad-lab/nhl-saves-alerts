@@ -148,3 +148,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Capitals @ Hurricanes,Logan Thompson,WSH,FD,26.5,-130,-102,24.4,FADE,,,,5290af76525679fdfa4eebaacc9b283f,2026-10-13T22:55:00Z,Washington Capitals,Carolina Hurricanes,2026-10-13T16:56:11Z,,,,,,WSH:Roy;CAR:
 2026-10-13,Leafs @ Mammoth,Anthony Stolarz,TOR,DK,28.5,-125,-105,28.8,OVER,,,,52b4edae40c883606966ff2b620547a5,2026-10-14T01:10:00Z,Toronto Maple Leafs,Utah Mammoth,2026-10-13T17:24:55Z,,,,,,TOR:;UTA:
 2026-10-13,Flames @ Ducks,Lukas Dostal,ANA,DK,21.5,-120,-110,21.6,LEAN_UNDER,,,,e2c675c14d7afbf6164f9eb51e66e615,2026-10-14T01:55:00Z,Calgary Flames,Anaheim Ducks,2026-10-13T17:29:10Z,,,,,,CGY:;ANA:Gauthier(DTD)
+2026-10-13,Penguins @ Blackhawks,Sergei Murashov,PIT,DK,22.5,-125,-110,25.2,FADE,,,,11760a5fc0040c4da450ea890d491b7b,2026-10-14T00:10:00Z,Pittsburgh Penguins,Chicago Blackhawks,2026-10-13T17:40:17Z,,,,,,PIT:;CHI:
+2026-10-13,Leafs @ Mammoth,Karel Vejmelka,UTA,DK,24.5,-110,-125,21.3,UNDER,,,,52b4edae40c883606966ff2b620547a5,2026-10-14T01:10:00Z,Toronto Maple Leafs,Utah Mammoth,2026-10-13T17:40:17Z,1,,,,,TOR:;UTA:
