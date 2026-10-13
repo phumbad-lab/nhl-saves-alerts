@@ -1327,6 +1327,9 @@ def parse_bet(words):
     A whole number means the half-point line bettors shorthand it for: 23 -> 23.5."""
     bet = {"book": None, "side": None, "line": None, "name": None}
     for w in words:
+        w = w.strip(".,!?;:")
+        if not w:
+            continue
         m = BET_TOKEN.match(w)
         if w in ("dk", "draftkings"):
             bet["book"] = "DK"
@@ -1472,12 +1475,19 @@ def process_replies(state, now):
             target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
             save_note(msg, rows, target, now)
             continue
-        cmd, bets = parse_message(msg.get("text") or "")
+        text = msg.get("text") or ""
+        # "In for 24o. Note COL shoots a lot" -> the bet, plus a note on the same goalie
+        both = re.match(r"^(\s*(?:i\s+)?(?:in|took)\b.*?)[\s.;,!-]+notes?\b[:\s]*(.+)$", text, re.I | re.S)
+        note_text = None
+        if both:
+            text, note_text = both.group(1), both.group(2).strip()
+        cmd, bets = parse_message(text)
         if not cmd:
             continue
         rows = rows if rows is not None else load_picks()
         target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
         done, problems = [], []
+        noted_for = None
         for bet in (bets[:1] if target else bets):
             if target:
                 event_id, goalie, alert_book = target["event_id"], target["goalie"], target.get("book")
@@ -1489,20 +1499,28 @@ def process_replies(state, now):
                                     "Swipe left on an alert and reply in, or type: I took Kuemper 26o")
                     continue
                 (event_id, goalie), alert_book = found, None
+            noted_for = noted_for or {"event_id": event_id, "goalie": goalie}
             ok, note = apply_bet(rows, state, event_id, goalie, alert_book, bet, cmd, now)
             (done if ok else problems).append(note)
             changed = changed or ok
-        if target and done and not problems:
+        if note_text:
+            if noted_for or target:
+                save_note({"text": "note " + note_text}, rows, noted_for or target, now, quiet=True)
+                done_note = "Noted ✍"
+            else:
+                done_note = None
+        if target and done and not problems and not note_text:
             tg_react(msg, "👍" if cmd == "in" else "👌")
         elif done or problems:
             tg_reply(msg, ("Logged: " + " · ".join(done) if done else "")
+                     + (f" · {done_note}" if note_text and done_note else "")
                      + ("\n" if done and problems else "") + "\n".join(problems))
     if changed:
         save_picks(rows)
     return resends, manual
 
 
-def save_note(msg, rows, target, now):
+def save_note(msg, rows, target, now, quiet=False):
     """'note Wallstedt faded, VGK low H2H, MIN tight at home' (or swipe-reply 'note ...' on an alert).
     Saved to notes.csv with the goalie's line/tag/expected at the time, for the daily review."""
     text = (msg.get("text") or "").split(None, 1)
@@ -1531,10 +1549,13 @@ def save_note(msg, rows, target, now):
         if new_file:
             w.writeheader()
         w.writerow(note)
+    if quiet:
+        return note
     if target:
         tg_react(msg, "✍", "Noted ✍")
     else:
         tg_reply(msg, f"Noted{' for ' + last_name(note['goalie']) if note['goalie'] else ''} ✍")
+    return note
 
 
 def alert_new_lines(event, rec, new_pairs, known_before, m, stats, state, injuries, now):
