@@ -132,3 +132,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Capitals @ Hurricanes,Pyotr Kochetkov,CAR,DK,22.5,-115,-120,23.3,FADE,,,,5290af76525679fdfa4eebaacc9b283f,2026-10-13T22:55:00Z,Washington Capitals,Carolina Hurricanes,2026-10-13T15:06:13Z,,UNDER,22.5,,2026-10-13T15:20:17Z,WSH:Roy;CAR:
 2026-10-13,Kraken @ Flyers,Dan Vladar,PHI,DK,23.5,-130,-105,26.5,OVER,,,,b4c66ffd89692fea91c3b1699915cc25,2026-10-13T23:10:00Z,Seattle Kraken,Philadelphia Flyers,2026-10-13T15:10:17Z,,,,,,"SEA:;PHI:Konecny,York(DTD)"
 2026-10-13,Canucks @ Islanders,Ilya Sorokin,NYI,DK,20.5,-110,-120,22.2,FADE,,,,e06b043ca7e5c58f3a5786e5c7479520,2026-10-13T23:55:00Z,Vancouver Canucks,New York Islanders,2026-10-13T15:18:12Z,,,,,,VAN:Chytil;NYI:
+2026-10-13,Devils @ Wings,Jake Allen,NJD,DK,27.5,-110,-125,28.0,OVER,,,,96c1dc95ee1b687f058a96a7153cf36a,2026-10-13T22:10:00Z,New Jersey Devils,Detroit Red Wings,2026-10-13T15:34:12Z,,,,,,NJD:;DET:
+2026-10-13,Devils @ Wings,Jake Allen,NJD,FD,27.5,-102,-130,28.0,OVER,,,,96c1dc95ee1b687f058a96a7153cf36a,2026-10-13T22:10:00Z,New Jersey Devils,Detroit Red Wings,2026-10-13T15:34:12Z,,,,,,NJD:;DET:
