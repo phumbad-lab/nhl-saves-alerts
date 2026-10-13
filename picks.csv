@@ -154,3 +154,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Kraken @ Flyers,Dan Vladar,PHI,FD,23.5,-122,-108,26.5,OVER,,,,b4c66ffd89692fea91c3b1699915cc25,2026-10-13T23:10:00Z,Seattle Kraken,Philadelphia Flyers,2026-10-13T17:47:11Z,,,,,,"SEA:;PHI:Konecny,York(DTD)"
 2026-10-13,Flames @ Ducks,Dustin Wolf,CGY,DK,27.5,-110,-125,24.5,FADE,,,,e2c675c14d7afbf6164f9eb51e66e615,2026-10-14T01:55:00Z,Calgary Flames,Anaheim Ducks,2026-10-13T18:00:22Z,,,,,,CGY:;ANA:Gauthier
 2026-10-13,Blues @ Senators,Joel Hofer,STL,FD,25.5,-125,-106,20.8,UNDER,,,,f29c6b46c06ecd7fedbc0eea607fcde6,2026-10-13T23:40:00Z,St Louis Blues,Ottawa Senators,2026-10-13T18:02:12Z,,,,,,STL:;OTT:Sanderson
+2026-10-13,Oilers @ Kings,Darcy Kuemper,LAK,DK,24.5,-130,-105,22.8,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T18:05:15Z,,,,,,EDM:Hyman(DTD);LAK:Fiala
