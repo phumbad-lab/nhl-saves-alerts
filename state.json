@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19869,
+  "credits_remaining": 19868,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -200,8 +200,17 @@
     },
     "b4c66ffd89692fea91c3b1699915cc25": {
       "commence_time": "2026-10-13T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T15:10:17Z",
+      "lines": {
+        "draftkings": {
+          "Dan Vladar": {
+            "over": -130,
+            "point": 23.5,
+            "under": -105
+          }
+        }
+      },
       "matchup": "Seattle Kraken @ Philadelphia Flyers"
     },
     "b9d4f3cf4a46b1fd55b2020f0a70783a": {
@@ -1009,6 +1018,16 @@
     "value": [
       "2026-10-04",
       "2026-10-06"
+    ]
+  },
+  "gl_8478439": {
+    "fetched": "2026-10-13T15:10:17Z",
+    "value": [
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-03",
+      "2026-10-05",
+      "2026-10-08"
     ]
   },
   "gl_8478911": {
@@ -2184,6 +2203,39 @@
         "OTT",
         32,
         25
+      ]
+    ]
+  },
+  "h2h_PHI-SEA": {
+    "fetched": "2026-10-13T15:10:17Z",
+    "value": [
+      [
+        "2025-12-28",
+        "PHI",
+        "SEA",
+        33,
+        20
+      ],
+      [
+        "2025-10-20",
+        "SEA",
+        "PHI",
+        23,
+        27
+      ],
+      [
+        "2025-03-08",
+        "SEA",
+        "PHI",
+        32,
+        24
+      ],
+      [
+        "2024-10-17",
+        "PHI",
+        "SEA",
+        25,
+        29
       ]
     ]
   },
@@ -4318,7 +4370,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-10-11T16:32:11Z",
+    "fetched": "2026-10-13T15:10:17Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -4332,7 +4384,7 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-10-11T18:56:10Z",
+    "fetched": "2026-10-13T15:10:17Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
@@ -4626,6 +4678,12 @@
       "book": "DK",
       "event_id": "5290af76525679fdfa4eebaacc9b283f",
       "goalie": "Pyotr Kochetkov"
+    },
+    "175": {
+      "at": "2026-10-13T15:10:17Z",
+      "book": null,
+      "event_id": "b4c66ffd89692fea91c3b1699915cc25",
+      "goalie": "Dan Vladar"
     }
   },
   "shot_stats": {
