@@ -1029,6 +1029,8 @@ KEY_MIN_GP = 5        # games (this season + last, with this team) before a play
 SHOW_GTD = False      # owner: hide day-to-day players in alerts (Oct 12); True shows a GTD line
 WITH_WITHOUT_MIN = 2  # show team shots with/without a key player once he's missed (and played) this many
 INJURY_URL = "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries"
+INJURY_CONFIRM = timedelta(minutes=5)   # a new OUT must hold this long before an alert
+INJURY_CLEAR = timedelta(minutes=30)    # off the list this long before he counts as back
 INJURY_FEED_MIN = 30  # the league-wide list normally has ~100+ players; fewer means a bad fetch
 
 
@@ -1113,25 +1115,43 @@ def injury_report(state, events, abbrevs, now):
             hit = next((st for fn, ln, st in listed.get(t, []) if name_match(k["first"], k["last"], ln, fn)), None)
             if hit:
                 current[f"{t}:{k['id']}"] = (k, hit)
+        # ESPN's feed is served by several caches that don't always agree, so a player can blink
+        # off and back on between runs. Changes only count once they've held for a while.
         for kid, (k, st) in current.items():
             prev = book.get(kid)
             stamp = iso(now - timedelta(days=2)) if first_look else iso(now)
             if not prev:
-                prev = book[kid] = {"status": st, "seen": stamp, "out_at": stamp if st == "OUT" else None}
-            elif st == "OUT" and prev["status"] != "OUT":
-                prev.update(status="OUT", out_at=iso(now))
-                newly_out.append((t, k))
+                prev = book[kid] = {"status": st, "seen": stamp,
+                                    "out_at": stamp if st == "OUT" else None,
+                                    "alerted": first_look}  # first look at a team: nothing is news
+            prev.pop("missing_since", None)
+            if st != prev["status"]:
+                if prev.get("pending") != st:
+                    prev["pending"], prev["pending_since"] = st, iso(now)
+                elif now - parse_iso(prev["pending_since"]) >= INJURY_CONFIRM:
+                    prev.update(status=st)
+                    if st == "OUT":
+                        prev.update(out_at=iso(now), alerted=False)
+                    prev.pop("pending", None); prev.pop("pending_since", None)
             else:
-                prev["status"] = st
-            if not first_look and prev["seen"] == iso(now) and st == "OUT":
+                prev.pop("pending", None); prev.pop("pending_since", None)
+            if (prev["status"] == "OUT" and not prev.get("alerted", True)
+                    and now - parse_iso(prev["out_at"] or prev["seen"]) >= INJURY_CONFIRM):
+                prev["alerted"] = True  # one OUT alert per absence
                 newly_out.append((t, k))
             new = any(x and parse_iso(x).astimezone(LOCAL_TZ).date() == today
                       for x in (prev["seen"], prev["out_at"]))
-            report.setdefault(t, []).append(dict(k, status=st, new=new))
+            report.setdefault(t, []).append(dict(k, status=prev["status"], new=new))
         for kid in [x for x in book if x.startswith(f"{t}:") and x not in current]:
-            was = book.pop(kid)  # off the injury list: back in the lineup
+            entry = book[kid]
             k = next((k for k in keys[t] if f"{t}:{k['id']}" == kid), None)
-            if k and was.get("status") == "OUT" and not first_look:
+            missing = entry.setdefault("missing_since", iso(now))
+            if now - parse_iso(missing) < INJURY_CLEAR:
+                if k:  # probably a feed blip; keep treating him as injured for now
+                    report.setdefault(t, []).append(dict(k, status=entry["status"], new=False))
+                continue
+            was = book.pop(kid)  # off the injury list long enough: back in the lineup
+            if k and was.get("status") == "OUT" and was.get("alerted", True) and not first_look:
                 newly_back.append((t, k))
         seeded.add(t)
     state["injury_teams"] = sorted(seeded)
