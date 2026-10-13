@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19753,
+  "credits_remaining": 19752,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -89,7 +89,7 @@
     "1fa1e7fd3028995ab8ffb6b498e4899d": {
       "commence_time": "2026-10-14T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T18:05:15Z",
+      "last_paid_check": "2026-10-13T18:20:17Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
@@ -2810,6 +2810,8 @@
     },
     "EDM:8475786": {
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-10-13T18:20:17Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "DTD"
     },
