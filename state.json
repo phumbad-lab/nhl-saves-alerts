@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19876,
+  "credits_remaining": 19875,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -87,8 +87,15 @@
     "96c1dc95ee1b687f058a96a7153cf36a": {
       "commence_time": "2026-10-13T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T14:33:10Z",
+      "last_paid_check": "2026-10-13T14:48:12Z",
       "lines": {
+        "draftkings": {
+          "John Gibson": {
+            "over": -115,
+            "point": 24.5,
+            "under": -120
+          }
+        },
         "fanduel": {
           "John Gibson": {
             "over": -102,
@@ -4587,6 +4594,12 @@
       "book": null,
       "event_id": "ab01aeb40725b42695be877e6745effa",
       "goalie": "Stuart Skinner"
+    },
+    "172": {
+      "at": "2026-10-13T14:48:12Z",
+      "book": "DK",
+      "event_id": "96c1dc95ee1b687f058a96a7153cf36a",
+      "goalie": "John Gibson"
     }
   },
   "shot_stats": {
