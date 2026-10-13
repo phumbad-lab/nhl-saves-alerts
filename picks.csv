@@ -174,3 +174,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Bruins @ Sharks,Jeremy Swayman,BOS,FD,24.5,-128,-104,24.4,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T19:52:11Z,,,,,,BOS:;SJS:
 2026-10-13,Bruins @ Sharks,Yaroslav Askarov,SJS,FD,24.5,-125,-106,23.2,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T19:52:11Z,,,,,,BOS:;SJS:
 2026-10-13,Oilers @ Kings,Devon Levi,EDM,DK,25.5,-105,-130,25.1,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T19:56:30Z,,,,,,EDM:Hyman;LAK:Fiala
+2026-10-13,Sabres @ Canadiens,Ukko-Pekka Luukkonen,BUF,DK,24.5,-105,-125,21.3,UNDER,,,,e0f35b340012c950aac314ee30660274,2026-10-13T22:40:00Z,Buffalo Sabres,Montréal Canadiens,2026-10-13T22:10:17Z,1,,,,,BUF:Dahlin;MTL:Matheson
+2026-10-13,Sabres @ Canadiens,Ukko-Pekka Luukkonen,BUF,FD,23.5,-128,-104,21.3,UNDER,,,,e0f35b340012c950aac314ee30660274,2026-10-13T22:40:00Z,Buffalo Sabres,Montréal Canadiens,2026-10-13T22:10:17Z,1,,,,,BUF:Dahlin;MTL:Matheson
