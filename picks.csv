@@ -168,3 +168,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Leafs @ Mammoth,Anthony Stolarz,TOR,FD,28.5,-118,-112,28.8,OVER,,,,52b4edae40c883606966ff2b620547a5,2026-10-14T01:10:00Z,Toronto Maple Leafs,Utah Mammoth,2026-10-13T19:13:11Z,,,,,,TOR:;UTA:
 2026-10-13,Flames @ Ducks,Dustin Wolf,CGY,FD,27.5,-108,-122,24.5,FADE,,,,e2c675c14d7afbf6164f9eb51e66e615,2026-10-14T01:55:00Z,Calgary Flames,Anaheim Ducks,2026-10-13T19:17:12Z,,,,,,CGY:;ANA:Gauthier
 2026-10-13,Flames @ Ducks,Lukas Dostal,ANA,FD,22.5,-104,-128,21.6,UNDER,,,,e2c675c14d7afbf6164f9eb51e66e615,2026-10-14T01:55:00Z,Calgary Flames,Anaheim Ducks,2026-10-13T19:17:12Z,,,,,,CGY:;ANA:Gauthier
+2026-10-13,Oilers @ Kings,Darcy Kuemper,LAK,FD,25.5,-122,-108,22.8,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T19:40:15Z,,,,,,EDM:Hyman;LAK:Fiala
+2026-10-13,Oilers @ Kings,Devon Levi,EDM,FD,25.5,+100,-132,25.1,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T19:40:15Z,,,,,,EDM:Hyman;LAK:Fiala
