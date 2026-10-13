@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19793,
+  "credits_remaining": 19789,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -24,13 +24,13 @@
     "11760a5fc0040c4da450ea890d491b7b": {
       "commence_time": "2026-10-14T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:09:11Z",
+      "last_paid_check": "2026-10-13T17:24:55Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
-            "over": -105,
-            "point": 25.5,
-            "under": -130
+            "over": -130,
+            "point": 24.5,
+            "under": -105
           }
         }
       },
@@ -114,14 +114,23 @@
     },
     "52b4edae40c883606966ff2b620547a5": {
       "commence_time": "2026-10-14T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T17:24:55Z",
+      "lines": {
+        "draftkings": {
+          "Anthony Stolarz": {
+            "over": -125,
+            "point": 28.5,
+            "under": -105
+          }
+        }
+      },
       "matchup": "Toronto Maple Leafs @ Utah Mammoth"
     },
     "587a79e5ddfb564cdee42db19af6422f": {
       "commence_time": "2026-10-14T00:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:09:11Z",
+      "last_paid_check": "2026-10-13T17:24:55Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -337,7 +346,7 @@
     "e06b043ca7e5c58f3a5786e5c7479520": {
       "commence_time": "2026-10-13T23:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:09:11Z",
+      "last_paid_check": "2026-10-13T17:24:55Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -2559,6 +2568,39 @@
       ]
     ]
   },
+  "h2h_TOR-UTA": {
+    "fetched": "2026-10-13T17:24:55Z",
+    "value": [
+      [
+        "2026-01-13",
+        "TOR",
+        "UTA",
+        20,
+        41
+      ],
+      [
+        "2025-11-05",
+        "UTA",
+        "TOR",
+        24,
+        19
+      ],
+      [
+        "2025-03-10",
+        "TOR",
+        "UTA",
+        26,
+        33
+      ],
+      [
+        "2024-11-24",
+        "UTA",
+        "TOR",
+        26,
+        35
+      ]
+    ]
+  },
   "h2h_TOR-VGK": {
     "fetched": "2026-10-08T19:00:22Z",
     "value": [
@@ -4702,14 +4744,14 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-10T20:50:15Z",
+    "fetched": "2026-10-13T17:24:55Z",
     "value": [
       "Sergei Bobrovsky",
       "Anthony Stolarz"
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-10-10T14:50:16Z",
+    "fetched": "2026-10-13T17:24:55Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -5057,6 +5099,12 @@
       "book": "FD",
       "event_id": "5290af76525679fdfa4eebaacc9b283f",
       "goalie": "Logan Thompson"
+    },
+    "216": {
+      "at": "2026-10-13T17:24:55Z",
+      "book": null,
+      "event_id": "52b4edae40c883606966ff2b620547a5",
+      "goalie": "Anthony Stolarz"
     }
   },
   "shot_stats": {
