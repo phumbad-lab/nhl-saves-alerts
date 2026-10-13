@@ -1551,18 +1551,14 @@ SUMMARY_WORDS = ("summarize", "summarise", "summary", "plays", "recap", "today")
 
 def plays_summary(rows, state, now, yesterday=False):
     """'summarize' (or 'summary', 'plays', 'recap'; add 'yesterday' for last night): every bet
-    you've logged for today's games, one line per goalie in puck-drop order, with the model's
-    tag on the line you took and the result once graded. Free (no odds call)."""
+    you've logged for today's games, one line per goalie in puck-drop order: 'Gibson (DET) - o24.5'.
+    Just the plays (no tags, books or times); results once graded. Free (no odds call)."""
     day = now.astimezone(LOCAL_TZ) - timedelta(days=1 if yesterday else 0)
     date = day.strftime("%Y-%m-%d")
     mine = [r for r in rows if r["date"] == date and r.get("taken")]
     when = "yesterday" if yesterday else "today"
     if not mine:
         return f"No plays logged {when} ({day.strftime('%a %b %-d')})."
-    try:
-        abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
-    except Exception:
-        abbrevs = {}
     marks = {"W": " ✅", "L": " ❌", "P": " push", "VOID": " void"}
     lines, done = [], []
     for r in sorted(mine, key=lambda r: (r.get("commence_time", ""), r["goalie"], r.get("taken_at", ""))):
@@ -1570,23 +1566,15 @@ def plays_summary(rows, state, now, yesterday=False):
         if gkey in done:
             continue
         done.append(gkey)
-        bets = [x for x in mine if (x["event_id"], x["goalie"]) == gkey]
-        parts = []
-        for x in sorted(bets, key=lambda x: x.get("taken_at", "")):
-            tag = TAG_LABELS.get(x["tag"], "")
-            tag += " 🔥" if x.get("fire") == "1" else ""
-            parts.append(f"{x['taken'][0].lower()}{x['taken_line']} {x['book']}"
-                         + (f" ({tag})" if tag else "") + marks.get(x.get("taken_result"), ""))
+        bets = sorted((x for x in mine if (x["event_id"], x["goalie"]) == gkey), key=lambda x: x.get("taken_at", ""))
+        parts = [f"{x['taken'][0].lower()}{x['taken_line']}" + marks.get(x.get("taken_result"), "") for x in bets]
         saves = f": {r['actual_saves']} saves" if r.get("actual_saves") not in (None, "") else ""
-        time = fmt_time(r["commence_time"], now) if r.get("commence_time") and not yesterday else ""
-        lines.append(f"{who(r, abbrevs)}" + (f" {time}" if time else "") + " - " + " · ".join(parts) + saves)
-    overs = sum(1 for k in done if next(x for x in mine if (x["event_id"], x["goalie"]) == k)["taken"] == "OVER")
+        team = f" ({r['team']})" if r.get("team") else ""
+        lines.append(f"{last_name(r['goalie'])}{team} - " + " · ".join(parts) + saves)
     head = f"📋 Your plays {when} ({day.strftime('%a %b %-d')})"
     foot = (f"{len(done)} goalie{'s' * (len(done) != 1)}"
-            + (f", {len(mine)} bets" if len(mine) != len(done) else "")
-            + f" · {overs} over, {len(done) - overs} under")
-    graded = [x["taken_result"] for x in mine if x.get("taken_result") in ("W", "L", "P")]
-    if graded:
+            + (f", {len(mine)} bets" if len(mine) != len(done) else ""))
+    if any(x.get("taken_result") in ("W", "L", "P") for x in mine):
         w, l, p, _ = my_record(mine)
         foot += " · " + fmt_record(w, l, p)
     return head + "\n" + "\n".join(lines) + "\n" + foot
