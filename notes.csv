@@ -2,3 +2,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-13T15:23:09Z,2026-10-13,Dan Vladar,PHI,Kraken @ Flyers,OVER,23.5,26.5,"Fade, sea on the road shoots mid 20s",b4c66ffd89692fea91c3b1699915cc25
 2026-10-13T15:25:16Z,2026-10-13,Stuart Skinner,WPG,Wild @ Jets,OVER,25.5,26.1,fade because last game at home WPG played tight.,ab01aeb40725b42695be877e6745effa
 2026-10-13T16:10:16Z,2026-10-13,Jake Oettinger,DAL,Avalanche @ Stars,FADE,24.5,23.3,Col shoots and dal has played weaker teams for soga,033a7fbe94c870533285eca92f2907fb
+2026-10-13T16:11:10Z,2026-10-13,Logan Thompson,WSH,Capitals @ Hurricanes,FADE,26.5,24.4,car shoots and wsh has let up less to weaker teams and a top d is out,5290af76525679fdfa4eebaacc9b283f
