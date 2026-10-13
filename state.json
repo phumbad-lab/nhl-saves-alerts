@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19724,
+  "credits_remaining": 19721,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -121,7 +121,7 @@
     "3192c41b5eb5fad69e518d6eba5fcb91": {
       "commence_time": "2026-10-14T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T18:49:12Z",
+      "last_paid_check": "2026-10-13T19:05:14Z",
       "lines": {
         "draftkings": {
           "Yaroslav Askarov": {
@@ -357,7 +357,7 @@
     "b4c66ffd89692fea91c3b1699915cc25": {
       "commence_time": "2026-10-13T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T18:49:12Z",
+      "last_paid_check": "2026-10-13T19:05:14Z",
       "lines": {
         "draftkings": {
           "Dan Vladar": {
@@ -549,7 +549,7 @@
     "f29c6b46c06ecd7fedbc0eea607fcde6": {
       "commence_time": "2026-10-13T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T18:49:12Z",
+      "last_paid_check": "2026-10-13T19:05:14Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
