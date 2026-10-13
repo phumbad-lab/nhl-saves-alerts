@@ -1396,13 +1396,17 @@ NICKNAMES_FILE = os.path.join(HERE, "nicknames.csv")  # your nicknames: goalie,n
 
 
 def load_nicknames():
-    """{'wally': 'wallstedt', ...} from nicknames.csv (one row per nickname)."""
+    """{'wally': {'wallstedt'}, 'hilly': {'hildeby', 'hill'}, ...} from nicknames.csv.
+    A nickname can point at more than one goalie; the one alerted most recently wins."""
+    out = {}
     try:
         with open(NICKNAMES_FILE, newline="") as f:
-            return {team_key(r["nickname"]): team_key(r["goalie"])
-                    for r in csv.DictReader(f) if r.get("nickname") and r.get("goalie")}
+            for r in csv.DictReader(f):
+                if r.get("nickname") and r.get("goalie"):
+                    out.setdefault(team_key(r["nickname"]), set()).add(team_key(r["goalie"]))
     except FileNotFoundError:
-        return {}
+        pass
+    return out
 
 
 def find_by_name(rows, name, now):
@@ -1412,8 +1416,9 @@ def find_by_name(rows, name, now):
     key = team_key(name)
     if not key:
         return None
-    key = load_nicknames().get(key, key)
-    hits = [r for r in rows if r["date"] >= since and team_key(last_name(r["goalie"])).startswith(key)]
+    keys = {key} | load_nicknames().get(key, set())  # the name itself still counts (e.g. "Murray")
+    hits = [r for r in rows if r["date"] >= since
+            and any(team_key(last_name(r["goalie"])).startswith(k) for k in keys)]
     if not hits:
         return None
     best = max(hits, key=lambda r: (r["date"], r.get("logged_at", "")))
