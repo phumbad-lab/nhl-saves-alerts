@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19881,
+  "credits_remaining": 19880,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -77,8 +77,17 @@
     },
     "96c1dc95ee1b687f058a96a7153cf36a": {
       "commence_time": "2026-10-13T22:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T14:33:10Z",
+      "lines": {
+        "fanduel": {
+          "John Gibson": {
+            "over": -102,
+            "point": 24.5,
+            "under": -130
+          }
+        }
+      },
       "matchup": "New Jersey Devils @ Detroit Red Wings"
     },
     "9cc2460df91fb95f776e0e893a60985c": {
@@ -1526,6 +1535,39 @@
         "MTL",
         36,
         21
+      ]
+    ]
+  },
+  "h2h_DET-NJD": {
+    "fetched": "2026-10-13T14:33:10Z",
+    "value": [
+      [
+        "2026-04-11",
+        "NJD",
+        "DET",
+        33,
+        28
+      ],
+      [
+        "2026-03-08",
+        "DET",
+        "NJD",
+        30,
+        31
+      ],
+      [
+        "2025-11-24",
+        "DET",
+        "NJD",
+        35,
+        20
+      ],
+      [
+        "2025-04-16",
+        "DET",
+        "NJD",
+        27,
+        30
       ]
     ]
   },
@@ -4039,7 +4081,7 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-10-10T15:25:13Z",
+    "fetched": "2026-10-13T14:33:10Z",
     "value": [
       "John Gibson",
       "Daniil Tarasov"
@@ -4084,7 +4126,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-10-12T15:20:16Z",
+    "fetched": "2026-10-13T14:33:10Z",
     "value": [
       "Jake Allen",
       "Nico Daws",
@@ -4387,6 +4429,12 @@
       "book": null,
       "event_id": "e06b043ca7e5c58f3a5786e5c7479520",
       "goalie": "Ilya Sorokin"
+    },
+    "168": {
+      "at": "2026-10-13T14:33:10Z",
+      "book": null,
+      "event_id": "96c1dc95ee1b687f058a96a7153cf36a",
+      "goalie": "John Gibson"
     }
   },
   "shot_stats": {
