@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19745,
+  "credits_remaining": 19744,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -453,7 +453,7 @@
     "e2c675c14d7afbf6164f9eb51e66e615": {
       "commence_time": "2026-10-14T01:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T18:16:13Z",
+      "last_paid_check": "2026-10-13T18:31:13Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
@@ -2819,7 +2819,7 @@
       "status": "OUT"
     },
     "EDM:8475786": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-13T18:26:13Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
