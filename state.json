@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19866,
+  "credits_remaining": 19865,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -270,8 +270,15 @@
     "e06b043ca7e5c58f3a5786e5c7479520": {
       "commence_time": "2026-10-13T23:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T15:03:11Z",
+      "last_paid_check": "2026-10-13T15:18:12Z",
       "lines": {
+        "draftkings": {
+          "Ilya Sorokin": {
+            "over": -110,
+            "point": 20.5,
+            "under": -120
+          }
+        },
         "fanduel": {
           "Ilya Sorokin": {
             "over": -114,
@@ -4684,6 +4691,12 @@
       "book": null,
       "event_id": "b4c66ffd89692fea91c3b1699915cc25",
       "goalie": "Dan Vladar"
+    },
+    "178": {
+      "at": "2026-10-13T15:18:12Z",
+      "book": "DK",
+      "event_id": "e06b043ca7e5c58f3a5786e5c7479520",
+      "goalie": "Ilya Sorokin"
     }
   },
   "shot_stats": {
@@ -5343,5 +5356,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088028
+  "tg_offset": 69088029
 }

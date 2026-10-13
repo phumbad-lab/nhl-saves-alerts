@@ -131,3 +131,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Lightning @ Rangers,Dylan Garand,NYR,FD,24.5,-122,-108,22.4,FADE,,,,b9d4f3cf4a46b1fd55b2020f0a70783a,2026-10-13T23:25:00Z,Tampa Bay Lightning,New York Rangers,2026-10-13T14:58:12Z,,,,,,TBL:;NYR:
 2026-10-13,Capitals @ Hurricanes,Pyotr Kochetkov,CAR,DK,22.5,-115,-120,23.3,FADE,,,,5290af76525679fdfa4eebaacc9b283f,2026-10-13T22:55:00Z,Washington Capitals,Carolina Hurricanes,2026-10-13T15:06:13Z,,,,,,WSH:Roy;CAR:
 2026-10-13,Kraken @ Flyers,Dan Vladar,PHI,DK,23.5,-130,-105,26.5,OVER,,,,b4c66ffd89692fea91c3b1699915cc25,2026-10-13T23:10:00Z,Seattle Kraken,Philadelphia Flyers,2026-10-13T15:10:17Z,,,,,,"SEA:;PHI:Konecny,York(DTD)"
+2026-10-13,Canucks @ Islanders,Ilya Sorokin,NYI,DK,20.5,-110,-120,22.2,FADE,,,,e06b043ca7e5c58f3a5786e5c7479520,2026-10-13T23:55:00Z,Vancouver Canucks,New York Islanders,2026-10-13T15:18:12Z,,,,,,VAN:Chytil;NYI:
