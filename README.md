@@ -164,6 +164,8 @@ On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, 
 
 **Nicknames:** anywhere you type a goalie's name (`in`, `I took`, `note`, `resend`) you can use your nickname for him instead, e.g. `I took Wally 26o`. Nicknames live in `nicknames.csv` (`goalie,nickname`, one row per nickname).
 
+**Line the feed missed:** if you see a saves line at DK/FD that the bot hasn't alerted (the odds feed sometimes lags or skips a game), text `line Talbot 24.5 DK` (book defaults to DK; nicknames work; `24` means 24.5). The bot treats it like a posted line: full alert with tag, 🔥, H2H, last 5 and injuries, logged and graded, and you can reply `in`. If the feed later posts the same line, you won't get a duplicate.
+
 **Typing instead of swiping:** start with `in`, `took` or `I took`, then list bets separated by commas: `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o`. Each bet is a last name plus the line and `o`/`u` in any order (`23u`, `u23`, `o24.5`), optionally `DK`/`FD`. It matches alerts from the last two days. The bot replies with what it logged (`Logged: Jarry u23.5 DK · Fowler o22.5 FD ...`) or what it couldn't match.
 
 - A whole number means the half-point line: `23` is logged as 23.5.

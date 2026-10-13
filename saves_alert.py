@@ -1452,7 +1452,8 @@ def process_replies(state, now):
                                      "allowed_updates": json.dumps(["message"])})
     resends = []  # handled later in the run, once stats and injuries are loaded
     if not updates:
-        return resends
+        return resends, []
+    manual = []
     rows, changed = None, False
     for u in updates:
         state["tg_offset"] = u["update_id"] + 1
@@ -1462,6 +1463,9 @@ def process_replies(state, now):
         words = (msg.get("text") or "").lower().split()
         if words and words[0].strip(".!") in ("resend", "show"):
             resends.append((msg, (msg.get("text") or "").split()[1:]))  # names as you typed them
+            continue
+        if words and words[0].strip(".!:") == "line":
+            manual.append((msg, (msg.get("text") or "").split()[1:]))
             continue
         if words and words[0].strip(".!:") in ("note", "notes"):
             rows = rows if rows is not None else load_picks()
@@ -1495,7 +1499,7 @@ def process_replies(state, now):
                      + ("\n" if done and problems else "") + "\n".join(problems))
     if changed:
         save_picks(rows)
-    return resends
+    return resends, manual
 
 
 def save_note(msg, rows, target, now):
@@ -1531,6 +1535,97 @@ def save_note(msg, rows, target, now):
         tg_react(msg, "✍", "Noted ✍")
     else:
         tg_reply(msg, f"Noted{' for ' + last_name(note['goalie']) if note['goalie'] else ''} ✍")
+
+
+def alert_new_lines(event, rec, new_pairs, known_before, m, stats, state, injuries, now):
+    """Send the alert(s) for newly posted (book, goalie) lines and log them as picks."""
+    sides = goalie_sides(event, {p for _, p in new_pairs}, state, now) if m else {}
+    abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+    h2h = get_h2h(state, abbrevs.get(team_key(event["away_team"])),
+                  abbrevs.get(team_key(event["home_team"])), now)
+    show_h2h = not rec.get("h2h_sent")
+    for text, player, book in build_messages(
+            event, new_pairs, rec["lines"], m, sides, abbrevs, h2h, known_before, show_h2h,
+            (stats or {}).get("raw"), (state.get("game_log") or {}).get("games"),
+            injuries, state, now):
+        mid = send_push("", text)
+        if mid:
+            state["sent"][str(mid)] = {"event_id": event["id"], "goalie": player,
+                                       "book": BOOK_SHORT.get(book, book) if book else None,
+                                       "at": iso(now)}
+    if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
+        rec["h2h_sent"] = True
+    log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"),
+              injuries)
+    names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
+    print(f"ALERT {rec['matchup']}: {names}")
+
+
+def ascii_name(name):
+    return unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode()
+
+
+def handle_manual_lines(requests, events, state, stats, abbrevs, injuries, now):
+    """'line Talbot 24.5 DK': a line you can see at the book but the odds feed hasn't sent.
+    The bot treats it like a posted line: full alert, tag, pick log, grading, `in` replies."""
+    nicks = load_nicknames()
+    upcoming = sorted((e for e in events if parse_iso(e["commence_time"]) > now),
+                      key=lambda e: e["commence_time"])
+    for msg, words in requests:
+        book, point, name, typed = "draftkings", None, None, None
+        for raw in words:
+            w = raw.strip(",.:").lower()
+            m_ = BET_TOKEN.match(w)
+            if w in ("dk", "draftkings"):
+                book = "draftkings"
+            elif w in ("fd", "fanduel"):
+                book = "fanduel"
+            elif m_ and not (m_.group(1) or m_.group(4)):  # a plain number
+                point = float(m_.group(3))
+                point = point + 0.5 if point == int(point) else point
+            elif w and w not in ("for", "at", "on", "the", "is", "o", "u", "over", "under"):
+                if not name:
+                    name, typed = w, raw.strip(",.:")
+        if not name or point is None:
+            tg_reply(msg, "Send it like: line Talbot 24.5 DK")
+            continue
+        keys = {team_key(name)} | nicks.get(team_key(name), set())
+        found = None
+        # A goalie the feed already has lines for: use that game.
+        for event in upcoming:
+            for p_ in {p for b in state["events"].get(event["id"], {}).get("lines", {}).values() for p in b}:
+                if any(team_key(last_name(p_)).startswith(k) for k in keys):
+                    found = (event, p_)
+                    break
+            if found:
+                break
+        for event in ([] if found else upcoming):
+            for side in ("away", "home"):
+                ab = abbrevs.get(team_key(event[f"{side}_team"]))
+                if not ab:
+                    continue
+                roster = cached(state, f"roster_{ab}", now, ROSTER_REFRESH, lambda ab=ab: load_goalies(ab)) or []
+                hit = next((g for g in roster if any(team_key(g.split()[-1]).startswith(k) for k in keys)), None)
+                if hit:
+                    found = (event, ascii_name(hit))
+                    break
+            if found:
+                break
+        if not found:
+            tg_reply(msg, f"Couldn't find {typed} in today's upcoming games.")
+            continue
+        event, player = found
+        rec = state["events"].setdefault(event["id"], {
+            "matchup": f"{event['away_team']} @ {event['home_team']}",
+            "commence_time": event["commence_time"], "lines": {}, "last_paid_check": None})
+        if player in rec["lines"].get(book, {}):
+            tg_reply(msg, f"{last_name(player)} is already posted at {BOOK_SHORT[book]} "
+                          f"({rec['lines'][book][player].get('point')}). Text resend {last_name(player)} to see it.")
+            continue
+        known_before = {p for players in rec["lines"].values() for p in players}
+        rec["lines"].setdefault(book, {})[player] = {"point": point, "over": None, "under": None, "manual": True}
+        alert_new_lines(event, rec, {(book, player)}, known_before, matchup(event, stats), stats,
+                        state, injuries, now)
 
 
 def handle_resends(resends, state, stats, abbrevs, injuries, now):
@@ -1593,7 +1688,7 @@ def main():
     state = load_state()
     now = datetime.now(timezone.utc)
 
-    resends = process_replies(state, now)  # your "in" replies and "resend" requests (free)
+    resends, manual_lines = process_replies(state, now)  # your "in" replies and "resend" requests (free)
 
     # Grade yesterday's picks against box scores (free; once each morning).
     graded = grade_picks(state, now)
@@ -1632,6 +1727,7 @@ def main():
     for team, k in newly_back:
         send_injury_change(state, events, stats, abbrevs, team, k, now, back=True)
     handle_resends(resends, state, stats, abbrevs, injuries, now)
+    handle_manual_lines(manual_lines, events, state, stats, abbrevs, injuries, now)
 
     for event in events:
         eid = event["id"]
@@ -1712,27 +1808,8 @@ def main():
             rec["lines"].setdefault(book, {}).update(players)
 
         if new_pairs:
-            sides = goalie_sides(event, {p for _, p in new_pairs}, state, now) if m else {}
-            abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
-            h2h = get_h2h(state, abbrevs.get(team_key(event["away_team"])),
-                          abbrevs.get(team_key(event["home_team"])), now)
-            show_h2h = not rec.get("h2h_sent")
-            for text, player, book in build_messages(
-                    event, new_pairs, rec["lines"], m, sides, abbrevs, h2h, known_before, show_h2h,
-                    (stats or {}).get("raw"), (state.get("game_log") or {}).get("games"),
-                    injuries, state, now):
-                mid = send_push("", text)
-                if mid:
-                    state["sent"][str(mid)] = {"event_id": eid, "goalie": player,
-                                               "book": BOOK_SHORT.get(book, book) if book else None,
-                                               "at": iso(now)}
-            if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
-                rec["h2h_sent"] = True
-            log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"),
-                      injuries)
+            alert_new_lines(event, rec, new_pairs, known_before, m, stats, state, injuries, now)
             alerts += 1
-            names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
-            print(f"ALERT {rec['matchup']}: {names}")
 
     # Reset the low-credit warning once credits recover (new month).
     if credits is not None and credits >= MIN_CREDITS:

@@ -67,6 +67,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - `resend <name>` (or `show <name>`, or swipe-reply `resend`) rebuilds and resends a goalie's full alert from saved state (latest lines/tags/H2H/L5/injuries, no odds credit); resent messages are mapped in `state['sent']` so `in` works on them. Built Oct 12 for busy days.
 - `note <name> <text>` (or swipe-reply `note ...`, or a note with no name = general thought) appends to `notes.csv` (noted_at, date, goalie, team, game, tag, line, expected_saves, note, event_id). Bot-maintained like picks.csv (workflow commits it). The daily review reads it; it's the owner's main channel for his reasoning (Oct 13).
 - Nicknames: `nicknames.csv` (goalie last name, nickname; one row per nickname; 61 loaded Oct 13 from his spreadsheet) is read by `find_by_name`; a nickname may map to several goalies (most recently alerted wins) and the typed word still matches real last names. Oct 13: Hildeby = Hildy, Murashov = Mursy (changed to avoid clashes with Hill = Hilly and Matt Murray), so `in`/`took`/`note`/`resend` accept them (e.g. Wally = Wallstedt). Owner fills a spreadsheet of all 73 goalies; Claude converts it into nicknames.csv. This file is Claude-edited (not bot-maintained).
+- `line <name> <number> [DK|FD]` (Oct 13, after FLA@CBJ had saves at DK but the Odds API had no `player_total_saves` market for that event): manual line → goalie found via nicknames + NHL rosters of upcoming games → inserted into `state['events'][id]['lines']` with `manual: True` (no odds) → same `alert_new_lines()` path as feed lines (alert, pick log, grading). Book defaults to DK; whole numbers → .5.
 - Stored in `picks.csv` columns `taken`, `taken_line`, `taken_result`, `taken_at`; graded against the line he took.
 - Logged so far: Oct 10 — Jarry u23.5 W, Fowler o22.5 W, Ellis o23.5 W, Ellis o25.5 W, Vejmelka u24.5 W, Binnington o24.5 L. Gibson u24.5 (Oct 9, W) still to be sent by him. Earlier bets (Oct 7: 2–2, Oct 8: 4–2–1, Talbot o24 Oct 9) predate logging.
 
@@ -81,6 +82,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - Longer term: injury stage 3 (math), recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.
 
 ## Known limits
+- The Odds API sometimes lacks the saves market for a game the books have posted (FLA@CBJ Oct 13: DK had shots/points props but no saves in the feed). Workaround: `line` command.
 - Late-posted goalies can still be missed if a book posts after the last check (Talbot Oct 9, Bussi Oct 10 never appeared in the feed).
 - Alerts depend on The Odds API carrying the market for that goalie.
 - A goalie not on the NHL roster feed (fresh call-up) gets no team/tag.
