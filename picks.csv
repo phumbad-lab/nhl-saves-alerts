@@ -135,3 +135,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Devils @ Wings,Jake Allen,NJD,DK,27.5,-110,-125,28.0,OVER,,,,96c1dc95ee1b687f058a96a7153cf36a,2026-10-13T22:10:00Z,New Jersey Devils,Detroit Red Wings,2026-10-13T15:34:12Z,,,,,,NJD:;DET:
 2026-10-13,Devils @ Wings,Jake Allen,NJD,FD,27.5,-102,-130,28.0,OVER,,,,96c1dc95ee1b687f058a96a7153cf36a,2026-10-13T22:10:00Z,New Jersey Devils,Detroit Red Wings,2026-10-13T15:34:12Z,,,,,,NJD:;DET:
 2026-10-13,Penguins @ Blackhawks,Spencer Knight,CHI,DK,24.5,-130,-105,25.0,FADE,,,,11760a5fc0040c4da450ea890d491b7b,2026-10-14T00:10:00Z,Pittsburgh Penguins,Chicago Blackhawks,2026-10-13T15:35:13Z,,,,,,PIT:;CHI:Bedard
+2026-10-13,Avalanche @ Stars,Mackenzie Blackwood,COL,DK,21.5,-105,-125,21.8,LEAN_UNDER,,,,033a7fbe94c870533285eca92f2907fb,2026-10-14T00:40:00Z,Colorado Avalanche,Dallas Stars,2026-10-13T15:48:12Z,,,,,,COL:;DAL:
