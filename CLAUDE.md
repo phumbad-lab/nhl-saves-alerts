@@ -42,6 +42,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - One message per goalie (so replies map to one goalie). Every full goalie alert has one H2H line for his own team: `H2H L4 on FLA: @39, @20, 23, 31 (avg 28.2)` = shots on FLA in the last 4 meetings, `@` = the shooting team was on the road (game at FLA). Owner asked for only the goalie's side (Oct 12). Key-player injury lines (if any) go last. `@` = that team was on the road. Day name only if the game isn't today.
 - Labels `H2H L4 on X:`, `X L5 For:`, `X L5 Against:`, `INJ:` are underlined (owner, Oct 12): wrap with `ul()`; `send_push` switches to Telegram HTML (escaped) when a message contains `ul()` markers.
 - Second book posting later: `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`.
+- If he already bet the goalie at the first book (picks.csv `taken`) and not this one, the added line gets `👉 You're in DK u23.5`, plus 🍀 when the new book's number is better for his side (owner Oct 13: he wanted a nudge, not a comparison sentence).
 - Season records, 🔥 record and NO EDGE split count each goalie once per game (first line alerted), not per book/line (owner, Oct 12).
 - Morning summary (after 7 AM ET): one line per goalie (different lines at DK/FD listed one after another: `Markstrom (FLA) vs. BUF u23.5 UNDER (DK) ✅ · u24.5 UNDER (FD) ✅: 9 saves`), `Season:` records per tag + 🔥 + `NO EDGE xx% over xx% under (n)`, then **Your bets** and **Your season** when he's logged bets.
 

@@ -1016,9 +1016,25 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx)
         who_ = (f"{last_name(player)} ({ab[side]})" if side
                 else f"{last_name(player)} ({ab['away']}@{ab['home']})")
-        msgs.append((f"{who_} {ln.get('point')}{tag} · {when} ({BOOK_SHORT.get(book, book)} added)",
-                     player, book))
+        text = f"{who_} {ln.get('point')}{tag} · {when} ({BOOK_SHORT.get(book, book)} added)"
+        reminder = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
+        if reminder:
+            text += "\n" + reminder
+        msgs.append((text, player, book))
     return msgs
+
+
+def in_other_book(event_id, player, book, point):
+    """The second book posted a goalie you already bet at the first one:
+    "👉 You're in DK u23.5", plus 🍀 when this book's number is better for your side."""
+    mine = [r for r in load_picks() if r["event_id"] == event_id and r["goalie"] == player and r.get("taken")]
+    if not mine or any(r["book"] == book for r in mine):
+        return None
+    r = mine[0]
+    side, taken = r["taken"], float(r["taken_line"])
+    better = point is not None and ((side == "OVER" and float(point) < taken) or
+                                    (side == "UNDER" and float(point) > taken))
+    return f"👉 You're in {r['book']} {side[0].lower()}{taken:g}" + (" 🍀" if better else "")
 
 
 # ---------- injuries: key players only ----------

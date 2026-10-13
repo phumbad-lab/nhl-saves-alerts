@@ -22,6 +22,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - Each goalie comes as its own message (so you can reply `in` to it). H2H shows only on the first goalie alerted for a game.
 - When the other book posts a goalie you've already been alerted on, you get one line:
   `Markstrom (FLA) 24.5 UNDER · 1:10PM (FD added)`
+  - If you've already bet that goalie at the first book, a reminder follows: `👉 You're in DK u23.5`, with 🍀 when the new book's number is better for your side.
 - Times are Eastern. A game on a later day shows the day too (`Sun 7:10PM`).
 
 Everything here is free.
