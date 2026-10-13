@@ -1392,10 +1392,28 @@ def apply_bet(rows, state, event_id, goalie, alert_book, bet, cmd, now):
     return True, f"{name} {side[0].lower()}{line:g} {row['book']}"
 
 
+NICKNAMES_FILE = os.path.join(HERE, "nicknames.csv")  # your nicknames: goalie,nickname (e.g. Wallstedt,Wally)
+
+
+def load_nicknames():
+    """{'wally': 'wallstedt', ...} from nicknames.csv (one row per nickname)."""
+    try:
+        with open(NICKNAMES_FILE, newline="") as f:
+            return {team_key(r["nickname"]): team_key(r["goalie"])
+                    for r in csv.DictReader(f) if r.get("nickname") and r.get("goalie")}
+    except FileNotFoundError:
+        return {}
+
+
 def find_by_name(rows, name, now):
-    """Most recent alerted goalie whose last name starts with `name`, from the last two days."""
+    """Most recent alerted goalie whose last name (or one of your nicknames for him) matches
+    `name`, from the last two days."""
     since = (now.astimezone(LOCAL_TZ) - timedelta(days=2)).strftime("%Y-%m-%d")
-    hits = [r for r in rows if r["date"] >= since and team_key(last_name(r["goalie"])).startswith(team_key(name))]
+    key = team_key(name)
+    if not key:
+        return None
+    key = load_nicknames().get(key, key)
+    hits = [r for r in rows if r["date"] >= since and team_key(last_name(r["goalie"])).startswith(key)]
     if not hits:
         return None
     best = max(hits, key=lambda r: (r["date"], r.get("logged_at", "")))

@@ -161,6 +161,8 @@ On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, 
 
 **Notes:** text `note Wallstedt faded, VGK low H2H, MIN tight at home` (or swipe-reply `note ...` on an alert) to record your reasoning. It's saved to `notes.csv` with that goalie's line, tag and expected saves at the time, and the daily review reads it to compare your reads with the model. A note without a goalie name is saved as a general thought. The bot answers `Noted ✍` (or reacts ✍ on a swipe-reply).
 
+**Nicknames:** anywhere you type a goalie's name (`in`, `I took`, `note`, `resend`) you can use your nickname for him instead, e.g. `I took Wally 26o`. Nicknames live in `nicknames.csv` (`goalie,nickname`, one row per nickname).
+
 **Typing instead of swiping:** start with `in`, `took` or `I took`, then list bets separated by commas: `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o`. Each bet is a last name plus the line and `o`/`u` in any order (`23u`, `u23`, `o24.5`), optionally `DK`/`FD`. It matches alerts from the last two days. The bot replies with what it logged (`Logged: Jarry u23.5 DK · Fowler o22.5 FD ...`) or what it couldn't match.
 
 - A whole number means the half-point line: `23` is logged as 23.5.
