@@ -156,3 +156,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Blues @ Senators,Joel Hofer,STL,FD,25.5,-125,-106,20.8,UNDER,,,,f29c6b46c06ecd7fedbc0eea607fcde6,2026-10-13T23:40:00Z,St Louis Blues,Ottawa Senators,2026-10-13T18:02:12Z,,,,,,STL:;OTT:Sanderson
 2026-10-13,Oilers @ Kings,Darcy Kuemper,LAK,DK,24.5,-130,-105,22.8,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T18:05:15Z,,,,,,EDM:Hyman(DTD);LAK:Fiala
 2026-10-13,Penguins @ Blackhawks,Sergei Murashov,PIT,FD,22.5,-122,-108,25.2,FADE,,,,11760a5fc0040c4da450ea890d491b7b,2026-10-14T00:10:00Z,Pittsburgh Penguins,Chicago Blackhawks,2026-10-13T18:11:11Z,,,,,,PIT:;CHI:
+2026-10-13,Bruins @ Sharks,Yaroslav Askarov,SJS,DK,24.5,-130,-105,23.2,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T18:19:11Z,,,,,,BOS:;SJS:
