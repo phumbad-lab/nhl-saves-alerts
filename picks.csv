@@ -159,3 +159,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Bruins @ Sharks,Yaroslav Askarov,SJS,DK,24.5,-130,-105,23.2,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T18:19:11Z,,,,,,BOS:;SJS:
 2026-10-13,Canucks @ Islanders,Leevi Merilainen,VAN,FD,27.5,-102,-130,24.3,FADE,,,,e06b043ca7e5c58f3a5786e5c7479520,2026-10-13T23:55:00Z,Vancouver Canucks,New York Islanders,2026-10-13T18:26:13Z,,,,,,VAN:Chytil;NYI:
 2026-10-13,Penguins @ Blackhawks,Spencer Knight,CHI,FD,25.5,+100,-132,25.0,FADE,,,,11760a5fc0040c4da450ea890d491b7b,2026-10-14T00:10:00Z,Pittsburgh Penguins,Chicago Blackhawks,2026-10-13T18:26:13Z,,,,,,PIT:;CHI:
+2026-10-13,Wild @ Jets,Stuart Skinner,WPG,FD,24.5,-132,+100,26.1,OVER,,,,ab01aeb40725b42695be877e6745effa,2026-10-14T00:25:00Z,Minnesota Wild,Winnipeg Jets,2026-10-13T18:39:11Z,,,,,,MIN:Faber;WPG:Morrissey
