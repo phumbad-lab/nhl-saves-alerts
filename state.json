@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19852,
+  "credits_remaining": 19849,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -19,7 +19,7 @@
     "11760a5fc0040c4da450ea890d491b7b": {
       "commence_time": "2026-10-14T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T15:35:13Z",
+      "last_paid_check": "2026-10-13T15:50:17Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
@@ -105,8 +105,17 @@
     },
     "587a79e5ddfb564cdee42db19af6422f": {
       "commence_time": "2026-10-14T00:55:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T15:50:17Z",
+      "lines": {
+        "draftkings": {
+          "Adin Hill": {
+            "over": -125,
+            "point": 22.5,
+            "under": -105
+          }
+        }
+      },
       "matchup": "Vegas Golden Knights @ Nashville Predators"
     },
     "96c1dc95ee1b687f058a96a7153cf36a": {
@@ -298,7 +307,7 @@
     "e06b043ca7e5c58f3a5786e5c7479520": {
       "commence_time": "2026-10-13T23:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T15:34:12Z",
+      "last_paid_check": "2026-10-13T15:50:17Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -2110,6 +2119,39 @@
         "OTT",
         37,
         30
+      ]
+    ]
+  },
+  "h2h_NSH-VGK": {
+    "fetched": "2026-10-13T15:50:17Z",
+    "value": [
+      [
+        "2026-03-21",
+        "VGK",
+        "NSH",
+        40,
+        20
+      ],
+      [
+        "2026-01-17",
+        "NSH",
+        "VGK",
+        29,
+        36
+      ],
+      [
+        "2025-12-31",
+        "NSH",
+        "VGK",
+        19,
+        31
+      ],
+      [
+        "2025-04-12",
+        "NSH",
+        "VGK",
+        17,
+        29
       ]
     ]
   },
@@ -4445,7 +4487,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-10-10T14:50:16Z",
+    "fetched": "2026-10-13T15:50:17Z",
     "value": [
       "Justus Annunen",
       "Matt Murray",
@@ -4540,7 +4582,7 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-10-12T16:19:10Z",
+    "fetched": "2026-10-13T15:50:17Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
@@ -4813,6 +4855,12 @@
       "book": null,
       "event_id": "033a7fbe94c870533285eca92f2907fb",
       "goalie": "Mackenzie Blackwood"
+    },
+    "191": {
+      "at": "2026-10-13T15:50:17Z",
+      "book": null,
+      "event_id": "587a79e5ddfb564cdee42db19af6422f",
+      "goalie": "Adin Hill"
     }
   },
   "shot_stats": {
