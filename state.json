@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19845,
+  "credits_remaining": 19843,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -223,11 +223,11 @@
     "ab01aeb40725b42695be877e6745effa": {
       "commence_time": "2026-10-14T00:25:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T15:46:12Z",
+      "last_paid_check": "2026-10-13T16:02:12Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
-            "over": -110,
+            "over": -105,
             "point": 25.5,
             "under": -125
           }
@@ -253,9 +253,14 @@
     "b9d4f3cf4a46b1fd55b2020f0a70783a": {
       "commence_time": "2026-10-13T23:25:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T15:46:12Z",
+      "last_paid_check": "2026-10-13T16:02:12Z",
       "lines": {
         "draftkings": {
+          "Andrei Vasilevskiy": {
+            "over": -125,
+            "point": 23.5,
+            "under": -110
+          },
           "Dylan Garand": {
             "over": -105,
             "point": 25.5,
@@ -4973,6 +4978,12 @@
       "book": null,
       "event_id": "f29c6b46c06ecd7fedbc0eea607fcde6",
       "goalie": "Joel Hofer"
+    },
+    "199": {
+      "at": "2026-10-13T16:02:12Z",
+      "book": null,
+      "event_id": "b9d4f3cf4a46b1fd55b2020f0a70783a",
+      "goalie": "Andrei Vasilevskiy"
     }
   },
   "shot_stats": {
