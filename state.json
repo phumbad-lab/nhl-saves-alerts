@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19797,
+  "credits_remaining": 19796,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -417,7 +417,7 @@
     "f29c6b46c06ecd7fedbc0eea607fcde6": {
       "commence_time": "2026-10-13T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T16:58:13Z",
+      "last_paid_check": "2026-10-13T17:14:13Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
@@ -2605,6 +2605,7 @@
     },
     "COL:8480069": {
       "alerted": false,
+      "missing_since": "2026-10-13T17:14:13Z",
       "out_at": "2026-10-13T17:13:11Z",
       "seen": "2026-10-13T17:13:11Z",
       "status": "OUT"
