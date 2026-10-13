@@ -170,3 +170,6 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Flames @ Ducks,Lukas Dostal,ANA,FD,22.5,-104,-128,21.6,UNDER,,,,e2c675c14d7afbf6164f9eb51e66e615,2026-10-14T01:55:00Z,Calgary Flames,Anaheim Ducks,2026-10-13T19:17:12Z,,,,,,CGY:;ANA:Gauthier
 2026-10-13,Oilers @ Kings,Darcy Kuemper,LAK,FD,25.5,-122,-108,22.8,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T19:40:15Z,,,,,,EDM:Hyman;LAK:Fiala
 2026-10-13,Oilers @ Kings,Devon Levi,EDM,FD,25.5,+100,-132,25.1,FADE,,,,1fa1e7fd3028995ab8ffb6b498e4899d,2026-10-14T02:40:00Z,Edmonton Oilers,Los Angeles Kings,2026-10-13T19:40:15Z,,,,,,EDM:Hyman;LAK:Fiala
+2026-10-13,Bruins @ Sharks,Jeremy Swayman,BOS,DK,24.5,-135,+100,24.4,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T19:52:11Z,,,,,,BOS:;SJS:
+2026-10-13,Bruins @ Sharks,Jeremy Swayman,BOS,FD,24.5,-128,-104,24.4,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T19:52:11Z,,,,,,BOS:;SJS:
+2026-10-13,Bruins @ Sharks,Yaroslav Askarov,SJS,FD,24.5,-125,-106,23.2,FADE,,,,3192c41b5eb5fad69e518d6eba5fcb91,2026-10-14T03:10:00Z,Boston Bruins,San Jose Sharks,2026-10-13T19:52:11Z,,,,,,BOS:;SJS:
