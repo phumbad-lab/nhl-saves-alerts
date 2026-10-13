@@ -65,6 +65,8 @@ LOCAL_TZ = ZoneInfo("America/New_York")
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(HERE, "state.json")
 PICKS_FILE = os.path.join(HERE, "picks.csv")
+NOTES_FILE = os.path.join(HERE, "notes.csv")  # your "note ..." messages, read by the daily review
+NOTE_FIELDS = ["noted_at", "date", "goalie", "team", "game", "tag", "line", "expected_saves", "note", "event_id"]
 PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "under_odds",
                "expected_saves", "tag", "actual_saves", "outcome", "result",
                "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire",
@@ -1268,11 +1270,11 @@ def tg_reply(msg, text):
                             "disable_notification": "true"})
 
 
-def tg_react(msg, emoji="👍"):
+def tg_react(msg, emoji="👍", fallback="Logged ✅"):
     ok = tg_call("setMessageReaction", {"chat_id": TELEGRAM_CHAT_ID, "message_id": msg["message_id"],
                                         "reaction": json.dumps([{"type": "emoji", "emoji": emoji}])})
     if ok is None:  # reactions unavailable: fall back to a short text
-        tg_reply(msg, "Logged ✅")
+        tg_reply(msg, fallback)
 
 
 def grade_taken(r):
@@ -1418,6 +1420,11 @@ def process_replies(state, now):
         if words and words[0].strip(".!") in ("resend", "show"):
             resends.append((msg, (msg.get("text") or "").split()[1:]))  # names as you typed them
             continue
+        if words and words[0].strip(".!:") in ("note", "notes"):
+            rows = rows if rows is not None else load_picks()
+            target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
+            save_note(msg, rows, target, now)
+            continue
         cmd, bets = parse_message(msg.get("text") or "")
         if not cmd:
             continue
@@ -1446,6 +1453,41 @@ def process_replies(state, now):
     if changed:
         save_picks(rows)
     return resends
+
+
+def save_note(msg, rows, target, now):
+    """'note Wallstedt faded, VGK low H2H, MIN tight at home' (or swipe-reply 'note ...' on an alert).
+    Saved to notes.csv with the goalie's line/tag/expected at the time, for the daily review."""
+    text = (msg.get("text") or "").split(None, 1)
+    body = text[1].strip() if len(text) > 1 else ""
+    if not body:
+        tg_reply(msg, "Add your note after the word note, like: note Wallstedt faded, VGK low H2H")
+        return
+    found = None
+    if target:
+        found = (target["event_id"], target["goalie"])
+    else:  # first word may be a goalie's last name from the last two days of alerts
+        first = body.split()[0].strip(",.:")
+        found = find_by_name(rows, first, now) if first else None
+        if found:
+            body = body[len(body.split()[0]):].strip(" ,.:-") or body
+    row = next((r for r in rows if found and (r["event_id"], r["goalie"]) == found), None)
+    note = {"noted_at": iso(now), "note": body,
+            "date": row["date"] if row else now.astimezone(LOCAL_TZ).strftime("%Y-%m-%d"),
+            "goalie": row["goalie"] if row else "", "team": row.get("team", "") if row else "",
+            "game": row["game"] if row else "", "tag": row["tag"] if row else "",
+            "line": row["line"] if row else "", "expected_saves": row["expected_saves"] if row else "",
+            "event_id": row["event_id"] if row else ""}
+    new_file = not os.path.exists(NOTES_FILE)
+    with open(NOTES_FILE, "a", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=NOTE_FIELDS)
+        if new_file:
+            w.writeheader()
+        w.writerow(note)
+    if target:
+        tg_react(msg, "✍", "Noted ✍")
+    else:
+        tg_reply(msg, f"Noted{' for ' + last_name(note['goalie']) if note['goalie'] else ''} ✍")
 
 
 def handle_resends(resends, state, stats, abbrevs, injuries, now):

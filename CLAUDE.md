@@ -14,7 +14,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 ## How it runs
 - `saves_alert.py` runs on GitHub Actions (`.github/workflows/saves-alert.yml`), triggered **every minute** by cron-job.org (POST to the workflow_dispatch API); the built-in GitHub schedule (every 15 min, all day) is a backup. The owner pauses the cron-job.org saves job overnight (midnight–6 AM ET as of Oct 12; it was 9 AM once, which skipped the 7 AM results until a manual run). The backup was widened to all day so results go out at 7 AM regardless. If runs stop, check the cron-job.org job first. Repo is public, so Actions minutes are free.
 - Secrets: `ODDS_API_KEY` (new key issued Oct 10 with the paid plan), `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. Variables currently set: `RECHECK_MINUTES=15`, `RECHECK_RESERVE=1000`.
-- The bot commits `state.json` and `picks.csv` after runs ("Update alert state"). **Those two files are the bot's. Never edit or commit them by hand**, and never ask the owner to upload them.
+- The bot commits `state.json` and `picks.csv` after runs ("Update alert state"). **Those files (and `notes.csv`) are the bot's. Never edit or commit them by hand**, and never ask the owner to upload them.
 - **Pushing changes (Claude):** commit (or stash) local edits BEFORE `git pull --rebase` — a pull with a dirty tree fails and, chained with `&&`, silently skips the rest. Edit only code/docs, `git pull --rebase origin main` right before committing and pushing (the bot pushes often), `git add` the specific files only, push to `main`. Test first with the scratch harnesses (copy the script + a copy of live `picks.csv`/`state.json` into a scratch dir; never run it inside the repo, and delete `__pycache__`).
 - **Repo stays public** (owner's call, Oct 11): free unlimited Actions minutes make every-minute runs possible; private would cap at 2,000 min/month. Code, picks.csv and his logged bets are publicly visible; secrets are not. Revisit if he ever shares or sells picks (move the runner somewhere private).
 - Odds API: market `player_total_saves`; one call covers both books; a response with lines costs 1 credit, an empty one is free, `/events` is free.
@@ -64,17 +64,18 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 ## Logging his bets (Telegram)
 - Swipe-reply `in` on an alert (options: `DK`/`FD`, `o`/`u`, a line, `out`), or type `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o` (also `in …` / `took …`). Whole numbers mean the .5 line. Line picks the book. Bot 👍s swipe replies, replies with "Logged: …" for typed ones.
 - `resend <name>` (or `show <name>`, or swipe-reply `resend`) rebuilds and resends a goalie's full alert from saved state (latest lines/tags/H2H/L5/injuries, no odds credit); resent messages are mapped in `state['sent']` so `in` works on them. Built Oct 12 for busy days.
+- `note <name> <text>` (or swipe-reply `note ...`, or a note with no name = general thought) appends to `notes.csv` (noted_at, date, goalie, team, game, tag, line, expected_saves, note, event_id). Bot-maintained like picks.csv (workflow commits it). The daily review reads it; it's the owner's main channel for his reasoning (Oct 13).
 - Stored in `picks.csv` columns `taken`, `taken_line`, `taken_result`, `taken_at`; graded against the line he took.
 - Logged so far: Oct 10 — Jarry u23.5 W, Fowler o22.5 W, Ellis o23.5 W, Ellis o25.5 W, Vejmelka u24.5 W, Binnington o24.5 L. Gibson u24.5 (Oct 9, W) still to be sent by him. Earlier bets (Oct 7: 2–2, Oct 8: 4–2–1, Talbot o24 Oct 9) predate logging.
 
 ## Daily review (scheduled, Oct 13)
 - A scheduled task runs every morning ~7:56 AM ET (fresh session): reads last night's graded picks, writes 1–2 lines per miss (and notable hits) on *why*, compares to the owner's own reads, and appends to `reviews.md` (patterns + owner's reads + daily entries). Purpose: collect evidence for tuning; it never changes model code.
-- Owner's own reasoning goes in `reviews.md` → "Owner's reads". When he explains a fade/bet in chat, add it there.
+- Owner's own reasoning: he texts `note ...` to the bot (→ `notes.csv`); the daily review folds those into `reviews.md` → "Owner's reads". If he explains a read in chat instead, add it to `reviews.md` directly.
 
 ## Pending / ideas (nothing built without his OK)
 - **Wed Oct 14, 10 AM ET: accuracy analysis** (scheduled in the original thread). Expected vs actual saves (bias, MAE), shots error vs save% luck, by tag/home-road/lean; retro-test (1) shrinking small samples toward league avg (K≈4) — the Ellis/Buffalo case, (2) goalie-specific save% (last season, this season, blend); line-vs-actual; did the final checks catch anything; credit burn rate. Present findings, build nothing until approved.
 - Observed early: NO EDGE lines went 37% over / 63% under (n=30, Oct 10). Watch it.
-- More bot commands offered: `record`, `today`, `credits`, `check <name>` (1 credit), `note <name> …` (`resend` built).
+- More bot commands offered: `record`, `today`, `credits`, `check <name>` (1 credit), `note <name> …` (`resend`, `note` built).
 - Longer term: injury stage 3 (math), recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.
 
 ## Known limits

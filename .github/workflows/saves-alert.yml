@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "saves-alert-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json picks.csv
+          git add state.json picks.csv notes.csv
           if ! git diff --cached --quiet; then
             git commit -m "Update alert state"
             git push
