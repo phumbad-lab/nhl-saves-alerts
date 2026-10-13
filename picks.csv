@@ -122,3 +122,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-12,Knights @ Wild,Jesper Wallstedt,MIN,FD,26.5,-108,-122,25.7,LEAN_OVER,21,UNDER,L,fcf3af0dc532d226597dc5a8a2d55f78,2026-10-13T00:10:00Z,Vegas Golden Knights,Minnesota Wild,2026-10-12T16:34:11Z,,,,,,VGK:;MIN:Faber
 2026-10-12,Knights @ Wild,Carter Hart,VGK,FD,23.5,-114,-114,25.5,FADE,24,OVER,-,fcf3af0dc532d226597dc5a8a2d55f78,2026-10-13T00:10:00Z,Vegas Golden Knights,Minnesota Wild,2026-10-12T21:48:13Z,,,,,,VGK:;MIN:Faber
 2026-10-12,Knights @ Wild,Carter Hart,VGK,DK,23.5,-130,-105,25.5,FADE,24,OVER,-,fcf3af0dc532d226597dc5a8a2d55f78,2026-10-13T00:10:00Z,Vegas Golden Knights,Minnesota Wild,2026-10-12T22:04:11Z,,,,,,VGK:;MIN:Faber
+2026-10-13,Canucks @ Islanders,Ilya Sorokin,NYI,FD,20.5,-118,-112,22.2,FADE,,,,e06b043ca7e5c58f3a5786e5c7479520,2026-10-13T23:55:00Z,Vancouver Canucks,New York Islanders,2026-10-13T14:32:13Z,,,,,,VAN:Chytil;NYI:
