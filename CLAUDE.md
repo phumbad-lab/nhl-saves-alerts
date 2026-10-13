@@ -67,6 +67,10 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - Stored in `picks.csv` columns `taken`, `taken_line`, `taken_result`, `taken_at`; graded against the line he took.
 - Logged so far: Oct 10 — Jarry u23.5 W, Fowler o22.5 W, Ellis o23.5 W, Ellis o25.5 W, Vejmelka u24.5 W, Binnington o24.5 L. Gibson u24.5 (Oct 9, W) still to be sent by him. Earlier bets (Oct 7: 2–2, Oct 8: 4–2–1, Talbot o24 Oct 9) predate logging.
 
+## Daily review (scheduled, Oct 13)
+- A scheduled task runs every morning ~7:56 AM ET (fresh session): reads last night's graded picks, writes 1–2 lines per miss (and notable hits) on *why*, compares to the owner's own reads, and appends to `reviews.md` (patterns + owner's reads + daily entries). Purpose: collect evidence for tuning; it never changes model code.
+- Owner's own reasoning goes in `reviews.md` → "Owner's reads". When he explains a fade/bet in chat, add it there.
+
 ## Pending / ideas (nothing built without his OK)
 - **Wed Oct 14, 10 AM ET: accuracy analysis** (scheduled in the original thread). Expected vs actual saves (bias, MAE), shots error vs save% luck, by tag/home-road/lean; retro-test (1) shrinking small samples toward league avg (K≈4) — the Ellis/Buffalo case, (2) goalie-specific save% (last season, this season, blend); line-vs-actual; did the final checks catch anything; credit burn rate. Present findings, build nothing until approved.
 - Observed early: NO EDGE lines went 37% over / 63% under (n=30, Oct 10). Watch it.
