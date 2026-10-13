@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19667,
+  "credits_remaining": 19666,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -342,7 +342,7 @@
     "ab01aeb40725b42695be877e6745effa": {
       "commence_time": "2026-10-14T00:25:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T21:45:15Z",
+      "last_paid_check": "2026-10-13T22:00:22Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
