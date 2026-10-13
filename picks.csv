@@ -152,3 +152,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Leafs @ Mammoth,Karel Vejmelka,UTA,DK,24.5,-110,-125,21.3,UNDER,,,,52b4edae40c883606966ff2b620547a5,2026-10-14T01:10:00Z,Toronto Maple Leafs,Utah Mammoth,2026-10-13T17:40:17Z,1,UNDER,24.5,,2026-10-13T17:42:12Z,TOR:;UTA:
 2026-10-13,Sabres @ Canadiens,Jacob Fowler,MTL,FD,22.5,+102,-136,24.2,FADE,,,,e0f35b340012c950aac314ee30660274,2026-10-13T22:40:00Z,Buffalo Sabres,Montréal Canadiens,2026-10-13T17:42:12Z,,,,,,BUF:Dahlin;MTL:Matheson
 2026-10-13,Kraken @ Flyers,Dan Vladar,PHI,FD,23.5,-122,-108,26.5,OVER,,,,b4c66ffd89692fea91c3b1699915cc25,2026-10-13T23:10:00Z,Seattle Kraken,Philadelphia Flyers,2026-10-13T17:47:11Z,,,,,,"SEA:;PHI:Konecny,York(DTD)"
+2026-10-13,Flames @ Ducks,Dustin Wolf,CGY,DK,27.5,-110,-125,24.5,FADE,,,,e2c675c14d7afbf6164f9eb51e66e615,2026-10-14T01:55:00Z,Calgary Flames,Anaheim Ducks,2026-10-13T18:00:22Z,,,,,,CGY:;ANA:Gauthier
