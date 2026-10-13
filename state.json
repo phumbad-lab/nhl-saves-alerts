@@ -2605,7 +2605,6 @@
     },
     "COL:8480069": {
       "alerted": false,
-      "missing_since": "2026-10-13T17:14:13Z",
       "out_at": "2026-10-13T17:13:11Z",
       "seen": "2026-10-13T17:13:11Z",
       "status": "OUT"
