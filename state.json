@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19878,
+  "credits_remaining": 19877,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -171,8 +171,17 @@
     },
     "ab01aeb40725b42695be877e6745effa": {
       "commence_time": "2026-10-14T00:25:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T14:44:10Z",
+      "lines": {
+        "draftkings": {
+          "Stuart Skinner": {
+            "over": -110,
+            "point": 25.5,
+            "under": -125
+          }
+        }
+      },
       "matchup": "Minnesota Wild @ Winnipeg Jets"
     },
     "b4c66ffd89692fea91c3b1699915cc25": {
@@ -999,7 +1008,7 @@
     ]
   },
   "gl_8482122": {
-    "fetched": "2026-10-12T16:19:10Z",
+    "fetched": "2026-10-13T14:44:10Z",
     "value": []
   },
   "h2h_ANA-CGY": {
@@ -1791,6 +1800,39 @@
         "MIN",
         24,
         31
+      ]
+    ]
+  },
+  "h2h_MIN-WPG": {
+    "fetched": "2026-10-13T14:44:10Z",
+    "value": [
+      [
+        "2026-01-15",
+        "WPG",
+        "MIN",
+        29,
+        34
+      ],
+      [
+        "2025-12-27",
+        "MIN",
+        "WPG",
+        19,
+        26
+      ],
+      [
+        "2025-11-23",
+        "MIN",
+        "WPG",
+        30,
+        32
+      ],
+      [
+        "2025-10-28",
+        "WPG",
+        "MIN",
+        21,
+        35
       ]
     ]
   },
@@ -4201,7 +4243,7 @@
     ]
   },
   "roster_MIN": {
-    "fetched": "2026-10-12T16:19:10Z",
+    "fetched": "2026-10-13T14:44:10Z",
     "value": [
       "Filip Gustavsson",
       "Calvin Pickard",
@@ -4327,7 +4369,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-10-09T19:25:14Z",
+    "fetched": "2026-10-13T14:44:10Z",
     "value": [
       "Connor Hellebuyck",
       "Stuart Skinner",
@@ -4539,6 +4581,12 @@
       "book": null,
       "event_id": "b9d4f3cf4a46b1fd55b2020f0a70783a",
       "goalie": "Dylan Garand"
+    },
+    "171": {
+      "at": "2026-10-13T14:44:10Z",
+      "book": null,
+      "event_id": "ab01aeb40725b42695be877e6745effa",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
