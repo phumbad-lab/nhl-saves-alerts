@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19778,
+  "credits_remaining": 19777,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -411,7 +411,7 @@
     "e2c675c14d7afbf6164f9eb51e66e615": {
       "commence_time": "2026-10-14T01:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T17:29:10Z",
+      "last_paid_check": "2026-10-13T17:44:13Z",
       "lines": {
         "draftkings": {
           "Lukas Dostal": {
