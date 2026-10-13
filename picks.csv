@@ -141,3 +141,5 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Blues @ Senators,Joel Hofer,STL,DK,25.5,-130,-105,20.8,UNDER,,,,f29c6b46c06ecd7fedbc0eea607fcde6,2026-10-13T23:40:00Z,St Louis Blues,Ottawa Senators,2026-10-13T15:54:13Z,,UNDER,26.5,,2026-10-13T16:00:24Z,STL:;OTT:Sanderson
 2026-10-13,Lightning @ Rangers,Andrei Vasilevskiy,TBL,DK,23.5,-125,-110,22.1,FADE,,,,b9d4f3cf4a46b1fd55b2020f0a70783a,2026-10-13T23:25:00Z,Tampa Bay Lightning,New York Rangers,2026-10-13T16:02:12Z,,,,,,TBL:;NYR:
 2026-10-13,Avalanche @ Stars,Jake Oettinger,DAL,DK,24.5,-120,-115,23.3,FADE,,,,033a7fbe94c870533285eca92f2907fb,2026-10-14T00:40:00Z,Colorado Avalanche,Dallas Stars,2026-10-13T16:04:11Z,,,,,,COL:;DAL:
+2026-10-13,Canucks @ Islanders,Leevi Merilainen,VAN,DK,27.5,-120,-115,24.3,FADE,,,,e06b043ca7e5c58f3a5786e5c7479520,2026-10-13T23:55:00Z,Vancouver Canucks,New York Islanders,2026-10-13T16:06:12Z,,,,,,VAN:Chytil;NYI:
+2026-10-13,Knights @ Predators,Juuse Saros,NSH,DK,28.5,-115,-120,25.9,FADE,,,,587a79e5ddfb564cdee42db19af6422f,2026-10-14T00:55:00Z,Vegas Golden Knights,Nashville Predators,2026-10-13T16:06:12Z,,,,,,VGK:;NSH:
