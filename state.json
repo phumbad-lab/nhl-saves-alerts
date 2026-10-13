@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19849,
+  "credits_remaining": 19847,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -78,7 +78,7 @@
     "5290af76525679fdfa4eebaacc9b283f": {
       "commence_time": "2026-10-13T22:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T15:37:12Z",
+      "last_paid_check": "2026-10-13T15:52:14Z",
       "lines": {
         "draftkings": {
           "Pyotr Kochetkov": {
@@ -328,8 +328,17 @@
     },
     "e0f35b340012c950aac314ee30660274": {
       "commence_time": "2026-10-13T22:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T15:52:14Z",
+      "lines": {
+        "draftkings": {
+          "Jacob Fowler": {
+            "over": -125,
+            "point": 22.5,
+            "under": -110
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ Montr\u00e9al Canadiens"
     },
     "e2c675c14d7afbf6164f9eb51e66e615": {
@@ -1064,6 +1073,16 @@
       "2026-10-06"
     ]
   },
+  "gl_8476875": {
+    "fetched": "2026-10-13T15:52:14Z",
+    "value": [
+      "2026-09-29",
+      "2026-10-03",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-10"
+    ]
+  },
   "gl_8478439": {
     "fetched": "2026-10-13T15:10:17Z",
     "value": [
@@ -1084,6 +1103,17 @@
   "gl_8480078": {
     "fetched": "2026-10-13T14:32:13Z",
     "value": []
+  },
+  "gl_8480839": {
+    "fetched": "2026-10-13T15:52:14Z",
+    "value": [
+      "2026-10-01",
+      "2026-10-03",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-12"
+    ]
   },
   "gl_8482105": {
     "fetched": "2026-10-12T22:10:17Z",
@@ -1293,6 +1323,39 @@
         "FLA",
         "BUF",
         32,
+        31
+      ]
+    ]
+  },
+  "h2h_BUF-MTL": {
+    "fetched": "2026-10-13T15:52:14Z",
+    "value": [
+      [
+        "2026-05-18",
+        "MTL",
+        "BUF",
+        25,
+        39
+      ],
+      [
+        "2026-05-16",
+        "BUF",
+        "MTL",
+        36,
+        22
+      ],
+      [
+        "2026-05-14",
+        "MTL",
+        "BUF",
+        26,
+        36
+      ],
+      [
+        "2026-05-12",
+        "BUF",
+        "MTL",
+        22,
         31
       ]
     ]
@@ -4379,7 +4442,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-10-12T14:47:39Z",
+    "fetched": "2026-10-13T15:52:14Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -4466,7 +4529,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-10-10T15:25:13Z",
+    "fetched": "2026-10-13T15:52:14Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -4856,6 +4919,12 @@
       "book": null,
       "event_id": "587a79e5ddfb564cdee42db19af6422f",
       "goalie": "Adin Hill"
+    },
+    "194": {
+      "at": "2026-10-13T15:52:14Z",
+      "book": null,
+      "event_id": "e0f35b340012c950aac314ee30660274",
+      "goalie": "Jacob Fowler"
     }
   },
   "shot_stats": {
@@ -5515,5 +5584,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088034
+  "tg_offset": 69088035
 }
