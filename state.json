@@ -2645,11 +2645,10 @@
   },
   "injuries": {
     "ANA:8483445": {
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-13T17:30:21Z",
+      "alerted": false,
+      "out_at": "2026-10-13T17:36:13Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "BUF:8480839": {
       "out_at": "2026-10-12T18:44:11Z",
