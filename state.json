@@ -2604,7 +2604,7 @@
       "status": "OUT"
     },
     "COL:8480069": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-13T17:13:11Z",
       "seen": "2026-10-13T17:13:11Z",
       "status": "OUT"
