@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19788,
+  "credits_remaining": 19787,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -387,8 +387,17 @@
     },
     "e2c675c14d7afbf6164f9eb51e66e615": {
       "commence_time": "2026-10-14T01:55:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T17:29:10Z",
+      "lines": {
+        "draftkings": {
+          "Lukas Dostal": {
+            "over": -120,
+            "point": 21.5,
+            "under": -110
+          }
+        }
+      },
       "matchup": "Calgary Flames @ Anaheim Ducks"
     },
     "e85cb8fcbbddd2332b24db4bfe564345": {
@@ -1183,8 +1192,15 @@
     "value": []
   },
   "h2h_ANA-CGY": {
-    "fetched": "2026-10-10T16:35:15Z",
+    "fetched": "2026-10-13T17:29:10Z",
     "value": [
+      [
+        "2026-10-10",
+        "ANA",
+        "CGY",
+        28,
+        29
+      ],
       [
         "2026-04-04",
         "CGY",
@@ -1205,13 +1221,6 @@
         "ANA",
         34,
         36
-      ],
-      [
-        "2026-01-25",
-        "ANA",
-        "CGY",
-        21,
-        35
       ]
     ]
   },
@@ -4554,7 +4563,7 @@
   },
   "low_credit_warned": false,
   "roster_ANA": {
-    "fetched": "2026-10-10T16:35:15Z",
+    "fetched": "2026-10-13T17:29:10Z",
     "value": [
       "Lukas Dostal",
       "Ville Husso"
@@ -4590,7 +4599,7 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-10-10T16:35:15Z",
+    "fetched": "2026-10-13T17:29:10Z",
     "value": [
       "Devin Cooley",
       "Dustin Wolf"
@@ -5105,6 +5114,12 @@
       "book": null,
       "event_id": "52b4edae40c883606966ff2b620547a5",
       "goalie": "Anthony Stolarz"
+    },
+    "217": {
+      "at": "2026-10-13T17:29:10Z",
+      "book": null,
+      "event_id": "e2c675c14d7afbf6164f9eb51e66e615",
+      "goalie": "Lukas Dostal"
     }
   },
   "shot_stats": {
