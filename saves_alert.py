@@ -848,9 +848,9 @@ def results_message(graded, abbrevs=None):
             + ("didn't play (void)" if r["taken_result"] == "VOID" else
                f"{r['actual_saves']} saves" + {"W": " ✅", "L": " ❌", "P": " push"}.get(r["taken_result"], ""))
             for r in sorted(mine, key=lambda r: (r["date"], r["game"], r["goalie"])))
-    w, l, p = my_record(all_rows)
+    w, l, p, bets = my_record(all_rows)
     if w or l or p:
-        out += "\nYour season: " + fmt_record(w, l, p)
+        out += "\nYour season: " + fmt_record(w, l, p) + (f" ({bets} bets)" if bets != w + l + p else "")
     return out
 
 
@@ -1328,10 +1328,16 @@ def grade_taken(r):
 
 
 def my_record(rows):
-    w = sum(r.get("taken_result") == "W" for r in rows)
-    l = sum(r.get("taken_result") == "L" for r in rows)
-    p = sum(r.get("taken_result") == "P" for r in rows)
-    return w, l, p
+    """Your record, counting each goalie once per game (the first bet you logged on him),
+    so it measures how often your reads are right. Returns (w, l, p, bets) where bets is
+    the number of graded bets behind it, including second-book bets on the same goalie."""
+    graded = sorted((r for r in rows if r.get("taken_result") in ("W", "L", "P")),
+                    key=lambda r: r.get("taken_at", ""))
+    first = {}
+    for r in graded:
+        first.setdefault((r["event_id"], r["goalie"]), r)
+    res = [r["taken_result"] for r in first.values()]
+    return res.count("W"), res.count("L"), res.count("P"), len(graded)
 
 
 

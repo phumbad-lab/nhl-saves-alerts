@@ -175,7 +175,7 @@ On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, 
 - With a line given, it picks the book that had that line. Two bets on one goalie at different books (Ellis o23.5 FD and o25.5 DK) are both kept.
 - `out Ellis` removes all bets on that goalie.
 
-Bets go in the `taken`, `taken_line` and `taken_result` columns of `picks.csv`, are graded the next morning against the line you took, and the results message adds a **Your bets** section and **Your season** record. Only alerts sent after this feature was added can be replied to; for older ones, type the name.
+Bets go in the `taken`, `taken_line` and `taken_result` columns of `picks.csv`, are graded the next morning against the line you took, and the results message adds a **Your bets** section (every bet) and a **Your season** record that counts each goalie once per game (your first bet on him), with the total bet count alongside when it differs, e.g. `Your season: 7-2 (10 bets)`. Only alerts sent after this feature was added can be replied to; for older ones, type the name.
 
 ## Pick log and results
 Every line that gets alerted is saved to **`picks.csv`** in the repo (click it on GitHub to see it as a table): date, game, goalie, team, book, line, odds, expected saves and tag.
