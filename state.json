@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19879,
+  "credits_remaining": 19878,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -183,8 +183,17 @@
     },
     "b9d4f3cf4a46b1fd55b2020f0a70783a": {
       "commence_time": "2026-10-13T23:25:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-13T14:42:12Z",
+      "lines": {
+        "draftkings": {
+          "Dylan Garand": {
+            "over": -115,
+            "point": 25.5,
+            "under": -115
+          }
+        }
+      },
       "matchup": "Tampa Bay Lightning @ New York Rangers"
     },
     "bddca6412454c40a2860b4e2e3e85968": {
@@ -1980,6 +1989,39 @@
         "VAN",
         32,
         26
+      ]
+    ]
+  },
+  "h2h_NYR-TBL": {
+    "fetched": "2026-10-13T14:42:12Z",
+    "value": [
+      [
+        "2026-10-01",
+        "TBL",
+        "NYR",
+        24,
+        25
+      ],
+      [
+        "2026-04-15",
+        "NYR",
+        "TBL",
+        21,
+        31
+      ],
+      [
+        "2025-11-29",
+        "TBL",
+        "NYR",
+        35,
+        13
+      ],
+      [
+        "2025-11-12",
+        "NYR",
+        "TBL",
+        21,
+        36
       ]
     ]
   },
@@ -4198,7 +4240,7 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-10-11T15:06:11Z",
+    "fetched": "2026-10-13T14:42:12Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
@@ -4248,9 +4290,10 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-10-10T14:40:15Z",
+    "fetched": "2026-10-13T14:42:12Z",
     "value": [
       "Dennis Hildeby",
+      "Mads Sogaard",
       "Andrei Vasilevskiy"
     ]
   },
@@ -4490,6 +4533,12 @@
       "book": null,
       "event_id": "5290af76525679fdfa4eebaacc9b283f",
       "goalie": "Pyotr Kochetkov"
+    },
+    "170": {
+      "at": "2026-10-13T14:42:12Z",
+      "book": null,
+      "event_id": "b9d4f3cf4a46b1fd55b2020f0a70783a",
+      "goalie": "Dylan Garand"
     }
   },
   "shot_stats": {
