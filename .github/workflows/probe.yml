@@ -1,0 +1,27 @@
+name: Probe goalie list (temporary)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Probe
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          def get(u):
+              req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return json.loads(r.read().decode())
+          st = get("https://api-web.nhle.com/v1/standings/now")["standings"]
+          teams = sorted((t["teamAbbrev"]["default"], t["teamName"]["default"]) for t in st)
+          out = []
+          for ab, name in teams:
+              try:
+                  gs = get(f"https://api-web.nhle.com/v1/roster/{ab}/current").get("goalies", [])
+              except Exception as e:
+                  gs = []
+              for g in gs:
+                  out.append(f"{ab}|{name}|{g['firstName']['default']}|{g['lastName']['default']}")
+          print("::notice::GOALIES " + ";".join(out).replace("%", "%25"))
+          PY
