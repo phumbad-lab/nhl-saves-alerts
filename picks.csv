@@ -162,3 +162,6 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-13,Wild @ Jets,Stuart Skinner,WPG,FD,24.5,-132,+100,26.1,OVER,,,,ab01aeb40725b42695be877e6745effa,2026-10-14T00:25:00Z,Minnesota Wild,Winnipeg Jets,2026-10-13T18:39:11Z,,,,,,MIN:Faber;WPG:Morrissey
 2026-10-13,Avalanche @ Stars,Jake Oettinger,DAL,FD,24.5,-122,-108,23.3,FADE,,,,033a7fbe94c870533285eca92f2907fb,2026-10-14T00:40:00Z,Colorado Avalanche,Dallas Stars,2026-10-13T18:54:11Z,,,,,,COL:Makar;DAL:
 2026-10-13,Avalanche @ Stars,Mackenzie Blackwood,COL,FD,21.5,-112,-118,21.8,LEAN_UNDER,,,,033a7fbe94c870533285eca92f2907fb,2026-10-14T00:40:00Z,Colorado Avalanche,Dallas Stars,2026-10-13T18:54:11Z,,,,,,COL:Makar;DAL:
+2026-10-13,Knights @ Predators,Adin Hill,VGK,FD,23.5,-128,-104,21.3,UNDER,,,,587a79e5ddfb564cdee42db19af6422f,2026-10-14T00:55:00Z,Vegas Golden Knights,Nashville Predators,2026-10-13T18:58:10Z,1,,,,,VGK:;NSH:
+2026-10-13,Knights @ Predators,Juuse Saros,NSH,FD,26.5,-132,+100,25.9,LEAN_OVER,,,,587a79e5ddfb564cdee42db19af6422f,2026-10-14T00:55:00Z,Vegas Golden Knights,Nashville Predators,2026-10-13T18:58:10Z,,,,,,VGK:;NSH:
+2026-10-13,Leafs @ Mammoth,Karel Vejmelka,UTA,FD,23.5,-130,-102,21.3,UNDER,,,,52b4edae40c883606966ff2b620547a5,2026-10-14T01:10:00Z,Toronto Maple Leafs,Utah Mammoth,2026-10-13T18:58:10Z,1,,,,,TOR:;UTA:
