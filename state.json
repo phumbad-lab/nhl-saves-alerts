@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19810,
+  "credits_remaining": 19807,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -24,13 +24,13 @@
     "11760a5fc0040c4da450ea890d491b7b": {
       "commence_time": "2026-10-14T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T16:38:11Z",
+      "last_paid_check": "2026-10-13T16:53:37Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
-            "over": -130,
-            "point": 24.5,
-            "under": -105
+            "over": -105,
+            "point": 25.5,
+            "under": -130
           }
         }
       },
@@ -116,7 +116,7 @@
     "587a79e5ddfb564cdee42db19af6422f": {
       "commence_time": "2026-10-14T00:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T16:38:11Z",
+      "last_paid_check": "2026-10-13T16:53:37Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -332,18 +332,18 @@
     "e06b043ca7e5c58f3a5786e5c7479520": {
       "commence_time": "2026-10-13T23:55:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-13T16:38:11Z",
+      "last_paid_check": "2026-10-13T16:53:37Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
             "over": -110,
             "point": 20.5,
-            "under": -120
+            "under": -125
           },
           "Leevi Merilainen": {
-            "over": -120,
+            "over": -110,
             "point": 27.5,
-            "under": -115
+            "under": -120
           }
         },
         "fanduel": {
@@ -2644,11 +2644,10 @@
       "status": "OUT"
     },
     "WPG:8477504": {
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-13T16:47:12Z",
+      "alerted": false,
+      "out_at": "2026-10-13T16:53:37Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "WSH:8478911": {
       "out_at": "2026-10-12T14:34:11Z",
