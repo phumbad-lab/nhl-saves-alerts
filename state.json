@@ -135,11 +135,23 @@
       },
       "matchup": "Edmonton Oilers @ Los Angeles Kings"
     },
+    "26e6afd471708bd7858f66f49d1f49f6": {
+      "commence_time": "2026-10-16T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "San Jose Sharks @ Nashville Predators"
+    },
     "30482712c8704ae61ad9ea6b033efccf": {
       "commence_time": "2026-10-15T23:10:00Z",
       "last_paid_check": null,
       "lines": {},
       "matchup": "Buffalo Sabres @ Toronto Maple Leafs"
+    },
+    "30fa3646c2d75c2eb8c2746d50f7c14e": {
+      "commence_time": "2026-10-16T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "St Louis Blues @ Minnesota Wild"
     },
     "3192c41b5eb5fad69e518d6eba5fcb91": {
       "commence_time": "2026-10-14T03:15:00Z",
@@ -351,6 +363,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Florida Panthers @ Columbus Blue Jackets"
+    },
+    "9f4363f363411cc75eafb6124bef94a7": {
+      "commence_time": "2026-10-16T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Winnipeg Jets @ Chicago Blackhawks"
     },
     "ab01aeb40725b42695be877e6745effa": {
       "commence_time": "2026-10-14T00:25:00Z",
