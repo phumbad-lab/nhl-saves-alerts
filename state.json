@@ -2853,6 +2853,12 @@
       "seen": "2026-10-13T17:13:11Z",
       "status": "OUT"
     },
+    "DAL:8482740": {
+      "alerted": false,
+      "out_at": "2026-10-14T00:15:15Z",
+      "seen": "2026-10-14T00:15:15Z",
+      "status": "OUT"
+    },
     "EDM:8475786": {
       "alerted": true,
       "out_at": "2026-10-13T18:26:13Z",
