@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19643,
+  "credits_remaining": 19642,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -67,8 +67,17 @@
     },
     "11b474310b2b60cbae546d9c517444c6": {
       "commence_time": "2026-10-14T23:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-14T16:39:11Z",
+      "lines": {
+        "fanduel": {
+          "Jakub Dobes": {
+            "over": -114,
+            "point": 25.5,
+            "under": -114
+          }
+        }
+      },
       "matchup": "Montr\u00e9al Canadiens @ Washington Capitals"
     },
     "1fa1e7fd3028995ab8ffb6b498e4899d": {
@@ -1375,7 +1384,7 @@
     ]
   },
   "gl_8478911": {
-    "fetched": "2026-10-13T14:34:13Z",
+    "fetched": "2026-10-14T16:39:11Z",
     "value": [
       "2026-10-02",
       "2026-10-03"
@@ -2450,6 +2459,39 @@
         "MTL",
         29,
         30
+      ]
+    ]
+  },
+  "h2h_MTL-WSH": {
+    "fetched": "2026-10-14T16:39:11Z",
+    "value": [
+      [
+        "2026-02-28",
+        "WSH",
+        "MTL",
+        29,
+        25
+      ],
+      [
+        "2026-01-13",
+        "MTL",
+        "WSH",
+        25,
+        42
+      ],
+      [
+        "2025-11-20",
+        "WSH",
+        "MTL",
+        36,
+        28
+      ],
+      [
+        "2025-04-30",
+        "MTL",
+        "WSH",
+        29,
+        28
       ]
     ]
   },
@@ -4971,7 +5013,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-10-13T15:52:14Z",
+    "fetched": "2026-10-14T16:39:11Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -5097,7 +5139,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-10-13T14:34:13Z",
+    "fetched": "2026-10-14T16:39:11Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -5571,6 +5613,12 @@
       "book": null,
       "event_id": "b4c66ffd89692fea91c3b1699915cc25",
       "goalie": "Philipp Grubauer"
+    },
+    "259": {
+      "at": "2026-10-14T16:39:11Z",
+      "book": null,
+      "event_id": "11b474310b2b60cbae546d9c517444c6",
+      "goalie": "Jakub Dobes"
     }
   },
   "shot_stats": {
