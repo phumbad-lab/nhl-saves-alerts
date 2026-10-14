@@ -97,6 +97,12 @@
       },
       "matchup": "Montr\u00e9al Canadiens @ Washington Capitals"
     },
+    "12e8c7a75c196426888d2e9b0fcd946f": {
+      "commence_time": "2026-10-15T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "New York Rangers @ New Jersey Devils"
+    },
     "1fa1e7fd3028995ab8ffb6b498e4899d": {
       "commence_time": "2026-10-14T02:40:00Z",
       "h2h_sent": true,
@@ -129,6 +135,12 @@
       },
       "matchup": "Edmonton Oilers @ Los Angeles Kings"
     },
+    "30482712c8704ae61ad9ea6b033efccf": {
+      "commence_time": "2026-10-15T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Buffalo Sabres @ Toronto Maple Leafs"
+    },
     "3192c41b5eb5fad69e518d6eba5fcb91": {
       "commence_time": "2026-10-14T03:15:00Z",
       "h2h_sent": true,
@@ -160,6 +172,12 @@
         }
       },
       "matchup": "Boston Bruins @ San Jose Sharks"
+    },
+    "3fa8e135779ec383bce2be440d4ae030": {
+      "commence_time": "2026-10-15T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "New York Islanders @ Ottawa Senators"
     },
     "5290af76525679fdfa4eebaacc9b283f": {
       "commence_time": "2026-10-13T22:55:00Z",
@@ -256,6 +274,18 @@
         }
       },
       "matchup": "Vegas Golden Knights @ Nashville Predators"
+    },
+    "6bc27423a73c4cf1b34cd3c5dc19c8bc": {
+      "commence_time": "2026-10-15T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Seattle Kraken @ Tampa Bay Lightning"
+    },
+    "6c6bbf8c46c5896d1498ab1cdc5b8be9": {
+      "commence_time": "2026-10-15T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Vancouver Canucks @ Florida Panthers"
     },
     "9604eeafec33b8980e6565c617f04fc6": {
       "commence_time": "2026-10-15T00:40:00Z",
