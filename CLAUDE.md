@@ -80,7 +80,13 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - Owner's own reasoning: he texts `note ...` to the bot (→ `notes.csv`); the daily review folds those into `reviews.md` → "Owner's reads". If he explains a read in chat instead, add it to `reviews.md` directly.
 
 ## Pending / ideas (nothing built without his OK)
-- **Wed Oct 14, 10 AM ET: accuracy analysis** (scheduled in the original thread). Expected vs actual saves (bias, MAE), shots error vs save% luck, by tag/home-road/lean; retro-test (1) shrinking small samples toward league avg (K≈4) — the Ellis/Buffalo case, (2) goalie-specific save% (last season, this season, blend); line-vs-actual; did the final checks catch anything; credit burn rate. Present findings, build nothing until approved.
+- **Accuracy analysis done Oct 14** (93 graded goalie-games, Oct 7–13; goalie stats via temp probe). Findings:
+  - Full games: expected saves unbiased (+0.0), MAE 5.1; book lines MAE 5.0 (same accuracy). Pulled goalies 9/93 (~10%) push actual saves down (+1.3 bias overall).
+  - Error is almost all shot volume (MAE 4.3 saves) vs save% (1.2). Goalie-specific save% (last season / this season / blends) moved expected by ~0.1–0.3 saves and didn't help → **not recommended** (revisit ~Dec).
+  - Shrinkage K=2–4 improves shots MAE slightly (4.97→4.83) but squeezes leans under the 2-shot threshold (few tags). K=2 + threshold 1 retro 24-15 vs live 26-21: promising but small sample → candidate for **shadow tracking**, not live.
+  - Home goalies faced ~1.7 fewer shots than expected, road ~1.4 more; flat ±1 shot adj retro 30-19 (61%) vs 27-21 → shadow-track candidate (fit on same data).
+  - Unders 17-10 vs overs 9-11, but 5 under wins were pulled goalies (full games: unders 12-10, overs 9-10). Gap ≥3 saves 13-6; <1 save 2-5. 🔥 5-2. NO EDGE lines 16 over / 30 under.
+  - Owner has NOT approved any change; next step offered: shadow columns in picks.csv for (a) K=2 + threshold 1.5, (b) home/road ±1, review after ~2 weeks.
 - Observed early: NO EDGE lines went 37% over / 63% under (n=30, Oct 10). Watch it.
 - More bot commands offered: `record`, `credits`, `check <name>` (1 credit), `note <name> …` (`resend`, `note`, `summarize` built).
 - Longer term: injury stage 3 (math), recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.
