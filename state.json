@@ -2952,6 +2952,8 @@
     "ANA:8483445": {
       "alerted": true,
       "out_at": "2026-10-13T17:36:13Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-14T13:21:12Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
     },
