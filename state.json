@@ -3073,11 +3073,10 @@
       "status": "OUT"
     },
     "MTL:8476875": {
-      "out_at": "2026-10-13T14:15:18Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-14T16:51:13Z",
+      "alerted": false,
+      "out_at": "2026-10-14T16:57:11Z",
       "seen": "2026-10-13T14:15:18Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "OTT:8482105": {
       "out_at": "2026-10-12T15:53:10Z",
