@@ -27,6 +27,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 - **Lean**: goalie's expected shots ≥ `SHOT_THRESHOLD` (2) above/below league average. Direction first: + lean → overs only, − lean → unders only, middling → NO EDGE.
 - **Tags**: line at/below expected → OVER (mirror UNDER); within `TARGET_SAVES` (1) save on the wrong side → LEAN OVER/UNDER; else NO EDGE. Internally NO EDGE is stored as tag `FADE`.
 - **🔥**: OVER/UNDER only, expected ≥ `FIRE_GAP` (2.0) saves past the line, H2H avg agrees vs league avg, and raw rank top/bottom `FIRE_RANK` (10) agrees (opp shots-for or own shots-against).
+- **Shadow models (logging only, started Oct 14, owner OK'd):** picks.csv columns `shadow_a_exp/tag` = shrink team numbers toward league avg (`SHADOW_A_K` = 2 phantom games, in team averages and opponent baselines) + lean bar `SHADOW_A_THRESHOLD` = 1.5 shots; `shadow_b_exp/tag` = live model with home goalie −`SHADOW_B_HOME` (1) shot, road +1. Never shown in alerts or records. `shadow_numbers()`; shadow A teams cached as `shot_stats['teams_shadow_a']` (STATS_VERSION 5). Review ~Oct 28 (scheduled), then owner decides.
 - Context shown but not in the math: H2H last 4 (`H2H_GAMES`, up to 3 seasons), last 5 games for/against (`RECENT_GAMES`, comma-separated), raw ranks.
 
 ## Alert format (owner-approved — don't change without asking)
@@ -86,7 +87,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
   - Shrinkage K=2–4 improves shots MAE slightly (4.97→4.83) but squeezes leans under the 2-shot threshold (few tags). K=2 + threshold 1 retro 24-15 vs live 26-21: promising but small sample → candidate for **shadow tracking**, not live.
   - Home goalies faced ~1.7 fewer shots than expected, road ~1.4 more; flat ±1 shot adj retro 30-19 (61%) vs 27-21 → shadow-track candidate (fit on same data).
   - Unders 17-10 vs overs 9-11, but 5 under wins were pulled goalies (full games: unders 12-10, overs 9-10). Gap ≥3 saves 13-6; <1 save 2-5. 🔥 5-2. NO EDGE lines 16 over / 30 under.
-  - Owner has NOT approved any change; next step offered: shadow columns in picks.csv for (a) K=2 + threshold 1.5, (b) home/road ±1, review after ~2 weeks.
+  - Owner approved **shadow tracking only** (Oct 14): columns added, live model unchanged. Review scheduled Wed Oct 28 10 AM ET (compare live vs A vs B on games logged from Oct 14 on, records counted once per goalie-game, plus retro for Oct 7–13).
 - Observed early: NO EDGE lines went 37% over / 63% under (n=30, Oct 10). Watch it.
 - More bot commands offered: `record`, `credits`, `check <name>` (1 credit), `note <name> …` (`resend`, `note`, `summarize` built).
 - Longer term: injury stage 3 (math), recent form (once ~8–10 GP), game script/moneyline, line-move alerts, best parlay pair, friend via Telegram group, letting H2H nudge expected saves.

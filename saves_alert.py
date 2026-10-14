@@ -71,7 +71,8 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "expected_saves", "tag", "actual_saves", "outcome", "result",
                "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire",
                "taken", "taken_line", "taken_result", "taken_at",
-               "key_out"]  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
+               "key_out",
+               "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag"]  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -103,8 +104,16 @@ STATS_REFRESH = timedelta(hours=6)
 # Home/road blend: weight on a team's home (or road) split = split games / (split games + this).
 # 5 -> 1 game 17%, 5 games 50%, 10 games 67%, 20 games 80%. Lower = trust splits sooner.
 HOME_ROAD_K = 5
-STATS_VERSION = 4  # bump when the saved stats format changes
+STATS_VERSION = 5  # bump when the saved stats format changes
 OPPONENT_ADJUST = True  # rate shots for/against vs. the strength of opponents faced
+# Shadow models (Oct 14): logged to picks.csv next to the live numbers, never shown in alerts.
+# Reviewed after ~2 weeks; the owner decides whether either replaces the live model.
+#  A = shrink early-season team numbers toward league average (SHADOW_A_K phantom average games)
+#      with a lower lean bar (SHADOW_A_THRESHOLD shots), since shrinking pulls everyone toward average.
+#  B = live model plus a flat home/road nudge: home goalie -SHADOW_B_HOME shots, road goalie +SHADOW_B_HOME.
+SHADOW_A_K = 2
+SHADOW_A_THRESHOLD = 1.5
+SHADOW_B_HOME = 1.0
 H2H_GAMES = 4           # head-to-head meetings shown in each alert (0 = hide)
 H2H_SEASONS = 3         # how many seasons back to look for meetings
 ROSTER_REFRESH = timedelta(hours=12)
@@ -355,8 +364,9 @@ def update_game_log(state, now):
     return log["games"]
 
 
-def adjusted_team_stats(games, abbrev_to_key):
-    """Opponent-adjusted shots for/against per team, overall and home/road, from the game log."""
+def adjusted_team_stats(games, abbrev_to_key, shrink=0):
+    """Opponent-adjusted shots for/against per team, overall and home/road, from the game log.
+    shrink > 0 adds that many league-average games to every average (shadow model A)."""
     by_team = {}
     for ds, away, home, a_sog, h_sog in games:
         by_team.setdefault(away, []).append({"opp": home, "sf": a_sog, "sa": h_sog, "home": False})
@@ -370,7 +380,7 @@ def adjusted_team_stats(games, abbrev_to_key):
         vals = [g[stat] for g in by_team.get(opp, []) if g["opp"] != excluding]
         if not vals:  # only played this team so far: fall back to all its games, then league avg
             vals = [g[stat] for g in by_team.get(opp, [])]
-        return sum(vals) / len(vals) if vals else lg
+        return (sum(vals) + shrink * lg) / (len(vals) + shrink) if vals else lg
 
     teams = {}
     for team, glist in by_team.items():
@@ -381,7 +391,8 @@ def adjusted_team_stats(games, abbrev_to_key):
             rows.append((sf_adj, sa_adj, g["home"]))
 
         def summary(sub):
-            return ({"sf": sum(r[0] for r in sub) / len(sub), "sa": sum(r[1] for r in sub) / len(sub),
+            return ({"sf": (sum(r[0] for r in sub) + shrink * lg) / (len(sub) + shrink),
+                     "sa": (sum(r[1] for r in sub) + shrink * lg) / (len(sub) + shrink),
                      "gp": len(sub)} if sub else None)
         key = abbrev_to_key.get(team)
         if not key:
@@ -451,10 +462,12 @@ def get_shot_stats(state, now):
     if fresh and OPPONENT_ADJUST:
         try:
             abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
-            teams, lg = adjusted_team_stats(update_game_log(state, now),
-                                            {ab: key for key, ab in abbrevs.items()})
+            games = update_game_log(state, now)
+            ab_map = {ab: key for key, ab in abbrevs.items()}
+            teams, lg = adjusted_team_stats(games, ab_map)
             if teams and len(teams) >= 20:
                 fresh.update(teams=teams, avg_shots=round(lg, 2), adjusted=True)
+                fresh["teams_shadow_a"] = adjusted_team_stats(games, ab_map, SHADOW_A_K)[0]
         except Exception as e:  # adjustment is a refinement; raw numbers still work
             print(f"Couldn't build opponent adjustment ({e}); using raw team numbers.")
     if fresh:
@@ -488,6 +501,27 @@ def matchup(event, stats):
         shots = (blend(opp, opp_split, "sf") + blend(own, own_split, "sa")) / 2
         out[side] = {"team": nickname(name), "shots": shots, "saves": shots * sv,
                      "delta": shots - avg}
+    return out
+
+
+def shadow_numbers(event, stats, m, side, point):
+    """Shadow models A and B for one goalie: {'shadow_a_exp', 'shadow_a_tag', ...} (blank if unknown).
+    Logged only; alerts and records use the live model."""
+    out = {}
+    if not (stats and m and side) or point is None:
+        return out
+    avg, sv = stats["avg_shots"], stats["save_pct"]
+    teams = stats.get("teams_shadow_a") or {}
+    own = teams.get(team_key(event[f"{side}_team"]))
+    opp = teams.get(team_key(event["away_team" if side == "home" else "home_team"]))
+    if own and opp:
+        own_split, opp_split = ("home", "road") if side == "home" else ("road", "home")
+        shots = (blend(opp, opp_split, "sf") + blend(own, own_split, "sa")) / 2
+        out["shadow_a_exp"] = f"{shots * sv:.1f}"
+        out["shadow_a_tag"] = tag_code(shots * sv, point, shots - avg, SHADOW_A_THRESHOLD)
+    shots = m[side]["shots"] + (-SHADOW_B_HOME if side == "home" else SHADOW_B_HOME)
+    out["shadow_b_exp"] = f"{shots * sv:.1f}"
+    out["shadow_b_tag"] = tag_code(shots * sv, point, shots - avg)
     return out
 
 
@@ -547,7 +581,7 @@ def goalie_sides(event, players, state, now):
     return out
 
 
-def tag_code(expected, point, delta):
+def tag_code(expected, point, delta, threshold=None):
     """The matchup picks the direction; the line picks the strength.
     delta = goalie's expected shots minus league average.
       delta >= +SHOT_THRESHOLD (overs only):  line <= expected -> OVER,
@@ -556,7 +590,7 @@ def tag_code(expected, point, delta):
       otherwise (middling): FADE"""
     if expected is None or point is None or delta is None:
         return ""
-    edge = max(SHOT_THRESHOLD, 0.01)
+    edge = max(SHOT_THRESHOLD if threshold is None else threshold, 0.01)
     if delta >= edge:
         if point <= expected:
             return "OVER"
@@ -636,7 +670,7 @@ def save_picks(rows):
         w.writerows(rows)
 
 
-def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None, injuries=None):
+def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None, injuries=None, stats=None):
     """Append one row per newly posted (book, goalie) line."""
     rows = load_picks()
     seen = {(r["event_id"], r["goalie"], r["book"]) for r in rows}
@@ -664,6 +698,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "away_team": event["away_team"], "home_team": event["home_team"],
             "logged_at": iso(now),
             "key_out": key_out_summary(injuries or {}, ab),
+            **shadow_numbers(event, stats, m, side, ln.get("point")),
         })
     save_picks(rows)
 
@@ -1637,7 +1672,7 @@ def alert_new_lines(event, rec, new_pairs, known_before, m, stats, state, injuri
     if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
         rec["h2h_sent"] = True
     log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"),
-              injuries)
+              injuries, stats)
     names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
     print(f"ALERT {rec['matchup']}: {names}")
 
