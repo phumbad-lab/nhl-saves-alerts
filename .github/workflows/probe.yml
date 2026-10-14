@@ -1,0 +1,33 @@
+name: Probe goalie stats (temporary)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse, zlib, base64
+          def get(u):
+              req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  return json.loads(r.read().decode())
+          def rest(season, game):
+              q = {"isAggregate": "false", "isGame": "true" if game else "false", "limit": "-1", "start": "0",
+                   "sort": '[{"property":"playerId","direction":"ASC"}]',
+                   "cayenneExp": f"seasonId={season} and gameTypeId=2"}
+              return get("https://api.nhle.com/stats/rest/en/goalie/summary?" + urllib.parse.urlencode(q)).get("data", [])
+          out = {"games": [], "last": [], "cur": []}
+          for r in rest("20262027", True):
+              out["games"].append([r.get("gameDate"), r.get("goalieFullName"), r.get("teamAbbrev"), r.get("opponentTeamAbbrev"),
+                                   r.get("homeRoad"), r.get("shotsAgainst"), r.get("saves"), r.get("timeOnIce"), r.get("gamesStarted"), r.get("gameId")])
+          for key, s in (("last", "20252026"), ("cur", "20262027")):
+              for r in rest(s, False):
+                  out[key].append([r.get("goalieFullName"), r.get("teamAbbrevs"), r.get("gamesPlayed"), r.get("shotsAgainst"), r.get("saves")])
+          blob = base64.b64encode(zlib.compress(json.dumps(out, separators=(",", ":")).encode(), 9)).decode()
+          print(f"::notice::META games={len(out['games'])} last={len(out['last'])} cur={len(out['cur'])} len={len(blob)}")
+          n = 2500
+          for i in range(0, len(blob), n):
+              print(f"::notice::PART{i//n:02d} " + blob[i:i+n])
+          PY
