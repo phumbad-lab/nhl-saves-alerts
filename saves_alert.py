@@ -1202,8 +1202,10 @@ def injury_report(state, events, abbrevs, now):
                     report.setdefault(t, []).append(dict(k, status=entry["status"], new=False))
                 continue
             was = book.pop(kid)  # off the injury list long enough: back in the lineup
-            if k and was.get("status") == "OUT" and was.get("alerted", True) and not first_look:
-                newly_back.append((t, k))
+            if k and not first_look and (
+                    (was.get("status") == "OUT" and was.get("alerted", True))
+                    or was.get("status") == "DTD"):  # day-to-day player cleared (owner Oct 14, Makar)
+                newly_back.append((t, dict(k, was=was.get("status"))))
         seeded.add(t)
     state["injury_teams"] = sorted(seeded)
     return report, newly_out, newly_back
@@ -1299,7 +1301,9 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
             effect = "More" if effect == "Fewer" else "Fewer"
         m = matchup(event, stats)
         sides = goalie_sides(event, posted, state, now) if m else {}
-        head = f"✅ {k['last']} {pos(k)} ({team}) BACK" if back else f"⚠️ {k['last']} {pos(k)} ({team}) OUT"
+        head = (f"⚠️ {k['last']} {pos(k)} ({team}) OUT" if not back else
+                f"✅ {k['last']} {pos(k)} ({team}) CLEARED (off day-to-day)" if k.get("was") == "DTD" else
+                f"✅ {k['last']} {pos(k)} ({team}) BACK")
         lines = [f"{head} - {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
         for player in sorted(p for p in posted if sides.get(p) == hit_side):
             g = m[hit_side]
