@@ -554,38 +554,6 @@
       },
       "matchup": "Calgary Flames @ Anaheim Ducks"
     },
-    "e85cb8fcbbddd2332b24db4bfe564345": {
-      "commence_time": "2026-10-12T17:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-12T16:25:13Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Markstrom": {
-            "over": -115,
-            "point": 23.5,
-            "under": -115
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -105,
-            "point": 25.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "Colten Ellis": {
-            "over": -102,
-            "point": 25.5,
-            "under": -130
-          },
-          "Jacob Markstrom": {
-            "over": -112,
-            "point": 23.5,
-            "under": -118
-          }
-        }
-      },
-      "matchup": "Florida Panthers @ Buffalo Sabres"
-    },
     "f29c6b46c06ecd7fedbc0eea607fcde6": {
       "commence_time": "2026-10-13T23:40:00Z",
       "h2h_sent": true,
