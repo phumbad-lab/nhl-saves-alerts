@@ -2854,8 +2854,7 @@
       "status": "OUT"
     },
     "DAL:8482740": {
-      "alerted": false,
-      "missing_since": "2026-10-14T00:19:10Z",
+      "alerted": true,
       "out_at": "2026-10-14T00:15:15Z",
       "seen": "2026-10-14T00:15:15Z",
       "status": "OUT"
