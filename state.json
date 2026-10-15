@@ -3422,7 +3422,7 @@
       "status": "DTD"
     },
     "EDM:8475786": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-15T17:10:18Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
