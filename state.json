@@ -3369,6 +3369,7 @@
     },
     "CHI:8481524": {
       "alerted": false,
+      "missing_since": "2026-10-15T16:55:14Z",
       "out_at": "2026-10-15T16:53:11Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
