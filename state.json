@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19618,
+  "credits_remaining": 19616,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -209,7 +209,7 @@
     "3fa8e135779ec383bce2be440d4ae030": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T15:50:17Z",
+      "last_paid_check": "2026-10-15T16:06:12Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -218,8 +218,13 @@
             "under": -115
           },
           "Linus Ullmark": {
-            "over": -115,
+            "over": -105,
             "point": 22.5,
+            "under": -130
+          },
+          "Semyon Varlamov": {
+            "over": -115,
+            "point": 25.5,
             "under": -120
           }
         }
@@ -330,8 +335,17 @@
     },
     "6c6bbf8c46c5896d1498ab1cdc5b8be9": {
       "commence_time": "2026-10-15T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T16:06:12Z",
+      "lines": {
+        "draftkings": {
+          "Leevi Merilainen": {
+            "over": -130,
+            "point": 25.5,
+            "under": -105
+          }
+        }
+      },
       "matchup": "Vancouver Canucks @ Florida Panthers"
     },
     "9604eeafec33b8980e6565c617f04fc6": {
@@ -1398,7 +1412,7 @@
     "season": "20262027"
   },
   "gl_8473419": {
-    "fetched": "2026-10-12T14:47:39Z",
+    "fetched": "2026-10-15T16:06:12Z",
     "value": [
       "2026-10-04",
       "2026-10-06"
@@ -1442,7 +1456,7 @@
     ]
   },
   "gl_8480078": {
-    "fetched": "2026-10-13T14:32:13Z",
+    "fetched": "2026-10-15T16:06:12Z",
     "value": []
   },
   "gl_8480839": {
@@ -2421,6 +2435,39 @@
         "FLA",
         22,
         25
+      ]
+    ]
+  },
+  "h2h_FLA-VAN": {
+    "fetched": "2026-10-15T16:06:12Z",
+    "value": [
+      [
+        "2026-03-17",
+        "FLA",
+        "VAN",
+        23,
+        22
+      ],
+      [
+        "2025-11-17",
+        "VAN",
+        "FLA",
+        15,
+        41
+      ],
+      [
+        "2024-12-12",
+        "FLA",
+        "VAN",
+        27,
+        19
+      ],
+      [
+        "2024-10-17",
+        "VAN",
+        "FLA",
+        33,
+        28
       ]
     ]
   },
@@ -5105,7 +5152,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-10-13T18:54:11Z",
+    "fetched": "2026-10-15T16:06:12Z",
     "value": [
       "Cooper Black",
       "Jacob Markstrom",
@@ -5231,7 +5278,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-10-13T14:32:13Z",
+    "fetched": "2026-10-15T16:06:12Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -5716,6 +5763,18 @@
       "book": null,
       "event_id": "3fa8e135779ec383bce2be440d4ae030",
       "goalie": "Linus Ullmark"
+    },
+    "276": {
+      "at": "2026-10-15T16:06:12Z",
+      "book": null,
+      "event_id": "6c6bbf8c46c5896d1498ab1cdc5b8be9",
+      "goalie": "Leevi Merilainen"
+    },
+    "277": {
+      "at": "2026-10-15T16:06:12Z",
+      "book": null,
+      "event_id": "3fa8e135779ec383bce2be440d4ae030",
+      "goalie": "Semyon Varlamov"
     }
   },
   "shot_stats": {
