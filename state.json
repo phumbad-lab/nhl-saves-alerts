@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19612,
+  "credits_remaining": 19611,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -434,8 +434,17 @@
     },
     "9f4363f363411cc75eafb6124bef94a7": {
       "commence_time": "2026-10-16T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T16:23:10Z",
+      "lines": {
+        "draftkings": {
+          "Stuart Skinner": {
+            "over": -105,
+            "point": 23.5,
+            "under": -130
+          }
+        }
+      },
       "matchup": "Winnipeg Jets @ Chicago Blackhawks"
     },
     "ab01aeb40725b42695be877e6745effa": {
@@ -2152,6 +2161,39 @@
         "CHI",
         29,
         31
+      ]
+    ]
+  },
+  "h2h_CHI-WPG": {
+    "fetched": "2026-10-15T16:23:10Z",
+    "value": [
+      [
+        "2026-03-31",
+        "WPG",
+        "CHI",
+        24,
+        21
+      ],
+      [
+        "2026-03-03",
+        "CHI",
+        "WPG",
+        19,
+        32
+      ],
+      [
+        "2026-01-19",
+        "WPG",
+        "CHI",
+        32,
+        24
+      ],
+      [
+        "2025-10-30",
+        "CHI",
+        "WPG",
+        24,
+        32
       ]
     ]
   },
@@ -5163,7 +5205,7 @@
     ]
   },
   "roster_CHI": {
-    "fetched": "2026-10-13T15:35:13Z",
+    "fetched": "2026-10-15T16:23:10Z",
     "value": [
       "Spencer Knight",
       "Arvid Soderblom"
@@ -5340,7 +5382,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-10-13T14:44:10Z",
+    "fetched": "2026-10-15T16:23:10Z",
     "value": [
       "Connor Hellebuyck",
       "Stuart Skinner",
@@ -5822,6 +5864,12 @@
       "book": null,
       "event_id": "30fa3646c2d75c2eb8c2746d50f7c14e",
       "goalie": "Jesper Wallstedt"
+    },
+    "282": {
+      "at": "2026-10-15T16:23:10Z",
+      "book": null,
+      "event_id": "9f4363f363411cc75eafb6124bef94a7",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
@@ -6963,5 +7011,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088050
+  "tg_offset": 69088052
 }
