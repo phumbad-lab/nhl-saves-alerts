@@ -3111,7 +3111,7 @@
       "status": "DTD"
     },
     "OTT:8482105": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-15T15:29:14Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
