@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19620,
+  "credits_remaining": 19619,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -208,8 +208,22 @@
     },
     "3fa8e135779ec383bce2be440d4ae030": {
       "commence_time": "2026-10-15T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T15:50:17Z",
+      "lines": {
+        "draftkings": {
+          "Ilya Sorokin": {
+            "over": -120,
+            "point": 25.5,
+            "under": -115
+          },
+          "Linus Ullmark": {
+            "over": -115,
+            "point": 22.5,
+            "under": -120
+          }
+        }
+      },
       "matchup": "New York Islanders @ Ottawa Senators"
     },
     "5290af76525679fdfa4eebaacc9b283f": {
@@ -1453,7 +1467,7 @@
     ]
   },
   "gl_8482105": {
-    "fetched": "2026-10-13T15:54:13Z",
+    "fetched": "2026-10-15T15:50:17Z",
     "value": [
       "2026-10-03"
     ]
@@ -2704,6 +2718,39 @@
         "VGK",
         17,
         29
+      ]
+    ]
+  },
+  "h2h_NYI-OTT": {
+    "fetched": "2026-10-15T15:50:17Z",
+    "value": [
+      [
+        "2026-04-11",
+        "OTT",
+        "NYI",
+        16,
+        23
+      ],
+      [
+        "2026-03-19",
+        "NYI",
+        "OTT",
+        19,
+        27
+      ],
+      [
+        "2025-10-18",
+        "NYI",
+        "OTT",
+        23,
+        32
+      ],
+      [
+        "2025-01-14",
+        "OTT",
+        "NYI",
+        27,
+        24
       ]
     ]
   },
@@ -5105,7 +5152,7 @@
     ]
   },
   "roster_NYI": {
-    "fetched": "2026-10-13T14:32:13Z",
+    "fetched": "2026-10-15T15:50:17Z",
     "value": [
       "Ilya Sorokin",
       "Semyon Varlamov"
@@ -5120,7 +5167,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-10-13T15:54:13Z",
+    "fetched": "2026-10-15T15:50:17Z",
     "value": [
       "Samuel Ersson",
       "Linus Ullmark"
@@ -5657,6 +5704,18 @@
       "book": null,
       "event_id": "30482712c8704ae61ad9ea6b033efccf",
       "goalie": "Sergei Bobrovsky"
+    },
+    "274": {
+      "at": "2026-10-15T15:50:17Z",
+      "book": null,
+      "event_id": "3fa8e135779ec383bce2be440d4ae030",
+      "goalie": "Ilya Sorokin"
+    },
+    "275": {
+      "at": "2026-10-15T15:50:17Z",
+      "book": null,
+      "event_id": "3fa8e135779ec383bce2be440d4ae030",
+      "goalie": "Linus Ullmark"
     }
   },
   "shot_stats": {
