@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19591,
+  "credits_remaining": 19589,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -106,7 +106,7 @@
     "12e8c7a75c196426888d2e9b0fcd946f": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T17:02:13Z",
+      "last_paid_check": "2026-10-15T17:18:12Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
@@ -374,7 +374,7 @@
     "6bc27423a73c4cf1b34cd3c5dc19c8bc": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T17:02:13Z",
+      "last_paid_check": "2026-10-15T17:18:12Z",
       "lines": {
         "draftkings": {
           "Andrei Vasilevskiy": {
@@ -3469,6 +3469,8 @@
     "WPG:8477504": {
       "alerted": true,
       "out_at": "2026-10-13T16:53:37Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-15T17:18:12Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "DTD"
     },
