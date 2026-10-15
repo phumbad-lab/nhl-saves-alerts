@@ -3111,11 +3111,10 @@
       "status": "DTD"
     },
     "OTT:8482105": {
-      "out_at": "2026-10-12T15:53:10Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-15T15:24:13Z",
+      "alerted": false,
+      "out_at": "2026-10-15T15:29:14Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "PHI:8478439": {
       "out_at": "2026-10-10T13:58:11Z",
