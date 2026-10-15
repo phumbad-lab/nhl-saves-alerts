@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19596,
+  "credits_remaining": 19593,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -152,8 +152,17 @@
     },
     "26e6afd471708bd7858f66f49d1f49f6": {
       "commence_time": "2026-10-16T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T17:07:12Z",
+      "lines": {
+        "draftkings": {
+          "Alex Nedeljkovic": {
+            "over": -120,
+            "point": 22.5,
+            "under": -110
+          }
+        }
+      },
       "matchup": "San Jose Sharks @ Nashville Predators"
     },
     "30482712c8704ae61ad9ea6b033efccf": {
@@ -244,7 +253,7 @@
     "3fa8e135779ec383bce2be440d4ae030": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T16:52:11Z",
+      "last_paid_check": "2026-10-15T17:07:12Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -380,7 +389,7 @@
     "6c6bbf8c46c5896d1498ab1cdc5b8be9": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T16:52:11Z",
+      "last_paid_check": "2026-10-15T17:07:12Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -2892,6 +2901,39 @@
       ]
     ]
   },
+  "h2h_NSH-SJS": {
+    "fetched": "2026-10-15T17:07:12Z",
+    "value": [
+      [
+        "2026-04-13",
+        "SJS",
+        "NSH",
+        23,
+        28
+      ],
+      [
+        "2026-04-04",
+        "NSH",
+        "SJS",
+        34,
+        27
+      ],
+      [
+        "2026-03-24",
+        "SJS",
+        "NSH",
+        30,
+        19
+      ],
+      [
+        "2025-03-11",
+        "NSH",
+        "SJS",
+        19,
+        27
+      ]
+    ]
+  },
   "h2h_NSH-VGK": {
     "fetched": "2026-10-13T15:50:17Z",
     "value": [
@@ -5391,7 +5433,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-10-13T15:50:17Z",
+    "fetched": "2026-10-15T17:07:12Z",
     "value": [
       "Justus Annunen",
       "Matt Murray",
@@ -5443,7 +5485,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-13T18:19:11Z",
+    "fetched": "2026-10-15T17:07:12Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -5987,6 +6029,12 @@
       "book": null,
       "event_id": "9f4363f363411cc75eafb6124bef94a7",
       "goalie": "Spencer Knight"
+    },
+    "295": {
+      "at": "2026-10-15T17:07:12Z",
+      "book": null,
+      "event_id": "26e6afd471708bd7858f66f49d1f49f6",
+      "goalie": "Alex Nedeljkovic"
     }
   },
   "shot_stats": {
