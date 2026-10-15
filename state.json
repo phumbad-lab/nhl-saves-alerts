@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19549,
+  "credits_remaining": 19546,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -179,7 +179,7 @@
     "26e6afd471708bd7858f66f49d1f49f6": {
       "commence_time": "2026-10-16T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T18:24:13Z",
+      "last_paid_check": "2026-10-15T18:40:16Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
@@ -188,9 +188,16 @@
             "under": -110
           },
           "Juuse Saros": {
-            "over": -130,
+            "over": -115,
             "point": 25.5,
-            "under": -105
+            "under": -120
+          }
+        },
+        "fanduel": {
+          "Juuse Saros": {
+            "over": -110,
+            "point": 25.5,
+            "under": -120
           }
         }
       },
@@ -293,7 +300,7 @@
     "3fa8e135779ec383bce2be440d4ae030": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T18:24:13Z",
+      "last_paid_check": "2026-10-15T18:40:16Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -310,6 +317,18 @@
             "over": -115,
             "point": 25.5,
             "under": -120
+          }
+        },
+        "fanduel": {
+          "Linus Ullmark": {
+            "over": -112,
+            "point": 22.5,
+            "under": -118
+          },
+          "Semyon Varlamov": {
+            "over": -114,
+            "point": 25.5,
+            "under": -114
           }
         }
       },
@@ -436,7 +455,7 @@
     "6c6bbf8c46c5896d1498ab1cdc5b8be9": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T18:24:13Z",
+      "last_paid_check": "2026-10-15T18:40:16Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -6267,6 +6286,24 @@
       "book": null,
       "event_id": "beffe22ff3d46b84b1b4e36b0970ccba",
       "goalie": "Joseph Woll"
+    },
+    "315": {
+      "at": "2026-10-15T18:40:16Z",
+      "book": "FD",
+      "event_id": "3fa8e135779ec383bce2be440d4ae030",
+      "goalie": "Linus Ullmark"
+    },
+    "316": {
+      "at": "2026-10-15T18:40:16Z",
+      "book": "FD",
+      "event_id": "3fa8e135779ec383bce2be440d4ae030",
+      "goalie": "Semyon Varlamov"
+    },
+    "317": {
+      "at": "2026-10-15T18:40:16Z",
+      "book": "FD",
+      "event_id": "26e6afd471708bd7858f66f49d1f49f6",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
