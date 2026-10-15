@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-15",
-  "credits_remaining": 19461,
+  "credits_remaining": 19459,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -476,7 +476,7 @@
     "6bc27423a73c4cf1b34cd3c5dc19c8bc": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T22:18:12Z",
+      "last_paid_check": "2026-10-15T22:25:13Z",
       "lines": {
         "draftkings": {
           "Andrei Vasilevskiy": {
@@ -498,7 +498,7 @@
     "6c6bbf8c46c5896d1498ab1cdc5b8be9": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T22:18:12Z",
+      "last_paid_check": "2026-10-15T22:25:13Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -554,12 +554,6 @@
         }
       },
       "matchup": "Dallas Stars @ Colorado Avalanche"
-    },
-    "9cc2460df91fb95f776e0e893a60985c": {
-      "commence_time": "2026-10-13T22:25:00Z",
-      "last_paid_check": null,
-      "lines": {},
-      "matchup": "Florida Panthers @ Columbus Blue Jackets"
     },
     "9f4363f363411cc75eafb6124bef94a7": {
       "commence_time": "2026-10-16T00:10:00Z",
