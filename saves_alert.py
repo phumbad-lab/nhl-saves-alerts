@@ -784,6 +784,60 @@ def grade_picks(state, now):
     return graded
 
 
+RECHECK_DAYS = 2  # each morning, re-read the box scores of the last 2 nights to catch stat corrections
+
+
+def recheck_corrections(state, now):
+    """Stat corrections (owner Oct 15): the NHL sometimes changes saves after the final horn, even
+    the next morning. Each morning (after GRADE_AFTER_HOUR) re-read the box score for every pick
+    graded in the last RECHECK_DAYS nights; if saves changed, regrade (records update) and text:
+    '🔁 Stat correction: Wolf (CGY) now 25 saves (was 24) · your o24.5 ❌ → ✅'."""
+    local = now.astimezone(LOCAL_TZ)
+    today = local.strftime("%Y-%m-%d")
+    if local.hour < GRADE_AFTER_HOUR or state.get("corrections_checked") == today:
+        return
+    since = (local - timedelta(days=RECHECK_DAYS)).strftime("%Y-%m-%d")
+    rows = load_picks()
+    recent = [r for r in rows if since <= r["date"] < today and r.get("result")
+              and r.get("result") != "VOID" and r.get("actual_saves") not in (None, "")]
+    abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+    schedules, boxes, changed = {}, {}, {}
+    for r in recent:
+        before = {k: r.get(k) for k in ("actual_saves", "outcome", "result", "taken_result")}
+        r.update(actual_saves="", outcome="", result="", taken_result="")
+        try:
+            ok = grade_row(r, abbrevs, schedules, boxes)
+        except Exception as e:
+            print(f"Couldn't recheck {r['goalie']} ({e}).")
+            ok = False
+        if not ok or r.get("actual_saves") in (None, ""):
+            r.update(before)  # couldn't read it now: keep what we had
+            continue
+        if str(r["actual_saves"]) != str(before["actual_saves"]):
+            changed.setdefault((r["event_id"], r["goalie"]), []).append((r, before))
+    state["corrections_checked"] = today
+    if not changed:
+        return
+    save_picks(rows)
+    lines = []
+    for (event_id, goalie), pairs in changed.items():
+        r, before = pairs[0]
+        name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
+        line = f"{name} now {r['actual_saves']} saves (was {before['actual_saves']})"
+        flips = [f"your {x['taken'][0].lower()}{x['taken_line']} {MARKS.get(b['taken_result'], '?')} → "
+                 f"{MARKS.get(x['taken_result'], '?')}" for x, b in pairs
+                 if x.get("taken") and x.get("taken_result") != b.get("taken_result")]
+        model = [f"model {x['line']} {MARKS.get(b['result'], b['result'])} → {MARKS.get(x['result'], x['result'])}"
+                 for x, b in pairs if x.get("result") in ("W", "L", "P") or b.get("result") in ("W", "L", "P")
+                 if x.get("result") != b.get("result")]
+        lines.append(line + "".join(f" · {f}" for f in dict.fromkeys(flips + model)))
+    send_push("", "🔁 Stat correction" + ("s" if len(lines) > 1 else "") + ":\n" + "\n".join(lines))
+    print("CORRECTIONS " + " | ".join(lines))
+
+
+CLOSE_CALL = 1  # live result within this many saves of your line: say it'll be rechecked
+
+
 FINAL_CHECK_AFTER = timedelta(hours=2)  # start looking for a final this long after puck drop
 MARKS = {"W": "✅", "L": "❌", "P": "push", "VOID": "void"}
 
@@ -830,6 +884,9 @@ def live_results(state, now):
         else:
             text = (f"{name} " + " · ".join(f"{p} {MARKS.get(x, '')}" for p, x in zip(plays, res))
                     + f": {r['actual_saves']} saves")
+        if r.get("actual_saves") not in (None, "") and any(
+                abs(float(r["actual_saves"]) - float(b["taken_line"])) <= CLOSE_CALL for b in bets):
+            text += " (close, I'll recheck the official number in the morning)"
         send_push("", text)
         print(f"LIVE RESULT {text}")
 
@@ -1864,6 +1921,10 @@ def main():
     resends, manual_lines = process_replies(state, now)  # your "in" replies and "resend" requests (free)
 
     # Grade yesterday's picks against box scores (free; once each morning).
+    try:
+        recheck_corrections(state, now)  # stat corrections on the last two nights (free, once a morning)
+    except Exception as e:
+        print(f"Correction check skipped ({e}).")
     graded = grade_picks(state, now)
     # Bets already texted the night they ended: list them for the model, not under "Your bets".
     night = state.setdefault("night_graded", {})
