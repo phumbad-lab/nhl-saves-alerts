@@ -163,6 +163,8 @@ On a "(FD added)" one-liner, a plain `in` logs that book. You can combine them, 
 
 **Notes:** text `note Wallstedt faded, VGK low H2H, MIN tight at home` (or swipe-reply `note ...` on an alert) to record your reasoning. It's saved to `notes.csv` with that goalie's line, tag and expected saves at the time, and the daily review reads it to compare your reads with the model. A note without a goalie name is saved as a general thought. The bot answers `Noted ✍` (or reacts ✍ on a swipe-reply).
 
+**Results as games end:** about a minute after a game you bet goes final, the bot texts your result, e.g. `✅ Wolf (CGY) o24.5: 28 saves` or `❌ ...`. It counts toward your season right away; the next morning's recap leaves it out of "Your bets".
+
 **Today's plays:** text `summarize` (or `summary`, `plays`, `today`, `recap`) and the bot replies with every bet you've logged for today's games, one line per goalie in puck-drop order, just the plays: `Gibson (DET) - o24.5`. `summarize yesterday` shows last night's with ✅/❌, saves and your record for the night. Free.
 
 **Nicknames:** anywhere you type a goalie's name (`in`, `I took`, `note`, `resend`) you can use your nickname for him instead, e.g. `I took Wally 26o`. Nicknames live in `nicknames.csv` (`goalie,nickname`, one row per nickname).

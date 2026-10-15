@@ -728,6 +728,39 @@ def find_goalie(box, player, team):
     return hits[0] if len(hits) == 1 else None
 
 
+def grade_row(r, abbrevs, schedules, boxes):
+    """Grade one pick-log row from the NHL feed. True if graded, False if the game isn't final yet."""
+    if r["date"] not in schedules:
+        schedules[r["date"]] = nhl_get(f"{NHL_WEB}/score/{r['date']}").get("games", [])
+    away = abbrevs.get(team_key(r["away_team"]))
+    home = abbrevs.get(team_key(r["home_team"]))
+    game = next((g for g in schedules[r["date"]]
+                 if g["awayTeam"]["abbrev"] == away and g["homeTeam"]["abbrev"] == home), None)
+    if not game:
+        return False
+    if game.get("gameScheduleState", "OK") != "OK":
+        r.update(outcome="VOID", result="VOID")  # postponed / cancelled
+        grade_taken(r)
+        return True
+    if game.get("gameState") not in ("OFF", "FINAL"):
+        return False
+    if game["id"] not in boxes:
+        boxes[game["id"]] = boxscore_goalies(game["id"])
+    hit = find_goalie(boxes[game["id"]], r["goalie"], r.get("team"))
+    if not hit or not hit[1]:
+        r.update(actual_saves="", outcome="VOID", result="VOID")  # didn't play
+    else:
+        saves, line = hit[0], float(r["line"])
+        outcome = "OVER" if saves > line else "UNDER" if saves < line else "PUSH"
+        if r["tag"] in BET_SIDE:
+            result = "P" if outcome == "PUSH" else ("W" if outcome == BET_SIDE[r["tag"]] else "L")
+        else:
+            result = "-"  # no edge / untagged: recorded, not scored
+        r.update(actual_saves=saves, outcome=outcome, result=result)
+    grade_taken(r)
+    return True
+
+
 def grade_picks(state, now):
     """Grade picks from games before today (Eastern) using NHL box scores. Returns newly graded rows."""
     local_now = now.astimezone(LOCAL_TZ)
@@ -742,43 +775,63 @@ def grade_picks(state, now):
     schedules, boxes, graded = {}, {}, []
     for r in pending:
         try:
-            if r["date"] not in schedules:
-                schedules[r["date"]] = nhl_get(f"{NHL_WEB}/score/{r['date']}").get("games", [])
-            away = abbrevs.get(team_key(r["away_team"]))
-            home = abbrevs.get(team_key(r["home_team"]))
-            game = next((g for g in schedules[r["date"]]
-                         if g["awayTeam"]["abbrev"] == away and g["homeTeam"]["abbrev"] == home), None)
-            if not game:
-                continue
-            if game.get("gameScheduleState", "OK") != "OK":
-                r.update(outcome="VOID", result="VOID")  # postponed / cancelled
-                grade_taken(r)
+            if grade_row(r, abbrevs, schedules, boxes):
                 graded.append(r)
-                continue
-            if game.get("gameState") not in ("OFF", "FINAL"):
-                continue
-            if game["id"] not in boxes:
-                boxes[game["id"]] = boxscore_goalies(game["id"])
         except Exception as e:
             print(f"Couldn't grade {r['goalie']} ({e}); will retry next run.")
-            continue
-        hit = find_goalie(boxes[game["id"]], r["goalie"], r.get("team"))
-        if not hit or not hit[1]:
-            r.update(actual_saves="", outcome="VOID", result="VOID")  # didn't play
-            grade_taken(r)
-        else:
-            saves, line = hit[0], float(r["line"])
-            outcome = "OVER" if saves > line else "UNDER" if saves < line else "PUSH"
-            if r["tag"] in BET_SIDE:
-                result = "P" if outcome == "PUSH" else ("W" if outcome == BET_SIDE[r["tag"]] else "L")
-            else:
-                result = "-"  # no edge / untagged: recorded, not scored
-            r.update(actual_saves=saves, outcome=outcome, result=result)
-        grade_taken(r)
-        graded.append(r)
     if graded:
         save_picks(rows)
     return graded
+
+
+FINAL_CHECK_AFTER = timedelta(hours=2)  # start looking for a final this long after puck drop
+MARKS = {"W": "✅", "L": "❌", "P": "push", "VOID": "void"}
+
+
+def live_results(state, now):
+    """Your bets, the minute a game ends: '✅ Wolf (CGY) o24.5: 28 saves' (owner Oct 15).
+    Grades the goalies you bet (all their lines) right away so the record updates; the morning
+    recap still lists them for the model but leaves them out of 'Your bets'."""
+    rows = load_picks()
+    pending = [r for r in rows if r.get("taken") and not r.get("result") and r.get("commence_time")
+               and now - parse_iso(r["commence_time"]) >= FINAL_CHECK_AFTER]
+    if not pending:
+        return
+    keys = {(r["event_id"], r["goalie"]) for r in pending}
+    abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
+    schedules, boxes, done = {}, {}, []
+    for key in sorted(keys):
+        mine = [r for r in rows if (r["event_id"], r["goalie"]) == key and not r.get("result")]
+        try:
+            if not all(grade_row(r, abbrevs, schedules, boxes) for r in mine):
+                continue
+        except Exception as e:
+            print(f"Couldn't grade {key[1]} live ({e}); will retry next run.")
+            continue
+        done.append(key)
+    if not done:
+        return
+    save_picks(rows)
+    night = state.setdefault("night_graded", {})
+    for event_id, goalie in done:
+        bets = sorted((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie
+                       and r.get("taken")), key=lambda r: r.get("taken_at", ""))
+        r = bets[0]
+        night.setdefault(r["date"], []).append(f"{event_id}|{goalie}")
+        name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
+        if all(b.get("taken_result") == "VOID" for b in bets):
+            send_push("", f"{name} {r['taken'][0].lower()}{r['taken_line']}: didn't play (void)")
+            continue
+        plays = [f"{b['taken'][0].lower()}{b['taken_line']}" for b in bets]
+        res = [b.get("taken_result") for b in bets]
+        if len(set(res)) == 1:
+            mark = MARKS.get(res[0], "")
+            text = f"{mark} {name} " + " · ".join(plays) + f": {r['actual_saves']} saves"
+        else:
+            text = (f"{name} " + " · ".join(f"{p} {MARKS.get(x, '')}" for p, x in zip(plays, res))
+                    + f": {r['actual_saves']} saves")
+        send_push("", text)
+        print(f"LIVE RESULT {text}")
 
 
 def first_per_goalie(rows):
@@ -839,7 +892,7 @@ def who(r, abbrevs):
     return f"{name} ({team})" + (f" vs. {opp}" if opp else "")
 
 
-def results_message(graded, abbrevs=None):
+def results_message(graded, abbrevs=None, skip_bets=()):
     abbrevs = abbrevs or {}
     # One line per goalie; if his line differed between books (or moved), each line's
     # result follows the other: "Markstrom (FLA) vs. BUF u23.5 UNDER (DK) ✅ · u24.5 UNDER (FD) ✅: 9 saves"
@@ -876,7 +929,7 @@ def results_message(graded, abbrevs=None):
                                                           record_line(fire_rows, "UNDER"))])
     season += " · " + no_edge_split(all_rows)
     out = "\n".join(lines) + "\n\nSeason: " + season
-    mine = [r for r in graded if r.get("taken")]
+    mine = [r for r in graded if r.get("taken") and f"{r['event_id']}|{r['goalie']}" not in skip_bets]
     if mine:
         out += "\n\nYour bets:\n" + "\n".join(
             f"{who(r, abbrevs)} {r['taken'][0].lower()}{r['taken_line']} ({r['book']}): "
@@ -1812,13 +1865,29 @@ def main():
 
     # Grade yesterday's picks against box scores (free; once each morning).
     graded = grade_picks(state, now)
+    # Bets already texted the night they ended: list them for the model, not under "Your bets".
+    night = state.setdefault("night_graded", {})
+    today = now.astimezone(LOCAL_TZ).strftime("%Y-%m-%d")
+    due = [d for d in night if d < today] if now.astimezone(LOCAL_TZ).hour >= GRADE_AFTER_HOUR else []
+    skip = {k for d in due for k in night[d]}
+    if due:
+        have = {(r["event_id"], r["goalie"], r["book"]) for r in graded}
+        graded += [r for r in load_picks() if r["date"] in due and r.get("result")
+                   and f"{r['event_id']}|{r['goalie']}" in skip
+                   and (r["event_id"], r["goalie"], r["book"]) not in have]
+        for d in due:
+            night.pop(d, None)
     if graded:
         dates = sorted({r["date"] for r in graded})
         title = "Saves results: " + ", ".join(
             datetime.strptime(d, "%Y-%m-%d").strftime("%b %-d") for d in dates)
         abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
-        send_push(title, results_message(graded, abbrevs))
+        send_push(title, results_message(graded, abbrevs, skip))
         print(f"Graded {len(graded)} pick(s) from {', '.join(dates)}")
+    try:
+        live_results(state, now)  # your bets, texted as each game ends (free)
+    except Exception as e:
+        print(f"Live results skipped ({e}).")
 
     events, remaining = api_get(f"/sports/{SPORT}/events", {
         "commenceTimeFrom": iso(now),
