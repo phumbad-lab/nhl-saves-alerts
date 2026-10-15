@@ -3043,6 +3043,8 @@
     "DAL:8482740": {
       "alerted": true,
       "out_at": "2026-10-14T00:15:15Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-15T13:40:17Z",
       "seen": "2026-10-14T00:15:15Z",
       "status": "OUT"
     },
