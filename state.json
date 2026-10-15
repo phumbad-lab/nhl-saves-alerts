@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-15",
-  "credits_remaining": 19435,
+  "credits_remaining": 19434,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -278,7 +278,7 @@
     "31352e6ab98e96d7f2505fa0432b96e2": {
       "commence_time": "2026-10-16T02:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T23:12:11Z",
+      "last_paid_check": "2026-10-15T23:28:11Z",
       "lines": {
         "draftkings": {
           "Carter Hart": {
