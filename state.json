@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19606,
+  "credits_remaining": 19604,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -191,13 +191,13 @@
     "30fa3646c2d75c2eb8c2746d50f7c14e": {
       "commence_time": "2026-10-16T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T16:22:12Z",
+      "last_paid_check": "2026-10-15T16:38:12Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
-            "over": -120,
+            "over": -130,
             "point": 22.5,
-            "under": -115
+            "under": -105
           }
         }
       },
@@ -465,13 +465,18 @@
     "9f4363f363411cc75eafb6124bef94a7": {
       "commence_time": "2026-10-16T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T16:23:10Z",
+      "last_paid_check": "2026-10-15T16:38:12Z",
       "lines": {
         "draftkings": {
+          "Spencer Knight": {
+            "over": -110,
+            "point": 24.5,
+            "under": -125
+          },
           "Stuart Skinner": {
-            "over": -105,
+            "over": -110,
             "point": 23.5,
-            "under": -130
+            "under": -125
           }
         }
       },
@@ -3357,7 +3362,7 @@
       "status": "DTD"
     },
     "BUF:8480839": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-15T16:32:13Z",
       "seen": "2026-10-12T18:44:11Z",
       "status": "OUT"
@@ -5967,6 +5972,12 @@
       "book": null,
       "event_id": "6bc27423a73c4cf1b34cd3c5dc19c8bc",
       "goalie": "Andrei Vasilevskiy"
+    },
+    "291": {
+      "at": "2026-10-15T16:38:12Z",
+      "book": null,
+      "event_id": "9f4363f363411cc75eafb6124bef94a7",
+      "goalie": "Spencer Knight"
     }
   },
   "shot_stats": {
