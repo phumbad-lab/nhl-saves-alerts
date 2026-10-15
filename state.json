@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19555,
+  "credits_remaining": 19553,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -226,7 +226,7 @@
     "30fa3646c2d75c2eb8c2746d50f7c14e": {
       "commence_time": "2026-10-16T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T18:13:12Z",
+      "last_paid_check": "2026-10-15T18:29:09Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -240,8 +240,17 @@
     },
     "31352e6ab98e96d7f2505fa0432b96e2": {
       "commence_time": "2026-10-16T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T18:29:09Z",
+      "lines": {
+        "draftkings": {
+          "Dustin Wolf": {
+            "over": -130,
+            "point": 26.5,
+            "under": -105
+          }
+        }
+      },
       "matchup": "Calgary Flames @ Vegas Golden Knights"
     },
     "3192c41b5eb5fad69e518d6eba5fcb91": {
@@ -2184,6 +2193,39 @@
         "COL",
         27,
         30
+      ]
+    ]
+  },
+  "h2h_CGY-VGK": {
+    "fetched": "2026-10-15T18:29:09Z",
+    "value": [
+      [
+        "2026-04-02",
+        "CGY",
+        "VGK",
+        22,
+        34
+      ],
+      [
+        "2025-12-20",
+        "VGK",
+        "CGY",
+        37,
+        26
+      ],
+      [
+        "2025-10-18",
+        "CGY",
+        "VGK",
+        27,
+        28
+      ],
+      [
+        "2025-10-14",
+        "VGK",
+        "CGY",
+        30,
+        29
       ]
     ]
   },
@@ -5421,7 +5463,7 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-10-13T17:29:10Z",
+    "fetched": "2026-10-15T18:29:09Z",
     "value": [
       "Devin Cooley",
       "Dustin Wolf"
@@ -5598,7 +5640,7 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-10-13T15:50:17Z",
+    "fetched": "2026-10-15T18:29:09Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
@@ -6147,6 +6189,12 @@
       "book": "FD",
       "event_id": "12e8c7a75c196426888d2e9b0fcd946f",
       "goalie": "Dylan Garand"
+    },
+    "309": {
+      "at": "2026-10-15T18:29:09Z",
+      "book": null,
+      "event_id": "31352e6ab98e96d7f2505fa0432b96e2",
+      "goalie": "Dustin Wolf"
     }
   },
   "shot_stats": {
