@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19584,
+  "credits_remaining": 19583,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -67,8 +67,17 @@
     },
     "11a7ac0ec88aba6f80c96ce654c805b7": {
       "commence_time": "2026-10-16T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T17:33:11Z",
+      "lines": {
+        "draftkings": {
+          "Devon Levi": {
+            "over": -115,
+            "point": 23.5,
+            "under": -115
+          }
+        }
+      },
       "matchup": "Utah Mammoth @ Edmonton Oilers"
     },
     "11b474310b2b60cbae546d9c517444c6": {
@@ -1491,7 +1500,7 @@
     ]
   },
   "gl_8475786": {
-    "fetched": "2026-10-13T19:40:15Z",
+    "fetched": "2026-10-15T17:33:11Z",
     "value": [
       "2026-09-29"
     ]
@@ -2507,6 +2516,39 @@
         "EDM",
         21,
         32
+      ]
+    ]
+  },
+  "h2h_EDM-UTA": {
+    "fetched": "2026-10-15T17:33:11Z",
+    "value": [
+      [
+        "2026-04-07",
+        "EDM",
+        "UTA",
+        26,
+        31
+      ],
+      [
+        "2026-03-24",
+        "EDM",
+        "UTA",
+        26,
+        18
+      ],
+      [
+        "2025-10-28",
+        "UTA",
+        "EDM",
+        23,
+        24
+      ],
+      [
+        "2025-03-18",
+        "UTA",
+        "EDM",
+        30,
+        43
       ]
     ]
   },
@@ -5383,7 +5425,7 @@
     ]
   },
   "roster_EDM": {
-    "fetched": "2026-10-13T18:05:15Z",
+    "fetched": "2026-10-15T17:33:11Z",
     "value": [
       "Frederik Andersen",
       "Tristan Jarry",
@@ -5510,7 +5552,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-10-13T17:24:55Z",
+    "fetched": "2026-10-15T17:33:11Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -6038,6 +6080,12 @@
       "book": null,
       "event_id": "26e6afd471708bd7858f66f49d1f49f6",
       "goalie": "Juuse Saros"
+    },
+    "299": {
+      "at": "2026-10-15T17:33:11Z",
+      "book": null,
+      "event_id": "11a7ac0ec88aba6f80c96ce654c805b7",
+      "goalie": "Devon Levi"
     }
   },
   "shot_stats": {
