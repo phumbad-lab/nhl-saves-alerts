@@ -5,3 +5,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-13T16:11:10Z,2026-10-13,Logan Thompson,WSH,Capitals @ Hurricanes,FADE,26.5,24.4,car shoots and wsh has let up less to weaker teams and a top d is out,5290af76525679fdfa4eebaacc9b283f
 2026-10-13T22:12:11Z,2026-10-13,Ukko-Pekka Luukkonen,BUF,Sabres @ Canadiens,UNDER,24.5,21.3,fading because top D is out dahlin,e0f35b340012c950aac314ee30660274
 2026-10-15T16:25:14Z,2026-10-15,Stuart Skinner,WPG,Jets @ Blackhawks,FADE,23.5,22.7,u Chi doesn’t shoot at all and good h2h history,9f4363f363411cc75eafb6124bef94a7
+2026-10-15T16:46:12Z,2026-10-15,Sergei Bobrovsky,TOR,Sabres @ Leafs,FADE,25.5,24.0,dahlin is out so less buf sog,30482712c8704ae61ad9ea6b033efccf
