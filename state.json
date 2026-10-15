@@ -1,5 +1,5 @@
 {
-  "credits_remaining": 19623,
+  "credits_remaining": 19622,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -149,8 +149,17 @@
     },
     "30482712c8704ae61ad9ea6b033efccf": {
       "commence_time": "2026-10-15T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-15T15:10:17Z",
+      "lines": {
+        "draftkings": {
+          "Sergei Bobrovsky": {
+            "over": -125,
+            "point": 25.5,
+            "under": -110
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ Toronto Maple Leafs"
     },
     "30fa3646c2d75c2eb8c2746d50f7c14e": {
@@ -1738,6 +1747,39 @@
         "MTL",
         22,
         31
+      ]
+    ]
+  },
+  "h2h_BUF-TOR": {
+    "fetched": "2026-10-15T15:10:17Z",
+    "value": [
+      [
+        "2026-03-14",
+        "TOR",
+        "BUF",
+        18,
+        33
+      ],
+      [
+        "2026-01-27",
+        "BUF",
+        "TOR",
+        31,
+        23
+      ],
+      [
+        "2025-10-25",
+        "BUF",
+        "TOR",
+        26,
+        23
+      ],
+      [
+        "2025-10-24",
+        "TOR",
+        "BUF",
+        34,
+        30
       ]
     ]
   },
@@ -4950,7 +4992,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-10-13T15:52:14Z",
+    "fetched": "2026-10-15T15:10:17Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -5127,7 +5169,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-13T17:24:55Z",
+    "fetched": "2026-10-15T15:10:17Z",
     "value": [
       "Sergei Bobrovsky",
       "Anthony Stolarz"
@@ -5614,6 +5656,12 @@
       "book": "FD",
       "event_id": "9604eeafec33b8980e6565c617f04fc6",
       "goalie": "Scott Wedgewood"
+    },
+    "273": {
+      "at": "2026-10-15T15:10:17Z",
+      "book": null,
+      "event_id": "30482712c8704ae61ad9ea6b033efccf",
+      "goalie": "Sergei Bobrovsky"
     }
   },
   "shot_stats": {
