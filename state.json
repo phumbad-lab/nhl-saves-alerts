@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-15",
-  "credits_remaining": 19491,
+  "credits_remaining": 19489,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -256,7 +256,7 @@
     "30fa3646c2d75c2eb8c2746d50f7c14e": {
       "commence_time": "2026-10-16T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T20:50:19Z",
+      "last_paid_check": "2026-10-15T21:06:12Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -278,7 +278,7 @@
     "31352e6ab98e96d7f2505fa0432b96e2": {
       "commence_time": "2026-10-16T02:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T20:50:19Z",
+      "last_paid_check": "2026-10-15T21:06:12Z",
       "lines": {
         "draftkings": {
           "Carter Hart": {
