@@ -5171,12 +5171,6 @@
     ]
   },
   "sent": {
-    "138": {
-      "at": "2026-10-12T15:03:14Z",
-      "book": "FD",
-      "event_id": "e85cb8fcbbddd2332b24db4bfe564345",
-      "goalie": "Jacob Markstrom"
-    },
     "139": {
       "at": "2026-10-12T15:20:16Z",
       "book": null,
@@ -6725,7 +6719,7 @@
     "version": 5
   },
   "team_abbrevs": {
-    "fetched": "2026-10-14T15:03:12Z",
+    "fetched": "2026-10-15T15:04:13Z",
     "value": {
       "anaheimducks": "ANA",
       "bostonbruins": "BOS",
