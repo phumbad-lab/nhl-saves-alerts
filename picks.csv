@@ -217,3 +217,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-15,Blues @ Wild,Jesper Wallstedt,MIN,FD,22.5,-130,-102,23.2,FADE,,,,30fa3646c2d75c2eb8c2746d50f7c14e,2026-10-16T00:10:00Z,St Louis Blues,Minnesota Wild,2026-10-15T18:44:12Z,,,,,,STL:;MIN:Faber,23.4,FADE,22.3,FADE
 2026-10-15,Mammoth @ Oilers,Devon Levi,EDM,FD,24.5,-106,-125,26.3,OVER,,,,11a7ac0ec88aba6f80c96ce654c805b7,2026-10-16T01:10:00Z,Utah Mammoth,Edmonton Oilers,2026-10-15T18:52:12Z,,,,,,UTA:;EDM:Hyman,25.5,OVER,25.4,FADE
 2026-10-15,Sharks @ Predators,Alex Nedeljkovic,SJS,FD,22.5,-122,-108,22.7,FADE,,,,26e6afd471708bd7858f66f49d1f49f6,2026-10-16T00:10:00Z,San Jose Sharks,Nashville Predators,2026-10-15T18:56:11Z,,,,,,SJS:;NSH:,22.9,FADE,23.6,FADE
+2026-10-15,Flames @ Knights,Dustin Wolf,CGY,FD,26.5,-125,-106,27.4,OVER,,,,31352e6ab98e96d7f2505fa0432b96e2,2026-10-16T02:10:00Z,Calgary Flames,Vegas Golden Knights,2026-10-15T19:00:23Z,,,,,,CGY:;VGK:,26.1,LEAN_OVER,28.3,OVER
