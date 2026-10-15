@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-15",
-  "credits_remaining": 19455,
+  "credits_remaining": 19453,
   "events": {
     "033a7fbe94c870533285eca92f2907fb": {
       "commence_time": "2026-10-14T00:40:00Z",
@@ -476,7 +476,7 @@
     "6bc27423a73c4cf1b34cd3c5dc19c8bc": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T22:25:13Z",
+      "last_paid_check": "2026-10-15T22:40:17Z",
       "lines": {
         "draftkings": {
           "Andrei Vasilevskiy": {
@@ -498,7 +498,7 @@
     "6c6bbf8c46c5896d1498ab1cdc5b8be9": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-15T22:25:13Z",
+      "last_paid_check": "2026-10-15T22:40:17Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -509,9 +509,9 @@
         },
         "fanduel": {
           "Leevi Merilainen": {
-            "over": -130,
+            "over": -128,
             "point": 25.5,
-            "under": -102
+            "under": -104
           }
         }
       },
@@ -719,38 +719,6 @@
         }
       },
       "matchup": "Vancouver Canucks @ New York Islanders"
-    },
-    "e0f35b340012c950aac314ee30660274": {
-      "commence_time": "2026-10-13T22:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-13T22:10:17Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Fowler": {
-            "over": -105,
-            "point": 22.5,
-            "under": -125
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -105,
-            "point": 24.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "Jacob Fowler": {
-            "over": 100,
-            "point": 22.5,
-            "under": -132
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -128,
-            "point": 23.5,
-            "under": -104
-          }
-        }
-      },
-      "matchup": "Buffalo Sabres @ Montr\u00e9al Canadiens"
     },
     "e2c675c14d7afbf6164f9eb51e66e615": {
       "commence_time": "2026-10-14T01:55:00Z",
