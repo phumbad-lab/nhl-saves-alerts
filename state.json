@@ -3382,8 +3382,6 @@
     "EDM:8475786": {
       "alerted": true,
       "out_at": "2026-10-13T18:26:13Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-15T16:59:11Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "DTD"
     },
