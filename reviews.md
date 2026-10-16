@@ -36,10 +36,10 @@ Judges the read on shot volume, not just the bet result.
 - 2026-10-14 · Wedgewood (COL) vs DAL · model UNDER u22.5 · **owner took u22.5** (no note). DAL shot 22, 20 saves → won, read right on volume.
 - 2026-10-14 · DeSmith (DAL) @ COL · NO EDGE 26.5 · **owner took o26.5** (no note). COL shot 27 (≈ expected 27.9; line needed ~30), 25 saves → lost, read wrong on volume. Shadow B also leaned over (25.6) and missed.
 
-- 2026-10-15 · Skinner (WPG) @ CHI · NO EDGE 23.5 · **owner took u23.5**: "CHI doesn't shoot at all and good H2H" (CHI on WPG avg 22). CHI shot 28 (exp 25.7), 24 saves → lost, read wrong on volume. Morrissey (WPG D) out — guess: that helped CHI.
+- 2026-10-15 · Skinner (WPG) @ CHI · NO EDGE 23.5 · **owner took u23.5**: "CHI doesn't shoot at all and good H2H" (CHI on WPG avg 22). CHI shot 28 (exp 25.7), 24 saves → lost, read wrong on volume. Morrissey (WPG D) went OUT after he bet (DTD at the time; the ⚠️ alert came later) — so not a judgment miss; guess: it helped CHI. Led to the "your bet" line on injury alerts (Oct 16).
 - 2026-10-15 · Bobrovsky (TOR) vs BUF · NO EDGE 25.5 DK / 26.5 FD · **owner took u26.5**: "Dahlin out so less BUF SOG". Dahlin played (hat trick, BUF won 7-4); BUF shot 34, 29 saves → lost, the reason didn't happen. H2H (BUF on TOR avg 30) pointed over.
 - 2026-10-15 · Daws (NJD) vs NYR · model UNDER u21.5 FD (LEAN UNDER 20.5 DK) · **owner took u21.5**: "NJ tight at home, H2H good" (NYR on NJD avg 21.8). NYR shot 19, 18 saves → won, read right; both reasons showed up.
-- Also followed the model (no note): Merilainen o26.5 W, Varlamov u25.5 W, Wolf o26.5 W, Grubauer o26.5 W, Levi o23.5 L, Woll o24.5 L.
+- Also followed the model (no note): Merilainen o26.5 W, Varlamov u25.5 W, Wolf o26.5 W, Grubauer o26.5 W, Levi o23.5 L, Woll o24.5 L (DK alerted 23.5, moved to 24.5 by the time he bet; 24 saves).
 
 ## Daily reviews
 

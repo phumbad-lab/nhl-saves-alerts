@@ -1182,6 +1182,22 @@ def in_other_book(event_id, player, book, point):
     return f"👉 You're in {r['book']} {side[0].lower()}{taken:g}", better
 
 
+def bet_effect(event_id, player, effect):
+    """Injury alert line for your logged bet(s) on this goalie, e.g.
+    '👉 You're in DK u23.5 (hurts your bet)'. effect = 'More'/'Fewer' shots on him. None if no bet."""
+    seen, parts = set(), []
+    for r in load_picks():
+        if r["event_id"] != event_id or r["goalie"] != player or not r.get("taken"):
+            continue
+        play = f"{r['book']} {r['taken'][0].lower()}{float(r['taken_line']):g}"
+        if play in seen:
+            continue
+        seen.add(play)
+        helps = (r["taken"] == "OVER") == (effect == "More")
+        parts.append(f"{play} ({'helps' if helps else 'hurts'} your bet)")
+    return "👉 You're in " + " · ".join(parts) if parts else None
+
+
 # ---------- injuries: key players only ----------
 # Only a team's top shooters and top-minute defensemen count, so depth injuries never show up.
 KEY_SHOOTERS = 3      # top shots-per-game skaters per team
@@ -1419,6 +1435,9 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
             g = m[hit_side]
             lines.append(f"{effect} shots on {last_name(player)} ({ab[hit_side]}): "
                          + " · ".join(book_parts(player, rec["lines"], g["saves"], g["delta"], hit_side)))
+            mine = bet_effect(event["id"], player, effect)
+            if mine:
+                lines.append(mine)
         if len(lines) == 1:
             lines.append(f"{effect} shots expected on the {ab[hit_side]} goalie")
         send_push("", "\n".join(lines))
