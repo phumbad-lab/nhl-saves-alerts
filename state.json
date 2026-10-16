@@ -5980,7 +5980,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.01,
-    "fetched": "2026-10-16T12:15:17Z",
+    "fetched": "2026-10-16T18:15:17Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.0,
@@ -5992,7 +5992,7 @@
       },
       "buffalosabres": {
         "sa": 24.625,
-        "sf": 26.75
+        "sf": 26.875
       },
       "calgaryflames": {
         "sa": 28.71428,
@@ -6023,11 +6023,11 @@
         "sf": 31.0
       },
       "edmontonoilers": {
-        "sa": 25.71428,
+        "sa": 25.85714,
         "sf": 24.85714
       },
       "floridapanthers": {
-        "sa": 24.0,
+        "sa": 24.125,
         "sf": 28.375
       },
       "losangeleskings": {
@@ -6035,8 +6035,8 @@
         "sf": 30.6
       },
       "minnesotawild": {
-        "sa": 26.625,
-        "sf": 29.0
+        "sa": 26.75,
+        "sf": 29.125
       },
       "montrealcanadiens": {
         "sa": 25.85714,
@@ -6051,7 +6051,7 @@
         "sf": 35.57142
       },
       "newyorkislanders": {
-        "sa": 25.85714,
+        "sa": 26.0,
         "sf": 25.57142
       },
       "newyorkrangers": {
@@ -6060,7 +6060,7 @@
       },
       "ottawasenators": {
         "sa": 26.0,
-        "sf": 22.625
+        "sf": 22.75
       },
       "philadelphiaflyers": {
         "sa": 33.66666,
@@ -6079,24 +6079,24 @@
         "sf": 26.875
       },
       "stlouisblues": {
-        "sa": 26.85714,
-        "sf": 25.85714
+        "sa": 27.0,
+        "sf": 26.0
       },
       "tampabaylightning": {
         "sa": 24.28571,
         "sf": 30.28571
       },
       "torontomapleleafs": {
-        "sa": 30.375,
+        "sa": 30.5,
         "sf": 27.875
       },
       "utahmammoth": {
         "sa": 23.125,
-        "sf": 30.375
+        "sf": 30.5
       },
       "vancouvercanucks": {
         "sa": 32.44444,
-        "sf": 21.77777
+        "sf": 21.88888
       },
       "vegasgoldenknights": {
         "sa": 25.55555,
@@ -6111,7 +6111,7 @@
         "sf": 27.14285
       }
     },
-    "save_pct": 0.8854,
+    "save_pct": 0.8855,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
