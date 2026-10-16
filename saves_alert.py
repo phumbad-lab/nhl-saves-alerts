@@ -1578,6 +1578,30 @@ def parse_message(text):
     return cmd, bets
 
 
+BET_WORDS = {"i", "in", "took", "for", "at", "on", "the", "dk", "fd", "draftkings", "fanduel",
+             "o", "u", "over", "under"}
+
+
+def split_bet_note(text, is_reply):
+    """Owner Oct 16: he adds his reasoning after the bet without typing 'note'.
+    Swipe reply ('in for 26o. h2h history looks good'): the bet ends at the first word that
+    isn't part of a bet; the rest is a note. Typed bets ('I took Wally 26o. VGK weak at home'):
+    the first sentence is the bet, the rest a note. Returns (bet_text, note or None)."""
+    if not re.match(r"^\s*(?:i\s+)?(?:in|took)\b", text, re.I):
+        return text, None
+    if is_reply:
+        for m in re.finditer(r"\S+", text):
+            w = m.group().strip(".,!?;:").lower()
+            if w and w not in BET_WORDS and not BET_TOKEN.match(w):
+                note = text[m.start():].strip()
+                return text[:m.start()], note or None
+        return text, None
+    m = re.search(r"[.!?]\s+(?=\S)", text)
+    if m and len(text[m.end():].split()) >= 2:
+        return text[:m.start()], text[m.end():].strip()
+    return text, None
+
+
 def apply_bet(rows, state, event_id, goalie, alert_book, bet, cmd, now):
     """Mark one picks.csv row as your bet. Returns (ok, text describing it or the problem)."""
     mine = [r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie]
@@ -1690,6 +1714,8 @@ def process_replies(state, now):
         note_text = None
         if both:
             text, note_text = both.group(1), both.group(2).strip()
+        else:  # "in for 26o. h2h looks good and BOS shooting" -> the bet, plus the rest as a note
+            text, note_text = split_bet_note(text, bool((msg.get("reply_to_message") or {}).get("message_id")))
         cmd, bets = parse_message(text)
         if not cmd:
             continue

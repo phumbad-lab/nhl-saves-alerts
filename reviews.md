@@ -41,6 +41,8 @@ Judges the read on shot volume, not just the bet result.
 - 2026-10-15 · Daws (NJD) vs NYR · model UNDER u21.5 FD (LEAN UNDER 20.5 DK) · **owner took u21.5**: "NJ tight at home, H2H good" (NYR on NJD avg 21.8). NYR shot 19, 18 saves → won, read right; both reasons showed up.
 - Also followed the model (no note): Merilainen o26.5 W, Varlamov u25.5 W, Wolf o26.5 W, Grubauer o26.5 W, Levi o23.5 L, Woll o24.5 L (DK alerted 23.5, moved to 24.5 by the time he bet; 24 saves).
 
+- 2026-10-16 · Dostal (ANA) vs BOS · NO EDGE 21.5 · **owner took o21.5**: "h2h history looks good and BOS taking shots" (told in chat; the bot dropped it, fixed Oct 16). Result pending.
+
 ## Daily reviews
 
 ### 2026-10-12 (seed entry, written by hand)
