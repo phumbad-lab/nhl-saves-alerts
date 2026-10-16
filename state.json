@@ -3435,6 +3435,7 @@
   "injuries": {
     "ANA:8483445": {
       "alerted": true,
+      "missing_since": "2026-10-16T18:23:11Z",
       "out_at": "2026-10-13T17:36:13Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "DTD"
