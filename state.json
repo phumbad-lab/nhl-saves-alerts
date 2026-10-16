@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-16",
-  "credits_remaining": 19396,
+  "credits_remaining": 19395,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -230,7 +230,7 @@
     "343be4cf732ddd9fd0a058953456d811": {
       "commence_time": "2026-10-17T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-16T19:15:17Z",
+      "last_paid_check": "2026-10-16T19:30:19Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -242,6 +242,18 @@
             "over": -105,
             "point": 23.5,
             "under": -130
+          }
+        },
+        "fanduel": {
+          "Arturs Silovs": {
+            "over": -118,
+            "point": 28.5,
+            "under": -112
+          },
+          "Mackenzie Blackwood": {
+            "over": -132,
+            "point": 22.5,
+            "under": 100
           }
         }
       },
@@ -5925,6 +5937,18 @@
       "book": null,
       "event_id": "343be4cf732ddd9fd0a058953456d811",
       "goalie": "Arturs Silovs"
+    },
+    "349": {
+      "at": "2026-10-16T19:30:19Z",
+      "book": "FD",
+      "event_id": "343be4cf732ddd9fd0a058953456d811",
+      "goalie": "Arturs Silovs"
+    },
+    "350": {
+      "at": "2026-10-16T19:30:19Z",
+      "book": "FD",
+      "event_id": "343be4cf732ddd9fd0a058953456d811",
+      "goalie": "Mackenzie Blackwood"
     }
   },
   "shot_stats": {
