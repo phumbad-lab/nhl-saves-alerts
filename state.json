@@ -98,38 +98,6 @@
       },
       "matchup": "New York Rangers @ New Jersey Devils"
     },
-    "1fa1e7fd3028995ab8ffb6b498e4899d": {
-      "commence_time": "2026-10-14T02:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-13T19:56:30Z",
-      "lines": {
-        "draftkings": {
-          "Darcy Kuemper": {
-            "over": -110,
-            "point": 25.5,
-            "under": -125
-          },
-          "Devon Levi": {
-            "over": -105,
-            "point": 25.5,
-            "under": -130
-          }
-        },
-        "fanduel": {
-          "Darcy Kuemper": {
-            "over": -122,
-            "point": 25.5,
-            "under": -108
-          },
-          "Devon Levi": {
-            "over": 100,
-            "point": 25.5,
-            "under": -132
-          }
-        }
-      },
-      "matchup": "Edmonton Oilers @ Los Angeles Kings"
-    },
     "26e6afd471708bd7858f66f49d1f49f6": {
       "commence_time": "2026-10-16T00:10:00Z",
       "h2h_sent": true,
