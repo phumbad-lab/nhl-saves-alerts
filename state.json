@@ -3300,10 +3300,8 @@
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-10-15T16:53:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-10-16T13:42:12Z",
       "seen": "2026-10-15T16:53:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "DAL:8482740": {
       "alerted": true,
