@@ -3344,10 +3344,8 @@
     "OTT:8482105": {
       "alerted": true,
       "out_at": "2026-10-15T15:29:14Z",
-      "pending": "DTD",
-      "pending_since": "2026-10-16T13:40:17Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "PHI:8478439": {
       "out_at": "2026-10-10T13:58:11Z",
