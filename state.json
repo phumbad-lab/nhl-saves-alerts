@@ -3292,6 +3292,8 @@
     "BUF:8480839": {
       "alerted": true,
       "out_at": "2026-10-15T16:32:13Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-16T13:45:15Z",
       "seen": "2026-10-12T18:44:11Z",
       "status": "OUT"
     },
@@ -3312,6 +3314,8 @@
     "EDM:8475786": {
       "alerted": true,
       "out_at": "2026-10-15T17:10:18Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-16T13:45:15Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
     },
