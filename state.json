@@ -421,6 +421,12 @@
         }
       },
       "matchup": "Philadelphia Flyers @ Detroit Red Wings"
+    },
+    "c9ba2e7837386a5948a9c2233c36314c": {
+      "commence_time": "2026-10-17T19:40:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Carolina Hurricanes @ Winnipeg Jets"
     }
   },
   "game_log": {
@@ -5436,12 +5442,6 @@
     ]
   },
   "sent": {
-    "175": {
-      "at": "2026-10-13T15:10:17Z",
-      "book": null,
-      "event_id": "b4c66ffd89692fea91c3b1699915cc25",
-      "goalie": "Dan Vladar"
-    },
     "178": {
       "at": "2026-10-13T15:18:12Z",
       "book": "DK",
