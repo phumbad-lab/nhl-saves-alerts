@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-16",
-  "credits_remaining": 19409,
+  "credits_remaining": 19408,
   "events": {
     "11a7ac0ec88aba6f80c96ce654c805b7": {
       "commence_time": "2026-10-16T01:10:00Z",
@@ -341,8 +341,17 @@
     },
     "7c44228f4c2e89133b34a3c70bfb30c5": {
       "commence_time": "2026-10-17T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-16T17:54:11Z",
+      "lines": {
+        "draftkings": {
+          "Lukas Dostal": {
+            "over": -120,
+            "point": 21.5,
+            "under": -115
+          }
+        }
+      },
       "matchup": "Boston Bruins @ Anaheim Ducks"
     },
     "826b87745ff513a2f7ba27643fc47bce": {
@@ -1436,6 +1445,39 @@
   "gl_8484144": {
     "fetched": "2026-10-13T15:35:13Z",
     "value": []
+  },
+  "h2h_ANA-BOS": {
+    "fetched": "2026-10-16T17:54:11Z",
+    "value": [
+      [
+        "2025-11-19",
+        "BOS",
+        "ANA",
+        39,
+        33
+      ],
+      [
+        "2025-10-23",
+        "ANA",
+        "BOS",
+        30,
+        42
+      ],
+      [
+        "2025-03-26",
+        "BOS",
+        "ANA",
+        25,
+        37
+      ],
+      [
+        "2025-02-22",
+        "ANA",
+        "BOS",
+        29,
+        30
+      ]
+    ]
   },
   "h2h_ANA-CGY": {
     "fetched": "2026-10-13T17:29:10Z",
@@ -5291,14 +5333,14 @@
   "low_credit_warned": false,
   "night_graded": {},
   "roster_ANA": {
-    "fetched": "2026-10-13T17:29:10Z",
+    "fetched": "2026-10-16T17:54:11Z",
     "value": [
       "Lukas Dostal",
       "Ville Husso"
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-10-13T18:19:11Z",
+    "fetched": "2026-10-16T17:54:11Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -5945,6 +5987,12 @@
       "book": null,
       "event_id": "343be4cf732ddd9fd0a058953456d811",
       "goalie": "Mackenzie Blackwood"
+    },
+    "344": {
+      "at": "2026-10-16T17:54:11Z",
+      "book": null,
+      "event_id": "7c44228f4c2e89133b34a3c70bfb30c5",
+      "goalie": "Lukas Dostal"
     }
   },
   "shot_stats": {
