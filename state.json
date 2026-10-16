@@ -3434,12 +3434,10 @@
       "status": "DTD"
     },
     "BUF:8480839": {
-      "alerted": true,
-      "out_at": "2026-10-15T16:32:13Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-16T18:01:11Z",
+      "alerted": false,
+      "out_at": "2026-10-16T18:06:12Z",
       "seen": "2026-10-12T18:44:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CHI:8481524": {
       "alerted": true,
@@ -5570,12 +5568,6 @@
     ]
   },
   "sent": {
-    "226": {
-      "at": "2026-10-13T18:05:15Z",
-      "book": null,
-      "event_id": "1fa1e7fd3028995ab8ffb6b498e4899d",
-      "goalie": "Darcy Kuemper"
-    },
     "227": {
       "at": "2026-10-13T18:11:11Z",
       "book": "FD",
