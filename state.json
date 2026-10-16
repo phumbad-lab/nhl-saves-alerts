@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-16",
-  "credits_remaining": 19404,
+  "credits_remaining": 19403,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -230,9 +230,14 @@
     "343be4cf732ddd9fd0a058953456d811": {
       "commence_time": "2026-10-17T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-16T18:12:12Z",
+      "last_paid_check": "2026-10-16T18:28:12Z",
       "lines": {
         "draftkings": {
+          "Arturs Silovs": {
+            "over": -110,
+            "point": 28.5,
+            "under": -125
+          },
           "Mackenzie Blackwood": {
             "over": -105,
             "point": 23.5,
@@ -5969,6 +5974,12 @@
       "book": null,
       "event_id": "7c44228f4c2e89133b34a3c70bfb30c5",
       "goalie": "Michael DiPietro"
+    },
+    "347": {
+      "at": "2026-10-16T18:28:12Z",
+      "book": null,
+      "event_id": "343be4cf732ddd9fd0a058953456d811",
+      "goalie": "Arturs Silovs"
     }
   },
   "shot_stats": {
