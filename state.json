@@ -324,6 +324,12 @@
       "lines": {},
       "matchup": "Boston Bruins @ Anaheim Ducks"
     },
+    "841c71c033cf05ad1313e3d5ecd2d9ab": {
+      "commence_time": "2026-10-17T17:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "New Jersey Devils @ Washington Capitals"
+    },
     "9604eeafec33b8980e6565c617f04fc6": {
       "commence_time": "2026-10-15T00:40:00Z",
       "h2h_sent": true,
@@ -7074,7 +7080,7 @@
     "version": 5
   },
   "team_abbrevs": {
-    "fetched": "2026-10-15T15:04:13Z",
+    "fetched": "2026-10-16T15:04:16Z",
     "value": {
       "anaheimducks": "ANA",
       "bostonbruins": "BOS",
