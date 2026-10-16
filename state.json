@@ -5216,7 +5216,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-15": [
+      "12e8c7a75c196426888d2e9b0fcd946f|Nico Daws"
+    ]
+  },
   "roster_ANA": {
     "fetched": "2026-10-13T17:29:10Z",
     "value": [
