@@ -993,7 +993,7 @@ def results_message(graded, abbrevs=None, skip_bets=()):
             + ("didn't play (void)" if r["taken_result"] == "VOID" else
                f"{r['actual_saves']} saves" + {"W": " ✅", "L": " ❌", "P": " push"}.get(r["taken_result"], ""))
             for r in sorted(mine, key=lambda r: (r["date"], r["game"], r["goalie"])))
-    w, l, p, bets = my_record(all_rows)
+    w, l, p, bets = my_record(all_rows + past_bets())  # incl. bets from before logging
     if w or l or p:
         out += "\nYour season: " + fmt_record(w, l, p) + (f" ({bets} bets)" if bets != w + l + p else "")
     return out
@@ -1493,6 +1493,21 @@ def grade_taken(r):
     saves, line = float(r["actual_saves"]), float(r["taken_line"])
     r["taken_result"] = ("P" if saves == line else
                          "W" if (saves > line) == (r["taken"] == "OVER") else "L")
+
+
+PAST_BETS_FILE = os.path.join(HERE, "past_bets.csv")  # bets from before the bot logged them (Claude-edited)
+
+
+def past_bets():
+    """Straight saves bets from before logging started (owner's DK slips, Sep 30 - Oct 8), as
+    pick-log-like rows so they count in "Your season". One goalie per game."""
+    try:
+        with open(PAST_BETS_FILE, newline="") as f:
+            return [{"event_id": f"past:{r['date']}:{r['game']}", "goalie": r["goalie"],
+                     "taken": r["side"], "taken_line": r["line"], "taken_result": r["result"],
+                     "taken_at": r["date"], "date": r["date"]} for r in csv.DictReader(f)]
+    except FileNotFoundError:
+        return []
 
 
 def my_record(rows):
