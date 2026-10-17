@@ -753,7 +753,7 @@
       "matchup": "Philadelphia Flyers @ Detroit Red Wings"
     },
     "c9ba2e7837386a5948a9c2233c36314c": {
-      "commence_time": "2026-10-17T19:40:00Z",
+      "commence_time": "2026-10-17T19:45:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-10-17T19:20:16Z",
       "lines": {
@@ -4176,12 +4176,10 @@
       "status": "OUT"
     },
     "MTL:8476875": {
-      "alerted": true,
-      "out_at": "2026-10-14T16:57:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-17T19:31:10Z",
+      "alerted": false,
+      "out_at": "2026-10-17T19:36:10Z",
       "seen": "2026-10-13T14:15:18Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "OTT:8482105": {
       "alerted": true,
