@@ -4238,7 +4238,7 @@
       "status": "OUT"
     },
     "SEA:8477986": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-17T21:56:11Z",
       "seen": "2026-10-16T00:54:11Z",
       "status": "OUT"
