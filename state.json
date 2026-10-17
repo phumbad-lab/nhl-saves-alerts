@@ -242,6 +242,12 @@
       },
       "matchup": "Seattle Kraken @ Florida Panthers"
     },
+    "3af4496cf626dc3538fb93001aa2fba0": {
+      "commence_time": "2026-10-18T22:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Columbus Blue Jackets @ Minnesota Wild"
+    },
     "3fa8e135779ec383bce2be440d4ae030": {
       "commence_time": "2026-10-15T23:10:00Z",
       "h2h_sent": true,
@@ -3713,12 +3719,10 @@
       "status": "DTD"
     },
     "OTT:8482105": {
-      "alerted": true,
-      "out_at": "2026-10-15T15:29:14Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-17T16:04:10Z",
+      "alerted": false,
+      "out_at": "2026-10-17T16:10:15Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "PHI:8478439": {
       "out_at": "2026-10-10T13:58:11Z",
