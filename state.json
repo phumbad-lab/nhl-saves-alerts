@@ -5319,7 +5319,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-16": [
+      "7c44228f4c2e89133b34a3c70bfb30c5|Lukas Dostal"
+    ]
+  },
   "roster_ANA": {
     "fetched": "2026-10-16T17:54:11Z",
     "value": [
