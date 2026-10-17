@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19333,
+  "credits_remaining": 19332,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -601,9 +601,14 @@
     "e39eef5e74111ce110e9036298b318df": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T17:14:11Z",
+      "last_paid_check": "2026-10-17T17:30:19Z",
       "lines": {
         "draftkings": {
+          "Jake Oettinger": {
+            "over": -125,
+            "point": 20.5,
+            "under": -110
+          },
           "Spencer Knight": {
             "over": -120,
             "point": 25.5,
@@ -611,6 +616,11 @@
           }
         },
         "fanduel": {
+          "Jake Oettinger": {
+            "over": -108,
+            "point": 20.5,
+            "under": -122
+          },
           "Spencer Knight": {
             "over": -108,
             "point": 25.5,
@@ -1556,6 +1566,17 @@
       "2026-10-08",
       "2026-10-10",
       "2026-10-12"
+    ]
+  },
+  "gl_8481524": {
+    "fetched": "2026-10-17T17:30:19Z",
+    "value": [
+      "2026-09-29",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-13"
     ]
   },
   "gl_8481546": {
@@ -6333,6 +6354,12 @@
       "book": "FD",
       "event_id": "c9ba2e7837386a5948a9c2233c36314c",
       "goalie": "Clay Stevenson"
+    },
+    "383": {
+      "at": "2026-10-17T17:30:19Z",
+      "book": null,
+      "event_id": "e39eef5e74111ce110e9036298b318df",
+      "goalie": "Jake Oettinger"
     }
   },
   "shot_stats": {
