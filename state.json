@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19320,
+  "credits_remaining": 19318,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -511,7 +511,7 @@
     "95168b13c92e52aca0ad08f18b66ccd4": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T17:48:10Z",
+      "last_paid_check": "2026-10-17T18:03:10Z",
       "lines": {
         "fanduel": {
           "Dan Vladar": {
@@ -655,13 +655,13 @@
     "c9ba2e7837386a5948a9c2233c36314c": {
       "commence_time": "2026-10-17T19:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T17:48:10Z",
+      "last_paid_check": "2026-10-17T18:03:10Z",
       "lines": {
         "draftkings": {
           "Clay Stevenson": {
-            "over": -110,
+            "over": -115,
             "point": 27.5,
-            "under": -125
+            "under": -120
           }
         },
         "fanduel": {
