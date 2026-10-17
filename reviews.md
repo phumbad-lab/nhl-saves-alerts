@@ -6,7 +6,8 @@ Nothing here changes the model by itself (owner's rule: no rules on hunches; tes
 
 ## Read accuracy (season to date, from Oct 12)
 Judges the read on shot volume, not just the bet result.
-- **Through Oct 15:** Right reads ✅ 11 · Lucky wins 🍀 2 · Unlucky losses 😬 0 · Wrong reads ❌ 9 (read accuracy 11/22 = 50%)
+- **Through Oct 16:** Right reads ✅ 11 · Lucky wins 🍀 2 · Unlucky losses 😬 1 · Wrong reads ❌ 9 (volume read right ✅+😬 = 12/23 = 52%)
+- Oct 16: 😬1 (only one tagged goalie on a 2-game night).
 - Oct 15: ✅6 🍀1 ❌1.
 - Oct 14: ✅1 (only one tagged goalie on a 2-game night).
 - Oct 12 is partial (only Markstrom 🍀 and Wallstedt ❌ were reviewed); full nightly counting starts Oct 13 (✅4 ❌7).
@@ -16,11 +17,14 @@ Judges the read on shot volume, not just the bet result.
   - Oct 13: no new case. Caution on H2H generally: in 6 of the 7 wrong reads Oct 13 the H2H L4 *agreed* with the tag (Skinner 29.5, Allen 30, Stolarz 31 shots for overs; Hill 21.3, Blackwood 19.5, Luukkonen 26 for unders) — H2H did not save any of them. Only Dostal's H2H (26.8 on ANA) pointed against the lean under, and it was right (CGY 36).
   - Oct 14: H2H right on COL-DAL (DAL on COL avg 20.5 → 22 shots, Wedgewood under won; COL on DAL 27.5 → 27). Wrong on MTL-WSH (WSH on MTL avg 33.8 → only 23; MTL on WSH 26.8 → 30). Mixed — no edge from H2H alone yet.
   - Oct 15: H2H pointed against the model on 4 tagged reads — right on Woll (DET on PHI avg 26.0 → 26 vs 33.2 exp) and Levi (UTA on EDM 25.5 → 24 vs 29.7), wrong on Varlamov (OTT on NYI 25.5 → 19) and Merilainen (FLA on VAN 27.5 → 39). Owner's H2H reads: Skinner (CHI on WPG avg 22 → 28) wrong; Bobrovsky H2H (BUF on TOR avg 30) warned against his under and was right (34). Running tally when H2H disagrees with the model: 3 right / 3 wrong (Dostal, Woll, Levi vs Varlamov, Merilainen, + Oct 14 WSH). Still a coin flip; test once ~15–20 disagreements.
+  - Oct 16: H2H wrong twice. COL on PIT avg 27.3 vs model 31.6 exp → COL shot 32 (model right). Owner's "H2H looks good" on Dostal (BOS on ANA avg 34.0) → BOS shot 22. Running when H2H disagrees with the model: 3 right / 4 wrong.
 - **Home team "tight at home" in L5 shots against** (3 games, 3 support; Oct 15: owner took Daws u21.5 because NJD tight at home → NYR shot 19). Owner noted MIN allowing mid-20s at home in L5 (Oct 12, Wallstedt). Oct 13: owner faded Skinner (WPG) OVER 25.5 because WPG played tight at home last game → MIN shot 21. Test idea: home/road split of the last 5 vs. the season blend.
 - **Unders outperforming overs early** (season to Oct 12: OVER 6-6, UNDER 12-5; NO EDGE 62% under). Covered by the Oct 14 accuracy analysis.
   - Oct 13 mixed: OVER 2-3, UNDER 2-2, LEAN UNDER 0-2; NO EDGE 5 over / 12 under (71% under) — the under lean on lines keeps showing up even when the model's tags miss.
   - Oct 14: UNDER 1-0; NO EDGE 1 over / 2 under (Dobes 18 vs 25.5, DeSmith 25 vs 26.5; Lindgren 26 vs 23.5 over).
   - Oct 15 (contradicts): NO EDGE went 8 over / 4 under (one of the unders, Garand, was likely a pull). OVER 4-1, UNDER 3-0.
+  - Oct 16: NO EDGE 1 over / 2 under (Blackwood 29 vs 23.5; Dostal 18 vs 21.5; DiPietro 25 vs 27.5). LEAN OVER 0-1.
+- **Thin cushion (line within ~1 save of expected)** (from the Oct 13 takeaway; Oct 14 analysis had gap <1 save at 2-5 for Oct 7–13). Since then: Oct 15 Daws ✅, Grubauer ✅, Wolf ✅; Oct 16 Silovs 😬 (28.0 vs 28.5, volume on target, lost on save%). Running since Oct 15: 3-1. Test: record by gap bucket once ~15–20 thin-gap tags.
 - **Key defenseman out → more shots against** (new, from owner's notes Oct 13; 4 games: 2 support, 1 slight, 1 against). Dahlin out (BUF): MTL shot 38 vs 24.1 expected — owner faded the 🔥 UNDER for this reason. Roy out (WSH): CAR shot 35 vs 27.6. Makar out (COL, late): DAL 26 vs 24.6. Against: Matheson out (MTL): BUF shot only 17 vs 27.3. Oct 14 (5th game, support): Roy still out (WSH) → MTL shot 30 vs 27.3 expected. Oct 15 (5 more: 2 support, 3 against): Morrissey out (WPG) → CHI 28 vs 25.7; Byram out (CHI) → WPG 34 vs 27.7; against: Sanderson out (OTT) → NYI 21 vs 25.8; York out (PHI) → DET 26 vs 33.2; Faber out (MIN) → STL 25 vs 26.2 (slight). **Running: 10 games, 5 support, 1 slight support, 4 against (1 slight)** — weaker than it looked. Test: picks.csv `key_out` already logs this (injury stage 2) — compare team shots against vs expected with/without a key D out once ~15–20 games have one.
 - **Key shooter out → fewer shots for** (new, 1 game; this is injury stage 3's idea). Oct 14: Johnston out (DAL) → DAL shot 22 on COL vs 24.9 expected (H2H also low, so not clean evidence). Oct 15: Sanderson out (OTT) → OTT shot 19 on NYI vs 22.9 exp (support); Hyman out (EDM) → EDM 24 vs 23.1 (neutral); Marchand out (FLA) → FLA 39 vs 30.7 (against). Running 4 games: 2 support, 1 neutral, 1 against. (Dahlin was listed DTD but played — hat trick — so BUF isn't a case.) Test with picks.csv `key_out` (forwards) once ~15–20 games.
 
@@ -41,7 +45,7 @@ Judges the read on shot volume, not just the bet result.
 - 2026-10-15 · Daws (NJD) vs NYR · model UNDER u21.5 FD (LEAN UNDER 20.5 DK) · **owner took u21.5**: "NJ tight at home, H2H good" (NYR on NJD avg 21.8). NYR shot 19, 18 saves → won, read right; both reasons showed up.
 - Also followed the model (no note): Merilainen o26.5 W, Varlamov u25.5 W, Wolf o26.5 W, Grubauer o26.5 W, Levi o23.5 L, Woll o24.5 L (DK alerted 23.5, moved to 24.5 by the time he bet; 24 saves).
 
-- 2026-10-16 · Dostal (ANA) vs BOS · NO EDGE 21.5 · **owner took o21.5**: "h2h history looks good and BOS taking shots" (told in chat; the bot dropped it, fixed Oct 16). Result pending.
+- 2026-10-16 · Dostal (ANA) vs BOS · NO EDGE 21.5 DK / 23.5 FD · **owner took o21.5**: "h2h history looks good and BOS taking shots" (told in chat; the bot dropped it, fixed Oct 16). BOS shot 22 (exp 26.3), 18 saves → lost, read wrong on volume. H2H (BOS on ANA avg 34.0) didn't show; BOS L5 for was only 25.2 (about average).
 
 ## Daily reviews
 
@@ -87,3 +91,11 @@ Judges the read on shot volume, not just the bet result.
 - NO EDGE far past the line: Garand (NYR) 9 vs 28.5 (NJD shot 31 — likely pulled, not confirmed); Hofer (STL) 33 vs 26.5 (MIN 38); Nedeljkovic (SJS) 32 vs 22.5 (NSH 34); Hart (VGK) 28 vs 20.5 (CGY 30); Knight (CHI) 31 vs 24.5 (WPG 34, Byram out for CHI).
 - Shadows: B would have passed on Levi (NO EDGE) and added Ullmark UNDER (20 ✅) and Vasilevskiy LEAN UNDER (24 ❌); A had Wolf/Grubauer as LEAN OVER (both ✅).
 - **Owner's reads:** Daws (NJD tight at home + H2H) right. Skinner under wrong (CHI shot 28; H2H 22 misled). Bobrovsky under wrong — Dahlin actually played (hat trick); check the final lineup before betting on an injury listed DTD. Model beat him on the night; the two NO EDGE unders he took both lost.
+
+### 2026-10-16
+- **Night (2 games):** LEAN OVER 0-1 (model 0-1); read accuracy 😬1. NO EDGE 1 over / 2 under. Owner's bets 0-1.
+- 😬 Silovs (PIT) LEAN OVER 28.5 DK/FD — exp 28.0 sv / 31.6 shots; COL shot 32, 27 saves (.844). Volume came in as read; lost on 5 goals against. H2H (COL on PIT avg 27.3) pointed under and was wrong. Pull not confirmed (none likely at 27 saves).
+- NO EDGE: Blackwood (COL) 23.5 DK / 22.5 FD → 29 (PIT 31 shots vs ~25.6 exp). Dostal (ANA) 21.5 DK / 23.5 FD → 18 (BOS 22 vs 26.3; 4 GA). DiPietro (BOS) 27.5 DK / 26.5 FD → 25 (ANA 27 vs 28.1).
+- Shadows: B went 0-3 (Silovs OVER ❌, Blackwood UNDER ❌, DiPietro LEAN OVER FD ❌); A had no tags. Live model did better by staying NO EDGE.
+- **Owner's reads:** Dostal o21.5 lost — BOS shot only 22; neither reason (H2H 34 avg, BOS shooting) showed up. Model's NO EDGE was the better call (though it also leaned slightly over on volume).
+
