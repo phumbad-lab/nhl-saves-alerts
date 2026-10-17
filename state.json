@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19228,
+  "credits_remaining": 19227,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -585,7 +585,7 @@
     "b8769f5cc81325b0693ee4b3e3f41407": {
       "commence_time": "2026-10-18T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T23:20:15Z",
+      "last_paid_check": "2026-10-17T23:36:10Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -598,10 +598,10 @@
         },
         "fanduel": {
           "Adin Hill": {
-            "over": -114,
+            "over": -110,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617329474&selectionId=74843647",
-            "point": 21.5,
-            "under": -114,
+            "point": 20.5,
+            "under": -120,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617329474&selectionId=74843649"
           }
         }
