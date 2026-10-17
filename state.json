@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19246,
+  "credits_remaining": 19245,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -263,23 +263,23 @@
     "397fc11daab60801858ad82037395ae3": {
       "commence_time": "2026-10-17T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T21:25:12Z",
+      "last_paid_check": "2026-10-17T21:40:16Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
-            "over": -115,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA379940260%232324434621_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -115,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA379940260%232324434622_15L42133Q1888607062Q20"
           }
         },
         "fanduel": {
           "Jacob Markstrom": {
-            "over": -120,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617287370&selectionId=74591079",
             "point": 21.5,
-            "under": -110,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617287370&selectionId=74591081"
           }
         }
