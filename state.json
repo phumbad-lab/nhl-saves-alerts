@@ -4181,7 +4181,7 @@
       "status": "OUT"
     },
     "MTL:8476875": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-17T19:36:10Z",
       "seen": "2026-10-13T14:15:18Z",
       "status": "OUT"
