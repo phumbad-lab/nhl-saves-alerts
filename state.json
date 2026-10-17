@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19362,
+  "credits_remaining": 19361,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -541,7 +541,7 @@
     "e39eef5e74111ce110e9036298b318df": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T15:41:10Z",
+      "last_paid_check": "2026-10-17T15:56:11Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
@@ -3679,12 +3679,10 @@
       "status": "OUT"
     },
     "CHI:8481524": {
-      "alerted": true,
-      "out_at": "2026-10-15T16:53:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-17T15:50:15Z",
+      "alerted": false,
+      "out_at": "2026-10-17T15:56:11Z",
       "seen": "2026-10-15T16:53:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "DAL:8482740": {
       "alerted": true,
