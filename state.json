@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19373,
+  "credits_remaining": 19372,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -336,7 +336,7 @@
     "72d1180c19caf72334666cf7ccf93c48": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T15:00:23Z",
+      "last_paid_check": "2026-10-17T15:16:10Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -3684,6 +3684,8 @@
     "PHI:8481546": {
       "alerted": true,
       "out_at": "2026-10-14T17:59:12Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-17T15:16:10Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "DTD"
     },
