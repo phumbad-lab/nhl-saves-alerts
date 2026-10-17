@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19274,
+  "credits_remaining": 19271,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -257,7 +257,7 @@
     "397fc11daab60801858ad82037395ae3": {
       "commence_time": "2026-10-17T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:24:11Z",
+      "last_paid_check": "2026-10-17T19:40:17Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
@@ -632,9 +632,14 @@
     "a803d2ced256aea33428fbca55aba33e": {
       "commence_time": "2026-10-17T20:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:25:12Z",
+      "last_paid_check": "2026-10-17T19:40:17Z",
       "lines": {
         "fanduel": {
+          "Kevin Lankinen": {
+            "over": -118,
+            "point": 25.5,
+            "under": -112
+          },
           "Thatcher Demko": {
             "over": -122,
             "point": 25.5,
@@ -711,7 +716,7 @@
     "b8769f5cc81325b0693ee4b3e3f41407": {
       "commence_time": "2026-10-18T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:24:11Z",
+      "last_paid_check": "2026-10-17T19:40:17Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -6841,6 +6846,12 @@
       "book": "DK",
       "event_id": "b5419971529fadc0610c47b095627156",
       "goalie": "Tristan Jarry"
+    },
+    "417": {
+      "at": "2026-10-17T19:40:17Z",
+      "book": null,
+      "event_id": "a803d2ced256aea33428fbca55aba33e",
+      "goalie": "Kevin Lankinen"
     }
   },
   "shot_stats": {
