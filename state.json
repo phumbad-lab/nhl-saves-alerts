@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19328,
+  "credits_remaining": 19327,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -402,8 +402,22 @@
     },
     "826b87745ff513a2f7ba27643fc47bce": {
       "commence_time": "2026-10-17T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-17T17:39:10Z",
+      "lines": {
+        "fanduel": {
+          "Alex Nedeljkovic": {
+            "over": -108,
+            "point": 25.5,
+            "under": -122
+          },
+          "John Gibson": {
+            "over": -110,
+            "point": 23.5,
+            "under": -118
+          }
+        }
+      },
       "matchup": "San Jose Sharks @ Detroit Red Wings"
     },
     "841c71c033cf05ad1313e3d5ecd2d9ab": {
@@ -2719,6 +2733,39 @@
         "DET",
         33,
         23
+      ]
+    ]
+  },
+  "h2h_DET-SJS": {
+    "fetched": "2026-10-17T17:39:10Z",
+    "value": [
+      [
+        "2026-01-16",
+        "SJS",
+        "DET",
+        22,
+        25
+      ],
+      [
+        "2025-11-02",
+        "DET",
+        "SJS",
+        32,
+        18
+      ],
+      [
+        "2025-01-14",
+        "SJS",
+        "DET",
+        24,
+        28
+      ],
+      [
+        "2024-11-18",
+        "DET",
+        "SJS",
+        20,
+        34
       ]
     ]
   },
@@ -5787,7 +5834,7 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-10-15T18:37:10Z",
+    "fetched": "2026-10-17T17:39:10Z",
     "value": [
       "John Gibson",
       "Daniil Tarasov"
@@ -5892,7 +5939,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-15T17:07:12Z",
+    "fetched": "2026-10-17T17:39:10Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -6376,6 +6423,18 @@
       "book": null,
       "event_id": "8c3a146ab31ea5b382be8f36a0637798",
       "goalie": "Dylan Garand"
+    },
+    "386": {
+      "at": "2026-10-17T17:39:10Z",
+      "book": null,
+      "event_id": "826b87745ff513a2f7ba27643fc47bce",
+      "goalie": "Alex Nedeljkovic"
+    },
+    "387": {
+      "at": "2026-10-17T17:39:10Z",
+      "book": null,
+      "event_id": "826b87745ff513a2f7ba27643fc47bce",
+      "goalie": "John Gibson"
     }
   },
   "shot_stats": {
