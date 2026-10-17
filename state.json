@@ -1,11 +1,25 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19323,
+  "credits_remaining": 19322,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-17T17:53:09Z",
+      "lines": {
+        "fanduel": {
+          "Jordan Binnington": {
+            "over": -125,
+            "point": 23.5,
+            "under": -106
+          },
+          "Juuse Saros": {
+            "over": -112,
+            "point": 23.5,
+            "under": -118
+          }
+        }
+      },
       "matchup": "St Louis Blues @ Nashville Predators"
     },
     "11a7ac0ec88aba6f80c96ce654c805b7": {
@@ -3387,6 +3401,39 @@
       ]
     ]
   },
+  "h2h_NSH-STL": {
+    "fetched": "2026-10-17T17:53:09Z",
+    "value": [
+      [
+        "2026-02-02",
+        "STL",
+        "NSH",
+        34,
+        28
+      ],
+      [
+        "2025-12-27",
+        "NSH",
+        "STL",
+        32,
+        20
+      ],
+      [
+        "2025-12-15",
+        "NSH",
+        "STL",
+        26,
+        22
+      ],
+      [
+        "2025-12-11",
+        "STL",
+        "NSH",
+        26,
+        32
+      ]
+    ]
+  },
   "h2h_NSH-VGK": {
     "fetched": "2026-10-13T15:50:17Z",
     "value": [
@@ -5912,10 +5959,9 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-10-15T17:07:12Z",
+    "fetched": "2026-10-17T17:53:09Z",
     "value": [
       "Justus Annunen",
-      "Matt Murray",
       "Juuse Saros"
     ]
   },
@@ -5971,7 +6017,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-10-15T16:22:12Z",
+    "fetched": "2026-10-17T17:53:09Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -6029,18 +6075,6 @@
     ]
   },
   "sent": {
-    "264": {
-      "at": "2026-10-14T17:52:11Z",
-      "book": null,
-      "event_id": "9604eeafec33b8980e6565c617f04fc6",
-      "goalie": "Scott Wedgewood"
-    },
-    "265": {
-      "at": "2026-10-14T17:52:11Z",
-      "book": "DK",
-      "event_id": "9604eeafec33b8980e6565c617f04fc6",
-      "goalie": "Casey DeSmith"
-    },
     "266": {
       "at": "2026-10-14T19:08:11Z",
       "book": "FD",
@@ -6478,6 +6512,18 @@
       "book": null,
       "event_id": "72d1180c19caf72334666cf7ccf93c48",
       "goalie": "Ilya Sorokin"
+    },
+    "392": {
+      "at": "2026-10-17T17:53:09Z",
+      "book": null,
+      "event_id": "0fc72a0b9fd45e4ea478959e642a54f4",
+      "goalie": "Jordan Binnington"
+    },
+    "393": {
+      "at": "2026-10-17T17:53:09Z",
+      "book": null,
+      "event_id": "0fc72a0b9fd45e4ea478959e642a54f4",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
