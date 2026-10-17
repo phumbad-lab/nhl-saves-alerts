@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19295,
+  "credits_remaining": 19293,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -257,7 +257,7 @@
     "397fc11daab60801858ad82037395ae3": {
       "commence_time": "2026-10-17T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T18:38:10Z",
+      "last_paid_check": "2026-10-17T18:53:10Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
@@ -666,13 +666,20 @@
     "b8769f5cc81325b0693ee4b3e3f41407": {
       "commence_time": "2026-10-18T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T18:38:10Z",
+      "last_paid_check": "2026-10-17T18:53:10Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
-            "over": -120,
-            "point": 20.5,
-            "under": -115
+            "over": -105,
+            "point": 21.5,
+            "under": -130
+          }
+        },
+        "fanduel": {
+          "Adin Hill": {
+            "over": -110,
+            "point": 21.5,
+            "under": -120
           }
         }
       },
@@ -6693,6 +6700,12 @@
       "book": "DK",
       "event_id": "826b87745ff513a2f7ba27643fc47bce",
       "goalie": "John Gibson"
+    },
+    "405": {
+      "at": "2026-10-17T18:53:10Z",
+      "book": "FD",
+      "event_id": "b8769f5cc81325b0693ee4b3e3f41407",
+      "goalie": "Adin Hill"
     }
   },
   "shot_stats": {
