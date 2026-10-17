@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19351,
+  "credits_remaining": 19350,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -455,7 +455,7 @@
     "984292d22f1502fb5ec22d5619c3d12c": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T16:14:11Z",
+      "last_paid_check": "2026-10-17T16:30:19Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
@@ -474,6 +474,11 @@
             "over": -125,
             "point": 22.5,
             "under": -106
+          },
+          "Ukko-Pekka Luukkonen": {
+            "over": -110,
+            "point": 25.5,
+            "under": -120
           }
         }
       },
@@ -6256,6 +6261,12 @@
       "book": "FD",
       "event_id": "e39eef5e74111ce110e9036298b318df",
       "goalie": "Spencer Knight"
+    },
+    "373": {
+      "at": "2026-10-17T16:30:19Z",
+      "book": "FD",
+      "event_id": "984292d22f1502fb5ec22d5619c3d12c",
+      "goalie": "Ukko-Pekka Luukkonen"
     }
   },
   "shot_stats": {
