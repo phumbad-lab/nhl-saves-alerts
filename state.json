@@ -3531,7 +3531,7 @@
     "WSH"
   ],
   "keys_ANA": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Cutter",
@@ -3591,7 +3591,7 @@
     ]
   },
   "keys_BOS": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "David",
@@ -3651,7 +3651,7 @@
     ]
   },
   "keys_BUF": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Tage",
@@ -3700,7 +3700,7 @@
     ]
   },
   "keys_CAR": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Sebastian",
@@ -3760,7 +3760,7 @@
     ]
   },
   "keys_CBJ": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Zach",
@@ -3798,7 +3798,7 @@
     ]
   },
   "keys_CGY": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Matt",
@@ -3858,7 +3858,7 @@
     ]
   },
   "keys_CHI": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Connor",
@@ -3918,7 +3918,7 @@
     ]
   },
   "keys_COL": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Nathan",
@@ -3967,7 +3967,7 @@
     ]
   },
   "keys_DAL": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Jason",
@@ -4027,7 +4027,7 @@
     ]
   },
   "keys_DET": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Alex",
@@ -4087,7 +4087,7 @@
     ]
   },
   "keys_EDM": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Connor",
@@ -4136,7 +4136,7 @@
     ]
   },
   "keys_FLA": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Brady",
@@ -4196,7 +4196,7 @@
     ]
   },
   "keys_LAK": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Erik",
@@ -4256,7 +4256,7 @@
     ]
   },
   "keys_MIN": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Kirill",
@@ -4265,7 +4265,7 @@
         "last": "Kaprizov",
         "pos": "L",
         "role": "shooter",
-        "shots": 294,
+        "shots": 295,
         "sog": 3.4,
         "toi": 22.1
       },
@@ -4316,7 +4316,7 @@
     ]
   },
   "keys_MTL": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Cole",
@@ -4376,7 +4376,7 @@
     ]
   },
   "keys_NJD": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Jack",
@@ -4425,7 +4425,7 @@
     ]
   },
   "keys_NSH": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Filip",
@@ -4474,7 +4474,7 @@
     ]
   },
   "keys_NYI": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Bo",
@@ -4523,7 +4523,7 @@
     ]
   },
   "keys_NYR": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Pavel",
@@ -4583,7 +4583,7 @@
     ]
   },
   "keys_OTT": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Dylan",
@@ -4632,7 +4632,7 @@
     ]
   },
   "keys_PHI": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Owen",
@@ -4692,7 +4692,7 @@
     ]
   },
   "keys_PIT": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Rickard",
@@ -4752,7 +4752,7 @@
     ]
   },
   "keys_SEA": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Bobby",
@@ -4801,7 +4801,7 @@
     ]
   },
   "keys_SJS": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Macklin",
@@ -4861,7 +4861,7 @@
     ]
   },
   "keys_STL": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Mason",
@@ -4881,8 +4881,8 @@
         "last": "Holloway",
         "pos": "L",
         "role": "shooter",
-        "shots": 174,
-        "sog": 2.6,
+        "shots": 175,
+        "sog": 2.7,
         "toi": 18.2
       },
       {
@@ -4921,7 +4921,7 @@
     ]
   },
   "keys_TBL": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Brandon",
@@ -4970,7 +4970,7 @@
     ]
   },
   "keys_TOR": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Auston",
@@ -5030,7 +5030,7 @@
     ]
   },
   "keys_UTA": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Dylan",
@@ -5061,7 +5061,7 @@
         "last": "Schmaltz",
         "pos": "C",
         "role": "shooter",
-        "shots": 232,
+        "shots": 233,
         "sog": 2.6,
         "toi": 19.6
       },
@@ -5090,7 +5090,7 @@
     ]
   },
   "keys_VAN": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Jake",
@@ -5110,7 +5110,7 @@
         "last": "Boeser",
         "pos": "R",
         "role": "shooter",
-        "shots": 178,
+        "shots": 179,
         "sog": 2.1,
         "toi": 19.0
       },
@@ -5150,7 +5150,7 @@
     ]
   },
   "keys_VGK": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Jack",
@@ -5210,7 +5210,7 @@
     ]
   },
   "keys_WPG": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Kyle",
@@ -5270,7 +5270,7 @@
     ]
   },
   "keys_WSH": {
-    "fetched": "2026-10-16T14:01:10Z",
+    "fetched": "2026-10-17T02:01:10Z",
     "value": [
       {
         "first": "Alex",
