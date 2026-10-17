@@ -3684,6 +3684,8 @@
     "PHI:8481546": {
       "alerted": true,
       "out_at": "2026-10-14T17:59:12Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-17T15:18:11Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "DTD"
     },
