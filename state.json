@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19266,
+  "credits_remaining": 19265,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -632,7 +632,7 @@
     "a803d2ced256aea33428fbca55aba33e": {
       "commence_time": "2026-10-17T20:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:50:15Z",
+      "last_paid_check": "2026-10-17T20:06:10Z",
       "lines": {
         "draftkings": {
           "Kevin Lankinen": {
@@ -643,9 +643,9 @@
         },
         "fanduel": {
           "Kevin Lankinen": {
-            "over": -125,
+            "over": -118,
             "point": 25.5,
-            "under": -106
+            "under": -112
           },
           "Thatcher Demko": {
             "over": -122,
