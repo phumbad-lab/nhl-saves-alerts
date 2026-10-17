@@ -6058,7 +6058,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-17": [
+      "841c71c033cf05ad1313e3d5ecd2d9ab|Jake Allen",
+      "841c71c033cf05ad1313e3d5ecd2d9ab|Logan Thompson"
+    ]
+  },
   "roster_ANA": {
     "fetched": "2026-10-16T17:54:11Z",
     "value": [
