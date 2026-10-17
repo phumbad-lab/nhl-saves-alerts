@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19281,
+  "credits_remaining": 19278,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -536,8 +536,20 @@
     "95168b13c92e52aca0ad08f18b66ccd4": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:06:10Z",
+      "last_paid_check": "2026-10-17T19:21:11Z",
       "lines": {
+        "draftkings": {
+          "Dan Vladar": {
+            "over": 100,
+            "point": 23.5,
+            "under": -135
+          },
+          "Linus Ullmark": {
+            "over": -110,
+            "point": 21.5,
+            "under": -120
+          }
+        },
         "fanduel": {
           "Dan Vladar": {
             "over": -108,
@@ -635,9 +647,14 @@
     "ad530128f8a287b794e713643ee46757": {
       "commence_time": "2026-10-18T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:06:10Z",
+      "last_paid_check": "2026-10-17T19:21:11Z",
       "lines": {
         "draftkings": {
+          "Anton Forsberg": {
+            "over": -115,
+            "point": 22.5,
+            "under": -120
+          },
           "Jeremy Swayman": {
             "over": -120,
             "point": 25.5,
@@ -662,18 +679,30 @@
     "b5419971529fadc0610c47b095627156": {
       "commence_time": "2026-10-18T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T19:06:10Z",
+      "last_paid_check": "2026-10-17T19:21:11Z",
       "lines": {
-        "fanduel": {
+        "draftkings": {
           "Karel Vejmelka": {
-            "over": -112,
+            "over": -110,
             "point": 24.5,
-            "under": -118
+            "under": -125
           },
           "Tristan Jarry": {
-            "over": -128,
-            "point": 23.5,
-            "under": -104
+            "over": -125,
+            "point": 24.5,
+            "under": -105
+          }
+        },
+        "fanduel": {
+          "Karel Vejmelka": {
+            "over": -114,
+            "point": 24.5,
+            "under": -114
+          },
+          "Tristan Jarry": {
+            "over": -114,
+            "point": 24.5,
+            "under": -114
           }
         }
       },
@@ -6777,6 +6806,36 @@
       "book": null,
       "event_id": "c9ba2e7837386a5948a9c2233c36314c",
       "goalie": "Pyotr Kochetkov"
+    },
+    "410": {
+      "at": "2026-10-17T19:21:11Z",
+      "book": "DK",
+      "event_id": "95168b13c92e52aca0ad08f18b66ccd4",
+      "goalie": "Dan Vladar"
+    },
+    "411": {
+      "at": "2026-10-17T19:21:11Z",
+      "book": "DK",
+      "event_id": "95168b13c92e52aca0ad08f18b66ccd4",
+      "goalie": "Linus Ullmark"
+    },
+    "412": {
+      "at": "2026-10-17T19:21:11Z",
+      "book": "DK",
+      "event_id": "ad530128f8a287b794e713643ee46757",
+      "goalie": "Anton Forsberg"
+    },
+    "413": {
+      "at": "2026-10-17T19:21:11Z",
+      "book": "DK",
+      "event_id": "b5419971529fadc0610c47b095627156",
+      "goalie": "Karel Vejmelka"
+    },
+    "414": {
+      "at": "2026-10-17T19:21:11Z",
+      "book": "DK",
+      "event_id": "b5419971529fadc0610c47b095627156",
+      "goalie": "Tristan Jarry"
     }
   },
   "shot_stats": {
