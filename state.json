@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19327,
+  "credits_remaining": 19325,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -486,8 +486,22 @@
     },
     "95168b13c92e52aca0ad08f18b66ccd4": {
       "commence_time": "2026-10-17T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-17T17:48:10Z",
+      "lines": {
+        "fanduel": {
+          "Dan Vladar": {
+            "over": -110,
+            "point": 24.5,
+            "under": -120
+          },
+          "Linus Ullmark": {
+            "over": -122,
+            "point": 21.5,
+            "under": -108
+          }
+        }
+      },
       "matchup": "Ottawa Senators @ Philadelphia Flyers"
     },
     "984292d22f1502fb5ec22d5619c3d12c": {
@@ -603,7 +617,7 @@
     "c9ba2e7837386a5948a9c2233c36314c": {
       "commence_time": "2026-10-17T19:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T17:32:11Z",
+      "last_paid_check": "2026-10-17T17:48:10Z",
       "lines": {
         "draftkings": {
           "Clay Stevenson": {
@@ -1561,7 +1575,7 @@
     "value": []
   },
   "gl_8478439": {
-    "fetched": "2026-10-15T18:37:10Z",
+    "fetched": "2026-10-17T17:48:10Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -1604,7 +1618,7 @@
     ]
   },
   "gl_8481546": {
-    "fetched": "2026-10-15T18:37:10Z",
+    "fetched": "2026-10-17T17:48:10Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -1614,7 +1628,7 @@
     ]
   },
   "gl_8482105": {
-    "fetched": "2026-10-15T15:50:17Z",
+    "fetched": "2026-10-17T17:48:10Z",
     "value": [
       "2026-10-03"
     ]
@@ -3628,8 +3642,15 @@
     ]
   },
   "h2h_OTT-PHI": {
-    "fetched": "2026-10-08T17:50:16Z",
+    "fetched": "2026-10-17T17:48:10Z",
     "value": [
+      [
+        "2026-10-08",
+        "PHI",
+        "OTT",
+        29,
+        26
+      ],
       [
         "2026-02-05",
         "OTT",
@@ -3650,13 +3671,6 @@
         "OTT",
         23,
         33
-      ],
-      [
-        "2025-04-13",
-        "PHI",
-        "OTT",
-        32,
-        25
       ]
     ]
   },
@@ -3878,6 +3892,7 @@
     },
     "MIN:8478864": {
       "alerted": false,
+      "missing_since": "2026-10-17T17:48:10Z",
       "out_at": null,
       "seen": "2026-10-16T03:24:12Z",
       "status": "DTD"
@@ -5911,14 +5926,14 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-10-15T15:50:17Z",
+    "fetched": "2026-10-17T17:48:10Z",
     "value": [
       "Samuel Ersson",
       "Linus Ullmark"
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-10-15T18:37:10Z",
+    "fetched": "2026-10-17T17:48:10Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -6435,6 +6450,18 @@
       "book": null,
       "event_id": "826b87745ff513a2f7ba27643fc47bce",
       "goalie": "John Gibson"
+    },
+    "389": {
+      "at": "2026-10-17T17:48:10Z",
+      "book": null,
+      "event_id": "95168b13c92e52aca0ad08f18b66ccd4",
+      "goalie": "Dan Vladar"
+    },
+    "390": {
+      "at": "2026-10-17T17:48:10Z",
+      "book": null,
+      "event_id": "95168b13c92e52aca0ad08f18b66ccd4",
+      "goalie": "Linus Ullmark"
     }
   },
   "shot_stats": {
