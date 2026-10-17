@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19378,
+  "credits_remaining": 19377,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
@@ -335,8 +335,17 @@
     },
     "72d1180c19caf72334666cf7ccf93c48": {
       "commence_time": "2026-10-17T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-17T15:00:23Z",
+      "lines": {
+        "draftkings": {
+          "Sergei Bobrovsky": {
+            "over": -110,
+            "point": 25.5,
+            "under": -120
+          }
+        }
+      },
       "matchup": "New York Islanders @ Toronto Maple Leafs"
     },
     "7c44228f4c2e89133b34a3c70bfb30c5": {
@@ -3212,6 +3221,39 @@
       ]
     ]
   },
+  "h2h_NYI-TOR": {
+    "fetched": "2026-10-17T15:00:23Z",
+    "value": [
+      [
+        "2026-09-30",
+        "NYI",
+        "TOR",
+        27,
+        26
+      ],
+      [
+        "2026-04-09",
+        "TOR",
+        "NYI",
+        16,
+        44
+      ],
+      [
+        "2026-03-17",
+        "NYI",
+        "TOR",
+        34,
+        27
+      ],
+      [
+        "2026-01-03",
+        "TOR",
+        "NYI",
+        21,
+        25
+      ]
+    ]
+  },
   "h2h_NYI-VAN": {
     "fetched": "2026-10-13T14:32:13Z",
     "value": [
@@ -5612,7 +5654,7 @@
     ]
   },
   "roster_NYI": {
-    "fetched": "2026-10-15T15:50:17Z",
+    "fetched": "2026-10-17T15:00:23Z",
     "value": [
       "Ilya Sorokin",
       "Semyon Varlamov"
@@ -5677,7 +5719,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-15T15:10:17Z",
+    "fetched": "2026-10-17T15:00:23Z",
     "value": [
       "Sergei Bobrovsky",
       "Anthony Stolarz"
@@ -6074,6 +6116,12 @@
       "book": null,
       "event_id": "984292d22f1502fb5ec22d5619c3d12c",
       "goalie": "Jacob Fowler"
+    },
+    "362": {
+      "at": "2026-10-17T15:00:23Z",
+      "book": null,
+      "event_id": "72d1180c19caf72334666cf7ccf93c48",
+      "goalie": "Sergei Bobrovsky"
     }
   },
   "shot_stats": {
@@ -7215,5 +7263,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088063
+  "tg_offset": 69088064
 }
