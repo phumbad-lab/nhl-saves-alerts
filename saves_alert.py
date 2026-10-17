@@ -175,7 +175,16 @@ def ul(label):
     return f"{UL}{label}{UL_END}"
 
 
+LINK, LINK_MID, LINK_END = "\x03", "\x04", "\x05"  # tap-to-bet link markers
+
+
+def link(label, url):
+    """A word you can tap to open that bet on your DK/FD slip (owner Oct 17). No url = plain word."""
+    return f"{LINK}{url}{LINK_MID}{label}{LINK_END}" if url else label
+
+
 def plain(text):
+    text = re.sub(f"{LINK}[^{LINK_MID}]*{LINK_MID}", "", text).replace(LINK_END, "")
     return text.replace(UL, "").replace(UL_END, "")
 
 
@@ -192,9 +201,11 @@ def send_push(title, message, silent=None):
         "disable_notification": "true" if (SILENT if silent is None else silent) else "false",
         "disable_web_page_preview": "true",
     }
-    if UL in text:
-        fields["text"] = (html.escape(text, quote=False)
-                          .replace(UL, "<u>").replace(UL_END, "</u>"))[:4096]
+    if UL in text or LINK in text:
+        body = html.escape(text, quote=True).replace(UL, "<u>").replace(UL_END, "</u>")
+        body = re.sub(f"{LINK}([^{LINK_MID}]*){LINK_MID}([^{LINK_END}]*){LINK_END}",
+                      r'<a href="\1">\2</a>', body)
+        fields["text"] = body[:4096]
         fields["parse_mode"] = "HTML"
     payload = urllib.parse.urlencode(fields).encode("utf-8")
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
@@ -259,6 +270,8 @@ def extract_lines(event_odds):
                 side = (o.get("name") or "").lower()
                 if side in ("over", "under"):
                     entry[side] = o.get("price")
+                    if o.get("link"):
+                        entry[f"{side}_link"] = o["link"]  # opens this bet on your slip
                     if o.get("point") is not None:
                         entry["point"] = o.get("point")
     return out
@@ -645,12 +658,17 @@ def fire_context(event, ab, h2h, raw, m):
     return {"event": event, "ab": ab, "h2h": h2h, "raw": raw, "lg": lg}
 
 
-def target_tag(expected, point, delta, side=None, ctx=None):
+def target_tag(expected, point, delta, side=None, ctx=None, ln=None):
+    """' UNDER 🔥' etc. With the book's line (ln), the tag word is a tap-to-bet link for that side;
+    NO EDGE (or no tag) gets ' O/U' where O and U each open that bet (owner Oct 17)."""
     code = tag_code(expected, point, delta)
-    if not code:
-        return ""
-    fire = " 🔥" if is_fire(code, expected, point, side, ctx) else ""
-    return f" {TAG_LABELS[code]}{fire}"
+    ln = ln or {}
+    if code in BET_SIDE:
+        fire = " 🔥" if is_fire(code, expected, point, side, ctx) else ""
+        return f" {link(TAG_LABELS[code], ln.get(BET_SIDE[code].lower() + '_link'))}{fire}"
+    ou = (f" {link('O', ln.get('over_link'))}/{link('U', ln.get('under_link'))}"
+          if ln.get("over_link") or ln.get("under_link") else "")
+    return (f" {TAG_LABELS[code]}" if code else "") + ou
 
 
 # ---------- pick log & grading ----------
@@ -1104,7 +1122,7 @@ def book_parts(player, current, expected, delta, side=None, ctx=None):
         ln = current.get(book, {}).get(player)
         short = BOOK_SHORT.get(book, book)
         if ln:
-            parts.append(f"{short} {ln.get('point')}{target_tag(expected, ln.get('point'), delta, side, ctx)}")
+            parts.append(f"{short} {ln.get('point')}{target_tag(expected, ln.get('point'), delta, side, ctx, ln)}")
         else:
             parts.append(f"{short} not yet")
     return parts
@@ -1158,7 +1176,7 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         side = sides.get(player)
         g = m[side] if (m and side) else None
         ln = current.get(book, {}).get(player, {})
-        tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx)
+        tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx, ln)
         who_ = (f"{last_name(player)} ({ab[side]})" if side
                 else f"{last_name(player)} ({ab['away']}@{ab['home']})")
         reminder, better = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
@@ -2099,6 +2117,7 @@ def main():
             "bookmakers": ",".join(BOOKS),
             "markets": MARKET,
             "oddsFormat": "american",
+            "includeLinks": "true",  # tap-to-bet links (free with the same call)
         })
         checks += 1
         if rem is not None:
