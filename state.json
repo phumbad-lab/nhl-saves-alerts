@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19314,
+  "credits_remaining": 19311,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -517,7 +517,7 @@
     "95168b13c92e52aca0ad08f18b66ccd4": {
       "commence_time": "2026-10-17T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T18:03:10Z",
+      "last_paid_check": "2026-10-17T18:18:10Z",
       "lines": {
         "fanduel": {
           "Dan Vladar": {
@@ -607,18 +607,18 @@
     "ad530128f8a287b794e713643ee46757": {
       "commence_time": "2026-10-18T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T18:02:12Z",
+      "last_paid_check": "2026-10-17T18:18:10Z",
       "lines": {
         "fanduel": {
           "Anton Forsberg": {
-            "over": -128,
+            "over": -120,
             "point": 22.5,
-            "under": -104
+            "under": -110
           },
           "Jeremy Swayman": {
-            "over": -102,
+            "over": -114,
             "point": 25.5,
-            "under": -130
+            "under": -114
           }
         }
       },
@@ -675,7 +675,7 @@
     "c9ba2e7837386a5948a9c2233c36314c": {
       "commence_time": "2026-10-17T19:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T18:03:10Z",
+      "last_paid_check": "2026-10-17T18:18:10Z",
       "lines": {
         "draftkings": {
           "Clay Stevenson": {
@@ -4013,13 +4013,6 @@
       "out_at": "2026-10-10T13:58:11Z",
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
-    },
-    "MIN:8478864": {
-      "alerted": false,
-      "missing_since": "2026-10-17T17:48:10Z",
-      "out_at": null,
-      "seen": "2026-10-16T03:24:12Z",
-      "status": "DTD"
     },
     "MIN:8482122": {
       "out_at": "2026-10-10T13:58:11Z",
