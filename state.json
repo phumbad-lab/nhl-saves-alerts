@@ -4228,6 +4228,8 @@
     "PHI:8480015": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-10-17T22:48:11Z",
       "seen": "2026-10-17T15:31:09Z",
       "status": "DTD"
     },
