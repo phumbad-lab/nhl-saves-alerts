@@ -1,11 +1,11 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19316,
+  "credits_remaining": 19315,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T17:53:09Z",
+      "last_paid_check": "2026-10-17T18:08:10Z",
       "lines": {
         "fanduel": {
           "Jordan Binnington": {
@@ -7750,5 +7750,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088071
+  "tg_offset": 69088073
 }
