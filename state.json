@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19227,
+  "credits_remaining": 19226,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -11,7 +11,7 @@
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T23:25:12Z",
+      "last_paid_check": "2026-10-17T23:40:15Z",
       "lines": {
         "draftkings": {
           "Jordan Binnington": {
@@ -20,6 +20,13 @@
             "point": 23.5,
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380002122%232324661288_15L42133Q184490156Q20"
+          },
+          "Juuse Saros": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380068948%232324933717_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380068948%232324933718_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
@@ -6738,6 +6745,12 @@
       "book": null,
       "event_id": "397fc11daab60801858ad82037395ae3",
       "goalie": "Joey Daccord"
+    },
+    "426": {
+      "at": "2026-10-17T23:40:15Z",
+      "book": "DK",
+      "event_id": "0fc72a0b9fd45e4ea478959e642a54f4",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
