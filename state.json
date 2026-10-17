@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19235,
+  "credits_remaining": 19233,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -11,7 +11,7 @@
     "0fc72a0b9fd45e4ea478959e642a54f4": {
       "commence_time": "2026-10-18T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T22:34:10Z",
+      "last_paid_check": "2026-10-17T22:49:10Z",
       "lines": {
         "draftkings": {
           "Jordan Binnington": {
@@ -740,7 +740,7 @@
     "b8769f5cc81325b0693ee4b3e3f41407": {
       "commence_time": "2026-10-18T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-17T22:34:10Z",
+      "last_paid_check": "2026-10-17T22:49:10Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
