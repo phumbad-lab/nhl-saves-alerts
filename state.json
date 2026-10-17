@@ -5875,18 +5875,6 @@
     ]
   },
   "sent": {
-    "261": {
-      "at": "2026-10-14T16:54:11Z",
-      "book": null,
-      "event_id": "11b474310b2b60cbae546d9c517444c6",
-      "goalie": "Charlie Lindgren"
-    },
-    "262": {
-      "at": "2026-10-14T16:54:11Z",
-      "book": "DK",
-      "event_id": "11b474310b2b60cbae546d9c517444c6",
-      "goalie": "Jakub Dobes"
-    },
     "264": {
       "at": "2026-10-14T17:52:11Z",
       "book": null,
@@ -7423,5 +7411,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088066
+  "tg_offset": 69088067
 }
