@@ -1,6 +1,6 @@
 {
   "corrections_checked": "2026-10-17",
-  "credits_remaining": 19291,
+  "credits_remaining": 19290,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -619,8 +619,17 @@
     },
     "a803d2ced256aea33428fbca55aba33e": {
       "commence_time": "2026-10-17T20:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-17T19:03:10Z",
+      "lines": {
+        "fanduel": {
+          "Thatcher Demko": {
+            "over": -122,
+            "point": 25.5,
+            "under": -108
+          }
+        }
+      },
       "matchup": "Vancouver Canucks @ Tampa Bay Lightning"
     },
     "ad530128f8a287b794e713643ee46757": {
@@ -3998,6 +4007,39 @@
       ]
     ]
   },
+  "h2h_TBL-VAN": {
+    "fetched": "2026-10-17T19:03:10Z",
+    "value": [
+      [
+        "2026-03-19",
+        "TBL",
+        "VAN",
+        31,
+        21
+      ],
+      [
+        "2025-11-16",
+        "VAN",
+        "TBL",
+        18,
+        30
+      ],
+      [
+        "2024-12-08",
+        "TBL",
+        "VAN",
+        33,
+        25
+      ],
+      [
+        "2024-10-15",
+        "VAN",
+        "TBL",
+        27,
+        27
+      ]
+    ]
+  },
   "h2h_TOR-UTA": {
     "fetched": "2026-10-13T17:24:55Z",
     "value": [
@@ -6152,7 +6194,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-10-15T16:31:11Z",
+    "fetched": "2026-10-17T19:03:10Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -6173,7 +6215,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-10-15T16:06:12Z",
+    "fetched": "2026-10-17T19:03:10Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -6706,6 +6748,12 @@
       "book": "FD",
       "event_id": "b8769f5cc81325b0693ee4b3e3f41407",
       "goalie": "Adin Hill"
+    },
+    "406": {
+      "at": "2026-10-17T19:03:10Z",
+      "book": null,
+      "event_id": "a803d2ced256aea33428fbca55aba33e",
+      "goalie": "Thatcher Demko"
     }
   },
   "shot_stats": {
