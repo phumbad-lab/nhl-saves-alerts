@@ -1,5 +1,5 @@
 {
-  "corrections_checked": "2026-10-16",
+  "corrections_checked": "2026-10-17",
   "credits_remaining": 19394,
   "events": {
     "0fc72a0b9fd45e4ea478959e642a54f4": {
@@ -5334,11 +5334,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-16": [
-      "7c44228f4c2e89133b34a3c70bfb30c5|Lukas Dostal"
-    ]
-  },
+  "night_graded": {},
   "roster_ANA": {
     "fetched": "2026-10-16T17:54:11Z",
     "value": [
