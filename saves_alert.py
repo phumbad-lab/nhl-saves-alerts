@@ -188,7 +188,7 @@ def plain(text):
     return text.replace(UL, "").replace(UL_END, "")
 
 
-def send_push(title, message, silent=None):
+def send_push(title, message, silent=None, chat_id=None, reply_to=None):
     """Send a Telegram message from your bot to your chat. Text with ul() labels is sent as HTML
     so the labels show underlined."""
     text = f"{title}\n{message}" if title else message
@@ -196,11 +196,13 @@ def send_push(title, message, silent=None):
         print(f"[dry run, no Telegram keys] {plain(text)}\n")
         return
     fields = {
-        "chat_id": TELEGRAM_CHAT_ID,
+        "chat_id": chat_id or TELEGRAM_CHAT_ID,
         "text": text[:4096],
         "disable_notification": "true" if (SILENT if silent is None else silent) else "false",
         "disable_web_page_preview": "true",
     }
+    if reply_to:
+        fields["reply_to_message_id"] = reply_to
     if UL in text or LINK in text:
         body = html.escape(text, quote=True).replace(UL, "<u>").replace(UL_END, "</u>")
         body = re.sub(f"{LINK}([^{LINK_MID}]*){LINK_MID}([^{LINK_END}]*){LINK_END}",
@@ -850,6 +852,12 @@ def recheck_corrections(state, now):
                  if x.get("result") != b.get("result")]
         lines.append(line + "".join(f" · {f}" for f in dict.fromkeys(flips + model)))
     send_push("", "🔁 Stat correction" + ("s" if len(lines) > 1 else "") + ":\n" + "\n".join(lines))
+    for (event_id, goalie), pairs in changed.items():
+        first = min((x for x, b in pairs if x.get("taken")), key=lambda x: x.get("taken_at", ""), default=None)
+        if first:
+            old = next(b for x, b in pairs if x is first)
+            if old.get("taken_result") != first.get("taken_result"):
+                channel_result(state, rows, event_id, goalie, correction_from=f"{old['actual_saves']} saves")
     print("CORRECTIONS " + " | ".join(lines))
 
 
@@ -1699,7 +1707,7 @@ def process_replies(state, now):
     """Read your messages to the bot. Swipe left on an alert and reply "in", or type
     "I took Jarry 23u, Fowler 22o". Each run reads new messages once."""
     updates = tg_call("getUpdates", {"offset": state.get("tg_offset", 0), "timeout": 0,
-                                     "allowed_updates": json.dumps(["message"])})
+                                     "allowed_updates": json.dumps(["message", "my_chat_member"])})
     resends = []  # handled later in the run, once stats and injuries are loaded
     if not updates:
         return resends, []
@@ -1707,6 +1715,9 @@ def process_replies(state, now):
     rows, changed = None, False
     for u in updates:
         state["tg_offset"] = u["update_id"] + 1
+        if u.get("my_chat_member"):
+            channel_membership(state, u["my_chat_member"])
+            continue
         msg = u.get("message") or {}
         if str((msg.get("chat") or {}).get("id")) != str(TELEGRAM_CHAT_ID):
             continue
@@ -1770,6 +1781,10 @@ def process_replies(state, now):
                      + ("\n" if done and problems else "") + "\n".join(problems))
     if changed:
         save_picks(rows)
+        try:
+            channel_sync(state, rows, now)
+        except Exception as e:
+            print(f"Picks channel update skipped ({e}).")
     return resends, manual
 
 
@@ -1805,6 +1820,112 @@ def plays_summary(rows, state, now, yesterday=False):
         w, l, p, _ = my_record(mine)
         foot += " · " + fmt_record(w, l, p)
     return head + "\n" + "\n".join(lines) + "\n" + foot
+
+
+# ---------- picks channel (owner Oct 18): your plays, posted for friends ----------
+# A private Telegram channel you own, with this bot as an admin. Only you (via the bot) post;
+# no comments unless you link a discussion group; reactions are a channel setting.
+
+def channel_membership(state, upd):
+    """You added (or removed) the bot as an admin of a channel: remember it as the picks channel."""
+    chat, who = upd.get("chat") or {}, upd.get("from") or {}
+    if chat.get("type") != "channel" or str(who.get("id")) != str(TELEGRAM_CHAT_ID):
+        return  # only channels, and only when you're the one who added the bot
+    status = (upd.get("new_chat_member") or {}).get("status")
+    title = chat.get("title") or "your channel"
+    if status == "administrator":
+        state["picks_channel"] = {"id": chat["id"], "title": title}
+        send_push("", f"📣 Picks channel connected: {title}. From now on, when you log a bet "
+                      f"with in before puck drop, I'll post the play there, then the result.")
+    elif status in ("left", "kicked", "member") and (state.get("picks_channel") or {}).get("id") == chat.get("id"):
+        state.pop("picks_channel", None)
+        send_push("", f"📣 Picks channel disconnected ({title}). Nothing will be posted there.")
+
+
+def channel_play(rows, state, event_id, goalie):
+    """'Markstrom (FLA) u23.5 · FLA@BUF 7:10PM' for the first bet you logged on this goalie,
+    with the play linked to that book's bet slip when we have the link."""
+    bets = sorted((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken")),
+                  key=lambda r: r.get("taken_at", ""))
+    if not bets:
+        return None, None
+    r = bets[0]
+    play = f"{r['taken'][0].lower()}{r['taken_line']}"
+    rec = state["events"].get(event_id, {})
+    full = next((k for k, v in BOOK_SHORT.items() if v == r["book"]), None)
+    ln = rec.get("lines", {}).get(full, {}).get(goalie, {})
+    url = ln.get(r["taken"].lower() + "_link") if str(ln.get("point")) == str(float(r["taken_line"])) else None
+    abbrevs = (state.get("team_abbrevs") or {}).get("value") or {}
+    away = abbrevs.get(team_key(r["away_team"])) or nickname(r["away_team"])
+    home = abbrevs.get(team_key(r["home_team"])) or nickname(r["home_team"])
+    name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
+    return f"{name} {link(play, url)} · {away}@{home} {fmt_time(r['commence_time'])}", play
+
+
+def channel_sync(state, rows, now):
+    """After you log bets: post each new goalie's play to the picks channel (once per goalie per
+    game, only before puck drop), and take a post down if you 'out' it before puck drop."""
+    ch = state.get("picks_channel")
+    if not ch:
+        return
+    posts = state.setdefault("channel_posts", {})
+    taken = {(r["event_id"], r["goalie"]) for r in rows if r.get("taken") and r.get("commence_time")
+             and parse_iso(r["commence_time"]) > now}
+    for event_id, goalie in sorted(taken):
+        key = f"{event_id}|{goalie}"
+        if key in posts:
+            continue
+        text, play = channel_play(rows, state, event_id, goalie)
+        if text:
+            mid = send_push("", text, chat_id=ch["id"])
+            if mid:
+                start = next(r["commence_time"] for r in rows if r["event_id"] == event_id)
+                posts[key] = {"mid": mid, "play": play, "start": start}
+    for key, post in list(posts.items()):
+        event_id, goalie = key.split("|", 1)
+        if (event_id, goalie) not in taken and parse_iso(post["start"]) > now \
+                and not any(r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken") for r in rows):
+            tg_call("deleteMessage", {"chat_id": ch["id"], "message_id": post["mid"]})  # you took it back
+            posts.pop(key)
+    cutoff = iso(now - timedelta(days=3))
+    state["channel_posts"] = {k: v for k, v in posts.items() if v["start"] > cutoff}
+
+
+def channel_result(state, rows, event_id, goalie, correction_from=None):
+    """Reply to the play's post with the result: '✅ Markstrom (FLA) u23.5: 20 saves'."""
+    ch, post = state.get("picks_channel"), (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
+    if not (ch and post):
+        return
+    bets = sorted((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken")),
+                  key=lambda r: r.get("taken_at", ""))
+    if not bets:
+        return
+    r = bets[0]
+    name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
+    if r.get("taken_result") == "VOID":
+        text = f"{name} {post['play']}: didn't play (void)"
+    else:
+        text = f"{MARKS.get(r.get('taken_result'), '')} {name} {post['play']}: {r['actual_saves']} saves"
+    if correction_from is not None:
+        text = f"🔁 Stat correction: {text} (was {correction_from})"
+    send_push("", text, chat_id=ch["id"], reply_to=post["mid"])
+    post["done"] = True
+
+
+def channel_catchup(state):
+    """Post the result for every channel play that's been graded (live or in the morning)."""
+    posts = state.get("channel_posts") or {}
+    if not (state.get("picks_channel") and any(not p.get("done") for p in posts.values())):
+        return
+    rows = load_picks()
+    for key, post in posts.items():
+        if post.get("done"):
+            continue
+        event_id, goalie = key.split("|", 1)
+        first = min((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken")),
+                    key=lambda r: r.get("taken_at", ""), default=None)
+        if first and first.get("taken_result") in ("W", "L", "P", "VOID"):
+            channel_result(state, rows, event_id, goalie)
 
 
 def save_note(msg, rows, target, now, quiet=False):
@@ -2027,6 +2148,10 @@ def main():
         live_results(state, now)  # your bets, texted as each game ends (free)
     except Exception as e:
         print(f"Live results skipped ({e}).")
+    try:
+        channel_catchup(state)  # results to the picks channel
+    except Exception as e:
+        print(f"Picks channel results skipped ({e}).")
 
     events, remaining = api_get(f"/sports/{SPORT}/events", {
         "commenceTimeFrom": iso(now),
