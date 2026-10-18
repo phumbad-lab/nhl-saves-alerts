@@ -1,11 +1,11 @@
 {
   "corrections_checked": "2026-10-18",
-  "credits_remaining": 19194,
+  "credits_remaining": 19192,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-18T16:56:10Z",
+      "last_paid_check": "2026-10-18T17:12:10Z",
       "lines": {
         "draftkings": {
           "Brandon Bussi": {
@@ -14,6 +14,13 @@
             "point": 20.5,
             "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380109122%232325490487_15L42133Q1-1449474Q20"
+          },
+          "Devin Cooley": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380339025%232326269089_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380339025%232326269090_15L42133Q1-941301704Q20"
           }
         }
       },
@@ -127,7 +134,7 @@
     "3af4496cf626dc3538fb93001aa2fba0": {
       "commence_time": "2026-10-18T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-18T16:56:10Z",
+      "last_paid_check": "2026-10-18T17:12:10Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -6745,6 +6752,12 @@
       "book": null,
       "event_id": "0922c474e6588f94af491684dbae6cdb",
       "goalie": "Brandon Bussi"
+    },
+    "445": {
+      "at": "2026-10-18T17:12:10Z",
+      "book": null,
+      "event_id": "0922c474e6588f94af491684dbae6cdb",
+      "goalie": "Devin Cooley"
     }
   },
   "shot_stats": {
