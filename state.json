@@ -6255,24 +6255,6 @@
     ]
   },
   "sent": {
-    "311": {
-      "at": "2026-10-15T18:36:12Z",
-      "book": "DK",
-      "event_id": "12e8c7a75c196426888d2e9b0fcd946f",
-      "goalie": "Nico Daws"
-    },
-    "312": {
-      "at": "2026-10-15T18:36:12Z",
-      "book": "FD",
-      "event_id": "6bc27423a73c4cf1b34cd3c5dc19c8bc",
-      "goalie": "Andrei Vasilevskiy"
-    },
-    "313": {
-      "at": "2026-10-15T18:37:10Z",
-      "book": null,
-      "event_id": "beffe22ff3d46b84b1b4e36b0970ccba",
-      "goalie": "Joseph Woll"
-    },
     "315": {
       "at": "2026-10-15T18:40:16Z",
       "book": "FD",
