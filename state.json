@@ -6052,6 +6052,10 @@
   },
   "low_credit_warned": false,
   "night_graded": {},
+  "picks_channel": {
+    "id": -1004494282683,
+    "title": "TheSaveMan"
+  },
   "roster_ANA": {
     "fetched": "2026-10-16T17:54:11Z",
     "value": [
@@ -7858,5 +7862,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088080
+  "tg_offset": 69088081
 }
