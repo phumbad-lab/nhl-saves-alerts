@@ -496,6 +496,12 @@
       },
       "matchup": "Pittsburgh Penguins @ Vegas Golden Knights"
     },
+    "c8d71abe9d49ca6ea219b84923b9a48c": {
+      "commence_time": "2026-10-19T23:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Colorado Avalanche @ Philadelphia Flyers"
+    },
     "c9ba2e7837386a5948a9c2233c36314c": {
       "commence_time": "2026-10-17T19:50:00Z",
       "h2h_sent": true,
@@ -559,6 +565,12 @@
         }
       },
       "matchup": "Dallas Stars @ Chicago Blackhawks"
+    },
+    "ea54f93ba7f80a041cb134ca262d7bc0": {
+      "commence_time": "2026-10-19T23:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Anaheim Ducks @ New York Rangers"
     }
   },
   "game_log": {
