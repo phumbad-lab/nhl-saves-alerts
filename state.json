@@ -3983,6 +3983,8 @@
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-10-17T15:56:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-18T13:13:10Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
     },
