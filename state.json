@@ -1,11 +1,11 @@
 {
   "corrections_checked": "2026-10-18",
-  "credits_remaining": 19182,
+  "credits_remaining": 19180,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-18T18:27:10Z",
+      "last_paid_check": "2026-10-18T18:42:10Z",
       "lines": {
         "draftkings": {
           "Brandon Bussi": {
@@ -134,7 +134,7 @@
     "3af4496cf626dc3538fb93001aa2fba0": {
       "commence_time": "2026-10-18T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-18T18:27:10Z",
+      "last_paid_check": "2026-10-18T18:42:10Z",
       "lines": {
         "draftkings": {
           "Cam Talbot": {
@@ -144,11 +144,11 @@
             "under": null
           },
           "Jesper Wallstedt": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325484082_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325484083_15L42133Q1874096526Q20"
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067247_15L42133Q184490156Q20"
           }
         }
       },
