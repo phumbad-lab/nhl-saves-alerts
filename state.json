@@ -3977,6 +3977,8 @@
     "BUF:8480839": {
       "alerted": true,
       "out_at": "2026-10-16T18:06:12Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-18T13:16:12Z",
       "seen": "2026-10-12T18:44:11Z",
       "status": "OUT"
     },
