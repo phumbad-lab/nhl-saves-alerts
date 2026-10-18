@@ -188,6 +188,13 @@ def plain(text):
     return text.replace(UL, "").replace(UL_END, "")
 
 
+def to_html(text):
+    """Telegram HTML for text with ul() underlines and link() tap-to-bet links."""
+    body = html.escape(text, quote=False).replace(UL, "<u>").replace(UL_END, "</u>")
+    return re.sub(f"{LINK}([^{LINK_MID}]*){LINK_MID}([^{LINK_END}]*){LINK_END}",
+                  r'<a href="\1">\2</a>', body)
+
+
 def send_push(title, message, silent=None, chat_id=None, reply_to=None):
     """Send a Telegram message from your bot to your chat. Text with ul() labels is sent as HTML
     so the labels show underlined."""
@@ -204,10 +211,7 @@ def send_push(title, message, silent=None, chat_id=None, reply_to=None):
     if reply_to:
         fields["reply_to_message_id"] = reply_to
     if UL in text or LINK in text:
-        body = html.escape(text, quote=True).replace(UL, "<u>").replace(UL_END, "</u>")
-        body = re.sub(f"{LINK}([^{LINK_MID}]*){LINK_MID}([^{LINK_END}]*){LINK_END}",
-                      r'<a href="\1">\2</a>', body)
-        fields["text"] = body[:4096]
+        fields["text"] = to_html(text)[:4096]
         fields["parse_mode"] = "HTML"
     payload = urllib.parse.urlencode(fields).encode("utf-8")
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
@@ -1842,29 +1846,51 @@ def channel_membership(state, upd):
         send_push("", f"📣 Picks channel disconnected ({title}). Nothing will be posted there.")
 
 
-def channel_play(rows, state, event_id, goalie):
-    """'Markstrom (FLA) u23.5 · FLA@BUF 7:10PM' for the first bet you logged on this goalie,
-    with the play linked to that book's bet slip when we have the link."""
+def channel_lines(rows, state, event_id, goalie):
+    """Your side on each book, as posted now: ({'DK': 23.5, 'FD': 24.5}, side, first bet row).
+    A book that hasn't posted him is left out."""
     bets = sorted((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken")),
                   key=lambda r: r.get("taken_at", ""))
     if not bets:
-        return None, None
-    r = bets[0]
-    play = f"{r['taken'][0].lower()}{r['taken_line']}"
+        return {}, None, None
+    first = bets[0]
     rec = state["events"].get(event_id, {})
-    full = next((k for k, v in BOOK_SHORT.items() if v == r["book"]), None)
-    ln = rec.get("lines", {}).get(full, {}).get(goalie, {})
-    url = ln.get(r["taken"].lower() + "_link") if str(ln.get("point")) == str(float(r["taken_line"])) else None
+    lines = {}
+    for full, short in BOOK_SHORT.items():
+        ln = rec.get("lines", {}).get(full, {}).get(goalie)
+        if ln and ln.get("point") is not None:
+            lines[short] = {"point": ln["point"], "url": ln.get(first["taken"].lower() + "_link")}
+    if first["book"] not in lines:  # the line you took, if the feed lost it
+        lines[first["book"]] = {"point": float(first["taken_line"]), "url": None}
+    return lines, first["taken"], first
+
+
+def channel_book_parts(lines, side):
+    """'DK u23.5 · FD not yet', each posted line linked to that book's slip for your side."""
+    s = side[0].lower()
+    parts = []
+    for b in BOOK_SHORT.values():
+        if b in lines:
+            play = f"{s}{float(lines[b]['point']):g}"
+            parts.append(f"{b} {link(play, lines[b].get('url'))}")
+        else:
+            parts.append(f"{b} not yet")
+    return " · ".join(parts)
+
+
+def channel_post_text(state, first, goalie, lines, side):
     abbrevs = (state.get("team_abbrevs") or {}).get("value") or {}
-    away = abbrevs.get(team_key(r["away_team"])) or nickname(r["away_team"])
-    home = abbrevs.get(team_key(r["home_team"])) or nickname(r["home_team"])
-    name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
-    return f"{name} {link(play, url)} · {away}@{home} {fmt_time(r['commence_time'])}", play
+    away = abbrevs.get(team_key(first["away_team"])) or nickname(first["away_team"])
+    home = abbrevs.get(team_key(first["home_team"])) or nickname(first["home_team"])
+    name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
+    return (f"{name} - {away}@{home} {fmt_time(first['commence_time'])}\n"
+            + channel_book_parts(lines, side))
 
 
 def channel_sync(state, rows, now):
     """After you log bets: post each new goalie's play to the picks channel (once per goalie per
-    game, only before puck drop), and take a post down if you 'out' it before puck drop."""
+    game, only before puck drop), with both books: 'DK u23.5 · FD not yet' (owner Oct 18).
+    'out' before puck drop takes the post down."""
     ch = state.get("picks_channel")
     if not ch:
         return
@@ -1875,24 +1901,51 @@ def channel_sync(state, rows, now):
         key = f"{event_id}|{goalie}"
         if key in posts:
             continue
-        text, play = channel_play(rows, state, event_id, goalie)
-        if text:
-            mid = send_push("", text, chat_id=ch["id"])
-            if mid:
-                start = next(r["commence_time"] for r in rows if r["event_id"] == event_id)
-                posts[key] = {"mid": mid, "play": play, "start": start}
+        lines, side, first = channel_lines(rows, state, event_id, goalie)
+        if not first:
+            continue
+        text = channel_post_text(state, first, goalie, lines, side)
+        mid = send_push("", text, chat_id=ch["id"])
+        if mid:
+            posts[key] = {"mid": mid, "side": side, "start": first["commence_time"], "text": text,
+                          "lines": {b: v["point"] for b, v in lines.items()}}
     for key, post in list(posts.items()):
         event_id, goalie = key.split("|", 1)
-        if (event_id, goalie) not in taken and parse_iso(post["start"]) > now \
-                and not any(r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken") for r in rows):
+        if parse_iso(post["start"]) > now and not any(
+                r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken") for r in rows):
             tg_call("deleteMessage", {"chat_id": ch["id"], "message_id": post["mid"]})  # you took it back
             posts.pop(key)
     cutoff = iso(now - timedelta(days=3))
     state["channel_posts"] = {k: v for k, v in posts.items() if v["start"] > cutoff}
 
 
+def channel_added(state, event_id, goalie, book, now):
+    """The other book just posted a goalie you're in on: fill in the channel post and ping:
+    'Markstrom (FLA) u24.5 now on FD' (owner Oct 18). Before puck drop only."""
+    ch = state.get("picks_channel")
+    post = (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
+    short = BOOK_SHORT.get(book, book)
+    if not (ch and post) or short in post["lines"] or parse_iso(post["start"]) <= now:
+        return
+    rows = load_picks()
+    lines, side, first = channel_lines(rows, state, event_id, goalie)
+    if short not in lines:
+        return
+    text = channel_post_text(state, first, goalie, lines, side)
+    tg_call("editMessageText", {"chat_id": ch["id"], "message_id": post["mid"],
+                                "text": to_html(text), "parse_mode": "HTML",
+                                "disable_web_page_preview": "true"})
+    name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
+    play = f"{side[0].lower()}{float(lines[short]['point']):g}"
+    send_push("", f"{name} {link(play, lines[short].get('url'))} now on {short}",
+              chat_id=ch["id"], reply_to=post["mid"])
+    post["lines"] = {b: v["point"] for b, v in lines.items()}
+    post["text"] = text
+
+
 def channel_result(state, rows, event_id, goalie, correction_from=None):
-    """Reply to the play's post with the result: '✅ Markstrom (FLA) u23.5: 20 saves'."""
+    """Reply to the play's post with the result at each book posted:
+    '✅ Markstrom (FLA) DK u23.5 · FD u24.5: 20 saves' (mixed: 'DK u23.5 ✅ · FD u22.5 ❌')."""
     ch, post = state.get("picks_channel"), (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
     if not (ch and post):
         return
@@ -1902,10 +1955,23 @@ def channel_result(state, rows, event_id, goalie, correction_from=None):
         return
     r = bets[0]
     name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
-    if r.get("taken_result") == "VOID":
-        text = f"{name} {post['play']}: didn't play (void)"
+    side = post.get("side") or r["taken"]
+    s = side[0].lower()
+    if r.get("taken_result") == "VOID" or r.get("actual_saves") in (None, ""):
+        text = f"{name}: didn't play (void)"
     else:
-        text = f"{MARKS.get(r.get('taken_result'), '')} {name} {post['play']}: {r['actual_saves']} saves"
+        saves = float(r["actual_saves"])
+        res = {}
+        for b, pt in (post.get("lines") or {r["book"]: float(r["taken_line"])}).items():
+            pt = float(pt)
+            res[b] = "P" if saves == pt else ("W" if (saves > pt) == (side == "OVER") else "L")
+        plays = [f"{b} {s}{float(pt):g}" for b, pt in (post.get("lines") or {}).items()] or [f"{r['book']} {s}{r['taken_line']}"]
+        marks = list(res.values())
+        if len(set(marks)) == 1:
+            text = f"{MARKS.get(marks[0], '')} {name} " + " · ".join(plays) + f": {r['actual_saves']} saves"
+        else:
+            text = (f"{name} " + " · ".join(f"{p} {MARKS.get(x, '')}" for p, x in zip(plays, marks))
+                    + f": {r['actual_saves']} saves")
     if correction_from is not None:
         text = f"🔁 Stat correction: {text} (was {correction_from})"
     send_push("", text, chat_id=ch["id"], reply_to=post["mid"])
@@ -1988,6 +2054,11 @@ def alert_new_lines(event, rec, new_pairs, known_before, m, stats, state, injuri
               injuries, stats)
     names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
     print(f"ALERT {rec['matchup']}: {names}")
+    for book, player in sorted(new_pairs):  # the other book posted a goalie you're in on
+        try:
+            channel_added(state, event["id"], player, book, now)
+        except Exception as e:
+            print(f"Picks channel update skipped ({e}).")
 
 
 def ascii_name(name):
