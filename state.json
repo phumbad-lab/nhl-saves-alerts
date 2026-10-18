@@ -1,4 +1,26 @@
 {
+  "channel_posts": {
+    "0922c474e6588f94af491684dbae6cdb|Devin Cooley": {
+      "lines": {
+        "DK": 27.5,
+        "FD": 27.5
+      },
+      "mid": 2,
+      "side": "OVER",
+      "start": "2026-10-19T00:10:00Z",
+      "text": "Cooley (CGY) - CAR@CGY 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380339025%232326269089_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634938&selectionId=89998349\u0004o27.5\u0005"
+    },
+    "3af4496cf626dc3538fb93001aa2fba0|Jesper Wallstedt": {
+      "lines": {
+        "DK": 23.5,
+        "FD": 22.5
+      },
+      "mid": 3,
+      "side": "OVER",
+      "start": "2026-10-18T22:10:00Z",
+      "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
+    }
+  },
   "corrections_checked": "2026-10-18",
   "credits_remaining": 19169,
   "events": {
@@ -7850,5 +7872,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088081
+  "tg_offset": 69088082
 }
