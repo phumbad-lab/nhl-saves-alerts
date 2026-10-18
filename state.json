@@ -4183,12 +4183,10 @@
       "status": "DTD"
     },
     "PHI:8481546": {
-      "alerted": true,
-      "out_at": "2026-10-17T15:23:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-18T19:40:16Z",
+      "alerted": false,
+      "out_at": "2026-10-18T19:46:11Z",
       "seen": "2026-10-10T13:58:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "SEA:8477986": {
       "alerted": true,
