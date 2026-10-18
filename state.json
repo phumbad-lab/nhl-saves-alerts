@@ -402,38 +402,6 @@
       },
       "matchup": "Buffalo Sabres @ Montr\u00e9al Canadiens"
     },
-    "9f4363f363411cc75eafb6124bef94a7": {
-      "commence_time": "2026-10-16T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-15T17:58:12Z",
-      "lines": {
-        "draftkings": {
-          "Spencer Knight": {
-            "over": -110,
-            "point": 24.5,
-            "under": -125
-          },
-          "Stuart Skinner": {
-            "over": -110,
-            "point": 23.5,
-            "under": -125
-          }
-        },
-        "fanduel": {
-          "Spencer Knight": {
-            "over": -102,
-            "point": 24.5,
-            "under": -130
-          },
-          "Stuart Skinner": {
-            "over": -102,
-            "point": 23.5,
-            "under": -130
-          }
-        }
-      },
-      "matchup": "Winnipeg Jets @ Chicago Blackhawks"
-    },
     "a803d2ced256aea33428fbca55aba33e": {
       "commence_time": "2026-10-17T20:10:00Z",
       "h2h_sent": true,
