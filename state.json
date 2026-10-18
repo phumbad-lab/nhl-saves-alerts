@@ -3977,10 +3977,8 @@
     "BUF:8480839": {
       "alerted": true,
       "out_at": "2026-10-16T18:06:12Z",
-      "pending": "DTD",
-      "pending_since": "2026-10-18T13:16:12Z",
       "seen": "2026-10-12T18:44:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "CHI:8481524": {
       "alerted": true,
@@ -4002,6 +4000,8 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-10-17T19:36:10Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-18T13:22:12Z",
       "seen": "2026-10-13T14:15:18Z",
       "status": "OUT"
     },
