@@ -8,3 +8,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-15T16:46:12Z,2026-10-15,Sergei Bobrovsky,TOR,Sabres @ Leafs,FADE,25.5,24.0,dahlin is out so less buf sog,30482712c8704ae61ad9ea6b033efccf
 2026-10-15T18:27:10Z,2026-10-15,Nico Daws,NJD,Rangers @ Devils,UNDER,21.5,21.4,I like NJ tight at home and h2h looks good,12e8c7a75c196426888d2e9b0fcd946f
 2026-10-17T16:55:13Z,2026-10-17,Jacob Markstrom,FLA,Kraken @ Panthers,LEAN_UNDER,21.5,21.8,this and FD 22u,397fc11daab60801858ad82037395ae3
+2026-10-18T15:11:09Z,2026-10-18,Jesper Wallstedt,MIN,Jackets @ Wild,FADE,23.5,24.0,High shots in Min from h2h history,3af4496cf626dc3538fb93001aa2fba0

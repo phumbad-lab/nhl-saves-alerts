@@ -6224,12 +6224,6 @@
     ]
   },
   "sent": {
-    "273": {
-      "at": "2026-10-15T15:10:17Z",
-      "book": null,
-      "event_id": "30482712c8704ae61ad9ea6b033efccf",
-      "goalie": "Sergei Bobrovsky"
-    },
     "274": {
       "at": "2026-10-15T15:50:17Z",
       "book": null,
@@ -7958,5 +7952,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088077
+  "tg_offset": 69088078
 }
