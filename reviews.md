@@ -6,7 +6,8 @@ Nothing here changes the model by itself (owner's rule: no rules on hunches; tes
 
 ## Read accuracy (season to date, from Oct 12)
 Judges the read on shot volume, not just the bet result.
-- **Through Oct 16:** Right reads ✅ 11 · Lucky wins 🍀 2 · Unlucky losses 😬 1 · Wrong reads ❌ 9 (volume read right ✅+😬 = 12/23 = 52%)
+- **Through Oct 17:** Right reads ✅ 17 · Lucky wins 🍀 2 · Unlucky losses 😬 1 · Wrong reads ❌ 15 (volume read right ✅+😬 = 18/35 = 51%)
+- Oct 17: ✅6 ❌6 (14 games, 12 tagged goalies).
 - Oct 16: 😬1 (only one tagged goalie on a 2-game night).
 - Oct 15: ✅6 🍀1 ❌1.
 - Oct 14: ✅1 (only one tagged goalie on a 2-game night).
@@ -18,15 +19,17 @@ Judges the read on shot volume, not just the bet result.
   - Oct 14: H2H right on COL-DAL (DAL on COL avg 20.5 → 22 shots, Wedgewood under won; COL on DAL 27.5 → 27). Wrong on MTL-WSH (WSH on MTL avg 33.8 → only 23; MTL on WSH 26.8 → 30). Mixed — no edge from H2H alone yet.
   - Oct 15: H2H pointed against the model on 4 tagged reads — right on Woll (DET on PHI avg 26.0 → 26 vs 33.2 exp) and Levi (UTA on EDM 25.5 → 24 vs 29.7), wrong on Varlamov (OTT on NYI 25.5 → 19) and Merilainen (FLA on VAN 27.5 → 39). Owner's H2H reads: Skinner (CHI on WPG avg 22 → 28) wrong; Bobrovsky H2H (BUF on TOR avg 30) warned against his under and was right (34). Running tally when H2H disagrees with the model: 3 right / 3 wrong (Dostal, Woll, Levi vs Varlamov, Merilainen, + Oct 14 WSH). Still a coin flip; test once ~15–20 disagreements.
   - Oct 16: H2H wrong twice. COL on PIT avg 27.3 vs model 31.6 exp → COL shot 32 (model right). Owner's "H2H looks good" on Dostal (BOS on ANA avg 34.0) → BOS shot 22. Running when H2H disagrees with the model: 3 right / 4 wrong.
+  - Oct 17: H2H on the other side of league avg (27.0) from the tag 4 times — **right all 4**: Greaves UNDER (NYR on CBJ avg 28.0 → 29), Swayman OVER (LAK on BOS 26.3 → 26), Nedeljkovic OVER (DET on SJS 26.3 → 27), Murashov OVER (VGK on PIT 25.8 → 19). All three losing OVERs had H2H below league avg. Borderline, not counted: Daccord (FLA on SEA 27.3 → 37, over won). **Running: 7 right / 4 wrong (11).** Test once ~15–20: OVER tags where H2H avg < league avg.
 - **Home team "tight at home" in L5 shots against** (3 games, 3 support; Oct 15: owner took Daws u21.5 because NJD tight at home → NYR shot 19). Owner noted MIN allowing mid-20s at home in L5 (Oct 12, Wallstedt). Oct 13: owner faded Skinner (WPG) OVER 25.5 because WPG played tight at home last game → MIN shot 21. Test idea: home/road split of the last 5 vs. the season blend.
 - **Unders outperforming overs early** (season to Oct 12: OVER 6-6, UNDER 12-5; NO EDGE 62% under). Covered by the Oct 14 accuracy analysis.
   - Oct 13 mixed: OVER 2-3, UNDER 2-2, LEAN UNDER 0-2; NO EDGE 5 over / 12 under (71% under) — the under lean on lines keeps showing up even when the model's tags miss.
   - Oct 14: UNDER 1-0; NO EDGE 1 over / 2 under (Dobes 18 vs 25.5, DeSmith 25 vs 26.5; Lindgren 26 vs 23.5 over).
   - Oct 15 (contradicts): NO EDGE went 8 over / 4 under (one of the unders, Garand, was likely a pull). OVER 4-1, UNDER 3-0.
   - Oct 16: NO EDGE 1 over / 2 under (Blackwood 29 vs 23.5; Dostal 18 vs 21.5; DiPietro 25 vs 27.5). LEAN OVER 0-1.
-- **Thin cushion (line within ~1 save of expected)** (from the Oct 13 takeaway; Oct 14 analysis had gap <1 save at 2-5 for Oct 7–13). Since then: Oct 15 Daws ✅, Grubauer ✅, Wolf ✅; Oct 16 Silovs 😬 (28.0 vs 28.5, volume on target, lost on save%). Running since Oct 15: 3-1. Test: record by gap bucket once ~15–20 thin-gap tags.
-- **Key defenseman out → more shots against** (new, from owner's notes Oct 13; 4 games: 2 support, 1 slight, 1 against). Dahlin out (BUF): MTL shot 38 vs 24.1 expected — owner faded the 🔥 UNDER for this reason. Roy out (WSH): CAR shot 35 vs 27.6. Makar out (COL, late): DAL 26 vs 24.6. Against: Matheson out (MTL): BUF shot only 17 vs 27.3. Oct 14 (5th game, support): Roy still out (WSH) → MTL shot 30 vs 27.3 expected. Oct 15 (5 more: 2 support, 3 against): Morrissey out (WPG) → CHI 28 vs 25.7; Byram out (CHI) → WPG 34 vs 27.7; against: Sanderson out (OTT) → NYI 21 vs 25.8; York out (PHI) → DET 26 vs 33.2; Faber out (MIN) → STL 25 vs 26.2 (slight). **Running: 10 games, 5 support, 1 slight support, 4 against (1 slight)** — weaker than it looked. Test: picks.csv `key_out` already logs this (injury stage 2) — compare team shots against vs expected with/without a key D out once ~15–20 games have one.
-- **Key shooter out → fewer shots for** (new, 1 game; this is injury stage 3's idea). Oct 14: Johnston out (DAL) → DAL shot 22 on COL vs 24.9 expected (H2H also low, so not clean evidence). Oct 15: Sanderson out (OTT) → OTT shot 19 on NYI vs 22.9 exp (support); Hyman out (EDM) → EDM 24 vs 23.1 (neutral); Marchand out (FLA) → FLA 39 vs 30.7 (against). Running 4 games: 2 support, 1 neutral, 1 against. (Dahlin was listed DTD but played — hat trick — so BUF isn't a case.) Test with picks.csv `key_out` (forwards) once ~15–20 games.
+  - Oct 17 (contradicts strongly): NO EDGE **12 over / 3 under** (unders: Allen, Bobrovsky, Binnington). OVER 3-3, UNDER 2-3, LEAN UNDER 1-0. Two straight big nights (Oct 15, 17) leaning over on NO EDGE — the early under lean may have been small-sample.
+- **Thin cushion (line within ~1 save of expected)** (from the Oct 13 takeaway; Oct 14 analysis had gap <1 save at 2-5 for Oct 7–13). Since then: Oct 15 Daws ✅, Grubauer ✅, Wolf ✅; Oct 16 Silovs 😬 (28.0 vs 28.5, volume on target, lost on save%). Oct 17: Markstrom 21.5 vs 21.8 ✅, Oettinger 20.5 vs 20.2 ✅, Ullmark 21.5 vs 20.6 ❌, Forsberg 22.5 vs 22.1 ❌. Running since Oct 15: 5-3. Test: record by gap bucket once ~15–20 thin-gap tags.
+- **Key defenseman out → more shots against** (new, from owner's notes Oct 13; 4 games: 2 support, 1 slight, 1 against). Dahlin out (BUF): MTL shot 38 vs 24.1 expected — owner faded the 🔥 UNDER for this reason. Roy out (WSH): CAR shot 35 vs 27.6. Makar out (COL, late): DAL 26 vs 24.6. Against: Matheson out (MTL): BUF shot only 17 vs 27.3. Oct 14 (5th game, support): Roy still out (WSH) → MTL shot 30 vs 27.3 expected. Oct 15 (5 more: 2 support, 3 against): Morrissey out (WPG) → CHI 28 vs 25.7; Byram out (CHI) → WPG 34 vs 27.7; against: Sanderson out (OTT) → NYI 21 vs 25.8; York out (PHI) → DET 26 vs 33.2; Faber out (MIN) → STL 25 vs 26.2 (slight). **Running: 10 games, 5 support, 1 slight support, 4 against (1 slight)** — weaker than it looked. Oct 17 (6 more: 4 support, 2 slight against): Morrissey out (WPG) → CAR 37 vs 28.9 exp; Dahlin out (BUF) → MTL 34 vs 28.3; Sanderson out (OTT) → PHI 28 vs 23.3; Byram (CHI, listed out/DTD) → DAL 32 vs 26.8; slight against: York out (PHI) → OTT 26 vs 27.1; Roy out (WSH) → NJD 31 vs 32.6. **Running: 16 games, 9 support, 1 slight support, 6 against (3 slight)** — near the ~15–20 needed; worth a proper test soon. Test: picks.csv `key_out` already logs this (injury stage 2) — compare team shots against vs expected with/without a key D out once ~15–20 games have one.
+- **Key shooter out → fewer shots for** (new, 1 game; this is injury stage 3's idea). Oct 14: Johnston out (DAL) → DAL shot 22 on COL vs 24.9 expected (H2H also low, so not clean evidence). Oct 15: Sanderson out (OTT) → OTT shot 19 on NYI vs 22.9 exp (support); Hyman out (EDM) → EDM 24 vs 23.1 (neutral); Marchand out (FLA) → FLA 39 vs 30.7 (against). Running 4 games: 2 support, 1 neutral, 1 against. Oct 17: Konecny out (PHI) → PHI 28 vs 23.3 (against); Marchand out (FLA) → FLA 37 vs 30.8 (against); Sanderson out (OTT) → OTT 26 vs 27.1 (slight support). **Running 7: 2 support + 1 slight, 1 neutral, 3 against.** (Dahlin was listed DTD but played — hat trick — so BUF isn't a case.) Test with picks.csv `key_out` (forwards) once ~15–20 games.
 
 ## Owner's reads (his reasoning on bets/fades)
 - 2026-10-12 · Wallstedt (MIN) vs VGK · model LEAN OVER o26.5 · **owner faded**: H2H VGK shots on MIN low; MIN tighter at home in L5 (mid-20s). Result 21 saves → fade correct.
@@ -46,6 +49,9 @@ Judges the read on shot volume, not just the bet result.
 - Also followed the model (no note): Merilainen o26.5 W, Varlamov u25.5 W, Wolf o26.5 W, Grubauer o26.5 W, Levi o23.5 L, Woll o24.5 L (DK alerted 23.5, moved to 24.5 by the time he bet; 24 saves).
 
 - 2026-10-16 · Dostal (ANA) vs BOS · NO EDGE 21.5 DK / 23.5 FD · **owner took o21.5**: "h2h history looks good and BOS taking shots" (told in chat; the bot dropped it, fixed Oct 16). BOS shot 22 (exp 26.3), 18 saves → lost, read wrong on volume. H2H (BOS on ANA avg 34.0) didn't show; BOS L5 for was only 25.2 (about average).
+
+- 2026-10-17 · Markstrom (FLA) vs SEA · model LEAN UNDER 21.5 DK / UNDER 22.5 FD · note "this and FD 22u" (bet, no reasoning). SEA shot 23, 20 saves → won, right on volume. Only FD u22.5 is logged; the DK u21.5 he seems to have meant wasn't picked up.
+- Also took (no note): Allen u25.5 NO EDGE W (WSH 25 shots — right), Thompson o25.5 W, Oettinger u20.5 W, Vejmelka u24.5 W, Greaves u22.5 L, Nedeljkovic o25.5 L, Ullmark u21.5 L, Murashov o26.5 L, Demko o25.5 void (Lankinen started). 5-4.
 
 ## Daily reviews
 
@@ -99,3 +105,20 @@ Judges the read on shot volume, not just the bet result.
 - Shadows: B went 0-3 (Silovs OVER ❌, Blackwood UNDER ❌, DiPietro LEAN OVER FD ❌); A had no tags. Live model did better by staying NO EDGE.
 - **Owner's reads:** Dostal o21.5 lost — BOS shot only 22; neither reason (H2H 34 avg, BOS shooting) showed up. Model's NO EDGE was the better call (though it also leaned slightly over on volume).
 
+### 2026-10-17
+- **Night (14 games):** OVER 3-3, UNDER 2-3, LEAN UNDER 1-0 (model 6-6); 🔥 3-0. Read accuracy ✅6 ❌6. NO EDGE 12 over / 3 under. Owner's bets 5-4 (10 bets, 1 void).
+- ✅ Thompson (WSH) 🔥 OVER 25.5 — exp 28.9 sv / 32.6 shots; NJD shot 31, 29 saves.
+- ✅ Lankinen (VAN) 🔥 OVER 25.5 FD / 26.5 DK — exp 28.4 / 32.1; TBL shot 35, 31 saves. (First alert went to Demko → void.)
+- ✅ Daccord (SEA) OVER 25.5 — exp 27.3 / 30.8; FLA shot 37, 29 saves.
+- ✅ Markstrom (FLA) LEAN UNDER 21.5 DK / UNDER 22.5 FD — exp 21.8 / 24.6; SEA shot 23, 20 saves.
+- ✅ Oettinger (DAL) UNDER 20.5 — exp 20.2 / 22.8; CHI shot 19, 19 saves.
+- ✅ Vejmelka (UTA) 🔥 UNDER 24.5 — exp 19.5 / 22.0; EDM shot 21, only 12 saves (likely pulled, not confirmed). Team volume still under — right read.
+- ❌ Murashov (PIT) OVER 26.5 — exp 27.8 / 31.4; VGK shot 19, 14 saves. H2H (VGK on PIT 25.8) warned.
+- ❌ Swayman (BOS) OVER 25.5 — exp 28.6 / 32.3; LAK shot 26, 25 saves. H2H (LAK on BOS 26.3) warned.
+- ❌ Nedeljkovic (SJS) OVER 25.5 — exp 26.7 / 30.1; DET shot 27, 24 saves. H2H (DET on SJS 26.3) warned.
+- ❌ Greaves (CBJ) UNDER 22.5 — exp 20.8 / 23.5; NYR shot 29, 29 saves. H2H (NYR on CBJ 28.0) warned.
+- ❌ Ullmark (OTT) UNDER 21.5 — exp 20.6 / 23.3; PHI shot 28, 25 saves, even with Konecny and York out. Sanderson out for OTT (fits the D-out pattern).
+- ❌ Forsberg (LAK) UNDER 22.5 — exp 22.1 / 24.9; BOS shot 28, 24 saves. Thin 0.4 cushion; shadow A had it NO EDGE.
+- NO EDGE far past the line: Stevenson (WPG) 34 vs 26.5 (CAR 37, Morrissey out); Gibson (DET) 31 vs 23.5 (SJS 34); Luukkonen (BUF) 30 vs 25.5 (MTL 34, Dahlin out); Bobrovsky (TOR) 16 vs 25.5 (NYI 20).
+- Shadows: B added 3-1 (Luukkonen OVER ✅, Sorokin OVER ✅, Jarry OVER ✅, Fowler UNDER ❌); A dropped Forsberg (avoided a loss), otherwise same as live.
+- **Owner's reads:** followed the model except Allen u25.5 (NO EDGE) — right on volume (WSH 25 shots). His bets right on volume 5 of 9. No reasoning notes this night.
