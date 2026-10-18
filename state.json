@@ -3993,7 +3993,7 @@
       "status": "DTD"
     },
     "LAK:8477942": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-18T14:02:11Z",
       "seen": "2026-10-18T14:02:11Z",
       "status": "OUT"
