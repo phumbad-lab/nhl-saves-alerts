@@ -5805,7 +5805,9 @@
       "e39eef5e74111ce110e9036298b318df|Jake Oettinger",
       "95168b13c92e52aca0ad08f18b66ccd4|Linus Ullmark",
       "826b87745ff513a2f7ba27643fc47bce|Alex Nedeljkovic",
-      "8c3a146ab31ea5b382be8f36a0637798|Jet Greaves"
+      "8c3a146ab31ea5b382be8f36a0637798|Jet Greaves",
+      "b5419971529fadc0610c47b095627156|Karel Vejmelka",
+      "b8769f5cc81325b0693ee4b3e3f41407|Sergei Murashov"
     ]
   },
   "roster_ANA": {
@@ -7764,5 +7766,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088076
+  "tg_offset": 69088077
 }
