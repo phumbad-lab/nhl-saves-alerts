@@ -6843,7 +6843,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.05,
-    "fetched": "2026-10-19T10:29:11Z",
+    "fetched": "2026-10-19T16:30:20Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.28571,
@@ -6875,7 +6875,7 @@
       },
       "columbusbluejackets": {
         "sa": 28.14285,
-        "sf": 26.0
+        "sf": 26.14285
       },
       "dallasstars": {
         "sa": 22.625,
@@ -6898,7 +6898,7 @@
         "sf": 29.83333
       },
       "minnesotawild": {
-        "sa": 25.33333,
+        "sa": 25.44444,
         "sf": 29.66666
       },
       "montrealcanadiens": {
