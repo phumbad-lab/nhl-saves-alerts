@@ -4309,11 +4309,9 @@
     },
     "OTT:8478469": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-19T17:17:10Z",
+      "out_at": "2026-10-19T17:22:14Z",
       "seen": "2026-10-18T01:37:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "OTT:8482105": {
       "alerted": true,
