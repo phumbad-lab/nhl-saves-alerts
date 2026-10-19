@@ -1,5 +1,15 @@
 {
   "channel_posts": {
+    "0e2b3099b25e9827dc4a6abd7fabfa51|Sebastian Cossa": {
+      "lines": {
+        "DK": 22.5,
+        "FD": 23.5
+      },
+      "mid": 10,
+      "side": "UNDER",
+      "start": "2026-10-20T01:10:00Z",
+      "text": "Cossa (UTA) - PIT@UTA 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380620214%232327509659_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617875704&selectionId=103689735\u0004u23.5\u0005"
+    },
     "3af4496cf626dc3538fb93001aa2fba0|Jesper Wallstedt": {
       "done": true,
       "lines": {
@@ -8154,5 +8164,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088086
+  "tg_offset": 69088087
 }
