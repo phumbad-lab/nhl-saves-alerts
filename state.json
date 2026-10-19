@@ -22,7 +22,7 @@
     }
   },
   "corrections_checked": "2026-10-19",
-  "credits_remaining": 19156,
+  "credits_remaining": 19154,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -210,7 +210,7 @@
     "7ac756ef7eb5d5b1042e68d86d561147": {
       "commence_time": "2026-10-19T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-19T15:17:11Z",
+      "last_paid_check": "2026-10-19T15:32:44Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -518,7 +518,7 @@
     "c8d71abe9d49ca6ea219b84923b9a48c": {
       "commence_time": "2026-10-19T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-19T15:16:15Z",
+      "last_paid_check": "2026-10-19T15:32:44Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
