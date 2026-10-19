@@ -13,7 +13,7 @@
     }
   },
   "corrections_checked": "2026-10-19",
-  "credits_remaining": 19160,
+  "credits_remaining": 19159,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -497,8 +497,19 @@
     },
     "c8d71abe9d49ca6ea219b84923b9a48c": {
       "commence_time": "2026-10-19T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-19T14:46:11Z",
+      "lines": {
+        "draftkings": {
+          "Joseph Woll": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327405690_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327405691_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "Colorado Avalanche @ Philadelphia Flyers"
     },
     "c9ba2e7837386a5948a9c2233c36314c": {
@@ -1592,7 +1603,7 @@
     "value": []
   },
   "gl_8478439": {
-    "fetched": "2026-10-17T17:48:10Z",
+    "fetched": "2026-10-19T14:46:11Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -1635,7 +1646,7 @@
     ]
   },
   "gl_8481546": {
-    "fetched": "2026-10-17T17:48:10Z",
+    "fetched": "2026-10-19T14:46:11Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -2632,6 +2643,39 @@
         "DAL",
         29,
         21
+      ]
+    ]
+  },
+  "h2h_COL-PHI": {
+    "fetched": "2026-10-19T14:46:11Z",
+    "value": [
+      [
+        "2026-01-23",
+        "PHI",
+        "COL",
+        20,
+        35
+      ],
+      [
+        "2025-12-07",
+        "COL",
+        "PHI",
+        28,
+        25
+      ],
+      [
+        "2025-02-02",
+        "PHI",
+        "COL",
+        24,
+        32
+      ],
+      [
+        "2024-11-18",
+        "COL",
+        "PHI",
+        29,
+        26
       ]
     ]
   },
@@ -6073,7 +6117,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-10-16T16:39:10Z",
+    "fetched": "2026-10-19T14:46:11Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -6170,7 +6214,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-10-17T17:48:10Z",
+    "fetched": "2026-10-19T14:46:11Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -6645,6 +6689,12 @@
       "book": "FD",
       "event_id": "0922c474e6588f94af491684dbae6cdb",
       "goalie": "Devin Cooley"
+    },
+    "459": {
+      "at": "2026-10-19T14:46:11Z",
+      "book": null,
+      "event_id": "c8d71abe9d49ca6ea219b84923b9a48c",
+      "goalie": "Joseph Woll"
     }
   },
   "shot_stats": {
