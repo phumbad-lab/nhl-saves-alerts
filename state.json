@@ -220,6 +220,12 @@
       },
       "matchup": "Columbus Blue Jackets @ Minnesota Wild"
     },
+    "50c81d9967c2341f2117c57685000dee": {
+      "commence_time": "2026-10-21T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Winnipeg Jets @ St Louis Blues"
+    },
     "60f76779653fc9a6106c6af48f51490f": {
       "commence_time": "2026-10-20T23:10:00Z",
       "last_paid_check": null,
@@ -624,6 +630,12 @@
         }
       },
       "matchup": "Carolina Hurricanes @ Winnipeg Jets"
+    },
+    "db38d272a56e929eac7005ab619af117": {
+      "commence_time": "2026-10-21T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Boston Bruins @ Dallas Stars"
     },
     "e39eef5e74111ce110e9036298b318df": {
       "commence_time": "2026-10-17T23:10:00Z",
