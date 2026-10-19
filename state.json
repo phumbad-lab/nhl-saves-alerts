@@ -4300,13 +4300,6 @@
       "seen": "2026-10-15T16:53:11Z",
       "status": "DTD"
     },
-    "DAL:8478449": {
-      "alerted": false,
-      "missing_since": "2026-10-19T17:21:13Z",
-      "out_at": null,
-      "seen": "2026-10-18T02:11:10Z",
-      "status": "DTD"
-    },
     "LAK:8477942": {
       "alerted": true,
       "out_at": "2026-10-18T14:02:11Z",
