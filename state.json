@@ -53,7 +53,7 @@
     }
   },
   "corrections_checked": "2026-10-19",
-  "credits_remaining": 19121,
+  "credits_remaining": 19120,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -98,7 +98,7 @@
     "0e2b3099b25e9827dc4a6abd7fabfa51": {
       "commence_time": "2026-10-20T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-19T18:54:12Z",
+      "last_paid_check": "2026-10-19T19:09:12Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -109,14 +109,21 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380374618%232327382274_15L42133Q1458571637Q20"
           },
           "Sebastian Cossa": {
-            "over": -115,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380620214%232327509658_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -115,
+            "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380620214%232327509659_15L42133Q1874096526Q20"
           }
         },
         "fanduel": {
+          "Arturs Silovs": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617877691&selectionId=74843679",
+            "point": 25.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617877691&selectionId=74843680"
+          },
           "Sebastian Cossa": {
             "over": -132,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617875704&selectionId=103689734",
@@ -7023,6 +7030,12 @@
       "book": "FD",
       "event_id": "0e2b3099b25e9827dc4a6abd7fabfa51",
       "goalie": "Sebastian Cossa"
+    },
+    "479": {
+      "at": "2026-10-19T19:09:12Z",
+      "book": "FD",
+      "event_id": "0e2b3099b25e9827dc4a6abd7fabfa51",
+      "goalie": "Arturs Silovs"
     }
   },
   "shot_stats": {
