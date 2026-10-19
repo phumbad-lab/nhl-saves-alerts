@@ -59,6 +59,18 @@ Judges the read on shot volume, not just the bet result.
 
 - 2026-10-18 · Wallstedt (MIN) vs CBJ · NO EDGE 23.5 DK / 22.5 FD · **owner took o23.5**: "High shots in Min from h2h history" (CBJ on MIN avg 29.5). CBJ shot 14 (exp 27.1), 13 saves → lost, read wrong on volume; the H2H didn't show. Model's NO EDGE was the better call.
 
+## Weekly: where your losses are
+### 2026-10-19 (baseline, 38 goalies logged Oct 10–18, each once)
+- Overs 9-10 (47%) · unders 14-5 (74%). DK slips Sep 30–Oct 8: overs 7-6, unders 10-5.
+- By tag: OVER 7-6 · UNDER 10-3 · LEAN UNDER 1-0 · NO EDGE 5-6 (overs 2-4, unders 3-2). Never bet against a tag.
+- 🔥 8-1 · no 🔥 15-14.
+- Home goalie 10-8 · road 13-7. Over home 4-6 · over road 5-4 · under home 6-2 · under road 8-3.
+- Overs on lines ≤24.5: 3-6 · ≥25.5: 6-4.
+- Model cushion on his side: <0 5-2 · 0–2 9-9 · 2+ 9-4.
+- Timing: >6h before puck drop 9-8 · 2–6h 5-4 · <2h 9-3.
+- DK 15-10 · FD 8-5.
+- Losses concentrate in overs (esp. NO EDGE, home, low lines); several over losses were pulls/blowouts (Murashov 14, Wallstedt 13, Dostal 18). Wins: 🔥 and model unders. All groups < 20 bets — patterns, not rules.
+
 ## Daily reviews
 
 ### 2026-10-12 (seed entry, written by hand)

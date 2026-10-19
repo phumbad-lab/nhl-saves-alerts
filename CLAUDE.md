@@ -88,6 +88,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 
 ## Daily review (scheduled, Oct 13)
 - A scheduled task runs every morning ~7:56 AM ET (fresh session): reads last night's graded picks and judges the READ on shot volume, not just the result (right read / lucky win 🍀 e.g. goalie pulled / unlucky loss / wrong read; owner asked Oct 13 after Markstrom won an under only because he was pulled), writes 1–2 lines on *why*, keeps a read-accuracy tally, compares to the owner's own reads, and appends to `reviews.md` (patterns + owner's reads + daily entries). Purpose: collect evidence for tuning; it never changes model code.
+- **Weekly (Mondays, added Oct 19 at owner's request):** the same scheduled task adds "Where your losses are" — his own bets (first per goalie) split by over/under, tag (incl. NO EDGE overs/unders), 🔥, home/road, line size, model cushion, bet timing, book — saved in reviews.md "## Weekly: where your losses are" and compared to the prior week. Baseline Oct 19: overs 9-10, unders 14-5, NO EDGE overs 2-4, 🔥 8-1.
 - Owner's own reasoning: he texts `note ...` to the bot (→ `notes.csv`); the daily review folds those into `reviews.md` → "Owner's reads". If he explains a read in chat instead, add it to `reviews.md` directly.
 
 ## Pending / ideas (nothing built without his OK)
