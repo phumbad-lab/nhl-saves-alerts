@@ -10,6 +10,15 @@
       "side": "OVER",
       "start": "2026-10-18T22:10:00Z",
       "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
+    },
+    "c8d71abe9d49ca6ea219b84923b9a48c|Joseph Woll": {
+      "lines": {
+        "DK": 25.5
+      },
+      "mid": 5,
+      "side": "OVER",
+      "start": "2026-10-19T23:10:00Z",
+      "text": "Woll (PHI) - COL@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327405690_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD not yet"
     }
   },
   "corrections_checked": "2026-10-19",
@@ -4187,6 +4196,8 @@
     "PHI:8480015": {
       "alerted": true,
       "out_at": "2026-10-17T22:56:12Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-19T14:49:10Z",
       "seen": "2026-10-17T15:31:09Z",
       "status": "DTD"
     },
@@ -7834,5 +7845,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088083
+  "tg_offset": 69088084
 }
