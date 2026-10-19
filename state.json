@@ -4285,6 +4285,7 @@
     },
     "DAL:8478449": {
       "alerted": false,
+      "missing_since": "2026-10-19T17:21:13Z",
       "out_at": null,
       "seen": "2026-10-18T02:11:10Z",
       "status": "DTD"
