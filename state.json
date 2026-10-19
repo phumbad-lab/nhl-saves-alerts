@@ -19,6 +19,15 @@
       "side": "OVER",
       "start": "2026-10-19T23:10:00Z",
       "text": "Woll (PHI) - COL@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327405690_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD not yet"
+    },
+    "ea54f93ba7f80a041cb134ca262d7bc0|Dylan Garand": {
+      "lines": {
+        "DK": 24.5
+      },
+      "mid": 6,
+      "side": "UNDER",
+      "start": "2026-10-19T23:10:00Z",
+      "text": "Garand (NYR) - ANA@NYR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380371459%232327456303_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD not yet"
     }
   },
   "corrections_checked": "2026-10-19",
@@ -7944,5 +7953,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088084
+  "tg_offset": 69088085
 }
