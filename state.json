@@ -31,7 +31,7 @@
     }
   },
   "corrections_checked": "2026-10-19",
-  "credits_remaining": 19145,
+  "credits_remaining": 19142,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -219,7 +219,7 @@
     "7ac756ef7eb5d5b1042e68d86d561147": {
       "commence_time": "2026-10-19T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-19T16:25:17Z",
+      "last_paid_check": "2026-10-19T16:40:19Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -534,7 +534,7 @@
     "c8d71abe9d49ca6ea219b84923b9a48c": {
       "commence_time": "2026-10-19T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-19T16:25:17Z",
+      "last_paid_check": "2026-10-19T16:40:19Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
@@ -615,22 +615,22 @@
     "ea54f93ba7f80a041cb134ca262d7bc0": {
       "commence_time": "2026-10-19T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-19T16:25:17Z",
+      "last_paid_check": "2026-10-19T16:40:19Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
-            "over": -135,
+            "over": -130,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380371459%232327471243_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": 100,
+            "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380371459%232327471244_15L42133Q184490156Q20"
           },
           "Ville Husso": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481911_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481912_15L42133Q184490156Q20"
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481209_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481210_15L42133Q1731448625Q20"
           }
         }
       },
