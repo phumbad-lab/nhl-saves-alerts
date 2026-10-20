@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19069,
+  "credits_remaining": 19067,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -452,15 +452,24 @@
     "adae998098aa843c9bb607b62ff47d5f": {
       "commence_time": "2026-10-21T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T17:45:17Z",
+      "last_paid_check": "2026-10-20T18:00:23Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
-            "over": -105,
+            "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328774939_13L42133Q1833536087Q20",
             "point": 29.5,
             "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328774940_15L42133Q11580205260Q20"
+          }
+        },
+        "fanduel": {
+          "Leevi Merilainen": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174825",
+            "point": 28.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174826"
           }
         }
       },
@@ -555,7 +564,7 @@
     "db38d272a56e929eac7005ab619af117": {
       "commence_time": "2026-10-21T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T17:44:11Z",
+      "last_paid_check": "2026-10-20T18:00:23Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -580,6 +589,13 @@
             "point": 22.5,
             "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618168914&selectionId=74880671"
+          },
+          "Jeremy Swayman": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190727&selectionId=74879760",
+            "point": 25.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190727&selectionId=74879759"
           }
         }
       },
@@ -7189,6 +7205,18 @@
       "book": "FD",
       "event_id": "60f76779653fc9a6106c6af48f51490f",
       "goalie": "Jakub Dobes"
+    },
+    "522": {
+      "at": "2026-10-20T18:00:23Z",
+      "book": "FD",
+      "event_id": "db38d272a56e929eac7005ab619af117",
+      "goalie": "Jeremy Swayman"
+    },
+    "523": {
+      "at": "2026-10-20T18:00:23Z",
+      "book": "FD",
+      "event_id": "adae998098aa843c9bb607b62ff47d5f",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
