@@ -4071,6 +4071,12 @@
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
     },
+    "PIT:8475810": {
+      "alerted": false,
+      "out_at": "2026-10-20T03:36:12Z",
+      "seen": "2026-10-20T03:36:12Z",
+      "status": "OUT"
+    },
     "SEA:8477986": {
       "alerted": true,
       "out_at": "2026-10-17T21:56:11Z",
