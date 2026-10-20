@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19083,
+  "credits_remaining": 19082,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -259,8 +259,26 @@
     },
     "60f76779653fc9a6106c6af48f51490f": {
       "commence_time": "2026-10-20T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-20T16:50:16Z",
+      "lines": {
+        "draftkings": {
+          "Alex Nedeljkovic": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604131%232328743657_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604131%232328743658_15L42133Q1-941301704Q20"
+          },
+          "Jakub Dobes": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604050%232328144321_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604050%232328144322_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "San Jose Sharks @ Montr\u00e9al Canadiens"
     },
     "7ac756ef7eb5d5b1042e68d86d561147": {
@@ -3529,6 +3547,39 @@
       ]
     ]
   },
+  "h2h_MTL-SJS": {
+    "fetched": "2026-10-20T16:50:16Z",
+    "value": [
+      [
+        "2026-03-14",
+        "SJS",
+        "MTL",
+        22,
+        27
+      ],
+      [
+        "2026-03-03",
+        "MTL",
+        "SJS",
+        36,
+        28
+      ],
+      [
+        "2025-02-27",
+        "SJS",
+        "MTL",
+        26,
+        33
+      ],
+      [
+        "2025-02-04",
+        "MTL",
+        "SJS",
+        20,
+        30
+      ]
+    ]
+  },
   "h2h_MTL-WSH": {
     "fetched": "2026-10-14T16:39:11Z",
     "value": [
@@ -6461,7 +6512,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-10-17T14:57:11Z",
+    "fetched": "2026-10-20T16:50:16Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -6528,7 +6579,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-19T15:17:11Z",
+    "fetched": "2026-10-20T16:50:16Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -7061,6 +7112,18 @@
       "book": "FD",
       "event_id": "db38d272a56e929eac7005ab619af117",
       "goalie": "Jake Oettinger"
+    },
+    "512": {
+      "at": "2026-10-20T16:50:16Z",
+      "book": null,
+      "event_id": "60f76779653fc9a6106c6af48f51490f",
+      "goalie": "Alex Nedeljkovic"
+    },
+    "513": {
+      "at": "2026-10-20T16:50:16Z",
+      "book": null,
+      "event_id": "60f76779653fc9a6106c6af48f51490f",
+      "goalie": "Jakub Dobes"
     }
   },
   "shot_stats": {
