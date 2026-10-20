@@ -330,3 +330,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-20,Bruins @ Stars,Jake Oettinger,DAL,DK,23.5,-105,-130,20.7,UNDER,,,,db38d272a56e929eac7005ab619af117,2026-10-21T00:10:00Z,Boston Bruins,Dallas Stars,2026-10-20T15:55:14Z,1,,,,,BOS:;DAL:,21.7,UNDER,19.8,UNDER
 2026-10-20,Kings @ Capitals,Darcy Kuemper,LAK,DK,25.5,-110,-120,23.8,FADE,,,,99c9d6d714b90f72a5fd2a1c5011170d,2026-10-20T23:10:00Z,Los Angeles Kings,Washington Capitals,2026-10-20T16:18:12Z,,,,,,LAK:Fiala;WSH:,23.9,FADE,24.6,FADE
 2026-10-20,Jets @ Blues,Joel Hofer,STL,DK,20.5,-120,-110,24.5,FADE,,,,50c81d9967c2341f2117c57685000dee,2026-10-21T00:10:00Z,Winnipeg Jets,St Louis Blues,2026-10-20T16:22:13Z,,,,,,WPG:Morrissey;STL:,24.3,FADE,23.6,FADE
+2026-10-20,Jets @ Blues,Joel Hofer,STL,FD,23.5,-108,-122,24.5,FADE,,,,50c81d9967c2341f2117c57685000dee,2026-10-21T00:10:00Z,Winnipeg Jets,St Louis Blues,2026-10-20T16:38:11Z,,,,,,WPG:Morrissey;STL:,24.3,FADE,23.6,FADE
