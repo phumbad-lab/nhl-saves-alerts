@@ -57,7 +57,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19112,
+  "credits_remaining": 19111,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -243,8 +243,19 @@
     },
     "99c9d6d714b90f72a5fd2a1c5011170d": {
       "commence_time": "2026-10-20T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-20T14:43:10Z",
+      "lines": {
+        "draftkings": {
+          "Logan Thompson": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250710_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Los Angeles Kings @ Washington Capitals"
     },
     "adae998098aa843c9bb607b62ff47d5f": {
@@ -1403,7 +1414,7 @@
     ]
   },
   "gl_8477942": {
-    "fetched": "2026-10-13T18:05:15Z",
+    "fetched": "2026-10-20T14:43:10Z",
     "value": []
   },
   "gl_8478439": {
@@ -1417,7 +1428,7 @@
     ]
   },
   "gl_8478911": {
-    "fetched": "2026-10-17T14:57:11Z",
+    "fetched": "2026-10-20T14:43:10Z",
     "value": [
       "2026-10-02",
       "2026-10-03"
@@ -3022,6 +3033,39 @@
         "VGK",
         26,
         35
+      ]
+    ]
+  },
+  "h2h_LAK-WSH": {
+    "fetched": "2026-10-20T14:43:10Z",
+    "value": [
+      [
+        "2025-12-02",
+        "WSH",
+        "LAK",
+        25,
+        25
+      ],
+      [
+        "2025-11-17",
+        "LAK",
+        "WSH",
+        31,
+        25
+      ],
+      [
+        "2025-03-13",
+        "WSH",
+        "LAK",
+        21,
+        27
+      ],
+      [
+        "2024-12-22",
+        "LAK",
+        "WSH",
+        26,
+        21
       ]
     ]
   },
@@ -6046,7 +6090,7 @@
     ]
   },
   "roster_LAK": {
-    "fetched": "2026-10-17T18:02:12Z",
+    "fetched": "2026-10-20T14:43:10Z",
     "value": [
       "Anton Forsberg",
       "Darcy Kuemper"
@@ -6187,7 +6231,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-10-17T14:57:11Z",
+    "fetched": "2026-10-20T14:43:10Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -6625,6 +6669,12 @@
       "book": "FD",
       "event_id": "0e2b3099b25e9827dc4a6abd7fabfa51",
       "goalie": "Arturs Silovs"
+    },
+    "486": {
+      "at": "2026-10-20T14:43:10Z",
+      "book": null,
+      "event_id": "99c9d6d714b90f72a5fd2a1c5011170d",
+      "goalie": "Logan Thompson"
     }
   },
   "shot_stats": {
