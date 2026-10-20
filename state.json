@@ -57,7 +57,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19111,
+  "credits_remaining": 19110,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -364,8 +364,19 @@
     },
     "fd470e8ca75f778cf8dfdfcb340e2fa7": {
       "commence_time": "2026-10-20T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-20T14:44:14Z",
+      "lines": {
+        "draftkings": {
+          "Jet Greaves": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380697458%232328570080_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380697458%232328570081_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Toronto Maple Leafs @ Columbus Blue Jackets"
     }
   },
@@ -2274,6 +2285,39 @@
         "CBJ",
         33,
         39
+      ]
+    ]
+  },
+  "h2h_CBJ-TOR": {
+    "fetched": "2026-10-20T14:44:14Z",
+    "value": [
+      [
+        "2025-11-26",
+        "TOR",
+        "CBJ",
+        24,
+        36
+      ],
+      [
+        "2025-11-20",
+        "CBJ",
+        "TOR",
+        30,
+        29
+      ],
+      [
+        "2025-10-29",
+        "TOR",
+        "CBJ",
+        36,
+        24
+      ],
+      [
+        "2025-04-05",
+        "CBJ",
+        "TOR",
+        27,
+        27
       ]
     ]
   },
@@ -6033,7 +6077,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-10-18T14:18:10Z",
+    "fetched": "2026-10-20T14:44:14Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -6193,7 +6237,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-19T15:17:11Z",
+    "fetched": "2026-10-20T14:44:14Z",
     "value": [
       "Artur Akhtyamov",
       "Sergei Bobrovsky",
@@ -6675,6 +6719,12 @@
       "book": null,
       "event_id": "99c9d6d714b90f72a5fd2a1c5011170d",
       "goalie": "Logan Thompson"
+    },
+    "487": {
+      "at": "2026-10-20T14:44:14Z",
+      "book": null,
+      "event_id": "fd470e8ca75f778cf8dfdfcb340e2fa7",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
