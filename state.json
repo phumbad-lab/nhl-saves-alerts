@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19093,
+  "credits_remaining": 19092,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -332,15 +332,15 @@
     "99c9d6d714b90f72a5fd2a1c5011170d": {
       "commence_time": "2026-10-20T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T15:46:15Z",
+      "last_paid_check": "2026-10-20T16:02:13Z",
       "lines": {
         "draftkings": {
           "Logan Thompson": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20",
-            "point": 24.5,
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328681356_13L42133Q1-389637312Q20",
+            "point": 25.5,
             "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250710_15L42133Q1731448625Q20"
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328681357_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
