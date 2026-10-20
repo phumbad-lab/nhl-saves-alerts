@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19055,
+  "credits_remaining": 19054,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -486,7 +486,7 @@
     "adae998098aa843c9bb607b62ff47d5f": {
       "commence_time": "2026-10-21T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T19:19:13Z",
+      "last_paid_check": "2026-10-20T19:34:13Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -495,6 +495,13 @@
             "point": 28.5,
             "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328791465_15L42133Q1-245490255Q20"
+          },
+          "Pyotr Kochetkov": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902308_13L42133Q1-1959669843Q20",
+            "point": 18.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902309_15L42133Q1-76159233Q20"
           }
         },
         "fanduel": {
@@ -7269,6 +7276,12 @@
       "book": "FD",
       "event_id": "9839724bdc94a54158c53865e379c682",
       "goalie": "Carter Hart"
+    },
+    "531": {
+      "at": "2026-10-20T19:34:13Z",
+      "book": null,
+      "event_id": "adae998098aa843c9bb607b62ff47d5f",
+      "goalie": "Pyotr Kochetkov"
     }
   },
   "shot_stats": {
