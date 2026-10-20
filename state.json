@@ -42,6 +42,16 @@
       "start": "2026-10-20T23:10:00Z",
       "text": "Thompson (WSH) - LAK@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479\u0004o24.5\u0005"
     },
+    "adae998098aa843c9bb607b62ff47d5f|Pyotr Kochetkov": {
+      "lines": {
+        "DK": 18.5,
+        "FD": 19.5
+      },
+      "mid": 19,
+      "side": "UNDER",
+      "start": "2026-10-21T02:10:00Z",
+      "text": "Kochetkov (CAR) - CAR@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902309_15L42133Q1-76159233Q20\u0004u18.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074343\u0004u19.5\u0005"
+    },
     "c8d71abe9d49ca6ea219b84923b9a48c|Joseph Woll": {
       "done": true,
       "lines": {
@@ -8424,5 +8434,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088090
+  "tg_offset": 69088091
 }
