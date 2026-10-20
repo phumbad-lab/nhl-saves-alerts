@@ -97,7 +97,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19037,
+  "credits_remaining": 19036,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -554,7 +554,7 @@
     "c3e7d800670fc3945c5b89ec09709eae": {
       "commence_time": "2026-10-21T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T22:33:13Z",
+      "last_paid_check": "2026-10-20T22:49:09Z",
       "lines": {
         "draftkings": {
           "Devon Levi": {
