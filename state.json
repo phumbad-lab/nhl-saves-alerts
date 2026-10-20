@@ -33,12 +33,13 @@
     },
     "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson": {
       "lines": {
-        "DK": 24.5
+        "DK": 24.5,
+        "FD": 24.5
       },
       "mid": 15,
       "side": "OVER",
       "start": "2026-10-20T23:10:00Z",
-      "text": "Thompson (WSH) - LAK@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD not yet"
+      "text": "Thompson (WSH) - LAK@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479\u0004o24.5\u0005"
     },
     "c8d71abe9d49ca6ea219b84923b9a48c|Joseph Woll": {
       "done": true,
@@ -75,7 +76,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19100,
+  "credits_remaining": 19098,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -277,22 +278,38 @@
     "84e20520cdbf52c71dfe697e7f789b86": {
       "commence_time": "2026-10-20T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T15:14:13Z",
+      "last_paid_check": "2026-10-20T15:30:21Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380706754%232328608294_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380706754%232328608295_15L42133Q1874096526Q20"
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380706754%232328649281_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380706754%232328649282_15L42133Q184490156Q20"
           },
           "Lukas Dostal": {
             "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380706448%232328116598_13L42133Q1-54034395Q20",
             "point": 26.5,
-            "under": -125,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380706448%232328116599_15L42133Q11150106798Q20"
+          }
+        },
+        "fanduel": {
+          "Ilya Sorokin": {
+            "over": -122,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618145400&selectionId=75039652",
+            "point": 22.5,
+            "under": -110,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618145400&selectionId=75039651"
+          },
+          "Lukas Dostal": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618144774&selectionId=74979813",
+            "point": 26.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618144774&selectionId=74979814"
           }
         }
       },
@@ -307,7 +324,7 @@
     "99c9d6d714b90f72a5fd2a1c5011170d": {
       "commence_time": "2026-10-20T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T15:14:13Z",
+      "last_paid_check": "2026-10-20T15:30:21Z",
       "lines": {
         "draftkings": {
           "Logan Thompson": {
@@ -316,6 +333,15 @@
             "point": 24.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250710_15L42133Q1731448625Q20"
+          }
+        },
+        "fanduel": {
+          "Logan Thompson": {
+            "over": -104,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479",
+            "point": 24.5,
+            "under": -128,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074478"
           }
         }
       },
@@ -6873,6 +6899,24 @@
       "book": null,
       "event_id": "fd470e8ca75f778cf8dfdfcb340e2fa7",
       "goalie": "Anthony Stolarz"
+    },
+    "499": {
+      "at": "2026-10-20T15:30:21Z",
+      "book": "FD",
+      "event_id": "84e20520cdbf52c71dfe697e7f789b86",
+      "goalie": "Ilya Sorokin"
+    },
+    "500": {
+      "at": "2026-10-20T15:30:21Z",
+      "book": "FD",
+      "event_id": "84e20520cdbf52c71dfe697e7f789b86",
+      "goalie": "Lukas Dostal"
+    },
+    "501": {
+      "at": "2026-10-20T15:30:21Z",
+      "book": "FD",
+      "event_id": "99c9d6d714b90f72a5fd2a1c5011170d",
+      "goalie": "Logan Thompson"
     }
   },
   "shot_stats": {
