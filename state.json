@@ -11,6 +11,15 @@
       "start": "2026-10-20T01:10:00Z",
       "text": "Cossa (UTA) - PIT@UTA 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380620214%232327509659_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617875704&selectionId=103689735\u0004u23.5\u0005"
     },
+    "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen": {
+      "lines": {
+        "FD": 27.5
+      },
+      "mid": 16,
+      "side": "UNDER",
+      "start": "2026-10-20T23:10:00Z",
+      "text": "Allen (NJD) - COL@NJD 7:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618141595&selectionId=74675854\u0004u27.5\u0005"
+    },
     "3af4496cf626dc3538fb93001aa2fba0|Jesper Wallstedt": {
       "done": true,
       "lines": {
@@ -8004,5 +8013,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088088
+  "tg_offset": 69088089
 }
