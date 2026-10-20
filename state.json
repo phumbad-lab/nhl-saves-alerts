@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19045,
+  "credits_remaining": 19044,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -486,7 +486,7 @@
     "adae998098aa843c9bb607b62ff47d5f": {
       "commence_time": "2026-10-21T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T20:38:12Z",
+      "last_paid_check": "2026-10-20T20:53:12Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -506,11 +506,18 @@
         },
         "fanduel": {
           "Leevi Merilainen": {
-            "over": -106,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174825",
             "point": 28.5,
-            "under": -125,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174826"
+          },
+          "Pyotr Kochetkov": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074342",
+            "point": 19.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074343"
           }
         }
       },
@@ -7268,6 +7275,12 @@
     "531": {
       "at": "2026-10-20T19:34:13Z",
       "book": null,
+      "event_id": "adae998098aa843c9bb607b62ff47d5f",
+      "goalie": "Pyotr Kochetkov"
+    },
+    "532": {
+      "at": "2026-10-20T20:53:12Z",
+      "book": "FD",
       "event_id": "adae998098aa843c9bb607b62ff47d5f",
       "goalie": "Pyotr Kochetkov"
     }
