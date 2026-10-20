@@ -42,6 +42,16 @@
       "start": "2026-10-20T23:10:00Z",
       "text": "Thompson (WSH) - LAK@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479\u0004o24.5\u0005"
     },
+    "adae998098aa843c9bb607b62ff47d5f|Leevi Merilainen": {
+      "lines": {
+        "DK": 28.5,
+        "FD": 28.5
+      },
+      "mid": 20,
+      "side": "OVER",
+      "start": "2026-10-21T02:10:00Z",
+      "text": "Merilainen (VAN) - CAR@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328791464_13L42133Q1827957987Q20\u0004o28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174825\u0004o28.5\u0005"
+    },
     "adae998098aa843c9bb607b62ff47d5f|Pyotr Kochetkov": {
       "lines": {
         "DK": 18.5,
@@ -8434,5 +8444,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088091
+  "tg_offset": 69088092
 }
