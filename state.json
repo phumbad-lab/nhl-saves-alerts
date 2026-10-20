@@ -4636,8 +4636,6 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-10-17T19:36:10Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-20T18:06:13Z",
       "seen": "2026-10-13T14:15:18Z",
       "status": "DTD"
     },
