@@ -6862,36 +6862,6 @@
     ]
   },
   "sent": {
-    "410": {
-      "at": "2026-10-17T19:21:11Z",
-      "book": "DK",
-      "event_id": "95168b13c92e52aca0ad08f18b66ccd4",
-      "goalie": "Dan Vladar"
-    },
-    "411": {
-      "at": "2026-10-17T19:21:11Z",
-      "book": "DK",
-      "event_id": "95168b13c92e52aca0ad08f18b66ccd4",
-      "goalie": "Linus Ullmark"
-    },
-    "412": {
-      "at": "2026-10-17T19:21:11Z",
-      "book": "DK",
-      "event_id": "ad530128f8a287b794e713643ee46757",
-      "goalie": "Anton Forsberg"
-    },
-    "413": {
-      "at": "2026-10-17T19:21:11Z",
-      "book": "DK",
-      "event_id": "b5419971529fadc0610c47b095627156",
-      "goalie": "Karel Vejmelka"
-    },
-    "414": {
-      "at": "2026-10-17T19:21:11Z",
-      "book": "DK",
-      "event_id": "b5419971529fadc0610c47b095627156",
-      "goalie": "Tristan Jarry"
-    },
     "417": {
       "at": "2026-10-17T19:40:17Z",
       "book": null,
