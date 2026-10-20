@@ -32,6 +32,7 @@
       "text": "Woll (PHI) - COL@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327518786_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617868500&selectionId=75454783\u0004o26.5\u0005"
     },
     "ea54f93ba7f80a041cb134ca262d7bc0|Dylan Garand": {
+      "done": true,
       "lines": {
         "DK": 23.5,
         "FD": 24.5
@@ -42,6 +43,7 @@
       "text": "Garand (NYR) - ANA@NYR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380371459%232327471244_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617862483&selectionId=96675313\u0004u24.5\u0005"
     },
     "ea54f93ba7f80a041cb134ca262d7bc0|Ville Husso": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 24.5
@@ -6003,7 +6005,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-19": [
+      "ea54f93ba7f80a041cb134ca262d7bc0|Dylan Garand",
+      "ea54f93ba7f80a041cb134ca262d7bc0|Ville Husso"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
