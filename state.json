@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19090,
+  "credits_remaining": 19089,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -332,9 +332,16 @@
     "99c9d6d714b90f72a5fd2a1c5011170d": {
       "commence_time": "2026-10-20T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-20T16:02:13Z",
+      "last_paid_check": "2026-10-20T16:18:12Z",
       "lines": {
         "draftkings": {
+          "Darcy Kuemper": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709531%232328697759_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709531%232328697760_15L42133Q1458571637Q20"
+          },
           "Logan Thompson": {
             "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328681356_13L42133Q1-389637312Q20",
@@ -345,17 +352,17 @@
         },
         "fanduel": {
           "Darcy Kuemper": {
-            "over": -122,
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149992&selectionId=74879770",
             "point": 25.5,
-            "under": -108,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149992&selectionId=74879771"
           },
           "Logan Thompson": {
-            "over": -106,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479",
-            "point": 24.5,
-            "under": -125,
+            "point": 25.5,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074478"
           }
         }
@@ -6525,12 +6532,6 @@
     ]
   },
   "sent": {
-    "371": {
-      "at": "2026-10-17T16:18:11Z",
-      "book": "FD",
-      "event_id": "8c3a146ab31ea5b382be8f36a0637798",
-      "goalie": "Jet Greaves"
-    },
     "372": {
       "at": "2026-10-17T16:28:11Z",
       "book": "FD",
@@ -6998,6 +6999,12 @@
       "book": null,
       "event_id": "db38d272a56e929eac7005ab619af117",
       "goalie": "Jake Oettinger"
+    },
+    "508": {
+      "at": "2026-10-20T16:18:12Z",
+      "book": "DK",
+      "event_id": "99c9d6d714b90f72a5fd2a1c5011170d",
+      "goalie": "Darcy Kuemper"
     }
   },
   "shot_stats": {
