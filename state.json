@@ -22,6 +22,15 @@
       "start": "2026-10-18T22:10:00Z",
       "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
     },
+    "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson": {
+      "lines": {
+        "DK": 24.5
+      },
+      "mid": 15,
+      "side": "OVER",
+      "start": "2026-10-20T23:10:00Z",
+      "text": "Thompson (WSH) - LAK@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD not yet"
+    },
     "c8d71abe9d49ca6ea219b84923b9a48c|Joseph Woll": {
       "done": true,
       "lines": {
@@ -7966,5 +7975,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088087
+  "tg_offset": 69088088
 }
