@@ -56,7 +56,7 @@
       "text": "Husso (ANA) - ANA@NYR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481210_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617865236&selectionId=74880558\u0004u24.5\u0005"
     }
   },
-  "corrections_checked": "2026-10-19",
+  "corrections_checked": "2026-10-20",
   "credits_remaining": 19120,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
@@ -5976,14 +5976,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-19": [
-      "ea54f93ba7f80a041cb134ca262d7bc0|Dylan Garand",
-      "ea54f93ba7f80a041cb134ca262d7bc0|Ville Husso",
-      "c8d71abe9d49ca6ea219b84923b9a48c|Joseph Woll",
-      "0e2b3099b25e9827dc4a6abd7fabfa51|Sebastian Cossa"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
