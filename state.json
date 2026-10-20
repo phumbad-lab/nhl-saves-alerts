@@ -77,7 +77,7 @@
     }
   },
   "corrections_checked": "2026-10-20",
-  "credits_remaining": 19088,
+  "credits_remaining": 19087,
   "events": {
     "0922c474e6588f94af491684dbae6cdb": {
       "commence_time": "2026-10-19T00:10:00Z",
@@ -233,8 +233,19 @@
     },
     "50c81d9967c2341f2117c57685000dee": {
       "commence_time": "2026-10-21T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-20T16:22:13Z",
+      "lines": {
+        "draftkings": {
+          "Joel Hofer": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380713632%232328714516_13L42133Q1-1959470774Q20",
+            "point": 20.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380713632%232328714517_15L42133Q1-1449474Q20"
+          }
+        }
+      },
       "matchup": "Winnipeg Jets @ St Louis Blues"
     },
     "60f76779653fc9a6106c6af48f51490f": {
@@ -1572,7 +1583,7 @@
     ]
   },
   "gl_8477504": {
-    "fetched": "2026-10-17T17:01:09Z",
+    "fetched": "2026-10-20T16:22:13Z",
     "value": [
       "2026-10-02",
       "2026-10-04",
@@ -4292,6 +4303,39 @@
       ]
     ]
   },
+  "h2h_STL-WPG": {
+    "fetched": "2026-10-20T16:22:13Z",
+    "value": [
+      [
+        "2026-04-09",
+        "WPG",
+        "STL",
+        34,
+        22
+      ],
+      [
+        "2026-03-15",
+        "STL",
+        "WPG",
+        31,
+        16
+      ],
+      [
+        "2026-01-20",
+        "STL",
+        "WPG",
+        23,
+        16
+      ],
+      [
+        "2025-12-17",
+        "WPG",
+        "STL",
+        24,
+        26
+      ]
+    ]
+  },
   "h2h_TBL-VAN": {
     "fetched": "2026-10-17T19:03:10Z",
     "value": [
@@ -6473,7 +6517,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-10-17T17:53:09Z",
+    "fetched": "2026-10-20T16:22:13Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -6517,7 +6561,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-10-17T17:01:09Z",
+    "fetched": "2026-10-20T16:22:13Z",
     "value": [
       "Connor Hellebuyck",
       "Stuart Skinner",
@@ -7005,6 +7049,12 @@
       "book": "DK",
       "event_id": "99c9d6d714b90f72a5fd2a1c5011170d",
       "goalie": "Darcy Kuemper"
+    },
+    "509": {
+      "at": "2026-10-20T16:22:13Z",
+      "book": null,
+      "event_id": "50c81d9967c2341f2117c57685000dee",
+      "goalie": "Joel Hofer"
     }
   },
   "shot_stats": {
