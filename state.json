@@ -135,46 +135,6 @@
       },
       "matchup": "Pittsburgh Penguins @ Utah Mammoth"
     },
-    "0fc72a0b9fd45e4ea478959e642a54f4": {
-      "commence_time": "2026-10-18T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-17T23:40:15Z",
-      "lines": {
-        "draftkings": {
-          "Jordan Binnington": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380002122%232324661287_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380002122%232324661288_15L42133Q184490156Q20"
-          },
-          "Juuse Saros": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380068948%232324933717_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380068948%232324933718_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Jordan Binnington": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617314099&selectionId=74801977",
-            "point": 23.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617314099&selectionId=74801976"
-          },
-          "Juuse Saros": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617314112&selectionId=74973972",
-            "point": 23.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617314112&selectionId=74973971"
-          }
-        }
-      },
-      "matchup": "St Louis Blues @ Nashville Predators"
-    },
     "1ee9e671dfe8ad2d9c73f910baa56e1b": {
       "commence_time": "2026-10-20T23:10:00Z",
       "last_paid_check": null,
