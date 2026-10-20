@@ -73,6 +73,16 @@
       "start": "2026-10-19T23:10:00Z",
       "text": "Woll (PHI) - COL@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327518786_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617868500&selectionId=75454783\u0004o26.5\u0005"
     },
+    "db38d272a56e929eac7005ab619af117|Jake Oettinger": {
+      "lines": {
+        "DK": 22.5,
+        "FD": 22.5
+      },
+      "mid": 21,
+      "side": "UNDER",
+      "start": "2026-10-21T00:10:00Z",
+      "text": "Oettinger (DAL) - BOS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380606752%232328116586_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618168914&selectionId=74880671\u0004u22.5\u0005"
+    },
     "ea54f93ba7f80a041cb134ca262d7bc0|Dylan Garand": {
       "done": true,
       "lines": {
@@ -8406,5 +8416,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088093
+  "tg_offset": 69088094
 }
