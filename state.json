@@ -4072,8 +4072,7 @@
       "status": "OUT"
     },
     "PIT:8475810": {
-      "alerted": false,
-      "missing_since": "2026-10-20T03:41:10Z",
+      "alerted": true,
       "out_at": "2026-10-20T03:36:12Z",
       "seen": "2026-10-20T03:36:12Z",
       "status": "OUT"
