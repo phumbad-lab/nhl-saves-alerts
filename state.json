@@ -7558,7 +7558,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.2,
-    "fetched": "2026-10-21T12:03:10Z",
+    "fetched": "2026-10-21T18:03:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.55555,
@@ -7590,7 +7590,7 @@
       },
       "columbusbluejackets": {
         "sa": 27.75,
-        "sf": 27.5
+        "sf": 27.625
       },
       "dallasstars": {
         "sa": 22.33333,
@@ -7665,7 +7665,7 @@
         "sf": 29.77777
       },
       "torontomapleleafs": {
-        "sa": 30.18181,
+        "sa": 30.27272,
         "sf": 27.81818
       },
       "utahmammoth": {
@@ -7689,7 +7689,7 @@
         "sf": 27.33333
       }
     },
-    "save_pct": 0.8867,
+    "save_pct": 0.8868,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
