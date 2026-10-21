@@ -4777,13 +4777,6 @@
       "seen": "2026-10-20T03:36:12Z",
       "status": "DTD"
     },
-    "SEA:8477986": {
-      "alerted": true,
-      "missing_since": "2026-10-21T01:26:11Z",
-      "out_at": "2026-10-17T21:56:11Z",
-      "seen": "2026-10-16T00:54:11Z",
-      "status": "DTD"
-    },
     "TOR:8476931": {
       "alerted": false,
       "out_at": null,
