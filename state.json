@@ -77,6 +77,7 @@
       "text": "Woll (PHI) - COL@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327518786_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617868500&selectionId=75454783\u0004o26.5\u0005"
     },
     "db38d272a56e929eac7005ab619af117|Jake Oettinger": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 22.5
@@ -6616,7 +6617,8 @@
   "night_graded": {
     "2026-10-20": [
       "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson",
-      "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen"
+      "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen",
+      "db38d272a56e929eac7005ab619af117|Jake Oettinger"
     ]
   },
   "picks_channel": {
