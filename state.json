@@ -113,19 +113,42 @@
     }
   },
   "corrections_checked": "2026-10-21",
-  "credits_remaining": 19029,
+  "credits_remaining": 19028,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-21T16:34:12Z",
+      "last_paid_check": "2026-10-21T16:50:17Z",
       "lines": {
-        "fanduel": {
+        "draftkings": {
+          "Dan Vladar": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380924379%232330025858_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380924379%232330025859_15L42133Q1731448625Q20"
+          },
           "Ukko-Pekka Luukkonen": {
-            "over": -106,
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380924612%232329305526_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380924612%232329305527_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Dan Vladar": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618488331&selectionId=74843681",
+            "point": 24.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618488331&selectionId=74843678"
+          },
+          "Ukko-Pekka Luukkonen": {
+            "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618485395&selectionId=77455874",
             "point": 22.5,
-            "under": -125,
+            "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618485395&selectionId=77455873"
           }
         }
@@ -7381,6 +7404,18 @@
     "552": {
       "at": "2026-10-21T16:34:12Z",
       "book": null,
+      "event_id": "0b4bab4d663e04a571655ec7477eb10a",
+      "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "553": {
+      "at": "2026-10-21T16:50:17Z",
+      "book": null,
+      "event_id": "0b4bab4d663e04a571655ec7477eb10a",
+      "goalie": "Dan Vladar"
+    },
+    "554": {
+      "at": "2026-10-21T16:50:17Z",
+      "book": "DK",
       "event_id": "0b4bab4d663e04a571655ec7477eb10a",
       "goalie": "Ukko-Pekka Luukkonen"
     }
