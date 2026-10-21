@@ -12,6 +12,7 @@
       "text": "Cossa (UTA) - PIT@UTA 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380620214%232327509659_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617875704&selectionId=103689735\u0004u23.5\u0005"
     },
     "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 27.5
@@ -6620,7 +6621,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-10-20": [
-      "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson"
+      "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson",
+      "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen"
     ]
   },
   "picks_channel": {
