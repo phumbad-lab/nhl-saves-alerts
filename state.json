@@ -1,4 +1,5 @@
 {
+  "channel_paused": true,
   "channel_posts": {
     "0e2b3099b25e9827dc4a6abd7fabfa51|Sebastian Cossa": {
       "done": true,
@@ -8406,5 +8407,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088094
+  "tg_offset": 69088095
 }
