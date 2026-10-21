@@ -418,6 +418,12 @@
       },
       "matchup": "San Jose Sharks @ Toronto Maple Leafs"
     },
+    "7e4df53f515e77bc6555279eb5d6946a": {
+      "commence_time": "2026-10-23T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Minnesota Wild @ Calgary Flames"
+    },
     "84e20520cdbf52c71dfe697e7f789b86": {
       "commence_time": "2026-10-20T23:15:00Z",
       "h2h_sent": true,
@@ -457,6 +463,12 @@
         }
       },
       "matchup": "Anaheim Ducks @ New York Islanders"
+    },
+    "8a951cc95f91e5df49f7aad4219c40e0": {
+      "commence_time": "2026-10-23T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Carolina Hurricanes @ Edmonton Oilers"
     },
     "921ae4814ca448a3040aa6de5b0fb9e9": {
       "commence_time": "2026-10-22T23:10:00Z",
