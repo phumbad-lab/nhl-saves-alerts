@@ -1732,6 +1732,16 @@ def process_replies(state, now):
         if words and words[0].strip(".!:") == "line":
             manual.append((msg, (msg.get("text") or "").split()[1:]))
             continue
+        low = " ".join(w.strip(".!?") for w in words)
+        if low in ("pause channel", "channel off", "channel pause", "mute channel", "stop channel"):
+            state["channel_paused"] = True
+            tg_reply(msg, "📣 Channel paused. Your bets won't be posted until you text: resume channel. "
+                          "Plays already posted still get their results.")
+            continue
+        if low in ("resume channel", "channel on", "channel resume", "unmute channel", "start channel"):
+            state.pop("channel_paused", None)
+            tg_reply(msg, "📣 Channel back on. Bets you log before puck drop will post again.")
+            continue
         if words and words[0].strip(".!:?") in SUMMARY_WORDS:
             rows = rows if rows is not None else load_picks()
             tg_reply(msg, plays_summary(rows, state, now, yesterday="yesterday" in words[1:]))
@@ -1895,11 +1905,16 @@ def channel_sync(state, rows, now):
     if not ch:
         return
     posts = state.setdefault("channel_posts", {})
+    paused = state.get("channel_paused")  # 'pause channel': no new posts; outs and results still work
     taken = {(r["event_id"], r["goalie"]) for r in rows if r.get("taken") and r.get("commence_time")
              and parse_iso(r["commence_time"]) > now}
     for event_id, goalie in sorted(taken):
         key = f"{event_id}|{goalie}"
         if key in posts:
+            continue
+        if paused:  # logged while paused: never posted, even after you resume
+            start = next(r["commence_time"] for r in rows if r["event_id"] == event_id)
+            posts[key] = {"mid": None, "skipped": True, "done": True, "start": start}
             continue
         lines, side, first = channel_lines(rows, state, event_id, goalie)
         if not first:
@@ -1911,7 +1926,7 @@ def channel_sync(state, rows, now):
                           "lines": {b: v["point"] for b, v in lines.items()}}
     for key, post in list(posts.items()):
         event_id, goalie = key.split("|", 1)
-        if parse_iso(post["start"]) > now and not any(
+        if post.get("mid") and parse_iso(post["start"]) > now and not any(
                 r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken") for r in rows):
             tg_call("deleteMessage", {"chat_id": ch["id"], "message_id": post["mid"]})  # you took it back
             posts.pop(key)
@@ -1925,7 +1940,7 @@ def channel_added(state, event_id, goalie, book, now):
     ch = state.get("picks_channel")
     post = (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
     short = BOOK_SHORT.get(book, book)
-    if not (ch and post) or short in post["lines"] or parse_iso(post["start"]) <= now:
+    if not (ch and post and post.get("mid")) or short in post["lines"] or parse_iso(post["start"]) <= now:
         return
     rows = load_picks()
     lines, side, first = channel_lines(rows, state, event_id, goalie)
@@ -1947,7 +1962,7 @@ def channel_result(state, rows, event_id, goalie, correction_from=None):
     """Reply to the play's post with the result at each book posted:
     '✅ Markstrom (FLA) DK u23.5 · FD u24.5: 20 saves' (mixed: 'DK u23.5 ✅ · FD u22.5 ❌')."""
     ch, post = state.get("picks_channel"), (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
-    if not (ch and post):
+    if not (ch and post and post.get("mid")):
         return
     bets = sorted((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken")),
                   key=lambda r: r.get("taken_at", ""))
