@@ -33,6 +33,16 @@
       "start": "2026-10-18T22:10:00Z",
       "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
     },
+    "5736c2282f978bfdf849f4b10876080e|Akira Schmid": {
+      "lines": {
+        "DK": 24.5,
+        "FD": 24.5
+      },
+      "mid": 28,
+      "side": "UNDER",
+      "start": "2026-10-21T23:40:00Z",
+      "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
+    },
     "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson": {
       "done": true,
       "lines": {
@@ -8706,5 +8716,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088097
+  "tg_offset": 69088098
 }
