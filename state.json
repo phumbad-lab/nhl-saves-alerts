@@ -33,6 +33,7 @@
       "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
     },
     "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 24.5
@@ -6617,7 +6618,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-20": [
+      "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
