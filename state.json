@@ -394,46 +394,6 @@
       "lines": {},
       "matchup": "Winnipeg Jets @ Dallas Stars"
     },
-    "7ac756ef7eb5d5b1042e68d86d561147": {
-      "commence_time": "2026-10-19T23:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-19T18:30:21Z",
-      "lines": {
-        "draftkings": {
-          "Sergei Bobrovsky": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380388632%232327403800_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380388632%232327403801_15L42133Q1731448625Q20"
-          },
-          "Yaroslav Askarov": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380389022%232327052992_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380389022%232327052993_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Sergei Bobrovsky": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617870940&selectionId=74802629",
-            "point": 24.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617870940&selectionId=74802631"
-          },
-          "Yaroslav Askarov": {
-            "over": 100,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617872545&selectionId=77385758",
-            "point": 25.5,
-            "under": -132,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617872545&selectionId=77385757"
-          }
-        }
-      },
-      "matchup": "San Jose Sharks @ Toronto Maple Leafs"
-    },
     "7e4df53f515e77bc6555279eb5d6946a": {
       "commence_time": "2026-10-23T01:10:00Z",
       "last_paid_check": null,
