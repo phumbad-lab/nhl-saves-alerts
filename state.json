@@ -112,7 +112,7 @@
     }
   },
   "corrections_checked": "2026-10-21",
-  "credits_remaining": 19025,
+  "credits_remaining": 19024,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -277,7 +277,7 @@
     "5736c2282f978bfdf849f4b10876080e": {
       "commence_time": "2026-10-21T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-21T17:42:11Z",
+      "last_paid_check": "2026-10-21T17:57:11Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
@@ -286,6 +286,13 @@
             "point": 24.5,
             "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20"
+          },
+          "Linus Ullmark": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380672307%232330095022_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380672307%232330095023_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -7540,6 +7547,12 @@
       "book": "FD",
       "event_id": "5736c2282f978bfdf849f4b10876080e",
       "goalie": "Akira Schmid"
+    },
+    "560": {
+      "at": "2026-10-21T17:57:11Z",
+      "book": "DK",
+      "event_id": "5736c2282f978bfdf849f4b10876080e",
+      "goalie": "Linus Ullmark"
     }
   },
   "shot_stats": {
