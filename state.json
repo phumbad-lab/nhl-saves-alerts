@@ -234,6 +234,12 @@
       },
       "matchup": "Colorado Avalanche @ New Jersey Devils"
     },
+    "2d1a2e330020589eb147fe4736ccfd1e": {
+      "commence_time": "2026-10-23T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Detroit Red Wings @ Vancouver Canucks"
+    },
     "50c81d9967c2341f2117c57685000dee": {
       "commence_time": "2026-10-21T00:10:00Z",
       "h2h_sent": true,
@@ -813,6 +819,12 @@
         }
       },
       "matchup": "Anaheim Ducks @ New York Rangers"
+    },
+    "ec5f71ec810aef5fc417a879c49750f1": {
+      "commence_time": "2026-10-23T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Utah Mammoth @ Seattle Kraken"
     },
     "fd470e8ca75f778cf8dfdfcb340e2fa7": {
       "commence_time": "2026-10-20T23:10:00Z",
