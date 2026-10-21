@@ -4782,7 +4782,6 @@
     },
     "TOR:8476931": {
       "alerted": false,
-      "missing_since": "2026-10-21T01:19:11Z",
       "out_at": null,
       "seen": "2026-10-21T01:15:16Z",
       "status": "DTD"
