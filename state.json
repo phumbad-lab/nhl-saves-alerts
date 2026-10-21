@@ -109,46 +109,6 @@
   "corrections_checked": "2026-10-20",
   "credits_remaining": 19031,
   "events": {
-    "0922c474e6588f94af491684dbae6cdb": {
-      "commence_time": "2026-10-19T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-18T19:29:11Z",
-      "lines": {
-        "draftkings": {
-          "Brandon Bussi": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380109122%232325490486_13L42133Q1-1959470774Q20",
-            "point": 20.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380109122%232325490487_15L42133Q1-1449474Q20"
-          },
-          "Devin Cooley": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380339025%232326269089_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380339025%232326269090_15L42133Q1-941301704Q20"
-          }
-        },
-        "fanduel": {
-          "Brandon Bussi": {
-            "over": 100,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634519&selectionId=89960228",
-            "point": 21.5,
-            "under": -132,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634519&selectionId=89960227"
-          },
-          "Devin Cooley": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634938&selectionId=89998349",
-            "point": 27.5,
-            "under": -120,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634938&selectionId=89998348"
-          }
-        }
-      },
-      "matchup": "Carolina Hurricanes @ Calgary Flames"
-    },
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
       "last_paid_check": null,
