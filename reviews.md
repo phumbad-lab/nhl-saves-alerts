@@ -43,6 +43,8 @@ Judges the read on shot volume, not just the bet result.
 
 - **Score effects / underdog chasing in the 3rd** (new, from owner's note Oct 20; 1 game). Owner was winning Allen u27.5 until COL shot ~20 in the 3rd (his count); NJD won the game (4 goals on Wedgewood vs COL's 3 on Allen), so COL was likely trailing late (guess — period shots and moneyline not confirmed). Test idea: do road underdogs / teams that trail after 2 beat their expected shots? Needs pregame moneylines, which the bot doesn't log yet (ties to the "game script/moneyline" idea). Don't judge before ~15–20 games with odds logged.
 
+- **NO EDGE with a big gap (line 3+ saves from expected, lean just under the 2-shot bar)** (owner asked Oct 21 about Wallstedt: line 27.5 vs 22.3 exp, delta −1.87 shots → NO EDGE; EDM shot 32, 28 saves, so an under would have lost — owner glad it didn't tag). Line 3+ above expected so far: 3 under / 2 over (Garand, Wolf, Dostal under; Merilainen Oct 13, Wallstedt over). Covered by shadow A (bar 1.5) in the Oct 28 review; no change proposed.
+
 ## Owner's reads (his reasoning on bets/fades)
 - 2026-10-12 · Wallstedt (MIN) vs VGK · model LEAN OVER o26.5 · **owner faded**: H2H VGK shots on MIN low; MIN tighter at home in L5 (mid-20s). Result 21 saves → fade correct.
 
