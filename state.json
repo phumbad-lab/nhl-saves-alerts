@@ -34,6 +34,7 @@
       "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
     },
     "5736c2282f978bfdf849f4b10876080e|Akira Schmid": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 24.5
@@ -6779,7 +6780,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-21": [
+      "5736c2282f978bfdf849f4b10876080e|Akira Schmid"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
