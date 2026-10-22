@@ -22,17 +22,6 @@
       "start": "2026-10-20T23:10:00Z",
       "text": "Allen (NJD) - COL@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380702482%232328136996_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618141595&selectionId=74675854\u0004u27.5\u0005"
     },
-    "3af4496cf626dc3538fb93001aa2fba0|Jesper Wallstedt": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 22.5
-      },
-      "mid": 3,
-      "side": "OVER",
-      "start": "2026-10-18T22:10:00Z",
-      "text": "Wallstedt (MIN) - CBJ@MIN 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380097360%232325067210_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617634018&selectionId=78172460\u0004o22.5\u0005"
-    },
     "5736c2282f978bfdf849f4b10876080e|Akira Schmid": {
       "done": true,
       "lines": {
@@ -43,6 +32,16 @@
       "side": "UNDER",
       "start": "2026-10-21T23:40:00Z",
       "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
+    },
+    "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso": {
+      "lines": {
+        "DK": 27.5,
+        "FD": 27.5
+      },
+      "mid": 30,
+      "side": "OVER",
+      "start": "2026-10-22T23:10:00Z",
+      "text": "Husso (ANA) - ANA@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381634212%232331449500_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786258&selectionId=74880559\u0004o27.5\u0005"
     },
     "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson": {
       "done": true,
@@ -9130,5 +9129,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088098
+  "tg_offset": 69088099
 }
