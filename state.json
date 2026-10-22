@@ -5434,8 +5434,6 @@
     "CGY:8474150": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-22T17:24:14Z",
       "seen": "2026-10-20T05:22:15Z",
       "status": "DTD"
     },
