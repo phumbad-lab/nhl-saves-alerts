@@ -400,46 +400,6 @@
       },
       "matchup": "New York Rangers @ Toronto Maple Leafs"
     },
-    "60f76779653fc9a6106c6af48f51490f": {
-      "commence_time": "2026-10-20T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-20T17:37:11Z",
-      "lines": {
-        "draftkings": {
-          "Alex Nedeljkovic": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604131%232328743657_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604131%232328743658_15L42133Q1-941301704Q20"
-          },
-          "Jakub Dobes": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604050%232328144321_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380604050%232328144322_15L42133Q1874096526Q20"
-          }
-        },
-        "fanduel": {
-          "Alex Nedeljkovic": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618182998&selectionId=75304747",
-            "point": 27.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618182998&selectionId=75304746"
-          },
-          "Jakub Dobes": {
-            "over": -128,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618144900&selectionId=78840903",
-            "point": 22.5,
-            "under": -104,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618144900&selectionId=78840902"
-          }
-        }
-      },
-      "matchup": "San Jose Sharks @ Montr\u00e9al Canadiens"
-    },
     "62fca8dce49c8fa3988f75322311b896": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
@@ -713,46 +673,6 @@
       },
       "matchup": "Tampa Bay Lightning @ Vegas Golden Knights"
     },
-    "99c9d6d714b90f72a5fd2a1c5011170d": {
-      "commence_time": "2026-10-20T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-20T16:18:12Z",
-      "lines": {
-        "draftkings": {
-          "Darcy Kuemper": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709531%232328697759_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709531%232328697760_15L42133Q1458571637Q20"
-          },
-          "Logan Thompson": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328681356_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328681357_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Darcy Kuemper": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149992&selectionId=74879770",
-            "point": 25.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149992&selectionId=74879771"
-          },
-          "Logan Thompson": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479",
-            "point": 25.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074478"
-          }
-        }
-      },
-      "matchup": "Los Angeles Kings @ Washington Capitals"
-    },
     "adae998098aa843c9bb607b62ff47d5f": {
       "commence_time": "2026-10-21T02:10:00Z",
       "h2h_sent": true,
@@ -1022,46 +942,6 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Utah Mammoth @ Seattle Kraken"
-    },
-    "fd470e8ca75f778cf8dfdfcb340e2fa7": {
-      "commence_time": "2026-10-20T23:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-20T15:32:13Z",
-      "lines": {
-        "draftkings": {
-          "Anthony Stolarz": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380697876%232328118106_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380697876%232328118107_15L42133Q1-245490255Q20"
-          },
-          "Jet Greaves": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380697458%232328570080_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380697458%232328570081_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Anthony Stolarz": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618147549&selectionId=74842534",
-            "point": 27.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618147549&selectionId=74842533"
-          },
-          "Jet Greaves": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149352&selectionId=77747671",
-            "point": 24.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149352&selectionId=77747672"
-          }
-        }
-      },
-      "matchup": "Toronto Maple Leafs @ Columbus Blue Jackets"
     }
   },
   "game_log": {
