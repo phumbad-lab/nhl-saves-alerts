@@ -8232,7 +8232,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.18,
-    "fetched": "2026-10-22T13:18:12Z",
+    "fetched": "2026-10-22T19:18:30Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.55555,
@@ -8243,7 +8243,7 @@
         "sf": 24.9
       },
       "buffalosabres": {
-        "sa": 25.7,
+        "sa": 25.8,
         "sf": 26.9
       },
       "calgaryflames": {
@@ -8316,7 +8316,7 @@
       },
       "philadelphiaflyers": {
         "sa": 31.91666,
-        "sf": 21.83333
+        "sf": 21.91666
       },
       "pittsburghpenguins": {
         "sa": 27.8,
@@ -8363,7 +8363,7 @@
         "sf": 27.33333
       }
     },
-    "save_pct": 0.8869,
+    "save_pct": 0.887,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
