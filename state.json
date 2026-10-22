@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 19011,
+  "credits_remaining": 19010,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -616,7 +616,7 @@
     "bfe0cd1ca4d32c4946e6ee28e21f0619": {
       "commence_time": "2026-10-22T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T15:16:12Z",
+      "last_paid_check": "2026-10-22T15:32:11Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
@@ -625,6 +625,15 @@
             "point": 23.5,
             "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381605058%232331345519_15L42133Q184490156Q20"
+          }
+        },
+        "fanduel": {
+          "Semyon Varlamov": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618765092&selectionId=74880666",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618765092&selectionId=74880667"
           }
         }
       },
@@ -7604,6 +7613,12 @@
       "book": "FD",
       "event_id": "62fca8dce49c8fa3988f75322311b896",
       "goalie": "Michael DiPietro"
+    },
+    "570": {
+      "at": "2026-10-22T15:32:11Z",
+      "book": "FD",
+      "event_id": "bfe0cd1ca4d32c4946e6ee28e21f0619",
+      "goalie": "Semyon Varlamov"
     }
   },
   "shot_stats": {
