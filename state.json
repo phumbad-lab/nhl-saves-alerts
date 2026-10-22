@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 19015,
+  "credits_remaining": 19014,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -356,8 +356,19 @@
     },
     "62fca8dce49c8fa3988f75322311b896": {
       "commence_time": "2026-10-22T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-22T15:04:12Z",
+      "lines": {
+        "draftkings": {
+          "Michael DiPietro": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381609405%232331347440_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381609405%232331347441_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "Nashville Predators @ Boston Bruins"
     },
     "64c943b2b0c51d39a312874b925590f7": {
@@ -2224,6 +2235,39 @@
         "BOS",
         34,
         26
+      ]
+    ]
+  },
+  "h2h_BOS-NSH": {
+    "fetched": "2026-10-22T15:04:12Z",
+    "value": [
+      [
+        "2026-03-05",
+        "BOS",
+        "NSH",
+        23,
+        29
+      ],
+      [
+        "2026-01-27",
+        "NSH",
+        "BOS",
+        30,
+        28
+      ],
+      [
+        "2025-03-04",
+        "NSH",
+        "BOS",
+        30,
+        21
+      ],
+      [
+        "2024-10-22",
+        "BOS",
+        "NSH",
+        33,
+        42
       ]
     ]
   },
@@ -6902,7 +6946,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-10-20T15:55:14Z",
+    "fetched": "2026-10-22T15:04:12Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -7013,7 +7057,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-10-17T17:53:09Z",
+    "fetched": "2026-10-22T15:04:12Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
@@ -7530,6 +7574,12 @@
       "book": null,
       "event_id": "5ae32c2722f3ff4fa178c253f864b384",
       "goalie": "Sergei Bobrovsky"
+    },
+    "567": {
+      "at": "2026-10-22T15:04:12Z",
+      "book": null,
+      "event_id": "62fca8dce49c8fa3988f75322311b896",
+      "goalie": "Michael DiPietro"
     }
   },
   "shot_stats": {
