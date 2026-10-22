@@ -5433,11 +5433,9 @@
   "injuries": {
     "CGY:8474150": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-22T17:30:19Z",
+      "out_at": "2026-10-22T17:36:13Z",
       "seen": "2026-10-20T05:22:15Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CHI:8481524": {
       "alerted": true,
