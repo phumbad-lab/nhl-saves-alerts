@@ -33,6 +33,16 @@
       "start": "2026-10-21T23:40:00Z",
       "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
     },
+    "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws": {
+      "lines": {
+        "DK": 23.5,
+        "FD": 23.5
+      },
+      "mid": 31,
+      "side": "UNDER",
+      "start": "2026-10-22T23:10:00Z",
+      "text": "Daws (NJD) - ANA@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381605878%232331336565_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618777560&selectionId=79796960\u0004u23.5\u0005"
+    },
     "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso": {
       "lines": {
         "DK": 27.5,
@@ -9129,5 +9139,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088099
+  "tg_offset": 69088100
 }
