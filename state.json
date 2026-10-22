@@ -132,7 +132,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18953,
+  "credits_remaining": 18949,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -423,7 +423,7 @@
     "62fca8dce49c8fa3988f75322311b896": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T17:57:11Z",
+      "last_paid_check": "2026-10-22T18:12:12Z",
       "lines": {
         "draftkings": {
           "Michael DiPietro": {
@@ -489,15 +489,22 @@
     "7e4df53f515e77bc6555279eb5d6946a": {
       "commence_time": "2026-10-23T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T17:57:11Z",
+      "last_paid_check": "2026-10-22T18:12:12Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
-            "over": -125,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381643021%232331500424_13L42133Q11884129982Q20",
             "point": 27.5,
-            "under": -105,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381643021%232331500425_15L42133Q1-941301704Q20"
+          },
+          "Jesper Wallstedt": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381368663%232330282256_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381368663%232330282306_15L42133Q1874096526Q20"
           }
         }
       },
@@ -843,7 +850,7 @@
     "c8d6c1c9324cfd008466f555073828d2": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T17:57:11Z",
+      "last_paid_check": "2026-10-22T18:12:12Z",
       "lines": {
         "draftkings": {
           "Yaroslav Askarov": {
@@ -869,7 +876,7 @@
     "d57c3873ab3f113b8b77614edff4cf8f": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T17:57:11Z",
+      "last_paid_check": "2026-10-22T18:12:12Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -8143,6 +8150,12 @@
       "book": "FD",
       "event_id": "58afd2b5779b2e4f163314436900d379",
       "goalie": "Adin Hill"
+    },
+    "594": {
+      "at": "2026-10-22T18:12:12Z",
+      "book": null,
+      "event_id": "7e4df53f515e77bc6555279eb5d6946a",
+      "goalie": "Jesper Wallstedt"
     }
   },
   "shot_stats": {
