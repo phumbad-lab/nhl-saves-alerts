@@ -4892,7 +4892,7 @@
       "status": "DTD"
     },
     "FLA:8473419": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-22T14:05:14Z",
       "seen": "2026-10-22T14:05:14Z",
       "status": "OUT"
@@ -4940,8 +4940,6 @@
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-20T03:36:12Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-22T14:08:11Z",
       "seen": "2026-10-20T03:36:12Z",
       "status": "DTD"
     },
