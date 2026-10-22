@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 19013,
+  "credits_remaining": 19012,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -300,7 +300,7 @@
     "5ae32c2722f3ff4fa178c253f864b384": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T15:02:12Z",
+      "last_paid_check": "2026-10-22T15:18:12Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -309,6 +309,15 @@
             "point": 25.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381301838%232330048174_15L42133Q1458571637Q20"
+          }
+        },
+        "fanduel": {
+          "Sergei Bobrovsky": {
+            "over": -104,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618761707&selectionId=74802629",
+            "point": 25.5,
+            "under": -128,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618761707&selectionId=74802631"
           }
         }
       },
@@ -7574,6 +7583,12 @@
       "book": null,
       "event_id": "62fca8dce49c8fa3988f75322311b896",
       "goalie": "Michael DiPietro"
+    },
+    "568": {
+      "at": "2026-10-22T15:18:12Z",
+      "book": "FD",
+      "event_id": "5ae32c2722f3ff4fa178c253f864b384",
+      "goalie": "Sergei Bobrovsky"
     }
   },
   "shot_stats": {
