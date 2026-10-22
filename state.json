@@ -7460,7 +7460,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.2,
-    "fetched": "2026-10-21T18:03:10Z",
+    "fetched": "2026-10-22T00:03:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.55555,
@@ -7500,7 +7500,7 @@
       },
       "detroitredwings": {
         "sa": 27.0,
-        "sf": 29.88888
+        "sf": 29.77777
       },
       "edmontonoilers": {
         "sa": 26.55555,
@@ -7555,7 +7555,7 @@
         "sf": 28.2
       },
       "seattlekraken": {
-        "sa": 31.1,
+        "sa": 31.0,
         "sf": 26.5
       },
       "stlouisblues": {
@@ -7591,7 +7591,7 @@
         "sf": 27.33333
       }
     },
-    "save_pct": 0.8868,
+    "save_pct": 0.8867,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
