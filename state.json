@@ -132,7 +132,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18954,
+  "credits_remaining": 18953,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -546,7 +546,7 @@
     "8a951cc95f91e5df49f7aad4219c40e0": {
       "commence_time": "2026-10-23T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T17:55:15Z",
+      "last_paid_check": "2026-10-22T18:10:17Z",
       "lines": {
         "draftkings": {
           "Devon Levi": {
@@ -931,6 +931,12 @@
         }
       },
       "matchup": "Boston Bruins @ Dallas Stars"
+    },
+    "db9d82d62d8f222bfd835100662c6ac6": {
+      "commence_time": "2026-10-24T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Montr\u00e9al Canadiens @ Chicago Blackhawks"
     },
     "ec5f71ec810aef5fc417a879c49750f1": {
       "commence_time": "2026-10-23T02:10:00Z",
