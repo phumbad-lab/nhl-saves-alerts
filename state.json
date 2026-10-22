@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18990,
+  "credits_remaining": 18989,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -405,8 +405,26 @@
     },
     "64c943b2b0c51d39a312874b925590f7": {
       "commence_time": "2026-10-23T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-22T16:35:14Z",
+      "lines": {
+        "draftkings": {
+          "Jake Oettinger": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440264_13L42133Q1-1959470774Q20",
+            "point": 20.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440265_15L42133Q1-1449474Q20"
+          },
+          "Stuart Skinner": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381362765%232330263045_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381362765%232330263060_15L42133Q184490156Q20"
+          }
+        }
+      },
       "matchup": "Winnipeg Jets @ Dallas Stars"
     },
     "7e4df53f515e77bc6555279eb5d6946a": {
@@ -1982,7 +2000,7 @@
     ]
   },
   "gl_8477504": {
-    "fetched": "2026-10-20T16:22:13Z",
+    "fetched": "2026-10-22T16:35:14Z",
     "value": [
       "2026-10-02",
       "2026-10-04",
@@ -3459,6 +3477,39 @@
         "PIT",
         40,
         21
+      ]
+    ]
+  },
+  "h2h_DAL-WPG": {
+    "fetched": "2026-10-22T16:35:14Z",
+    "value": [
+      [
+        "2026-04-02",
+        "WPG",
+        "DAL",
+        22,
+        21
+      ],
+      [
+        "2026-02-02",
+        "WPG",
+        "DAL",
+        27,
+        28
+      ],
+      [
+        "2025-12-09",
+        "DAL",
+        "WPG",
+        19,
+        33
+      ],
+      [
+        "2025-10-09",
+        "DAL",
+        "WPG",
+        37,
+        25
       ]
     ]
   },
@@ -7203,7 +7254,7 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-10-20T15:55:14Z",
+    "fetched": "2026-10-22T16:35:14Z",
     "value": [
       "Casey DeSmith",
       "Jake Oettinger"
@@ -7366,7 +7417,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-10-20T16:22:13Z",
+    "fetched": "2026-10-22T16:35:14Z",
     "value": [
       "Connor Hellebuyck",
       "Stuart Skinner",
@@ -7818,6 +7869,18 @@
       "book": null,
       "event_id": "bfe0cd1ca4d32c4946e6ee28e21f0619",
       "goalie": "Darcy Kuemper"
+    },
+    "577": {
+      "at": "2026-10-22T16:35:14Z",
+      "book": null,
+      "event_id": "64c943b2b0c51d39a312874b925590f7",
+      "goalie": "Jake Oettinger"
+    },
+    "578": {
+      "at": "2026-10-22T16:35:14Z",
+      "book": null,
+      "event_id": "64c943b2b0c51d39a312874b925590f7",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
