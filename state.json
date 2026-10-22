@@ -4938,12 +4938,10 @@
       "status": "OUT"
     },
     "PIT:8475810": {
-      "alerted": true,
-      "out_at": "2026-10-20T03:36:12Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-22T14:11:09Z",
+      "alerted": false,
+      "out_at": "2026-10-22T14:16:11Z",
       "seen": "2026-10-20T03:36:12Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "TOR:8476931": {
       "alerted": false,
