@@ -4934,6 +4934,8 @@
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-20T03:36:12Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-22T14:02:13Z",
       "seen": "2026-10-20T03:36:12Z",
       "status": "DTD"
     },
