@@ -33,6 +33,15 @@
       "start": "2026-10-21T23:40:00Z",
       "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
     },
+    "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt": {
+      "lines": {
+        "DK": 22.5
+      },
+      "mid": 32,
+      "side": "OVER",
+      "start": "2026-10-23T01:10:00Z",
+      "text": "Wallstedt (MIN) - MIN@CGY 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381368663%232330282256_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD not yet"
+    },
     "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws": {
       "lines": {
         "DK": 23.5,
@@ -9313,5 +9322,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088100
+  "tg_offset": 69088101
 }
