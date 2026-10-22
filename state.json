@@ -122,7 +122,7 @@
       "text": "Husso (ANA) - ANA@NYR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481210_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617865236&selectionId=74880558\u0004u24.5\u0005"
     }
   },
-  "corrections_checked": "2026-10-21",
+  "corrections_checked": "2026-10-22",
   "credits_remaining": 19024,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
@@ -6795,11 +6795,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-21": [
-      "5736c2282f978bfdf849f4b10876080e|Akira Schmid"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
