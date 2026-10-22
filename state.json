@@ -33,6 +33,16 @@
       "start": "2026-10-21T23:40:00Z",
       "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
     },
+    "64c943b2b0c51d39a312874b925590f7|Jake Oettinger": {
+      "lines": {
+        "DK": 20.5,
+        "FD": 20.5
+      },
+      "mid": 36,
+      "side": "UNDER",
+      "start": "2026-10-23T00:10:00Z",
+      "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440265_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786812&selectionId=74880671\u0004u20.5\u0005"
+    },
     "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt": {
       "lines": {
         "DK": 23.5,
@@ -106,17 +116,6 @@
       "start": "2026-10-21T02:10:00Z",
       "text": "Kochetkov (CAR) - CAR@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902309_15L42133Q1-76159233Q20\u0004u18.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074343\u0004u19.5\u0005"
     },
-    "c8d71abe9d49ca6ea219b84923b9a48c|Joseph Woll": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 26.5
-      },
-      "mid": 5,
-      "side": "OVER",
-      "start": "2026-10-19T23:10:00Z",
-      "text": "Woll (PHI) - COL@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380591302%232327518786_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617868500&selectionId=75454783\u0004o26.5\u0005"
-    },
     "db38d272a56e929eac7005ab619af117|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -127,28 +126,6 @@
       "side": "UNDER",
       "start": "2026-10-21T00:10:00Z",
       "text": "Oettinger (DAL) - BOS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380606752%232328116586_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618168914&selectionId=74880671\u0004u22.5\u0005"
-    },
-    "ea54f93ba7f80a041cb134ca262d7bc0|Dylan Garand": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 24.5
-      },
-      "mid": 6,
-      "side": "UNDER",
-      "start": "2026-10-19T23:10:00Z",
-      "text": "Garand (NYR) - ANA@NYR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380371459%232327471244_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617862483&selectionId=96675313\u0004u24.5\u0005"
-    },
-    "ea54f93ba7f80a041cb134ca262d7bc0|Ville Husso": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 24.5
-      },
-      "mid": 9,
-      "side": "UNDER",
-      "start": "2026-10-19T23:10:00Z",
-      "text": "Husso (ANA) - ANA@NYR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380613126%232327481210_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617865236&selectionId=74880558\u0004u24.5\u0005"
     }
   },
   "corrections_checked": "2026-10-22",
@@ -9181,5 +9158,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088102
+  "tg_offset": 69088103
 }
