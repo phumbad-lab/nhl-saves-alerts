@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 19016,
+  "credits_remaining": 19015,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -299,8 +299,19 @@
     },
     "5ae32c2722f3ff4fa178c253f864b384": {
       "commence_time": "2026-10-22T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-22T15:02:12Z",
+      "lines": {
+        "draftkings": {
+          "Sergei Bobrovsky": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381301838%232330048142_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381301838%232330048174_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "New York Rangers @ Toronto Maple Leafs"
     },
     "60f76779653fc9a6106c6af48f51490f": {
@@ -4427,6 +4438,39 @@
       ]
     ]
   },
+  "h2h_NYR-TOR": {
+    "fetched": "2026-10-22T15:02:12Z",
+    "value": [
+      [
+        "2026-03-25",
+        "NYR",
+        "TOR",
+        43,
+        18
+      ],
+      [
+        "2026-03-05",
+        "TOR",
+        "NYR",
+        32,
+        24
+      ],
+      [
+        "2025-10-16",
+        "NYR",
+        "TOR",
+        29,
+        24
+      ],
+      [
+        "2025-03-20",
+        "TOR",
+        "NYR",
+        28,
+        30
+      ]
+    ]
+  },
   "h2h_NYR-VAN": {
     "fetched": "2026-10-11T15:06:11Z",
     "value": [
@@ -6983,7 +7027,7 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-10-19T15:51:08Z",
+    "fetched": "2026-10-22T15:02:12Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
@@ -7041,9 +7085,8 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-20T14:44:14Z",
+    "fetched": "2026-10-22T15:02:12Z",
     "value": [
-      "Artur Akhtyamov",
       "Sergei Bobrovsky",
       "Anthony Stolarz"
     ]
@@ -7481,6 +7524,12 @@
       "book": null,
       "event_id": "bfe0cd1ca4d32c4946e6ee28e21f0619",
       "goalie": "Semyon Varlamov"
+    },
+    "566": {
+      "at": "2026-10-22T15:02:12Z",
+      "book": null,
+      "event_id": "5ae32c2722f3ff4fa178c253f864b384",
+      "goalie": "Sergei Bobrovsky"
     }
   },
   "shot_stats": {
