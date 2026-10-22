@@ -5074,8 +5074,7 @@
       "status": "DTD"
     },
     "MTL:8480018": {
-      "alerted": false,
-      "missing_since": "2026-10-22T15:37:11Z",
+      "alerted": true,
       "out_at": "2026-10-22T15:33:11Z",
       "seen": "2026-10-22T15:33:11Z",
       "status": "OUT"
