@@ -826,6 +826,12 @@
       },
       "matchup": "Detroit Red Wings @ Seattle Kraken"
     },
+    "b7e4d8193096703065db318c2813168f": {
+      "commence_time": "2026-10-24T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Tampa Bay Lightning @ Colorado Avalanche"
+    },
     "bfe0cd1ca4d32c4946e6ee28e21f0619": {
       "commence_time": "2026-10-22T23:40:00Z",
       "h2h_sent": true,
@@ -7730,12 +7736,6 @@
     ]
   },
   "sent": {
-    "479": {
-      "at": "2026-10-19T19:09:12Z",
-      "book": "FD",
-      "event_id": "0e2b3099b25e9827dc4a6abd7fabfa51",
-      "goalie": "Arturs Silovs"
-    },
     "486": {
       "at": "2026-10-20T14:43:10Z",
       "book": null,
