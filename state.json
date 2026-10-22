@@ -132,7 +132,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18972,
+  "credits_remaining": 18971,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -303,9 +303,16 @@
     "58afd2b5779b2e4f163314436900d379": {
       "commence_time": "2026-10-23T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T17:08:11Z",
+      "last_paid_check": "2026-10-22T17:23:12Z",
       "lines": {
         "draftkings": {
+          "Adin Hill": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381373794%232330886222_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381373794%232330886223_15L42133Q1874096526Q20"
+          },
           "Joel Hofer": {
             "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381367928%232331439889_13L42133Q1-389637312Q20",
@@ -316,10 +323,10 @@
         },
         "fanduel": {
           "Joel Hofer": {
-            "over": -108,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618787011&selectionId=74882014",
             "point": 25.5,
-            "under": -122,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618787011&selectionId=74882015"
           }
         }
@@ -5383,8 +5390,6 @@
     "CGY:8474150": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-22T17:22:12Z",
       "seen": "2026-10-20T05:22:15Z",
       "status": "DTD"
     },
@@ -8043,6 +8048,12 @@
       "book": "FD",
       "event_id": "58afd2b5779b2e4f163314436900d379",
       "goalie": "Joel Hofer"
+    },
+    "589": {
+      "at": "2026-10-22T17:23:12Z",
+      "book": null,
+      "event_id": "58afd2b5779b2e4f163314436900d379",
+      "goalie": "Adin Hill"
     }
   },
   "shot_stats": {
