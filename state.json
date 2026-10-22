@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18981,
+  "credits_remaining": 18980,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -391,7 +391,7 @@
     "62fca8dce49c8fa3988f75322311b896": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T16:38:12Z",
+      "last_paid_check": "2026-10-22T16:54:12Z",
       "lines": {
         "draftkings": {
           "Michael DiPietro": {
@@ -5404,6 +5404,7 @@
     },
     "TOR:8476931": {
       "alerted": false,
+      "missing_since": "2026-10-22T16:54:12Z",
       "out_at": null,
       "seen": "2026-10-21T01:15:16Z",
       "status": "DTD"
