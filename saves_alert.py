@@ -104,16 +104,20 @@ STATS_REFRESH = timedelta(hours=6)
 # Home/road blend: weight on a team's home (or road) split = split games / (split games + this).
 # 5 -> 1 game 17%, 5 games 50%, 10 games 67%, 20 games 80%. Lower = trust splits sooner.
 HOME_ROAD_K = 5
+# Home/road nudge (owner approved Oct 21 after testing 182 goalie-games, confirmed on Oct 14-20 games
+# the idea wasn't built on): home goalies face this many fewer shots, road goalies this many more.
+# Tested 0.5-2.5; 1.0-1.5 best (1.5: 63-36 overall vs 46-34 without), 2+ overshoots.
+HOME_ROAD_ADJ = 1.5
 STATS_VERSION = 5  # bump when the saved stats format changes
 OPPONENT_ADJUST = True  # rate shots for/against vs. the strength of opponents faced
 # Shadow models (Oct 14): logged to picks.csv next to the live numbers, never shown in alerts.
 # Reviewed after ~2 weeks; the owner decides whether either replaces the live model.
 #  A = shrink early-season team numbers toward league average (SHADOW_A_K phantom average games)
 #      with a lower lean bar (SHADOW_A_THRESHOLD shots), since shrinking pulls everyone toward average.
-#  B = live model plus a flat home/road nudge: home goalie -SHADOW_B_HOME shots, road goalie +SHADOW_B_HOME.
+#  B = (Oct 14-21) live + home/road nudge; since Oct 21 that nudge is live (HOME_ROAD_ADJ), so B = the old model without it.
 SHADOW_A_K = 2
 SHADOW_A_THRESHOLD = 1.5
-SHADOW_B_HOME = 1.0
+SHADOW_B_HOME = -HOME_ROAD_ADJ  # since Oct 21 shadow B = the OLD model (no home/road nudge), for comparison
 H2H_GAMES = 4           # head-to-head meetings shown in each alert (0 = hide)
 H2H_SEASONS = 3         # how many seasons back to look for meetings
 ROSTER_REFRESH = timedelta(hours=12)
@@ -518,6 +522,7 @@ def matchup(event, stats):
                                  ("away", away, home, event["away_team"])):
         own_split, opp_split = ("home", "road") if side == "home" else ("road", "home")
         shots = (blend(opp, opp_split, "sf") + blend(own, own_split, "sa")) / 2
+        shots += -HOME_ROAD_ADJ if side == "home" else HOME_ROAD_ADJ
         out[side] = {"team": nickname(name), "shots": shots, "saves": shots * sv,
                      "delta": shots - avg}
     return out
