@@ -123,7 +123,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18986,
+  "credits_remaining": 18985,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -778,7 +778,7 @@
     "d57c3873ab3f113b8b77614edff4cf8f": {
       "commence_time": "2026-10-22T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-22T16:26:12Z",
+      "last_paid_check": "2026-10-22T16:42:11Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -787,6 +787,15 @@
             "point": 25.5,
             "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381610871%232331398409_15L42133Q1458571637Q20"
+          }
+        },
+        "fanduel": {
+          "Arturs Silovs": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618782223&selectionId=74843679",
+            "point": 25.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618782223&selectionId=74843680"
           }
         }
       },
@@ -7946,6 +7955,12 @@
       "book": "FD",
       "event_id": "c8d6c1c9324cfd008466f555073828d2",
       "goalie": "Yaroslav Askarov"
+    },
+    "581": {
+      "at": "2026-10-22T16:42:11Z",
+      "book": "FD",
+      "event_id": "d57c3873ab3f113b8b77614edff4cf8f",
+      "goalie": "Arturs Silovs"
     }
   },
   "shot_stats": {
