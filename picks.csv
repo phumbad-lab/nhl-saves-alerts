@@ -378,3 +378,4 @@ date,game,goalie,team,book,line,over_odds,under_odds,expected_saves,tag,actual_s
 2026-10-22,Kings @ Islanders,Darcy Kuemper,LAK,DK,23.5,-105,-130,24.5,FADE,,,,bfe0cd1ca4d32c4946e6ee28e21f0619,2026-10-22T23:40:00Z,Los Angeles Kings,New York Islanders,2026-10-22T16:32:12Z,,,,,,LAK:Fiala;NYI:,23.5,FADE,23.2,FADE
 2026-10-22,Jets @ Stars,Jake Oettinger,DAL,DK,20.5,-110,-125,21.0,LEAN_UNDER,,,,64c943b2b0c51d39a312874b925590f7,2026-10-23T00:10:00Z,Winnipeg Jets,Dallas Stars,2026-10-22T16:35:14Z,,,,,,WPG:Morrissey;DAL:,22.8,FADE,22.3,FADE
 2026-10-22,Jets @ Stars,Stuart Skinner,WPG,DK,23.5,-130,-105,25.7,FADE,,,,64c943b2b0c51d39a312874b925590f7,2026-10-23T00:10:00Z,Winnipeg Jets,Dallas Stars,2026-10-22T16:35:14Z,,,,,,WPG:Morrissey;DAL:,24.2,FADE,24.3,FADE
+2026-10-22,Knights @ Blues,Joel Hofer,STL,DK,25.5,-120,-115,22.5,FADE,,,,58afd2b5779b2e4f163314436900d379,2026-10-23T00:10:00Z,Vegas Golden Knights,St Louis Blues,2026-10-22T16:36:12Z,,,,,,VGK:;STL:,24.1,FADE,23.9,FADE
