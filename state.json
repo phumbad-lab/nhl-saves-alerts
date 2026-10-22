@@ -5434,8 +5434,6 @@
     "CGY:8474150": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-22T17:26:11Z",
       "seen": "2026-10-20T05:22:15Z",
       "status": "DTD"
     },
@@ -7596,12 +7594,6 @@
     ]
   },
   "sent": {
-    "468": {
-      "at": "2026-10-19T17:28:13Z",
-      "book": "FD",
-      "event_id": "ea54f93ba7f80a041cb134ca262d7bc0",
-      "goalie": "Dylan Garand"
-    },
     "469": {
       "at": "2026-10-19T17:43:18Z",
       "book": "FD",
