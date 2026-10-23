@@ -12,6 +12,7 @@
       "text": "Allen (NJD) - COL@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380702482%232328136996_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618141595&selectionId=74675854\u0004u27.5\u0005"
     },
     "2d1a2e330020589eb147fe4736ccfd1e|Kevin Lankinen": {
+      "done": true,
       "lines": {
         "DK": 27.5,
         "FD": 25.5
@@ -55,6 +56,7 @@
       "text": "Wallstedt (MIN) - MIN@CGY 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381368663%232331546522_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618805600&selectionId=78172460\u0004o23.5\u0005"
     },
     "8a951cc95f91e5df49f7aad4219c40e0|Brandon Bussi": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 24.5
@@ -7197,7 +7199,9 @@
       "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws",
       "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso",
       "64c943b2b0c51d39a312874b925590f7|Jake Oettinger",
-      "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt"
+      "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt",
+      "2d1a2e330020589eb147fe4736ccfd1e|Kevin Lankinen",
+      "8a951cc95f91e5df49f7aad4219c40e0|Brandon Bussi"
     ]
   },
   "picks_channel": {
