@@ -575,46 +575,6 @@
       },
       "matchup": "Tampa Bay Lightning @ Vegas Golden Knights"
     },
-    "adae998098aa843c9bb607b62ff47d5f": {
-      "commence_time": "2026-10-21T02:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-20T20:53:12Z",
-      "lines": {
-        "draftkings": {
-          "Leevi Merilainen": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328791464_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328791465_15L42133Q1-245490255Q20"
-          },
-          "Pyotr Kochetkov": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902308_13L42133Q1-1959669843Q20",
-            "point": 18.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902309_15L42133Q1-76159233Q20"
-          }
-        },
-        "fanduel": {
-          "Leevi Merilainen": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174825",
-            "point": 28.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174826"
-          },
-          "Pyotr Kochetkov": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074342",
-            "point": 19.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074343"
-          }
-        }
-      },
-      "matchup": "Carolina Hurricanes @ Vancouver Canucks"
-    },
     "b7e4d8193096703065db318c2813168f": {
       "commence_time": "2026-10-24T01:10:00Z",
       "last_paid_check": null,
