@@ -7545,24 +7545,6 @@
     ]
   },
   "sent": {
-    "499": {
-      "at": "2026-10-20T15:30:21Z",
-      "book": "FD",
-      "event_id": "84e20520cdbf52c71dfe697e7f789b86",
-      "goalie": "Ilya Sorokin"
-    },
-    "500": {
-      "at": "2026-10-20T15:30:21Z",
-      "book": "FD",
-      "event_id": "84e20520cdbf52c71dfe697e7f789b86",
-      "goalie": "Lukas Dostal"
-    },
-    "501": {
-      "at": "2026-10-20T15:30:21Z",
-      "book": "FD",
-      "event_id": "99c9d6d714b90f72a5fd2a1c5011170d",
-      "goalie": "Logan Thompson"
-    },
     "502": {
       "at": "2026-10-20T15:32:13Z",
       "book": "DK",
