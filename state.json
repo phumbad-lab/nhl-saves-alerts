@@ -126,6 +126,16 @@
       "side": "UNDER",
       "start": "2026-10-21T00:10:00Z",
       "text": "Oettinger (DAL) - BOS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380606752%232328116586_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618168914&selectionId=74880671\u0004u22.5\u0005"
+    },
+    "ec5f71ec810aef5fc417a879c49750f1|Philipp Grubauer": {
+      "lines": {
+        "DK": 27.5,
+        "FD": 24.5
+      },
+      "mid": 40,
+      "side": "OVER",
+      "start": "2026-10-23T02:10:00Z",
+      "text": "Grubauer (SEA) - UTA@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881682_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD o24.5"
     }
   },
   "corrections_checked": "2026-10-22",
@@ -9144,5 +9154,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088105
+  "tg_offset": 69088107
 }
