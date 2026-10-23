@@ -121,6 +121,15 @@
       "start": "2026-10-21T02:10:00Z",
       "text": "Kochetkov (CAR) - CAR@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902309_15L42133Q1-76159233Q20\u0004u18.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074343\u0004u19.5\u0005"
     },
+    "b7e4d8193096703065db318c2813168f|Andrei Vasilevskiy": {
+      "lines": {
+        "DK": 27.5
+      },
+      "mid": 48,
+      "side": "OVER",
+      "start": "2026-10-24T01:10:00Z",
+      "text": "Vasilevskiy (TBL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381695976%232332547364_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD not yet"
+    },
     "b7e4d8193096703065db318c2813168f|Mackenzie Blackwood": {
       "lines": {
         "DK": 24.5
@@ -9230,5 +9239,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088109
+  "tg_offset": 69088110
 }
