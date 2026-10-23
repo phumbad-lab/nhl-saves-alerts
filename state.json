@@ -44,6 +44,7 @@
       "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440265_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786812&selectionId=74880671\u0004u20.5\u0005"
     },
     "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt": {
+      "done": true,
       "lines": {
         "DK": 23.5,
         "FD": 23.5
@@ -7195,7 +7196,8 @@
     "2026-10-22": [
       "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws",
       "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso",
-      "64c943b2b0c51d39a312874b925590f7|Jake Oettinger"
+      "64c943b2b0c51d39a312874b925590f7|Jake Oettinger",
+      "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt"
     ]
   },
   "picks_channel": {
