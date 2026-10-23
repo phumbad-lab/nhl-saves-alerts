@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18882,
+  "credits_remaining": 18880,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -176,7 +176,7 @@
     "2d1a2e330020589eb147fe4736ccfd1e": {
       "commence_time": "2026-10-23T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-23T01:47:11Z",
+      "last_paid_check": "2026-10-23T01:50:16Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
@@ -185,6 +185,13 @@
             "point": 22.5,
             "under": -135,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381352510%232330935520_15L42133Q1874096526Q20"
+          },
+          "Kevin Lankinen": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381352441%232330233654_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381352441%232330233655_15L42133Q1-941301704Q20"
           }
         }
       },
@@ -583,46 +590,6 @@
       },
       "matchup": "Carolina Hurricanes @ Vancouver Canucks"
     },
-    "b1c2bb946e4f5824800dab22ae585454": {
-      "commence_time": "2026-10-21T01:50:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-20T17:23:12Z",
-      "lines": {
-        "draftkings": {
-          "Daniil Tarasov": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380722817%232327883219_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380722817%232327883220_15L42133Q1731448625Q20"
-          },
-          "Philipp Grubauer": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA380723951%232328769203_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA380723951%232328769204_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Daniil Tarasov": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618175228&selectionId=74979849",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618175228&selectionId=74979848"
-          },
-          "Philipp Grubauer": {
-            "over": -120,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618177506&selectionId=74802625",
-            "point": 25.5,
-            "under": -110,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.618177506&selectionId=74802624"
-          }
-        }
-      },
-      "matchup": "Detroit Red Wings @ Seattle Kraken"
-    },
     "b7e4d8193096703065db318c2813168f": {
       "commence_time": "2026-10-24T01:10:00Z",
       "last_paid_check": null,
@@ -730,15 +697,22 @@
     "ec5f71ec810aef5fc417a879c49750f1": {
       "commence_time": "2026-10-23T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-23T01:42:12Z",
+      "last_paid_check": "2026-10-23T01:50:16Z",
       "lines": {
         "draftkings": {
           "Karel Vejmelka": {
-            "over": -105,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381357958%232330890499_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -130,
+            "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381357958%232330890500_15L42133Q1888607062Q20"
+          },
+          "Philipp Grubauer": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881682_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881683_15L42133Q1-941301704Q20"
           }
         }
       },
@@ -8005,6 +7979,18 @@
       "book": null,
       "event_id": "2d1a2e330020589eb147fe4736ccfd1e",
       "goalie": "John Gibson"
+    },
+    "608": {
+      "at": "2026-10-23T01:50:16Z",
+      "book": null,
+      "event_id": "2d1a2e330020589eb147fe4736ccfd1e",
+      "goalie": "Kevin Lankinen"
+    },
+    "609": {
+      "at": "2026-10-23T01:50:16Z",
+      "book": null,
+      "event_id": "ec5f71ec810aef5fc417a879c49750f1",
+      "goalie": "Philipp Grubauer"
     }
   },
   "shot_stats": {
