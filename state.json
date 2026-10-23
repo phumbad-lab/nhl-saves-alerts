@@ -5552,7 +5552,6 @@
     },
     "MTL:8476875": {
       "alerted": true,
-      "missing_since": "2026-10-23T17:25:13Z",
       "out_at": "2026-10-20T18:15:16Z",
       "seen": "2026-10-13T14:15:18Z",
       "status": "DTD"
@@ -7703,12 +7702,6 @@
     ]
   },
   "sent": {
-    "518": {
-      "at": "2026-10-20T17:28:13Z",
-      "book": null,
-      "event_id": "db38d272a56e929eac7005ab619af117",
-      "goalie": "Jeremy Swayman"
-    },
     "519": {
       "at": "2026-10-20T17:29:13Z",
       "book": null,
