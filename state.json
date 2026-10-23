@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-23",
-  "credits_remaining": 18863,
+  "credits_remaining": 18862,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -603,7 +603,7 @@
     "b7e4d8193096703065db318c2813168f": {
       "commence_time": "2026-10-24T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-23T18:44:10Z",
+      "last_paid_check": "2026-10-23T18:59:10Z",
       "lines": {
         "draftkings": {
           "Andrei Vasilevskiy": {
