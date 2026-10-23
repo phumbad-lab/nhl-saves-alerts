@@ -712,6 +712,14 @@
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881683_15L42133Q1-941301704Q20"
           }
+        },
+        "fanduel": {
+          "Philipp Grubauer": {
+            "manual": true,
+            "over": null,
+            "point": 24.5,
+            "under": null
+          }
         }
       },
       "matchup": "Utah Mammoth @ Seattle Kraken"
@@ -7989,6 +7997,12 @@
       "book": null,
       "event_id": "ec5f71ec810aef5fc417a879c49750f1",
       "goalie": "Philipp Grubauer"
+    },
+    "613": {
+      "at": "2026-10-23T02:01:10Z",
+      "book": "FD",
+      "event_id": "ec5f71ec810aef5fc417a879c49750f1",
+      "goalie": "Philipp Grubauer"
     }
   },
   "shot_stats": {
@@ -9130,5 +9144,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088104
+  "tg_offset": 69088105
 }
