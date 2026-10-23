@@ -64,6 +64,7 @@
       "text": "Bussi (CAR) - CAR@EDM 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381354972%232330894206_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618803676&selectionId=89960227\u0004u24.5\u0005"
     },
     "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws": {
+      "done": true,
       "lines": {
         "DK": 23.5,
         "FD": 23.5
@@ -74,6 +75,7 @@
       "text": "Daws (NJD) - ANA@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381605878%232331336565_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618777560&selectionId=79796960\u0004u23.5\u0005"
     },
     "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso": {
+      "done": true,
       "lines": {
         "DK": 27.5,
         "FD": 27.5
@@ -7159,7 +7161,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-22": [
+      "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws",
+      "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
