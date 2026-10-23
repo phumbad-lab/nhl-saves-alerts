@@ -7545,24 +7545,6 @@
     ]
   },
   "sent": {
-    "502": {
-      "at": "2026-10-20T15:32:13Z",
-      "book": "DK",
-      "event_id": "1ee9e671dfe8ad2d9c73f910baa56e1b",
-      "goalie": "Jake Allen"
-    },
-    "503": {
-      "at": "2026-10-20T15:32:13Z",
-      "book": "FD",
-      "event_id": "fd470e8ca75f778cf8dfdfcb340e2fa7",
-      "goalie": "Anthony Stolarz"
-    },
-    "504": {
-      "at": "2026-10-20T15:32:13Z",
-      "book": "FD",
-      "event_id": "fd470e8ca75f778cf8dfdfcb340e2fa7",
-      "goalie": "Jet Greaves"
-    },
     "505": {
       "at": "2026-10-20T15:46:15Z",
       "book": null,
