@@ -7999,11 +7999,11 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.26,
-    "fetched": "2026-10-23T09:47:44Z",
+    "fetched": "2026-10-23T15:48:12Z",
     "raw": {
       "anaheimducks": {
-        "sa": 26.8,
-        "sf": 23.4
+        "sa": 26.7,
+        "sf": 23.3
       },
       "bostonbruins": {
         "sa": 28.0,
@@ -8066,8 +8066,8 @@
         "sf": 24.77777
       },
       "newjerseydevils": {
-        "sa": 25.1,
-        "sf": 35.0
+        "sa": 25.0,
+        "sf": 34.9
       },
       "newyorkislanders": {
         "sa": 25.5,
