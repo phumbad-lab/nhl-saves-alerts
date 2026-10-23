@@ -1,16 +1,5 @@
 {
   "channel_posts": {
-    "0e2b3099b25e9827dc4a6abd7fabfa51|Sebastian Cossa": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 23.5
-      },
-      "mid": 10,
-      "side": "UNDER",
-      "start": "2026-10-20T01:10:00Z",
-      "text": "Cossa (UTA) - PIT@UTA 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380620214%232327509659_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.617875704&selectionId=103689735\u0004u23.5\u0005"
-    },
     "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen": {
       "done": true,
       "lines": {
@@ -21,6 +10,15 @@
       "side": "UNDER",
       "start": "2026-10-20T23:10:00Z",
       "text": "Allen (NJD) - COL@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380702482%232328136996_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618141595&selectionId=74675854\u0004u27.5\u0005"
+    },
+    "2d1a2e330020589eb147fe4736ccfd1e|Kevin Lankinen": {
+      "lines": {
+        "DK": 27.5
+      },
+      "mid": 39,
+      "side": "UNDER",
+      "start": "2026-10-23T02:10:00Z",
+      "text": "Lankinen (VAN) - DET@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381352441%232330233655_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD not yet"
     },
     "5736c2282f978bfdf849f4b10876080e|Akira Schmid": {
       "done": true,
@@ -9132,5 +9130,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088103
+  "tg_offset": 69088104
 }
