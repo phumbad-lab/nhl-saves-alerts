@@ -145,7 +145,7 @@
     }
   },
   "corrections_checked": "2026-10-23",
-  "credits_remaining": 18875,
+  "credits_remaining": 18874,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -578,8 +578,19 @@
     },
     "b7e4d8193096703065db318c2813168f": {
       "commence_time": "2026-10-24T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-23T17:26:11Z",
+      "lines": {
+        "draftkings": {
+          "Mackenzie Blackwood": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381696444%232332524102_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381696444%232332524103_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Tampa Bay Lightning @ Colorado Avalanche"
     },
     "bd017af43e74a8d506cdcec368a4c2c0": {
@@ -3520,6 +3531,39 @@
         "PIT",
         27,
         27
+      ]
+    ]
+  },
+  "h2h_COL-TBL": {
+    "fetched": "2026-10-23T17:26:11Z",
+    "value": [
+      [
+        "2026-01-06",
+        "COL",
+        "TBL",
+        33,
+        28
+      ],
+      [
+        "2025-11-04",
+        "TBL",
+        "COL",
+        24,
+        33
+      ],
+      [
+        "2024-11-25",
+        "COL",
+        "TBL",
+        25,
+        33
+      ],
+      [
+        "2024-10-30",
+        "TBL",
+        "COL",
+        21,
+        35
       ]
     ]
   },
@@ -7473,7 +7517,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-10-20T14:45:23Z",
+    "fetched": "2026-10-23T17:26:11Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -7608,7 +7652,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-10-20T18:28:12Z",
+    "fetched": "2026-10-23T17:26:11Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -8054,6 +8098,12 @@
       "book": null,
       "event_id": "db9d82d62d8f222bfd835100662c6ac6",
       "goalie": "Spencer Knight"
+    },
+    "631": {
+      "at": "2026-10-23T17:26:11Z",
+      "book": null,
+      "event_id": "b7e4d8193096703065db318c2813168f",
+      "goalie": "Mackenzie Blackwood"
     }
   },
   "shot_stats": {
