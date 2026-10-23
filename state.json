@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18883,
+  "credits_remaining": 18882,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -175,8 +175,19 @@
     },
     "2d1a2e330020589eb147fe4736ccfd1e": {
       "commence_time": "2026-10-23T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-23T01:47:11Z",
+      "lines": {
+        "draftkings": {
+          "John Gibson": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381352510%232330935519_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381352510%232330935520_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "Detroit Red Wings @ Vancouver Canucks"
     },
     "5736c2282f978bfdf849f4b10876080e": {
@@ -3629,6 +3640,39 @@
         "SJS",
         20,
         34
+      ]
+    ]
+  },
+  "h2h_DET-VAN": {
+    "fetched": "2026-10-23T01:47:11Z",
+    "value": [
+      [
+        "2026-01-08",
+        "VAN",
+        "DET",
+        24,
+        25
+      ],
+      [
+        "2025-12-08",
+        "DET",
+        "VAN",
+        21,
+        39
+      ],
+      [
+        "2025-02-02",
+        "DET",
+        "VAN",
+        18,
+        27
+      ],
+      [
+        "2024-12-01",
+        "VAN",
+        "DET",
+        32,
+        31
       ]
     ]
   },
@@ -7280,9 +7324,10 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-10-20T15:00:24Z",
+    "fetched": "2026-10-23T01:47:11Z",
     "value": [
       "John Gibson",
+      "Michal Postava",
       "Daniil Tarasov"
     ]
   },
@@ -7421,7 +7466,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-10-20T17:29:13Z",
+    "fetched": "2026-10-23T01:47:11Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -7954,6 +7999,12 @@
       "book": null,
       "event_id": "ec5f71ec810aef5fc417a879c49750f1",
       "goalie": "Karel Vejmelka"
+    },
+    "607": {
+      "at": "2026-10-23T01:47:11Z",
+      "book": null,
+      "event_id": "2d1a2e330020589eb147fe4736ccfd1e",
+      "goalie": "John Gibson"
     }
   },
   "shot_stats": {
