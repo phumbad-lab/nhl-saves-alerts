@@ -144,7 +144,7 @@
       "text": "Grubauer (SEA) - UTA@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881682_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD o24.5"
     }
   },
-  "corrections_checked": "2026-10-22",
+  "corrections_checked": "2026-10-23",
   "credits_remaining": 18878,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
@@ -7280,17 +7280,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-22": [
-      "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws",
-      "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso",
-      "64c943b2b0c51d39a312874b925590f7|Jake Oettinger",
-      "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt",
-      "2d1a2e330020589eb147fe4736ccfd1e|Kevin Lankinen",
-      "8a951cc95f91e5df49f7aad4219c40e0|Brandon Bussi",
-      "ec5f71ec810aef5fc417a879c49750f1|Philipp Grubauer"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
