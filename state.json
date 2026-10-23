@@ -5552,7 +5552,6 @@
     },
     "MTL:8476875": {
       "alerted": true,
-      "missing_since": "2026-10-23T17:29:09Z",
       "out_at": "2026-10-20T18:15:16Z",
       "seen": "2026-10-13T14:15:18Z",
       "status": "DTD"
@@ -7703,12 +7702,6 @@
     ]
   },
   "sent": {
-    "519": {
-      "at": "2026-10-20T17:29:13Z",
-      "book": null,
-      "event_id": "adae998098aa843c9bb607b62ff47d5f",
-      "goalie": "Leevi Merilainen"
-    },
     "520": {
       "at": "2026-10-20T17:37:11Z",
       "book": "FD",
