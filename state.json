@@ -5322,7 +5322,6 @@
     },
     "FLA:8478055": {
       "alerted": false,
-      "missing_since": "2026-10-23T02:31:10Z",
       "out_at": null,
       "seen": "2026-10-23T02:30:20Z",
       "status": "DTD"
