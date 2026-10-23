@@ -33,6 +33,7 @@
       "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
     },
     "64c943b2b0c51d39a312874b925590f7|Jake Oettinger": {
+      "done": true,
       "lines": {
         "DK": 20.5,
         "FD": 20.5
@@ -7193,7 +7194,8 @@
   "night_graded": {
     "2026-10-22": [
       "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws",
-      "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso"
+      "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso",
+      "64c943b2b0c51d39a312874b925590f7|Jake Oettinger"
     ]
   },
   "picks_channel": {
