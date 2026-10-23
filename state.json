@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-22",
-  "credits_remaining": 18884,
+  "credits_remaining": 18883,
   "events": {
     "0b4bab4d663e04a571655ec7477eb10a": {
       "commence_time": "2026-10-21T23:40:00Z",
@@ -718,8 +718,19 @@
     },
     "ec5f71ec810aef5fc417a879c49750f1": {
       "commence_time": "2026-10-23T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-23T01:42:12Z",
+      "lines": {
+        "draftkings": {
+          "Karel Vejmelka": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381357958%232330890499_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381357958%232330890500_15L42133Q1888607062Q20"
+          }
+        }
+      },
       "matchup": "Utah Mammoth @ Seattle Kraken"
     }
   },
@@ -4974,6 +4985,39 @@
       ]
     ]
   },
+  "h2h_SEA-UTA": {
+    "fetched": "2026-10-23T01:42:12Z",
+    "value": [
+      [
+        "2026-04-02",
+        "UTA",
+        "SEA",
+        31,
+        27
+      ],
+      [
+        "2026-01-17",
+        "SEA",
+        "UTA",
+        21,
+        31
+      ],
+      [
+        "2025-12-12",
+        "SEA",
+        "UTA",
+        37,
+        33
+      ],
+      [
+        "2025-04-08",
+        "SEA",
+        "UTA",
+        19,
+        41
+      ]
+    ]
+  },
   "h2h_SEA-WSH": {
     "fetched": "2026-10-11T18:56:10Z",
     "value": [
@@ -7335,7 +7379,7 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-10-20T15:00:24Z",
+    "fetched": "2026-10-23T01:42:12Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
@@ -7370,7 +7414,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-10-19T17:54:11Z",
+    "fetched": "2026-10-23T01:42:12Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -7904,6 +7948,12 @@
       "book": null,
       "event_id": "62fca8dce49c8fa3988f75322311b896",
       "goalie": "Justus Annunen"
+    },
+    "606": {
+      "at": "2026-10-23T01:42:12Z",
+      "book": null,
+      "event_id": "ec5f71ec810aef5fc417a879c49750f1",
+      "goalie": "Karel Vejmelka"
     }
   },
   "shot_stats": {
