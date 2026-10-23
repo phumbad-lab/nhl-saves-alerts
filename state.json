@@ -5434,6 +5434,12 @@
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
     },
+    "PIT:8471215": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-10-23T16:06:12Z",
+      "status": "DTD"
+    },
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-22T14:16:11Z",
