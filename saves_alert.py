@@ -72,7 +72,8 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "event_id", "commence_time", "away_team", "home_team", "logged_at", "fire",
                "taken", "taken_line", "taken_result", "taken_at",
                "key_out",
-               "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag"]  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
+               "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag",
+               "matchup"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -728,6 +729,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "logged_at": iso(now),
             "key_out": key_out_summary(injuries or {}, ab),
             **shadow_numbers(event, stats, m, side, ln.get("point")),
+            "matchup": matchup_marker(event, side, raw),
         })
     save_picks(rows)
 
@@ -1109,6 +1111,32 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
     return out
 
 
+MATCHUP_RANK = 10  # 🎯 = opponent shots-for AND own shots-against both in the top/bottom this many
+
+
+def matchup_marker(event, side, raw):
+    """'UNDER' when the opponent is a bottom-10 shooting team AND this goalie's team is a bottom-10
+    shots-allowed team (owner's Carolina-Vancouver read); 'OVER' for the mirror; else ''.
+    Raw season ranks, same as the L5 lines. Shown as a 🎯 in alerts and logged in picks.csv
+    `matchup` (owner Oct 24). Info only: tags are unchanged. Backtest Oct 7-23 (212 goalies):
+    unders 14-6, overs 12-14; his own bets in these spots: unders 8-3, overs 4-5."""
+    if not raw or not side:
+        return ""
+    other = "home" if side == "away" else "away"
+    opp, own = team_key(event[f"{other}_team"]), team_key(event[f"{side}_team"])
+    if opp not in raw or own not in raw:
+        return ""
+    def most(key, stat):
+        return 1 + sum(1 for t in raw.values() if t[stat] > raw[key][stat])
+    def least(key, stat):
+        return 1 + sum(1 for t in raw.values() if t[stat] < raw[key][stat])
+    if least(opp, "sf") <= MATCHUP_RANK and least(own, "sa") <= MATCHUP_RANK:
+        return "UNDER"
+    if most(opp, "sf") <= MATCHUP_RANK and most(own, "sa") <= MATCHUP_RANK:
+        return "OVER"
+    return ""
+
+
 def rank_line(event, side, ab, raw, games=None):
     """Two lines, e.g.
         VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
@@ -1178,7 +1206,9 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         out.append(f"{label} - {game}")
         out.append(" · ".join(book_parts(player, current, expected, delta, side, ctx)))
         if g:
-            out.append(f"{g['shots']:.1f} shots, {g['saves']:.1f} saves expected")
+            mk = matchup_marker(event, side, raw)
+            out.append(f"{g['shots']:.1f} shots, {g['saves']:.1f} saves expected"
+                       + (f" · 🎯 {mk.lower()} matchup" if mk else ""))
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
