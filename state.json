@@ -167,12 +167,12 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18811,
+  "credits_remaining": 18809,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T15:51:13Z",
+      "last_paid_check": "2026-10-24T16:07:10Z",
       "lines": {
         "draftkings": {
           "Charlie Lindgren": {
@@ -484,8 +484,17 @@
     "89da13e86e9e40fd4132bb577ca9a665": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T15:51:13Z",
+      "last_paid_check": "2026-10-24T16:07:10Z",
       "lines": {
+        "draftkings": {
+          "Carter Hart": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381956993%232332769277_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381956993%232332769279_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
           "Carter Hart": {
             "over": -132,
@@ -8453,6 +8462,12 @@
       "book": null,
       "event_id": "fbdbed1c7dfbc3b1837fa581ea66b703",
       "goalie": "Alex Nedeljkovic"
+    },
+    "658": {
+      "at": "2026-10-24T16:07:10Z",
+      "book": "DK",
+      "event_id": "89da13e86e9e40fd4132bb577ca9a665",
+      "goalie": "Carter Hart"
     }
   },
   "shot_stats": {
