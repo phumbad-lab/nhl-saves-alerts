@@ -6088,6 +6088,12 @@
       "seen": "2026-10-20T03:36:12Z",
       "status": "OUT"
     },
+    "SEA:8477955": {
+      "alerted": false,
+      "out_at": "2026-10-24T17:52:10Z",
+      "seen": "2026-10-24T17:52:10Z",
+      "status": "OUT"
+    },
     "WPG:8477504": {
       "alerted": true,
       "out_at": "2026-10-15T17:24:11Z",
