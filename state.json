@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18816,
+  "credits_remaining": 18815,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -785,8 +785,19 @@
     },
     "ea9c3f2278e277cc562857e11fe0072f": {
       "commence_time": "2026-10-24T23:08:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-24T15:55:15Z",
+      "lines": {
+        "draftkings": {
+          "Dylan Garand": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381948136%232332728502_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381948136%232332728562_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "New York Rangers @ Ottawa Senators"
     },
     "ec5f71ec810aef5fc417a879c49750f1": {
@@ -2139,7 +2150,7 @@
     ]
   },
   "gl_8478469": {
-    "fetched": "2026-10-22T16:08:13Z",
+    "fetched": "2026-10-24T15:55:15Z",
     "value": [
       "2026-10-03",
       "2026-10-05",
@@ -5095,6 +5106,39 @@
       ]
     ]
   },
+  "h2h_NYR-OTT": {
+    "fetched": "2026-10-24T15:55:15Z",
+    "value": [
+      [
+        "2026-03-23",
+        "OTT",
+        "NYR",
+        33,
+        10
+      ],
+      [
+        "2026-01-14",
+        "OTT",
+        "NYR",
+        30,
+        22
+      ],
+      [
+        "2025-12-04",
+        "NYR",
+        "OTT",
+        28,
+        27
+      ],
+      [
+        "2025-03-08",
+        "NYR",
+        "OTT",
+        23,
+        37
+      ]
+    ]
+  },
   "h2h_NYR-TBL": {
     "fetched": "2026-10-13T14:42:12Z",
     "value": [
@@ -7835,7 +7879,7 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-10-22T15:02:12Z",
+    "fetched": "2026-10-24T15:55:15Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
@@ -7844,7 +7888,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-10-22T16:08:13Z",
+    "fetched": "2026-10-24T15:55:15Z",
     "value": [
       "Samuel Ersson",
       "Jonas Johansson",
@@ -8334,6 +8378,12 @@
       "book": null,
       "event_id": "89da13e86e9e40fd4132bb577ca9a665",
       "goalie": "Carter Hart"
+    },
+    "655": {
+      "at": "2026-10-24T15:55:15Z",
+      "book": null,
+      "event_id": "ea9c3f2278e277cc562857e11fe0072f",
+      "goalie": "Dylan Garand"
     }
   },
   "shot_stats": {
