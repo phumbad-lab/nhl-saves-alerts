@@ -1,16 +1,5 @@
 {
   "channel_posts": {
-    "1ee9e671dfe8ad2d9c73f910baa56e1b|Jake Allen": {
-      "done": true,
-      "lines": {
-        "DK": 26.5,
-        "FD": 27.5
-      },
-      "mid": 16,
-      "side": "UNDER",
-      "start": "2026-10-20T23:10:00Z",
-      "text": "Allen (NJD) - COL@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380702482%232328136996_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618141595&selectionId=74675854\u0004u27.5\u0005"
-    },
     "2d1a2e330020589eb147fe4736ccfd1e|Kevin Lankinen": {
       "done": true,
       "lines": {
@@ -55,6 +44,16 @@
       "start": "2026-10-23T01:10:00Z",
       "text": "Wallstedt (MIN) - MIN@CGY 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381368663%232331546522_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618805600&selectionId=78172460\u0004o23.5\u0005"
     },
+    "89da13e86e9e40fd4132bb577ca9a665|Carter Hart": {
+      "lines": {
+        "DK": 23.5,
+        "FD": 23.5
+      },
+      "mid": 53,
+      "side": "OVER",
+      "start": "2026-10-24T23:10:00Z",
+      "text": "Hart (VGK) - VGK@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381956993%232332769277_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619334361&selectionId=92390270\u0004o23.5\u0005"
+    },
     "8a951cc95f91e5df49f7aad4219c40e0|Brandon Bussi": {
       "done": true,
       "lines": {
@@ -88,39 +87,6 @@
       "start": "2026-10-22T23:10:00Z",
       "text": "Husso (ANA) - ANA@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381634212%232331449500_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786258&selectionId=74880559\u0004o27.5\u0005"
     },
-    "99c9d6d714b90f72a5fd2a1c5011170d|Logan Thompson": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 24.5
-      },
-      "mid": 15,
-      "side": "OVER",
-      "start": "2026-10-20T23:10:00Z",
-      "text": "Thompson (WSH) - LAK@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380709188%232328250709_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618149397&selectionId=75074479\u0004o24.5\u0005"
-    },
-    "adae998098aa843c9bb607b62ff47d5f|Leevi Merilainen": {
-      "done": true,
-      "lines": {
-        "DK": 28.5,
-        "FD": 28.5
-      },
-      "mid": 20,
-      "side": "OVER",
-      "start": "2026-10-21T02:10:00Z",
-      "text": "Merilainen (VAN) - CAR@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380729205%232328791464_13L42133Q1827957987Q20\u0004o28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618190454&selectionId=78174825\u0004o28.5\u0005"
-    },
-    "adae998098aa843c9bb607b62ff47d5f|Pyotr Kochetkov": {
-      "done": true,
-      "lines": {
-        "DK": 18.5,
-        "FD": 19.5
-      },
-      "mid": 19,
-      "side": "UNDER",
-      "start": "2026-10-21T02:10:00Z",
-      "text": "Kochetkov (CAR) - CAR@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380998508%232328902309_15L42133Q1-76159233Q20\u0004u18.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618232428&selectionId=75074343\u0004u19.5\u0005"
-    },
     "b7e4d8193096703065db318c2813168f|Andrei Vasilevskiy": {
       "done": true,
       "lines": {
@@ -142,17 +108,6 @@
       "side": "UNDER",
       "start": "2026-10-24T01:10:00Z",
       "text": "Blackwood (COL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381696444%232331671482_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619103224&selectionId=74101476\u0004u23.5\u0005"
-    },
-    "db38d272a56e929eac7005ab619af117|Jake Oettinger": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 22.5
-      },
-      "mid": 21,
-      "side": "UNDER",
-      "start": "2026-10-21T00:10:00Z",
-      "text": "Oettinger (DAL) - BOS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380606752%232328116586_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618168914&selectionId=74880671\u0004u22.5\u0005"
     },
     "ec5f71ec810aef5fc417a879c49750f1|Philipp Grubauer": {
       "done": true,
@@ -9622,5 +9577,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088111
+  "tg_offset": 69088112
 }
