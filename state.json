@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18757,
+  "credits_remaining": 18756,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -619,8 +619,19 @@
     },
     "b2c782b53aa0561575bd82258e047dcd": {
       "commence_time": "2026-10-24T19:30:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-24T17:58:13Z",
+      "lines": {
+        "draftkings": {
+          "Jake Allen": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381940982%232333996938_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381940982%232333996939_15L42133Q184490156Q20"
+          }
+        }
+      },
       "matchup": "Los Angeles Kings @ New Jersey Devils"
     },
     "b7e4d8193096703065db318c2813168f": {
@@ -2216,7 +2227,7 @@
     ]
   },
   "gl_8477942": {
-    "fetched": "2026-10-22T15:00:24Z",
+    "fetched": "2026-10-24T17:58:13Z",
     "value": []
   },
   "gl_8478439": {
@@ -4559,6 +4570,39 @@
       ]
     ]
   },
+  "h2h_LAK-NJD": {
+    "fetched": "2026-10-24T17:58:13Z",
+    "value": [
+      [
+        "2026-03-14",
+        "LAK",
+        "NJD",
+        31,
+        28
+      ],
+      [
+        "2025-11-01",
+        "NJD",
+        "LAK",
+        22,
+        44
+      ],
+      [
+        "2025-01-01",
+        "NJD",
+        "LAK",
+        33,
+        24
+      ],
+      [
+        "2024-12-12",
+        "LAK",
+        "NJD",
+        14,
+        26
+      ]
+    ]
+  },
   "h2h_LAK-NYI": {
     "fetched": "2026-10-22T15:00:24Z",
     "value": [
@@ -6089,8 +6133,7 @@
       "status": "OUT"
     },
     "SEA:8477955": {
-      "alerted": false,
-      "missing_since": "2026-10-24T17:56:11Z",
+      "alerted": true,
       "out_at": "2026-10-24T17:52:10Z",
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
@@ -8053,7 +8096,7 @@
     ]
   },
   "roster_LAK": {
-    "fetched": "2026-10-22T15:00:24Z",
+    "fetched": "2026-10-24T17:58:13Z",
     "value": [
       "Anton Forsberg",
       "Darcy Kuemper"
@@ -8076,10 +8119,10 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-10-22T15:58:12Z",
+    "fetched": "2026-10-24T17:58:13Z",
     "value": [
       "Jake Allen",
-      "Nico Daws",
+      "Connor Hellebuyck",
       "R\u00e9mi Poirier"
     ]
   },
@@ -8202,12 +8245,6 @@
     ]
   },
   "sent": {
-    "560": {
-      "at": "2026-10-21T17:57:11Z",
-      "book": "DK",
-      "event_id": "5736c2282f978bfdf849f4b10876080e",
-      "goalie": "Linus Ullmark"
-    },
     "565": {
       "at": "2026-10-22T15:00:24Z",
       "book": null,
@@ -8627,12 +8664,18 @@
       "book": null,
       "event_id": "4b444895e9b0169627abc9d6df1baae9",
       "goalie": "Karel Vejmelka"
+    },
+    "671": {
+      "at": "2026-10-24T17:58:13Z",
+      "book": null,
+      "event_id": "b2c782b53aa0561575bd82258e047dcd",
+      "goalie": "Jake Allen"
     }
   },
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.26,
-    "fetched": "2026-10-24T11:58:04Z",
+    "fetched": "2026-10-24T17:58:13Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.7,
@@ -9768,5 +9811,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088114
+  "tg_offset": 69088115
 }
