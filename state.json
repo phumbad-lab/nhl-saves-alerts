@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18831,
+  "credits_remaining": 18830,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -801,8 +801,19 @@
     },
     "fbdbed1c7dfbc3b1837fa581ea66b703": {
       "commence_time": "2026-10-24T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-24T15:03:10Z",
+      "lines": {
+        "draftkings": {
+          "Jeremy Swayman": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381952196%232333390467_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381952196%232333390468_15L42133Q184490156Q20"
+          }
+        }
+      },
       "matchup": "San Jose Sharks @ Boston Bruins"
     }
   },
@@ -2565,8 +2576,15 @@
     ]
   },
   "h2h_BOS-SJS": {
-    "fetched": "2026-10-13T18:19:11Z",
+    "fetched": "2026-10-24T15:03:10Z",
     "value": [
+      [
+        "2026-10-13",
+        "BOS",
+        "SJS",
+        26,
+        38
+      ],
       [
         "2026-03-12",
         "SJS",
@@ -2587,13 +2605,6 @@
         "SJS",
         23,
         21
-      ],
-      [
-        "2025-01-20",
-        "SJS",
-        "BOS",
-        28,
-        33
       ]
     ]
   },
@@ -7619,7 +7630,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-10-22T15:04:12Z",
+    "fetched": "2026-10-24T15:03:10Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -7784,7 +7795,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-22T16:08:13Z",
+    "fetched": "2026-10-24T15:03:10Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -8203,6 +8214,12 @@
       "book": null,
       "event_id": "6f808f8ba28d3f5b26edeb74f752549f",
       "goalie": "Joseph Woll"
+    },
+    "647": {
+      "at": "2026-10-24T15:03:10Z",
+      "book": null,
+      "event_id": "fbdbed1c7dfbc3b1837fa581ea66b703",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
