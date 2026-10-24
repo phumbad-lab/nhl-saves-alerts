@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18840,
+  "credits_remaining": 18839,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -572,8 +572,19 @@
     },
     "bd017af43e74a8d506cdcec368a4c2c0": {
       "commence_time": "2026-10-24T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-24T13:29:10Z",
+      "lines": {
+        "draftkings": {
+          "Tristan Jarry": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381913656%232333675930_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381913656%232333675931_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Toronto Maple Leafs @ Edmonton Oilers"
     },
     "bfe0cd1ca4d32c4946e6ee28e21f0619": {
@@ -3974,6 +3985,39 @@
         "EDM",
         21,
         32
+      ]
+    ]
+  },
+  "h2h_EDM-TOR": {
+    "fetched": "2026-10-24T13:29:10Z",
+    "value": [
+      [
+        "2026-02-03",
+        "TOR",
+        "EDM",
+        27,
+        36
+      ],
+      [
+        "2025-12-13",
+        "EDM",
+        "TOR",
+        37,
+        28
+      ],
+      [
+        "2025-02-01",
+        "TOR",
+        "EDM",
+        28,
+        48
+      ],
+      [
+        "2024-11-16",
+        "EDM",
+        "TOR",
+        30,
+        22
       ]
     ]
   },
@@ -7546,11 +7590,12 @@
     ]
   },
   "roster_EDM": {
-    "fetched": "2026-10-22T17:24:14Z",
+    "fetched": "2026-10-24T13:29:10Z",
     "value": [
       "Frederik Andersen",
       "Tristan Jarry",
-      "Devon Levi"
+      "Devon Levi",
+      "Matt Tomkins"
     ]
   },
   "roster_FLA": {
@@ -7666,7 +7711,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-22T15:02:12Z",
+    "fetched": "2026-10-24T13:29:10Z",
     "value": [
       "Sergei Bobrovsky",
       "Anthony Stolarz"
@@ -8045,6 +8090,12 @@
       "book": "FD",
       "event_id": "b7e4d8193096703065db318c2813168f",
       "goalie": "Mackenzie Blackwood"
+    },
+    "644": {
+      "at": "2026-10-24T13:29:10Z",
+      "book": null,
+      "event_id": "bd017af43e74a8d506cdcec368a4c2c0",
+      "goalie": "Tristan Jarry"
     }
   },
   "shot_stats": {
