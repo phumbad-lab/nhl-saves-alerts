@@ -167,12 +167,12 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18830,
+  "credits_remaining": 18829,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T14:50:16Z",
+      "last_paid_check": "2026-10-24T15:06:10Z",
       "lines": {
         "draftkings": {
           "Charlie Lindgren": {
