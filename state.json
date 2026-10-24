@@ -6090,7 +6090,6 @@
     },
     "SEA:8477955": {
       "alerted": false,
-      "missing_since": "2026-10-24T17:53:11Z",
       "out_at": "2026-10-24T17:52:10Z",
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
