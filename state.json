@@ -149,7 +149,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18546,
+  "credits_remaining": 18544,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -474,7 +474,7 @@
     "7973c2a6112dfdfc1e38edb3fa149416": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T23:05:14Z",
+      "last_paid_check": "2026-10-24T23:06:11Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
@@ -604,7 +604,7 @@
     "8e704270ddeb2ccdd00196b06cdb3bf6": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T22:50:18Z",
+      "last_paid_check": "2026-10-24T23:06:11Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -618,7 +618,7 @@
             "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925171%232333371521_13L42133Q1-54034395Q20",
             "point": 26.5,
-            "under": -135,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925171%232333371522_15L42133Q11150106798Q20"
           }
         }
