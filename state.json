@@ -140,12 +140,12 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18588,
+  "credits_remaining": 18583,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T22:25:12Z",
+      "last_paid_check": "2026-10-24T22:40:16Z",
       "lines": {
         "draftkings": {
           "Charlie Lindgren": {
@@ -156,7 +156,7 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381877374%232333350966_15L42133Q1458571637Q20"
           },
           "Ukko-Pekka Luukkonen": {
-            "over": -130,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381877021%232333328780_13L42133Q1-389637312Q20",
             "point": 25.5,
             "under": -105,
@@ -449,7 +449,7 @@
     "7973c2a6112dfdfc1e38edb3fa149416": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T22:25:12Z",
+      "last_paid_check": "2026-10-24T22:40:16Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
@@ -458,6 +458,13 @@
             "point": 26.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381961254%232333856604_15L42133Q11150106798Q20"
+          },
+          "Pyotr Kochetkov": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381961552%232333429372_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381961552%232333429373_15L42133Q1888607062Q20"
           }
         }
       },
@@ -506,7 +513,7 @@
     "89da13e86e9e40fd4132bb577ca9a665": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T22:25:12Z",
+      "last_paid_check": "2026-10-24T22:40:16Z",
       "lines": {
         "draftkings": {
           "Carter Hart": {
@@ -519,10 +526,10 @@
         },
         "fanduel": {
           "Carter Hart": {
-            "over": -112,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619334361&selectionId=92390270",
             "point": 23.5,
-            "under": -118,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619334361&selectionId=92390272"
           }
         }
@@ -572,11 +579,11 @@
     "8e704270ddeb2ccdd00196b06cdb3bf6": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T22:25:12Z",
+      "last_paid_check": "2026-10-24T22:40:16Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
-            "over": -120,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925352%232333875240_13L42133Q1-598579072Q20",
             "point": 22.5,
             "under": -115,
@@ -722,15 +729,15 @@
     "bd017af43e74a8d506cdcec368a4c2c0": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T22:25:12Z",
+      "last_paid_check": "2026-10-24T22:40:16Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
-            "over": 100,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382328861%232334436469_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -135,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382328861%232334436470_15L42133Q1-941301704Q20"
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382328861%232334487254_13L42133Q1-54034395Q20",
+            "point": 26.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382328861%232334487255_15L42133Q11150106798Q20"
           },
           "Tristan Jarry": {
             "over": -110,
@@ -8837,6 +8844,12 @@
       "book": null,
       "event_id": "bd017af43e74a8d506cdcec368a4c2c0",
       "goalie": "Anthony Stolarz"
+    },
+    "682": {
+      "at": "2026-10-24T22:40:16Z",
+      "book": null,
+      "event_id": "7973c2a6112dfdfc1e38edb3fa149416",
+      "goalie": "Pyotr Kochetkov"
     }
   },
   "shot_stats": {
