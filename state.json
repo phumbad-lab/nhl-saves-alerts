@@ -167,12 +167,23 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18834,
+  "credits_remaining": 18833,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-24T14:50:16Z",
+      "lines": {
+        "draftkings": {
+          "Charlie Lindgren": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381877374%232333350965_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381877374%232333350966_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ Washington Capitals"
     },
     "2d1a2e330020589eb147fe4736ccfd1e": {
@@ -2770,6 +2781,39 @@
         "BUF",
         28,
         25
+      ]
+    ]
+  },
+  "h2h_BUF-WSH": {
+    "fetched": "2026-10-24T14:50:16Z",
+    "value": [
+      [
+        "2026-04-04",
+        "BUF",
+        "WSH",
+        39,
+        28
+      ],
+      [
+        "2026-03-12",
+        "WSH",
+        "BUF",
+        22,
+        30
+      ],
+      [
+        "2025-11-01",
+        "WSH",
+        "BUF",
+        34,
+        24
+      ],
+      [
+        "2025-03-30",
+        "BUF",
+        "WSH",
+        23,
+        29
       ]
     ]
   },
@@ -7538,7 +7582,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-10-21T16:34:12Z",
+    "fetched": "2026-10-24T14:50:16Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -7754,8 +7798,9 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-10-20T14:43:10Z",
+    "fetched": "2026-10-24T14:50:16Z",
     "value": [
+      "Mitchell Gibson",
       "Charlie Lindgren",
       "Logan Thompson"
     ]
@@ -8102,6 +8147,12 @@
       "book": null,
       "event_id": "bd017af43e74a8d506cdcec368a4c2c0",
       "goalie": "Tristan Jarry"
+    },
+    "645": {
+      "at": "2026-10-24T14:50:16Z",
+      "book": null,
+      "event_id": "0b8a03e43524a57bae9c25a6c73c9024",
+      "goalie": "Charlie Lindgren"
     }
   },
   "shot_stats": {
