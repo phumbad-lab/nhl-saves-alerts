@@ -374,7 +374,7 @@
       "matchup": "Winnipeg Jets @ Dallas Stars"
     },
     "6f808f8ba28d3f5b26edeb74f752549f": {
-      "commence_time": "2026-10-24T17:02:00Z",
+      "commence_time": "2026-10-24T17:06:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-10-24T16:15:16Z",
       "lines": {
@@ -743,6 +743,12 @@
         }
       },
       "matchup": "San Jose Sharks @ Ottawa Senators"
+    },
+    "cd9f65faa44f221a72638e49afb134fb": {
+      "commence_time": "2026-10-25T23:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Montr\u00e9al Canadiens @ Winnipeg Jets"
     },
     "d57c3873ab3f113b8b77614edff4cf8f": {
       "commence_time": "2026-10-22T23:10:00Z",
