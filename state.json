@@ -33,6 +33,15 @@
       "start": "2026-10-23T00:10:00Z",
       "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440265_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786812&selectionId=74880671\u0004u20.5\u0005"
     },
+    "7973c2a6112dfdfc1e38edb3fa149416|Joel Hofer": {
+      "lines": {
+        "DK": 26.5
+      },
+      "mid": 54,
+      "side": "OVER",
+      "start": "2026-10-24T23:10:00Z",
+      "text": "Hofer (STL) - CAR@STL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381961254%232333856603_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD not yet"
+    },
     "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt": {
       "done": true,
       "lines": {
@@ -9577,5 +9586,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088112
+  "tg_offset": 69088113
 }
