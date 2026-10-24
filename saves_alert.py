@@ -94,6 +94,11 @@ RECHECK_WINDOW_HOURS = env_int("RECHECK_WINDOW_HOURS", 10)
 RECHECK_RESERVE = env_int("RECHECK_RESERVE", 150)
 # Goalies with no lean (always "no edge") are rechecked this often while missing; 0 = never.
 NOLEAN_RECHECK_MINUTES = 15  # paid plan (20K credits); use 180 on the free 500-credit plan
+# Last-30-minute watch (owner Oct 24, waiting on Carolina's goalie): games with a team ranked
+# top/bottom PRIORITY_RANK in shots-for or shots-against get checked EVERY run (every minute) in the
+# last PRIORITY_WINDOW minutes before puck drop while a goalie is still missing (~1 credit each).
+PRIORITY_RANK = 3
+PRIORITY_WINDOW = 30
 FINAL_CHECKS = (45, 20)  # minutes before puck drop: any game still missing a goalie gets a check at each
 SKIP_MIDDLING_GAMES = False  # True = don't check games where neither goalie has a lean
 MIN_CREDITS = env_int("MIN_CREDITS", 20)
@@ -1113,6 +1118,21 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
 
 
 MATCHUP_RANK = 10  # 🎯 = opponent shots-for AND own shots-against both in the top/bottom this many
+
+
+def priority_game(event, stats):
+    """True if either team is top/bottom PRIORITY_RANK in raw shots-for or shots-against."""
+    raw = (stats or {}).get("raw") or {}
+    for key in (team_key(event["away_team"]), team_key(event["home_team"])):
+        if key not in raw:
+            continue
+        for stat in ("sf", "sa"):
+            v = raw[key][stat]
+            most = 1 + sum(1 for x in raw.values() if x[stat] > v)
+            least = 1 + sum(1 for x in raw.values() if x[stat] < v)
+            if min(most, least) <= PRIORITY_RANK:
+                return True
+    return False
 
 
 def matchup_marker(event, side, raw):
@@ -2379,6 +2399,8 @@ def main():
                 starts_in <= timedelta(minutes=mark) and
                 (last is None or parse_iso(last) < start - timedelta(minutes=mark))
                 for mark in FINAL_CHECKS)
+            last_call = last_call or (budget_ok and timedelta(0) < starts_in <= timedelta(minutes=PRIORITY_WINDOW)
+                                      and priority_game(event, stats))
             if not last_call and not (due and in_window and budget_ok):
                 skipped_rechecks += 1
                 continue

@@ -65,6 +65,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 
 ## Rechecks / credits (paid-plan settings)
 - Empty games checked every run (free). Partly posted games: every `RECHECK_MINUTES` (15) while a lean goalie is missing; every `NOLEAN_RECHECK_MINUTES` (15) if only no-lean goalies are missing; within `RECHECK_WINDOW_HOURS` (10) of puck drop.
+- **Last-30-minute watch (owner Oct 24, waiting on Carolina's goalie):** games where either team is top/bottom `PRIORITY_RANK` (3) in raw shots-for or shots-against get a check **every run (every minute)** in the last `PRIORITY_WINDOW` (30) minutes before puck drop while a goalie is missing (`priority_game()`; ~1 credit each, up to ~30 per game; respects RECHECK_RESERVE).
 - Final checks at `FINAL_CHECKS = (45, 20)` minutes before puck drop for any incomplete game.
 - Rechecks pause at `RECHECK_RESERVE`; everything pauses below `MIN_CREDITS` (20).
 - **If he goes back to the free 500-credit plan:** set `NOLEAN_RECHECK_MINUTES = 180` in the script, and variables `RECHECK_MINUTES=60`, `RECHECK_RESERVE=150`. Remind him before the plan renews (~Nov 10).
