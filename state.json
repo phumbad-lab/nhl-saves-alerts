@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18719,
+  "credits_remaining": 18717,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -563,7 +563,7 @@
     "8e704270ddeb2ccdd00196b06cdb3bf6": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:46:11Z",
+      "last_paid_check": "2026-10-24T19:01:12Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -574,7 +574,7 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925352%232333875241_15L42133Q1874096526Q20"
           },
           "Juuse Saros": {
-            "over": -135,
+            "over": -130,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925171%232333875236_13L42133Q1-389637312Q20",
             "point": 25.5,
             "under": 100,
@@ -860,7 +860,7 @@
     "ea9c3f2278e277cc562857e11fe0072f": {
       "commence_time": "2026-10-24T23:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:46:11Z",
+      "last_paid_check": "2026-10-24T19:01:12Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
