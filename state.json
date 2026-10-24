@@ -131,12 +131,12 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18735,
+  "credits_remaining": 18730,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:28:11Z",
+      "last_paid_check": "2026-10-24T18:44:11Z",
       "lines": {
         "draftkings": {
           "Charlie Lindgren": {
@@ -200,7 +200,7 @@
     "40bdb8bb226b82f2cfb6d4518d6fdfbd": {
       "commence_time": "2026-10-25T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:28:11Z",
+      "last_paid_check": "2026-10-24T18:44:11Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -440,7 +440,7 @@
     "7973c2a6112dfdfc1e38edb3fa149416": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:28:11Z",
+      "last_paid_check": "2026-10-24T18:44:11Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
@@ -497,7 +497,7 @@
     "89da13e86e9e40fd4132bb577ca9a665": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:28:11Z",
+      "last_paid_check": "2026-10-24T18:44:11Z",
       "lines": {
         "draftkings": {
           "Carter Hart": {
@@ -690,7 +690,7 @@
     "bd017af43e74a8d506cdcec368a4c2c0": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T18:28:11Z",
+      "last_paid_check": "2026-10-24T18:44:11Z",
       "lines": {
         "draftkings": {
           "Tristan Jarry": {
