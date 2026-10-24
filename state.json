@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18825,
+  "credits_remaining": 18824,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -394,7 +394,7 @@
     "6f808f8ba28d3f5b26edeb74f752549f": {
       "commence_time": "2026-10-24T17:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T15:16:11Z",
+      "last_paid_check": "2026-10-24T15:31:12Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
@@ -8263,6 +8263,12 @@
       "book": "FD",
       "event_id": "bd017af43e74a8d506cdcec368a4c2c0",
       "goalie": "Tristan Jarry"
+    },
+    "652": {
+      "at": "2026-10-24T15:31:12Z",
+      "book": null,
+      "event_id": "6f808f8ba28d3f5b26edeb74f752549f",
+      "goalie": "Lukas Dostal"
     }
   },
   "shot_stats": {
@@ -9404,5 +9410,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088110
+  "tg_offset": 69088111
 }
