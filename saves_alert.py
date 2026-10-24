@@ -73,7 +73,7 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "taken", "taken_line", "taken_result", "taken_at",
                "key_out",
                "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag",
-               "matchup"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
+               "matchup", "warn"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -730,6 +730,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "key_out": key_out_summary(injuries or {}, ab),
             **shadow_numbers(event, stats, m, side, ln.get("point")),
             "matchup": matchup_marker(event, side, raw),
+            "warn": rank_warning(event, side, ab, raw, m[side]["delta"] if (m and side) else None),
         })
     save_picks(rows)
 
@@ -1137,6 +1138,34 @@ def matchup_marker(event, side, raw):
     return ""
 
 
+WARN_RANK = 5  # ⚠️ when a top/bottom-5 rank argues against the model's lean (owner Oct 24)
+
+
+def rank_warning(event, side, ab, raw, delta):
+    """'PHI 2nd most against' when a raw rank in the top/bottom WARN_RANK argues against the lean:
+    under lean (delta <= -SHOT_THRESHOLD) but the opponent is a top-5 shooting team or this team a
+    top-5 shots-allowed team; mirror for an over lean. No lean = no warning. Info only; logged in
+    picks.csv `warn` so reviews can grade it (his own bets with a conflicting rank: 2-8 by Oct 24)."""
+    if not raw or not side or delta is None or abs(delta) < max(SHOT_THRESHOLD, 0.01):
+        return ""
+    other = "home" if side == "away" else "away"
+    opp, own = team_key(event[f"{other}_team"]), team_key(event[f"{side}_team"])
+    if opp not in raw or own not in raw:
+        return ""
+    under = delta < 0
+    def place(key, stat, most):
+        v = raw[key][stat]
+        return 1 + sum(1 for x in raw.values() if (x[stat] > v if most else x[stat] < v))
+    out = []
+    r = place(opp, "sf", under)  # under lean: opp shoots a lot? over lean: opp barely shoots?
+    if r <= WARN_RANK:
+        out.append(f"{ab[other]} {ordinal(r)} {'most' if under else 'least'} for")
+    r = place(own, "sa", under)
+    if r <= WARN_RANK:
+        out.append(f"{ab[side]} {ordinal(r)} {'most' if under else 'least'} against")
+    return ", ".join(out)
+
+
 def rank_line(event, side, ab, raw, games=None):
     """Two lines, e.g.
         VGK L5 For: 32LAK, 43TOR, 28@SEA, 28@VAN, 30ANA (2nd most 33.0)
@@ -1207,8 +1236,10 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         out.append(" · ".join(book_parts(player, current, expected, delta, side, ctx)))
         if g:
             mk = matchup_marker(event, side, raw)
+            warn = rank_warning(event, side, ab, raw, g["delta"])
             out.append(f"{g['shots']:.1f} shots, {g['saves']:.1f} saves expected"
-                       + (f" · 🎯 {mk.lower()} matchup" if mk else ""))
+                       + (f" · 🎯 {mk.lower()} matchup" if mk else "")
+                       + (f" · ⚠️ {warn}" if warn else ""))
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
