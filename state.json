@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18836,
+  "credits_remaining": 18835,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -573,7 +573,7 @@
     "bd017af43e74a8d506cdcec368a4c2c0": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T14:14:12Z",
+      "last_paid_check": "2026-10-24T14:30:22Z",
       "lines": {
         "draftkings": {
           "Tristan Jarry": {
