@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18706,
+  "credits_remaining": 18704,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -631,24 +631,40 @@
       "matchup": "New York Islanders @ Dallas Stars"
     },
     "b2c782b53aa0561575bd82258e047dcd": {
-      "commence_time": "2026-10-24T19:30:00Z",
+      "commence_time": "2026-10-24T19:32:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T19:10:16Z",
+      "last_paid_check": "2026-10-24T19:26:10Z",
       "lines": {
         "draftkings": {
           "Anton Forsberg": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382274248%232334055454_13L42133Q1827957987Q20",
-            "point": 28.5,
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382274248%232334054865_13L42133Q1833536087Q20",
+            "point": 29.5,
             "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382274248%232334055455_15L42133Q1-245490255Q20"
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382274248%232334054866_15L42133Q11580205260Q20"
           },
           "Jake Allen": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381940982%232333996938_13L42133Q1-1895367418Q20",
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381940982%232333974367_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381940982%232333974368_15L42133Q1731448625Q20"
+          }
+        },
+        "fanduel": {
+          "Anton Forsberg": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619401124&selectionId=75038726",
+            "point": 28.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619401124&selectionId=75038727"
+          },
+          "Jake Allen": {
+            "over": -120,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619401141&selectionId=74675853",
             "point": 23.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381940982%232333996939_15L42133Q184490156Q20"
+            "under": -110,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619401141&selectionId=74675854"
           }
         }
       },
@@ -924,7 +940,7 @@
     "fa693c68730d8d6347e71ff2f92ba2d8": {
       "commence_time": "2026-10-25T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T19:10:16Z",
+      "last_paid_check": "2026-10-24T19:26:10Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -8768,6 +8784,18 @@
       "book": null,
       "event_id": "b2c782b53aa0561575bd82258e047dcd",
       "goalie": "Anton Forsberg"
+    },
+    "676": {
+      "at": "2026-10-24T19:26:10Z",
+      "book": "FD",
+      "event_id": "b2c782b53aa0561575bd82258e047dcd",
+      "goalie": "Anton Forsberg"
+    },
+    "677": {
+      "at": "2026-10-24T19:26:10Z",
+      "book": "FD",
+      "event_id": "b2c782b53aa0561575bd82258e047dcd",
+      "goalie": "Jake Allen"
     }
   },
   "shot_stats": {
