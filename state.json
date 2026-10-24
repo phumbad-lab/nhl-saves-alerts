@@ -140,7 +140,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18609,
+  "credits_remaining": 18606,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -233,7 +233,7 @@
     "4b444895e9b0169627abc9d6df1baae9": {
       "commence_time": "2026-10-25T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T21:53:11Z",
+      "last_paid_check": "2026-10-24T22:08:12Z",
       "lines": {
         "draftkings": {
           "Karel Vejmelka": {
@@ -572,7 +572,7 @@
     "8e704270ddeb2ccdd00196b06cdb3bf6": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T21:53:11Z",
+      "last_paid_check": "2026-10-24T22:08:12Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -905,7 +905,7 @@
     "ea9c3f2278e277cc562857e11fe0072f": {
       "commence_time": "2026-10-24T23:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T21:53:11Z",
+      "last_paid_check": "2026-10-24T22:08:12Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
