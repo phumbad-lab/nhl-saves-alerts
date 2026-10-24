@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18806,
+  "credits_remaining": 18804,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -619,7 +619,7 @@
     "bd017af43e74a8d506cdcec368a4c2c0": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T16:06:10Z",
+      "last_paid_check": "2026-10-24T16:21:10Z",
       "lines": {
         "draftkings": {
           "Tristan Jarry": {
@@ -846,14 +846,14 @@
     "fbdbed1c7dfbc3b1837fa581ea66b703": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T16:06:10Z",
+      "last_paid_check": "2026-10-24T16:21:10Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
-            "over": -115,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381952196%232333390467_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -120,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381952196%232333390468_15L42133Q184490156Q20"
           }
         },
@@ -866,10 +866,10 @@
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619338890&selectionId=75304746"
           },
           "Jeremy Swayman": {
-            "over": -136,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619332428&selectionId=74879760",
             "point": 22.5,
-            "under": 102,
+            "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619332428&selectionId=74879759"
           }
         }
