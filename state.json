@@ -131,7 +131,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18780,
+  "credits_remaining": 18778,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -539,14 +539,14 @@
     "8e704270ddeb2ccdd00196b06cdb3bf6": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T16:56:11Z",
+      "last_paid_check": "2026-10-24T17:12:20Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
-            "over": 100,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925352%232333875240_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -135,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381925352%232333875241_15L42133Q1874096526Q20"
           },
           "Juuse Saros": {
@@ -825,15 +825,15 @@
     "ea9c3f2278e277cc562857e11fe0072f": {
       "commence_time": "2026-10-24T23:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T16:57:11Z",
+      "last_paid_check": "2026-10-24T17:12:20Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381948136%232332728502_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381948136%232332728562_15L42133Q1458571637Q20"
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381948136%232333947842_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381948136%232333947843_15L42133Q1731448625Q20"
           }
         }
       },
@@ -8151,12 +8151,6 @@
     ]
   },
   "sent": {
-    "555": {
-      "at": "2026-10-21T17:11:11Z",
-      "book": null,
-      "event_id": "5736c2282f978bfdf849f4b10876080e",
-      "goalie": "Akira Schmid"
-    },
     "556": {
       "at": "2026-10-21T17:26:12Z",
       "book": null,
