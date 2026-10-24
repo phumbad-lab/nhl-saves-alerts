@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18808,
+  "credits_remaining": 18807,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -394,7 +394,7 @@
     "6f808f8ba28d3f5b26edeb74f752549f": {
       "commence_time": "2026-10-24T17:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T16:02:11Z",
+      "last_paid_check": "2026-10-24T16:15:16Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
@@ -403,6 +403,13 @@
             "point": 23.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381972956%232333776709_15L42133Q184490156Q20"
+          },
+          "Lukas Dostal": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA381972525%232333271561_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381972525%232333271562_15L42133Q1874096526Q20"
           }
         },
         "fanduel": {
@@ -8468,6 +8475,12 @@
       "book": "DK",
       "event_id": "89da13e86e9e40fd4132bb577ca9a665",
       "goalie": "Carter Hart"
+    },
+    "659": {
+      "at": "2026-10-24T16:15:16Z",
+      "book": "DK",
+      "event_id": "6f808f8ba28d3f5b26edeb74f752549f",
+      "goalie": "Lukas Dostal"
     }
   },
   "shot_stats": {
