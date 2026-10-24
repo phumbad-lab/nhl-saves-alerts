@@ -167,7 +167,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18820,
+  "credits_remaining": 18818,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -611,7 +611,7 @@
     "bd017af43e74a8d506cdcec368a4c2c0": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T15:34:11Z",
+      "last_paid_check": "2026-10-24T15:50:18Z",
       "lines": {
         "draftkings": {
           "Tristan Jarry": {
@@ -827,7 +827,7 @@
     "fbdbed1c7dfbc3b1837fa581ea66b703": {
       "commence_time": "2026-10-24T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-24T15:34:11Z",
+      "last_paid_check": "2026-10-24T15:50:18Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
@@ -836,6 +836,15 @@
             "point": 23.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381952196%232333390468_15L42133Q184490156Q20"
+          }
+        },
+        "fanduel": {
+          "Jeremy Swayman": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619332428&selectionId=74879760",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619332428&selectionId=74879759"
           }
         }
       },
@@ -8269,6 +8278,12 @@
       "book": null,
       "event_id": "6f808f8ba28d3f5b26edeb74f752549f",
       "goalie": "Lukas Dostal"
+    },
+    "653": {
+      "at": "2026-10-24T15:50:18Z",
+      "book": "FD",
+      "event_id": "fbdbed1c7dfbc3b1837fa581ea66b703",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
