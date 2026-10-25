@@ -151,7 +151,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18490,
+  "credits_remaining": 18489,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -654,7 +654,7 @@
     "fa693c68730d8d6347e71ff2f92ba2d8": {
       "commence_time": "2026-10-25T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T01:25:13Z",
+      "last_paid_check": "2026-10-25T01:40:16Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
