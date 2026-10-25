@@ -130,6 +130,7 @@
       "text": "Merilainen (VAN) - MIN@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382220396%232334991414_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619632389&selectionId=78174825\u0004o25.5\u0005"
     },
     "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid": {
+      "done": true,
       "lines": {
         "DK": 21.5,
         "FD": 20.5
@@ -8195,7 +8196,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-25": [
+      "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
