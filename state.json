@@ -119,6 +119,15 @@
       "start": "2026-10-24T01:10:00Z",
       "text": "Blackwood (COL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381696444%232331671482_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619103224&selectionId=74101476\u0004u23.5\u0005"
     },
+    "ccf447f1bbe822d28f87352436f70c7c|Leevi Merilainen": {
+      "lines": {
+        "FD": 25.5
+      },
+      "mid": 63,
+      "side": "OVER",
+      "start": "2026-10-26T02:10:00Z",
+      "text": "Merilainen (VAN) - MIN@VAN 10:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619632389&selectionId=78174825\u0004o25.5\u0005"
+    },
     "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid": {
       "lines": {
         "DK": 21.5,
@@ -9857,5 +9866,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088121
+  "tg_offset": 69088122
 }
