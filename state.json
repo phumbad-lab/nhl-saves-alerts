@@ -5900,6 +5900,8 @@
     "CGY:8474150": {
       "alerted": true,
       "out_at": "2026-10-24T18:26:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-10-25T13:22:10Z",
       "seen": "2026-10-20T05:22:15Z",
       "status": "OUT"
     },
