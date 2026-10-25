@@ -34,6 +34,7 @@
       "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440265_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786812&selectionId=74880671\u0004u20.5\u0005"
     },
     "7973c2a6112dfdfc1e38edb3fa149416|Joel Hofer": {
+      "done": true,
       "lines": {
         "DK": 26.5
       },
@@ -43,6 +44,7 @@
       "text": "Hofer (STL) - CAR@STL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381961254%232333856603_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD not yet"
     },
     "7973c2a6112dfdfc1e38edb3fa149416|Pyotr Kochetkov": {
+      "done": true,
       "lines": {
         "DK": 21.5
       },
@@ -7816,7 +7818,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-24": [
+      "7973c2a6112dfdfc1e38edb3fa149416|Joel Hofer",
+      "7973c2a6112dfdfc1e38edb3fa149416|Pyotr Kochetkov"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
