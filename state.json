@@ -153,7 +153,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18437,
+  "credits_remaining": 18435,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -375,7 +375,7 @@
     "9c1309e10d95a3f6eb6b6b9105c565eb": {
       "commence_time": "2026-10-25T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T16:53:11Z",
+      "last_paid_check": "2026-10-25T17:09:10Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -573,7 +573,7 @@
     "e13d36d055361cb7f59a37b7e5dca489": {
       "commence_time": "2026-10-25T19:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T16:53:11Z",
+      "last_paid_check": "2026-10-25T17:09:10Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
@@ -8202,12 +8202,6 @@
     ]
   },
   "sent": {
-    "588": {
-      "at": "2026-10-22T17:08:11Z",
-      "book": "FD",
-      "event_id": "58afd2b5779b2e4f163314436900d379",
-      "goalie": "Joel Hofer"
-    },
     "589": {
       "at": "2026-10-22T17:23:12Z",
       "book": null,
