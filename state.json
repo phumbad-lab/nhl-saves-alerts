@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18399,
+  "credits_remaining": 18398,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -603,7 +603,7 @@
     "cd9f65faa44f221a72638e49afb134fb": {
       "commence_time": "2026-10-25T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T20:04:11Z",
+      "last_paid_check": "2026-10-25T20:20:15Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
