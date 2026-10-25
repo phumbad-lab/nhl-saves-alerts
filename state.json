@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18390,
+  "credits_remaining": 18389,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -610,7 +610,7 @@
     "cd9f65faa44f221a72638e49afb134fb": {
       "commence_time": "2026-10-25T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T20:52:11Z",
+      "last_paid_check": "2026-10-25T21:08:10Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
@@ -626,6 +626,15 @@
             "point": 25.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219077%232335834073_15L42133Q1458571637Q20"
+          }
+        },
+        "fanduel": {
+          "Jacob Fowler": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619672723&selectionId=92532103",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619672723&selectionId=92532105"
           }
         }
       },
@@ -8823,6 +8832,12 @@
       "book": null,
       "event_id": "9c1309e10d95a3f6eb6b6b9105c565eb",
       "goalie": "Jake Oettinger"
+    },
+    "714": {
+      "at": "2026-10-25T21:08:10Z",
+      "book": "FD",
+      "event_id": "cd9f65faa44f221a72638e49afb134fb",
+      "goalie": "Jacob Fowler"
     }
   },
   "shot_stats": {
