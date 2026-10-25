@@ -11,17 +11,6 @@
       "start": "2026-10-23T02:10:00Z",
       "text": "Lankinen (VAN) - DET@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381352441%232330233655_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618869934&selectionId=74923650\u0004u25.5\u0005"
     },
-    "5736c2282f978bfdf849f4b10876080e|Akira Schmid": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 24.5
-      },
-      "mid": 28,
-      "side": "UNDER",
-      "start": "2026-10-21T23:40:00Z",
-      "text": "Schmid (FLA) - FLA@OTT 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA380944405%232330034273_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618500875&selectionId=82335729\u0004u24.5\u0005"
-    },
     "64c943b2b0c51d39a312874b925590f7|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -129,6 +118,16 @@
       "side": "UNDER",
       "start": "2026-10-24T01:10:00Z",
       "text": "Blackwood (COL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381696444%232331671482_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619103224&selectionId=74101476\u0004u23.5\u0005"
+    },
+    "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid": {
+      "lines": {
+        "DK": 21.5,
+        "FD": 20.5
+      },
+      "mid": 62,
+      "side": "UNDER",
+      "start": "2026-10-25T19:10:00Z",
+      "text": "Schmid (FLA) - FLA@CHI 3:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311318_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619576108&selectionId=82335729\u0004u20.5\u0005"
     },
     "ec5f71ec810aef5fc417a879c49750f1|Philipp Grubauer": {
       "done": true,
@@ -9818,5 +9817,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088118
+  "tg_offset": 69088119
 }
