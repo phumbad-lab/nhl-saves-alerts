@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18387,
+  "credits_remaining": 18386,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -610,7 +610,7 @@
     "cd9f65faa44f221a72638e49afb134fb": {
       "commence_time": "2026-10-25T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T21:08:10Z",
+      "last_paid_check": "2026-10-25T21:24:10Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
@@ -630,11 +630,18 @@
         },
         "fanduel": {
           "Jacob Fowler": {
-            "over": -110,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619672723&selectionId=92532103",
             "point": 23.5,
-            "under": -120,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619672723&selectionId=92532105"
+          },
+          "Stuart Skinner": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619675713&selectionId=74079397",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619675713&selectionId=74079396"
           }
         }
       },
@@ -8838,6 +8845,12 @@
       "book": "FD",
       "event_id": "cd9f65faa44f221a72638e49afb134fb",
       "goalie": "Jacob Fowler"
+    },
+    "715": {
+      "at": "2026-10-25T21:24:10Z",
+      "book": "FD",
+      "event_id": "cd9f65faa44f221a72638e49afb134fb",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
