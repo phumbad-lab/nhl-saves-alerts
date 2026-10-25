@@ -153,7 +153,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18434,
+  "credits_remaining": 18433,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -531,8 +531,19 @@
     },
     "ccf447f1bbe822d28f87352436f70c7c": {
       "commence_time": "2026-10-26T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-25T17:22:11Z",
+      "lines": {
+        "fanduel": {
+          "Leevi Merilainen": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619632389&selectionId=78174825",
+            "point": 25.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619632389&selectionId=78174826"
+          }
+        }
+      },
       "matchup": "Minnesota Wild @ Vancouver Canucks"
     },
     "cd9f65faa44f221a72638e49afb134fb": {
@@ -2196,7 +2207,7 @@
     ]
   },
   "gl_8482122": {
-    "fetched": "2026-10-24T18:55:14Z",
+    "fetched": "2026-10-25T17:22:11Z",
     "value": []
   },
   "gl_8482740": {
@@ -4728,6 +4739,39 @@
         "MIN",
         28,
         18
+      ]
+    ]
+  },
+  "h2h_MIN-VAN": {
+    "fetched": "2026-10-25T17:22:11Z",
+    "value": [
+      [
+        "2026-04-02",
+        "VAN",
+        "MIN",
+        33,
+        39
+      ],
+      [
+        "2025-12-06",
+        "MIN",
+        "VAN",
+        30,
+        21
+      ],
+      [
+        "2025-11-01",
+        "VAN",
+        "MIN",
+        28,
+        28
+      ],
+      [
+        "2025-04-12",
+        "MIN",
+        "VAN",
+        33,
+        14
       ]
     ]
   },
@@ -8110,7 +8154,7 @@
     ]
   },
   "roster_MIN": {
-    "fetched": "2026-10-24T18:55:14Z",
+    "fetched": "2026-10-25T17:22:11Z",
     "value": [
       "Filip Gustavsson",
       "Calvin Pickard",
@@ -8221,7 +8265,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-10-23T01:47:11Z",
+    "fetched": "2026-10-25T17:22:11Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -8665,6 +8709,12 @@
       "book": null,
       "event_id": "61198113cc96cb987aad067a15911db8",
       "goalie": "Scott Wedgewood"
+    },
+    "704": {
+      "at": "2026-10-25T17:22:11Z",
+      "book": null,
+      "event_id": "ccf447f1bbe822d28f87352436f70c7c",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
