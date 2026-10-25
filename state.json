@@ -153,7 +153,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18431,
+  "credits_remaining": 18430,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -255,9 +255,16 @@
     "61198113cc96cb987aad067a15911db8": {
       "commence_time": "2026-10-26T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T17:13:11Z",
+      "last_paid_check": "2026-10-25T17:29:09Z",
       "lines": {
         "fanduel": {
+          "Justus Annunen": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619633212&selectionId=75313419",
+            "point": 29.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619633212&selectionId=75313420"
+          },
           "Scott Wedgewood": {
             "over": -136,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880670",
@@ -8703,6 +8710,12 @@
       "book": null,
       "event_id": "ccf447f1bbe822d28f87352436f70c7c",
       "goalie": "Leevi Merilainen"
+    },
+    "705": {
+      "at": "2026-10-25T17:29:09Z",
+      "book": null,
+      "event_id": "61198113cc96cb987aad067a15911db8",
+      "goalie": "Justus Annunen"
     }
   },
   "shot_stats": {
