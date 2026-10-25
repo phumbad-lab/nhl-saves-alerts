@@ -153,7 +153,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18435,
+  "credits_remaining": 18434,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -254,8 +254,19 @@
     },
     "61198113cc96cb987aad067a15911db8": {
       "commence_time": "2026-10-26T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-25T17:13:11Z",
+      "lines": {
+        "fanduel": {
+          "Scott Wedgewood": {
+            "over": -136,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880670",
+            "point": 20.5,
+            "under": 102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880668"
+          }
+        }
+      },
       "matchup": "Colorado Avalanche @ Nashville Predators"
     },
     "6f808f8ba28d3f5b26edeb74f752549f": {
@@ -3727,6 +3738,39 @@
         "NJD",
         24,
         25
+      ]
+    ]
+  },
+  "h2h_COL-NSH": {
+    "fetched": "2026-10-25T17:13:11Z",
+    "value": [
+      [
+        "2026-01-16",
+        "NSH",
+        "COL",
+        30,
+        43
+      ],
+      [
+        "2025-12-13",
+        "NSH",
+        "COL",
+        29,
+        41
+      ],
+      [
+        "2025-12-09",
+        "COL",
+        "NSH",
+        42,
+        31
+      ],
+      [
+        "2025-11-22",
+        "COL",
+        "NSH",
+        26,
+        35
       ]
     ]
   },
@@ -8020,7 +8064,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-10-23T17:26:11Z",
+    "fetched": "2026-10-25T17:13:11Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -8090,7 +8134,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-10-24T16:25:14Z",
+    "fetched": "2026-10-25T17:13:11Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
@@ -8615,6 +8659,12 @@
       "book": "DK",
       "event_id": "9c1309e10d95a3f6eb6b6b9105c565eb",
       "goalie": "Ilya Sorokin"
+    },
+    "703": {
+      "at": "2026-10-25T17:13:11Z",
+      "book": null,
+      "event_id": "61198113cc96cb987aad067a15911db8",
+      "goalie": "Scott Wedgewood"
     }
   },
   "shot_stats": {
