@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18389,
+  "credits_remaining": 18388,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -584,7 +584,7 @@
     "ccf447f1bbe822d28f87352436f70c7c": {
       "commence_time": "2026-10-26T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T20:57:10Z",
+      "last_paid_check": "2026-10-25T21:12:10Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
