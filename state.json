@@ -149,7 +149,7 @@
     }
   },
   "corrections_checked": "2026-10-24",
-  "credits_remaining": 18526,
+  "credits_remaining": 18525,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -234,7 +234,7 @@
     "40bdb8bb226b82f2cfb6d4518d6fdfbd": {
       "commence_time": "2026-10-25T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T00:09:11Z",
+      "last_paid_check": "2026-10-25T00:24:11Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -250,6 +250,22 @@
             "point": 23.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA381977102%232332840099_15L42133Q184490156Q20"
+          }
+        },
+        "fanduel": {
+          "Devin Cooley": {
+            "over": 100,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619446641&selectionId=89998349",
+            "point": 27.5,
+            "under": -132,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619446641&selectionId=89998348"
+          },
+          "John Gibson": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619446690&selectionId=76247482",
+            "point": 23.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619446690&selectionId=76247481"
           }
         }
       },
@@ -8615,6 +8631,18 @@
       "book": "FD",
       "event_id": "0b8a03e43524a57bae9c25a6c73c9024",
       "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "687": {
+      "at": "2026-10-25T00:24:11Z",
+      "book": "FD",
+      "event_id": "40bdb8bb226b82f2cfb6d4518d6fdfbd",
+      "goalie": "Devin Cooley"
+    },
+    "688": {
+      "at": "2026-10-25T00:24:11Z",
+      "book": "FD",
+      "event_id": "40bdb8bb226b82f2cfb6d4518d6fdfbd",
+      "goalie": "John Gibson"
     }
   },
   "shot_stats": {
