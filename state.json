@@ -153,7 +153,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18449,
+  "credits_remaining": 18448,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -564,7 +564,7 @@
     "e13d36d055361cb7f59a37b7e5dca489": {
       "commence_time": "2026-10-25T19:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T15:20:16Z",
+      "last_paid_check": "2026-10-25T15:36:12Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
