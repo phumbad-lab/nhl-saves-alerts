@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18427,
+  "credits_remaining": 18426,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -265,21 +265,37 @@
     "61198113cc96cb987aad067a15911db8": {
       "commence_time": "2026-10-26T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T17:29:09Z",
+      "last_paid_check": "2026-10-25T17:44:10Z",
       "lines": {
+        "draftkings": {
+          "Justus Annunen": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219401%232334985366_13L42133Q1827957987Q20",
+            "point": 28.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219401%232334985367_15L42133Q1-245490255Q20"
+          },
+          "Scott Wedgewood": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382605810%232335726131_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382605810%232335726134_15L42133Q1888607062Q20"
+          }
+        },
         "fanduel": {
           "Justus Annunen": {
             "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619633212&selectionId=75313419",
-            "point": 29.5,
+            "point": 28.5,
             "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619633212&selectionId=75313420"
           },
           "Scott Wedgewood": {
-            "over": -136,
+            "over": 102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880670",
-            "point": 20.5,
-            "under": 102,
+            "point": 21.5,
+            "under": -136,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880668"
           }
         }
@@ -8735,6 +8751,18 @@
       "book": "DK",
       "event_id": "ccf447f1bbe822d28f87352436f70c7c",
       "goalie": "Leevi Merilainen"
+    },
+    "708": {
+      "at": "2026-10-25T17:44:10Z",
+      "book": "DK",
+      "event_id": "61198113cc96cb987aad067a15911db8",
+      "goalie": "Justus Annunen"
+    },
+    "709": {
+      "at": "2026-10-25T17:44:10Z",
+      "book": "DK",
+      "event_id": "61198113cc96cb987aad067a15911db8",
+      "goalie": "Scott Wedgewood"
     }
   },
   "shot_stats": {
