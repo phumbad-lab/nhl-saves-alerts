@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18419,
+  "credits_remaining": 18417,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -419,7 +419,7 @@
     "9c1309e10d95a3f6eb6b6b9105c565eb": {
       "commence_time": "2026-10-25T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T18:09:11Z",
+      "last_paid_check": "2026-10-25T18:25:14Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -643,14 +643,14 @@
     "e13d36d055361cb7f59a37b7e5dca489": {
       "commence_time": "2026-10-25T19:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T18:09:11Z",
+      "last_paid_check": "2026-10-25T18:25:14Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
-            "over": -110,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311317_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -125,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311318_15L42133Q1888607062Q20"
           }
         },
