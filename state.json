@@ -142,6 +142,7 @@
       "text": "Grubauer (SEA) - UTA@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881682_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD o24.5"
     },
     "fa693c68730d8d6347e71ff2f92ba2d8|Joey Daccord": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 25.5
@@ -7760,7 +7761,8 @@
     "2026-10-24": [
       "7973c2a6112dfdfc1e38edb3fa149416|Joel Hofer",
       "7973c2a6112dfdfc1e38edb3fa149416|Pyotr Kochetkov",
-      "89da13e86e9e40fd4132bb577ca9a665|Carter Hart"
+      "89da13e86e9e40fd4132bb577ca9a665|Carter Hart",
+      "fa693c68730d8d6347e71ff2f92ba2d8|Joey Daccord"
     ]
   },
   "picks_channel": {
