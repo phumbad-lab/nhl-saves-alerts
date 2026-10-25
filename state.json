@@ -75,28 +75,6 @@
       "start": "2026-10-23T01:10:00Z",
       "text": "Bussi (CAR) - CAR@EDM 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381354972%232330894206_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618803676&selectionId=89960227\u0004u24.5\u0005"
     },
-    "921ae4814ca448a3040aa6de5b0fb9e9|Nico Daws": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 23.5
-      },
-      "mid": 31,
-      "side": "UNDER",
-      "start": "2026-10-22T23:10:00Z",
-      "text": "Daws (NJD) - ANA@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381605878%232331336565_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618777560&selectionId=79796960\u0004u23.5\u0005"
-    },
-    "921ae4814ca448a3040aa6de5b0fb9e9|Ville Husso": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 30,
-      "side": "OVER",
-      "start": "2026-10-22T23:10:00Z",
-      "text": "Husso (ANA) - ANA@NJD 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381634212%232331449500_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786258&selectionId=74880559\u0004o27.5\u0005"
-    },
     "b7e4d8193096703065db318c2813168f|Andrei Vasilevskiy": {
       "done": true,
       "lines": {
@@ -595,6 +573,12 @@
       "last_paid_check": "2026-10-25T23:30:19Z",
       "lines": {
         "draftkings": {
+          "Calvin Pickard": {
+            "manual": true,
+            "over": null,
+            "point": 20.5,
+            "under": null
+          },
           "Leevi Merilainen": {
             "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382220396%232334991414_13L42133Q1-54034395Q20",
@@ -2324,7 +2308,7 @@
     ]
   },
   "gl_8482122": {
-    "fetched": "2026-10-25T17:22:11Z",
+    "fetched": "2026-10-25T23:43:10Z",
     "value": []
   },
   "gl_8482740": {
@@ -8863,6 +8847,12 @@
       "book": "FD",
       "event_id": "9c1309e10d95a3f6eb6b6b9105c565eb",
       "goalie": "Jake Oettinger"
+    },
+    "720": {
+      "at": "2026-10-25T23:43:10Z",
+      "book": null,
+      "event_id": "ccf447f1bbe822d28f87352436f70c7c",
+      "goalie": "Calvin Pickard"
     }
   },
   "shot_stats": {
@@ -10004,5 +9994,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088122
+  "tg_offset": 69088124
 }
