@@ -163,7 +163,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18384,
+  "credits_remaining": 18383,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -431,7 +431,7 @@
     "9c1309e10d95a3f6eb6b6b9105c565eb": {
       "commence_time": "2026-10-25T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-25T21:25:12Z",
+      "last_paid_check": "2026-10-25T21:40:16Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -451,11 +451,18 @@
         },
         "fanduel": {
           "Ilya Sorokin": {
-            "over": -104,
+            "over": 100,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619599415&selectionId=75039652",
             "point": 23.5,
-            "under": -128,
+            "under": -132,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619599415&selectionId=75039651"
+          },
+          "Jake Oettinger": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619678122&selectionId=74880669",
+            "point": 21.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619678122&selectionId=74880671"
           }
         }
       },
@@ -8851,6 +8858,12 @@
       "book": "FD",
       "event_id": "cd9f65faa44f221a72638e49afb134fb",
       "goalie": "Stuart Skinner"
+    },
+    "716": {
+      "at": "2026-10-25T21:40:16Z",
+      "book": "FD",
+      "event_id": "9c1309e10d95a3f6eb6b6b9105c565eb",
+      "goalie": "Jake Oettinger"
     }
   },
   "shot_stats": {
