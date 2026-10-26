@@ -98,6 +98,7 @@
       "text": "Blackwood (COL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381696444%232331671482_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619103224&selectionId=74101476\u0004u23.5\u0005"
     },
     "ccf447f1bbe822d28f87352436f70c7c|Calvin Pickard": {
+      "done": true,
       "lines": {
         "DK": 20.5
       },
@@ -107,6 +108,7 @@
       "text": "Pickard (MIN) - MIN@VAN 10:10PM\nDK u20.5 \u00b7 FD not yet"
     },
     "ccf447f1bbe822d28f87352436f70c7c|Leevi Merilainen": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 25.5
@@ -8106,7 +8108,9 @@
   "night_graded": {
     "2026-10-25": [
       "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid",
-      "9c1309e10d95a3f6eb6b6b9105c565eb|Jake Oettinger"
+      "9c1309e10d95a3f6eb6b6b9105c565eb|Jake Oettinger",
+      "ccf447f1bbe822d28f87352436f70c7c|Calvin Pickard",
+      "ccf447f1bbe822d28f87352436f70c7c|Leevi Merilainen"
     ]
   },
   "picks_channel": {
