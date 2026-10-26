@@ -151,7 +151,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18364,
+  "credits_remaining": 18363,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -539,7 +539,7 @@
     "ccf447f1bbe822d28f87352436f70c7c": {
       "commence_time": "2026-10-26T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-26T01:42:11Z",
+      "last_paid_check": "2026-10-26T01:43:11Z",
       "lines": {
         "draftkings": {
           "Calvin Pickard": {
@@ -8352,12 +8352,6 @@
     ]
   },
   "sent": {
-    "606": {
-      "at": "2026-10-23T01:42:12Z",
-      "book": null,
-      "event_id": "ec5f71ec810aef5fc417a879c49750f1",
-      "goalie": "Karel Vejmelka"
-    },
     "607": {
       "at": "2026-10-23T01:47:11Z",
       "book": null,
