@@ -318,6 +318,12 @@
       },
       "matchup": "Detroit Red Wings @ Edmonton Oilers"
     },
+    "5f16cb74336431221c132f05c0e31d04": {
+      "commence_time": "2026-10-28T02:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Vancouver Canucks @ Anaheim Ducks"
+    },
     "61198113cc96cb987aad067a15911db8": {
       "commence_time": "2026-10-26T00:10:00Z",
       "h2h_sent": true,
@@ -357,6 +363,12 @@
         }
       },
       "matchup": "Colorado Avalanche @ Nashville Predators"
+    },
+    "66690f3994b21af39301701a52df1d66": {
+      "commence_time": "2026-10-28T02:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Ottawa Senators @ Vegas Golden Knights"
     },
     "74a990b939cd35873c9bb47d6e37e057": {
       "commence_time": "2026-10-28T00:00:00Z",
