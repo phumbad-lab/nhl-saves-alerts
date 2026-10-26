@@ -1,27 +1,5 @@
 {
   "channel_posts": {
-    "2d1a2e330020589eb147fe4736ccfd1e|Kevin Lankinen": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 25.5
-      },
-      "mid": 39,
-      "side": "UNDER",
-      "start": "2026-10-23T02:10:00Z",
-      "text": "Lankinen (VAN) - DET@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381352441%232330233655_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618869934&selectionId=74923650\u0004u25.5\u0005"
-    },
-    "64c943b2b0c51d39a312874b925590f7|Jake Oettinger": {
-      "done": true,
-      "lines": {
-        "DK": 20.5,
-        "FD": 20.5
-      },
-      "mid": 36,
-      "side": "UNDER",
-      "start": "2026-10-23T00:10:00Z",
-      "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381362533%232331440265_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618786812&selectionId=74880671\u0004u20.5\u0005"
-    },
     "7973c2a6112dfdfc1e38edb3fa149416|Joel Hofer": {
       "done": true,
       "lines": {
@@ -42,17 +20,6 @@
       "start": "2026-10-24T23:10:00Z",
       "text": "Kochetkov (CAR) - CAR@STL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381961552%232333429373_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD not yet"
     },
-    "7e4df53f515e77bc6555279eb5d6946a|Jesper Wallstedt": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 23.5
-      },
-      "mid": 32,
-      "side": "OVER",
-      "start": "2026-10-23T01:10:00Z",
-      "text": "Wallstedt (MIN) - MIN@CGY 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381368663%232331546522_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618805600&selectionId=78172460\u0004o23.5\u0005"
-    },
     "89da13e86e9e40fd4132bb577ca9a665|Carter Hart": {
       "done": true,
       "lines": {
@@ -63,17 +30,6 @@
       "side": "OVER",
       "start": "2026-10-24T23:10:00Z",
       "text": "Hart (VGK) - VGK@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381956993%232332769277_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619334361&selectionId=92390270\u0004o23.5\u0005"
-    },
-    "8a951cc95f91e5df49f7aad4219c40e0|Brandon Bussi": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 24.5
-      },
-      "mid": 33,
-      "side": "UNDER",
-      "start": "2026-10-23T01:10:00Z",
-      "text": "Bussi (CAR) - CAR@EDM 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381354972%232330894206_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.618803676&selectionId=89960227\u0004u24.5\u0005"
     },
     "b7e4d8193096703065db318c2813168f|Andrei Vasilevskiy": {
       "done": true,
@@ -118,6 +74,15 @@
       "start": "2026-10-26T02:10:00Z",
       "text": "Merilainen (VAN) - MIN@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382220396%232334991414_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619632389&selectionId=78174825\u0004o25.5\u0005"
     },
+    "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
+      "lines": {
+        "DK": 25.5
+      },
+      "mid": 69,
+      "side": "UNDER",
+      "start": "2026-10-26T23:10:00Z",
+      "text": "Reimer (NYR) - LAK@NYR 7:10PM\nDK u25.5 \u00b7 FD not yet"
+    },
     "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid": {
       "done": true,
       "lines": {
@@ -128,17 +93,6 @@
       "side": "UNDER",
       "start": "2026-10-25T19:10:00Z",
       "text": "Schmid (FLA) - FLA@CHI 3:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311318_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619576108&selectionId=82335729\u0004u20.5\u0005"
-    },
-    "ec5f71ec810aef5fc417a879c49750f1|Philipp Grubauer": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 24.5
-      },
-      "mid": 40,
-      "side": "OVER",
-      "start": "2026-10-23T02:10:00Z",
-      "text": "Grubauer (SEA) - UTA@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381741545%232331881682_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD o24.5"
     },
     "fa693c68730d8d6347e71ff2f92ba2d8|Joey Daccord": {
       "done": true,
@@ -10017,5 +9971,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088126
+  "tg_offset": 69088127
 }
