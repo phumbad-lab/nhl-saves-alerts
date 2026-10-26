@@ -815,6 +815,12 @@
         }
       },
       "matchup": "San Jose Sharks @ Boston Bruins"
+    },
+    "fc98fb73985d5caecdfffd4cb0f4d3ed": {
+      "commence_time": "2026-10-28T01:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Minnesota Wild @ Utah Mammoth"
     }
   },
   "game_log": {
