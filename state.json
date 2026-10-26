@@ -127,7 +127,7 @@
     }
   },
   "corrections_checked": "2026-10-26",
-  "credits_remaining": 18296,
+  "credits_remaining": 18295,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -623,7 +623,7 @@
     "daa5166685c4ca1a4f033d8bff91a6ba": {
       "commence_time": "2026-10-26T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-26T21:39:11Z",
+      "last_paid_check": "2026-10-26T21:54:12Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
@@ -642,10 +642,10 @@
         },
         "fanduel": {
           "Darcy Kuemper": {
-            "over": -128,
+            "over": -132,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619886507&selectionId=74879770",
             "point": 21.5,
-            "under": -104,
+            "under": 100,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619886507&selectionId=74879771"
           }
         }
