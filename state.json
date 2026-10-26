@@ -151,7 +151,7 @@
     }
   },
   "corrections_checked": "2026-10-25",
-  "credits_remaining": 18357,
+  "credits_remaining": 18356,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -539,7 +539,7 @@
     "ccf447f1bbe822d28f87352436f70c7c": {
       "commence_time": "2026-10-26T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-26T01:49:10Z",
+      "last_paid_check": "2026-10-26T01:50:16Z",
       "lines": {
         "draftkings": {
           "Calvin Pickard": {
@@ -8352,18 +8352,6 @@
     ]
   },
   "sent": {
-    "608": {
-      "at": "2026-10-23T01:50:16Z",
-      "book": null,
-      "event_id": "2d1a2e330020589eb147fe4736ccfd1e",
-      "goalie": "Kevin Lankinen"
-    },
-    "609": {
-      "at": "2026-10-23T01:50:16Z",
-      "book": null,
-      "event_id": "ec5f71ec810aef5fc417a879c49750f1",
-      "goalie": "Philipp Grubauer"
-    },
     "613": {
       "at": "2026-10-23T02:01:10Z",
       "book": "FD",
