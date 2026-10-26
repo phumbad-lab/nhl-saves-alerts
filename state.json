@@ -221,6 +221,12 @@
       },
       "matchup": "Toronto Maple Leafs @ Calgary Flames"
     },
+    "288b3a1e5241bd3885295af9aab801ca": {
+      "commence_time": "2026-10-28T02:30:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Buffalo Sabres @ San Jose Sharks"
+    },
     "40bdb8bb226b82f2cfb6d4518d6fdfbd": {
       "commence_time": "2026-10-25T02:15:00Z",
       "h2h_sent": true,
@@ -8532,18 +8538,6 @@
     ]
   },
   "sent": {
-    "637": {
-      "at": "2026-10-23T20:29:12Z",
-      "book": "FD",
-      "event_id": "db9d82d62d8f222bfd835100662c6ac6",
-      "goalie": "Jacob Fowler"
-    },
-    "638": {
-      "at": "2026-10-23T20:29:12Z",
-      "book": "FD",
-      "event_id": "db9d82d62d8f222bfd835100662c6ac6",
-      "goalie": "Spencer Knight"
-    },
     "639": {
       "at": "2026-10-23T20:32:11Z",
       "book": "FD",
