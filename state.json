@@ -107,7 +107,7 @@
     }
   },
   "corrections_checked": "2026-10-26",
-  "credits_remaining": 18315,
+  "credits_remaining": 18314,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -253,8 +253,19 @@
     },
     "5b70654c977b6cc9a110ad8c04c57cac": {
       "commence_time": "2026-10-27T01:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-26T18:25:13Z",
+      "lines": {
+        "fanduel": {
+          "Michal Postava": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619924690&selectionId=104349737",
+            "point": 25.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619924690&selectionId=104349736"
+          }
+        }
+      },
       "matchup": "Detroit Red Wings @ Edmonton Oilers"
     },
     "61198113cc96cb987aad067a15911db8": {
@@ -4123,6 +4134,39 @@
         "WPG",
         37,
         25
+      ]
+    ]
+  },
+  "h2h_DET-EDM": {
+    "fetched": "2026-10-26T18:25:13Z",
+    "value": [
+      [
+        "2025-12-11",
+        "DET",
+        "EDM",
+        28,
+        29
+      ],
+      [
+        "2025-10-19",
+        "EDM",
+        "DET",
+        18,
+        25
+      ],
+      [
+        "2025-01-30",
+        "DET",
+        "EDM",
+        35,
+        47
+      ],
+      [
+        "2024-10-27",
+        "EDM",
+        "DET",
+        34,
+        26
       ]
     ]
   },
@@ -8286,7 +8330,7 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-10-24T16:30:21Z",
+    "fetched": "2026-10-26T18:25:13Z",
     "value": [
       "John Gibson",
       "Michal Postava",
@@ -8294,7 +8338,7 @@
     ]
   },
   "roster_EDM": {
-    "fetched": "2026-10-24T13:29:10Z",
+    "fetched": "2026-10-26T18:25:13Z",
     "value": [
       "Frederik Andersen",
       "Tristan Jarry",
@@ -8849,6 +8893,12 @@
       "book": null,
       "event_id": "20277c97a62bde35c5494acdb5912a68",
       "goalie": "Sergei Bobrovsky"
+    },
+    "736": {
+      "at": "2026-10-26T18:25:13Z",
+      "book": null,
+      "event_id": "5b70654c977b6cc9a110ad8c04c57cac",
+      "goalie": "Michal Postava"
     }
   },
   "shot_stats": {
