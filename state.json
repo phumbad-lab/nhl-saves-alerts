@@ -107,7 +107,7 @@
     }
   },
   "corrections_checked": "2026-10-26",
-  "credits_remaining": 18320,
+  "credits_remaining": 18319,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
       "commence_time": "2026-10-24T23:10:00Z",
@@ -152,7 +152,7 @@
     "20277c97a62bde35c5494acdb5912a68": {
       "commence_time": "2026-10-27T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-26T17:34:12Z",
+      "last_paid_check": "2026-10-26T17:50:17Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -172,10 +172,10 @@
         },
         "fanduel": {
           "Devin Cooley": {
-            "over": -108,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619887758&selectionId=89998349",
             "point": 25.5,
-            "under": -122,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619887758&selectionId=89998348"
           }
         }
