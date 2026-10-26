@@ -8734,7 +8734,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.32,
-    "fetched": "2026-10-25T21:28:11Z",
+    "fetched": "2026-10-26T03:29:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.18181,
@@ -8757,20 +8757,20 @@
         "sf": 33.92307
       },
       "chicagoblackhawks": {
-        "sa": 30.3,
-        "sf": 21.4
+        "sa": 30.54545,
+        "sf": 21.36363
       },
       "coloradoavalanche": {
-        "sa": 27.90909,
-        "sf": 30.0
+        "sa": 28.5,
+        "sf": 29.25
       },
       "columbusbluejackets": {
         "sa": 27.66666,
         "sf": 26.77777
       },
       "dallasstars": {
-        "sa": 22.0,
-        "sf": 26.7
+        "sa": 21.81818,
+        "sf": 27.72727
       },
       "detroitredwings": {
         "sa": 25.54545,
@@ -8781,8 +8781,8 @@
         "sf": 25.45454
       },
       "floridapanthers": {
-        "sa": 24.36363,
-        "sf": 28.0909
+        "sa": 24.08333,
+        "sf": 28.5
       },
       "losangeleskings": {
         "sa": 29.11111,
@@ -8793,20 +8793,20 @@
         "sf": 31.08333
       },
       "montrealcanadiens": {
-        "sa": 25.8,
-        "sf": 29.5
+        "sa": 26.54545,
+        "sf": 28.72727
       },
       "nashvillepredators": {
-        "sa": 30.1,
-        "sf": 24.9
+        "sa": 29.27272,
+        "sf": 25.81818
       },
       "newjerseydevils": {
         "sa": 23.90909,
         "sf": 34.0909
       },
       "newyorkislanders": {
-        "sa": 25.5,
-        "sf": 26.7
+        "sa": 26.63636,
+        "sf": 26.0909
       },
       "newyorkrangers": {
         "sa": 26.30769,
@@ -8861,8 +8861,8 @@
         "sf": 27.5
       },
       "winnipegjets": {
-        "sa": 30.0,
-        "sf": 26.5
+        "sa": 29.18181,
+        "sf": 27.18181
       }
     },
     "save_pct": 0.8861,
