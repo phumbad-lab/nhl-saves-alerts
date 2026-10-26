@@ -6206,10 +6206,8 @@
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-10-24T19:41:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-10-26T13:18:11Z",
       "seen": "2026-10-15T16:53:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "LAK:8477942": {
       "alerted": true,
