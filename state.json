@@ -152,7 +152,7 @@
       "text": "Daccord (SEA) - MIN@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381969528%232334373171_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619460822&selectionId=74979817\u0004o25.5\u0005"
     }
   },
-  "corrections_checked": "2026-10-25",
+  "corrections_checked": "2026-10-26",
   "credits_remaining": 18337,
   "events": {
     "0b8a03e43524a57bae9c25a6c73c9024": {
@@ -8141,14 +8141,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-25": [
-      "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid",
-      "9c1309e10d95a3f6eb6b6b9105c565eb|Jake Oettinger",
-      "ccf447f1bbe822d28f87352436f70c7c|Calvin Pickard",
-      "ccf447f1bbe822d28f87352436f70c7c|Leevi Merilainen"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
