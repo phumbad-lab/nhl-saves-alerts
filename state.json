@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18162,
+  "credits_remaining": 18160,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -235,7 +235,7 @@
     "288b3a1e5241bd3885295af9aab801ca": {
       "commence_time": "2026-10-28T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T19:20:19Z",
+      "last_paid_check": "2026-10-27T19:36:39Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
@@ -255,11 +255,18 @@
         },
         "fanduel": {
           "Colten Ellis": {
-            "over": -110,
+            "over": 100,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620269673&selectionId=90265835",
             "point": 25.5,
-            "under": -122,
+            "under": -132,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620269673&selectionId=90265834"
+          },
+          "Yaroslav Askarov": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620271387&selectionId=77385758",
+            "point": 24.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620271387&selectionId=77385757"
           }
         }
       },
@@ -314,7 +321,7 @@
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T19:20:19Z",
+      "last_paid_check": "2026-10-27T19:36:39Z",
       "lines": {
         "draftkings": {
           "Lukas Dostal": {
@@ -9311,6 +9318,12 @@
       "book": "FD",
       "event_id": "288b3a1e5241bd3885295af9aab801ca",
       "goalie": "Colten Ellis"
+    },
+    "790": {
+      "at": "2026-10-27T19:36:39Z",
+      "book": "FD",
+      "event_id": "288b3a1e5241bd3885295af9aab801ca",
+      "goalie": "Yaroslav Askarov"
     }
   },
   "shot_stats": {
