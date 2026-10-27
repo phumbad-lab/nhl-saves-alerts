@@ -1,6 +1,7 @@
 {
   "channel_posts": {
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
+      "done": true,
       "lines": {
         "DK": 25.5,
         "FD": 25.5
@@ -11,6 +12,7 @@
       "text": "Cooley (CGY) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382866410%232336961820_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619887758&selectionId=89998349\u0004o25.5\u0005"
     },
     "20277c97a62bde35c5494acdb5912a68|Sergei Bobrovsky": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 25.5
@@ -7989,7 +7991,9 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-10-26": [
-      "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer"
+      "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer",
+      "20277c97a62bde35c5494acdb5912a68|Devin Cooley",
+      "20277c97a62bde35c5494acdb5912a68|Sergei Bobrovsky"
     ]
   },
   "picks_channel": {
