@@ -158,12 +158,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18032,
+  "credits_remaining": 18030,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T23:55:14Z",
+      "last_paid_check": "2026-10-27T23:56:15Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -427,7 +427,7 @@
     "66690f3994b21af39301701a52df1d66": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T23:40:16Z",
+      "last_paid_check": "2026-10-27T23:56:15Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
