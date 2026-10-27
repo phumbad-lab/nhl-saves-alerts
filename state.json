@@ -146,6 +146,12 @@
       },
       "matchup": "New Jersey Devils @ Dallas Stars"
     },
+    "1358a7c35b103e3242da6a96468d61f9": {
+      "commence_time": "2026-10-29T00:40:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Calgary Flames @ Edmonton Oilers"
+    },
     "17aa3256e18d8946db708952a66e29ee": {
       "commence_time": "2026-10-28T00:09:00Z",
       "h2h_sent": true,
@@ -9262,7 +9268,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.34,
-    "fetched": "2026-10-27T12:40:16Z",
+    "fetched": "2026-10-27T18:40:21Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.18181,
@@ -9301,12 +9307,12 @@
         "sf": 27.72727
       },
       "detroitredwings": {
-        "sa": 25.75,
-        "sf": 29.83333
+        "sa": 25.66666,
+        "sf": 29.75
       },
       "edmontonoilers": {
-        "sa": 27.16666,
-        "sf": 25.66666
+        "sa": 27.08333,
+        "sf": 25.58333
       },
       "floridapanthers": {
         "sa": 24.08333,
