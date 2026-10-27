@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18184,
+  "credits_remaining": 18182,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -235,7 +235,7 @@
     "288b3a1e5241bd3885295af9aab801ca": {
       "commence_time": "2026-10-28T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:33:13Z",
+      "last_paid_check": "2026-10-27T18:49:16Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
@@ -305,7 +305,7 @@
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:33:13Z",
+      "last_paid_check": "2026-10-27T18:49:16Z",
       "lines": {
         "draftkings": {
           "Lukas Dostal": {
@@ -6655,7 +6655,7 @@
   },
   "injuries": {
     "CHI:8481524": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-27T18:44:11Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
