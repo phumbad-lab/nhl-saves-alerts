@@ -570,46 +570,6 @@
       },
       "matchup": "Montr\u00e9al Canadiens @ St Louis Blues"
     },
-    "9c1309e10d95a3f6eb6b6b9105c565eb": {
-      "commence_time": "2026-10-25T22:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-25T21:40:16Z",
-      "lines": {
-        "draftkings": {
-          "Ilya Sorokin": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382188856%232335563174_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382188856%232335563175_15L42133Q184490156Q20"
-          },
-          "Jake Oettinger": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382189094%232334888651_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382189094%232334888652_15L42133Q1888607062Q20"
-          }
-        },
-        "fanduel": {
-          "Ilya Sorokin": {
-            "over": 100,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619599415&selectionId=75039652",
-            "point": 23.5,
-            "under": -132,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619599415&selectionId=75039651"
-          },
-          "Jake Oettinger": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619678122&selectionId=74880669",
-            "point": 21.5,
-            "under": -120,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619678122&selectionId=74880671"
-          }
-        }
-      },
-      "matchup": "New York Islanders @ Dallas Stars"
-    },
     "ccf447f1bbe822d28f87352436f70c7c": {
       "commence_time": "2026-10-26T02:10:00Z",
       "h2h_sent": true,
