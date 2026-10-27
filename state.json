@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18250,
+  "credits_remaining": 18248,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -352,7 +352,7 @@
     "928c19ad83dc850d60051b756f7db2cd": {
       "commence_time": "2026-10-28T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:32:14Z",
+      "last_paid_check": "2026-10-27T16:48:12Z",
       "lines": {
         "draftkings": {
           "Jordan Binnington": {
@@ -579,15 +579,22 @@
     "fa0255827e54afa3c871868fed566dd0": {
       "commence_time": "2026-10-28T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:32:14Z",
+      "last_paid_check": "2026-10-27T16:48:12Z",
       "lines": {
         "draftkings": {
           "Juuse Saros": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338517920_13L42133Q1-389637312Q20",
-            "point": 25.5,
+            "over": -135,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338618040_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": 100,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338618041_15L42133Q1731448625Q20"
+          },
+          "Semyon Varlamov": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382933823%232338621152_13L42133Q1-1695742073Q20",
+            "point": 24.5,
             "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338517921_15L42133Q1458571637Q20"
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382933823%232338621153_15L42133Q1731448625Q20"
           }
         }
       },
@@ -8918,6 +8925,12 @@
       "book": "FD",
       "event_id": "7ca25d591cbdc679a9ad85d1f04811cb",
       "goalie": "Pyotr Kochetkov"
+    },
+    "765": {
+      "at": "2026-10-27T16:48:12Z",
+      "book": null,
+      "event_id": "fa0255827e54afa3c871868fed566dd0",
+      "goalie": "Semyon Varlamov"
     }
   },
   "shot_stats": {
