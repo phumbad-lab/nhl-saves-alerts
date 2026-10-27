@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18226,
+  "credits_remaining": 18225,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -638,8 +638,19 @@
     },
     "fc98fb73985d5caecdfffd4cb0f4d3ed": {
       "commence_time": "2026-10-28T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T17:32:16Z",
+      "lines": {
+        "draftkings": {
+          "Karel Vejmelka": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382936197%232337291029_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382936197%232337291031_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Minnesota Wild @ Utah Mammoth"
     }
   },
@@ -2186,7 +2197,7 @@
     ]
   },
   "gl_8482122": {
-    "fetched": "2026-10-25T23:43:10Z",
+    "fetched": "2026-10-27T17:32:16Z",
     "value": []
   },
   "gl_8482740": {
@@ -5015,6 +5026,39 @@
         "MIN",
         28,
         18
+      ]
+    ]
+  },
+  "h2h_MIN-UTA": {
+    "fetched": "2026-10-27T17:32:16Z",
+    "value": [
+      [
+        "2026-03-10",
+        "UTA",
+        "MIN",
+        25,
+        30
+      ],
+      [
+        "2026-02-27",
+        "MIN",
+        "UTA",
+        23,
+        37
+      ],
+      [
+        "2025-10-25",
+        "UTA",
+        "MIN",
+        41,
+        35
+      ],
+      [
+        "2025-02-27",
+        "MIN",
+        "UTA",
+        16,
+        31
       ]
     ]
   },
@@ -8511,7 +8555,7 @@
     ]
   },
   "roster_MIN": {
-    "fetched": "2026-10-25T17:22:11Z",
+    "fetched": "2026-10-27T17:32:16Z",
     "value": [
       "Filip Gustavsson",
       "Calvin Pickard",
@@ -8615,7 +8659,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-10-24T17:31:11Z",
+    "fetched": "2026-10-27T17:32:16Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -9018,6 +9062,12 @@
       "book": null,
       "event_id": "5f16cb74336431221c132f05c0e31d04",
       "goalie": "Lukas Dostal"
+    },
+    "771": {
+      "at": "2026-10-27T17:32:16Z",
+      "book": null,
+      "event_id": "fc98fb73985d5caecdfffd4cb0f4d3ed",
+      "goalie": "Karel Vejmelka"
     }
   },
   "shot_stats": {
