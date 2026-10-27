@@ -10474,25 +10474,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088136,
-  "watch": {
-    "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "last": "2026-10-27T22:22:10Z",
-      "seen": {
-        "DK": {
-          "over": -125,
-          "point": 24.5,
-          "under": -110
-        },
-        "FD": {
-          "over": 100,
-          "point": 24.5,
-          "under": -132
-        }
-      },
-      "set": "2026-10-27T16:12:13Z",
-      "side": null,
-      "start": "2026-10-28T00:08:00Z"
-    }
-  }
+  "tg_offset": 69088137,
+  "watch": {}
 }
