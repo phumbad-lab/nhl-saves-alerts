@@ -6141,6 +6141,7 @@
   "injuries": {
     "CGY:8474150": {
       "alerted": true,
+      "missing_since": "2026-10-27T00:21:09Z",
       "out_at": "2026-10-24T18:26:11Z",
       "seen": "2026-10-20T05:22:15Z",
       "status": "DTD"
