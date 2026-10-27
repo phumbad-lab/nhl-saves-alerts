@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18230,
+  "credits_remaining": 18228,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -149,7 +149,7 @@
     "17aa3256e18d8946db708952a66e29ee": {
       "commence_time": "2026-10-28T00:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:11:11Z",
+      "last_paid_check": "2026-10-27T17:26:12Z",
       "lines": {
         "draftkings": {
           "Clay Stevenson": {
@@ -304,7 +304,7 @@
     "74a990b939cd35873c9bb47d6e37e057": {
       "commence_time": "2026-10-28T00:11:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:11:11Z",
+      "last_paid_check": "2026-10-27T17:26:12Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
