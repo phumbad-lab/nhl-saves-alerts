@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18176,
+  "credits_remaining": 18174,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -235,14 +235,14 @@
     "288b3a1e5241bd3885295af9aab801ca": {
       "commence_time": "2026-10-28T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:49:16Z",
+      "last_paid_check": "2026-10-27T19:05:18Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
-            "over": -105,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382938340%232337775611_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -125,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382938340%232337775612_15L42133Q1458571637Q20"
           },
           "Yaroslav Askarov": {
@@ -305,7 +305,7 @@
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:49:16Z",
+      "last_paid_check": "2026-10-27T19:05:18Z",
       "lines": {
         "draftkings": {
           "Lukas Dostal": {
