@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18194,
+  "credits_remaining": 18193,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -659,14 +659,14 @@
     "f1b86cba8c192fb71581b00443f4af8a": {
       "commence_time": "2026-10-27T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:12:12Z",
+      "last_paid_check": "2026-10-27T18:27:12Z",
       "lines": {
         "draftkings": {
           "Dan Vladar": {
-            "over": -130,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337737343_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": -105,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337737344_15L42133Q1731448625Q20"
           }
         },
