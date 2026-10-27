@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18239,
+  "credits_remaining": 18238,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -578,7 +578,7 @@
     "f1b86cba8c192fb71581b00443f4af8a": {
       "commence_time": "2026-10-27T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:52:11Z",
+      "last_paid_check": "2026-10-27T17:08:13Z",
       "lines": {
         "draftkings": {
           "Dan Vladar": {
