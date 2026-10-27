@@ -158,7 +158,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18108,
+  "credits_remaining": 18107,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -361,7 +361,7 @@
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T21:42:12Z",
+      "last_paid_check": "2026-10-27T21:58:11Z",
       "lines": {
         "draftkings": {
           "Lukas Dostal": {
@@ -374,10 +374,10 @@
         },
         "fanduel": {
           "Lukas Dostal": {
-            "over": -114,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979813",
             "point": 21.5,
-            "under": -114,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979814"
           }
         }
