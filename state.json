@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18207,
+  "credits_remaining": 18206,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -228,8 +228,26 @@
     },
     "288b3a1e5241bd3885295af9aab801ca": {
       "commence_time": "2026-10-28T02:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T18:03:11Z",
+      "lines": {
+        "draftkings": {
+          "Colten Ellis": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382938340%232337775611_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382938340%232337775612_15L42133Q1458571637Q20"
+          },
+          "Yaroslav Askarov": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382938855%232337354163_13L42133Q1-54034395Q20",
+            "point": 26.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382938855%232337354164_15L42133Q11150106798Q20"
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ San Jose Sharks"
     },
     "46dec80debcc79de4c248a0edd4f8d74": {
@@ -2907,6 +2925,39 @@
         "BUF",
         24,
         31
+      ]
+    ]
+  },
+  "h2h_BUF-SJS": {
+    "fetched": "2026-10-27T18:03:11Z",
+    "value": [
+      [
+        "2026-03-19",
+        "BUF",
+        "SJS",
+        16,
+        23
+      ],
+      [
+        "2026-03-10",
+        "SJS",
+        "BUF",
+        20,
+        26
+      ],
+      [
+        "2025-03-04",
+        "SJS",
+        "BUF",
+        28,
+        22
+      ],
+      [
+        "2024-11-23",
+        "BUF",
+        "SJS",
+        31,
+        33
       ]
     ]
   },
@@ -8532,7 +8583,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-10-24T14:50:16Z",
+    "fetched": "2026-10-27T18:03:11Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -8690,7 +8741,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-24T15:03:10Z",
+    "fetched": "2026-10-27T18:03:11Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -9157,6 +9208,18 @@
       "book": "FD",
       "event_id": "17aa3256e18d8946db708952a66e29ee",
       "goalie": "Clay Stevenson"
+    },
+    "779": {
+      "at": "2026-10-27T18:03:11Z",
+      "book": null,
+      "event_id": "288b3a1e5241bd3885295af9aab801ca",
+      "goalie": "Colten Ellis"
+    },
+    "780": {
+      "at": "2026-10-27T18:03:11Z",
+      "book": null,
+      "event_id": "288b3a1e5241bd3885295af9aab801ca",
+      "goalie": "Yaroslav Askarov"
     }
   },
   "shot_stats": {
