@@ -118,12 +118,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18193,
+  "credits_remaining": 18192,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:24:13Z",
+      "last_paid_check": "2026-10-27T18:30:21Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -6644,6 +6644,8 @@
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-10-24T19:41:11Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-27T18:30:21Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "DTD"
     },
@@ -10386,7 +10388,7 @@
   "tg_offset": 69088132,
   "watch": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "last": "2026-10-27T18:24:13Z",
+      "last": "2026-10-27T18:30:21Z",
       "seen": {
         "DK": {
           "over": -125,
