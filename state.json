@@ -117,7 +117,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18269,
+  "credits_remaining": 18268,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -300,14 +300,14 @@
     "7ca25d591cbdc679a9ad85d1f04811cb": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T15:59:12Z",
+      "last_paid_check": "2026-10-27T16:14:13Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
-            "over": -110,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931294%232337848263_13L42133Q1833536087Q20",
             "point": 29.5,
-            "under": -125,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931294%232337848264_15L42133Q11580205260Q20"
           }
         }
