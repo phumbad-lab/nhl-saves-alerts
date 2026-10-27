@@ -118,12 +118,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18209,
+  "credits_remaining": 18207,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:56:13Z",
+      "last_paid_check": "2026-10-27T18:02:12Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -281,7 +281,7 @@
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:46:12Z",
+      "last_paid_check": "2026-10-27T18:02:12Z",
       "lines": {
         "draftkings": {
           "Lukas Dostal": {
@@ -10301,7 +10301,7 @@
   "tg_offset": 69088132,
   "watch": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "last": "2026-10-27T17:56:13Z",
+      "last": "2026-10-27T18:02:12Z",
       "seen": {
         "DK": {
           "over": -125,
