@@ -158,12 +158,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18033,
+  "credits_remaining": 18032,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T23:54:13Z",
+      "last_paid_check": "2026-10-27T23:55:14Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
