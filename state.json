@@ -117,12 +117,23 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18273,
+  "credits_remaining": 18272,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T16:02:12Z",
+      "lines": {
+        "draftkings": {
+          "Casey DeSmith": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525288_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525289_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "New Jersey Devils @ Dallas Stars"
     },
     "17aa3256e18d8946db708952a66e29ee": {
@@ -3927,6 +3938,39 @@
         "COL",
         21,
         34
+      ]
+    ]
+  },
+  "h2h_DAL-NJD": {
+    "fetched": "2026-10-27T16:02:12Z",
+    "value": [
+      [
+        "2026-03-24",
+        "NJD",
+        "DAL",
+        25,
+        27
+      ],
+      [
+        "2025-12-03",
+        "DAL",
+        "NJD",
+        28,
+        30
+      ],
+      [
+        "2025-03-04",
+        "NJD",
+        "DAL",
+        28,
+        21
+      ],
+      [
+        "2025-02-22",
+        "DAL",
+        "NJD",
+        26,
+        33
       ]
     ]
   },
@@ -8275,7 +8319,7 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-10-25T15:22:10Z",
+    "fetched": "2026-10-27T16:02:12Z",
     "value": [
       "Casey DeSmith",
       "Jake Oettinger"
@@ -8330,7 +8374,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-10-24T17:58:13Z",
+    "fetched": "2026-10-27T16:02:12Z",
     "value": [
       "Jake Allen",
       "Connor Hellebuyck",
@@ -8809,6 +8853,12 @@
       "book": null,
       "event_id": "fa0255827e54afa3c871868fed566dd0",
       "goalie": "Juuse Saros"
+    },
+    "757": {
+      "at": "2026-10-27T16:02:12Z",
+      "book": null,
+      "event_id": "11d4cfe51153e45bb3a9fc6e5f23535a",
+      "goalie": "Casey DeSmith"
     }
   },
   "shot_stats": {
