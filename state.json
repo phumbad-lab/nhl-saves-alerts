@@ -117,7 +117,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18260,
+  "credits_remaining": 18259,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -311,7 +311,7 @@
     "7ca25d591cbdc679a9ad85d1f04811cb": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:14:13Z",
+      "last_paid_check": "2026-10-27T16:30:20Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
@@ -320,6 +320,13 @@
             "point": 29.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931294%232337848264_15L42133Q11580205260Q20"
+          },
+          "Pyotr Kochetkov": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196728_13L42133Q1980555505Q20",
+            "point": 19.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196729_15L42133Q1-767247327Q20"
           }
         }
       },
@@ -8873,6 +8880,12 @@
       "book": null,
       "event_id": "17aa3256e18d8946db708952a66e29ee",
       "goalie": "Clay Stevenson"
+    },
+    "761": {
+      "at": "2026-10-27T16:30:20Z",
+      "book": null,
+      "event_id": "7ca25d591cbdc679a9ad85d1f04811cb",
+      "goalie": "Pyotr Kochetkov"
     }
   },
   "shot_stats": {
