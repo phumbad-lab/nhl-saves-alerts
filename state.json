@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18216,
+  "credits_remaining": 18215,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -684,9 +684,16 @@
     "fc98fb73985d5caecdfffd4cb0f4d3ed": {
       "commence_time": "2026-10-28T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:32:16Z",
+      "last_paid_check": "2026-10-27T17:48:13Z",
       "lines": {
         "draftkings": {
+          "Jesper Wallstedt": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382936336%232338672532_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382936336%232338672533_15L42133Q1-941301704Q20"
+          },
           "Karel Vejmelka": {
             "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382936197%232337291029_13L42133Q1-1695742073Q20",
@@ -9137,6 +9144,12 @@
       "book": null,
       "event_id": "17aa3256e18d8946db708952a66e29ee",
       "goalie": "Akira Schmid"
+    },
+    "777": {
+      "at": "2026-10-27T17:48:13Z",
+      "book": null,
+      "event_id": "fc98fb73985d5caecdfffd4cb0f4d3ed",
+      "goalie": "Jesper Wallstedt"
     }
   },
   "shot_stats": {
