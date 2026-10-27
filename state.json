@@ -158,12 +158,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18056,
+  "credits_remaining": 18055,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T23:07:11Z",
+      "last_paid_check": "2026-10-27T23:22:16Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -601,46 +601,6 @@
         }
       },
       "matchup": "Minnesota Wild @ Vancouver Canucks"
-    },
-    "cd9f65faa44f221a72638e49afb134fb": {
-      "commence_time": "2026-10-25T23:22:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-25T21:24:10Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Fowler": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382337610%232335721023_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382337610%232335721024_15L42133Q184490156Q20"
-          },
-          "Stuart Skinner": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219077%232335834072_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219077%232335834073_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Jacob Fowler": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619672723&selectionId=92532103",
-            "point": 23.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619672723&selectionId=92532105"
-          },
-          "Stuart Skinner": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619675713&selectionId=74079397",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619675713&selectionId=74079396"
-          }
-        }
-      },
-      "matchup": "Montr\u00e9al Canadiens @ Winnipeg Jets"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba": {
       "commence_time": "2026-10-26T23:15:00Z",
