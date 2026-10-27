@@ -130,7 +130,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18283,
+  "credits_remaining": 18282,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -486,8 +486,19 @@
     },
     "f1b86cba8c192fb71581b00443f4af8a": {
       "commence_time": "2026-10-27T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T14:45:17Z",
+      "lines": {
+        "draftkings": {
+          "Dan Vladar": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286110_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "Columbus Blue Jackets @ Philadelphia Flyers"
     },
     "fa0255827e54afa3c871868fed566dd0": {
@@ -1945,7 +1956,7 @@
     ]
   },
   "gl_8478439": {
-    "fetched": "2026-10-24T15:00:25Z",
+    "fetched": "2026-10-27T14:45:17Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -1976,7 +1987,7 @@
     ]
   },
   "gl_8480015": {
-    "fetched": "2026-10-24T15:00:25Z",
+    "fetched": "2026-10-27T14:45:17Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -2030,7 +2041,7 @@
     ]
   },
   "gl_8481546": {
-    "fetched": "2026-10-24T15:00:25Z",
+    "fetched": "2026-10-27T14:45:17Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -3060,6 +3071,39 @@
         "CBJ",
         21,
         21
+      ]
+    ]
+  },
+  "h2h_CBJ-PHI": {
+    "fetched": "2026-10-27T14:45:17Z",
+    "value": [
+      [
+        "2026-03-24",
+        "CBJ",
+        "PHI",
+        19,
+        26
+      ],
+      [
+        "2026-03-14",
+        "CBJ",
+        "PHI",
+        28,
+        19
+      ],
+      [
+        "2026-01-28",
+        "PHI",
+        "CBJ",
+        27,
+        31
+      ],
+      [
+        "2025-04-15",
+        "CBJ",
+        "PHI",
+        34,
+        29
       ]
     ]
   },
@@ -8047,7 +8091,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-10-24T15:51:13Z",
+    "fetched": "2026-10-27T14:45:17Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -8169,7 +8213,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-10-24T15:00:25Z",
+    "fetched": "2026-10-27T14:45:17Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -8645,6 +8689,12 @@
       "book": "FD",
       "event_id": "5b70654c977b6cc9a110ad8c04c57cac",
       "goalie": "Tristan Jarry"
+    },
+    "749": {
+      "at": "2026-10-27T14:45:17Z",
+      "book": null,
+      "event_id": "f1b86cba8c192fb71581b00443f4af8a",
+      "goalie": "Dan Vladar"
     }
   },
   "shot_stats": {
