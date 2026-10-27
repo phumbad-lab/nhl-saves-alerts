@@ -118,12 +118,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18182,
+  "credits_remaining": 18180,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:47:12Z",
+      "last_paid_check": "2026-10-27T18:52:14Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -738,7 +738,7 @@
     "fc98fb73985d5caecdfffd4cb0f4d3ed": {
       "commence_time": "2026-10-28T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:36:12Z",
+      "last_paid_check": "2026-10-27T18:52:14Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -10405,7 +10405,7 @@
   "tg_offset": 69088132,
   "watch": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "last": "2026-10-27T18:47:12Z",
+      "last": "2026-10-27T18:52:14Z",
       "seen": {
         "DK": {
           "over": -125,
