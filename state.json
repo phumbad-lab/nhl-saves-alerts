@@ -6107,6 +6107,12 @@
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
+    "TOR:8480893": {
+      "alerted": false,
+      "out_at": "2026-10-27T02:52:11Z",
+      "seen": "2026-10-27T02:52:11Z",
+      "status": "OUT"
+    },
     "WPG:8477504": {
       "alerted": true,
       "out_at": "2026-10-15T17:24:11Z",
