@@ -53,28 +53,6 @@
       "start": "2026-10-24T23:10:00Z",
       "text": "Hart (VGK) - VGK@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381956993%232332769277_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619334361&selectionId=92390270\u0004o23.5\u0005"
     },
-    "b7e4d8193096703065db318c2813168f|Andrei Vasilevskiy": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 48,
-      "side": "OVER",
-      "start": "2026-10-24T01:10:00Z",
-      "text": "Vasilevskiy (TBL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381695976%232332547364_13L42133Q11884129982Q20\u0004o27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619103946&selectionId=74932792\u0004o27.5\u0005"
-    },
-    "b7e4d8193096703065db318c2813168f|Mackenzie Blackwood": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 23.5
-      },
-      "mid": 47,
-      "side": "UNDER",
-      "start": "2026-10-24T01:10:00Z",
-      "text": "Blackwood (COL) - TBL@COL 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381696444%232331671482_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619103224&selectionId=74101476\u0004u23.5\u0005"
-    },
     "ccf447f1bbe822d28f87352436f70c7c|Calvin Pickard": {
       "done": true,
       "lines": {
@@ -116,6 +94,15 @@
       "side": "UNDER",
       "start": "2026-10-25T19:10:00Z",
       "text": "Schmid (FLA) - FLA@CHI 3:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311318_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619576108&selectionId=82335729\u0004u20.5\u0005"
+    },
+    "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
+      "lines": {
+        "DK": 25.5
+      },
+      "mid": 76,
+      "side": "UNDER",
+      "start": "2026-10-27T23:10:00Z",
+      "text": "Vladar (PHI) - CBJ@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD not yet"
     },
     "fa693c68730d8d6347e71ff2f92ba2d8|Joey Daccord": {
       "done": true,
@@ -9811,5 +9798,5 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088130
+  "tg_offset": 69088131
 }
