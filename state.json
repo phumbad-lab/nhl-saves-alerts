@@ -117,7 +117,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18276,
+  "credits_remaining": 18275,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -288,8 +288,19 @@
     },
     "7ca25d591cbdc679a9ad85d1f04811cb": {
       "commence_time": "2026-10-28T00:08:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T15:59:12Z",
+      "lines": {
+        "draftkings": {
+          "Jeremy Swayman": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931294%232337848263_13L42133Q1833536087Q20",
+            "point": 29.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382931294%232337848264_15L42133Q11580205260Q20"
+          }
+        }
+      },
       "matchup": "Boston Bruins @ Carolina Hurricanes"
     },
     "928c19ad83dc850d60051b756f7db2cd": {
@@ -2310,6 +2321,39 @@
         "WPG",
         31,
         44
+      ]
+    ]
+  },
+  "h2h_BOS-CAR": {
+    "fetched": "2026-10-27T15:59:12Z",
+    "value": [
+      [
+        "2026-04-07",
+        "BOS",
+        "CAR",
+        21,
+        41
+      ],
+      [
+        "2025-11-17",
+        "CAR",
+        "BOS",
+        32,
+        30
+      ],
+      [
+        "2025-11-01",
+        "CAR",
+        "BOS",
+        29,
+        22
+      ],
+      [
+        "2025-04-05",
+        "CAR",
+        "BOS",
+        40,
+        27
       ]
     ]
   },
@@ -8093,7 +8137,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-10-24T15:03:10Z",
+    "fetched": "2026-10-27T15:59:12Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -8108,7 +8152,7 @@
     ]
   },
   "roster_CAR": {
-    "fetched": "2026-10-24T16:01:11Z",
+    "fetched": "2026-10-27T15:59:12Z",
     "value": [
       "Brandon Bussi",
       "Pyotr Kochetkov"
@@ -8665,6 +8709,12 @@
       "book": null,
       "event_id": "74a990b939cd35873c9bb47d6e37e057",
       "goalie": "Spencer Knight"
+    },
+    "754": {
+      "at": "2026-10-27T15:59:12Z",
+      "book": null,
+      "event_id": "7ca25d591cbdc679a9ad85d1f04811cb",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
