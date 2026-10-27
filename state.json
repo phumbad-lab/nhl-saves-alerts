@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18215,
+  "credits_remaining": 18214,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -410,7 +410,7 @@
     "928c19ad83dc850d60051b756f7db2cd": {
       "commence_time": "2026-10-28T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:34:12Z",
+      "last_paid_check": "2026-10-27T17:49:13Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
