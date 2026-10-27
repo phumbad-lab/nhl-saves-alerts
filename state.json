@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18227,
+  "credits_remaining": 18226,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -251,8 +251,19 @@
     },
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T17:30:21Z",
+      "lines": {
+        "draftkings": {
+          "Lukas Dostal": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382937238%232338667972_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382937238%232338667973_15L42133Q1888607062Q20"
+          }
+        }
+      },
       "matchup": "Vancouver Canucks @ Anaheim Ducks"
     },
     "61198113cc96cb987aad067a15911db8": {
@@ -2397,6 +2408,39 @@
         "ANA",
         25,
         33
+      ]
+    ]
+  },
+  "h2h_ANA-VAN": {
+    "fetched": "2026-10-27T17:30:21Z",
+    "value": [
+      [
+        "2026-04-12",
+        "VAN",
+        "ANA",
+        26,
+        27
+      ],
+      [
+        "2026-03-24",
+        "ANA",
+        "VAN",
+        34,
+        30
+      ],
+      [
+        "2026-01-29",
+        "ANA",
+        "VAN",
+        33,
+        26
+      ],
+      [
+        "2025-11-26",
+        "VAN",
+        "ANA",
+        28,
+        41
       ]
     ]
   },
@@ -8371,7 +8415,7 @@
     "title": "TheSaveMan"
   },
   "roster_ANA": {
-    "fetched": "2026-10-24T15:00:25Z",
+    "fetched": "2026-10-27T17:30:21Z",
     "value": [
       "Lukas Dostal",
       "Ville Husso"
@@ -8578,7 +8622,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-10-25T17:22:11Z",
+    "fetched": "2026-10-27T17:30:21Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -8974,6 +9018,12 @@
       "book": "FD",
       "event_id": "74a990b939cd35873c9bb47d6e37e057",
       "goalie": "Spencer Knight"
+    },
+    "770": {
+      "at": "2026-10-27T17:30:21Z",
+      "book": null,
+      "event_id": "5f16cb74336431221c132f05c0e31d04",
+      "goalie": "Lukas Dostal"
     }
   },
   "shot_stats": {
