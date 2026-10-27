@@ -1829,6 +1829,11 @@ def process_replies(state, now):
             state.pop("channel_paused", None)
             tg_reply(msg, "📣 Channel back on. Bets you log before puck drop will post again.")
             continue
+        if words and words[0].strip(".!:?") in ("watch", "unwatch", "watching"):
+            rows = rows if rows is not None else load_picks()
+            target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
+            watch_command(msg, words, rows, state, target, now)
+            continue
         if words and words[0].strip(".!:?") in SUMMARY_WORDS:
             rows = rows if rows is not None else load_picks()
             tg_reply(msg, plays_summary(rows, state, now, yesterday="yesterday" in words[1:]))
@@ -2167,6 +2172,113 @@ def ascii_name(name):
     return unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode()
 
 
+# ---------- line-move watch (owner Oct 27: "DeSmith 25u looks like it's bleeding up") ----------
+WATCH_MINUTES = 5        # how often a watched goalie's game is checked (1 credit per check)
+WATCH_PRICE_MOVE = 0.03  # also ping when the price on your side moves this much (implied %), e.g. -115 -> -130
+
+
+def implied(price):
+    return None if price is None else (-price / (-price + 100) if price < 0 else 100 / (price + 100))
+
+
+def watch_command(msg, words, rows, state, target, now):
+    """'watch desmith 25u' / swipe-reply 'watch' on an alert: ping when his line or the price on
+    your side moves before puck drop. 'unwatch desmith', 'watching' lists them."""
+    w = state.setdefault("watch", {})
+    cmd = words[0].strip(".!:?")
+    if cmd == "watching":
+        live = [k.split("|", 1)[1] for k, v in w.items() if parse_iso(v["start"]) > now]
+        tg_reply(msg, "👀 Watching: " + ", ".join(last_name(g) for g in live) if live else "Not watching any lines.")
+        return
+    rest = [x for x in words[1:]]
+    bet = parse_bet(rest)
+    found = ((target["event_id"], target["goalie"]) if target else
+             (find_by_name(rows, bet["name"], now) if bet["name"] else None))
+    if not found:
+        tg_reply(msg, "Which goalie? Like: watch desmith 25u (or swipe-reply watch on his alert)")
+        return
+    event_id, goalie = found
+    key = f"{event_id}|{goalie}"
+    if cmd == "unwatch":
+        w.pop(key, None)
+        tg_reply(msg, f"👀 Stopped watching {last_name(goalie)}.")
+        return
+    rec = state["events"].get(event_id)
+    if not rec or parse_iso(rec["commence_time"]) <= now:
+        tg_reply(msg, f"{last_name(goalie)}'s game has started or isn't in the feed.")
+        return
+    mine = [r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie]
+    side = bet["side"] or next((r["taken"] for r in sorted(mine, key=lambda r: r.get("taken_at") or "~")
+                                 if r.get("taken")), None) \
+        or next((BET_SIDE.get(r["tag"]) for r in mine if BET_SIDE.get(r["tag"])), None)
+    seen = {}
+    parts = []
+    for full, short in BOOK_SHORT.items():
+        ln = rec.get("lines", {}).get(full, {}).get(goalie)
+        if ln and ln.get("point") is not None:
+            seen[short] = {"point": ln["point"], "over": ln.get("over"), "under": ln.get("under")}
+            price = ln.get(side.lower()) if side else None
+            parts.append(f"{short} {(side[0].lower() if side else '')}{ln['point']}"
+                         + (f" ({fmt_odds(price)})" if price is not None else ""))
+        else:
+            parts.append(f"{short} not yet")
+    w[key] = {"side": side, "start": rec["commence_time"], "seen": seen, "last": None, "set": iso(now)}
+    tg_reply(msg, f"👀 Watching {last_name(goalie)} until {fmt_time(rec['commence_time'], now)}: "
+                  + " · ".join(parts) + f". I'll text you if the line or the price on your side moves "
+                  f"(checks every {WATCH_MINUTES} min).")
+
+
+def watch_check_due(state, event_id, event, now):
+    w = state.get("watch") or {}
+    keys = [k for k in w if k.startswith(f"{event_id}|")]
+    if not keys or parse_iso(event["commence_time"]) <= now:
+        return False
+    return any(w[k]["last"] is None or now - parse_iso(w[k]["last"]) >= timedelta(minutes=WATCH_MINUTES)
+               for k in keys)
+
+
+def watch_compare(state, event, rec, current, abbrevs, now):
+    """Compare a fresh odds pull with what each watched goalie showed last time; text the moves:
+    '📈 DeSmith (DAL) line moved · 8:10PM / DK u25.5 → u26.5 ✅ better for your under'."""
+    w = state.get("watch") or {}
+    for key in [k for k in w if k.startswith(f"{event['id']}|")]:
+        entry = w[key]
+        goalie, side = key.split("|", 1)[1], entry.get("side")
+        entry["last"] = iso(now)
+        notes, up = [], None
+        for full, short in BOOK_SHORT.items():
+            ln = current.get(full, {}).get(goalie)
+            if not ln or ln.get("point") is None:
+                continue
+            old = entry["seen"].get(short)
+            entry["seen"][short] = {"point": ln["point"], "over": ln.get("over"), "under": ln.get("under")}
+            if not old:
+                continue  # newly posted book: the regular "(FD added)" alert covers it
+            s = side[0].lower() if side else ""
+            url = ln.get(side.lower() + "_link") if side else None
+            if float(ln["point"]) != float(old["point"]):
+                up = float(ln["point"]) > float(old["point"])
+                good = None if not side else (up == (side == "UNDER"))
+                notes.append(f"{short} {s}{old['point']} → {link(s + str(ln['point']), url)}"
+                             + ("" if good is None else (" ✅ better for your " + side.lower() if good
+                                                         else " ❌ worse for your " + side.lower())))
+            elif side:
+                a, b = implied(old.get(side.lower())), implied(ln.get(side.lower()))
+                if a is not None and b is not None and abs(b - a) >= WATCH_PRICE_MOVE:
+                    notes.append(f"{short} {link(s + str(ln['point']), url)} price {fmt_odds(old.get(side.lower()))}"
+                                 f" → {fmt_odds(ln.get(side.lower()))}"
+                                 + (" (line may move soon)" if b > a else " (moving away from your side)"))
+        if notes:
+            team = next((r.get("team") for r in load_picks() if r["event_id"] == event["id"]
+                         and r["goalie"] == goalie and r.get("team")), "")
+            name = f"{last_name(goalie)} ({team})" if team else last_name(goalie)
+            icon = "📈" if up else "📉" if up is False else "💲"
+            head = "line moved" if up is not None else "price moving"
+            send_push("", f"{icon} {name} {head} · {fmt_time(event['commence_time'], now)}\n" + "\n".join(notes))
+            print(f"WATCH {name}: {' | '.join(notes)}")
+    state["watch"] = {k: v for k, v in w.items() if parse_iso(v["start"]) > now - timedelta(hours=6)}
+
+
 def handle_manual_lines(requests, events, state, stats, abbrevs, injuries, now):
     """'line Talbot 24.5 DK': a line you can see at the book but the odds feed hasn't sent.
     The bot treats it like a posted line: full alert, tag, pick log, grading, `in` replies."""
@@ -2372,7 +2484,8 @@ def main():
         })
         rec["commence_time"] = event["commence_time"]
 
-        if is_complete(rec):
+        watch_due = watch_check_due(state, eid, event, now)
+        if is_complete(rec) and not watch_due:
             continue
 
         if credits is not None and credits < MIN_CREDITS:
@@ -2385,7 +2498,7 @@ def main():
             break
 
         has_lines = any(rec["lines"].values())
-        if has_lines:
+        if has_lines and not watch_due:
             # Rechecking a partly-posted game costs a credit, so pace it.
             starts_in = parse_iso(event["commence_time"]) - now
             last = rec.get("last_paid_check")
@@ -2427,6 +2540,8 @@ def main():
             continue  # nothing posted (free)
 
         rec["last_paid_check"] = iso(now)
+        if watch_due:
+            watch_compare(state, event, rec, current, abbrevs, now)  # before rec lines are updated
         known_before = {p for players in rec["lines"].values() for p in players}
         new_pairs = {(book, player)
                      for book, players in current.items()
