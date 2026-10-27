@@ -117,12 +117,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18264,
+  "credits_remaining": 18263,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:17:13Z",
+      "last_paid_check": "2026-10-27T16:23:12Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -9979,7 +9979,7 @@
   "tg_offset": 69088132,
   "watch": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "last": "2026-10-27T16:17:13Z",
+      "last": "2026-10-27T16:23:12Z",
       "seen": {
         "DK": {
           "over": -130,
