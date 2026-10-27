@@ -117,7 +117,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18275,
+  "credits_remaining": 18273,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -305,8 +305,19 @@
     },
     "928c19ad83dc850d60051b756f7db2cd": {
       "commence_time": "2026-10-28T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T16:00:24Z",
+      "lines": {
+        "draftkings": {
+          "Jordan Binnington": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383212998%232338517638_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383212998%232338517639_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Montr\u00e9al Canadiens @ St Louis Blues"
     },
     "9c1309e10d95a3f6eb6b6b9105c565eb": {
@@ -512,8 +523,19 @@
     },
     "fa0255827e54afa3c871868fed566dd0": {
       "commence_time": "2026-10-28T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-27T16:00:24Z",
+      "lines": {
+        "draftkings": {
+          "Juuse Saros": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338517920_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338517921_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "New York Islanders @ Nashville Predators"
     },
     "fc98fb73985d5caecdfffd4cb0f4d3ed": {
@@ -2010,7 +2032,7 @@
     ]
   },
   "gl_8480018": {
-    "fetched": "2026-10-25T19:32:11Z",
+    "fetched": "2026-10-27T16:00:24Z",
     "value": [
       "2026-09-29",
       "2026-10-03",
@@ -4964,6 +4986,39 @@
       ]
     ]
   },
+  "h2h_MTL-STL": {
+    "fetched": "2026-10-27T16:00:24Z",
+    "value": [
+      [
+        "2026-01-03",
+        "MTL",
+        "STL",
+        26,
+        19
+      ],
+      [
+        "2025-12-07",
+        "STL",
+        "MTL",
+        18,
+        26
+      ],
+      [
+        "2025-03-25",
+        "MTL",
+        "STL",
+        25,
+        37
+      ],
+      [
+        "2024-10-26",
+        "STL",
+        "MTL",
+        31,
+        26
+      ]
+    ]
+  },
   "h2h_MTL-WPG": {
     "fetched": "2026-10-25T19:32:11Z",
     "value": [
@@ -5159,6 +5214,39 @@
         "WSH",
         31,
         31
+      ]
+    ]
+  },
+  "h2h_NSH-NYI": {
+    "fetched": "2026-10-27T16:00:24Z",
+    "value": [
+      [
+        "2026-01-31",
+        "NSH",
+        "NYI",
+        42,
+        30
+      ],
+      [
+        "2026-01-08",
+        "NYI",
+        "NSH",
+        31,
+        27
+      ],
+      [
+        "2025-04-08",
+        "NYI",
+        "NSH",
+        22,
+        32
+      ],
+      [
+        "2025-03-01",
+        "NSH",
+        "NYI",
+        29,
+        35
       ]
     ]
   },
@@ -8234,7 +8322,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-10-25T19:32:11Z",
+    "fetched": "2026-10-27T16:00:24Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -8250,14 +8338,14 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-10-25T17:13:11Z",
+    "fetched": "2026-10-27T16:00:24Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
     ]
   },
   "roster_NYI": {
-    "fetched": "2026-10-25T15:22:10Z",
+    "fetched": "2026-10-27T16:00:24Z",
     "value": [
       "Ilya Sorokin",
       "Semyon Varlamov"
@@ -8309,7 +8397,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-10-24T16:01:11Z",
+    "fetched": "2026-10-27T16:00:24Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -8715,6 +8803,18 @@
       "book": null,
       "event_id": "7ca25d591cbdc679a9ad85d1f04811cb",
       "goalie": "Jeremy Swayman"
+    },
+    "755": {
+      "at": "2026-10-27T16:00:24Z",
+      "book": null,
+      "event_id": "928c19ad83dc850d60051b756f7db2cd",
+      "goalie": "Jordan Binnington"
+    },
+    "756": {
+      "at": "2026-10-27T16:00:24Z",
+      "book": null,
+      "event_id": "fa0255827e54afa3c871868fed566dd0",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
