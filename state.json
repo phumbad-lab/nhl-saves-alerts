@@ -22,6 +22,16 @@
       "start": "2026-10-27T00:40:00Z",
       "text": "Bobrovsky (TOR) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382658644%232336849634_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619925188&selectionId=74802629\u0004o25.5\u0005"
     },
+    "5f16cb74336431221c132f05c0e31d04|Lukas Dostal": {
+      "lines": {
+        "DK": 21.5,
+        "FD": 21.5
+      },
+      "mid": 79,
+      "side": "UNDER",
+      "start": "2026-10-28T02:10:00Z",
+      "text": "Dostal (ANA) - VAN@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382937238%232338667973_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979814\u0004u21.5\u0005"
+    },
     "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg": {
       "lines": {
         "DK": 22.5,
@@ -51,6 +61,16 @@
       "side": "UNDER",
       "start": "2026-10-24T23:10:00Z",
       "text": "Kochetkov (CAR) - CAR@STL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381961552%232333429373_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD not yet"
+    },
+    "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov": {
+      "lines": {
+        "DK": 19.5,
+        "FD": 19.5
+      },
+      "mid": 80,
+      "side": "UNDER",
+      "start": "2026-10-28T00:08:00Z",
+      "text": "Kochetkov (CAR) - BOS@CAR 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196729_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620212711&selectionId=75074343\u0004u19.5\u0005"
     },
     "89da13e86e9e40fd4132bb577ca9a665|Carter Hart": {
       "done": true,
@@ -10496,7 +10516,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088133,
+  "tg_offset": 69088135,
   "watch": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
       "last": "2026-10-27T20:38:12Z",

@@ -17,3 +17,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-24T16:20:17Z,2026-10-24,Joel Hofer,STL,Hurricanes @ Blues,FADE,26.5,25.4,car shoots a lot on stl h2h.  Car has been shooting on the road except for EDM,7973c2a6112dfdfc1e38edb3fa149416
 2026-10-26T16:26:11Z,2026-10-26,James Reimer,NYR,Kings @ Rangers,FADE,25.5,23.3,home and Kings shooting less.,daa5166685c4ca1a4f033d8bff91a6ba
 2026-10-27T15:05:18Z,2026-10-27,Dan Vladar,PHI,Jackets @ Flyers,FADE,25.5,24.5,CBJ doesn’t shoot on the road and last five phi is allowing mid 20s plus D back,f1b86cba8c192fb71581b00443f4af8a
+2026-10-27T20:40:17Z,2026-10-27,Pyotr Kochetkov,CAR,Bruins @ Hurricanes,FADE,19.5,22.0,line moved,7ca25d591cbdc679a9ad85d1f04811cb
