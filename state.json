@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18203,
+  "credits_remaining": 18201,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -362,9 +362,16 @@
     "74a990b939cd35873c9bb47d6e37e057": {
       "commence_time": "2026-10-28T00:11:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:56:13Z",
+      "last_paid_check": "2026-10-27T18:12:12Z",
       "lines": {
         "draftkings": {
+          "Anton Forsberg": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932444%232337867586_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932444%232337867587_15L42133Q1874096526Q20"
+          },
           "Spencer Knight": {
             "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338608099_13L42133Q1-1695742073Q20",
@@ -652,15 +659,15 @@
     "f1b86cba8c192fb71581b00443f4af8a": {
       "commence_time": "2026-10-27T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:56:13Z",
+      "last_paid_check": "2026-10-27T18:12:12Z",
       "lines": {
         "draftkings": {
           "Dan Vladar": {
-            "over": 100,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286110_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -135,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20"
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337737343_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337737344_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -8816,12 +8823,6 @@
     ]
   },
   "sent": {
-    "672": {
-      "at": "2026-10-24T18:12:11Z",
-      "book": null,
-      "event_id": "40bdb8bb226b82f2cfb6d4518d6fdfbd",
-      "goalie": "John Gibson"
-    },
     "674": {
       "at": "2026-10-24T18:55:14Z",
       "book": null,
@@ -9235,6 +9236,12 @@
       "book": "FD",
       "event_id": "928c19ad83dc850d60051b756f7db2cd",
       "goalie": "Jacob Fowler"
+    },
+    "782": {
+      "at": "2026-10-27T18:12:12Z",
+      "book": "DK",
+      "event_id": "74a990b939cd35873c9bb47d6e37e057",
+      "goalie": "Anton Forsberg"
     }
   },
   "shot_stats": {
