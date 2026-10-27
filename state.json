@@ -118,12 +118,12 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18246,
+  "credits_remaining": 18243,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:50:17Z",
+      "last_paid_check": "2026-10-27T16:56:11Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
@@ -133,6 +133,15 @@
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525289_15L42133Q1731448625Q20"
           }
+        },
+        "fanduel": {
+          "Casey DeSmith": {
+            "over": -128,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620218696&selectionId=69574675",
+            "point": 23.5,
+            "under": -104,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620218696&selectionId=69574674"
+          }
         }
       },
       "matchup": "New Jersey Devils @ Dallas Stars"
@@ -140,7 +149,7 @@
     "17aa3256e18d8946db708952a66e29ee": {
       "commence_time": "2026-10-28T00:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:40:17Z",
+      "last_paid_check": "2026-10-27T16:56:11Z",
       "lines": {
         "draftkings": {
           "Clay Stevenson": {
@@ -295,15 +304,31 @@
     "74a990b939cd35873c9bb47d6e37e057": {
       "commence_time": "2026-10-28T00:11:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T16:40:17Z",
+      "last_paid_check": "2026-10-27T16:56:11Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
             "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338440517_13L42133Q1-389637312Q20",
-            "point": 25.5,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338608099_13L42133Q1-1695742073Q20",
+            "point": 24.5,
             "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338440518_15L42133Q1458571637Q20"
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338608100_15L42133Q1731448625Q20"
+          }
+        },
+        "fanduel": {
+          "Anton Forsberg": {
+            "over": -136,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214652&selectionId=75038726",
+            "point": 21.5,
+            "under": 102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214652&selectionId=75038727"
+          },
+          "Spencer Knight": {
+            "over": -120,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214765&selectionId=74973970",
+            "point": 24.5,
+            "under": -110,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214765&selectionId=74973969"
           }
         }
       },
@@ -8931,6 +8956,24 @@
       "book": null,
       "event_id": "fa0255827e54afa3c871868fed566dd0",
       "goalie": "Semyon Varlamov"
+    },
+    "766": {
+      "at": "2026-10-27T16:56:11Z",
+      "book": "FD",
+      "event_id": "11d4cfe51153e45bb3a9fc6e5f23535a",
+      "goalie": "Casey DeSmith"
+    },
+    "767": {
+      "at": "2026-10-27T16:56:11Z",
+      "book": null,
+      "event_id": "74a990b939cd35873c9bb47d6e37e057",
+      "goalie": "Anton Forsberg"
+    },
+    "768": {
+      "at": "2026-10-27T16:56:11Z",
+      "book": "FD",
+      "event_id": "74a990b939cd35873c9bb47d6e37e057",
+      "goalie": "Spencer Knight"
     }
   },
   "shot_stats": {
@@ -10075,12 +10118,17 @@
   "tg_offset": 69088132,
   "watch": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "last": "2026-10-27T16:50:17Z",
+      "last": "2026-10-27T16:56:11Z",
       "seen": {
         "DK": {
           "over": -130,
           "point": 24.5,
           "under": -105
+        },
+        "FD": {
+          "over": -128,
+          "point": 23.5,
+          "under": -104
         }
       },
       "set": "2026-10-27T16:12:13Z",
