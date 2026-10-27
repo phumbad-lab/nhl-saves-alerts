@@ -118,7 +118,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18220,
+  "credits_remaining": 18218,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -149,15 +149,31 @@
     "17aa3256e18d8946db708952a66e29ee": {
       "commence_time": "2026-10-28T00:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:26:12Z",
+      "last_paid_check": "2026-10-27T17:41:12Z",
       "lines": {
         "draftkings": {
+          "Akira Schmid": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382935447%232337762750_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382935447%232337762751_15L42133Q184490156Q20"
+          },
           "Clay Stevenson": {
             "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383202851%232338500773_13L42133Q1-54034395Q20",
             "point": 26.5,
             "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383202851%232338500774_15L42133Q11150106798Q20"
+          }
+        },
+        "fanduel": {
+          "Akira Schmid": {
+            "over": -104,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620232847&selectionId=82335730",
+            "point": 24.5,
+            "under": -128,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620232847&selectionId=82335729"
           }
         }
       },
@@ -321,14 +337,14 @@
     "74a990b939cd35873c9bb47d6e37e057": {
       "commence_time": "2026-10-28T00:11:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:26:12Z",
+      "last_paid_check": "2026-10-27T17:41:12Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
-            "over": -105,
+            "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338440517_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -130,
+            "under": -135,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382932088%232338440518_15L42133Q1458571637Q20"
           }
         },
@@ -9115,6 +9131,12 @@
       "book": "FD",
       "event_id": "fa0255827e54afa3c871868fed566dd0",
       "goalie": "Semyon Varlamov"
+    },
+    "776": {
+      "at": "2026-10-27T17:41:12Z",
+      "book": null,
+      "event_id": "17aa3256e18d8946db708952a66e29ee",
+      "goalie": "Akira Schmid"
     }
   },
   "shot_stats": {
