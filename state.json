@@ -143,7 +143,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17979,
+  "credits_remaining": 17978,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -186,7 +186,7 @@
     "1358a7c35b103e3242da6a96468d61f9": {
       "commence_time": "2026-10-29T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T18:40:19Z",
+      "last_paid_check": "2026-10-28T18:56:13Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -195,6 +195,13 @@
             "point": 27.5,
             "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20"
+          },
+          "Tristan Jarry": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383348478%232340380870_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383348478%232340380871_15L42133Q1874096526Q20"
           }
         }
       },
@@ -9391,6 +9398,12 @@
       "book": null,
       "event_id": "46dec80debcc79de4c248a0edd4f8d74",
       "goalie": "Joseph Woll"
+    },
+    "817": {
+      "at": "2026-10-28T18:56:13Z",
+      "book": null,
+      "event_id": "1358a7c35b103e3242da6a96468d61f9",
+      "goalie": "Tristan Jarry"
     }
   },
   "shot_stats": {
