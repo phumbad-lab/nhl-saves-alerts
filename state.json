@@ -384,46 +384,6 @@
       },
       "matchup": "Vancouver Canucks @ Anaheim Ducks"
     },
-    "61198113cc96cb987aad067a15911db8": {
-      "commence_time": "2026-10-26T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-25T17:44:10Z",
-      "lines": {
-        "draftkings": {
-          "Justus Annunen": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219401%232334985366_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382219401%232334985367_15L42133Q1-245490255Q20"
-          },
-          "Scott Wedgewood": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382605810%232335726131_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382605810%232335726134_15L42133Q1888607062Q20"
-          }
-        },
-        "fanduel": {
-          "Justus Annunen": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619633212&selectionId=75313419",
-            "point": 28.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619633212&selectionId=75313420"
-          },
-          "Scott Wedgewood": {
-            "over": 102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880670",
-            "point": 21.5,
-            "under": -136,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.619630223&selectionId=74880668"
-          }
-        }
-      },
-      "matchup": "Colorado Avalanche @ Nashville Predators"
-    },
     "66690f3994b21af39301701a52df1d66": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
