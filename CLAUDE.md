@@ -7,7 +7,7 @@ what's been decided and why, and what's still pending. Keep it current when thin
 - Bets NHL goalie **saves** props on DraftKings (DK) and FanDuel (FD) for fun. ~58% last year, likes 2-leg parlays. Tracks real bets in Pikkit.
 - A separate "shots partner" project (shots on goal) lives in its own repo/thread. It **shares this Telegram bot and the Odds API key**. It only sends messages; only this repo reads replies (`getUpdates`). If the shots app ever starts reading replies, the two will steal each other's messages, so give it its own bot first.
 - **Don't build rules on hunches.** "I don't want to build inaccurate rules." Model changes get tested against graded results first (shadow numbers, retro tests), then he approves. Never change model math without his OK.
-- Cost: was strictly free; on **Oct 10 2026 he moved to the Odds API $30/month plan (20,000 credits)** for a month of tuning. See "If he goes back to free" below.
+- Cost: was strictly free; on **Oct 10 2026 he moved to the Odds API $30/month plan (20,000 credits)** for a month of tuning. **Oct 28: he's renewing it (~Nov 10)**: "I'm burning through credits with testing, updates, etc. It's worth the $." No renewal reminder needed. See "If he goes back to free" below if that ever changes.
 - Alert style he chose: last names, team abbreviations, ALL-CAPS tags, no odds in alerts (lines move too much; the 🔥 tells him when to act fast), short lines that are easy to search by last name.
 - Explain things plainly, no jargon. He reads alerts on his iPhone (Telegram). Since Oct 12 messages are sent non-silent (`TELEGRAM_SILENT` default false) because he disliked the crossed-out bell iOS shows on silent messages; he turned the chat's sound off in Telegram instead.
 
@@ -68,7 +68,7 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - **Last-30-minute watch (owner Oct 24, waiting on Carolina's goalie):** games where either team is top/bottom `PRIORITY_RANK` (3) in raw shots-for or shots-against get a check **every run (every minute)** in the last `PRIORITY_WINDOW` (30) minutes before puck drop while a goalie is missing (`priority_game()`; ~1 credit each, up to ~30 per game; respects RECHECK_RESERVE).
 - Final checks at `FINAL_CHECKS = (45, 20)` minutes before puck drop for any incomplete game.
 - Rechecks pause at `RECHECK_RESERVE`; everything pauses below `MIN_CREDITS` (20).
-- **If he goes back to the free 500-credit plan:** set `NOLEAN_RECHECK_MINUTES = 180` in the script, and variables `RECHECK_MINUTES=60`, `RECHECK_RESERVE=150`. Remind him before the plan renews (~Nov 10).
+- **If he goes back to the free 500-credit plan:** set `NOLEAN_RECHECK_MINUTES = 180` in the script, and variables `RECHECK_MINUTES=60`, `RECHECK_RESERVE=150`. (Oct 28: he chose to keep the paid plan; no reminder needed.)
 
 ## Logging his bets (Telegram)
 - Swipe-reply `in` on an alert (options: `DK`/`FD`, `o`/`u`, a line, `out`), or type `I took Jarry 23u, Fowler 22o, Ellis 23 and 25o` (also `in …` / `took …`). Whole numbers mean the .5 line. Line picks the book. Bot 👍s swipe replies, replies with "Logged: …" for typed ones.
