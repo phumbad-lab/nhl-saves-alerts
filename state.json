@@ -159,7 +159,7 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18006,
+  "credits_remaining": 18004,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
@@ -362,9 +362,16 @@
     "5f16cb74336431221c132f05c0e31d04": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T01:25:14Z",
+      "last_paid_check": "2026-10-28T01:40:16Z",
       "lines": {
         "draftkings": {
+          "Leevi Merilainen": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382937449%232337744121_13L42133Q1827957987Q20",
+            "point": 28.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382937449%232337744122_15L42133Q1-245490255Q20"
+          },
           "Lukas Dostal": {
             "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382937238%232338667972_13L42133Q1-659212771Q20",
@@ -374,11 +381,18 @@
           }
         },
         "fanduel": {
+          "Leevi Merilainen": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620358625&selectionId=78174825",
+            "point": 27.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620358625&selectionId=78174826"
+          },
           "Lukas Dostal": {
-            "over": -102,
+            "over": -104,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979813",
             "point": 21.5,
-            "under": -130,
+            "under": -128,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979814"
           }
         }
@@ -388,7 +402,7 @@
     "66690f3994b21af39301701a52df1d66": {
       "commence_time": "2026-10-28T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T01:25:14Z",
+      "last_paid_check": "2026-10-28T01:40:16Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -9228,6 +9242,12 @@
       "book": "FD",
       "event_id": "5f16cb74336431221c132f05c0e31d04",
       "goalie": "Lukas Dostal"
+    },
+    "802": {
+      "at": "2026-10-28T01:40:16Z",
+      "book": null,
+      "event_id": "5f16cb74336431221c132f05c0e31d04",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
