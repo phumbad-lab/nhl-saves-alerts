@@ -145,6 +145,12 @@
   "corrections_checked": "2026-10-28",
   "credits_remaining": 17987,
   "events": {
+    "0320215ff7055c9c04ecefa36a8c36cb": {
+      "commence_time": "2026-10-30T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Boston Bruins @ St Louis Blues"
+    },
     "05a8ed51399342594c33ae0faa0f9027": {
       "commence_time": "2026-10-29T23:10:00Z",
       "last_paid_check": null,
@@ -314,6 +320,12 @@
       },
       "matchup": "Buffalo Sabres @ San Jose Sharks"
     },
+    "2f65119127127c0185cf3bdc236a00f2": {
+      "commence_time": "2026-10-30T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Montr\u00e9al Canadiens @ Dallas Stars"
+    },
     "35f166bc5dbb833315fe376ae27e63a3": {
       "commence_time": "2026-10-29T23:40:00Z",
       "last_paid_check": null,
@@ -336,6 +348,12 @@
         }
       },
       "matchup": "Philadelphia Flyers @ Washington Capitals"
+    },
+    "5020318cfd7098bd38fae6c907029f0f": {
+      "commence_time": "2026-10-30T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "New York Islanders @ Minnesota Wild"
     },
     "5b70654c977b6cc9a110ad8c04c57cac": {
       "commence_time": "2026-10-27T01:40:00Z",
@@ -522,6 +540,12 @@
         }
       },
       "matchup": "Boston Bruins @ Carolina Hurricanes"
+    },
+    "923b47df7869b8b2c5d758b7f21d4b4a": {
+      "commence_time": "2026-10-30T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Washington Capitals @ Nashville Predators"
     },
     "928c19ad83dc850d60051b756f7db2cd": {
       "commence_time": "2026-10-28T00:10:00Z",
