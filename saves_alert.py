@@ -1642,6 +1642,11 @@ def my_record(rows):
 
 
 
+# Owner Oct 28: "I'm taking 27u" / "Taking the 27u under" were ignored. Accepted openers:
+# in, took, taking, take, each optionally after I / I'm / Im / I am (straight or curly apostrophe).
+BET_START = r"(?:i\s+am\s+|i['\u2019]?m\s+|i\s+)?(?:in|took|taking|take)\b"
+
+
 BET_TOKEN = re.compile(r"^(?:([ou])(\d+(?:\.\d+)?)|(\d+(?:\.\d+)?)([ou])?)$")
 
 
@@ -1669,7 +1674,8 @@ def parse_bet(words):
                 bet["side"] = "OVER" if side == "o" else "UNDER"
             line = float(num)
             bet["line"] = line + 0.5 if line == int(line) else line
-        elif w not in ("and", "the", "at", "on", "for", "i", "took", "in"):
+        elif w not in ("and", "the", "at", "on", "for", "i", "took", "in", "taking", "take",
+                       "i'm", "i\u2019m", "im", "am"):
             bet["name"] = w
     return bet
 
@@ -1679,7 +1685,7 @@ def parse_message(text):
     Understands 'in ...', 'took ...', 'I took ...', 'out ...', with bets separated by commas,
     new lines or 'and': 'I took Jarry 23u, Fowler 22o, Ellis 23 and 25o'."""
     t = text.lower().strip()
-    m = re.match(r"^(?:i\s+)?(in|took|out)\b[\s.!:,-]*(.*)$", t, re.S)
+    m = re.match(r"^(?:i\s+am\s+|i['\u2019]?m\s+|i\s+)?(in|took|taking|take|out)\b[\s.!:,-]*(.*)$", t, re.S)
     if not m:
         return None, []
     cmd = "out" if m.group(1) == "out" else "in"
@@ -1696,7 +1702,7 @@ def parse_message(text):
     return cmd, bets
 
 
-BET_WORDS = {"i", "in", "took", "for", "at", "on", "the", "dk", "fd", "draftkings", "fanduel",
+BET_WORDS = {"i", "in", "took", "taking", "take", "i'm", "i\u2019m", "im", "am", "for", "at", "on", "the", "dk", "fd", "draftkings", "fanduel",
              "o", "u", "over", "under"}
 
 
@@ -1705,7 +1711,7 @@ def split_bet_note(text, is_reply):
     Swipe reply ('in for 26o. h2h history looks good'): the bet ends at the first word that
     isn't part of a bet; the rest is a note. Typed bets ('I took Wally 26o. VGK weak at home'):
     the first sentence is the bet, the rest a note. Returns (bet_text, note or None)."""
-    if not re.match(r"^\s*(?:i\s+)?(?:in|took)\b", text, re.I):
+    if not re.match(r"^\s*" + BET_START, text, re.I):
         return text, None
     if is_reply:
         for m in re.finditer(r"\S+", text):
@@ -1846,7 +1852,7 @@ def process_replies(state, now):
             continue
         text = msg.get("text") or ""
         # "In for 24o. Note COL shoots a lot" -> the bet, plus a note on the same goalie
-        both = re.match(r"^(\s*(?:i\s+)?(?:in|took)\b.*?)[\s.;,!-]+notes?\b[:\s]*(.+)$", text, re.I | re.S)
+        both = re.match(r"^(\s*" + BET_START + r".*?)[\s.;,!-]+notes?\b[:\s]*(.+)$", text, re.I | re.S)
         note_text = None
         if both:
             text, note_text = both.group(1), both.group(2).strip()
@@ -1854,6 +1860,10 @@ def process_replies(state, now):
             text, note_text = split_bet_note(text, bool((msg.get("reply_to_message") or {}).get("message_id")))
         cmd, bets = parse_message(text)
         if not cmd:
+            # Owner Oct 28: never stay silent. A message the bot can't read gets a short hint.
+            if (msg.get("text") or "").strip():
+                tg_reply(msg, "🤔 Didn't catch that, nothing logged. Start with in / took / taking, "
+                              "e.g. in 27u (swipe-reply) or took Woll 27u. Notes: note Woll ...")
             continue
         rows = rows if rows is not None else load_picks()
         target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
