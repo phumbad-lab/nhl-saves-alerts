@@ -18,3 +18,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-26T16:26:11Z,2026-10-26,James Reimer,NYR,Kings @ Rangers,FADE,25.5,23.3,home and Kings shooting less.,daa5166685c4ca1a4f033d8bff91a6ba
 2026-10-27T15:05:18Z,2026-10-27,Dan Vladar,PHI,Jackets @ Flyers,FADE,25.5,24.5,CBJ doesn’t shoot on the road and last five phi is allowing mid 20s plus D back,f1b86cba8c192fb71581b00443f4af8a
 2026-10-27T20:40:17Z,2026-10-27,Pyotr Kochetkov,CAR,Bruins @ Hurricanes,FADE,19.5,22.0,line moved,7ca25d591cbdc679a9ad85d1f04811cb
+2026-10-28T19:57:12Z,2026-10-28,Devin Cooley,CGY,Flames @ Oilers,LEAN_OVER,27.5,26.8,Philly has been tighter.  Plus goals I think it’s an under play,1358a7c35b103e3242da6a96468d61f9

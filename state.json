@@ -11,6 +11,15 @@
       "start": "2026-10-28T00:08:00Z",
       "text": "DeSmith (DAL) - NJD@DAL 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525289_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620218696&selectionId=69574674\u0004u23.5\u0005"
     },
+    "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
+      "lines": {
+        "DK": 27.5
+      },
+      "mid": 92,
+      "side": "UNDER",
+      "start": "2026-10-29T00:40:00Z",
+      "text": "Cooley (CGY) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD not yet"
+    },
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
       "done": true,
       "lines": {
@@ -130,7 +139,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17965,
+  "credits_remaining": 17964,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -173,7 +182,7 @@
     "1358a7c35b103e3242da6a96468d61f9": {
       "commence_time": "2026-10-29T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T19:42:12Z",
+      "last_paid_check": "2026-10-28T19:57:12Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -10589,6 +10598,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088141,
+  "tg_offset": 69088143,
   "watch": {}
 }
