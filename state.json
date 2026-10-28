@@ -130,7 +130,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17966,
+  "credits_remaining": 17965,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -678,7 +678,7 @@
     "f7510932dec00855b611e3685080819c": {
       "commence_time": "2026-10-29T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T19:38:13Z",
+      "last_paid_check": "2026-10-28T19:53:39Z",
       "lines": {
         "draftkings": {
           "Philipp Grubauer": {
@@ -689,11 +689,11 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340291511_15L42133Q1458571637Q20"
           },
           "Sergei Bobrovsky": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232340428744_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232340428745_15L42133Q1731448625Q20"
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232339528374_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232339528375_15L42133Q1458571637Q20"
           }
         }
       },
