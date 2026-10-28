@@ -161,7 +161,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17931,
+  "credits_remaining": 17930,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -376,7 +376,7 @@
     "46dec80debcc79de4c248a0edd4f8d74": {
       "commence_time": "2026-10-28T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T22:37:11Z",
+      "last_paid_check": "2026-10-28T22:52:12Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
@@ -389,10 +389,10 @@
         },
         "fanduel": {
           "Joseph Woll": {
-            "over": -108,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620686470&selectionId=75454783",
-            "point": 27.5,
-            "under": -122,
+            "point": 26.5,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620686470&selectionId=75454784"
           }
         }
