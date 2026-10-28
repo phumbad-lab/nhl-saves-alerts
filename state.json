@@ -65,6 +65,7 @@
       "text": "Forsberg (LAK) - LAK@CHI 8:11PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382932444%232337867587_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214652&selectionId=75038727\u0004u22.5\u0005"
     },
     "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov": {
+      "done": true,
       "lines": {
         "DK": 19.5,
         "FD": 19.5
@@ -8552,7 +8553,8 @@
     "2026-10-27": [
       "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar",
       "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith",
-      "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg"
+      "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg",
+      "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov"
     ]
   },
   "picks_channel": {
