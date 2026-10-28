@@ -21,6 +21,16 @@
       "start": "2026-10-29T00:40:00Z",
       "text": "Cooley (CGY) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683952&selectionId=89998348\u0004u27.5\u0005"
     },
+    "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry": {
+      "lines": {
+        "DK": 22.5,
+        "FD": 22.5
+      },
+      "mid": 96,
+      "side": "OVER",
+      "start": "2026-10-29T00:40:00Z",
+      "text": "Jarry (EDM) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348478%232340380870_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683956&selectionId=74843127\u0004o22.5\u0005"
+    },
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
       "done": true,
       "lines": {
@@ -10668,6 +10678,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088145,
+  "tg_offset": 69088146,
   "watch": {}
 }
