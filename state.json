@@ -13,12 +13,13 @@
     },
     "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
       "lines": {
-        "DK": 27.5
+        "DK": 27.5,
+        "FD": 27.5
       },
       "mid": 92,
       "side": "UNDER",
       "start": "2026-10-29T00:40:00Z",
-      "text": "Cooley (CGY) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD not yet"
+      "text": "Cooley (CGY) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683952&selectionId=89998348\u0004u27.5\u0005"
     },
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
       "done": true,
@@ -149,7 +150,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17937,
+  "credits_remaining": 17936,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -192,7 +193,7 @@
     "1358a7c35b103e3242da6a96468d61f9": {
       "commence_time": "2026-10-29T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T21:30:20Z",
+      "last_paid_check": "2026-10-28T21:46:12Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -208,6 +209,22 @@
             "point": 22.5,
             "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383348478%232340380871_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Devin Cooley": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683952&selectionId=89998349",
+            "point": 27.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683952&selectionId=89998348"
+          },
+          "Tristan Jarry": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683956&selectionId=74843127",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683956&selectionId=74843126"
           }
         }
       },
@@ -9498,6 +9515,18 @@
       "book": "FD",
       "event_id": "f7510932dec00855b611e3685080819c",
       "goalie": "Sergei Bobrovsky"
+    },
+    "832": {
+      "at": "2026-10-28T21:46:12Z",
+      "book": "FD",
+      "event_id": "1358a7c35b103e3242da6a96468d61f9",
+      "goalie": "Devin Cooley"
+    },
+    "833": {
+      "at": "2026-10-28T21:46:12Z",
+      "book": "FD",
+      "event_id": "1358a7c35b103e3242da6a96468d61f9",
+      "goalie": "Tristan Jarry"
     }
   },
   "shot_stats": {
