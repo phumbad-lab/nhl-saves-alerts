@@ -108,17 +108,6 @@
       "start": "2026-10-26T23:10:00Z",
       "text": "Reimer (NYR) - LAK@NYR 7:10PM\nDK u25.5 \u00b7 FD not yet"
     },
-    "e13d36d055361cb7f59a37b7e5dca489|Akira Schmid": {
-      "done": true,
-      "lines": {
-        "DK": 21.5,
-        "FD": 20.5
-      },
-      "mid": 62,
-      "side": "UNDER",
-      "start": "2026-10-25T19:10:00Z",
-      "text": "Schmid (FLA) - FLA@CHI 3:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311318_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619576108&selectionId=82335729\u0004u20.5\u0005"
-    },
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
       "done": true,
       "lines": {
@@ -130,16 +119,14 @@
       "start": "2026-10-27T23:10:00Z",
       "text": "Vladar (PHI) - CBJ@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620209764&selectionId=74843678\u0004u23.5\u0005"
     },
-    "fa693c68730d8d6347e71ff2f92ba2d8|Joey Daccord": {
-      "done": true,
+    "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
       "lines": {
-        "DK": 26.5,
-        "FD": 25.5
+        "DK": 25.5
       },
-      "mid": 55,
+      "mid": 91,
       "side": "OVER",
-      "start": "2026-10-25T02:10:00Z",
-      "text": "Daccord (SEA) - MIN@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381969528%232334373171_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619460822&selectionId=74979817\u0004o25.5\u0005"
+      "start": "2026-10-29T02:10:00Z",
+      "text": "Grubauer (SEA) - TOR@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340291510_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD not yet"
     }
   },
   "corrections_checked": "2026-10-28",
@@ -10602,6 +10589,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088140,
+  "tg_offset": 69088141,
   "watch": {}
 }
