@@ -6920,6 +6920,12 @@
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
+    "TBL:8479542": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-10-28T18:17:12Z",
+      "status": "DTD"
+    },
     "WPG:8477504": {
       "alerted": true,
       "out_at": "2026-10-15T17:24:11Z",
