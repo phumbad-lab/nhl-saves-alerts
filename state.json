@@ -6694,6 +6694,8 @@
     "EDM:8475786": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-10-28T16:06:11Z",
       "seen": "2026-10-27T06:39:47Z",
       "status": "DTD"
     },
