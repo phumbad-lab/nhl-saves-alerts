@@ -54,6 +54,7 @@
       "text": "Dostal (ANA) - VAN@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382937238%232338667973_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979814\u0004u21.5\u0005"
     },
     "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 22.5
@@ -8550,7 +8551,8 @@
   "night_graded": {
     "2026-10-27": [
       "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar",
-      "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith"
+      "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith",
+      "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg"
     ]
   },
   "picks_channel": {
