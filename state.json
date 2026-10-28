@@ -143,7 +143,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17975,
+  "credits_remaining": 17974,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -635,7 +635,7 @@
     "dad41ac378a6c36e1be03122f7f34470": {
       "commence_time": "2026-10-29T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T18:58:13Z",
+      "last_paid_check": "2026-10-28T19:14:12Z",
       "lines": {
         "draftkings": {
           "Jake Allen": {
