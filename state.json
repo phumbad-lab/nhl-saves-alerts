@@ -143,7 +143,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17992,
+  "credits_remaining": 17991,
   "events": {
     "05a8ed51399342594c33ae0faa0f9027": {
       "commence_time": "2026-10-29T23:10:00Z",
@@ -322,8 +322,19 @@
     },
     "46dec80debcc79de4c248a0edd4f8d74": {
       "commence_time": "2026-10-28T23:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-28T17:45:19Z",
+      "lines": {
+        "draftkings": {
+          "Joseph Woll": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383352976%232340308383_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383352976%232340308384_15L42133Q1-941301704Q20"
+          }
+        }
+      },
       "matchup": "Philadelphia Flyers @ Washington Capitals"
     },
     "5b70654c977b6cc9a110ad8c04c57cac": {
@@ -2258,7 +2269,7 @@
     ]
   },
   "gl_8478439": {
-    "fetched": "2026-10-27T14:45:17Z",
+    "fetched": "2026-10-28T17:45:19Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -2289,7 +2300,7 @@
     ]
   },
   "gl_8480015": {
-    "fetched": "2026-10-27T14:45:17Z",
+    "fetched": "2026-10-28T17:45:19Z",
     "value": [
       "2026-09-30",
       "2026-10-01",
@@ -6346,6 +6357,39 @@
       ]
     ]
   },
+  "h2h_PHI-WSH": {
+    "fetched": "2026-10-28T17:45:19Z",
+    "value": [
+      [
+        "2026-03-31",
+        "PHI",
+        "WSH",
+        24,
+        18
+      ],
+      [
+        "2026-03-11",
+        "WSH",
+        "PHI",
+        23,
+        22
+      ],
+      [
+        "2026-02-25",
+        "PHI",
+        "WSH",
+        24,
+        29
+      ],
+      [
+        "2026-02-03",
+        "WSH",
+        "PHI",
+        28,
+        22
+      ]
+    ]
+  },
   "h2h_PIT-UTA": {
     "fetched": "2026-10-19T17:54:11Z",
     "value": [
@@ -8883,7 +8927,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-10-27T14:45:17Z",
+    "fetched": "2026-10-28T17:45:19Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -8962,7 +9006,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-10-24T14:50:16Z",
+    "fetched": "2026-10-28T17:45:19Z",
     "value": [
       "Mitchell Gibson",
       "Charlie Lindgren",
@@ -9317,6 +9361,12 @@
       "book": null,
       "event_id": "dad41ac378a6c36e1be03122f7f34470",
       "goalie": "Jake Allen"
+    },
+    "814": {
+      "at": "2026-10-28T17:45:19Z",
+      "book": null,
+      "event_id": "46dec80debcc79de4c248a0edd4f8d74",
+      "goalie": "Joseph Woll"
     }
   },
   "shot_stats": {
