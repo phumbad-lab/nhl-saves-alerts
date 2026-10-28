@@ -1,6 +1,7 @@
 {
   "channel_posts": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 23.5
@@ -8548,7 +8549,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-10-27": [
-      "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar"
+      "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar",
+      "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith"
     ]
   },
   "picks_channel": {
