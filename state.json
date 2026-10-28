@@ -32,6 +32,16 @@
       "start": "2026-10-27T00:40:00Z",
       "text": "Bobrovsky (TOR) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382658644%232336849634_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619925188&selectionId=74802629\u0004o25.5\u0005"
     },
+    "5f16cb74336431221c132f05c0e31d04|Leevi Merilainen": {
+      "lines": {
+        "DK": 28.5,
+        "FD": 27.5
+      },
+      "mid": 85,
+      "side": "UNDER",
+      "start": "2026-10-28T02:10:00Z",
+      "text": "Merilainen (VAN) - VAN@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382937449%232337744122_15L42133Q1-245490255Q20\u0004u28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620358625&selectionId=78174826\u0004u27.5\u0005"
+    },
     "5f16cb74336431221c132f05c0e31d04|Lukas Dostal": {
       "lines": {
         "DK": 21.5,
@@ -52,26 +62,6 @@
       "start": "2026-10-28T00:11:00Z",
       "text": "Forsberg (LAK) - LAK@CHI 8:11PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382932444%232337867587_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214652&selectionId=75038727\u0004u22.5\u0005"
     },
-    "7973c2a6112dfdfc1e38edb3fa149416|Joel Hofer": {
-      "done": true,
-      "lines": {
-        "DK": 26.5
-      },
-      "mid": 54,
-      "side": "OVER",
-      "start": "2026-10-24T23:10:00Z",
-      "text": "Hofer (STL) - CAR@STL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381961254%232333856603_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD not yet"
-    },
-    "7973c2a6112dfdfc1e38edb3fa149416|Pyotr Kochetkov": {
-      "done": true,
-      "lines": {
-        "DK": 21.5
-      },
-      "mid": 56,
-      "side": "UNDER",
-      "start": "2026-10-24T23:10:00Z",
-      "text": "Kochetkov (CAR) - CAR@STL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381961552%232333429373_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD not yet"
-    },
     "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov": {
       "lines": {
         "DK": 19.5,
@@ -81,17 +71,6 @@
       "side": "UNDER",
       "start": "2026-10-28T00:08:00Z",
       "text": "Kochetkov (CAR) - BOS@CAR 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196729_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620212711&selectionId=75074343\u0004u19.5\u0005"
-    },
-    "89da13e86e9e40fd4132bb577ca9a665|Carter Hart": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 23.5
-      },
-      "mid": 53,
-      "side": "OVER",
-      "start": "2026-10-24T23:10:00Z",
-      "text": "Hart (VGK) - VGK@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA381956993%232332769277_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619334361&selectionId=92390270\u0004o23.5\u0005"
     },
     "ccf447f1bbe822d28f87352436f70c7c|Calvin Pickard": {
       "done": true,
@@ -10389,6 +10368,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088137,
+  "tg_offset": 69088138,
   "watch": {}
 }
