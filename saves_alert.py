@@ -2442,6 +2442,9 @@ def main():
         dates = sorted({r["date"] for r in graded})
         title = "Saves results: " + ", ".join(
             datetime.strptime(d, "%Y-%m-%d").strftime("%b %-d") for d in dates)
+        w, l, p, _ = my_record(graded)  # owner Oct 28: "Saves results: Oct 27 · Your bets 4-2"
+        if w or l or p:
+            title += f" · Your bets {w}-{l}" + (f"-{p}" if p else "")
         abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
         send_push(title, results_message(graded, abbrevs, skip))
         print(f"Graded {len(graded)} pick(s) from {', '.join(dates)}")
