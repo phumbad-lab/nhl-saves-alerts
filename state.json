@@ -6692,7 +6692,7 @@
       "status": "DTD"
     },
     "EDM:8475786": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-28T16:11:14Z",
       "seen": "2026-10-27T06:39:47Z",
       "status": "OUT"
