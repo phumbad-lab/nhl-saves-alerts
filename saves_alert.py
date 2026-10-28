@@ -1278,7 +1278,13 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         tag = target_tag(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None, side, ctx, ln)
         who_ = (f"{last_name(player)} ({ab[side]})" if side
                 else f"{last_name(player)} ({ab['away']}@{ab['home']})")
-        reminder, better = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
+        reminder, better, mine = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
+        code = tag_code(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None)
+        if mine and code in BET_SIDE and BET_SIDE[code] != mine and ln.get("point") is not None:
+            # Owner Oct 28: you bet against the tag, so the tag's link opens the wrong side.
+            # Add your side at this book, linked: '👉 You're in DK u27.5 · FD u27.5'
+            reminder += " · " + link(f"{BOOK_SHORT.get(book, book)} {mine[0].lower()}{float(ln['point']):g}",
+                                     ln.get(mine.lower() + "_link"))
         text = (f"{who_} {ln.get('point')}{tag}{' 🍀' if better else ''} · {when} "
                 f"({BOOK_SHORT.get(book, book)} added)" + (f" {reminder}" if reminder else ""))
         msgs.append((text, player, book))
@@ -1287,16 +1293,16 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
 
 def in_other_book(event_id, player, book, point):
     """The second book posted a goalie you already bet at the first one. Returns
-    ("👉 You're in DK u23.5", better) where better = this book's number is better for your side
-    (shown as 🍀 after the tag); (None, False) otherwise."""
+    ("👉 You're in DK u23.5", better, your side) where better = this book's number is better for your side
+    (shown as 🍀 after the tag); (None, False, None) otherwise."""
     mine = [r for r in load_picks() if r["event_id"] == event_id and r["goalie"] == player and r.get("taken")]
     if not mine or any(r["book"] == book for r in mine):
-        return None, False
+        return None, False, None
     r = mine[0]
     side, taken = r["taken"], float(r["taken_line"])
     better = point is not None and ((side == "OVER" and float(point) < taken) or
                                     (side == "UNDER" and float(point) > taken))
-    return f"👉 You're in {r['book']} {side[0].lower()}{taken:g}", better
+    return f"👉 You're in {r['book']} {side[0].lower()}{taken:g}", better, side
 
 
 def bet_effect(event_id, player, effect):
