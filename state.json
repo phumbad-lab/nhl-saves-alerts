@@ -136,6 +136,7 @@
       "text": "Schmid (FLA) - FLA@CHI 3:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382218504%232335311318_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619576108&selectionId=82335729\u0004u20.5\u0005"
     },
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
+      "done": true,
       "lines": {
         "DK": 25.5,
         "FD": 23.5
@@ -8584,7 +8585,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-27": [
+      "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
