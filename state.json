@@ -9403,7 +9403,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.3,
-    "fetched": "2026-10-28T13:32:12Z",
+    "fetched": "2026-10-28T19:33:11Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.66666,
@@ -9411,18 +9411,18 @@
       },
       "bostonbruins": {
         "sa": 28.07692,
-        "sf": 25.38461
+        "sf": 25.46153
       },
       "buffalosabres": {
         "sa": 26.25,
-        "sf": 27.5
+        "sf": 27.58333
       },
       "calgaryflames": {
         "sa": 30.36363,
         "sf": 29.18181
       },
       "carolinahurricanes": {
-        "sa": 21.85714,
+        "sa": 21.92857,
         "sf": 33.64285
       },
       "chicagoblackhawks": {
@@ -9434,7 +9434,7 @@
         "sf": 29.25
       },
       "columbusbluejackets": {
-        "sa": 28.0,
+        "sa": 28.1,
         "sf": 25.6
       },
       "dallasstars": {
@@ -9459,14 +9459,14 @@
       },
       "minnesotawild": {
         "sa": 25.07142,
-        "sf": 31.21428
+        "sf": 31.28571
       },
       "montrealcanadiens": {
         "sa": 28.16666,
-        "sf": 28.0
+        "sf": 28.08333
       },
       "nashvillepredators": {
-        "sa": 29.16666,
+        "sa": 29.08333,
         "sf": 25.58333
       },
       "newjerseydevils": {
@@ -9475,7 +9475,7 @@
       },
       "newyorkislanders": {
         "sa": 26.33333,
-        "sf": 26.16666
+        "sf": 26.08333
       },
       "newyorkrangers": {
         "sa": 26.28571,
@@ -9487,14 +9487,14 @@
       },
       "philadelphiaflyers": {
         "sa": 30.28571,
-        "sf": 23.28571
+        "sf": 23.35714
       },
       "pittsburghpenguins": {
         "sa": 27.5,
         "sf": 27.75
       },
       "sanjosesharks": {
-        "sa": 31.07692,
+        "sa": 31.15384,
         "sf": 27.6923
       },
       "seattlekraken": {
@@ -9502,7 +9502,7 @@
         "sf": 26.16666
       },
       "stlouisblues": {
-        "sa": 27.75,
+        "sa": 27.83333,
         "sf": 28.08333
       },
       "tampabaylightning": {
@@ -9514,7 +9514,7 @@
         "sf": 28.57142
       },
       "utahmammoth": {
-        "sa": 24.0,
+        "sa": 24.07692,
         "sf": 30.15384
       },
       "vancouvercanucks": {
