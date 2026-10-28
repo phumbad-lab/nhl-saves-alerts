@@ -148,7 +148,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17948,
+  "credits_remaining": 17946,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -347,7 +347,7 @@
     "46dec80debcc79de4c248a0edd4f8d74": {
       "commence_time": "2026-10-28T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T20:48:12Z",
+      "last_paid_check": "2026-10-28T21:03:17Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
@@ -652,7 +652,7 @@
     "dad41ac378a6c36e1be03122f7f34470": {
       "commence_time": "2026-10-29T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T20:48:12Z",
+      "last_paid_check": "2026-10-28T21:03:17Z",
       "lines": {
         "draftkings": {
           "Jake Allen": {
