@@ -6698,7 +6698,7 @@
       "status": "DTD"
     },
     "FLA:8473419": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-28T12:02:12Z",
       "seen": "2026-10-28T12:02:12Z",
       "status": "OUT"
