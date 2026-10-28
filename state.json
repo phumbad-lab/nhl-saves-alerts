@@ -143,7 +143,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17970,
+  "credits_remaining": 17969,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -690,8 +690,26 @@
     },
     "f7510932dec00855b611e3685080819c": {
       "commence_time": "2026-10-29T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-28T19:38:13Z",
+      "lines": {
+        "draftkings": {
+          "Philipp Grubauer": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340291510_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340291511_15L42133Q1458571637Q20"
+          },
+          "Sergei Bobrovsky": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232340428744_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232340428745_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Toronto Maple Leafs @ Seattle Kraken"
     },
     "fa0255827e54afa3c871868fed566dd0": {
@@ -2284,7 +2302,7 @@
     "value": []
   },
   "gl_8477955": {
-    "fetched": "2026-10-24T18:55:14Z",
+    "fetched": "2026-10-28T19:38:13Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -6520,6 +6538,39 @@
       ]
     ]
   },
+  "h2h_SEA-TOR": {
+    "fetched": "2026-10-28T19:38:13Z",
+    "value": [
+      [
+        "2026-01-29",
+        "TOR",
+        "SEA",
+        31,
+        22
+      ],
+      [
+        "2025-10-18",
+        "SEA",
+        "TOR",
+        28,
+        30
+      ],
+      [
+        "2025-02-06",
+        "TOR",
+        "SEA",
+        30,
+        27
+      ],
+      [
+        "2024-10-31",
+        "SEA",
+        "TOR",
+        25,
+        30
+      ]
+    ]
+  },
   "h2h_SEA-UTA": {
     "fetched": "2026-10-23T01:42:12Z",
     "value": [
@@ -8978,7 +9029,7 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-10-24T18:55:14Z",
+    "fetched": "2026-10-28T19:38:13Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
@@ -9006,7 +9057,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-10-26T16:00:24Z",
+    "fetched": "2026-10-28T19:38:13Z",
     "value": [
       "Sergei Bobrovsky",
       "Anthony Stolarz"
@@ -9398,6 +9449,18 @@
       "book": null,
       "event_id": "1358a7c35b103e3242da6a96468d61f9",
       "goalie": "Tristan Jarry"
+    },
+    "818": {
+      "at": "2026-10-28T19:38:13Z",
+      "book": null,
+      "event_id": "f7510932dec00855b611e3685080819c",
+      "goalie": "Philipp Grubauer"
+    },
+    "819": {
+      "at": "2026-10-28T19:38:13Z",
+      "book": null,
+      "event_id": "f7510932dec00855b611e3685080819c",
+      "goalie": "Sergei Bobrovsky"
     }
   },
   "shot_stats": {
