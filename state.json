@@ -148,7 +148,7 @@
     }
   },
   "corrections_checked": "2026-10-28",
-  "credits_remaining": 17941,
+  "credits_remaining": 17940,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -191,14 +191,14 @@
     "1358a7c35b103e3242da6a96468d61f9": {
       "commence_time": "2026-10-29T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T21:14:22Z",
+      "last_paid_check": "2026-10-28T21:30:20Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
-            "over": -105,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968534_13L42133Q11884129982Q20",
             "point": 27.5,
-            "under": -130,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20"
           },
           "Tristan Jarry": {
