@@ -994,8 +994,11 @@ def who(r, abbrevs):
 
 def results_message(graded, abbrevs=None, skip_bets=()):
     abbrevs = abbrevs or {}
-    # One line per goalie; if his line differed between books (or moved), each line's
-    # result follows the other: "Markstrom (FLA) vs. BUF u23.5 UNDER (DK) ✅ · u24.5 UNDER (FD) ✅: 9 saves"
+    # One line per goalie; if his line differed between books (or moved), each line follows the
+    # other: "Markstrom (FLA) vs. BUF u23.5 UNDER (DK) · u24.5 UNDER (FD): 9 saves".
+    # Owner Oct 28: no ✅/❌ for the model (the words are enough); ✅/❌ go at the very start of
+    # the line only for goalies HE bet, one per bet in the order he took them:
+    # "✅ Markstrom (FLA) vs. BUF u23.5 UNDER (DK): 9 saves"
     lines, done = [], set()
     ordered = sorted(graded, key=lambda r: (r["date"], r["game"], r["goalie"], r.get("logged_at", ""), r["book"]))
     for r in ordered:
@@ -1018,9 +1021,12 @@ def results_message(graded, abbrevs=None, skip_bets=()):
                          x["tag"], f"{x['line']} NO EDGE")
             if x.get("fire") == "1":
                 label += " 🔥"
-            mark = {"W": " ✅", "L": " ❌", "P": " push"}.get(x["result"], f" → went {x['outcome'].lower()}")
+            mark = {"W": "", "L": "", "P": " push"}.get(x["result"], f" → went {x['outcome'].lower()}")
             parts.append(f"{label} ({books}){mark}")
-        lines.append(f"{who(r, abbrevs)} " + " · ".join(parts) + f": {r['actual_saves']} saves")
+        bets = sorted((x for x in mine if x.get("taken")), key=lambda x: x.get("taken_at", ""))
+        yours = "".join({"W": "✅", "L": "❌", "P": "➖"}.get(x.get("taken_result"), "") for x in bets)
+        lines.append((f"{yours} " if yours else "") + f"{who(r, abbrevs)} " + " · ".join(parts)
+                     + f": {r['actual_saves']} saves")
     all_rows = load_picks()
     season = " · ".join(f"{TAG_LABELS[t]} {fmt_record(*record_line(all_rows, t))}"
                         for t in ("OVER", "LEAN_OVER", "UNDER", "LEAN_UNDER"))
