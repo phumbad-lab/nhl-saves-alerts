@@ -1616,7 +1616,8 @@ PAST_BETS_FILE = os.path.join(HERE, "past_bets.csv")  # bets from before the bot
 
 
 def past_bets():
-    """Straight saves bets from before logging started (owner's DK slips, Sep 30 - Oct 8), as
+    """Straight saves bets the bot couldn't log: DK slips from before logging started (Sep 30 -
+    Oct 8) plus later bets on goalies that were never alerted (e.g. Hellebuyck Oct 27), as
     pick-log-like rows so they count in "Your season". One goalie per game."""
     try:
         with open(PAST_BETS_FILE, newline="") as f:
