@@ -158,16 +158,16 @@
     }
   },
   "corrections_checked": "2026-10-27",
-  "credits_remaining": 18026,
+  "credits_remaining": 18025,
   "events": {
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
       "commence_time": "2026-10-28T00:08:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-28T00:00:25Z",
+      "last_paid_check": "2026-10-28T00:01:10Z",
       "lines": {
         "draftkings": {
           "Casey DeSmith": {
-            "over": -120,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525288_13L42133Q1-1695742073Q20",
             "point": 24.5,
             "under": -110,
@@ -6694,7 +6694,6 @@
     },
     "LAK:8474563": {
       "alerted": false,
-      "missing_since": "2026-10-28T00:00:25Z",
       "out_at": "2026-10-27T23:58:11Z",
       "seen": "2026-10-27T23:58:11Z",
       "status": "OUT"
