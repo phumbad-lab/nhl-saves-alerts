@@ -677,16 +677,15 @@ def fire_context(event, ab, h2h, raw, m):
 
 
 def target_tag(expected, point, delta, side=None, ctx=None, ln=None):
-    """' UNDER 🔥' etc. With the book's line (ln), the tag word is a tap-to-bet link for that side;
-    NO EDGE (or no tag) gets ' O/U' where O and U each open that bet (owner Oct 17)."""
+    """' UNDER 🔥 O/U' etc. The tag is plain text; with the book's line (ln), ' O/U' follows and
+    O and U each open that bet on the slip (owner Oct 17; Oct 28: tag on its own, both sides
+    linked on every tag, so a bet against the tag is one tap too)."""
     code = tag_code(expected, point, delta)
     ln = ln or {}
-    if code in BET_SIDE:
-        fire = " 🔥" if is_fire(code, expected, point, side, ctx) else ""
-        return f" {link(TAG_LABELS[code], ln.get(BET_SIDE[code].lower() + '_link'))}{fire}"
+    fire = " 🔥" if code in BET_SIDE and is_fire(code, expected, point, side, ctx) else ""
     ou = (f" {link('O', ln.get('over_link'))}/{link('U', ln.get('under_link'))}"
           if ln.get("over_link") or ln.get("under_link") else "")
-    return (f" {TAG_LABELS[code]}" if code else "") + ou
+    return (f" {TAG_LABELS[code]}" if code else "") + fire + ou
 
 
 # ---------- pick log & grading ----------
@@ -1279,12 +1278,6 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         who_ = (f"{last_name(player)} ({ab[side]})" if side
                 else f"{last_name(player)} ({ab['away']}@{ab['home']})")
         reminder, better, mine = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
-        code = tag_code(g["saves"] if g else None, ln.get("point"), g["delta"] if g else None)
-        if mine and code in BET_SIDE and BET_SIDE[code] != mine and ln.get("point") is not None:
-            # Owner Oct 28: you bet against the tag, so the tag's link opens the wrong side.
-            # Add your side at this book, linked: '👉 You're in DK u27.5 · FD u27.5'
-            reminder += " · " + link(f"{BOOK_SHORT.get(book, book)} {mine[0].lower()}{float(ln['point']):g}",
-                                     ln.get(mine.lower() + "_link"))
         text = (f"{who_} {ln.get('point')}{tag}{' 🍀' if better else ''} · {when} "
                 f"({BOOK_SHORT.get(book, book)} added)" + (f" {reminder}" if reminder else ""))
         msgs.append((text, player, book))
