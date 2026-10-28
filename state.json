@@ -6708,10 +6708,8 @@
     "LAK:8474563": {
       "alerted": true,
       "out_at": "2026-10-27T23:58:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-10-28T14:16:12Z",
       "seen": "2026-10-27T23:58:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "LAK:8477942": {
       "alerted": true,
