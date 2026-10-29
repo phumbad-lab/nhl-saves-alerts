@@ -2117,6 +2117,68 @@ def channel_catchup(state):
             channel_result(state, rows, event_id, goalie)
 
 
+# ---- channel record (owner Oct 28): "put last night's record and the season record in the
+# channel in the AM at 8am". Each posted play counts once, graded on his first bet (the play the
+# channel showed). Posts are pruned after 3 days, so the record lives in state['channel_record']
+# {event|goalie: {"d": game date ET, "r": W/L/P}}. Plays from before the record existed (game
+# dates up to CHANNEL_BASE_UNTIL) were rebuilt from the bot's history on Oct 28 and start it off.
+CHANNEL_BASE_UNTIL = "2026-10-25"
+CHANNEL_BASE = (14, 13, 0)  # Oct 18-25 channel plays (W, L, P)
+CHANNEL_RECAP_HOUR = 8      # ET
+CHANNEL_RECAP_LATEST = 11   # post by 11 AM even if a play from last night is still ungraded
+
+
+def channel_record_update(state, rows):
+    """Add every graded channel play (not skipped, not void) to the running record.
+    Re-run each time, so a stat correction changes the record too."""
+    rec = state.setdefault("channel_record", {})
+    for key, post in (state.get("channel_posts") or {}).items():
+        if not post.get("mid") or post.get("skipped"):
+            continue
+        day = parse_iso(post["start"]).astimezone(LOCAL_TZ).strftime("%Y-%m-%d")
+        if day <= CHANNEL_BASE_UNTIL:
+            continue
+        event_id, goalie = key.split("|", 1)
+        first = min((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie and r.get("taken")),
+                    key=lambda r: r.get("taken_at", ""), default=None)
+        res = first.get("taken_result") if first else None
+        if res in ("W", "L", "P"):
+            rec[key] = {"d": day, "r": res}
+        elif res == "VOID":
+            rec.pop(key, None)
+
+
+def channel_recap(state, now):
+    """8 AM ET, once a day, when last night had channel plays:
+    '📊 Last night: 4-2 · Season: 21-15 (58%)'."""
+    ch = state.get("picks_channel")
+    local = now.astimezone(LOCAL_TZ)
+    today = local.strftime("%Y-%m-%d")
+    if not ch or local.hour < CHANNEL_RECAP_HOUR or state.get("channel_recap_sent") == today:
+        return
+    rows = load_picks()
+    channel_record_update(state, rows)
+    yday = (local - timedelta(days=1)).strftime("%Y-%m-%d")
+    last = [k for k, p in (state.get("channel_posts") or {}).items() if p.get("mid") and not p.get("skipped")
+            and parse_iso(p["start"]).astimezone(LOCAL_TZ).strftime("%Y-%m-%d") == yday]
+    if not last:
+        state["channel_recap_sent"] = today  # no plays last night: nothing to post
+        return
+    pending = [k for k in last if not (state["channel_posts"][k].get("done"))]
+    if pending and local.hour < CHANNEL_RECAP_LATEST:
+        return  # wait for the last result (stat corrections, late grading)
+    rec = state["channel_record"]
+    night = [rec[k]["r"] for k in last if k in rec]
+    allr = [v["r"] for v in rec.values()]
+    w, l, p = (CHANNEL_BASE[0] + allr.count("W"), CHANNEL_BASE[1] + allr.count("L"),
+               CHANNEL_BASE[2] + allr.count("P"))
+    nw, nl, np_ = night.count("W"), night.count("L"), night.count("P")
+    text = (f"📊 Last night: {nw}-{nl}" + (f"-{np_}" if np_ else "")
+            + f" · Season: {fmt_record(w, l, p)}")
+    if send_push("", text, chat_id=ch["id"]):
+        state["channel_recap_sent"] = today
+
+
 def save_note(msg, rows, target, now, quiet=False):
     """'note Wallstedt faded, VGK low H2H, MIN tight at home' (or swipe-reply 'note ...' on an alert).
     Saved to notes.csv with the goalie's line/tag/expected at the time, for the daily review."""
@@ -2454,6 +2516,8 @@ def main():
         print(f"Live results skipped ({e}).")
     try:
         channel_catchup(state)  # results to the picks channel
+        channel_record_update(state, load_picks())  # running channel record (owner Oct 28)
+        channel_recap(state, now)  # 8 AM: last night + season record in the channel
     except Exception as e:
         print(f"Picks channel results skipped ({e}).")
 
