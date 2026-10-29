@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17880,
+  "credits_remaining": 17879,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -423,7 +423,7 @@
     "2f65119127127c0185cf3bdc236a00f2": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T16:59:11Z",
+      "last_paid_check": "2026-10-29T17:14:12Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
