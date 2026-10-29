@@ -120,6 +120,16 @@
       "start": "2026-10-28T00:08:00Z",
       "text": "Kochetkov (CAR) - BOS@CAR 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196729_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620212711&selectionId=75074343\u0004u19.5\u0005"
     },
+    "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs": {
+      "lines": {
+        "DK": 24.5,
+        "FD": 23.5
+      },
+      "mid": 106,
+      "side": "OVER",
+      "start": "2026-10-29T23:10:00Z",
+      "text": "Silovs (PIT) - UTA@PIT 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383615730%232341743203_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620902656&selectionId=74843679\u0004o23.5\u0005"
+    },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "done": true,
       "lines": {
@@ -140,6 +150,15 @@
       "side": "UNDER",
       "start": "2026-10-27T23:10:00Z",
       "text": "Vladar (PHI) - CBJ@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620209764&selectionId=74843678\u0004u23.5\u0005"
+    },
+    "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner": {
+      "lines": {
+        "DK": 25.5
+      },
+      "mid": 107,
+      "side": "OVER",
+      "start": "2026-10-29T23:10:00Z",
+      "text": "Skinner (WPG) - WPG@TBL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383616632%232341767693_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD not yet"
     },
     "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
       "done": true,
@@ -10904,6 +10923,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088147,
+  "tg_offset": 69088149,
   "watch": {}
 }
