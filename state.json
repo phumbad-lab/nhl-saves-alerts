@@ -219,7 +219,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-10-28",
+  "corrections_checked": "2026-10-29",
   "credits_remaining": 17928,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
@@ -8941,14 +8941,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-28": [
-      "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll",
-      "1358a7c35b103e3242da6a96468d61f9|Devin Cooley",
-      "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry",
-      "f7510932dec00855b611e3685080819c|Philipp Grubauer"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
