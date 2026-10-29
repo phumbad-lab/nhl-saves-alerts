@@ -220,7 +220,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17920,
+  "credits_remaining": 17919,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -230,8 +230,19 @@
     },
     "05a8ed51399342594c33ae0faa0f9027": {
       "commence_time": "2026-10-29T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-29T14:47:11Z",
+      "lines": {
+        "draftkings": {
+          "Pyotr Kochetkov": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693643_13L42133Q1-1959470774Q20",
+            "point": 20.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693644_15L42133Q1-1449474Q20"
+          }
+        }
+      },
       "matchup": "Columbus Blue Jackets @ Carolina Hurricanes"
     },
     "11d4cfe51153e45bb3a9fc6e5f23535a": {
@@ -3285,6 +3296,39 @@
         "WSH",
         23,
         29
+      ]
+    ]
+  },
+  "h2h_CAR-CBJ": {
+    "fetched": "2026-10-29T14:47:11Z",
+    "value": [
+      [
+        "2026-04-02",
+        "CBJ",
+        "CAR",
+        10,
+        21
+      ],
+      [
+        "2026-03-31",
+        "CAR",
+        "CBJ",
+        33,
+        25
+      ],
+      [
+        "2026-03-17",
+        "CAR",
+        "CBJ",
+        29,
+        30
+      ],
+      [
+        "2025-12-09",
+        "CBJ",
+        "CAR",
+        24,
+        32
       ]
     ]
   },
@@ -8953,14 +8997,14 @@
     ]
   },
   "roster_CAR": {
-    "fetched": "2026-10-27T15:59:12Z",
+    "fetched": "2026-10-29T14:47:11Z",
     "value": [
       "Brandon Bussi",
       "Pyotr Kochetkov"
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-10-27T14:45:17Z",
+    "fetched": "2026-10-29T14:47:11Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -9540,6 +9584,12 @@
       "book": null,
       "event_id": "46dec80debcc79de4c248a0edd4f8d74",
       "goalie": "Logan Thompson"
+    },
+    "844": {
+      "at": "2026-10-29T14:47:11Z",
+      "book": null,
+      "event_id": "05a8ed51399342594c33ae0faa0f9027",
+      "goalie": "Pyotr Kochetkov"
     }
   },
   "shot_stats": {
