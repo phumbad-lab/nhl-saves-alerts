@@ -259,7 +259,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17692,
+  "credits_remaining": 17690,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -616,7 +616,7 @@
     "5020318cfd7098bd38fae6c907029f0f": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T23:57:10Z",
+      "last_paid_check": "2026-10-29T23:58:12Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -953,7 +953,7 @@
     "c8abddd6d4a9c96f45dcdd287f392537": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T23:42:13Z",
+      "last_paid_check": "2026-10-29T23:58:12Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
