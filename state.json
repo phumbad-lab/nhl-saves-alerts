@@ -7133,7 +7133,6 @@
     },
     "DET:8477946": {
       "alerted": false,
-      "missing_since": "2026-10-29T15:29:14Z",
       "out_at": "2026-10-29T15:28:12Z",
       "seen": "2026-10-29T15:28:12Z",
       "status": "OUT"
