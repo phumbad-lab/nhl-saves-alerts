@@ -7291,12 +7291,10 @@
   },
   "injuries": {
     "CHI:8481524": {
-      "alerted": true,
-      "out_at": "2026-10-27T18:44:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-29T16:43:11Z",
+      "alerted": false,
+      "out_at": "2026-10-29T16:48:11Z",
       "seen": "2026-10-15T16:53:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CHI:8481568": {
       "alerted": false,
