@@ -54,6 +54,7 @@
       "text": "Bobrovsky (TOR) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382658644%232336849634_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619925188&selectionId=74802629\u0004o25.5\u0005"
     },
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
+      "done": true,
       "lines": {
         "DK": 27.5,
         "FD": 27.5
@@ -8853,7 +8854,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-28": [
+      "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
