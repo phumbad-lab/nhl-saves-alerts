@@ -259,7 +259,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17796,
+  "credits_remaining": 17794,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -906,7 +906,7 @@
     "b8f3c483149e46a5f7c24ea941be8649": {
       "commence_time": "2026-10-29T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T20:34:19Z",
+      "last_paid_check": "2026-10-29T20:50:17Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -932,7 +932,7 @@
     "c8abddd6d4a9c96f45dcdd287f392537": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T20:34:19Z",
+      "last_paid_check": "2026-10-29T20:50:17Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
