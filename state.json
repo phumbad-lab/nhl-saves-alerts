@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17886,
+  "credits_remaining": 17885,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -734,7 +734,7 @@
     "b8f3c483149e46a5f7c24ea941be8649": {
       "commence_time": "2026-10-29T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T16:45:17Z",
+      "last_paid_check": "2026-10-29T17:00:26Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
