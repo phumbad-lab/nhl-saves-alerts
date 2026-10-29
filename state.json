@@ -1,5 +1,15 @@
 {
   "channel_posts": {
+    "05a8ed51399342594c33ae0faa0f9027|Jet Greaves": {
+      "lines": {
+        "DK": 26.5,
+        "FD": 26.5
+      },
+      "mid": 110,
+      "side": "OVER",
+      "start": "2026-10-29T23:10:00Z",
+      "text": "Greaves (CBJ) - CBJ@CAR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383737362%232341842866_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620930583&selectionId=77747671\u0004o26.5\u0005"
+    },
     "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov": {
       "lines": {
         "DK": 20.5,
@@ -64,6 +74,16 @@
       "side": "OVER",
       "start": "2026-10-27T00:40:00Z",
       "text": "Bobrovsky (TOR) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382658644%232336849634_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619925188&selectionId=74802629\u0004o25.5\u0005"
+    },
+    "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight": {
+      "lines": {
+        "DK": 27.5,
+        "FD": 27.5
+      },
+      "mid": 111,
+      "side": "UNDER",
+      "start": "2026-10-29T23:40:00Z",
+      "text": "Knight (CHI) - CHI@DET 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341963736_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620958691&selectionId=74973969\u0004u27.5\u0005"
     },
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "done": true,
@@ -11493,6 +11513,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088150,
+  "tg_offset": 69088152,
   "watch": {}
 }
