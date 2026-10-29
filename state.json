@@ -239,7 +239,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17826,
+  "credits_remaining": 17825,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -905,9 +905,16 @@
     "c8abddd6d4a9c96f45dcdd287f392537": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T18:46:11Z",
+      "last_paid_check": "2026-10-29T19:18:11Z",
       "lines": {
         "draftkings": {
+          "Colten Ellis": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384053934%232341968741_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384053934%232341968742_15L42133Q1731448625Q20"
+          },
           "Lukas Dostal": {
             "over": -130,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383715735%232341327809_13L42133Q1-54034395Q20",
@@ -10317,6 +10324,12 @@
       "book": "FD",
       "event_id": "35f166bc5dbb833315fe376ae27e63a3",
       "goalie": "Spencer Knight"
+    },
+    "885": {
+      "at": "2026-10-29T19:18:11Z",
+      "book": null,
+      "event_id": "c8abddd6d4a9c96f45dcdd287f392537",
+      "goalie": "Colten Ellis"
     }
   },
   "shot_stats": {
