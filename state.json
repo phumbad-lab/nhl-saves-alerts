@@ -259,7 +259,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17807,
+  "credits_remaining": 17806,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -1005,7 +1005,7 @@
     "ed751626a7b1f47888222319fec01199": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T20:00:24Z",
+      "last_paid_check": "2026-10-29T20:16:12Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
