@@ -228,7 +228,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17904,
+  "credits_remaining": 17903,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -239,23 +239,23 @@
     "05a8ed51399342594c33ae0faa0f9027": {
       "commence_time": "2026-10-29T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T15:49:11Z",
+      "last_paid_check": "2026-10-29T16:04:14Z",
       "lines": {
         "draftkings": {
           "Pyotr Kochetkov": {
-            "over": -120,
+            "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693643_13L42133Q1-1959470774Q20",
             "point": 20.5,
-            "under": -115,
+            "under": -135,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693644_15L42133Q1-1449474Q20"
           }
         },
         "fanduel": {
           "Pyotr Kochetkov": {
-            "over": -108,
+            "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620900750&selectionId=75074342",
-            "point": 20.5,
-            "under": -122,
+            "point": 19.5,
+            "under": -108,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620900750&selectionId=75074343"
           }
         }
