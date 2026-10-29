@@ -209,7 +209,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17905,
+  "credits_remaining": 17904,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -772,15 +772,22 @@
     "f27b209b3ed34a6dfb27f1670ffa514f": {
       "commence_time": "2026-10-29T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T15:44:14Z",
+      "last_paid_check": "2026-10-29T16:00:24Z",
       "lines": {
         "draftkings": {
           "Andrei Vasilevskiy": {
-            "over": -110,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616541%232341268334_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -120,
+            "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616541%232341268335_15L42133Q1874096526Q20"
+          },
+          "Stuart Skinner": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616632%232341767693_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616632%232341767694_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
@@ -788,7 +795,7 @@
             "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620899573&selectionId=74932792",
             "point": 21.5,
-            "under": -106,
+            "under": -108,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620899573&selectionId=74932793"
           }
         }
@@ -9337,12 +9344,6 @@
     ]
   },
   "sent": {
-    "727": {
-      "at": "2026-10-26T16:00:24Z",
-      "book": null,
-      "event_id": "20277c97a62bde35c5494acdb5912a68",
-      "goalie": "Devin Cooley"
-    },
     "728": {
       "at": "2026-10-26T16:12:11Z",
       "book": null,
@@ -9756,12 +9757,18 @@
       "book": "FD",
       "event_id": "35f166bc5dbb833315fe376ae27e63a3",
       "goalie": "John Gibson"
+    },
+    "855": {
+      "at": "2026-10-29T16:00:24Z",
+      "book": null,
+      "event_id": "f27b209b3ed34a6dfb27f1670ffa514f",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.29,
-    "fetched": "2026-10-29T10:00:24Z",
+    "fetched": "2026-10-29T16:00:24Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.66666,
@@ -9789,7 +9796,7 @@
       },
       "coloradoavalanche": {
         "sa": 28.0,
-        "sf": 30.38461
+        "sf": 30.46153
       },
       "columbusbluejackets": {
         "sa": 28.1,
@@ -9828,7 +9835,7 @@
         "sf": 25.58333
       },
       "newjerseydevils": {
-        "sa": 25.0,
+        "sa": 25.07692,
         "sf": 32.61538
       },
       "newyorkislanders": {
