@@ -1,5 +1,14 @@
 {
   "channel_posts": {
+    "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov": {
+      "lines": {
+        "DK": 20.5
+      },
+      "mid": 104,
+      "side": "UNDER",
+      "start": "2026-10-29T23:10:00Z",
+      "text": "Kochetkov (CAR) - CBJ@CAR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693644_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD not yet"
+    },
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
       "done": true,
       "lines": {
@@ -109,27 +118,6 @@
       "side": "UNDER",
       "start": "2026-10-28T00:08:00Z",
       "text": "Kochetkov (CAR) - BOS@CAR 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196729_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620212711&selectionId=75074343\u0004u19.5\u0005"
-    },
-    "ccf447f1bbe822d28f87352436f70c7c|Calvin Pickard": {
-      "done": true,
-      "lines": {
-        "DK": 20.5
-      },
-      "mid": 66,
-      "side": "UNDER",
-      "start": "2026-10-26T02:10:00Z",
-      "text": "Pickard (MIN) - MIN@VAN 10:10PM\nDK u20.5 \u00b7 FD not yet"
-    },
-    "ccf447f1bbe822d28f87352436f70c7c|Leevi Merilainen": {
-      "done": true,
-      "lines": {
-        "DK": 26.5,
-        "FD": 25.5
-      },
-      "mid": 63,
-      "side": "OVER",
-      "start": "2026-10-26T02:10:00Z",
-      "text": "Merilainen (VAN) - MIN@VAN 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382220396%232334991414_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619632389&selectionId=78174825\u0004o25.5\u0005"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "done": true,
@@ -10731,6 +10719,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088146,
+  "tg_offset": 69088147,
   "watch": {}
 }
