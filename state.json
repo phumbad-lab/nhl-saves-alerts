@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17858,
+  "credits_remaining": 17857,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -802,7 +802,7 @@
     "b07a2b3d9d717c9eb693422aef404555": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T17:54:12Z",
+      "last_paid_check": "2026-10-29T18:09:13Z",
       "lines": {
         "draftkings": {
           "Yaroslav Askarov": {
@@ -811,6 +811,15 @@
             "point": 22.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383749352%232341882588_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Yaroslav Askarov": {
+            "over": -122,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620942747&selectionId=77385758",
+            "point": 21.5,
+            "under": -108,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620942747&selectionId=77385757"
           }
         }
       },
@@ -10125,6 +10134,12 @@
     "871": {
       "at": "2026-10-29T17:54:12Z",
       "book": null,
+      "event_id": "b07a2b3d9d717c9eb693422aef404555",
+      "goalie": "Yaroslav Askarov"
+    },
+    "872": {
+      "at": "2026-10-29T18:09:13Z",
+      "book": "FD",
       "event_id": "b07a2b3d9d717c9eb693422aef404555",
       "goalie": "Yaroslav Askarov"
     }
