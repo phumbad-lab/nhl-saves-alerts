@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17892,
+  "credits_remaining": 17891,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -411,8 +411,19 @@
     },
     "2f65119127127c0185cf3bdc236a00f2": {
       "commence_time": "2026-10-30T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-29T16:44:11Z",
+      "lines": {
+        "draftkings": {
+          "Jake Oettinger": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383753751%232340614482_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383753751%232340614505_15L42133Q1888607062Q20"
+          }
+        }
+      },
       "matchup": "Montr\u00e9al Canadiens @ Dallas Stars"
     },
     "35f166bc5dbb833315fe376ae27e63a3": {
@@ -2575,7 +2586,7 @@
     ]
   },
   "gl_8480018": {
-    "fetched": "2026-10-27T16:00:24Z",
+    "fetched": "2026-10-29T16:44:11Z",
     "value": [
       "2026-09-29",
       "2026-10-03",
@@ -4635,6 +4646,39 @@
         "COL",
         21,
         34
+      ]
+    ]
+  },
+  "h2h_DAL-MTL": {
+    "fetched": "2026-10-29T16:44:11Z",
+    "value": [
+      [
+        "2026-01-04",
+        "MTL",
+        "DAL",
+        28,
+        27
+      ],
+      [
+        "2025-11-13",
+        "DAL",
+        "MTL",
+        19,
+        24
+      ],
+      [
+        "2025-01-16",
+        "MTL",
+        "DAL",
+        24,
+        33
+      ],
+      [
+        "2025-01-11",
+        "DAL",
+        "MTL",
+        36,
+        31
       ]
     ]
   },
@@ -9251,7 +9295,7 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-10-27T16:02:12Z",
+    "fetched": "2026-10-29T16:44:11Z",
     "value": [
       "Casey DeSmith",
       "Jake Oettinger"
@@ -9298,7 +9342,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-10-27T16:00:24Z",
+    "fetched": "2026-10-29T16:44:11Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -9850,6 +9894,12 @@
       "book": "FD",
       "event_id": "923b47df7869b8b2c5d758b7f21d4b4a",
       "goalie": "Juuse Saros"
+    },
+    "862": {
+      "at": "2026-10-29T16:44:11Z",
+      "book": null,
+      "event_id": "2f65119127127c0185cf3bdc236a00f2",
+      "goalie": "Jake Oettinger"
     }
   },
   "shot_stats": {
