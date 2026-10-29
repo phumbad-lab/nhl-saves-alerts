@@ -7134,6 +7134,7 @@
     },
     "TBL:8479542": {
       "alerted": false,
+      "missing_since": "2026-10-29T15:08:11Z",
       "out_at": null,
       "seen": "2026-10-28T18:17:12Z",
       "status": "DTD"
@@ -10733,7 +10734,7 @@
     "version": 5
   },
   "team_abbrevs": {
-    "fetched": "2026-10-28T15:07:11Z",
+    "fetched": "2026-10-29T15:08:11Z",
     "value": {
       "anaheimducks": "ANA",
       "bostonbruins": "BOS",
