@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17881,
+  "credits_remaining": 17880,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -449,14 +449,14 @@
     "35f166bc5dbb833315fe376ae27e63a3": {
       "commence_time": "2026-10-29T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T16:58:12Z",
+      "last_paid_check": "2026-10-29T17:13:12Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
-            "over": -115,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616209%232340122019_13L42133Q1-1959470774Q20",
             "point": 20.5,
-            "under": -115,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616209%232340122075_15L42133Q1-1449474Q20"
           }
         },
@@ -9576,12 +9576,6 @@
     ]
   },
   "sent": {
-    "734": {
-      "at": "2026-10-26T17:13:11Z",
-      "book": "DK",
-      "event_id": "daa5166685c4ca1a4f033d8bff91a6ba",
-      "goalie": "Darcy Kuemper"
-    },
     "735": {
       "at": "2026-10-26T17:18:11Z",
       "book": null,
