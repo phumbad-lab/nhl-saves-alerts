@@ -208,7 +208,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17919,
+  "credits_remaining": 17918,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -721,8 +721,19 @@
     },
     "f27b209b3ed34a6dfb27f1670ffa514f": {
       "commence_time": "2026-10-29T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-29T14:56:12Z",
+      "lines": {
+        "draftkings": {
+          "Andrei Vasilevskiy": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616541%232341268334_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616541%232341268335_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "Winnipeg Jets @ Tampa Bay Lightning"
     },
     "f7510932dec00855b611e3685080819c": {
@@ -2371,7 +2382,7 @@
     ]
   },
   "gl_8477504": {
-    "fetched": "2026-10-27T16:24:12Z",
+    "fetched": "2026-10-29T14:56:12Z",
     "value": [
       "2026-10-02",
       "2026-10-04",
@@ -6950,6 +6961,39 @@
       ]
     ]
   },
+  "h2h_TBL-WPG": {
+    "fetched": "2026-10-29T14:56:12Z",
+    "value": [
+      [
+        "2026-03-05",
+        "TBL",
+        "WPG",
+        27,
+        30
+      ],
+      [
+        "2026-01-29",
+        "WPG",
+        "TBL",
+        24,
+        37
+      ],
+      [
+        "2024-11-14",
+        "WPG",
+        "TBL",
+        24,
+        29
+      ],
+      [
+        "2024-11-03",
+        "TBL",
+        "WPG",
+        30,
+        34
+      ]
+    ]
+  },
   "h2h_TOR-UTA": {
     "fetched": "2026-10-13T17:24:55Z",
     "value": [
@@ -9149,7 +9193,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-10-24T17:31:11Z",
+    "fetched": "2026-10-29T14:56:12Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -9185,7 +9229,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-10-27T16:24:12Z",
+    "fetched": "2026-10-29T14:56:12Z",
     "value": [
       "Nico Daws",
       "Stuart Skinner",
@@ -9578,6 +9622,12 @@
       "book": null,
       "event_id": "05a8ed51399342594c33ae0faa0f9027",
       "goalie": "Pyotr Kochetkov"
+    },
+    "846": {
+      "at": "2026-10-29T14:56:12Z",
+      "book": null,
+      "event_id": "f27b209b3ed34a6dfb27f1670ffa514f",
+      "goalie": "Andrei Vasilevskiy"
     }
   },
   "shot_stats": {
