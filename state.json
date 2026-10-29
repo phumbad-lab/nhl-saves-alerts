@@ -208,7 +208,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17914,
+  "credits_remaining": 17913,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -648,8 +648,19 @@
     },
     "b8f3c483149e46a5f7c24ea941be8649": {
       "commence_time": "2026-10-29T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-29T15:26:12Z",
+      "lines": {
+        "draftkings": {
+          "Arturs Silovs": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383615730%232341743203_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383615730%232341743204_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "Utah Mammoth @ Pittsburgh Penguins"
     },
     "c8abddd6d4a9c96f45dcdd287f392537": {
@@ -2371,7 +2382,7 @@
     ]
   },
   "gl_8475810": {
-    "fetched": "2026-10-24T16:25:14Z",
+    "fetched": "2026-10-29T15:26:12Z",
     "value": [
       "2026-10-07",
       "2026-10-09",
@@ -6610,8 +6621,15 @@
     ]
   },
   "h2h_PIT-UTA": {
-    "fetched": "2026-10-19T17:54:11Z",
+    "fetched": "2026-10-29T15:26:12Z",
     "value": [
+      [
+        "2026-10-19",
+        "PIT",
+        "UTA",
+        19,
+        29
+      ],
       [
         "2026-03-14",
         "PIT",
@@ -6632,13 +6650,6 @@
         "UTA",
         29,
         29
-      ],
-      [
-        "2024-11-23",
-        "UTA",
-        "PIT",
-        30,
-        28
       ]
     ]
   },
@@ -9210,7 +9221,7 @@
     ]
   },
   "roster_PIT": {
-    "fetched": "2026-10-24T16:25:14Z",
+    "fetched": "2026-10-29T15:26:12Z",
     "value": [
       "Sergei Murashov",
       "Arturs Silovs"
@@ -9252,7 +9263,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-10-27T17:32:16Z",
+    "fetched": "2026-10-29T15:26:12Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -9679,6 +9690,12 @@
       "book": null,
       "event_id": "35f166bc5dbb833315fe376ae27e63a3",
       "goalie": "John Gibson"
+    },
+    "848": {
+      "at": "2026-10-29T15:26:12Z",
+      "book": null,
+      "event_id": "b8f3c483149e46a5f7c24ea941be8649",
+      "goalie": "Arturs Silovs"
     }
   },
   "shot_stats": {
