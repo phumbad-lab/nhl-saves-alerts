@@ -229,20 +229,43 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17878,
+  "credits_remaining": 17876,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T17:04:19Z",
+      "last_paid_check": "2026-10-29T17:20:19Z",
       "lines": {
         "draftkings": {
+          "Jeremy Swayman": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689949%232340376855_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689949%232340376869_15L42133Q1731448625Q20"
+          },
           "Joel Hofer": {
-            "over": -115,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689968%232340376559_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -120,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689968%232340376603_15L42133Q184490156Q20"
+          }
+        },
+        "fanduel": {
+          "Jeremy Swayman": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620929894&selectionId=74879760",
+            "point": 24.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620929894&selectionId=74879759"
+          },
+          "Joel Hofer": {
+            "over": -122,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620930036&selectionId=74882014",
+            "point": 22.5,
+            "under": -108,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620930036&selectionId=74882015"
           }
         }
       },
@@ -515,7 +538,7 @@
     "5020318cfd7098bd38fae6c907029f0f": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T17:05:15Z",
+      "last_paid_check": "2026-10-29T17:20:19Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -10007,6 +10030,18 @@
       "book": null,
       "event_id": "5020318cfd7098bd38fae6c907029f0f",
       "goalie": "Ilya Sorokin"
+    },
+    "867": {
+      "at": "2026-10-29T17:20:19Z",
+      "book": null,
+      "event_id": "0320215ff7055c9c04ecefa36a8c36cb",
+      "goalie": "Jeremy Swayman"
+    },
+    "868": {
+      "at": "2026-10-29T17:20:19Z",
+      "book": "FD",
+      "event_id": "0320215ff7055c9c04ecefa36a8c36cb",
+      "goalie": "Joel Hofer"
     }
   },
   "shot_stats": {
