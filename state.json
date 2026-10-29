@@ -239,7 +239,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17829,
+  "credits_remaining": 17826,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -476,7 +476,7 @@
     "2f65119127127c0185cf3bdc236a00f2": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T19:02:11Z",
+      "last_paid_check": "2026-10-29T19:17:12Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -509,7 +509,7 @@
     "35f166bc5dbb833315fe376ae27e63a3": {
       "commence_time": "2026-10-29T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T19:02:11Z",
+      "last_paid_check": "2026-10-29T19:17:12Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
@@ -520,11 +520,11 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616209%232340122075_15L42133Q1-1449474Q20"
           },
           "Spencer Knight": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341932030_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341932031_15L42133Q1-245490255Q20"
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341963735_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341963736_15L42133Q1-941301704Q20"
           }
         },
         "fanduel": {
@@ -534,6 +534,13 @@
             "point": 20.5,
             "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620905517&selectionId=76247481"
+          },
+          "Spencer Knight": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620958691&selectionId=74973970",
+            "point": 27.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620958691&selectionId=74973969"
           }
         }
       },
@@ -872,7 +879,7 @@
     "b8f3c483149e46a5f7c24ea941be8649": {
       "commence_time": "2026-10-29T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T19:02:11Z",
+      "last_paid_check": "2026-10-29T19:17:12Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -10304,6 +10311,12 @@
       "book": "FD",
       "event_id": "b07a2b3d9d717c9eb693422aef404555",
       "goalie": "Leevi Merilainen"
+    },
+    "884": {
+      "at": "2026-10-29T19:17:12Z",
+      "book": "FD",
+      "event_id": "35f166bc5dbb833315fe376ae27e63a3",
+      "goalie": "Spencer Knight"
     }
   },
   "shot_stats": {
