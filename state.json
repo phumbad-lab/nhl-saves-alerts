@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17869,
+  "credits_remaining": 17868,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -486,7 +486,7 @@
     "35f166bc5dbb833315fe376ae27e63a3": {
       "commence_time": "2026-10-29T23:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T17:28:12Z",
+      "last_paid_check": "2026-10-29T17:44:12Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
