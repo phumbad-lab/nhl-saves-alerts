@@ -239,7 +239,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17838,
+  "credits_remaining": 17837,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -832,7 +832,7 @@
     "b07a2b3d9d717c9eb693422aef404555": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T18:40:18Z",
+      "last_paid_check": "2026-10-29T18:56:13Z",
       "lines": {
         "draftkings": {
           "Leevi Merilainen": {
@@ -9817,12 +9817,6 @@
     ]
   },
   "sent": {
-    "741": {
-      "at": "2026-10-26T18:56:13Z",
-      "book": null,
-      "event_id": "5b70654c977b6cc9a110ad8c04c57cac",
-      "goalie": "Tristan Jarry"
-    },
     "742": {
       "at": "2026-10-26T19:28:13Z",
       "book": "FD",
