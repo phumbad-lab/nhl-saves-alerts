@@ -10390,7 +10390,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.29,
-    "fetched": "2026-10-29T16:00:24Z",
+    "fetched": "2026-10-29T22:00:24Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.66666,
@@ -10485,7 +10485,7 @@
         "sf": 27.6923
       },
       "seattlekraken": {
-        "sa": 31.0,
+        "sa": 31.07692,
         "sf": 25.46153
       },
       "stlouisblues": {
@@ -10498,7 +10498,7 @@
       },
       "torontomapleleafs": {
         "sa": 29.4,
-        "sf": 28.06666
+        "sf": 28.13333
       },
       "utahmammoth": {
         "sa": 24.07692,
