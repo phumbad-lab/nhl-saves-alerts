@@ -239,7 +239,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17825,
+  "credits_remaining": 17823,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -589,7 +589,7 @@
     "5020318cfd7098bd38fae6c907029f0f": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T19:10:17Z",
+      "last_paid_check": "2026-10-29T19:26:11Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -767,7 +767,7 @@
     "923b47df7869b8b2c5d758b7f21d4b4a": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T19:10:17Z",
+      "last_paid_check": "2026-10-29T19:26:11Z",
       "lines": {
         "draftkings": {
           "Juuse Saros": {
@@ -780,10 +780,10 @@
         },
         "fanduel": {
           "Juuse Saros": {
-            "over": -125,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620912178&selectionId=74973972",
             "point": 24.5,
-            "under": -106,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620912178&selectionId=74973971"
           }
         }
