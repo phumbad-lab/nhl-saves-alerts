@@ -153,6 +153,7 @@
       "text": "Vladar (PHI) - CBJ@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620209764&selectionId=74843678\u0004u23.5\u0005"
     },
     "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 25.5
@@ -212,6 +213,10 @@
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
       "d": "2026-10-27",
       "r": "W"
+    },
+    "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
+      "d": "2026-10-28",
+      "r": "L"
     }
   },
   "corrections_checked": "2026-10-28",
@@ -8911,7 +8916,8 @@
     "2026-10-28": [
       "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll",
       "1358a7c35b103e3242da6a96468d61f9|Devin Cooley",
-      "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry"
+      "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry",
+      "f7510932dec00855b611e3685080819c|Philipp Grubauer"
     ]
   },
   "picks_channel": {
