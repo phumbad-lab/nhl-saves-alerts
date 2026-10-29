@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17891,
+  "credits_remaining": 17890,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -725,15 +725,15 @@
     "b8f3c483149e46a5f7c24ea941be8649": {
       "commence_time": "2026-10-29T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T16:29:13Z",
+      "last_paid_check": "2026-10-29T16:45:17Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383615730%232341743203_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383615730%232341743204_15L42133Q1731448625Q20"
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383615730%232340120562_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383615730%232340120569_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
