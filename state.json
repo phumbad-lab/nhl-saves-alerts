@@ -12,6 +12,7 @@
       "text": "DeSmith (DAL) - NJD@DAL 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525289_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620218696&selectionId=69574674\u0004u23.5\u0005"
     },
     "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
+      "done": true,
       "lines": {
         "DK": 27.5,
         "FD": 27.5
@@ -22,6 +23,7 @@
       "text": "Cooley (CGY) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683952&selectionId=89998348\u0004u27.5\u0005"
     },
     "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 22.5
@@ -165,6 +167,14 @@
   "channel_record": {
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
       "d": "2026-10-27",
+      "r": "W"
+    },
+    "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
+      "d": "2026-10-28",
+      "r": "W"
+    },
+    "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry": {
+      "d": "2026-10-28",
       "r": "W"
     },
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
@@ -8899,7 +8909,9 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-10-28": [
-      "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll"
+      "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll",
+      "1358a7c35b103e3242da6a96468d61f9|Devin Cooley",
+      "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry"
     ]
   },
   "picks_channel": {
