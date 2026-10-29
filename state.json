@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17864,
+  "credits_remaining": 17863,
   "events": {
     "0320215ff7055c9c04ecefa36a8c36cb": {
       "commence_time": "2026-10-30T00:10:00Z",
@@ -801,8 +801,19 @@
     },
     "b07a2b3d9d717c9eb693422aef404555": {
       "commence_time": "2026-10-30T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-29T17:54:12Z",
+      "lines": {
+        "draftkings": {
+          "Yaroslav Askarov": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383749352%232341882587_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383749352%232341882588_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "Vancouver Canucks @ San Jose Sharks"
     },
     "b8f3c483149e46a5f7c24ea941be8649": {
@@ -7174,6 +7185,39 @@
       ]
     ]
   },
+  "h2h_SJS-VAN": {
+    "fetched": "2026-10-29T17:54:12Z",
+    "value": [
+      [
+        "2026-04-11",
+        "VAN",
+        "SJS",
+        41,
+        32
+      ],
+      [
+        "2026-01-27",
+        "SJS",
+        "VAN",
+        33,
+        25
+      ],
+      [
+        "2025-12-27",
+        "SJS",
+        "VAN",
+        37,
+        27
+      ],
+      [
+        "2025-11-28",
+        "VAN",
+        "SJS",
+        34,
+        24
+      ]
+    ]
+  },
   "h2h_STL-VGK": {
     "fetched": "2026-10-22T16:36:12Z",
     "value": [
@@ -9557,7 +9601,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-27T18:03:11Z",
+    "fetched": "2026-10-29T17:54:12Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -9592,7 +9636,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-10-27T17:30:21Z",
+    "fetched": "2026-10-29T17:54:12Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -10077,6 +10121,12 @@
       "book": "FD",
       "event_id": "5020318cfd7098bd38fae6c907029f0f",
       "goalie": "Ilya Sorokin"
+    },
+    "871": {
+      "at": "2026-10-29T17:54:12Z",
+      "book": null,
+      "event_id": "b07a2b3d9d717c9eb693422aef404555",
+      "goalie": "Yaroslav Askarov"
     }
   },
   "shot_stats": {
