@@ -292,12 +292,12 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17605,
+  "credits_remaining": 17604,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T19:04:11Z",
+      "last_paid_check": "2026-10-30T19:19:14Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
@@ -9820,12 +9820,6 @@
     ]
   },
   "sent": {
-    "788": {
-      "at": "2026-10-27T19:18:12Z",
-      "book": "DK",
-      "event_id": "66690f3994b21af39301701a52df1d66",
-      "goalie": "Adin Hill"
-    },
     "789": {
       "at": "2026-10-27T19:20:19Z",
       "book": "FD",
