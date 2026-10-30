@@ -293,7 +293,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-10-29",
+  "corrections_checked": "2026-10-30",
   "credits_remaining": 17660,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
@@ -9380,17 +9380,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-29": [
-      "05a8ed51399342594c33ae0faa0f9027|Jet Greaves",
-      "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov",
-      "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner",
-      "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs",
-      "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight",
-      "b07a2b3d9d717c9eb693422aef404555|Yaroslav Askarov",
-      "c8abddd6d4a9c96f45dcdd287f392537|Colten Ellis"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
