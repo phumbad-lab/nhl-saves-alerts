@@ -292,7 +292,7 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17613,
+  "credits_remaining": 17611,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -608,7 +608,7 @@
     "5c712e15e1cd4b9283b4bf410fb334f4": {
       "commence_time": "2026-10-30T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T18:26:12Z",
+      "last_paid_check": "2026-10-30T18:41:14Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -685,7 +685,7 @@
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T18:26:12Z",
+      "last_paid_check": "2026-10-30T18:41:14Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
