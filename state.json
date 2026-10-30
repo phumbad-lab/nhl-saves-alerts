@@ -160,15 +160,15 @@
       "start": "2026-10-29T23:10:00Z",
       "text": "Silovs (PIT) - UTA@PIT 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383615730%232341743203_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620902656&selectionId=74843679\u0004o23.5\u0005"
     },
-    "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
-      "done": true,
+    "c8abddd6d4a9c96f45dcdd287f392537|Colten Ellis": {
       "lines": {
-        "DK": 25.5
+        "DK": 24.5,
+        "FD": 24.5
       },
-      "mid": 69,
+      "mid": 112,
       "side": "UNDER",
-      "start": "2026-10-26T23:10:00Z",
-      "text": "Reimer (NYR) - LAK@NYR 7:10PM\nDK u25.5 \u00b7 FD not yet"
+      "start": "2026-10-30T02:10:00Z",
+      "text": "Ellis (BUF) - BUF@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384053934%232341968742_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620969124&selectionId=90265834\u0004u24.5\u0005"
     },
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
       "done": true,
@@ -11300,6 +11300,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088152,
+  "tg_offset": 69088153,
   "watch": {}
 }
