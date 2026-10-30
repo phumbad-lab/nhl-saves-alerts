@@ -292,12 +292,12 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17513,
+  "credits_remaining": 17512,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T23:50:17Z",
+      "last_paid_check": "2026-10-30T23:51:11Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
@@ -322,6 +322,13 @@
             "point": 24.5,
             "under": -104,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621177789&selectionId=74079383"
+          },
+          "Philipp Grubauer": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621287814&selectionId=74802625",
+            "point": 26.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621287814&selectionId=74802624"
           }
         }
       },
@@ -10182,6 +10189,12 @@
     "919": {
       "at": "2026-10-30T23:40:18Z",
       "book": null,
+      "event_id": "026d37181dd4ace0df7565d9b208ce7e",
+      "goalie": "Philipp Grubauer"
+    },
+    "920": {
+      "at": "2026-10-30T23:51:11Z",
+      "book": "FD",
       "event_id": "026d37181dd4ace0df7565d9b208ce7e",
       "goalie": "Philipp Grubauer"
     }
