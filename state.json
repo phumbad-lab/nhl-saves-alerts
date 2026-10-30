@@ -1,5 +1,14 @@
 {
   "channel_posts": {
+    "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
+      "lines": {
+        "DK": 26.5
+      },
+      "mid": 122,
+      "side": "UNDER",
+      "start": "2026-10-31T00:10:00Z",
+      "text": "Wolf (CGY) - SEA@CGY 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384102357%232342875601_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD not yet"
+    },
     "05a8ed51399342594c33ae0faa0f9027|Jet Greaves": {
       "done": true,
       "lines": {
@@ -11441,6 +11450,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088154,
+  "tg_offset": 69088155,
   "watch": {}
 }
