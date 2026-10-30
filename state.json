@@ -1,6 +1,7 @@
 {
   "channel_posts": {
     "05a8ed51399342594c33ae0faa0f9027|Jet Greaves": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 26.5
@@ -11,6 +12,7 @@
       "text": "Greaves (CBJ) - CBJ@CAR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383737362%232341842866_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620930583&selectionId=77747671\u0004o26.5\u0005"
     },
     "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov": {
+      "done": true,
       "lines": {
         "DK": 20.5,
         "FD": 20.5
@@ -205,6 +207,14 @@
   },
   "channel_recap_sent": "2026-10-29",
   "channel_record": {
+    "05a8ed51399342594c33ae0faa0f9027|Jet Greaves": {
+      "d": "2026-10-29",
+      "r": "L"
+    },
+    "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov": {
+      "d": "2026-10-29",
+      "r": "L"
+    },
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
       "d": "2026-10-27",
       "r": "W"
@@ -9355,7 +9365,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-29": [
+      "05a8ed51399342594c33ae0faa0f9027|Jet Greaves",
+      "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
