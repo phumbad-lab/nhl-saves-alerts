@@ -281,12 +281,23 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17647,
+  "credits_remaining": 17646,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-30T15:37:12Z",
+      "lines": {
+        "draftkings": {
+          "Dustin Wolf": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384102357%232342875600_13L42133Q1-54034395Q20",
+            "point": 26.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384102357%232342875601_15L42133Q11150106798Q20"
+          }
+        }
+      },
       "matchup": "Seattle Kraken @ Calgary Flames"
     },
     "0320215ff7055c9c04ecefa36a8c36cb": {
@@ -2572,7 +2583,7 @@
     ]
   },
   "gl_8477955": {
-    "fetched": "2026-10-28T19:38:13Z",
+    "fetched": "2026-10-30T15:37:12Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4202,6 +4213,39 @@
         "CGY",
         18,
         32
+      ]
+    ]
+  },
+  "h2h_CGY-SEA": {
+    "fetched": "2026-10-30T15:37:12Z",
+    "value": [
+      [
+        "2026-10-04",
+        "CGY",
+        "SEA",
+        33,
+        27
+      ],
+      [
+        "2026-10-01",
+        "SEA",
+        "CGY",
+        32,
+        25
+      ],
+      [
+        "2026-04-11",
+        "CGY",
+        "SEA",
+        27,
+        21
+      ],
+      [
+        "2026-01-05",
+        "SEA",
+        "CGY",
+        28,
+        42
       ]
     ]
   },
@@ -9509,7 +9553,7 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-10-28T17:06:13Z",
+    "fetched": "2026-10-30T15:37:12Z",
     "value": [
       "Devin Cooley",
       "Dustin Wolf"
@@ -9638,7 +9682,7 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-10-28T19:38:13Z",
+    "fetched": "2026-10-30T15:37:12Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
@@ -10256,6 +10300,12 @@
       "book": "FD",
       "event_id": "a536736a6da269d2e10edbdb27a789bd",
       "goalie": "Akira Schmid"
+    },
+    "912": {
+      "at": "2026-10-30T15:37:12Z",
+      "book": null,
+      "event_id": "026d37181dd4ace0df7565d9b208ce7e",
+      "goalie": "Dustin Wolf"
     }
   },
   "shot_stats": {
