@@ -281,7 +281,7 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17651,
+  "credits_remaining": 17649,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -577,7 +577,7 @@
     "5c712e15e1cd4b9283b4bf410fb334f4": {
       "commence_time": "2026-10-30T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T15:02:12Z",
+      "last_paid_check": "2026-10-30T15:18:13Z",
       "lines": {
         "fanduel": {
           "Connor Hellebuyck": {
@@ -639,23 +639,23 @@
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T15:02:12Z",
+      "last_paid_check": "2026-10-30T15:18:13Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342487445_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342487446_15L42133Q1874096526Q20"
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342485536_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342485537_15L42133Q1888607062Q20"
           }
         },
         "fanduel": {
           "Akira Schmid": {
-            "over": -102,
+            "over": 100,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621167206&selectionId=82335730",
             "point": 21.5,
-            "under": -130,
+            "under": -132,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621167206&selectionId=82335729"
           }
         }
