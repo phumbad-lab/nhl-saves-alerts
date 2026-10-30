@@ -7714,7 +7714,7 @@
       "status": "DTD"
     },
     "VAN:8480078": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-30T20:36:11Z",
       "seen": "2026-10-30T19:14:11Z",
       "status": "OUT"
