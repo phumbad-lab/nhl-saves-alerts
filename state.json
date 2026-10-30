@@ -259,7 +259,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17678,
+  "credits_remaining": 17677,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -767,7 +767,7 @@
     "c8abddd6d4a9c96f45dcdd287f392537": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T23:58:12Z",
+      "last_paid_check": "2026-10-30T00:14:12Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
