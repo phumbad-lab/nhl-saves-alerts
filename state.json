@@ -281,7 +281,7 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17653,
+  "credits_remaining": 17651,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -489,6 +489,12 @@
       },
       "matchup": "Chicago Blackhawks @ Detroit Red Wings"
     },
+    "3ec4c9abb60e5bf086a0460336248b16": {
+      "commence_time": "2026-10-31T20:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Buffalo Sabres @ Los Angeles Kings"
+    },
     "46dec80debcc79de4c248a0edd4f8d74": {
       "commence_time": "2026-10-28T23:40:00Z",
       "h2h_sent": true,
@@ -571,19 +577,25 @@
     "5c712e15e1cd4b9283b4bf410fb334f4": {
       "commence_time": "2026-10-30T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T14:46:13Z",
+      "last_paid_check": "2026-10-30T15:02:12Z",
       "lines": {
         "fanduel": {
           "Connor Hellebuyck": {
-            "over": -114,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125",
             "point": 22.5,
-            "under": -114,
+            "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843124"
           }
         }
       },
       "matchup": "New Jersey Devils @ Vegas Golden Knights"
+    },
+    "7da8a99a4ae4ef2ec08b3e4fa37c2485": {
+      "commence_time": "2026-10-31T18:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Edmonton Oilers @ New York Islanders"
     },
     "923b47df7869b8b2c5d758b7f21d4b4a": {
       "commence_time": "2026-10-30T00:25:00Z",
@@ -618,18 +630,33 @@
       },
       "matchup": "Washington Capitals @ Nashville Predators"
     },
+    "9655de40a1e110a66923a0cd36e0bd78": {
+      "commence_time": "2026-10-31T20:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Ottawa Senators @ San Jose Sharks"
+    },
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T14:46:13Z",
+      "last_paid_check": "2026-10-30T15:02:12Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
-            "over": -120,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342487445_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -110,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342487446_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Akira Schmid": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621167206&selectionId=82335730",
+            "point": 21.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621167206&selectionId=82335729"
           }
         }
       },
@@ -10221,6 +10248,12 @@
     "910": {
       "at": "2026-10-30T14:46:13Z",
       "book": null,
+      "event_id": "a536736a6da269d2e10edbdb27a789bd",
+      "goalie": "Akira Schmid"
+    },
+    "911": {
+      "at": "2026-10-30T15:02:12Z",
+      "book": "FD",
       "event_id": "a536736a6da269d2e10edbdb27a789bd",
       "goalie": "Akira Schmid"
     }
