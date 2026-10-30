@@ -292,7 +292,7 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17563,
+  "credits_remaining": 17562,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -705,23 +705,23 @@
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T21:47:11Z",
+      "last_paid_check": "2026-10-30T22:02:12Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342485536_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232342485537_15L42133Q1888607062Q20"
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232343227726_13L42133Q1-1959470774Q20",
+            "point": 20.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384101816%232343227727_15L42133Q1-1449474Q20"
           }
         },
         "fanduel": {
           "Akira Schmid": {
-            "over": -104,
+            "over": 100,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621167206&selectionId=82335730",
             "point": 21.5,
-            "under": -128,
+            "under": -132,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621167206&selectionId=82335729"
           }
         }
