@@ -7716,6 +7716,8 @@
     "VAN:8480078": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-10-30T20:30:22Z",
       "seen": "2026-10-30T19:14:11Z",
       "status": "DTD"
     },
@@ -10190,7 +10192,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.28,
-    "fetched": "2026-10-30T14:30:21Z",
+    "fetched": "2026-10-30T20:30:22Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.92307,
@@ -10198,7 +10200,7 @@
       },
       "bostonbruins": {
         "sa": 27.35714,
-        "sf": 25.92857
+        "sf": 25.85714
       },
       "buffalosabres": {
         "sa": 26.92307,
@@ -10246,7 +10248,7 @@
       },
       "minnesotawild": {
         "sa": 25.13333,
-        "sf": 30.86666
+        "sf": 30.93333
       },
       "montrealcanadiens": {
         "sa": 27.46153,
@@ -10254,14 +10256,14 @@
       },
       "nashvillepredators": {
         "sa": 29.07692,
-        "sf": 25.6923
+        "sf": 25.76923
       },
       "newjerseydevils": {
         "sa": 25.07692,
         "sf": 32.61538
       },
       "newyorkislanders": {
-        "sa": 26.23076,
+        "sa": 26.30769,
         "sf": 26.07692
       },
       "newyorkrangers": {
@@ -10277,8 +10279,8 @@
         "sf": 23.46666
       },
       "pittsburghpenguins": {
-        "sa": 28.0,
-        "sf": 28.23076
+        "sa": 28.07692,
+        "sf": 28.15384
       },
       "sanjosesharks": {
         "sa": 30.71428,
@@ -10289,7 +10291,7 @@
         "sf": 25.46153
       },
       "stlouisblues": {
-        "sa": 28.15384,
+        "sa": 28.07692,
         "sf": 27.30769
       },
       "tampabaylightning": {
@@ -10301,8 +10303,8 @@
         "sf": 28.13333
       },
       "utahmammoth": {
-        "sa": 24.78571,
-        "sf": 30.42857
+        "sa": 24.71428,
+        "sf": 30.5
       },
       "vancouvercanucks": {
         "sa": 32.2,
@@ -10313,7 +10315,7 @@
         "sf": 29.71428
       },
       "washingtoncapitals": {
-        "sa": 28.0,
+        "sa": 28.08333,
         "sf": 27.83333
       },
       "winnipegjets": {
