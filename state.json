@@ -184,6 +184,7 @@
       "text": "Vladar (PHI) - CBJ@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620209764&selectionId=74843678\u0004u23.5\u0005"
     },
     "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner": {
+      "done": true,
       "lines": {
         "DK": 25.5,
         "FD": 24.5
@@ -262,6 +263,10 @@
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
       "d": "2026-10-27",
       "r": "W"
+    },
+    "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner": {
+      "d": "2026-10-29",
+      "r": "L"
     },
     "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
       "d": "2026-10-28",
@@ -9368,7 +9373,8 @@
   "night_graded": {
     "2026-10-29": [
       "05a8ed51399342594c33ae0faa0f9027|Jet Greaves",
-      "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov"
+      "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov",
+      "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner"
     ]
   },
   "picks_channel": {
