@@ -55,28 +55,6 @@
       "start": "2026-10-29T00:40:00Z",
       "text": "Jarry (EDM) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348478%232340380870_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683956&selectionId=74843127\u0004o22.5\u0005"
     },
-    "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
-      "done": true,
-      "lines": {
-        "DK": 25.5,
-        "FD": 25.5
-      },
-      "mid": 71,
-      "side": "OVER",
-      "start": "2026-10-27T00:40:00Z",
-      "text": "Cooley (CGY) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382866410%232336961820_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619887758&selectionId=89998349\u0004o25.5\u0005"
-    },
-    "20277c97a62bde35c5494acdb5912a68|Sergei Bobrovsky": {
-      "done": true,
-      "lines": {
-        "DK": 26.5,
-        "FD": 25.5
-      },
-      "mid": 70,
-      "side": "OVER",
-      "start": "2026-10-27T00:40:00Z",
-      "text": "Bobrovsky (TOR) - TOR@CGY 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382658644%232336849634_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.619925188&selectionId=74802629\u0004o25.5\u0005"
-    },
     "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight": {
       "done": true,
       "lines": {
@@ -98,6 +76,15 @@
       "side": "UNDER",
       "start": "2026-10-28T23:40:00Z",
       "text": "Woll (PHI) - PHI@WSH 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383352976%232340308384_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620686470&selectionId=75454784\u0004u27.5\u0005"
+    },
+    "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 121,
+      "side": "OVER",
+      "start": "2026-10-30T22:10:00Z",
+      "text": "Hellebuyck (NJD) - NJD@VGK 6:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125\u0004o22.5\u0005"
     },
     "5f16cb74336431221c132f05c0e31d04|Leevi Merilainen": {
       "done": true,
@@ -11348,6 +11335,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088153,
+  "tg_offset": 69088154,
   "watch": {}
 }
