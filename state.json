@@ -292,19 +292,19 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17542,
+  "credits_remaining": 17540,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T22:39:15Z",
+      "last_paid_check": "2026-10-30T22:55:15Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
-            "over": -115,
+            "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384102357%232342873222_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -115,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384102357%232342873223_15L42133Q1458571637Q20"
           }
         },
@@ -705,7 +705,7 @@
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T22:54:12Z",
+      "last_paid_check": "2026-10-30T22:55:15Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
