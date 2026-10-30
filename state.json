@@ -292,7 +292,7 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17574,
+  "credits_remaining": 17573,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -614,7 +614,7 @@
     "5c712e15e1cd4b9283b4bf410fb334f4": {
       "commence_time": "2026-10-30T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T21:42:12Z",
+      "last_paid_check": "2026-10-30T21:43:12Z",
       "lines": {
         "draftkings": {
           "Adin Hill": {
@@ -634,10 +634,10 @@
         },
         "fanduel": {
           "Connor Hellebuyck": {
-            "over": -114,
+            "over": -112,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125",
             "point": 23.5,
-            "under": -114,
+            "under": -118,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843124"
           }
         }
