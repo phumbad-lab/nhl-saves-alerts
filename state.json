@@ -292,12 +292,12 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17590,
+  "credits_remaining": 17589,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T20:20:18Z",
+      "last_paid_check": "2026-10-30T20:36:11Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
@@ -7715,11 +7715,9 @@
     },
     "VAN:8480078": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-30T20:30:22Z",
+      "out_at": "2026-10-30T20:36:11Z",
       "seen": "2026-10-30T19:14:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "WPG:8477504": {
       "alerted": true,
