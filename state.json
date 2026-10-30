@@ -702,6 +702,12 @@
       },
       "matchup": "Winnipeg Jets @ Florida Panthers"
     },
+    "a9b3c158b86d367eaa9dd342fbb440b3": {
+      "commence_time": "2026-10-31T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Toronto Maple Leafs @ Vancouver Canucks"
+    },
     "b07a2b3d9d717c9eb693422aef404555": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
@@ -979,6 +985,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Chicago Blackhawks @ Boston Bruins"
+    },
+    "fa8413d05f6c8b2d8f68cc0d17551fa9": {
+      "commence_time": "2026-10-31T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Pittsburgh Penguins @ Montr\u00e9al Canadiens"
     }
   },
   "game_log": {
