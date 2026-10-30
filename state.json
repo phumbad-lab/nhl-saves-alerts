@@ -153,6 +153,7 @@
       "text": "Askarov (SJS) - VAN@SJS 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383749352%232341882587_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620942747&selectionId=77385758\u0004o21.5\u0005"
     },
     "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 23.5
@@ -254,6 +255,10 @@
     },
     "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov": {
       "d": "2026-10-27",
+      "r": "W"
+    },
+    "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs": {
+      "d": "2026-10-29",
       "r": "W"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
@@ -9385,7 +9390,8 @@
     "2026-10-29": [
       "05a8ed51399342594c33ae0faa0f9027|Jet Greaves",
       "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov",
-      "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner"
+      "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner",
+      "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs"
     ]
   },
   "picks_channel": {
