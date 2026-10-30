@@ -89,12 +89,13 @@
     },
     "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
       "lines": {
-        "FD": 22.5
+        "DK": 23.5,
+        "FD": 23.5
       },
       "mid": 121,
       "side": "OVER",
       "start": "2026-10-30T22:10:00Z",
-      "text": "Hellebuyck (NJD) - NJD@VGK 6:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125\u0004o22.5\u0005"
+      "text": "Hellebuyck (NJD) - NJD@VGK 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384098759%232342104771_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125\u0004o23.5\u0005"
     },
     "5f16cb74336431221c132f05c0e31d04|Leevi Merilainen": {
       "done": true,
@@ -291,7 +292,7 @@
     }
   },
   "corrections_checked": "2026-10-30",
-  "credits_remaining": 17640,
+  "credits_remaining": 17638,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -607,8 +608,17 @@
     "5c712e15e1cd4b9283b4bf410fb334f4": {
       "commence_time": "2026-10-30T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T16:04:11Z",
+      "last_paid_check": "2026-10-30T16:19:12Z",
       "lines": {
+        "draftkings": {
+          "Connor Hellebuyck": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384098759%232342104771_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384098759%232342104802_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
           "Connor Hellebuyck": {
             "over": -110,
@@ -669,7 +679,7 @@
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-30T16:04:11Z",
+      "last_paid_check": "2026-10-30T16:19:12Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
@@ -10301,6 +10311,12 @@
       "book": "FD",
       "event_id": "026d37181dd4ace0df7565d9b208ce7e",
       "goalie": "Dustin Wolf"
+    },
+    "916": {
+      "at": "2026-10-30T16:19:12Z",
+      "book": "DK",
+      "event_id": "5c712e15e1cd4b9283b4bf410fb334f4",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
