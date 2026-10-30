@@ -7707,6 +7707,12 @@
       "seen": "2026-10-30T17:12:11Z",
       "status": "DTD"
     },
+    "VAN:8480078": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-10-30T19:14:11Z",
+      "status": "DTD"
+    },
     "WPG:8477504": {
       "alerted": true,
       "out_at": "2026-10-15T17:24:11Z",
