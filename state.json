@@ -259,7 +259,7 @@
     }
   },
   "corrections_checked": "2026-10-29",
-  "credits_remaining": 17679,
+  "credits_remaining": 17678,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:10:00Z",
@@ -725,46 +725,6 @@
       },
       "matchup": "Washington Capitals @ Nashville Predators"
     },
-    "928c19ad83dc850d60051b756f7db2cd": {
-      "commence_time": "2026-10-28T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-27T18:36:12Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Fowler": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934923%232338669084_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934923%232338669085_15L42133Q1458571637Q20"
-          },
-          "Jordan Binnington": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383212998%232338517638_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383212998%232338517639_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Jacob Fowler": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620239756&selectionId=92532103",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620239756&selectionId=92532105"
-          },
-          "Jordan Binnington": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620250183&selectionId=74801977",
-            "point": 23.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620250183&selectionId=74801976"
-          }
-        }
-      },
-      "matchup": "Montr\u00e9al Canadiens @ St Louis Blues"
-    },
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:10:00Z",
       "last_paid_check": null,
@@ -920,15 +880,15 @@
     "ed751626a7b1f47888222319fec01199": {
       "commence_time": "2026-10-30T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-29T23:55:14Z",
+      "last_paid_check": "2026-10-30T00:10:19Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383757888%232341907153_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383757888%232341907154_15L42133Q184490156Q20"
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383757888%232341216907_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383757888%232341216908_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -1022,46 +982,6 @@
         }
       },
       "matchup": "Toronto Maple Leafs @ Seattle Kraken"
-    },
-    "fa0255827e54afa3c871868fed566dd0": {
-      "commence_time": "2026-10-28T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-27T17:34:12Z",
-      "lines": {
-        "draftkings": {
-          "Juuse Saros": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338618040_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382934024%232338618041_15L42133Q1731448625Q20"
-          },
-          "Semyon Varlamov": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA382933823%232338621152_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA382933823%232338621153_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Juuse Saros": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620228419&selectionId=74973972",
-            "point": 24.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620228419&selectionId=74973971"
-          },
-          "Semyon Varlamov": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620229109&selectionId=74880666",
-            "point": 23.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620229109&selectionId=74880667"
-          }
-        }
-      },
-      "matchup": "New York Islanders @ Nashville Predators"
     },
     "fc98fb73985d5caecdfffd4cb0f4d3ed": {
       "commence_time": "2026-10-28T01:10:00Z",
