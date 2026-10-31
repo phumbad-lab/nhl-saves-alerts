@@ -500,6 +500,12 @@
       "last_paid_check": "2026-10-31T19:58:10Z",
       "lines": {
         "draftkings": {
+          "Arsenii Sergeev": {
+            "manual": true,
+            "over": null,
+            "point": 29.5,
+            "under": null
+          },
           "Mackenzie Blackwood": {
             "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384292657%232343889804_13L42133Q1-659212771Q20",
@@ -10894,6 +10900,12 @@
       "book": null,
       "event_id": "7bfae1a5166976e5ca05e92319277910",
       "goalie": "Jet Greaves"
+    },
+    "975": {
+      "at": "2026-10-31T19:59:10Z",
+      "book": null,
+      "event_id": "394955492df212637701f4f21464f05f",
+      "goalie": "Arsenii Sergeev"
     }
   },
   "shot_stats": {
@@ -12035,6 +12047,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088163,
+  "tg_offset": 69088164,
   "watch": {}
 }
