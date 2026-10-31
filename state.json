@@ -67,6 +67,7 @@
       "text": "Knight (CHI) - CHI@DET 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341963736_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620958691&selectionId=74973969\u0004u27.5\u0005"
     },
     "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 25.5
@@ -232,6 +233,10 @@
     "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight": {
       "d": "2026-10-29",
       "r": "W"
+    },
+    "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen": {
+      "d": "2026-10-31",
+      "r": "L"
     },
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "d": "2026-10-28",
@@ -10147,7 +10152,8 @@
     "2026-10-31": [
       "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry",
       "5914f2527dc280fc35af01099f445bb9|Justus Annunen",
-      "f0eeae1be040fca9b93b46bc8c55068d|Joel Hofer"
+      "f0eeae1be040fca9b93b46bc8c55068d|Joel Hofer",
+      "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen"
     ]
   },
   "picks_channel": {
