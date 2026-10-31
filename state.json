@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17453,
+  "credits_remaining": 17452,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -476,8 +476,19 @@
     },
     "394955492df212637701f4f21464f05f": {
       "commence_time": "2026-11-01T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-31T16:51:11Z",
+      "lines": {
+        "draftkings": {
+          "Mackenzie Blackwood": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384292657%232343889804_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384292657%232343889805_15L42133Q1888607062Q20"
+          }
+        }
+      },
       "matchup": "Calgary Flames @ Colorado Avalanche"
     },
     "3ec4c9abb60e5bf086a0460336248b16": {
@@ -4277,8 +4288,15 @@
     ]
   },
   "h2h_CGY-COL": {
-    "fetched": "2026-10-08T17:55:14Z",
+    "fetched": "2026-10-31T16:51:11Z",
     "value": [
+      [
+        "2026-10-08",
+        "COL",
+        "CGY",
+        30,
+        29
+      ],
       [
         "2026-04-14",
         "COL",
@@ -4299,13 +4317,6 @@
         "COL",
         29,
         49
-      ],
-      [
-        "2025-03-31",
-        "CGY",
-        "COL",
-        27,
-        30
       ]
     ]
   },
@@ -9896,9 +9907,10 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-10-30T15:37:12Z",
+    "fetched": "2026-10-31T16:51:11Z",
     "value": [
       "Devin Cooley",
+      "Arsenii Sergeev",
       "Dustin Wolf"
     ]
   },
@@ -9910,7 +9922,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-10-28T16:54:12Z",
+    "fetched": "2026-10-31T16:51:11Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -10576,6 +10588,12 @@
       "book": null,
       "event_id": "fa8413d05f6c8b2d8f68cc0d17551fa9",
       "goalie": "Sergei Murashov"
+    },
+    "951": {
+      "at": "2026-10-31T16:51:11Z",
+      "book": null,
+      "event_id": "394955492df212637701f4f21464f05f",
+      "goalie": "Mackenzie Blackwood"
     }
   },
   "shot_stats": {
