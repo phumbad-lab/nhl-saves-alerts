@@ -7851,12 +7851,10 @@
       "status": "OUT"
     },
     "CHI:8481524": {
-      "alerted": true,
-      "out_at": "2026-10-29T16:48:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-31T15:56:11Z",
+      "alerted": false,
+      "out_at": "2026-10-31T16:01:12Z",
       "seen": "2026-10-15T16:53:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "EDM:8475786": {
       "alerted": true,
