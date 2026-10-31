@@ -7917,11 +7917,9 @@
     },
     "STL:8476892": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-10-31T16:07:10Z",
+      "out_at": "2026-10-31T16:12:12Z",
       "seen": "2026-10-30T17:12:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "VAN:8480078": {
       "alerted": true,
