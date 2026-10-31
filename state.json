@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17428,
+  "credits_remaining": 17427,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -775,7 +775,7 @@
     "a9b3c158b86d367eaa9dd342fbb440b3": {
       "commence_time": "2026-10-31T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T17:51:26Z",
+      "last_paid_check": "2026-10-31T18:07:10Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
