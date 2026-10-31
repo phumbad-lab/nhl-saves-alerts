@@ -66,6 +66,16 @@
       "start": "2026-10-29T23:40:00Z",
       "text": "Knight (CHI) - CHI@DET 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383616127%232341963736_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620958691&selectionId=74973969\u0004u27.5\u0005"
     },
+    "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen": {
+      "lines": {
+        "DK": 24.5,
+        "FD": 25.5
+      },
+      "mid": 133,
+      "side": "UNDER",
+      "start": "2026-10-31T20:10:00Z",
+      "text": "Luukkonen (BUF) - BUF@LAK 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384344244%232343114096_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621539562&selectionId=77455873\u0004u25.5\u0005"
+    },
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "done": true,
       "lines": {
@@ -12025,6 +12035,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088162,
+  "tg_offset": 69088163,
   "watch": {}
 }
