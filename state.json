@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17443,
+  "credits_remaining": 17442,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -477,14 +477,14 @@
     "394955492df212637701f4f21464f05f": {
       "commence_time": "2026-11-01T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T17:06:11Z",
+      "last_paid_check": "2026-10-31T17:22:12Z",
       "lines": {
         "draftkings": {
           "Mackenzie Blackwood": {
-            "over": 100,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384292657%232343889804_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -135,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384292657%232343889805_15L42133Q1888607062Q20"
           }
         }
