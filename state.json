@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17422,
+  "credits_remaining": 17420,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -638,7 +638,7 @@
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T18:14:12Z",
+      "last_paid_check": "2026-10-31T18:30:21Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -743,15 +743,31 @@
     "9655de40a1e110a66923a0cd36e0bd78": {
       "commence_time": "2026-10-31T20:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T18:14:12Z",
+      "last_paid_check": "2026-10-31T18:30:21Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
-            "over": -130,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384624878%232344306424_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -105,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384624878%232344306425_15L42133Q1458571637Q20"
+          }
+        },
+        "fanduel": {
+          "Alex Nedeljkovic": {
+            "over": -120,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621513851&selectionId=75304747",
+            "point": 24.5,
+            "under": -110,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621513851&selectionId=75304746"
+          },
+          "Samuel Ersson": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621514558&selectionId=74932576",
+            "point": 21.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621514558&selectionId=74932577"
           }
         }
       },
@@ -8066,7 +8082,7 @@
       "status": "OUT"
     },
     "LAK:8477960": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-10-31T18:24:12Z",
       "seen": "2026-10-31T18:24:12Z",
       "status": "OUT"
@@ -10732,6 +10748,18 @@
     "960": {
       "at": "2026-10-31T18:14:12Z",
       "book": null,
+      "event_id": "9655de40a1e110a66923a0cd36e0bd78",
+      "goalie": "Alex Nedeljkovic"
+    },
+    "961": {
+      "at": "2026-10-31T18:30:21Z",
+      "book": null,
+      "event_id": "9655de40a1e110a66923a0cd36e0bd78",
+      "goalie": "Samuel Ersson"
+    },
+    "962": {
+      "at": "2026-10-31T18:30:21Z",
+      "book": "FD",
       "event_id": "9655de40a1e110a66923a0cd36e0bd78",
       "goalie": "Alex Nedeljkovic"
     }
