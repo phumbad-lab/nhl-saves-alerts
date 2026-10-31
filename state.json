@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17462,
+  "credits_remaining": 17460,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -574,7 +574,7 @@
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T16:25:13Z",
+      "last_paid_check": "2026-10-31T16:40:17Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -949,14 +949,21 @@
     "f912d0a74ab85bac2021199aa03abb3f": {
       "commence_time": "2026-10-31T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T16:25:13Z",
+      "last_paid_check": "2026-10-31T16:40:17Z",
       "lines": {
         "draftkings": {
+          "Arvid Soderblom": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384369632%232344180028_13L42133Q1-54034395Q20",
+            "point": 26.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384369632%232344180029_15L42133Q11150106798Q20"
+          },
           "Michael DiPietro": {
-            "over": -115,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384579006%232344098426_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -120,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384579006%232344098427_15L42133Q1888607062Q20"
           }
         },
@@ -2772,7 +2779,7 @@
     ]
   },
   "gl_8481524": {
-    "fetched": "2026-10-29T18:47:11Z",
+    "fetched": "2026-10-31T16:40:17Z",
     "value": [
       "2026-09-29",
       "2026-10-01",
@@ -10521,6 +10528,12 @@
       "book": null,
       "event_id": "f0eeae1be040fca9b93b46bc8c55068d",
       "goalie": "Joel Hofer"
+    },
+    "947": {
+      "at": "2026-10-31T16:40:17Z",
+      "book": null,
+      "event_id": "f912d0a74ab85bac2021199aa03abb3f",
+      "goalie": "Arvid Soderblom"
     }
   },
   "shot_stats": {
