@@ -172,6 +172,16 @@
       "side": "OVER",
       "start": "2026-10-31T23:10:00Z",
       "text": "Fowler (MTL) - PIT@MTL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384302828%232344063797_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621452710&selectionId=92532103\u0004o23.5\u0005"
+    },
+    "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov": {
+      "lines": {
+        "DK": 26.5,
+        "FD": 24.5
+      },
+      "mid": 132,
+      "side": "OVER",
+      "start": "2026-10-31T23:10:00Z",
+      "text": "Murashov (PIT) - PIT@MTL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384592512%232344154939_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621496223&selectionId=91004572\u0004o24.5\u0005"
     }
   },
   "channel_recap_sent": "2026-10-31",
@@ -11792,6 +11802,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088159,
+  "tg_offset": 69088160,
   "watch": {}
 }
