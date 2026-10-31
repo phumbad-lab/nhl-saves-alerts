@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17478,
+  "credits_remaining": 17476,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -869,14 +869,14 @@
     "f0eeae1be040fca9b93b46bc8c55068d": {
       "commence_time": "2026-10-31T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T15:45:16Z",
+      "last_paid_check": "2026-10-31T16:00:23Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
-            "over": -130,
+            "over": -135,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384275874%232343953646_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -105,
+            "under": 100,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384275874%232343953647_15L42133Q1888607062Q20"
           }
         },
@@ -935,7 +935,7 @@
     "f912d0a74ab85bac2021199aa03abb3f": {
       "commence_time": "2026-10-31T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T15:44:16Z",
+      "last_paid_check": "2026-10-31T16:00:23Z",
       "lines": {
         "draftkings": {
           "Michael DiPietro": {
@@ -944,6 +944,15 @@
             "point": 21.5,
             "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384579006%232344098427_15L42133Q1888607062Q20"
+          }
+        },
+        "fanduel": {
+          "Michael DiPietro": {
+            "over": -136,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621461844&selectionId=103992256",
+            "point": 20.5,
+            "under": 102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621461844&selectionId=103992255"
           }
         }
       },
@@ -10469,12 +10478,18 @@
       "book": "DK",
       "event_id": "7bfae1a5166976e5ca05e92319277910",
       "goalie": "Jake Oettinger"
+    },
+    "943": {
+      "at": "2026-10-31T16:00:23Z",
+      "book": "FD",
+      "event_id": "f912d0a74ab85bac2021199aa03abb3f",
+      "goalie": "Michael DiPietro"
     }
   },
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.28,
-    "fetched": "2026-10-31T10:00:23Z",
+    "fetched": "2026-10-31T16:00:23Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.92307,
