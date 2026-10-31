@@ -302,7 +302,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17501,
+  "credits_remaining": 17500,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -827,14 +827,23 @@
     "f0eeae1be040fca9b93b46bc8c55068d": {
       "commence_time": "2026-10-31T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T13:26:11Z",
+      "last_paid_check": "2026-10-31T13:42:11Z",
       "lines": {
-        "fanduel": {
+        "draftkings": {
           "John Gibson": {
             "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384275874%232343953646_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384275874%232343953647_15L42133Q1888607062Q20"
+          }
+        },
+        "fanduel": {
+          "John Gibson": {
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621420423&selectionId=76247482",
             "point": 21.5,
-            "under": -102,
+            "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621420423&selectionId=76247481"
           }
         }
@@ -10150,6 +10159,12 @@
     "925": {
       "at": "2026-10-31T13:10:16Z",
       "book": null,
+      "event_id": "f0eeae1be040fca9b93b46bc8c55068d",
+      "goalie": "John Gibson"
+    },
+    "926": {
+      "at": "2026-10-31T13:42:11Z",
+      "book": "DK",
       "event_id": "f0eeae1be040fca9b93b46bc8c55068d",
       "goalie": "John Gibson"
     }
