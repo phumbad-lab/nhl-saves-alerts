@@ -865,46 +865,6 @@
       },
       "matchup": "Winnipeg Jets @ Tampa Bay Lightning"
     },
-    "f7510932dec00855b611e3685080819c": {
-      "commence_time": "2026-10-29T02:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-28T21:40:18Z",
-      "lines": {
-        "draftkings": {
-          "Philipp Grubauer": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340382039_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340382040_15L42133Q1731448625Q20"
-          },
-          "Sergei Bobrovsky": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232340515144_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383300717%232340515145_15L42133Q11150106798Q20"
-          }
-        },
-        "fanduel": {
-          "Philipp Grubauer": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680119&selectionId=74802625",
-            "point": 25.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680119&selectionId=74802624"
-          },
-          "Sergei Bobrovsky": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680116&selectionId=74802629",
-            "point": 26.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680116&selectionId=74802631"
-          }
-        }
-      },
-      "matchup": "Toronto Maple Leafs @ Seattle Kraken"
-    },
     "f912d0a74ab85bac2021199aa03abb3f": {
       "commence_time": "2026-10-31T17:10:00Z",
       "last_paid_check": null,
