@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17467,
+  "credits_remaining": 17465,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -574,14 +574,14 @@
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T16:09:11Z",
+      "last_paid_check": "2026-10-31T16:25:13Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
-            "over": -135,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384328770%232343063054_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": 100,
+            "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384328770%232343063075_15L42133Q1888607062Q20"
           }
         },
@@ -949,7 +949,7 @@
     "f912d0a74ab85bac2021199aa03abb3f": {
       "commence_time": "2026-10-31T17:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T16:16:10Z",
+      "last_paid_check": "2026-10-31T16:25:13Z",
       "lines": {
         "draftkings": {
           "Michael DiPietro": {
