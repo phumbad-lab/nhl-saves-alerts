@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17407,
+  "credits_remaining": 17405,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -487,7 +487,7 @@
     "394955492df212637701f4f21464f05f": {
       "commence_time": "2026-11-01T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T19:11:11Z",
+      "last_paid_check": "2026-10-31T19:26:11Z",
       "lines": {
         "draftkings": {
           "Mackenzie Blackwood": {
@@ -500,10 +500,10 @@
         },
         "fanduel": {
           "Mackenzie Blackwood": {
-            "over": -106,
+            "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621502128&selectionId=74101473",
             "point": 21.5,
-            "under": -125,
+            "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621502128&selectionId=74101476"
           }
         }
@@ -826,14 +826,14 @@
     "a9b3c158b86d367eaa9dd342fbb440b3": {
       "commence_time": "2026-10-31T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T19:10:18Z",
+      "last_paid_check": "2026-10-31T19:26:11Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
-            "over": -125,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384353706%232344044322_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -110,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384353706%232344044323_15L42133Q184490156Q20"
           }
         },
