@@ -73,7 +73,7 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "taken", "taken_line", "taken_result", "taken_at",
                "key_out",
                "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag",
-               "matchup", "warn"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
+               "matchup", "warn", "hr_l5"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -705,7 +705,8 @@ def save_picks(rows):
         w.writerows(rows)
 
 
-def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None, injuries=None, stats=None):
+def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=None, injuries=None, stats=None,
+              games=None):
     """Append one row per newly posted (book, goalie) line."""
     rows = load_picks()
     seen = {(r["event_id"], r["goalie"], r["book"]) for r in rows}
@@ -736,6 +737,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             **shadow_numbers(event, stats, m, side, ln.get("point")),
             "matchup": matchup_marker(event, side, raw),
             "warn": rank_warning(event, side, ab, raw, m[side]["delta"] if (m and side) else None),
+            "hr_l5": (lambda v: f"{v:.1f}" if v is not None else "")(venue_l5(games, ab, side)),
         })
     save_picks(rows)
 
@@ -1123,6 +1125,43 @@ def recent_games(games, team, stat, n=RECENT_GAMES):
     return out
 
 
+HR_L5_GAP = 2.0   # 📍 shown when the home/road last-5 differs from the model by this many shots
+HR_L5_MIN = 3     # ...and each team has at least this many games at tonight's venue
+
+
+def venue_l5(games, ab, side):
+    """Owner Oct 31: home/road last 5. Shots on this goalie from the opponent's last 5 games at
+    its venue tonight (road if it's the away team) and his own team's last 5 at its venue,
+    averaged: (opp shots-for + own shots-against) / 2. None without HR_L5_MIN games each.
+    Test Oct 31 (158 games): when this was 2+ shots off the model, overs 8-2 / unders 10-4."""
+    if not (games and side):
+        return None
+    other = "home" if side == "away" else "away"
+    own, opp = ab.get(side), ab.get(other)
+    def last(team, venue, stat):
+        out = []
+        for d, a, h, asog, hsog in sorted(games, key=lambda g: g[0], reverse=True):
+            if venue == "away" and team == a:
+                out.append(asog if stat == "sf" else hsog)
+            elif venue == "home" and team == h:
+                out.append(hsog if stat == "sf" else asog)
+            if len(out) == RECENT_GAMES:
+                break
+        return out
+    sf, sa = last(opp, other, "sf"), last(own, side, "sa")
+    if len(sf) < HR_L5_MIN or len(sa) < HR_L5_MIN:
+        return None
+    return (sum(sf) / len(sf) + sum(sa) / len(sa)) / 2
+
+
+def venue_marker(games, ab, side, model_shots):
+    """' · 📍 H/R L5 28.4 shots → OVER' when the home/road last 5 is HR_L5_GAP+ shots off the model."""
+    v = venue_l5(games, ab, side)
+    if v is None or model_shots is None or abs(v - model_shots) < HR_L5_GAP:
+        return ""
+    return f" · 📍 H/R L5 {v:.1f} shots → {'OVER' if v > model_shots else 'UNDER'}"
+
+
 MATCHUP_RANK = 10  # 🎯 = opponent shots-for AND own shots-against both in the top/bottom this many
 
 
@@ -1265,7 +1304,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
             warn = rank_warning(event, side, ab, raw, g["delta"])
             out.append(f"{g['shots']:.1f} shots, {g['saves']:.1f} saves expected"
                        + (f" · 🎯 {mk.lower()} matchup" if mk else "")
-                       + (f" · ⚠️ {warn}" if warn else ""))
+                       + (f" · ⚠️ {warn}" if warn else "")
+                       + venue_marker(games, ab, side, g["shots"]))
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
@@ -2236,7 +2276,7 @@ def alert_new_lines(event, rec, new_pairs, known_before, m, stats, state, injuri
     if show_h2h and h2h and any(p not in known_before for _, p in new_pairs):
         rec["h2h_sent"] = True
     log_picks(event, new_pairs, rec["lines"], m, sides, abbrevs, now, h2h, (stats or {}).get("raw"),
-              injuries, stats)
+              injuries, stats, (state.get("game_log") or {}).get("games"))
     names = ", ".join(f"{p} ({BOOK_SHORT.get(b, b)})" for b, p in sorted(new_pairs))
     print(f"ALERT {rec['matchup']}: {names}")
     for book, player in sorted(new_pairs):  # the other book posted a goalie you're in on
