@@ -25,3 +25,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-30T00:35:14Z,2026-10-29,Colten Ellis,BUF,Sabres @ Ducks,FADE,24.5,24.3,terry injured,c8abddd6d4a9c96f45dcdd287f392537
 2026-10-30T15:47:11Z,2026-10-30,Dustin Wolf,CGY,Kraken @ Flames,FADE,26.5,25.0,McCann injury,026d37181dd4ace0df7565d9b208ce7e
 2026-10-31T15:38:12Z,2026-10-31,Jacob Fowler,MTL,Penguins @ Canadiens,FADE,22.5,23.5,like h2h history,fa8413d05f6c8b2d8f68cc0d17551fa9
+2026-10-31T15:55:13Z,2026-10-31,Jake Oettinger,DAL,Jackets @ Stars,UNDER,21.5,19.4,cashed out 21u,7bfae1a5166976e5ca05e92319277910
