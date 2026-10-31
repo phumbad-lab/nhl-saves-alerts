@@ -90,12 +90,13 @@
     },
     "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
       "lines": {
+        "DK": 22.5,
         "FD": 21.5
       },
       "mid": 130,
       "side": "UNDER",
       "start": "2026-11-01T00:10:00Z",
-      "text": "Oettinger (DAL) - CBJ@DAL 8:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880671\u0004u21.5\u0005"
+      "text": "Oettinger (DAL) - CBJ@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384328770%232344094347_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880671\u0004u21.5\u0005"
     },
     "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry": {
       "lines": {
@@ -265,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17479,
+  "credits_remaining": 17478,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -573,8 +574,17 @@
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T15:38:12Z",
+      "last_paid_check": "2026-10-31T15:53:18Z",
       "lines": {
+        "draftkings": {
+          "Jake Oettinger": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384328770%232344094346_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384328770%232344094347_15L42133Q1874096526Q20"
+          }
+        },
         "fanduel": {
           "Jake Oettinger": {
             "over": -132,
@@ -10451,6 +10461,12 @@
       "book": null,
       "event_id": "f912d0a74ab85bac2021199aa03abb3f",
       "goalie": "Michael DiPietro"
+    },
+    "940": {
+      "at": "2026-10-31T15:53:18Z",
+      "book": "DK",
+      "event_id": "7bfae1a5166976e5ca05e92319277910",
+      "goalie": "Jake Oettinger"
     }
   },
   "shot_stats": {
