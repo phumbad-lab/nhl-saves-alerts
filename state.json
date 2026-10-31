@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17404,
+  "credits_remaining": 17403,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -513,7 +513,7 @@
     "3ec4c9abb60e5bf086a0460336248b16": {
       "commence_time": "2026-10-31T20:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T19:25:14Z",
+      "last_paid_check": "2026-10-31T19:40:17Z",
       "lines": {
         "fanduel": {
           "Anton Forsberg": {
@@ -522,6 +522,13 @@
             "point": 23.5,
             "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621528813&selectionId=75038727"
+          },
+          "Ukko-Pekka Luukkonen": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621539562&selectionId=77455874",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621539562&selectionId=77455873"
           }
         }
       },
@@ -10830,6 +10837,12 @@
       "book": null,
       "event_id": "3ec4c9abb60e5bf086a0460336248b16",
       "goalie": "Anton Forsberg"
+    },
+    "968": {
+      "at": "2026-10-31T19:40:17Z",
+      "book": null,
+      "event_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "goalie": "Ukko-Pekka Luukkonen"
     }
   },
   "shot_stats": {
