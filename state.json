@@ -88,6 +88,15 @@
       "start": "2026-10-30T22:10:00Z",
       "text": "Hellebuyck (NJD) - NJD@VGK 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384098759%232342104771_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125\u0004o23.5\u0005"
     },
+    "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
+      "lines": {
+        "FD": 21.5
+      },
+      "mid": 130,
+      "side": "UNDER",
+      "start": "2026-11-01T00:10:00Z",
+      "text": "Oettinger (DAL) - CBJ@DAL 8:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880671\u0004u21.5\u0005"
+    },
     "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry": {
       "lines": {
         "DK": 25.5,
@@ -11535,6 +11544,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088157,
+  "tg_offset": 69088158,
   "watch": {}
 }
