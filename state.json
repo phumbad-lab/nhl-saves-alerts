@@ -1,6 +1,7 @@
 {
   "channel_posts": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 25.5
@@ -211,6 +212,10 @@
   },
   "channel_recap_sent": "2026-10-30",
   "channel_record": {
+    "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
+      "d": "2026-10-30",
+      "r": "W"
+    },
     "05a8ed51399342594c33ae0faa0f9027|Jet Greaves": {
       "d": "2026-10-29",
       "r": "L"
@@ -9457,7 +9462,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-10-30": [
-      "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck"
+      "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck",
+      "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf"
     ]
   },
   "picks_channel": {
