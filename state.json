@@ -291,7 +291,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17370,
+  "credits_remaining": 17369,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -884,24 +884,31 @@
     "a9b3c158b86d367eaa9dd342fbb440b3": {
       "commence_time": "2026-10-31T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T22:41:11Z",
+      "last_paid_check": "2026-10-31T22:42:10Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384353706%232343717328_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384353706%232343717329_15L42133Q1874096526Q20"
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384353706%232344044322_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384353706%232344044323_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
           "Anthony Stolarz": {
-            "over": -108,
+            "over": -112,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621448575&selectionId=74842534",
             "point": 23.5,
-            "under": -122,
+            "under": -118,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621448575&selectionId=74842533"
+          },
+          "Leevi Merilainen": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621572884&selectionId=78174825",
+            "point": 24.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621572884&selectionId=78174826"
           }
         }
       },
@@ -2990,7 +2997,7 @@
     ]
   },
   "gl_8480078": {
-    "fetched": "2026-10-31T15:03:10Z",
+    "fetched": "2026-10-31T22:42:10Z",
     "value": [
       "2026-10-15",
       "2026-10-17",
@@ -10888,6 +10895,12 @@
       "book": "FD",
       "event_id": "7bfae1a5166976e5ca05e92319277910",
       "goalie": "Jet Greaves"
+    },
+    "982": {
+      "at": "2026-10-31T22:42:10Z",
+      "book": null,
+      "event_id": "a9b3c158b86d367eaa9dd342fbb440b3",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
