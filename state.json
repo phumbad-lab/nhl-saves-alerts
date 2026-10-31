@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17401,
+  "credits_remaining": 17399,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -513,8 +513,24 @@
     "3ec4c9abb60e5bf086a0460336248b16": {
       "commence_time": "2026-10-31T20:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T19:40:17Z",
+      "last_paid_check": "2026-10-31T19:50:17Z",
       "lines": {
+        "draftkings": {
+          "Anton Forsberg": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384667582%232344435950_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384667582%232344435951_15L42133Q184490156Q20"
+          },
+          "Ukko-Pekka Luukkonen": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384344244%232343114095_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384344244%232343114096_15L42133Q1731448625Q20"
+          }
+        },
         "fanduel": {
           "Anton Forsberg": {
             "over": -106,
@@ -656,7 +672,7 @@
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T19:34:11Z",
+      "last_paid_check": "2026-10-31T19:50:17Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -665,6 +681,13 @@
             "point": 21.5,
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384328770%232343063075_15L42133Q1888607062Q20"
+          },
+          "Jet Greaves": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384329159%232343063157_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384329159%232343063177_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
@@ -10843,6 +10866,24 @@
       "book": null,
       "event_id": "3ec4c9abb60e5bf086a0460336248b16",
       "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "969": {
+      "at": "2026-10-31T19:50:17Z",
+      "book": "DK",
+      "event_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "goalie": "Anton Forsberg"
+    },
+    "970": {
+      "at": "2026-10-31T19:50:17Z",
+      "book": "DK",
+      "event_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "971": {
+      "at": "2026-10-31T19:50:17Z",
+      "book": null,
+      "event_id": "7bfae1a5166976e5ca05e92319277910",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
