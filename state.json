@@ -10899,15 +10899,15 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.28,
-    "fetched": "2026-10-31T16:00:23Z",
+    "fetched": "2026-10-31T22:00:24Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.92307,
         "sf": 24.38461
       },
       "bostonbruins": {
-        "sa": 27.35714,
-        "sf": 25.85714
+        "sa": 28.26666,
+        "sf": 26.26666
       },
       "buffalosabres": {
         "sa": 26.92307,
@@ -10922,8 +10922,8 @@
         "sf": 33.2
       },
       "chicagoblackhawks": {
-        "sa": 30.30769,
-        "sf": 21.61538
+        "sa": 30.42857,
+        "sf": 23.0
       },
       "coloradoavalanche": {
         "sa": 28.0,
@@ -10938,12 +10938,12 @@
         "sf": 26.30769
       },
       "detroitredwings": {
-        "sa": 25.15384,
-        "sf": 29.84615
+        "sa": 24.42857,
+        "sf": 29.71428
       },
       "edmontonoilers": {
-        "sa": 26.84615,
-        "sf": 26.07692
+        "sa": 26.21428,
+        "sf": 25.92857
       },
       "floridapanthers": {
         "sa": 24.14285,
@@ -10962,16 +10962,16 @@
         "sf": 27.53846
       },
       "nashvillepredators": {
-        "sa": 29.07692,
-        "sf": 25.76923
+        "sa": 28.85714,
+        "sf": 26.28571
       },
       "newjerseydevils": {
         "sa": 24.78571,
         "sf": 32.57142
       },
       "newyorkislanders": {
-        "sa": 26.30769,
-        "sf": 26.07692
+        "sa": 26.14285,
+        "sf": 25.5
       },
       "newyorkrangers": {
         "sa": 26.28571,
@@ -10998,12 +10998,12 @@
         "sf": 25.21428
       },
       "stlouisblues": {
-        "sa": 28.07692,
-        "sf": 27.30769
+        "sa": 28.07142,
+        "sf": 26.42857
       },
       "tampabaylightning": {
-        "sa": 24.25,
-        "sf": 30.41666
+        "sa": 24.92307,
+        "sf": 30.07692
       },
       "torontomapleleafs": {
         "sa": 29.4,
@@ -11030,7 +11030,7 @@
         "sf": 26.35714
       }
     },
-    "save_pct": 0.8853,
+    "save_pct": 0.8848,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
