@@ -424,6 +424,12 @@
       },
       "matchup": "Columbus Blue Jackets @ Carolina Hurricanes"
     },
+    "10a3cc989861cd05cb2a95b5ebc4abb0": {
+      "commence_time": "2026-11-01T20:30:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Minnesota Wild @ Washington Capitals"
+    },
     "2f65119127127c0185cf3bdc236a00f2": {
       "commence_time": "2026-10-30T00:10:00Z",
       "h2h_sent": true,
@@ -606,6 +612,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Edmonton Oilers @ New York Islanders"
+    },
+    "875368ed11228a45263f84f54223e264": {
+      "commence_time": "2026-11-01T18:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Winnipeg Jets @ Carolina Hurricanes"
     },
     "923b47df7869b8b2c5d758b7f21d4b4a": {
       "commence_time": "2026-10-30T00:25:00Z",
