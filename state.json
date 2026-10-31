@@ -265,7 +265,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17484,
+  "credits_remaining": 17483,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -924,8 +924,19 @@
     },
     "f912d0a74ab85bac2021199aa03abb3f": {
       "commence_time": "2026-10-31T17:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-31T15:44:16Z",
+      "lines": {
+        "draftkings": {
+          "Michael DiPietro": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384579006%232344098426_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384579006%232344098427_15L42133Q1888607062Q20"
+          }
+        }
+      },
       "matchup": "Chicago Blackhawks @ Boston Bruins"
     },
     "fa8413d05f6c8b2d8f68cc0d17551fa9": {
@@ -3091,6 +3102,39 @@
         "BOS",
         40,
         27
+      ]
+    ]
+  },
+  "h2h_BOS-CHI": {
+    "fetched": "2026-10-31T15:44:16Z",
+    "value": [
+      [
+        "2026-01-17",
+        "BOS",
+        "CHI",
+        23,
+        24
+      ],
+      [
+        "2025-10-09",
+        "CHI",
+        "BOS",
+        24,
+        33
+      ],
+      [
+        "2025-04-10",
+        "CHI",
+        "BOS",
+        21,
+        33
+      ],
+      [
+        "2024-12-04",
+        "BOS",
+        "CHI",
+        27,
+        22
       ]
     ]
   },
@@ -7823,12 +7867,10 @@
       "status": "OUT"
     },
     "MTL:8476875": {
-      "alerted": true,
-      "out_at": "2026-10-29T23:41:10Z",
-      "pending": "OUT",
-      "pending_since": "2026-10-31T15:38:12Z",
+      "alerted": false,
+      "out_at": "2026-10-31T15:44:16Z",
       "seen": "2026-10-29T23:41:10Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "MTL:8480018": {
       "alerted": true,
@@ -9742,7 +9784,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-10-29T17:04:19Z",
+    "fetched": "2026-10-31T15:44:16Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -9778,7 +9820,7 @@
     ]
   },
   "roster_CHI": {
-    "fetched": "2026-10-29T15:24:12Z",
+    "fetched": "2026-10-31T15:44:16Z",
     "value": [
       "Spencer Knight",
       "Arvid Soderblom"
@@ -10403,6 +10445,12 @@
       "book": null,
       "event_id": "7bfae1a5166976e5ca05e92319277910",
       "goalie": "Jake Oettinger"
+    },
+    "938": {
+      "at": "2026-10-31T15:44:16Z",
+      "book": null,
+      "event_id": "f912d0a74ab85bac2021199aa03abb3f",
+      "goalie": "Michael DiPietro"
     }
   },
   "shot_stats": {
