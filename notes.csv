@@ -27,3 +27,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-31T15:38:12Z,2026-10-31,Jacob Fowler,MTL,Penguins @ Canadiens,FADE,22.5,23.5,like h2h history,fa8413d05f6c8b2d8f68cc0d17551fa9
 2026-10-31T15:55:13Z,2026-10-31,Jake Oettinger,DAL,Jackets @ Stars,UNDER,21.5,19.4,cashed out 21u,7bfae1a5166976e5ca05e92319277910
 2026-10-31T19:53:10Z,2026-10-31,Ukko-Pekka Luukkonen,BUF,Sabres @ Kings,OVER,25.5,27.5,Kempe and Fiala out,3ec4c9abb60e5bf086a0460336248b16
+2026-10-31T20:55:13Z,2026-10-31,Joel Hofer,STL,Blues @ Wings,OVER,25.5,26.0,missed on the hook,f0eeae1be040fca9b93b46bc8c55068d

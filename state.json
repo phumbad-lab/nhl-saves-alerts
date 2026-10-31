@@ -10125,7 +10125,8 @@
   "night_graded": {
     "2026-10-31": [
       "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry",
-      "5914f2527dc280fc35af01099f445bb9|Justus Annunen"
+      "5914f2527dc280fc35af01099f445bb9|Justus Annunen",
+      "f0eeae1be040fca9b93b46bc8c55068d|Joel Hofer"
     ]
   },
   "picks_channel": {
@@ -12057,6 +12058,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088164,
+  "tg_offset": 69088165,
   "watch": {}
 }
