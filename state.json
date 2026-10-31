@@ -88,6 +88,7 @@
       "text": "Woll (PHI) - PHI@WSH 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383352976%232340308384_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620686470&selectionId=75454784\u0004u27.5\u0005"
     },
     "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
+      "done": true,
       "lines": {
         "DK": 23.5,
         "FD": 23.5
@@ -245,6 +246,10 @@
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "d": "2026-10-28",
       "r": "W"
+    },
+    "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
+      "d": "2026-10-30",
+      "r": "L"
     },
     "5f16cb74336431221c132f05c0e31d04|Leevi Merilainen": {
       "d": "2026-10-27",
@@ -9570,7 +9575,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-10-30": [
+      "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
