@@ -33,17 +33,6 @@
       "start": "2026-10-29T23:10:00Z",
       "text": "Kochetkov (CAR) - CBJ@CAR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693644_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620900750&selectionId=75074343\u0004u20.5\u0005"
     },
-    "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 23.5
-      },
-      "mid": 81,
-      "side": "UNDER",
-      "start": "2026-10-28T00:08:00Z",
-      "text": "DeSmith (DAL) - NJD@DAL 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383223095%232338525289_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620218696&selectionId=69574674\u0004u23.5\u0005"
-    },
     "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
       "done": true,
       "lines": {
@@ -99,49 +88,15 @@
       "start": "2026-10-30T22:10:00Z",
       "text": "Hellebuyck (NJD) - NJD@VGK 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384098759%232342104771_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125\u0004o23.5\u0005"
     },
-    "5f16cb74336431221c132f05c0e31d04|Leevi Merilainen": {
-      "done": true,
+    "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry": {
       "lines": {
-        "DK": 28.5,
-        "FD": 27.5
+        "DK": 25.5,
+        "FD": 24.5
       },
-      "mid": 85,
+      "mid": 128,
       "side": "UNDER",
-      "start": "2026-10-28T02:10:00Z",
-      "text": "Merilainen (VAN) - VAN@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382937449%232337744122_15L42133Q1-245490255Q20\u0004u28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620358625&selectionId=78174826\u0004u27.5\u0005"
-    },
-    "5f16cb74336431221c132f05c0e31d04|Lukas Dostal": {
-      "done": true,
-      "lines": {
-        "DK": 21.5,
-        "FD": 21.5
-      },
-      "mid": 79,
-      "side": "UNDER",
-      "start": "2026-10-28T02:10:00Z",
-      "text": "Dostal (ANA) - VAN@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382937238%232338667973_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620279311&selectionId=74979814\u0004u21.5\u0005"
-    },
-    "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 22.5
-      },
-      "mid": 78,
-      "side": "UNDER",
-      "start": "2026-10-28T00:11:00Z",
-      "text": "Forsberg (LAK) - LAK@CHI 8:11PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382932444%232337867587_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620214652&selectionId=75038727\u0004u22.5\u0005"
-    },
-    "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov": {
-      "done": true,
-      "lines": {
-        "DK": 19.5,
-        "FD": 19.5
-      },
-      "mid": 80,
-      "side": "UNDER",
-      "start": "2026-10-28T00:08:00Z",
-      "text": "Kochetkov (CAR) - BOS@CAR 8:08PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382931414%232338196729_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620212711&selectionId=75074343\u0004u19.5\u0005"
+      "start": "2026-10-31T18:10:00Z",
+      "text": "Jarry (EDM) - EDM@NYI 2:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384299312%232344043314_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621450576&selectionId=74843126\u0004u24.5\u0005"
     },
     "b07a2b3d9d717c9eb693422aef404555|Yaroslav Askarov": {
       "done": true,
@@ -175,17 +130,6 @@
       "side": "UNDER",
       "start": "2026-10-30T02:10:00Z",
       "text": "Ellis (BUF) - BUF@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384053934%232341968742_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620969124&selectionId=90265834\u0004u24.5\u0005"
-    },
-    "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
-      "done": true,
-      "lines": {
-        "DK": 25.5,
-        "FD": 23.5
-      },
-      "mid": 76,
-      "side": "UNDER",
-      "start": "2026-10-27T23:10:00Z",
-      "text": "Vladar (PHI) - CBJ@PHI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA382929937%232337286111_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620209764&selectionId=74843678\u0004u23.5\u0005"
     },
     "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner": {
       "done": true,
@@ -11514,6 +11458,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088155,
+  "tg_offset": 69088156,
   "watch": {}
 }
