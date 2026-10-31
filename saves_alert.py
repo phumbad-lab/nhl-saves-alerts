@@ -115,7 +115,8 @@ HOME_ROAD_K = 5
 # Tested 0.5-2.5; 1.0-1.5 best (1.5: 63-36 overall vs 46-34 without), 2+ overshoots.
 HOME_ADJ = 0.0   # home goalie: shots taken off (Oct 21-26 was 1.5; dropped Oct 26 — home goalies have
                  # faced exactly what the base model expects since Oct 14)
-ROAD_ADJ = 1.5   # road goalie: shots added (held every week: +1.6, +1.5, +1.9 vs expected)
+ROAD_ADJ = 1.0   # road goalie: shots added. Oct 21-31 was 1.5; owner cut it to 1.0 on Oct 31: season road edge
+                 # +1.0 shots vs the base model (weeks +1.2, +1.3, +1.9, then -0.9 Oct 26-30)
 STATS_VERSION = 5  # bump when the saved stats format changes
 OPPONENT_ADJUST = True  # rate shots for/against vs. the strength of opponents faced
 # Shadow models (Oct 14): logged to picks.csv next to the live numbers, never shown in alerts.
