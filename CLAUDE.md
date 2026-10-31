@@ -119,3 +119,4 @@ INJ: Marchand LW (FLA) 2.6 SOG/g (1) · SF w/ 30.5 (2), w/o 25.3 (3)
 - Late-posted goalies can still be missed if a book posts after the last check (Talbot Oct 9, Bussi Oct 10 never appeared in the feed).
 - Alerts depend on The Odds API carrying the market for that goalie.
 - A goalie not on the NHL roster feed (fresh call-up) gets no team/tag.
+- **Non-injury absences are invisible (Oct 31, Larkin):** DET suspended Larkin Oct 29 (refuses to play until traded). ESPN's feed only lists injuries, and he's off the NHL roster feed, so he's no longer a DET key player (keys_DET = DeBrincat, Arvidsson, Raymond, Seider, Chiarot) and no INJ line appears. Same for suspensions, scratches, trades, waivers. Idea offered (not built): flag a key player from the last few games who drops off the roster.
