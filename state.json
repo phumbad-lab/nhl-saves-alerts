@@ -302,7 +302,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17492,
+  "credits_remaining": 17491,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -938,8 +938,19 @@
     },
     "fa8413d05f6c8b2d8f68cc0d17551fa9": {
       "commence_time": "2026-10-31T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-31T15:17:10Z",
+      "lines": {
+        "draftkings": {
+          "Jacob Fowler": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384302828%232344063797_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384302828%232344063798_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "Pittsburgh Penguins @ Montr\u00e9al Canadiens"
     }
   },
@@ -2546,7 +2557,7 @@
     ]
   },
   "gl_8475810": {
-    "fetched": "2026-10-29T22:40:18Z",
+    "fetched": "2026-10-31T15:17:10Z",
     "value": [
       "2026-10-07",
       "2026-10-09",
@@ -2661,7 +2672,7 @@
     ]
   },
   "gl_8480018": {
-    "fetched": "2026-10-29T16:44:11Z",
+    "fetched": "2026-10-31T15:17:10Z",
     "value": [
       "2026-09-29",
       "2026-10-03",
@@ -6115,6 +6126,39 @@
         "MTL",
         29,
         30
+      ]
+    ]
+  },
+  "h2h_MTL-PIT": {
+    "fetched": "2026-10-31T15:17:10Z",
+    "value": [
+      [
+        "2026-10-03",
+        "MTL",
+        "PIT",
+        25,
+        30
+      ],
+      [
+        "2025-12-21",
+        "MTL",
+        "PIT",
+        25,
+        31
+      ],
+      [
+        "2025-12-20",
+        "PIT",
+        "MTL",
+        31,
+        21
+      ],
+      [
+        "2025-12-11",
+        "MTL",
+        "PIT",
+        29,
+        38
       ]
     ]
   },
@@ -9758,7 +9802,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-10-29T16:44:11Z",
+    "fetched": "2026-10-31T15:17:10Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -9812,7 +9856,7 @@
     ]
   },
   "roster_PIT": {
-    "fetched": "2026-10-29T15:26:12Z",
+    "fetched": "2026-10-31T15:17:10Z",
     "value": [
       "Sergei Murashov",
       "Arturs Silovs"
@@ -10293,6 +10337,12 @@
       "book": null,
       "event_id": "a9b3c158b86d367eaa9dd342fbb440b3",
       "goalie": "Anthony Stolarz"
+    },
+    "929": {
+      "at": "2026-10-31T15:17:10Z",
+      "book": null,
+      "event_id": "fa8413d05f6c8b2d8f68cc0d17551fa9",
+      "goalie": "Jacob Fowler"
     }
   },
   "shot_stats": {
