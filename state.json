@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17414,
+  "credits_remaining": 17413,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -512,8 +512,19 @@
     },
     "3ec4c9abb60e5bf086a0460336248b16": {
       "commence_time": "2026-10-31T20:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-31T19:00:25Z",
+      "lines": {
+        "fanduel": {
+          "Anton Forsberg": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621528813&selectionId=75038726",
+            "point": 23.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621528813&selectionId=75038727"
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ Los Angeles Kings"
     },
     "4b59901ec085a0f20022fc14ffa1ba6c": {
@@ -779,6 +790,12 @@
         }
       },
       "matchup": "Ottawa Senators @ San Jose Sharks"
+    },
+    "a5203c5f9248aa3653feba547eabd4b8": {
+      "commence_time": "2026-11-02T01:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Ottawa Senators @ Anaheim Ducks"
     },
     "a536736a6da269d2e10edbdb27a789bd": {
       "commence_time": "2026-10-30T23:15:00Z",
@@ -2800,7 +2817,7 @@
     ]
   },
   "gl_8477942": {
-    "fetched": "2026-10-29T18:43:11Z",
+    "fetched": "2026-10-31T19:00:25Z",
     "value": []
   },
   "gl_8477946": {
@@ -2832,6 +2849,23 @@
       "2026-10-17",
       "2026-10-20",
       "2026-10-22"
+    ]
+  },
+  "gl_8477960": {
+    "fetched": "2026-10-31T19:00:25Z",
+    "value": [
+      "2026-09-30",
+      "2026-10-03",
+      "2026-10-06",
+      "2026-10-10",
+      "2026-10-13",
+      "2026-10-17",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-24",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-29"
     ]
   },
   "gl_8478439": {
@@ -3632,6 +3666,39 @@
         "BUF",
         32,
         31
+      ]
+    ]
+  },
+  "h2h_BUF-LAK": {
+    "fetched": "2026-10-31T19:00:25Z",
+    "value": [
+      [
+        "2026-03-21",
+        "BUF",
+        "LAK",
+        33,
+        27
+      ],
+      [
+        "2026-01-29",
+        "LAK",
+        "BUF",
+        38,
+        32
+      ],
+      [
+        "2024-11-20",
+        "BUF",
+        "LAK",
+        19,
+        23
+      ],
+      [
+        "2024-10-10",
+        "LAK",
+        "BUF",
+        23,
+        33
       ]
     ]
   },
@@ -10024,7 +10091,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-10-29T18:46:11Z",
+    "fetched": "2026-10-31T19:00:25Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -10099,7 +10166,7 @@
     ]
   },
   "roster_LAK": {
-    "fetched": "2026-10-29T18:43:11Z",
+    "fetched": "2026-10-31T19:00:25Z",
     "value": [
       "Anton Forsberg",
       "Darcy Kuemper"
@@ -10769,6 +10836,12 @@
       "book": "DK",
       "event_id": "9655de40a1e110a66923a0cd36e0bd78",
       "goalie": "Samuel Ersson"
+    },
+    "967": {
+      "at": "2026-10-31T19:00:25Z",
+      "book": null,
+      "event_id": "3ec4c9abb60e5bf086a0460336248b16",
+      "goalie": "Anton Forsberg"
     }
   },
   "shot_stats": {
