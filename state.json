@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17410,
+  "credits_remaining": 17409,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -513,7 +513,7 @@
     "3ec4c9abb60e5bf086a0460336248b16": {
       "commence_time": "2026-10-31T20:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T19:00:25Z",
+      "last_paid_check": "2026-10-31T19:16:11Z",
       "lines": {
         "fanduel": {
           "Anton Forsberg": {
