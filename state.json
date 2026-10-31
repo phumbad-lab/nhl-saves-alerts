@@ -276,7 +276,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17426,
+  "credits_remaining": 17424,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -638,7 +638,7 @@
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-10-31T17:59:11Z",
+      "last_paid_check": "2026-10-31T18:14:12Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -651,10 +651,10 @@
         },
         "fanduel": {
           "Jake Oettinger": {
-            "over": -132,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880669",
             "point": 21.5,
-            "under": 100,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880671"
           }
         }
@@ -742,8 +742,19 @@
     },
     "9655de40a1e110a66923a0cd36e0bd78": {
       "commence_time": "2026-10-31T20:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-31T18:14:12Z",
+      "lines": {
+        "draftkings": {
+          "Alex Nedeljkovic": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384624878%232344306424_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384624878%232344306425_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "Ottawa Senators @ San Jose Sharks"
     },
     "a536736a6da269d2e10edbdb27a789bd": {
@@ -7298,8 +7309,15 @@
     ]
   },
   "h2h_OTT-SJS": {
-    "fetched": "2026-10-22T16:08:13Z",
+    "fetched": "2026-10-31T18:14:12Z",
     "value": [
+      [
+        "2026-10-22",
+        "SJS",
+        "OTT",
+        28,
+        43
+      ],
       [
         "2026-03-15",
         "SJS",
@@ -7320,13 +7338,6 @@
         "OTT",
         37,
         32
-      ],
-      [
-        "2024-11-27",
-        "OTT",
-        "SJS",
-        11,
-        39
       ]
     ]
   },
@@ -10113,7 +10124,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-10-29T18:43:11Z",
+    "fetched": "2026-10-31T18:14:12Z",
     "value": [
       "Samuel Ersson",
       "Jonas Johansson",
@@ -10142,7 +10153,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-29T17:54:12Z",
+    "fetched": "2026-10-31T18:14:12Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -10711,6 +10722,12 @@
       "book": "FD",
       "event_id": "5914f2527dc280fc35af01099f445bb9",
       "goalie": "Justus Annunen"
+    },
+    "960": {
+      "at": "2026-10-31T18:14:12Z",
+      "book": null,
+      "event_id": "9655de40a1e110a66923a0cd36e0bd78",
+      "goalie": "Alex Nedeljkovic"
     }
   },
   "shot_stats": {
