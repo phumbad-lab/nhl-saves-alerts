@@ -301,7 +301,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-10-30",
+  "corrections_checked": "2026-10-31",
   "credits_remaining": 17512,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
@@ -9482,12 +9482,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-10-30": [
-      "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck",
-      "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
