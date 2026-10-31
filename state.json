@@ -152,6 +152,16 @@
       "side": "OVER",
       "start": "2026-10-29T02:10:00Z",
       "text": "Grubauer (SEA) - TOR@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340382039_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680119&selectionId=74802625\u0004o25.5\u0005"
+    },
+    "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler": {
+      "lines": {
+        "DK": 22.5,
+        "FD": 23.5
+      },
+      "mid": 129,
+      "side": "OVER",
+      "start": "2026-10-31T23:10:00Z",
+      "text": "Fowler (MTL) - PIT@MTL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384302828%232344063797_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621452710&selectionId=92532103\u0004o23.5\u0005"
     }
   },
   "channel_recap_sent": "2026-10-31",
@@ -246,7 +256,7 @@
     }
   },
   "corrections_checked": "2026-10-31",
-  "credits_remaining": 17485,
+  "credits_remaining": 17484,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -553,8 +563,19 @@
     },
     "7bfae1a5166976e5ca05e92319277910": {
       "commence_time": "2026-11-01T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-10-31T15:38:12Z",
+      "lines": {
+        "fanduel": {
+          "Jake Oettinger": {
+            "over": -132,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880669",
+            "point": 21.5,
+            "under": 100,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880671"
+          }
+        }
+      },
       "matchup": "Columbus Blue Jackets @ Dallas Stars"
     },
     "7da8a99a4ae4ef2ec08b3e4fa37c2485": {
@@ -3853,6 +3874,39 @@
         "CAR",
         28,
         31
+      ]
+    ]
+  },
+  "h2h_CBJ-DAL": {
+    "fetched": "2026-10-31T15:38:12Z",
+    "value": [
+      [
+        "2026-01-22",
+        "DAL",
+        "CBJ",
+        28,
+        22
+      ],
+      [
+        "2025-10-21",
+        "CBJ",
+        "DAL",
+        29,
+        23
+      ],
+      [
+        "2025-02-25",
+        "DAL",
+        "CBJ",
+        22,
+        29
+      ],
+      [
+        "2025-02-02",
+        "CBJ",
+        "DAL",
+        30,
+        39
       ]
     ]
   },
@@ -7762,6 +7816,8 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-10-29T23:41:10Z",
+      "pending": "OUT",
+      "pending_since": "2026-10-31T15:38:12Z",
       "seen": "2026-10-29T23:41:10Z",
       "status": "DTD"
     },
@@ -9699,7 +9755,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-10-29T14:47:11Z",
+    "fetched": "2026-10-31T15:38:12Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -9727,7 +9783,7 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-10-29T16:44:11Z",
+    "fetched": "2026-10-31T15:38:12Z",
     "value": [
       "Casey DeSmith",
       "Jake Oettinger"
@@ -10332,6 +10388,12 @@
       "book": "FD",
       "event_id": "fa8413d05f6c8b2d8f68cc0d17551fa9",
       "goalie": "Jacob Fowler"
+    },
+    "936": {
+      "at": "2026-10-31T15:38:12Z",
+      "book": null,
+      "event_id": "7bfae1a5166976e5ca05e92319277910",
+      "goalie": "Jake Oettinger"
     }
   },
   "shot_stats": {
@@ -11473,6 +11535,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088156,
+  "tg_offset": 69088157,
   "watch": {}
 }
