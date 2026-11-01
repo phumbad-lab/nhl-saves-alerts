@@ -56,6 +56,7 @@
       "text": "Luukkonen (BUF) - BUF@LAK 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384344244%232343114096_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621539562&selectionId=77455873\u0004u25.5\u0005"
     },
     "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar": {
+      "done": true,
       "lines": {
         "DK": 25.5,
         "FD": 24.5
@@ -66,6 +67,7 @@
       "text": "Vladar (PHI) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743079_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621790715&selectionId=74843678\u0004u24.5\u0005"
     },
     "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka": {
+      "done": true,
       "lines": {
         "DK": 21.5,
         "FD": 20.5
@@ -231,6 +233,14 @@
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "d": "2026-10-28",
       "r": "W"
+    },
+    "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar": {
+      "d": "2026-11-01",
+      "r": "W"
+    },
+    "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka": {
+      "d": "2026-11-01",
+      "r": "L"
     },
     "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
       "d": "2026-10-30",
@@ -10033,7 +10043,9 @@
   "night_graded": {
     "2026-11-01": [
       "875368ed11228a45263f84f54223e264|Pyotr Kochetkov",
-      "875368ed11228a45263f84f54223e264|Stuart Skinner"
+      "875368ed11228a45263f84f54223e264|Stuart Skinner",
+      "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar",
+      "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka"
     ]
   },
   "picks_channel": {
