@@ -100,6 +100,7 @@
       "text": "Hellebuyck (NJD) - NJD@VGK 6:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384098759%232342104771_13L42133Q1-1895367418Q20\u0004o23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621152335&selectionId=74843125\u0004o23.5\u0005"
     },
     "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 21.5
@@ -258,6 +259,10 @@
     },
     "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg": {
       "d": "2026-10-27",
+      "r": "L"
+    },
+    "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
+      "d": "2026-10-31",
       "r": "L"
     },
     "7ca25d591cbdc679a9ad85d1f04811cb|Pyotr Kochetkov": {
@@ -9742,7 +9747,8 @@
       "f0eeae1be040fca9b93b46bc8c55068d|Joel Hofer",
       "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen",
       "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler",
-      "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov"
+      "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov",
+      "7bfae1a5166976e5ca05e92319277910|Jake Oettinger"
     ]
   },
   "picks_channel": {
