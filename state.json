@@ -7885,6 +7885,8 @@
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-10-31T16:01:12Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-01T13:52:10Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
     },
@@ -7950,8 +7952,6 @@
     "STL:8476892": {
       "alerted": true,
       "out_at": "2026-10-31T16:12:12Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-01T13:50:18Z",
       "seen": "2026-10-30T17:12:11Z",
       "status": "OUT"
     },
