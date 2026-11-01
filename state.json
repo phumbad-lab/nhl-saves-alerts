@@ -7954,7 +7954,7 @@
       "status": "OUT"
     },
     "TOR:8480893": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-01T12:05:13Z",
       "seen": "2026-11-01T12:05:13Z",
       "status": "OUT"
