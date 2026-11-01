@@ -10720,7 +10720,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.29,
-    "fetched": "2026-11-01T15:23:11Z",
+    "fetched": "2026-11-01T21:24:11Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.92307,
@@ -10739,8 +10739,8 @@
         "sf": 28.5
       },
       "carolinahurricanes": {
-        "sa": 22.2,
-        "sf": 33.2
+        "sa": 22.4375,
+        "sf": 33.125
       },
       "chicagoblackhawks": {
         "sa": 30.42857,
@@ -10847,8 +10847,8 @@
         "sf": 27.83333
       },
       "winnipegjets": {
-        "sa": 29.57142,
-        "sf": 26.35714
+        "sa": 29.73333,
+        "sf": 26.33333
       }
     },
     "save_pct": 0.8849,
