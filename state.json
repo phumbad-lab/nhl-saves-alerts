@@ -277,7 +277,7 @@
     }
   },
   "corrections_checked": "2026-11-01",
-  "credits_remaining": 19957,
+  "credits_remaining": 19955,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -427,15 +427,22 @@
     "4b59901ec085a0f20022fc14ffa1ba6c": {
       "commence_time": "2026-11-01T21:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T17:46:12Z",
+      "last_paid_check": "2026-11-01T18:02:10Z",
       "lines": {
         "draftkings": {
           "Dan Vladar": {
-            "over": -110,
+            "over": -130,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743078_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -120,
+            "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743079_15L42133Q1458571637Q20"
+          },
+          "Karel Vejmelka": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384705654%232345756123_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384705654%232345756124_15L42133Q1888607062Q20"
           }
         }
       },
@@ -756,7 +763,7 @@
     "d8dd95fa4fc001a1ea9f6629a8c8ffee": {
       "commence_time": "2026-11-01T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T17:46:12Z",
+      "last_paid_check": "2026-11-01T18:02:10Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
@@ -10259,6 +10266,12 @@
       "book": null,
       "event_id": "d8dd95fa4fc001a1ea9f6629a8c8ffee",
       "goalie": "Dylan Garand"
+    },
+    "1014": {
+      "at": "2026-11-01T18:02:10Z",
+      "book": null,
+      "event_id": "4b59901ec085a0f20022fc14ffa1ba6c",
+      "goalie": "Karel Vejmelka"
     },
     "872": {
       "at": "2026-10-29T18:09:13Z",
