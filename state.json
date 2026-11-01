@@ -277,7 +277,7 @@
     }
   },
   "corrections_checked": "2026-11-01",
-  "credits_remaining": 19978,
+  "credits_remaining": 19977,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -724,8 +724,17 @@
     "d8dd95fa4fc001a1ea9f6629a8c8ffee": {
       "commence_time": "2026-11-01T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T16:16:10Z",
+      "last_paid_check": "2026-11-01T16:31:10Z",
       "lines": {
+        "draftkings": {
+          "Dylan Garand": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384274849%232345677807_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384274849%232345677808_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
           "Dylan Garand": {
             "over": 100,
@@ -9906,7 +9915,7 @@
     "title": "TheSaveMan"
   },
   "roster_ANA": {
-    "fetched": "2026-10-29T18:46:11Z",
+    "fetched": "2026-11-01T16:31:10Z",
     "value": [
       "Lukas Dostal",
       "Ville Husso"
@@ -10049,7 +10058,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-10-31T18:14:12Z",
+    "fetched": "2026-11-01T16:31:10Z",
     "value": [
       "Samuel Ersson",
       "Jonas Johansson",
@@ -10057,7 +10066,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-10-28T17:45:19Z",
+    "fetched": "2026-11-01T16:31:10Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -10106,7 +10115,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-10-29T15:26:12Z",
+    "fetched": "2026-11-01T16:31:10Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -10617,6 +10626,12 @@
       "book": "DK",
       "event_id": "875368ed11228a45263f84f54223e264",
       "goalie": "Pyotr Kochetkov"
+    },
+    "998": {
+      "at": "2026-11-01T16:31:10Z",
+      "book": "DK",
+      "event_id": "d8dd95fa4fc001a1ea9f6629a8c8ffee",
+      "goalie": "Dylan Garand"
     }
   },
   "shot_stats": {
@@ -11758,6 +11773,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088166,
+  "tg_offset": 69088167,
   "watch": {}
 }
