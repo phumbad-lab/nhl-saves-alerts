@@ -55,6 +55,24 @@
       "start": "2026-10-31T20:10:00Z",
       "text": "Luukkonen (BUF) - BUF@LAK 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384344244%232343114096_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621539562&selectionId=77455873\u0004u25.5\u0005"
     },
+    "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar": {
+      "lines": {
+        "DK": 25.5
+      },
+      "mid": 141,
+      "side": "UNDER",
+      "start": "2026-11-01T21:10:00Z",
+      "text": "Vladar (PHI) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743079_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD not yet"
+    },
+    "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka": {
+      "lines": {
+        "DK": 21.5
+      },
+      "mid": 142,
+      "side": "OVER",
+      "start": "2026-11-01T21:10:00Z",
+      "text": "Vejmelka (UTA) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384705654%232345756123_13L42133Q1-659212771Q20\u0004o21.5\u0005 \u00b7 FD not yet"
+    },
     "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
       "done": true,
       "lines": {
@@ -11792,6 +11810,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088174,
+  "tg_offset": 69088177,
   "watch": {}
 }
