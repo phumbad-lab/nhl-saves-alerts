@@ -302,7 +302,7 @@
     }
   },
   "corrections_checked": "2026-11-01",
-  "credits_remaining": 19925,
+  "credits_remaining": 19924,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
@@ -795,14 +795,14 @@
     "d8dd95fa4fc001a1ea9f6629a8c8ffee": {
       "commence_time": "2026-11-01T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T22:25:13Z",
+      "last_paid_check": "2026-11-01T22:40:16Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
-            "over": -120,
+            "over": -130,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384274849%232345683152_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -115,
+            "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384274849%232345683153_15L42133Q1874096526Q20"
           },
           "Matt Tomkins": {
