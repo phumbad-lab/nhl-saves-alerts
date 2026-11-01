@@ -33,28 +33,6 @@
       "start": "2026-10-29T23:10:00Z",
       "text": "Kochetkov (CAR) - CBJ@CAR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383737426%232341693644_15L42133Q1-1449474Q20\u0004u20.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620900750&selectionId=75074343\u0004u20.5\u0005"
     },
-    "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 92,
-      "side": "UNDER",
-      "start": "2026-10-29T00:40:00Z",
-      "text": "Cooley (CGY) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348672%232338968563_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683952&selectionId=89998348\u0004u27.5\u0005"
-    },
-    "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 22.5
-      },
-      "mid": 96,
-      "side": "OVER",
-      "start": "2026-10-29T00:40:00Z",
-      "text": "Jarry (EDM) - CGY@EDM 8:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383348478%232340380870_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620683956&selectionId=74843127\u0004o22.5\u0005"
-    },
     "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight": {
       "done": true,
       "lines": {
@@ -76,17 +54,6 @@
       "side": "UNDER",
       "start": "2026-10-31T20:10:00Z",
       "text": "Luukkonen (BUF) - BUF@LAK 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384344244%232343114096_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621539562&selectionId=77455873\u0004u25.5\u0005"
-    },
-    "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 93,
-      "side": "UNDER",
-      "start": "2026-10-28T23:40:00Z",
-      "text": "Woll (PHI) - PHI@WSH 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383352976%232340308384_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620686470&selectionId=75454784\u0004u27.5\u0005"
     },
     "5c712e15e1cd4b9283b4bf410fb334f4|Connor Hellebuyck": {
       "done": true,
@@ -120,6 +87,16 @@
       "side": "UNDER",
       "start": "2026-10-31T18:10:00Z",
       "text": "Jarry (EDM) - EDM@NYI 2:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384299312%232344043314_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621450576&selectionId=74843126\u0004u24.5\u0005"
+    },
+    "875368ed11228a45263f84f54223e264|Pyotr Kochetkov": {
+      "lines": {
+        "DK": 19.5,
+        "FD": 19.5
+      },
+      "mid": 140,
+      "side": "UNDER",
+      "start": "2026-11-01T18:10:00Z",
+      "text": "Kochetkov (CAR) - WPG@CAR 1:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384694817%232345642446_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621733654&selectionId=75074343\u0004u19.5\u0005"
     },
     "b07a2b3d9d717c9eb693422aef404555|Yaroslav Askarov": {
       "done": true,
@@ -164,17 +141,6 @@
       "side": "OVER",
       "start": "2026-10-29T23:10:00Z",
       "text": "Skinner (WPG) - WPG@TBL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383616632%232341767693_13L42133Q1-389637312Q20\u0004o25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620909017&selectionId=74079397\u0004o24.5\u0005"
-    },
-    "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 25.5
-      },
-      "mid": 91,
-      "side": "OVER",
-      "start": "2026-10-29T02:10:00Z",
-      "text": "Grubauer (SEA) - TOR@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340382039_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680119&selectionId=74802625\u0004o25.5\u0005"
     },
     "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler": {
       "done": true,
@@ -11792,6 +11758,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088165,
+  "tg_offset": 69088166,
   "watch": {}
 }
