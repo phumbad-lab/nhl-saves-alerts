@@ -10074,7 +10074,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-10-31T15:44:16Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -10103,7 +10103,7 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-10-31T16:51:11Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Devin Cooley",
       "Arsenii Sergeev",
@@ -10111,14 +10111,14 @@
     ]
   },
   "roster_CHI": {
-    "fetched": "2026-10-31T15:44:16Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Spencer Knight",
       "Arvid Soderblom"
     ]
   },
   "roster_COL": {
-    "fetched": "2026-10-31T16:51:11Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -10132,7 +10132,7 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-10-31T13:10:16Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "John Gibson",
       "Daniil Tarasov"
@@ -10148,7 +10148,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-10-30T14:46:13Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Cooper Black",
       "Jacob Markstrom",
@@ -10239,7 +10239,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-10-31T18:14:12Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -10282,11 +10282,10 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-10-30T13:45:17Z",
+    "fetched": "2026-11-01T23:14:11Z",
     "value": [
       "Carter Hart",
-      "Adin Hill",
-      "Cameron Whitehead"
+      "Adin Hill"
     ]
   },
   "roster_WPG": {
@@ -11853,6 +11852,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088178,
+  "tg_offset": 69088179,
   "watch": {}
 }
