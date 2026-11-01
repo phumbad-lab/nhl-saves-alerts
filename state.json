@@ -331,6 +331,12 @@
             "point": 24.5,
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384707403%232345264396_15L42133Q1731448625Q20"
+          },
+          "Logan Thompson": {
+            "manual": true,
+            "over": null,
+            "point": 25.5,
+            "under": null
           }
         },
         "fanduel": {
@@ -10228,6 +10234,12 @@
       "event_id": "4b59901ec085a0f20022fc14ffa1ba6c",
       "goalie": "Dan Vladar"
     },
+    "1008": {
+      "at": "2026-11-01T17:39:11Z",
+      "book": null,
+      "event_id": "10a3cc989861cd05cb2a95b5ebc4abb0",
+      "goalie": "Logan Thompson"
+    },
     "871": {
       "at": "2026-10-29T17:54:12Z",
       "book": null,
@@ -11800,6 +11812,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088170,
+  "tg_offset": 69088171,
   "watch": {}
 }
