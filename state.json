@@ -277,7 +277,7 @@
     }
   },
   "corrections_checked": "2026-11-01",
-  "credits_remaining": 19941,
+  "credits_remaining": 19939,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
@@ -440,14 +440,14 @@
     "4b59901ec085a0f20022fc14ffa1ba6c": {
       "commence_time": "2026-11-01T21:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T19:19:10Z",
+      "last_paid_check": "2026-11-01T19:34:10Z",
       "lines": {
         "draftkings": {
           "Dan Vladar": {
-            "over": -130,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743078_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -105,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743079_15L42133Q1458571637Q20"
           },
           "Karel Vejmelka": {
@@ -788,7 +788,7 @@
     "d8dd95fa4fc001a1ea9f6629a8c8ffee": {
       "commence_time": "2026-11-01T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T19:19:10Z",
+      "last_paid_check": "2026-11-01T19:34:10Z",
       "lines": {
         "draftkings": {
           "Dylan Garand": {
@@ -10297,18 +10297,6 @@
       "book": "FD",
       "event_id": "10a3cc989861cd05cb2a95b5ebc4abb0",
       "goalie": "Logan Thompson"
-    },
-    "886": {
-      "at": "2026-10-29T19:33:12Z",
-      "book": "FD",
-      "event_id": "2f65119127127c0185cf3bdc236a00f2",
-      "goalie": "Jakub Dobes"
-    },
-    "887": {
-      "at": "2026-10-29T19:33:12Z",
-      "book": "FD",
-      "event_id": "c8abddd6d4a9c96f45dcdd287f392537",
-      "goalie": "Colten Ellis"
     },
     "890": {
       "at": "2026-10-29T21:46:12Z",
