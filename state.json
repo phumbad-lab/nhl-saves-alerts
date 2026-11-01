@@ -176,6 +176,7 @@
       "text": "Grubauer (SEA) - TOR@SEA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA383664965%232340382039_13L42133Q1-1695742073Q20\u0004o24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.620680119&selectionId=74802625\u0004o25.5\u0005"
     },
     "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 23.5
@@ -186,6 +187,7 @@
       "text": "Fowler (MTL) - PIT@MTL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384302828%232344063797_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621452710&selectionId=92532103\u0004o23.5\u0005"
     },
     "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 24.5
@@ -292,6 +294,14 @@
     },
     "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
       "d": "2026-10-28",
+      "r": "L"
+    },
+    "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler": {
+      "d": "2026-10-31",
+      "r": "W"
+    },
+    "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov": {
+      "d": "2026-10-31",
       "r": "L"
     }
   },
@@ -9843,7 +9853,9 @@
       "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry",
       "5914f2527dc280fc35af01099f445bb9|Justus Annunen",
       "f0eeae1be040fca9b93b46bc8c55068d|Joel Hofer",
-      "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen"
+      "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen",
+      "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler",
+      "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov"
     ]
   },
   "picks_channel": {
