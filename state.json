@@ -277,7 +277,7 @@
     }
   },
   "corrections_checked": "2026-11-01",
-  "credits_remaining": 19961,
+  "credits_remaining": 19960,
   "events": {
     "026d37181dd4ace0df7565d9b208ce7e": {
       "commence_time": "2026-10-31T00:15:00Z",
@@ -322,7 +322,7 @@
     "10a3cc989861cd05cb2a95b5ebc4abb0": {
       "commence_time": "2026-11-01T20:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-01T17:27:11Z",
+      "last_paid_check": "2026-11-01T17:42:15Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -333,10 +333,11 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384707403%232345264396_15L42133Q1731448625Q20"
           },
           "Logan Thompson": {
-            "manual": true,
-            "over": null,
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384939068%232345744412_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": null
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384939068%232345744413_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
