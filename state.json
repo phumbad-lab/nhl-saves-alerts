@@ -338,46 +338,6 @@
       },
       "matchup": "Seattle Kraken @ Calgary Flames"
     },
-    "0320215ff7055c9c04ecefa36a8c36cb": {
-      "commence_time": "2026-10-30T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-10-29T17:20:19Z",
-      "lines": {
-        "draftkings": {
-          "Jeremy Swayman": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689949%232340376855_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689949%232340376869_15L42133Q1731448625Q20"
-          },
-          "Joel Hofer": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689968%232340376559_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA383689968%232340376603_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Jeremy Swayman": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620929894&selectionId=74879760",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620929894&selectionId=74879759"
-          },
-          "Joel Hofer": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620930036&selectionId=74882014",
-            "point": 22.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.620930036&selectionId=74882015"
-          }
-        }
-      },
-      "matchup": "Boston Bruins @ St Louis Blues"
-    },
     "10a3cc989861cd05cb2a95b5ebc4abb0": {
       "commence_time": "2026-11-01T20:30:00Z",
       "last_paid_check": null,
