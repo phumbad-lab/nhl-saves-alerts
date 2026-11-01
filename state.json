@@ -109,6 +109,7 @@
       "text": "Jarry (EDM) - EDM@NYI 2:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384299312%232344043314_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621450576&selectionId=74843126\u0004u24.5\u0005"
     },
     "875368ed11228a45263f84f54223e264|Pyotr Kochetkov": {
+      "done": true,
       "lines": {
         "DK": 19.5,
         "FD": 19.5
@@ -258,6 +259,10 @@
     "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry": {
       "d": "2026-10-31",
       "r": "W"
+    },
+    "875368ed11228a45263f84f54223e264|Pyotr Kochetkov": {
+      "d": "2026-11-01",
+      "r": "L"
     },
     "b07a2b3d9d717c9eb693422aef404555|Yaroslav Askarov": {
       "d": "2026-10-29",
@@ -10048,7 +10053,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-01": [
+      "875368ed11228a45263f84f54223e264|Pyotr Kochetkov",
+      "875368ed11228a45263f84f54223e264|Stuart Skinner"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
