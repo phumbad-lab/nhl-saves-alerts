@@ -10254,6 +10254,12 @@
       "event_id": "875368ed11228a45263f84f54223e264",
       "goalie": "Stuart Skinner"
     },
+    "1013": {
+      "at": "2026-11-01T17:51:12Z",
+      "book": null,
+      "event_id": "d8dd95fa4fc001a1ea9f6629a8c8ffee",
+      "goalie": "Dylan Garand"
+    },
     "871": {
       "at": "2026-10-29T17:54:12Z",
       "book": null,
@@ -11826,6 +11832,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088172,
+  "tg_offset": 69088173,
   "watch": {}
 }
