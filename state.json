@@ -8113,6 +8113,7 @@
     },
     "PHI:8480015": {
       "alerted": true,
+      "missing_since": "2026-11-01T18:47:11Z",
       "out_at": "2026-10-19T14:54:13Z",
       "seen": "2026-10-17T15:31:09Z",
       "status": "OUT"
@@ -10284,18 +10285,6 @@
       "book": null,
       "event_id": "4b59901ec085a0f20022fc14ffa1ba6c",
       "goalie": "Karel Vejmelka"
-    },
-    "878": {
-      "at": "2026-10-29T18:47:11Z",
-      "book": null,
-      "event_id": "35f166bc5dbb833315fe376ae27e63a3",
-      "goalie": "Spencer Knight"
-    },
-    "879": {
-      "at": "2026-10-29T18:47:11Z",
-      "book": null,
-      "event_id": "2f65119127127c0185cf3bdc236a00f2",
-      "goalie": "Jakub Dobes"
     },
     "880": {
       "at": "2026-10-29T18:58:11Z",
