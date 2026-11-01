@@ -733,6 +733,12 @@
             "point": 23.5,
             "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384274849%232345677808_15L42133Q184490156Q20"
+          },
+          "Matt Tomkins": {
+            "manual": true,
+            "over": null,
+            "point": 23.5,
+            "under": null
           }
         },
         "fanduel": {
@@ -10153,6 +10159,12 @@
     ]
   },
   "sent": {
+    "1000": {
+      "at": "2026-11-01T16:32:10Z",
+      "book": null,
+      "event_id": "d8dd95fa4fc001a1ea9f6629a8c8ffee",
+      "goalie": "Matt Tomkins"
+    },
     "862": {
       "at": "2026-10-29T16:44:11Z",
       "book": null,
@@ -11773,6 +11785,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088167,
+  "tg_offset": 69088168,
   "watch": {}
 }
