@@ -312,12 +312,12 @@
     }
   },
   "corrections_checked": "2026-11-02",
-  "credits_remaining": 19902,
+  "credits_remaining": 19901,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-02T17:33:12Z",
+      "last_paid_check": "2026-11-02T17:48:24Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
@@ -8169,8 +8169,6 @@
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-10-31T16:01:12Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-02T17:47:13Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "DTD"
     },
