@@ -312,14 +312,21 @@
     }
   },
   "corrections_checked": "2026-11-02",
-  "credits_remaining": 19847,
+  "credits_remaining": 19846,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-02T23:25:14Z",
+      "last_paid_check": "2026-11-02T23:40:17Z",
       "lines": {
         "draftkings": {
+          "Carter Hart": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384926186%232346207591_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA384926186%232346207592_15L42133Q1874096526Q20"
+          },
           "Jeremy Swayman": {
             "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA384926187%232347366745_13L42133Q1-389637312Q20",
@@ -10421,6 +10428,12 @@
       "book": null,
       "event_id": "6c7ab45fd7ba80a0baccb7861cbe0fbe",
       "goalie": "Mackenzie Blackwood"
+    },
+    "1047": {
+      "at": "2026-11-02T23:40:17Z",
+      "book": null,
+      "event_id": "01847028adef1eda81745cd36f240fc5",
+      "goalie": "Carter Hart"
     },
     "919": {
       "at": "2026-10-30T23:40:18Z",
