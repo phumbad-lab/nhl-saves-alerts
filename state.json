@@ -311,7 +311,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-11-01",
+  "corrections_checked": "2026-11-02",
   "credits_remaining": 19919,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
@@ -10036,14 +10036,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-01": [
-      "875368ed11228a45263f84f54223e264|Pyotr Kochetkov",
-      "875368ed11228a45263f84f54223e264|Stuart Skinner",
-      "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar",
-      "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
