@@ -312,7 +312,7 @@
     }
   },
   "corrections_checked": "2026-11-02",
-  "credits_remaining": 19853,
+  "credits_remaining": 19852,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
@@ -473,7 +473,7 @@
     "6c7ab45fd7ba80a0baccb7861cbe0fbe": {
       "commence_time": "2026-11-03T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-02T22:46:11Z",
+      "last_paid_check": "2026-11-02T23:01:12Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
@@ -10769,10 +10769,10 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.27,
-    "fetched": "2026-11-02T17:00:35Z",
+    "fetched": "2026-11-02T23:01:12Z",
     "raw": {
       "anaheimducks": {
-        "sa": 27.5,
+        "sa": 27.57142,
         "sf": 25.0
       },
       "bostonbruins": {
@@ -10784,7 +10784,7 @@
         "sf": 28.07142
       },
       "calgaryflames": {
-        "sa": 30.07142,
+        "sa": 30.14285,
         "sf": 28.5
       },
       "carolinahurricanes": {
@@ -10797,7 +10797,7 @@
       },
       "coloradoavalanche": {
         "sa": 27.92857,
-        "sf": 30.64285
+        "sf": 30.71428
       },
       "columbusbluejackets": {
         "sa": 27.08333,
@@ -10825,7 +10825,7 @@
       },
       "minnesotawild": {
         "sa": 25.25,
-        "sf": 30.8125
+        "sf": 30.75
       },
       "montrealcanadiens": {
         "sa": 27.57142,
@@ -10840,16 +10840,16 @@
         "sf": 32.57142
       },
       "newyorkislanders": {
-        "sa": 26.14285,
+        "sa": 26.21428,
         "sf": 25.5
       },
       "newyorkrangers": {
-        "sa": 26.2,
+        "sa": 26.13333,
         "sf": 24.93333
       },
       "ottawasenators": {
         "sa": 27.1875,
-        "sf": 25.625
+        "sf": 25.6875
       },
       "philadelphiaflyers": {
         "sa": 29.75,
@@ -10892,7 +10892,7 @@
         "sf": 29.13333
       },
       "washingtoncapitals": {
-        "sa": 28.15384,
+        "sa": 28.07692,
         "sf": 27.76923
       },
       "winnipegjets": {
