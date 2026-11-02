@@ -8200,7 +8200,6 @@
     },
     "PIT:8471215": {
       "alerted": false,
-      "missing_since": "2026-11-02T16:06:14Z",
       "out_at": null,
       "seen": "2026-11-02T16:04:12Z",
       "status": "DTD"
