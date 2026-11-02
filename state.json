@@ -8198,6 +8198,12 @@
       "seen": "2026-10-22T15:33:11Z",
       "status": "OUT"
     },
+    "PIT:8471215": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-11-02T16:04:12Z",
+      "status": "DTD"
+    },
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-22T14:16:11Z",
