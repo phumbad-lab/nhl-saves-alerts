@@ -10644,7 +10644,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.29,
-    "fetched": "2026-11-01T21:24:11Z",
+    "fetched": "2026-11-02T03:24:11Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.92307,
@@ -10687,8 +10687,8 @@
         "sf": 29.71428
       },
       "edmontonoilers": {
-        "sa": 26.21428,
-        "sf": 25.92857
+        "sa": 26.33333,
+        "sf": 25.86666
       },
       "floridapanthers": {
         "sa": 24.14285,
@@ -10699,8 +10699,8 @@
         "sf": 28.0
       },
       "minnesotawild": {
-        "sa": 25.13333,
-        "sf": 30.93333
+        "sa": 25.25,
+        "sf": 30.8125
       },
       "montrealcanadiens": {
         "sa": 27.57142,
@@ -10719,16 +10719,16 @@
         "sf": 25.5
       },
       "newyorkrangers": {
-        "sa": 26.28571,
-        "sf": 24.71428
+        "sa": 26.2,
+        "sf": 24.93333
       },
       "ottawasenators": {
         "sa": 26.8,
         "sf": 25.86666
       },
       "philadelphiaflyers": {
-        "sa": 30.26666,
-        "sf": 23.46666
+        "sa": 29.75,
+        "sf": 23.3125
       },
       "pittsburghpenguins": {
         "sa": 28.0,
@@ -10755,8 +10755,8 @@
         "sf": 28.125
       },
       "utahmammoth": {
-        "sa": 24.71428,
-        "sf": 30.5
+        "sa": 24.46666,
+        "sf": 29.93333
       },
       "vancouvercanucks": {
         "sa": 31.9375,
@@ -10767,15 +10767,15 @@
         "sf": 29.13333
       },
       "washingtoncapitals": {
-        "sa": 28.08333,
-        "sf": 27.83333
+        "sa": 28.15384,
+        "sf": 27.76923
       },
       "winnipegjets": {
         "sa": 29.73333,
         "sf": 26.33333
       }
     },
-    "save_pct": 0.8849,
+    "save_pct": 0.8847,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
