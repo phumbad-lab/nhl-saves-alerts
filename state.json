@@ -10793,14 +10793,14 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.27,
-    "fetched": "2026-11-02T11:00:26Z",
+    "fetched": "2026-11-02T17:00:35Z",
     "raw": {
       "anaheimducks": {
         "sa": 27.5,
         "sf": 25.0
       },
       "bostonbruins": {
-        "sa": 28.26666,
+        "sa": 28.33333,
         "sf": 26.26666
       },
       "buffalosabres": {
@@ -10817,7 +10817,7 @@
       },
       "chicagoblackhawks": {
         "sa": 30.42857,
-        "sf": 23.0
+        "sf": 23.07142
       },
       "coloradoavalanche": {
         "sa": 27.92857,
@@ -10833,7 +10833,7 @@
       },
       "detroitredwings": {
         "sa": 24.42857,
-        "sf": 29.71428
+        "sf": 29.64285
       },
       "edmontonoilers": {
         "sa": 26.33333,
@@ -10892,7 +10892,7 @@
         "sf": 25.21428
       },
       "stlouisblues": {
-        "sa": 28.07142,
+        "sa": 28.0,
         "sf": 26.42857
       },
       "tampabaylightning": {
