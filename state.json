@@ -312,7 +312,7 @@
     }
   },
   "corrections_checked": "2026-11-02",
-  "credits_remaining": 19917,
+  "credits_remaining": 19916,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
@@ -743,7 +743,7 @@
     "d5983dfd10f862eb0e497aa9a9e412f3": {
       "commence_time": "2026-11-03T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-02T16:03:11Z",
+      "last_paid_check": "2026-11-02T16:18:11Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
