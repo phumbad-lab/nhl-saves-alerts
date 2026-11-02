@@ -312,12 +312,12 @@
     }
   },
   "corrections_checked": "2026-11-02",
-  "credits_remaining": 19883,
+  "credits_remaining": 19882,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-02T19:06:21Z",
+      "last_paid_check": "2026-11-02T19:22:11Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
