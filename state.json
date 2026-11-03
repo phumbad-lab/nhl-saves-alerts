@@ -64,6 +64,16 @@
       "start": "2026-11-01T18:10:00Z",
       "text": "Kochetkov (CAR) - WPG@CAR 1:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384694817%232345642446_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621733654&selectionId=75074343\u0004u19.5\u0005"
     },
+    "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
+      "lines": {
+        "DK": 23.5,
+        "FD": 23.5
+      },
+      "mid": 153,
+      "side": "UNDER",
+      "start": "2026-11-04T00:10:00Z",
+      "text": "Oettinger (DAL) - DAL@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180989_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880671\u0004u23.5\u0005"
+    },
     "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
       "lines": {
         "DK": 22.5,
@@ -12224,6 +12234,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088187,
+  "tg_offset": 69088188,
   "watch": {}
 }
