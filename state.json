@@ -312,7 +312,7 @@
     }
   },
   "corrections_checked": "2026-11-03",
-  "credits_remaining": 19790,
+  "credits_remaining": 19788,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -390,9 +390,16 @@
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-03T16:37:19Z",
+      "last_paid_check": "2026-11-03T16:53:13Z",
       "lines": {
         "draftkings": {
+          "Cam Talbot": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385605430%232349093528_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385605430%232349093529_15L42133Q1458571637Q20"
+          },
           "Scott Wedgewood": {
             "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038886_13L42133Q1-389637312Q20",
@@ -771,7 +778,7 @@
     "ec0cd2ebb977023698a5f16ca4de0e6c": {
       "commence_time": "2026-11-04T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-03T16:37:19Z",
+      "last_paid_check": "2026-11-03T16:53:13Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -10817,6 +10824,12 @@
       "book": null,
       "event_id": "6b7950389856112c2b25d0aa1c7cc072",
       "goalie": "Jesper Wallstedt"
+    },
+    "1063": {
+      "at": "2026-11-03T16:53:13Z",
+      "book": null,
+      "event_id": "13ced29ffb36afa9ac1436ef60bda139",
+      "goalie": "Cam Talbot"
     },
     "952": {
       "at": "2026-10-31T17:32:12Z",
