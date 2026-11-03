@@ -231,7 +231,7 @@
     }
   },
   "corrections_checked": "2026-11-03",
-  "credits_remaining": 19684,
+  "credits_remaining": 19683,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -602,30 +602,30 @@
     "b84cb3612b5d88f48e5ce81a79b84b96": {
       "commence_time": "2026-11-04T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-03T17:29:14Z",
+      "last_paid_check": "2026-11-03T23:05:16Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267568%232347487151_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267568%232347487162_15L42133Q1874096526Q20"
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180988_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180989_15L42133Q184490156Q20"
           },
           "Logan Thompson": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385266765%232347693967_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385266765%232347693968_15L42133Q1731448625Q20"
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385266765%232347484780_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385266765%232347485104_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
           "Jake Oettinger": {
-            "over": -102,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880669",
             "point": 23.5,
-            "under": -130,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880671"
           },
           "Logan Thompson": {
@@ -11042,6 +11042,12 @@
       "event_id": "b84cb3612b5d88f48e5ce81a79b84b96",
       "goalie": "Jake Oettinger"
     },
+    "1100": {
+      "at": "2026-11-03T23:05:16Z",
+      "book": null,
+      "event_id": "b84cb3612b5d88f48e5ce81a79b84b96",
+      "goalie": "Jake Oettinger"
+    },
     "990": {
       "at": "2026-11-01T15:23:11Z",
       "book": null,
@@ -12218,6 +12224,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088186,
+  "tg_offset": 69088187,
   "watch": {}
 }
