@@ -2461,9 +2461,36 @@ def handle_manual_lines(requests, events, state, stats, abbrevs, injuries, now):
                         state, injuries, now)
 
 
+def refresh_lines(event, rec, state, now):
+    """Fresh odds for one game (1 credit), before puck drop only. Updates the saved lines and links
+    for goalies already alerted at each book; a book posting a goalie for the first time is left to
+    the regular check, so it still gets its '(FD added)' alert and pick-log row."""
+    if parse_iso(rec["commence_time"]) <= now:
+        return False
+    credits = state.get("credits_remaining")
+    if credits is not None and credits < MIN_CREDITS:
+        return False
+    data, rem = api_get(f"/sports/{SPORT}/events/{event['id']}/odds", {
+        "bookmakers": ",".join(BOOKS), "markets": MARKET,
+        "oddsFormat": "american", "includeLinks": "true"})
+    if rem is not None:
+        state["credits_remaining"] = rem
+    current = extract_lines(data)
+    for book, players in current.items():
+        known = rec["lines"].get(book, {})
+        for player, ln in players.items():
+            if player in known:
+                known[player] = ln
+    if current:
+        rec["last_paid_check"] = iso(now)
+    return bool(current)
+
+
 def handle_resends(resends, state, stats, abbrevs, injuries, now):
     """'resend Wallstedt' (or swipe-reply 'resend' on any alert): send that goalie's full alert
-    again with the latest lines, tags, H2H, last-5 and injuries. Free (no odds call)."""
+    again with the latest lines, tags, H2H, last-5 and injuries. Before puck drop it first
+    re-checks the odds (1 credit) so the lines and tap-to-bet links are current (owner Nov 3:
+    "when the line moves and I ask to resend it, it's not giving the updated line")."""
     if not resends:
         return
     rows = load_picks()
@@ -2486,6 +2513,7 @@ def handle_resends(resends, state, stats, abbrevs, injuries, now):
             away, home = rec["matchup"].split(" @ ", 1)
             event = {"id": event_id, "away_team": away, "home_team": home,
                      "commence_time": rec["commence_time"]}
+            refresh_lines(event, rec, state, now)
             m = matchup(event, stats)
             sides = goalie_sides(event, {goalie}, state, now) if m else {}
             h2h = get_h2h(state, abbrevs.get(team_key(away)), abbrevs.get(team_key(home)), now)
