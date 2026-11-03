@@ -32,6 +32,16 @@
       "start": "2026-11-01T21:10:00Z",
       "text": "Vejmelka (UTA) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384705654%232345756123_13L42133Q1-659212771Q20\u0004o21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621791099&selectionId=75028426\u0004o20.5\u0005"
     },
+    "71d674d1a6ac60893018bd115d42d624|Tristan Jarry": {
+      "lines": {
+        "DK": 27.5,
+        "FD": 27.5
+      },
+      "mid": 151,
+      "side": "UNDER",
+      "start": "2026-11-04T00:40:00Z",
+      "text": "Jarry (EDM) - EDM@NJD 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265478%232347481135_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622353086&selectionId=74843126\u0004u27.5\u0005"
+    },
     "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -12192,6 +12202,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088181,
+  "tg_offset": 69088182,
   "watch": {}
 }
