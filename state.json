@@ -8618,12 +8618,10 @@
       "status": "OUT"
     },
     "STL:8476892": {
-      "alerted": true,
-      "out_at": "2026-10-31T16:12:12Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-03T18:00:36Z",
+      "alerted": false,
+      "out_at": "2026-11-03T18:06:24Z",
       "seen": "2026-10-30T17:12:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "TOR:8480893": {
       "alerted": true,
@@ -11049,12 +11047,6 @@
       "book": "FD",
       "event_id": "71d674d1a6ac60893018bd115d42d624",
       "goalie": "Tristan Jarry"
-    },
-    "959": {
-      "at": "2026-10-31T18:06:11Z",
-      "book": "FD",
-      "event_id": "5914f2527dc280fc35af01099f445bb9",
-      "goalie": "Justus Annunen"
     },
     "960": {
       "at": "2026-10-31T18:14:12Z",
