@@ -312,7 +312,7 @@
     }
   },
   "corrections_checked": "2026-11-03",
-  "credits_remaining": 19814,
+  "credits_remaining": 19812,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -390,14 +390,14 @@
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-03T15:52:12Z",
+      "last_paid_check": "2026-11-03T16:07:12Z",
       "lines": {
         "draftkings": {
           "Scott Wedgewood": {
-            "over": -120,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038886_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -110,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038887_15L42133Q1458571637Q20"
           }
         }
@@ -735,7 +735,7 @@
     "ec0cd2ebb977023698a5f16ca4de0e6c": {
       "commence_time": "2026-11-04T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-03T15:52:12Z",
+      "last_paid_check": "2026-11-03T16:07:12Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
