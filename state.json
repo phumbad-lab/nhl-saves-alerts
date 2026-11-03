@@ -312,7 +312,7 @@
     }
   },
   "corrections_checked": "2026-11-03",
-  "credits_remaining": 19824,
+  "credits_remaining": 19823,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -389,8 +389,19 @@
     },
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-03T15:37:11Z",
+      "lines": {
+        "draftkings": {
+          "Scott Wedgewood": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038886_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038887_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "Colorado Avalanche @ Columbus Blue Jackets"
     },
     "371ac1fb21cf79abfd94499c6ee92b90": {
@@ -3966,6 +3977,39 @@
         "CAR",
         28,
         31
+      ]
+    ]
+  },
+  "h2h_CBJ-COL": {
+    "fetched": "2026-11-03T15:37:11Z",
+    "value": [
+      [
+        "2026-01-10",
+        "CBJ",
+        "COL",
+        29,
+        31
+      ],
+      [
+        "2025-10-16",
+        "COL",
+        "CBJ",
+        36,
+        23
+      ],
+      [
+        "2025-04-03",
+        "COL",
+        "CBJ",
+        32,
+        30
+      ],
+      [
+        "2024-10-12",
+        "CBJ",
+        "COL",
+        23,
+        30
       ]
     ]
   },
@@ -10071,7 +10115,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-10-31T15:38:12Z",
+    "fetched": "2026-11-03T15:37:11Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -10093,7 +10137,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-11-02T16:33:10Z",
+    "fetched": "2026-11-03T15:37:11Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -10440,6 +10484,12 @@
       "book": null,
       "event_id": "ec0cd2ebb977023698a5f16ca4de0e6c",
       "goalie": "Sergei Bobrovsky"
+    },
+    "1052": {
+      "at": "2026-11-03T15:37:11Z",
+      "book": null,
+      "event_id": "13ced29ffb36afa9ac1436ef60bda139",
+      "goalie": "Scott Wedgewood"
     },
     "936": {
       "at": "2026-10-31T15:38:12Z",
