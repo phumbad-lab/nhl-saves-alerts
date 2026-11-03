@@ -64,6 +64,16 @@
       "start": "2026-11-01T18:10:00Z",
       "text": "Kochetkov (CAR) - WPG@CAR 1:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384694817%232345642446_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621733654&selectionId=75074343\u0004u19.5\u0005"
     },
+    "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
+      "lines": {
+        "DK": 22.5,
+        "FD": 23.5
+      },
+      "mid": 152,
+      "side": "UNDER",
+      "start": "2026-11-04T00:10:00Z",
+      "text": "Cossa (UTA) - UTA@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385624761%232349180973_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622342492&selectionId=103689735\u0004u23.5\u0005"
+    },
     "f84f85e8c5fdd0a70594563b0041d706|John Gibson": {
       "lines": {
         "DK": 26.5,
@@ -12208,6 +12218,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088183,
+  "tg_offset": 69088184,
   "watch": {}
 }
