@@ -8544,7 +8544,7 @@
       "status": "OUT"
     },
     "PIT:8471215": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-03T17:16:13Z",
       "seen": "2026-11-02T16:04:12Z",
       "status": "OUT"
