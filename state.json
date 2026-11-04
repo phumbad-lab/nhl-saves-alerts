@@ -265,7 +265,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-11-03",
+  "corrections_checked": "2026-11-04",
   "credits_remaining": 19634,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
@@ -10512,15 +10512,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-03": [
-      "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood",
-      "f84f85e8c5fdd0a70594563b0041d706|John Gibson",
-      "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger",
-      "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa",
-      "71d674d1a6ac60893018bd115d42d624|Tristan Jarry"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
