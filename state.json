@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19603,
+  "credits_remaining": 19601,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -555,14 +555,14 @@
     "7cc07a9c5a886203f238a3fe0b83dfd1": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T18:44:11Z",
+      "last_paid_check": "2026-11-04T19:00:22Z",
       "lines": {
         "fanduel": {
           "Joey Daccord": {
-            "over": -132,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708716&selectionId=74979817",
-            "point": 23.5,
-            "under": 100,
+            "point": 24.5,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708716&selectionId=74979816"
           }
         }
@@ -651,7 +651,7 @@
     "a3c2f39dce2dbf9e8cb78acce24cd379": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T18:44:11Z",
+      "last_paid_check": "2026-11-04T19:00:22Z",
       "lines": {
         "fanduel": {
           "Darcy Kuemper": {
