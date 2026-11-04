@@ -8762,6 +8762,8 @@
     "MTL:8480018": {
       "alerted": true,
       "out_at": "2026-10-22T15:33:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-04T18:23:10Z",
       "seen": "2026-10-22T15:33:11Z",
       "status": "OUT"
     },
