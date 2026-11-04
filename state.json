@@ -1,6 +1,7 @@
 {
   "channel_posts": {
     "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood": {
+      "done": true,
       "lines": {
         "DK": 25.5,
         "FD": 24.5
@@ -141,6 +142,10 @@
     },
     "1358a7c35b103e3242da6a96468d61f9|Tristan Jarry": {
       "d": "2026-10-28",
+      "r": "W"
+    },
+    "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood": {
+      "d": "2026-11-03",
       "r": "W"
     },
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
@@ -10409,7 +10414,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-03": [
+      "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
