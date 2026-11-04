@@ -11,6 +11,16 @@
       "start": "2026-11-04T00:10:00Z",
       "text": "Wedgewood (COL) - COL@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038887_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622337717&selectionId=74880668\u0004u24.5\u0005"
     },
+    "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
+      "lines": {
+        "DK": 22.5,
+        "FD": 22.5
+      },
+      "mid": 160,
+      "side": "UNDER",
+      "start": "2026-11-05T00:40:00Z",
+      "text": "Ellis (BUF) - OTT@BUF 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647377%232349255488_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834\u0004u22.5\u0005"
+    },
     "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar": {
       "done": true,
       "lines": {
@@ -44,28 +54,6 @@
       "start": "2026-11-04T00:40:00Z",
       "text": "Jarry (EDM) - EDM@NJD 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265478%232347481135_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622353086&selectionId=74843126\u0004u27.5\u0005"
     },
-    "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 21.5
-      },
-      "mid": 130,
-      "side": "UNDER",
-      "start": "2026-11-01T00:10:00Z",
-      "text": "Oettinger (DAL) - CBJ@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384328770%232344094347_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621459825&selectionId=74880671\u0004u21.5\u0005"
-    },
-    "875368ed11228a45263f84f54223e264|Pyotr Kochetkov": {
-      "done": true,
-      "lines": {
-        "DK": 19.5,
-        "FD": 19.5
-      },
-      "mid": 140,
-      "side": "UNDER",
-      "start": "2026-11-01T18:10:00Z",
-      "text": "Kochetkov (CAR) - WPG@CAR 1:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384694817%232345642446_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621733654&selectionId=75074343\u0004u19.5\u0005"
-    },
     "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -98,28 +86,6 @@
       "side": "UNDER",
       "start": "2026-11-04T00:10:00Z",
       "text": "Gibson (DET) - DET@TBL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385262267%232349473979_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622426648&selectionId=76247481\u0004u26.5\u0005"
-    },
-    "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 23.5
-      },
-      "mid": 129,
-      "side": "OVER",
-      "start": "2026-10-31T23:10:00Z",
-      "text": "Fowler (MTL) - PIT@MTL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384302828%232344063797_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621452710&selectionId=92532103\u0004o23.5\u0005"
-    },
-    "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov": {
-      "done": true,
-      "lines": {
-        "DK": 26.5,
-        "FD": 24.5
-      },
-      "mid": 132,
-      "side": "OVER",
-      "start": "2026-10-31T23:10:00Z",
-      "text": "Murashov (PIT) - PIT@MTL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384592512%232344154939_13L42133Q1-54034395Q20\u0004o26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621496223&selectionId=91004572\u0004o24.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-04",
@@ -12606,6 +12572,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088188,
+  "tg_offset": 69088189,
   "watch": {}
 }
