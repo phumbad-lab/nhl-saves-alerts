@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19611,
+  "credits_remaining": 19610,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -695,30 +695,30 @@
     "bc22bdc8d7cca6b3695672a8ebf84456": {
       "commence_time": "2026-11-05T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T17:46:11Z",
+      "last_paid_check": "2026-11-04T18:01:12Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
-            "over": -120,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385648149%232350570899_13L42133Q1-1959470774Q20",
             "point": 20.5,
-            "under": -115,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385648149%232350570900_15L42133Q1-1449474Q20"
           }
         },
         "fanduel": {
           "Jacob Markstrom": {
-            "over": -112,
+            "over": -104,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622672795&selectionId=74591079",
             "point": 20.5,
-            "under": -118,
+            "under": -128,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622672795&selectionId=74591081"
           },
           "Spencer Knight": {
-            "over": -130,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622689907&selectionId=74973970",
-            "point": 24.5,
-            "under": -102,
+            "point": 25.5,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622689907&selectionId=74973969"
           }
         }
