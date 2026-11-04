@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19599,
+  "credits_remaining": 19597,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -555,8 +555,17 @@
     "7cc07a9c5a886203f238a3fe0b83dfd1": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T19:16:11Z",
+      "last_paid_check": "2026-11-04T19:31:23Z",
       "lines": {
+        "draftkings": {
+          "Joey Daccord": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385671497%232350778079_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385671497%232350778080_15L42133Q1731448625Q20"
+          }
+        },
         "fanduel": {
           "Joey Daccord": {
             "over": -114,
@@ -651,14 +660,30 @@
     "a3c2f39dce2dbf9e8cb78acce24cd379": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T19:16:11Z",
+      "last_paid_check": "2026-11-04T19:31:23Z",
       "lines": {
+        "draftkings": {
+          "Darcy Kuemper": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647774%232350019870_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647774%232350019871_15L42133Q184490156Q20"
+          },
+          "Yaroslav Askarov": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996457_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20"
+          }
+        },
         "fanduel": {
           "Darcy Kuemper": {
-            "over": -120,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708986&selectionId=74879770",
             "point": 23.5,
-            "under": -110,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708986&selectionId=74879771"
           }
         }
@@ -11389,6 +11414,24 @@
       "book": "DK",
       "event_id": "bc22bdc8d7cca6b3695672a8ebf84456",
       "goalie": "Spencer Knight"
+    },
+    "1121": {
+      "at": "2026-11-04T19:31:23Z",
+      "book": "DK",
+      "event_id": "7cc07a9c5a886203f238a3fe0b83dfd1",
+      "goalie": "Joey Daccord"
+    },
+    "1122": {
+      "at": "2026-11-04T19:31:23Z",
+      "book": null,
+      "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
+      "goalie": "Yaroslav Askarov"
+    },
+    "1123": {
+      "at": "2026-11-04T19:31:23Z",
+      "book": "DK",
+      "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
+      "goalie": "Darcy Kuemper"
     }
   },
   "shot_stats": {
