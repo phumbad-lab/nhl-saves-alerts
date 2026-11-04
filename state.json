@@ -77,6 +77,7 @@
       "text": "Oettinger (DAL) - DAL@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180989_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880671\u0004u23.5\u0005"
     },
     "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 23.5
@@ -229,6 +230,10 @@
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "d": "2026-10-26",
       "r": "W"
+    },
+    "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
+      "d": "2026-11-03",
+      "r": "L"
     },
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
       "d": "2026-10-27",
@@ -10428,7 +10433,8 @@
     "2026-11-03": [
       "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood",
       "f84f85e8c5fdd0a70594563b0041d706|John Gibson",
-      "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger"
+      "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger",
+      "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa"
     ]
   },
   "picks_channel": {
