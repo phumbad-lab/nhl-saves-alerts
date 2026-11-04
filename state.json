@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19593,
+  "credits_remaining": 19592,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -555,7 +555,7 @@
     "7cc07a9c5a886203f238a3fe0b83dfd1": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T20:02:20Z",
+      "last_paid_check": "2026-11-04T20:18:11Z",
       "lines": {
         "draftkings": {
           "Joey Daccord": {
@@ -567,6 +567,13 @@
           }
         },
         "fanduel": {
+          "Dustin Wolf": {
+            "over": -122,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622735623&selectionId=74079401",
+            "point": 23.5,
+            "under": -108,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622735623&selectionId=74079383"
+          },
           "Joey Daccord": {
             "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708716&selectionId=74979817",
@@ -11433,6 +11440,12 @@
       "book": "FD",
       "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
       "goalie": "Yaroslav Askarov"
+    },
+    "1125": {
+      "at": "2026-11-04T20:18:11Z",
+      "book": null,
+      "event_id": "7cc07a9c5a886203f238a3fe0b83dfd1",
+      "goalie": "Dustin Wolf"
     }
   },
   "shot_stats": {
