@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19631,
+  "credits_remaining": 19630,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -343,8 +343,19 @@
     },
     "1a1782b9fde64acd952ea9fd3aff7d83": {
       "commence_time": "2026-11-05T00:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-04T15:37:11Z",
+      "lines": {
+        "fanduel": {
+          "Colten Ellis": {
+            "over": 100,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265835",
+            "point": 22.5,
+            "under": -132,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834"
+          }
+        }
+      },
       "matchup": "Ottawa Senators @ Buffalo Sabres"
     },
     "371ac1fb21cf79abfd94499c6ee92b90": {
@@ -3743,6 +3754,39 @@
         "BUF",
         26,
         36
+      ]
+    ]
+  },
+  "h2h_BUF-OTT": {
+    "fetched": "2026-11-04T15:37:11Z",
+    "value": [
+      [
+        "2026-04-02",
+        "BUF",
+        "OTT",
+        22,
+        24
+      ],
+      [
+        "2025-12-23",
+        "BUF",
+        "OTT",
+        25,
+        26
+      ],
+      [
+        "2025-10-15",
+        "OTT",
+        "BUF",
+        37,
+        27
+      ],
+      [
+        "2025-04-01",
+        "BUF",
+        "OTT",
+        22,
+        35
       ]
     ]
   },
@@ -10540,7 +10584,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-10-31T19:00:25Z",
+    "fetched": "2026-11-04T15:37:11Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -10668,7 +10712,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-11-01T16:31:10Z",
+    "fetched": "2026-11-04T15:37:11Z",
     "value": [
       "Samuel Ersson",
       "Jonas Johansson",
@@ -11164,6 +11208,12 @@
       "book": null,
       "event_id": "371ac1fb21cf79abfd94499c6ee92b90",
       "goalie": "Stuart Skinner"
+    },
+    "1111": {
+      "at": "2026-11-04T15:37:11Z",
+      "book": null,
+      "event_id": "1a1782b9fde64acd952ea9fd3aff7d83",
+      "goalie": "Colten Ellis"
     },
     "991": {
       "at": "2026-11-01T15:47:10Z",
