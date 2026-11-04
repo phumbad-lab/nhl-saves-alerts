@@ -241,7 +241,7 @@
     }
   },
   "corrections_checked": "2026-11-03",
-  "credits_remaining": 19647,
+  "credits_remaining": 19646,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -524,7 +524,7 @@
     "8fe6b339f282707173f0bcff36f112e8": {
       "commence_time": "2026-11-04T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T01:56:12Z",
+      "last_paid_check": "2026-11-04T01:57:10Z",
       "lines": {
         "draftkings": {
           "Kevin Lankinen": {
@@ -544,10 +544,10 @@
         },
         "fanduel": {
           "Kevin Lankinen": {
-            "over": -118,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622384670&selectionId=74923651",
             "point": 25.5,
-            "under": -112,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622384670&selectionId=74923650"
           }
         }
