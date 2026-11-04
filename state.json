@@ -54,6 +54,16 @@
       "start": "2026-11-04T00:40:00Z",
       "text": "Jarry (EDM) - EDM@NJD 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265478%232347481135_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622353086&selectionId=74843126\u0004u27.5\u0005"
     },
+    "a3c2f39dce2dbf9e8cb78acce24cd379|Yaroslav Askarov": {
+      "lines": {
+        "DK": 27.5,
+        "FD": 27.5
+      },
+      "mid": 161,
+      "side": "UNDER",
+      "start": "2026-11-05T03:10:00Z",
+      "text": "Askarov (SJS) - SJS@LAK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385757\u0004u27.5\u0005"
+    },
     "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -12572,6 +12582,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088189,
+  "tg_offset": 69088190,
   "watch": {}
 }
