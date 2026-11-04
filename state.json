@@ -86,6 +86,7 @@
       "text": "Cossa (UTA) - UTA@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385624761%232349180973_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622342492&selectionId=103689735\u0004u23.5\u0005"
     },
     "f84f85e8c5fdd0a70594563b0041d706|John Gibson": {
+      "done": true,
       "lines": {
         "DK": 26.5,
         "FD": 26.5
@@ -235,6 +236,10 @@
     "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
       "d": "2026-10-28",
       "r": "L"
+    },
+    "f84f85e8c5fdd0a70594563b0041d706|John Gibson": {
+      "d": "2026-11-03",
+      "r": "W"
     },
     "fa8413d05f6c8b2d8f68cc0d17551fa9|Jacob Fowler": {
       "d": "2026-10-31",
@@ -10416,7 +10421,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-03": [
-      "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood"
+      "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood",
+      "f84f85e8c5fdd0a70594563b0041d706|John Gibson"
     ]
   },
   "picks_channel": {
