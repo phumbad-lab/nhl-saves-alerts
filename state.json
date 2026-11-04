@@ -66,6 +66,7 @@
       "text": "Kochetkov (CAR) - WPG@CAR 1:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384694817%232345642446_15L42133Q1-767247327Q20\u0004u19.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621733654&selectionId=75074343\u0004u19.5\u0005"
     },
     "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
+      "done": true,
       "lines": {
         "DK": 23.5,
         "FD": 23.5
@@ -211,6 +212,10 @@
     },
     "b07a2b3d9d717c9eb693422aef404555|Yaroslav Askarov": {
       "d": "2026-10-29",
+      "r": "W"
+    },
+    "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
+      "d": "2026-11-03",
       "r": "W"
     },
     "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs": {
@@ -10422,7 +10427,8 @@
   "night_graded": {
     "2026-11-03": [
       "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood",
-      "f84f85e8c5fdd0a70594563b0041d706|John Gibson"
+      "f84f85e8c5fdd0a70594563b0041d706|John Gibson",
+      "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger"
     ]
   },
   "picks_channel": {
