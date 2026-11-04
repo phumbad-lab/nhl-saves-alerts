@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19630,
+  "credits_remaining": 19629,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -344,14 +344,14 @@
     "1a1782b9fde64acd952ea9fd3aff7d83": {
       "commence_time": "2026-11-05T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T15:37:11Z",
+      "last_paid_check": "2026-11-04T15:52:12Z",
       "lines": {
         "fanduel": {
           "Colten Ellis": {
-            "over": 100,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265835",
             "point": 22.5,
-            "under": -132,
+            "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834"
           }
         }
