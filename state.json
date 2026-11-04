@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19608,
+  "credits_remaining": 19607,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -350,7 +350,7 @@
     "1a1782b9fde64acd952ea9fd3aff7d83": {
       "commence_time": "2026-11-05T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T18:12:12Z",
+      "last_paid_check": "2026-11-04T18:27:16Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
@@ -359,6 +359,13 @@
             "point": 22.5,
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647377%232349255488_15L42133Q1874096526Q20"
+          },
+          "Samuel Ersson": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385646836%232350036820_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385646836%232350036821_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
@@ -11296,6 +11303,12 @@
     "1116": {
       "at": "2026-11-04T17:56:13Z",
       "book": null,
+      "event_id": "1a1782b9fde64acd952ea9fd3aff7d83",
+      "goalie": "Samuel Ersson"
+    },
+    "1117": {
+      "at": "2026-11-04T18:27:16Z",
+      "book": "DK",
       "event_id": "1a1782b9fde64acd952ea9fd3aff7d83",
       "goalie": "Samuel Ersson"
     }
