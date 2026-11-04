@@ -34,6 +34,7 @@
       "text": "Vejmelka (UTA) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384705654%232345756123_13L42133Q1-659212771Q20\u0004o21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621791099&selectionId=75028426\u0004o20.5\u0005"
     },
     "71d674d1a6ac60893018bd115d42d624|Tristan Jarry": {
+      "done": true,
       "lines": {
         "DK": 27.5,
         "FD": 27.5
@@ -189,6 +190,10 @@
     },
     "5f16cb74336431221c132f05c0e31d04|Lukas Dostal": {
       "d": "2026-10-27",
+      "r": "L"
+    },
+    "71d674d1a6ac60893018bd115d42d624|Tristan Jarry": {
+      "d": "2026-11-03",
       "r": "L"
     },
     "74a990b939cd35873c9bb47d6e37e057|Anton Forsberg": {
@@ -10434,7 +10439,8 @@
       "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood",
       "f84f85e8c5fdd0a70594563b0041d706|John Gibson",
       "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger",
-      "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa"
+      "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa",
+      "71d674d1a6ac60893018bd115d42d624|Tristan Jarry"
     ]
   },
   "picks_channel": {
