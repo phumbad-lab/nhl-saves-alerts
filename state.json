@@ -266,7 +266,7 @@
     }
   },
   "corrections_checked": "2026-11-04",
-  "credits_remaining": 19595,
+  "credits_remaining": 19593,
   "events": {
     "01847028adef1eda81745cd36f240fc5": {
       "commence_time": "2026-11-03T00:15:00Z",
@@ -555,7 +555,7 @@
     "7cc07a9c5a886203f238a3fe0b83dfd1": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T19:47:10Z",
+      "last_paid_check": "2026-11-04T20:02:20Z",
       "lines": {
         "draftkings": {
           "Joey Daccord": {
@@ -660,7 +660,7 @@
     "a3c2f39dce2dbf9e8cb78acce24cd379": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-04T19:47:10Z",
+      "last_paid_check": "2026-11-04T20:02:20Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
@@ -671,20 +671,27 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647774%232350019871_15L42133Q184490156Q20"
           },
           "Yaroslav Askarov": {
-            "over": -120,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996457_13L42133Q11884129982Q20",
             "point": 27.5,
-            "under": -110,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20"
           }
         },
         "fanduel": {
           "Darcy Kuemper": {
-            "over": -120,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708986&selectionId=74879770",
             "point": 23.5,
-            "under": -110,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708986&selectionId=74879771"
+          },
+          "Yaroslav Askarov": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385758",
+            "point": 27.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385757"
           }
         }
       },
@@ -11432,6 +11439,12 @@
       "book": "DK",
       "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
       "goalie": "Darcy Kuemper"
+    },
+    "1124": {
+      "at": "2026-11-04T20:02:20Z",
+      "book": "FD",
+      "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
+      "goalie": "Yaroslav Askarov"
     }
   },
   "shot_stats": {
