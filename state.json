@@ -8648,13 +8648,6 @@
       "seen": "2026-10-30T17:12:11Z",
       "status": "OUT"
     },
-    "TOR:8480893": {
-      "alerted": true,
-      "missing_since": "2026-11-04T12:06:12Z",
-      "out_at": "2026-11-01T12:05:13Z",
-      "seen": "2026-11-01T12:05:13Z",
-      "status": "OUT"
-    },
     "VAN:8480078": {
       "alerted": true,
       "out_at": "2026-10-30T20:36:11Z",
