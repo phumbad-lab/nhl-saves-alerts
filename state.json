@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19575,
+  "credits_remaining": 19574,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -705,8 +705,19 @@
     },
     "b945b7133224c704b734e04becd109f0": {
       "commence_time": "2026-11-06T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T15:52:12Z",
+      "lines": {
+        "fanduel": {
+          "Dylan Garand": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622987406&selectionId=96675312",
+            "point": 20.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622987406&selectionId=96675313"
+          }
+        }
+      },
       "matchup": "Philadelphia Flyers @ New York Rangers"
     },
     "bc22bdc8d7cca6b3695672a8ebf84456": {
@@ -7836,6 +7847,39 @@
       ]
     ]
   },
+  "h2h_NYR-PHI": {
+    "fetched": "2026-11-05T15:52:12Z",
+    "value": [
+      [
+        "2026-03-09",
+        "NYR",
+        "PHI",
+        27,
+        34
+      ],
+      [
+        "2026-02-26",
+        "PHI",
+        "NYR",
+        24,
+        24
+      ],
+      [
+        "2026-01-17",
+        "NYR",
+        "PHI",
+        28,
+        28
+      ],
+      [
+        "2025-12-20",
+        "PHI",
+        "NYR",
+        32,
+        27
+      ]
+    ]
+  },
   "h2h_NYR-STL": {
     "fetched": "2026-11-03T15:44:17Z",
     "value": [
@@ -10907,7 +10951,7 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-11-03T15:44:17Z",
+    "fetched": "2026-11-05T15:52:12Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
@@ -10924,7 +10968,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-11-03T15:40:18Z",
+    "fetched": "2026-11-05T15:52:12Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -11460,6 +11504,12 @@
       "book": null,
       "event_id": "6828fb175fa928f75d7978128372c817",
       "goalie": "Daniil Tarasov"
+    },
+    "1135": {
+      "at": "2026-11-05T15:52:12Z",
+      "book": null,
+      "event_id": "b945b7133224c704b734e04becd109f0",
+      "goalie": "Dylan Garand"
     }
   },
   "shot_stats": {
