@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19484,
+  "credits_remaining": 19483,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -297,7 +297,7 @@
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:54:11Z",
+      "last_paid_check": "2026-11-05T19:09:11Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
