@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19580,
+  "credits_remaining": 19579,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -392,8 +392,19 @@
     },
     "5d5b6a0f376a8d9bd4f5e46891e6c6d8": {
       "commence_time": "2026-11-06T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T15:33:15Z",
+      "lines": {
+        "fanduel": {
+          "Stuart Skinner": {
+            "over": -132,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622977517&selectionId=74079397",
+            "point": 20.5,
+            "under": 100,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622977517&selectionId=74079396"
+          }
+        }
+      },
       "matchup": "Vancouver Canucks @ Winnipeg Jets"
     },
     "6828fb175fa928f75d7978128372c817": {
@@ -2809,7 +2820,7 @@
     ]
   },
   "gl_8477504": {
-    "fetched": "2026-11-03T23:50:16Z",
+    "fetched": "2026-11-05T15:33:15Z",
     "value": [
       "2026-10-02",
       "2026-10-04",
@@ -2933,7 +2944,7 @@
     ]
   },
   "gl_8480078": {
-    "fetched": "2026-11-03T18:12:29Z",
+    "fetched": "2026-11-05T15:33:15Z",
     "value": [
       "2026-10-15",
       "2026-10-17",
@@ -8738,6 +8749,39 @@
       ]
     ]
   },
+  "h2h_VAN-WPG": {
+    "fetched": "2026-11-05T15:33:15Z",
+    "value": [
+      [
+        "2026-03-07",
+        "VAN",
+        "WPG",
+        23,
+        36
+      ],
+      [
+        "2026-02-25",
+        "WPG",
+        "VAN",
+        28,
+        23
+      ],
+      [
+        "2025-11-11",
+        "WPG",
+        "VAN",
+        30,
+        33
+      ],
+      [
+        "2025-03-30",
+        "VAN",
+        "WPG",
+        24,
+        27
+      ]
+    ]
+  },
   "injuries": {
     "ANA:8478873": {
       "alerted": true,
@@ -10891,7 +10935,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-11-03T18:12:29Z",
+    "fetched": "2026-11-05T15:33:15Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -10906,7 +10950,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-11-03T15:56:16Z",
+    "fetched": "2026-11-05T15:33:15Z",
     "value": [
       "Nico Daws",
       "Stuart Skinner",
@@ -11359,6 +11403,12 @@
       "book": null,
       "event_id": "18dd8ea86db020028f8d1c130b99d616",
       "goalie": "Semyon Varlamov"
+    },
+    "1133": {
+      "at": "2026-11-05T15:33:15Z",
+      "book": null,
+      "event_id": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
