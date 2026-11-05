@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19397,
+  "credits_remaining": 19395,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -476,7 +476,7 @@
     "6828fb175fa928f75d7978128372c817": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T23:04:11Z",
+      "last_paid_check": "2026-11-05T23:20:15Z",
       "lines": {
         "draftkings": {
           "Daniil Tarasov": {
@@ -667,7 +667,7 @@
     "9e57c39752bfbc587ce341650fcd5a19": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T23:04:11Z",
+      "last_paid_check": "2026-11-05T23:20:15Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -676,6 +676,13 @@
             "point": 23.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385998649%232352339587_15L42133Q184490156Q20"
+          },
+          "Michael DiPietro": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386486465%232352687526_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386486465%232352687527_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
@@ -687,10 +694,10 @@
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622990982&selectionId=74843680"
           },
           "Michael DiPietro": {
-            "over": -102,
+            "over": -112,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623079544&selectionId=103992256",
-            "point": 24.5,
-            "under": -130,
+            "point": 25.5,
+            "under": -118,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623079544&selectionId=103992255"
           }
         }
@@ -12082,6 +12089,12 @@
     "1170": {
       "at": "2026-11-05T23:04:11Z",
       "book": null,
+      "event_id": "9e57c39752bfbc587ce341650fcd5a19",
+      "goalie": "Michael DiPietro"
+    },
+    "1171": {
+      "at": "2026-11-05T23:20:15Z",
+      "book": "DK",
       "event_id": "9e57c39752bfbc587ce341650fcd5a19",
       "goalie": "Michael DiPietro"
     }
