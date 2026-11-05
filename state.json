@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19502,
+  "credits_remaining": 19499,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -422,7 +422,7 @@
     "5d5b6a0f376a8d9bd4f5e46891e6c6d8": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:08:16Z",
+      "last_paid_check": "2026-11-05T18:24:14Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
@@ -434,11 +434,18 @@
           }
         },
         "fanduel": {
+          "Leevi Merilainen": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623024972&selectionId=78174825",
+            "point": 25.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623024972&selectionId=78174826"
+          },
           "Stuart Skinner": {
-            "over": -130,
+            "over": -136,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622977517&selectionId=74079397",
             "point": 20.5,
-            "under": -102,
+            "under": 102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622977517&selectionId=74079396"
           }
         }
@@ -448,7 +455,7 @@
     "6828fb175fa928f75d7978128372c817": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:08:16Z",
+      "last_paid_check": "2026-11-05T18:24:14Z",
       "lines": {
         "draftkings": {
           "Daniil Tarasov": {
@@ -633,7 +640,7 @@
     "9e57c39752bfbc587ce341650fcd5a19": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:08:16Z",
+      "last_paid_check": "2026-11-05T18:24:14Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -11919,6 +11926,12 @@
       "book": null,
       "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
       "goalie": "Arvid Soderblom"
+    },
+    "1161": {
+      "at": "2026-11-05T18:24:14Z",
+      "book": null,
+      "event_id": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
