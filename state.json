@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19522,
+  "credits_remaining": 19521,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -395,8 +395,19 @@
     },
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T17:45:15Z",
+      "lines": {
+        "fanduel": {
+          "Mackenzie Blackwood": {
+            "over": -132,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623018474&selectionId=74101473",
+            "point": 20.5,
+            "under": 100,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623018474&selectionId=74101476"
+          }
+        }
+      },
       "matchup": "Nashville Predators @ Colorado Avalanche"
     },
     "5d5b6a0f376a8d9bd4f5e46891e6c6d8": {
@@ -5501,8 +5512,15 @@
     ]
   },
   "h2h_COL-NSH": {
-    "fetched": "2026-10-25T17:13:11Z",
+    "fetched": "2026-11-05T17:45:15Z",
     "value": [
+      [
+        "2026-10-25",
+        "COL",
+        "NSH",
+        21,
+        35
+      ],
       [
         "2026-01-16",
         "NSH",
@@ -5523,13 +5541,6 @@
         "NSH",
         42,
         31
-      ],
-      [
-        "2025-11-22",
-        "COL",
-        "NSH",
-        26,
-        35
       ]
     ]
   },
@@ -9153,7 +9164,6 @@
     },
     "STL:8476892": {
       "alerted": true,
-      "missing_since": "2026-11-05T17:41:11Z",
       "out_at": "2026-11-03T18:06:24Z",
       "seen": "2026-10-30T17:12:11Z",
       "status": "DTD"
@@ -11085,7 +11095,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-11-03T15:37:11Z",
+    "fetched": "2026-11-05T17:45:15Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -11153,7 +11163,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-11-03T16:40:19Z",
+    "fetched": "2026-11-05T17:45:15Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
@@ -11780,6 +11790,12 @@
       "book": null,
       "event_id": "eefdb55d84dd6a95ef53b76d3935f3c9",
       "goalie": "Jordan Binnington"
+    },
+    "1151": {
+      "at": "2026-11-05T17:45:15Z",
+      "book": null,
+      "event_id": "446de9651d2d2948326d970e9f858a33",
+      "goalie": "Mackenzie Blackwood"
     }
   },
   "shot_stats": {
