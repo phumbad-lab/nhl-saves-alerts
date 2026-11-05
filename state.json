@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19504,
+  "credits_remaining": 19503,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -865,7 +865,7 @@
     "cb757b1c9cf684423578700bb6aef492": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:04:11Z",
+      "last_paid_check": "2026-11-05T18:20:15Z",
       "lines": {
         "draftkings": {
           "Jakub Dobes": {
