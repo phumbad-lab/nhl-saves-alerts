@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19574,
+  "credits_remaining": 19573,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -768,8 +768,19 @@
     },
     "cb757b1c9cf684423578700bb6aef492": {
       "commence_time": "2026-11-06T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T15:57:14Z",
+      "lines": {
+        "fanduel": {
+          "Jakub Dobes": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622988016&selectionId=78840903",
+            "point": 23.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622988016&selectionId=78840902"
+          }
+        }
+      },
       "matchup": "Utah Mammoth @ Montr\u00e9al Canadiens"
     },
     "ec0cd2ebb977023698a5f16ca4de0e6c": {
@@ -2811,7 +2822,7 @@
     ]
   },
   "gl_8476875": {
-    "fetched": "2026-11-03T23:50:16Z",
+    "fetched": "2026-11-05T15:57:14Z",
     "value": [
       "2026-09-29",
       "2026-10-03",
@@ -7187,6 +7198,39 @@
       ]
     ]
   },
+  "h2h_MTL-UTA": {
+    "fetched": "2026-11-05T15:57:14Z",
+    "value": [
+      [
+        "2025-11-26",
+        "MTL",
+        "UTA",
+        17,
+        34
+      ],
+      [
+        "2025-11-08",
+        "UTA",
+        "MTL",
+        27,
+        23
+      ],
+      [
+        "2025-01-14",
+        "MTL",
+        "UTA",
+        27,
+        25
+      ],
+      [
+        "2024-11-26",
+        "UTA",
+        "MTL",
+        29,
+        13
+      ]
+    ]
+  },
   "h2h_MTL-WPG": {
     "fetched": "2026-11-03T15:56:16Z",
     "value": [
@@ -10922,7 +10966,7 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-11-03T15:56:16Z",
+    "fetched": "2026-11-05T15:57:14Z",
     "value": [
       "Jakub Dobes",
       "Jacob Fowler",
@@ -11017,7 +11061,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-11-03T15:36:15Z",
+    "fetched": "2026-11-05T15:57:14Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -11510,6 +11554,12 @@
       "book": null,
       "event_id": "b945b7133224c704b734e04becd109f0",
       "goalie": "Dylan Garand"
+    },
+    "1136": {
+      "at": "2026-11-05T15:57:14Z",
+      "book": null,
+      "event_id": "cb757b1c9cf684423578700bb6aef492",
+      "goalie": "Jakub Dobes"
     }
   },
   "shot_stats": {
