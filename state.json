@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19514,
+  "credits_remaining": 19513,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -1122,8 +1122,19 @@
     },
     "fc2cccfb47dffb4677b85d247c768ae9": {
       "commence_time": "2026-11-06T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T17:55:14Z",
+      "lines": {
+        "fanduel": {
+          "Andrei Vasilevskiy": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623020881&selectionId=74932792",
+            "point": 18.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623020881&selectionId=74932793"
+          }
+        }
+      },
       "matchup": "Chicago Blackhawks @ Tampa Bay Lightning"
     }
   },
@@ -3204,7 +3215,7 @@
     ]
   },
   "gl_8481524": {
-    "fetched": "2026-11-04T16:14:11Z",
+    "fetched": "2026-11-05T17:55:14Z",
     "value": [
       "2026-09-29",
       "2026-10-01",
@@ -5466,6 +5477,39 @@
         "CHI",
         29,
         31
+      ]
+    ]
+  },
+  "h2h_CHI-TBL": {
+    "fetched": "2026-11-05T17:55:14Z",
+    "value": [
+      [
+        "2026-01-23",
+        "TBL",
+        "CHI",
+        31,
+        19
+      ],
+      [
+        "2025-10-23",
+        "CHI",
+        "TBL",
+        25,
+        31
+      ],
+      [
+        "2025-01-28",
+        "CHI",
+        "TBL",
+        21,
+        35
+      ],
+      [
+        "2025-01-24",
+        "TBL",
+        "CHI",
+        40,
+        14
       ]
     ]
   },
@@ -11146,7 +11190,7 @@
     ]
   },
   "roster_CHI": {
-    "fetched": "2026-11-04T16:14:11Z",
+    "fetched": "2026-11-05T17:55:14Z",
     "value": [
       "Spencer Knight",
       "Arvid Soderblom"
@@ -11287,7 +11331,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-11-03T21:14:19Z",
+    "fetched": "2026-11-05T17:55:14Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -11878,6 +11922,12 @@
       "book": "DK",
       "event_id": "6828fb175fa928f75d7978128372c817",
       "goalie": "Daniil Tarasov"
+    },
+    "1156": {
+      "at": "2026-11-05T17:55:14Z",
+      "book": null,
+      "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
+      "goalie": "Andrei Vasilevskiy"
     }
   },
   "shot_stats": {
