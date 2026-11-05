@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19535,
+  "credits_remaining": 19534,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -920,14 +920,23 @@
     "eefdb55d84dd6a95ef53b76d3935f3c9": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:06:12Z",
+      "last_paid_check": "2026-11-05T17:22:15Z",
       "lines": {
+        "draftkings": {
+          "Connor Hellebuyck": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386088506%232352318665_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386088506%232352318666_15L42133Q1888607062Q20"
+          }
+        },
         "fanduel": {
           "Connor Hellebuyck": {
-            "over": -118,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998573&selectionId=74843125",
             "point": 22.5,
-            "under": -112,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998573&selectionId=74843124"
           }
         }
@@ -11229,12 +11238,6 @@
     ]
   },
   "sent": {
-    "1036": {
-      "at": "2026-11-02T17:22:11Z",
-      "book": null,
-      "event_id": "d5983dfd10f862eb0e497aa9a9e412f3",
-      "goalie": "Daniil Tarasov"
-    },
     "1037": {
       "at": "2026-11-02T18:04:12Z",
       "book": "FD",
@@ -11720,6 +11723,12 @@
       "book": null,
       "event_id": "b945b7133224c704b734e04becd109f0",
       "goalie": "Joseph Woll"
+    },
+    "1147": {
+      "at": "2026-11-05T17:22:15Z",
+      "book": "DK",
+      "event_id": "eefdb55d84dd6a95ef53b76d3935f3c9",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
