@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19474,
+  "credits_remaining": 19473,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -877,8 +877,19 @@
     },
     "c672f144ecbb937d3b15b483847129d2": {
       "commence_time": "2026-11-06T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T19:33:11Z",
+      "lines": {
+        "draftkings": {
+          "Laurent Brossoit": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386431105%232352488479_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386431105%232352488480_15L42133Q1-941301704Q20"
+          }
+        }
+      },
       "matchup": "Anaheim Ducks @ Edmonton Oilers"
     },
     "cb757b1c9cf684423578700bb6aef492": {
@@ -3032,7 +3043,7 @@
     ]
   },
   "gl_8475786": {
-    "fetched": "2026-11-03T16:25:14Z",
+    "fetched": "2026-11-05T19:33:11Z",
     "value": [
       "2026-09-29",
       "2026-10-17",
@@ -3171,7 +3182,7 @@
     ]
   },
   "gl_8478873": {
-    "fetched": "2026-11-03T18:12:29Z",
+    "fetched": "2026-11-05T19:33:11Z",
     "value": []
   },
   "gl_8478911": {
@@ -3422,6 +3433,39 @@
         "ANA",
         34,
         36
+      ]
+    ]
+  },
+  "h2h_ANA-EDM": {
+    "fetched": "2026-11-05T19:33:11Z",
+    "value": [
+      [
+        "2026-10-07",
+        "EDM",
+        "ANA",
+        19,
+        31
+      ],
+      [
+        "2026-04-30",
+        "EDM",
+        "ANA",
+        27,
+        31
+      ],
+      [
+        "2026-04-28",
+        "ANA",
+        "EDM",
+        30,
+        20
+      ],
+      [
+        "2026-04-26",
+        "EDM",
+        "ANA",
+        27,
+        38
       ]
     ]
   },
@@ -11195,7 +11239,7 @@
     "title": "TheSaveMan"
   },
   "roster_ANA": {
-    "fetched": "2026-11-03T18:12:29Z",
+    "fetched": "2026-11-05T19:33:11Z",
     "value": [
       "Laurent Brossoit",
       "Lukas Dostal",
@@ -11269,7 +11313,7 @@
     ]
   },
   "roster_EDM": {
-    "fetched": "2026-11-03T16:25:14Z",
+    "fetched": "2026-11-05T19:33:11Z",
     "value": [
       "Frederik Andersen",
       "Tristan Jarry",
@@ -11960,6 +12004,12 @@
       "book": "DK",
       "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
       "goalie": "Arvid Soderblom"
+    },
+    "1164": {
+      "at": "2026-11-05T19:33:11Z",
+      "book": null,
+      "event_id": "c672f144ecbb937d3b15b483847129d2",
+      "goalie": "Laurent Brossoit"
     }
   },
   "shot_stats": {
