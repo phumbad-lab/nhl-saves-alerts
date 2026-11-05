@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19410,
+  "credits_remaining": 19409,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -297,7 +297,7 @@
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T22:14:11Z",
+      "last_paid_check": "2026-11-05T22:30:18Z",
       "lines": {
         "draftkings": {
           "Brandon Bussi": {
@@ -316,11 +316,18 @@
           }
         },
         "fanduel": {
+          "Brandon Bussi": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623074661&selectionId=89960228",
+            "point": 21.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623074661&selectionId=89960227"
+          },
           "Semyon Varlamov": {
-            "over": -112,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622976787&selectionId=74880666",
             "point": 26.5,
-            "under": -118,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622976787&selectionId=74880667"
           }
         }
@@ -12062,6 +12069,12 @@
     "1168": {
       "at": "2026-11-05T21:58:11Z",
       "book": null,
+      "event_id": "18dd8ea86db020028f8d1c130b99d616",
+      "goalie": "Brandon Bussi"
+    },
+    "1169": {
+      "at": "2026-11-05T22:30:18Z",
+      "book": "FD",
       "event_id": "18dd8ea86db020028f8d1c130b99d616",
       "goalie": "Brandon Bussi"
     }
