@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19495,
+  "credits_remaining": 19492,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -422,7 +422,7 @@
     "5d5b6a0f376a8d9bd4f5e46891e6c6d8": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:24:14Z",
+      "last_paid_check": "2026-11-05T18:40:15Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
@@ -455,7 +455,7 @@
     "6828fb175fa928f75d7978128372c817": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:24:14Z",
+      "last_paid_check": "2026-11-05T18:40:15Z",
       "lines": {
         "draftkings": {
           "Daniil Tarasov": {
@@ -640,14 +640,14 @@
     "9e57c39752bfbc587ce341650fcd5a19": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:24:14Z",
+      "last_paid_check": "2026-11-05T18:40:15Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
-            "over": 100,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385998649%232352339586_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -135,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385998649%232352339587_15L42133Q184490156Q20"
           }
         },
