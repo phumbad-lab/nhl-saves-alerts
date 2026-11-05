@@ -9124,6 +9124,8 @@
     "DAL:8480036": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-05T17:46:11Z",
       "seen": "2026-11-04T02:01:12Z",
       "status": "DTD"
     },
@@ -9164,6 +9166,7 @@
     },
     "STL:8476892": {
       "alerted": true,
+      "missing_since": "2026-11-05T17:46:11Z",
       "out_at": "2026-11-03T18:06:24Z",
       "seen": "2026-10-30T17:12:11Z",
       "status": "DTD"
