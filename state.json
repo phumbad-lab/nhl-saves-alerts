@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19559,
+  "credits_remaining": 19558,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -903,8 +903,19 @@
     },
     "eefdb55d84dd6a95ef53b76d3935f3c9": {
       "commence_time": "2026-11-06T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T16:35:12Z",
+      "lines": {
+        "fanduel": {
+          "Connor Hellebuyck": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998573&selectionId=74843125",
+            "point": 22.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998573&selectionId=74843124"
+          }
+        }
+      },
       "matchup": "St Louis Blues @ New Jersey Devils"
     },
     "f05e184ffd9a6192d19ceee27d51a9de": {
@@ -7434,6 +7445,39 @@
       ]
     ]
   },
+  "h2h_NJD-STL": {
+    "fetched": "2026-11-05T16:35:12Z",
+    "value": [
+      [
+        "2026-02-28",
+        "NJD",
+        "STL",
+        33,
+        26
+      ],
+      [
+        "2025-11-26",
+        "STL",
+        "NJD",
+        23,
+        29
+      ],
+      [
+        "2024-12-17",
+        "NJD",
+        "STL",
+        28,
+        20
+      ],
+      [
+        "2024-11-27",
+        "STL",
+        "NJD",
+        20,
+        32
+      ]
+    ]
+  },
   "h2h_NJD-VAN": {
     "fetched": "2026-10-10T17:40:15Z",
     "value": [
@@ -11047,7 +11091,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-11-03T16:25:14Z",
+    "fetched": "2026-11-05T16:35:12Z",
     "value": [
       "Jake Allen",
       "Connor Hellebuyck"
@@ -11113,7 +11157,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-11-03T15:44:17Z",
+    "fetched": "2026-11-05T16:35:12Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -11645,6 +11689,12 @@
       "book": "DK",
       "event_id": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
       "goalie": "Stuart Skinner"
+    },
+    "1141": {
+      "at": "2026-11-05T16:35:12Z",
+      "book": null,
+      "event_id": "eefdb55d84dd6a95ef53b76d3935f3c9",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
