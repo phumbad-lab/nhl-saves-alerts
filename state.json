@@ -251,7 +251,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-11-04",
+  "corrections_checked": "2026-11-05",
   "credits_remaining": 19590,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
@@ -10641,12 +10641,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-04": [
-      "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis",
-      "a3c2f39dce2dbf9e8cb78acce24cd379|Yaroslav Askarov"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
