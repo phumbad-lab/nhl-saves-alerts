@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19579,
+  "credits_remaining": 19578,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -409,8 +409,19 @@
     },
     "6828fb175fa928f75d7978128372c817": {
       "commence_time": "2026-11-06T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-05T15:34:12Z",
+      "lines": {
+        "fanduel": {
+          "Daniil Tarasov": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622978432&selectionId=74979849",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622978432&selectionId=74979848"
+          }
+        }
+      },
       "matchup": "Vegas Golden Knights @ Detroit Red Wings"
     },
     "6b7950389856112c2b25d0aa1c7cc072": {
@@ -6010,6 +6021,39 @@
       ]
     ]
   },
+  "h2h_DET-VGK": {
+    "fetched": "2026-11-05T15:34:12Z",
+    "value": [
+      [
+        "2026-03-04",
+        "VGK",
+        "DET",
+        25,
+        26
+      ],
+      [
+        "2025-11-04",
+        "DET",
+        "VGK",
+        24,
+        34
+      ],
+      [
+        "2025-03-22",
+        "DET",
+        "VGK",
+        31,
+        36
+      ],
+      [
+        "2025-03-16",
+        "VGK",
+        "DET",
+        18,
+        27
+      ]
+    ]
+  },
   "h2h_EDM-LAK": {
     "fetched": "2026-10-13T18:05:15Z",
     "value": [
@@ -10795,9 +10839,10 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-11-03T21:14:19Z",
+    "fetched": "2026-11-05T15:34:12Z",
     "value": [
       "John Gibson",
+      "Michal Postava",
       "Daniil Tarasov"
     ]
   },
@@ -10943,7 +10988,7 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-11-03T16:17:12Z",
+    "fetched": "2026-11-05T15:34:12Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
@@ -11409,6 +11454,12 @@
       "book": null,
       "event_id": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
       "goalie": "Stuart Skinner"
+    },
+    "1134": {
+      "at": "2026-11-05T15:34:12Z",
+      "book": null,
+      "event_id": "6828fb175fa928f75d7978128372c817",
+      "goalie": "Daniil Tarasov"
     }
   },
   "shot_stats": {
