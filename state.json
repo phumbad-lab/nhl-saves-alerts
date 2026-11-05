@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19513,
+  "credits_remaining": 19512,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -396,8 +396,17 @@
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:45:15Z",
+      "last_paid_check": "2026-11-05T18:00:21Z",
       "lines": {
+        "draftkings": {
+          "Mackenzie Blackwood": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386059072%232352361067_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386059072%232352361068_15L42133Q1888607062Q20"
+          }
+        },
         "fanduel": {
           "Mackenzie Blackwood": {
             "over": -132,
@@ -11928,6 +11937,12 @@
       "book": null,
       "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
       "goalie": "Andrei Vasilevskiy"
+    },
+    "1158": {
+      "at": "2026-11-05T18:00:21Z",
+      "book": "DK",
+      "event_id": "446de9651d2d2948326d970e9f858a33",
+      "goalie": "Mackenzie Blackwood"
     }
   },
   "shot_stats": {
