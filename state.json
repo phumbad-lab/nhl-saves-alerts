@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19427,
+  "credits_remaining": 19425,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -396,7 +396,7 @@
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T21:22:11Z",
+      "last_paid_check": "2026-11-05T21:37:11Z",
       "lines": {
         "draftkings": {
           "Mackenzie Blackwood": {
@@ -885,11 +885,11 @@
     "c672f144ecbb937d3b15b483847129d2": {
       "commence_time": "2026-11-06T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T21:22:11Z",
+      "last_paid_check": "2026-11-05T21:37:11Z",
       "lines": {
         "draftkings": {
           "Laurent Brossoit": {
-            "over": -130,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386431105%232352592458_13L42133Q1-389637312Q20",
             "point": 25.5,
             "under": -105,
