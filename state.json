@@ -12,6 +12,7 @@
       "text": "Wedgewood (COL) - COL@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038887_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622337717&selectionId=74880668\u0004u24.5\u0005"
     },
     "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
+      "done": true,
       "lines": {
         "DK": 22.5,
         "FD": 22.5
@@ -127,6 +128,10 @@
     "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood": {
       "d": "2026-11-03",
       "r": "W"
+    },
+    "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
+      "d": "2026-11-04",
+      "r": "L"
     },
     "20277c97a62bde35c5494acdb5912a68|Devin Cooley": {
       "d": "2026-10-26",
@@ -541,7 +546,7 @@
       "matchup": "Boston Bruins @ Pittsburgh Penguins"
     },
     "a3c2f39dce2dbf9e8cb78acce24cd379": {
-      "commence_time": "2026-11-05T03:10:00Z",
+      "commence_time": "2026-11-05T03:15:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-04T20:02:20Z",
       "lines": {
@@ -10608,7 +10613,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-04": [
+      "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
