@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19551,
+  "credits_remaining": 19550,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -920,7 +920,7 @@
     "eefdb55d84dd6a95ef53b76d3935f3c9": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T16:35:12Z",
+      "last_paid_check": "2026-11-05T16:50:16Z",
       "lines": {
         "fanduel": {
           "Connor Hellebuyck": {
