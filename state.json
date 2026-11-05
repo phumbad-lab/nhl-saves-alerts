@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19499,
+  "credits_remaining": 19498,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -1145,8 +1145,24 @@
     "fc2cccfb47dffb4677b85d247c768ae9": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T18:11:11Z",
+      "last_paid_check": "2026-11-05T18:26:12Z",
       "lines": {
+        "draftkings": {
+          "Andrei Vasilevskiy": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386124998%232352388255_13L42133Q1-1959669843Q20",
+            "point": 18.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386124998%232352388256_15L42133Q1-76159233Q20"
+          },
+          "Arvid Soderblom": {
+            "over": -135,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386125067%232352385760_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": 100,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386125067%232352385761_15L42133Q1-941301704Q20"
+          }
+        },
         "fanduel": {
           "Andrei Vasilevskiy": {
             "over": -110,
@@ -11932,6 +11948,18 @@
       "book": null,
       "event_id": "5d5b6a0f376a8d9bd4f5e46891e6c6d8",
       "goalie": "Leevi Merilainen"
+    },
+    "1162": {
+      "at": "2026-11-05T18:26:12Z",
+      "book": "DK",
+      "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
+      "goalie": "Andrei Vasilevskiy"
+    },
+    "1163": {
+      "at": "2026-11-05T18:26:12Z",
+      "book": "DK",
+      "event_id": "fc2cccfb47dffb4677b85d247c768ae9",
+      "goalie": "Arvid Soderblom"
     }
   },
   "shot_stats": {
