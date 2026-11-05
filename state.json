@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19527,
+  "credits_remaining": 19522,
   "events": {
     "13ced29ffb36afa9ac1436ef60bda139": {
       "commence_time": "2026-11-04T00:10:00Z",
@@ -402,7 +402,7 @@
     "5d5b6a0f376a8d9bd4f5e46891e6c6d8": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:23:11Z",
+      "last_paid_check": "2026-11-05T17:38:11Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
@@ -428,7 +428,7 @@
     "6828fb175fa928f75d7978128372c817": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:23:11Z",
+      "last_paid_check": "2026-11-05T17:38:11Z",
       "lines": {
         "fanduel": {
           "Daniil Tarasov": {
@@ -598,8 +598,17 @@
     "9e57c39752bfbc587ce341650fcd5a19": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:23:11Z",
+      "last_paid_check": "2026-11-05T17:38:11Z",
       "lines": {
+        "draftkings": {
+          "Arturs Silovs": {
+            "over": -135,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385998649%232350772378_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": 100,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385998649%232350772379_15L42133Q1874096526Q20"
+          }
+        },
         "fanduel": {
           "Arturs Silovs": {
             "over": -104,
@@ -920,24 +929,38 @@
     "eefdb55d84dd6a95ef53b76d3935f3c9": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:22:15Z",
+      "last_paid_check": "2026-11-05T17:38:11Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
             "over": -130,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386088506%232352318665_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -105,
+            "under": 100,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386088506%232352318666_15L42133Q1888607062Q20"
+          },
+          "Jordan Binnington": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386392864%232352334038_13L42133Q11884129982Q20",
+            "point": 27.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386392864%232352334039_15L42133Q1-941301704Q20"
           }
         },
         "fanduel": {
           "Connor Hellebuyck": {
-            "over": -120,
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998573&selectionId=74843125",
             "point": 22.5,
-            "under": -110,
+            "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998573&selectionId=74843124"
+          },
+          "Jordan Binnington": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623013282&selectionId=74801977",
+            "point": 27.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623013282&selectionId=74801976"
           }
         }
       },
@@ -946,7 +969,7 @@
     "f05e184ffd9a6192d19ceee27d51a9de": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-05T17:23:11Z",
+      "last_paid_check": "2026-11-05T17:38:11Z",
       "lines": {
         "draftkings": {
           "Cam Talbot": {
@@ -959,10 +982,10 @@
         },
         "fanduel": {
           "Cam Talbot": {
-            "over": -114,
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998936&selectionId=74101477",
             "point": 21.5,
-            "under": -114,
+            "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622998936&selectionId=74101478"
           }
         }
@@ -11745,6 +11768,18 @@
       "book": "DK",
       "event_id": "f05e184ffd9a6192d19ceee27d51a9de",
       "goalie": "Cam Talbot"
+    },
+    "1149": {
+      "at": "2026-11-05T17:38:11Z",
+      "book": "DK",
+      "event_id": "9e57c39752bfbc587ce341650fcd5a19",
+      "goalie": "Arturs Silovs"
+    },
+    "1150": {
+      "at": "2026-11-05T17:38:11Z",
+      "book": null,
+      "event_id": "eefdb55d84dd6a95ef53b76d3935f3c9",
+      "goalie": "Jordan Binnington"
     }
   },
   "shot_stats": {
