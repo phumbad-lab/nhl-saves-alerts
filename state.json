@@ -230,7 +230,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19343,
+  "credits_remaining": 19342,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -499,7 +499,7 @@
     "8094c7dc6557caf1cc19194bf69477bb": {
       "commence_time": "2026-11-07T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T18:36:11Z",
+      "last_paid_check": "2026-11-06T18:52:13Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
@@ -517,6 +517,13 @@
             "point": 25.5,
             "under": -128,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623289646&selectionId=77747672"
+          },
+          "Ukko-Pekka Luukkonen": {
+            "over": -122,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623303989&selectionId=77455874",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623303989&selectionId=77455873"
           }
         }
       },
@@ -11840,6 +11847,12 @@
       "book": null,
       "event_id": "bc490c79c4f47b8a1eaa70a3e1907349",
       "goalie": "Lukas Dostal"
+    },
+    "1188": {
+      "at": "2026-11-06T18:52:13Z",
+      "book": null,
+      "event_id": "8094c7dc6557caf1cc19194bf69477bb",
+      "goalie": "Ukko-Pekka Luukkonen"
     }
   },
   "shot_stats": {
