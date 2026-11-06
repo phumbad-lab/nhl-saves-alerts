@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19383,
+  "credits_remaining": 19382,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -734,7 +734,7 @@
     "c672f144ecbb937d3b15b483847129d2": {
       "commence_time": "2026-11-06T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T00:12:11Z",
+      "last_paid_check": "2026-11-06T00:25:12Z",
       "lines": {
         "draftkings": {
           "Laurent Brossoit": {
@@ -747,10 +747,10 @@
         },
         "fanduel": {
           "Laurent Brossoit": {
-            "over": -128,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623056950&selectionId=96409455",
             "point": 25.5,
-            "under": -104,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623056950&selectionId=96409454"
           }
         }
