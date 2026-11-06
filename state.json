@@ -22,28 +22,6 @@
       "start": "2026-11-05T00:40:00Z",
       "text": "Ellis (BUF) - OTT@BUF 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647377%232349255488_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834\u0004u22.5\u0005"
     },
-    "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar": {
-      "done": true,
-      "lines": {
-        "DK": 25.5,
-        "FD": 24.5
-      },
-      "mid": 141,
-      "side": "UNDER",
-      "start": "2026-11-01T21:10:00Z",
-      "text": "Vladar (PHI) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384938760%232345743079_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621790715&selectionId=74843678\u0004u24.5\u0005"
-    },
-    "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka": {
-      "done": true,
-      "lines": {
-        "DK": 21.5,
-        "FD": 20.5
-      },
-      "mid": 142,
-      "side": "OVER",
-      "start": "2026-11-01T21:10:00Z",
-      "text": "Vejmelka (UTA) - UTA@PHI 4:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA384705654%232345756123_13L42133Q1-659212771Q20\u0004o21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.621791099&selectionId=75028426\u0004o20.5\u0005"
-    },
     "71d674d1a6ac60893018bd115d42d624|Tristan Jarry": {
       "done": true,
       "lines": {
@@ -12911,6 +12889,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088190,
+  "tg_offset": 69088191,
   "watch": {}
 }
