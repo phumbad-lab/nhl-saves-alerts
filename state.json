@@ -440,46 +440,6 @@
       },
       "matchup": "Vegas Golden Knights @ Detroit Red Wings"
     },
-    "71d674d1a6ac60893018bd115d42d624": {
-      "commence_time": "2026-11-04T00:45:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-03T17:57:18Z",
-      "lines": {
-        "draftkings": {
-          "Connor Hellebuyck": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265339%232348573337_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265339%232348573338_15L42133Q1731448625Q20"
-          },
-          "Tristan Jarry": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265478%232347481056_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265478%232347481135_15L42133Q1-941301704Q20"
-          }
-        },
-        "fanduel": {
-          "Connor Hellebuyck": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622327744&selectionId=74843125",
-            "point": 24.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622327744&selectionId=74843124"
-          },
-          "Tristan Jarry": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622353086&selectionId=74843127",
-            "point": 27.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622353086&selectionId=74843126"
-          }
-        }
-      },
-      "matchup": "Edmonton Oilers @ New Jersey Devils"
-    },
     "7cc07a9c5a886203f238a3fe0b83dfd1": {
       "commence_time": "2026-11-05T03:10:00Z",
       "h2h_sent": true,
