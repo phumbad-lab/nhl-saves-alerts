@@ -230,7 +230,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19363,
+  "credits_remaining": 19362,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -676,7 +676,7 @@
     "bc490c79c4f47b8a1eaa70a3e1907349": {
       "commence_time": "2026-11-07T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T16:44:11Z",
+      "last_paid_check": "2026-11-06T17:00:23Z",
       "lines": {
         "draftkings": {
           "Dustin Wolf": {
