@@ -240,7 +240,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19331,
+  "credits_remaining": 19330,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -533,14 +533,14 @@
     "8094c7dc6557caf1cc19194bf69477bb": {
       "commence_time": "2026-11-07T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T20:10:15Z",
+      "last_paid_check": "2026-11-06T20:26:10Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
-            "over": -110,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386497245%232352772409_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -125,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386497245%232352772410_15L42133Q1458571637Q20"
           }
         },
