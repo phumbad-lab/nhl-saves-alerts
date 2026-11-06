@@ -254,46 +254,6 @@
   "corrections_checked": "2026-11-05",
   "credits_remaining": 19385,
   "events": {
-    "13ced29ffb36afa9ac1436ef60bda139": {
-      "commence_time": "2026-11-04T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-03T17:09:11Z",
-      "lines": {
-        "draftkings": {
-          "Cam Talbot": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385605430%232349093528_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385605430%232349093529_15L42133Q1458571637Q20"
-          },
-          "Scott Wedgewood": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038886_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038887_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Cam Talbot": {
-            "over": -120,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622339063&selectionId=74101477",
-            "point": 25.5,
-            "under": -110,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622339063&selectionId=74101478"
-          },
-          "Scott Wedgewood": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622337717&selectionId=74880670",
-            "point": 24.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622337717&selectionId=74880668"
-          }
-        }
-      },
-      "matchup": "Colorado Avalanche @ Columbus Blue Jackets"
-    },
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
@@ -373,39 +333,6 @@
         }
       },
       "matchup": "Ottawa Senators @ Buffalo Sabres"
-    },
-    "371ac1fb21cf79abfd94499c6ee92b90": {
-      "commence_time": "2026-11-04T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-04T00:06:12Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Fowler": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385263960%232348515553_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385263960%232348515554_15L42133Q1874096526Q20"
-          },
-          "Stuart Skinner": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385263850%232347476278_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385263850%232347476404_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Jacob Fowler": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622333802&selectionId=92532103",
-            "point": 22.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622333802&selectionId=92532105"
-          }
-        }
-      },
-      "matchup": "Winnipeg Jets @ Montr\u00e9al Canadiens"
     },
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
@@ -798,46 +725,6 @@
       },
       "matchup": "St Louis Blues @ New York Rangers"
     },
-    "b84cb3612b5d88f48e5ce81a79b84b96": {
-      "commence_time": "2026-11-04T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-03T23:05:16Z",
-      "lines": {
-        "draftkings": {
-          "Jake Oettinger": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180988_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180989_15L42133Q184490156Q20"
-          },
-          "Logan Thompson": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385266765%232347484780_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385266765%232347485104_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Jake Oettinger": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880669",
-            "point": 23.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880671"
-          },
-          "Logan Thompson": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622343021&selectionId=75074479",
-            "point": 23.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622343021&selectionId=75074478"
-          }
-        }
-      },
-      "matchup": "Dallas Stars @ Washington Capitals"
-    },
     "b945b7133224c704b734e04becd109f0": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
@@ -990,86 +877,6 @@
       },
       "matchup": "Utah Mammoth @ Montr\u00e9al Canadiens"
     },
-    "ec0cd2ebb977023698a5f16ca4de0e6c": {
-      "commence_time": "2026-11-04T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-03T17:24:14Z",
-      "lines": {
-        "draftkings": {
-          "Sebastian Cossa": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385624761%232349180972_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385624761%232349180973_15L42133Q1874096526Q20"
-          },
-          "Sergei Bobrovsky": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385263724%232347476615_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385263724%232347476712_15L42133Q1-245490255Q20"
-          }
-        },
-        "fanduel": {
-          "Sebastian Cossa": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622342492&selectionId=103689734",
-            "point": 23.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622342492&selectionId=103689735"
-          },
-          "Sergei Bobrovsky": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622338503&selectionId=74802629",
-            "point": 27.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622338503&selectionId=74802631"
-          }
-        }
-      },
-      "matchup": "Utah Mammoth @ Toronto Maple Leafs"
-    },
-    "ed17e925b2de887dcf682915348560d5": {
-      "commence_time": "2026-11-04T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-03T22:29:12Z",
-      "lines": {
-        "draftkings": {
-          "Adin Hill": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267686%232348536931_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385267686%232348536932_15L42133Q1731448625Q20"
-          },
-          "Arturs Silovs": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385268162%232348281487_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385268162%232348281488_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Adin Hill": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622426340&selectionId=74843647",
-            "point": 24.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622426340&selectionId=74843649"
-          },
-          "Arturs Silovs": {
-            "over": -120,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622334560&selectionId=74843679",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622334560&selectionId=74843680"
-          }
-        }
-      },
-      "matchup": "Vegas Golden Knights @ Pittsburgh Penguins"
-    },
     "eefdb55d84dd6a95ef53b76d3935f3c9": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
@@ -1189,46 +996,6 @@
         }
       },
       "matchup": "Carolina Hurricanes @ Nashville Predators"
-    },
-    "f84f85e8c5fdd0a70594563b0041d706": {
-      "commence_time": "2026-11-04T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-03T23:50:16Z",
-      "lines": {
-        "draftkings": {
-          "Andrei Vasilevskiy": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385261992%232348540169_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385261992%232348540170_15L42133Q184490156Q20"
-          },
-          "John Gibson": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385262267%232349473978_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385262267%232349473979_15L42133Q11150106798Q20"
-          }
-        },
-        "fanduel": {
-          "Andrei Vasilevskiy": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622437750&selectionId=74932792",
-            "point": 22.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622437750&selectionId=74932793"
-          },
-          "John Gibson": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622426648&selectionId=76247482",
-            "point": 26.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622426648&selectionId=76247481"
-          }
-        }
-      },
-      "matchup": "Detroit Red Wings @ Tampa Bay Lightning"
     },
     "fc2cccfb47dffb4677b85d247c768ae9": {
       "commence_time": "2026-11-06T00:15:00Z",
