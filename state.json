@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19379,
+  "credits_remaining": 19378,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -694,7 +694,7 @@
     "c672f144ecbb937d3b15b483847129d2": {
       "commence_time": "2026-11-06T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T00:41:16Z",
+      "last_paid_check": "2026-11-06T00:50:15Z",
       "lines": {
         "draftkings": {
           "Laurent Brossoit": {
