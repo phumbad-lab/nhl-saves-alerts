@@ -739,7 +739,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "matchup": matchup_marker(event, side, raw),
             "warn": rank_warning(event, side, ab, raw, m[side]["delta"] if (m and side) else None),
             "hr_l5": (lambda v: f"{v:.1f}" if v is not None else "")(venue_l5(games, ab, side)),
-            "play": "UNDER" if play_under(m[side] if (m and side) else None, ln, side) else "",
+            "play": play_call(m[side] if (m and side) else None, ln, side) or "",
         })
     save_picks(rows)
 
@@ -1331,7 +1331,7 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
         reminder, better, mine = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
         text = (f"{who_} {ln.get('point')}{tag}{' 🍀' if better else ''} · {when} "
                 f"({BOOK_SHORT.get(book, book)} added)" + (f" {reminder}" if reminder else "")
-                + (" (play the Under ⬇️)" if play_under(g, ln, side) else ""))
+                + (f" ({PLAY_TEXT[c]})" if (c := play_call(g, ln, side)) else ""))
         msgs.append((text, player, book))
     return msgs
 
@@ -1364,14 +1364,41 @@ def play_under(g, ln, side):
     return True
 
 
+PLAY_OVER_MAX_LINE = 22.5   # low lines only
+PLAY_OVER_CUSHION = 2.0     # expected saves at least this far above the line
+
+
+def play_over(g, ln):
+    """Owner Nov 6 (overs only "when the number is insanely low"; picked 2+): line <= 22.5 with
+    the model 2+ saves above it -> over 16-10 (62%) Oct 7-Nov 4, 60%/62% by half (3+: 10-3)."""
+    if not (g and ln) or ln.get("point") is None:
+        return False
+    point = float(ln["point"])
+    return point <= PLAY_OVER_MAX_LINE and g["saves"] - point >= PLAY_OVER_CUSHION
+
+
+def play_call(g, ln, side):
+    """'UNDER', 'OVER' or None for one book's line. Both at once (rare: a road OVER tag on a low
+    line) -> None, so the alert never contradicts itself."""
+    u, o = play_under(g, ln, side), play_over(g, ln)
+    return "UNDER" if u and not o else "OVER" if o and not u else None
+
+
+PLAY_TEXT = {"UNDER": "play the Under ⬇️", "OVER": "play the Over ⬆️"}
+
+
 def play_line(player, current, g, side):
-    """'(play the Under ⬇️)' for the end of a full alert; names the book(s) when only some qualify."""
+    """'(play the Under ⬇️)' / '(play the Over ⬆️)' for the end of a full alert; names the book(s)
+    when only some qualify."""
     posted = [b for b in BOOKS if player in current.get(b, {})]
-    good = [b for b in posted if play_under(g, current[b][player], side)]
-    if not good:
-        return None
-    books = "" if len(good) == len(posted) else " " + "/".join(BOOK_SHORT.get(b, b) for b in good)
-    return f"(play the Under ⬇️{books})"
+    calls = {b: play_call(g, current[b][player], side) for b in posted}
+    out = []
+    for call in ("UNDER", "OVER"):
+        good = [b for b in posted if calls[b] == call]
+        if good:
+            books = "" if len(good) == len(posted) else " " + "/".join(BOOK_SHORT.get(b, b) for b in good)
+            out.append(f"({PLAY_TEXT[call]}{books})")
+    return " ".join(out) or None
 
 
 def in_other_book(event_id, player, book, point):
