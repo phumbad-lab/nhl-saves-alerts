@@ -73,7 +73,8 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "taken", "taken_line", "taken_result", "taken_at",
                "key_out",
                "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag",
-               "matchup", "warn", "hr_l5", "play"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
+               "matchup", "warn", "hr_l5", "play",
+               "taken_odds", "close_line", "close_odds"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -1880,6 +1881,11 @@ def apply_bet(rows, state, event_id, goalie, alert_book, bet, cmd, now):
         row = (min if side == "OVER" else max)(pool, key=newest)
         line = newest(row)
     row.update(taken=side, taken_line=f"{line:g}", taken_at=iso(now))
+    # Price on your side, from the newest odds the bot has for that book (owner Nov 6: closing line).
+    full = next((f for f, sh in BOOK_SHORT.items() if sh == row["book"]), None)
+    seen = rec.get("lines", {}).get(full, {}).get(goalie, {})
+    row["taken_odds"] = (fmt_odds(seen.get(side.lower())) if seen.get("point") is not None
+                         and float(seen["point"]) == line and seen.get(side.lower()) is not None else "")
     grade_taken(row)  # in case the game is already graded
     return True, f"{name} {side[0].lower()}{line:g} {row['book']}"
 
@@ -2290,6 +2296,43 @@ def channel_recap(state, now):
         state["channel_recap_sent"] = today
 
 
+CLOSE_MINUTES = 5  # check odds every run in the last few minutes before puck drop on games you bet
+
+
+def close_check(state, now):
+    """Closing line for your bets (owner Nov 6: "go ahead and add it"). In the last CLOSE_MINUTES
+    before puck drop, every run re-reads the odds for games you bet (1 credit each) and stores the
+    current line and price on your side, at the book you bet, in picks.csv close_line/close_odds.
+    The last read before puck drop is the close. Beat the close = your number is better than it."""
+    soon = [eid for eid, rec in state.get("events", {}).items()
+            if timedelta(0) < parse_iso(rec["commence_time"]) - now <= timedelta(minutes=CLOSE_MINUTES)]
+    if not soon:
+        return
+    credits = state.get("credits_remaining")
+    if credits is not None and credits < MIN_CREDITS:
+        return
+    rows = load_picks()
+    changed = False
+    for eid in soon:
+        mine = [r for r in rows if r["event_id"] == eid and r.get("taken")]
+        if not mine:
+            continue
+        data, rem = api_get(f"/sports/{SPORT}/events/{eid}/odds", {
+            "bookmakers": ",".join(BOOKS), "markets": MARKET, "oddsFormat": "american"})
+        if rem is not None:
+            state["credits_remaining"] = rem
+        current = extract_lines(data)
+        for r in mine:
+            full = next((f for f, sh in BOOK_SHORT.items() if sh == r["book"]), None)
+            ln = current.get(full, {}).get(r["goalie"])
+            if ln and ln.get("point") is not None:
+                r["close_line"] = f"{float(ln['point']):g}"
+                r["close_odds"] = fmt_odds(ln.get(r["taken"].lower()))
+                changed = True
+    if changed:
+        save_picks(rows)
+
+
 def save_note(msg, rows, target, now, quiet=False):
     """'note Wallstedt faded, VGK low H2H, MIN tight at home' (or swipe-reply 'note ...' on an alert).
     Saved to notes.csv with the goalie's line/tag/expected at the time, for the daily review."""
@@ -2659,6 +2702,10 @@ def main():
         channel_recap(state, now)  # 8 AM: last night + season record in the channel
     except Exception as e:
         print(f"Picks channel results skipped ({e}).")
+    try:
+        close_check(state, now)  # closing line on your bets (last few minutes before puck drop)
+    except Exception as e:
+        print(f"Closing-line check skipped ({e}).")
 
     events, remaining = api_get(f"/sports/{SPORT}/events", {
         "commenceTimeFrom": iso(now),
