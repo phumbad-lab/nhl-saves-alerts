@@ -230,7 +230,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19333,
+  "credits_remaining": 19332,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -323,6 +323,18 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "San Jose Sharks @ Dallas Stars"
+    },
+    "2ccc92070bd6f92703efc538ba500d21": {
+      "commence_time": "2026-11-08T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Detroit Red Wings @ Colorado Avalanche"
+    },
+    "41bd62e63799d7bb81e18169092a82bd": {
+      "commence_time": "2026-11-08T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Pittsburgh Penguins @ Los Angeles Kings"
     },
     "422f0f2b990a051c35afd2ea6e9abe24": {
       "commence_time": "2026-11-07T17:40:00Z",
@@ -511,7 +523,7 @@
     "8094c7dc6557caf1cc19194bf69477bb": {
       "commence_time": "2026-11-07T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T19:54:12Z",
+      "last_paid_check": "2026-11-06T20:10:15Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
