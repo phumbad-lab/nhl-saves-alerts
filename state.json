@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19382,
+  "credits_remaining": 19381,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -337,7 +337,7 @@
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T00:12:11Z",
+      "last_paid_check": "2026-11-06T00:28:10Z",
       "lines": {
         "draftkings": {
           "Mackenzie Blackwood": {
@@ -350,10 +350,10 @@
         },
         "fanduel": {
           "Mackenzie Blackwood": {
-            "over": -130,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623018474&selectionId=74101473",
             "point": 21.5,
-            "under": -102,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623018474&selectionId=74101476"
           }
         }
