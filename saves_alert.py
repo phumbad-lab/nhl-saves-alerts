@@ -73,7 +73,7 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "taken", "taken_line", "taken_result", "taken_at",
                "key_out",
                "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag",
-               "matchup", "warn", "hr_l5"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
+               "matchup", "warn", "hr_l5", "play"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
 
@@ -739,6 +739,7 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "matchup": matchup_marker(event, side, raw),
             "warn": rank_warning(event, side, ab, raw, m[side]["delta"] if (m and side) else None),
             "hr_l5": (lambda v: f"{v:.1f}" if v is not None else "")(venue_l5(games, ab, side)),
+            "play": "UNDER" if play_under(m[side] if (m and side) else None, ln, side) else "",
         })
     save_picks(rows)
 
@@ -1316,6 +1317,9 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
             out.extend(rank_line(event, side, ab, raw, games))
         if injuries:
             out.extend(injury_lines(injuries, ab, state, games, now))
+        pl = play_line(player, current, g, side)
+        if pl:
+            out.append(pl)
         msgs.append(("\n".join(out), player, None))
     for book, player in added:
         side = sides.get(player)
@@ -1326,9 +1330,48 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
                 else f"{last_name(player)} ({ab['away']}@{ab['home']})")
         reminder, better, mine = in_other_book(event["id"], player, BOOK_SHORT.get(book, book), ln.get("point"))
         text = (f"{who_} {ln.get('point')}{tag}{' 🍀' if better else ''} · {when} "
-                f"({BOOK_SHORT.get(book, book)} added)" + (f" {reminder}" if reminder else ""))
+                f"({BOOK_SHORT.get(book, book)} added)" + (f" {reminder}" if reminder else "")
+                + (" (play the Under ⬇️)" if play_under(g, ln, side) else ""))
         msgs.append((text, player, book))
     return msgs
+
+
+PLAY_UNDER_CUSHION = 2.0  # UNDER tag: line at least this many saves above expected
+PLAY_UNDER_MIN_PROB = 0.47  # skip when the book prices the under as an underdog (no-vig chance below this)
+
+
+def play_under(g, ln, side):
+    """Owner's under playbook (Nov 6: "at the end of the alert just say (play the Under ⬇️)").
+    Two spots, from the Nov 5 study (368 goalie-games):
+      - road goalie with an OVER / LEAN OVER tag (under 27-9 since Oct 21; 8-13 Oct 7-20)
+      - UNDER tag with the line PLAY_UNDER_CUSHION+ saves above expected (22-9 all season)
+    ...unless the book prices the under as an underdog (those unders went 6-12)."""
+    if not (g and side and ln) or ln.get("point") is None:
+        return False
+    point = float(ln["point"])
+    code = tag_code(g["saves"], point, g["delta"])
+    spot = ((side == "away" and code in ("OVER", "LEAN_OVER"))
+            or (code == "UNDER" and point - g["saves"] >= PLAY_UNDER_CUSHION))
+    if not spot:
+        return False
+    try:
+        imp = lambda o: (-o / (-o + 100)) if o < 0 else (100 / (o + 100))
+        u, o = imp(float(ln["under"])), imp(float(ln["over"]))
+        if u / (u + o) < PLAY_UNDER_MIN_PROB:
+            return False
+    except (KeyError, TypeError, ValueError):
+        pass  # no prices (manual line): don't block on them
+    return True
+
+
+def play_line(player, current, g, side):
+    """'(play the Under ⬇️)' for the end of a full alert; names the book(s) when only some qualify."""
+    posted = [b for b in BOOKS if player in current.get(b, {})]
+    good = [b for b in posted if play_under(g, current[b][player], side)]
+    if not good:
+        return None
+    books = "" if len(good) == len(posted) else " " + "/".join(BOOK_SHORT.get(b, b) for b in good)
+    return f"(play the Under ⬇️{books})"
 
 
 def in_other_book(event_id, player, book, point):
