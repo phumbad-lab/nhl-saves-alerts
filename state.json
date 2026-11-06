@@ -312,6 +312,12 @@
       },
       "matchup": "Ottawa Senators @ Buffalo Sabres"
     },
+    "422f0f2b990a051c35afd2ea6e9abe24": {
+      "commence_time": "2026-11-07T17:40:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Florida Panthers @ Washington Capitals"
+    },
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
       "h2h_sent": true,
@@ -431,6 +437,18 @@
         }
       },
       "matchup": "Vegas Golden Knights @ Detroit Red Wings"
+    },
+    "71da6461cbc3fc6a42b98080244958e7": {
+      "commence_time": "2026-11-07T18:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "St Louis Blues @ Nashville Predators"
+    },
+    "79334eedea6908f995f13dd5a8f11d20": {
+      "commence_time": "2026-11-07T22:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "New York Rangers @ Seattle Kraken"
     },
     "7cc07a9c5a886203f238a3fe0b83dfd1": {
       "commence_time": "2026-11-05T03:10:00Z",
