@@ -9229,7 +9229,7 @@
       "status": "OUT"
     },
     "DAL:8480036": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-06T19:04:11Z",
       "seen": "2026-11-04T02:01:12Z",
       "status": "OUT"
