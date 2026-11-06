@@ -230,7 +230,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19355,
+  "credits_remaining": 19354,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -493,7 +493,7 @@
     "8094c7dc6557caf1cc19194bf69477bb": {
       "commence_time": "2026-11-07T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T17:35:13Z",
+      "last_paid_check": "2026-11-06T17:50:16Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
@@ -502,6 +502,15 @@
             "point": 25.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386497245%232352772410_15L42133Q1458571637Q20"
+          }
+        },
+        "fanduel": {
+          "Jet Greaves": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623289646&selectionId=77747671",
+            "point": 25.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623289646&selectionId=77747672"
           }
         }
       },
@@ -11777,6 +11786,12 @@
       "book": "FD",
       "event_id": "94142b31815d8bfcef178b16cadfe92f",
       "goalie": "Jesper Wallstedt"
+    },
+    "1184": {
+      "at": "2026-11-06T17:50:16Z",
+      "book": "FD",
+      "event_id": "8094c7dc6557caf1cc19194bf69477bb",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
