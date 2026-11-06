@@ -230,7 +230,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19358,
+  "credits_remaining": 19357,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -492,8 +492,19 @@
     },
     "8094c7dc6557caf1cc19194bf69477bb": {
       "commence_time": "2026-11-07T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-06T17:35:13Z",
+      "lines": {
+        "draftkings": {
+          "Jet Greaves": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386497245%232352772409_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386497245%232352772410_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "Columbus Blue Jackets @ Buffalo Sabres"
     },
     "94142b31815d8bfcef178b16cadfe92f": {
@@ -3809,6 +3820,39 @@
         "BOS",
         38,
         24
+      ]
+    ]
+  },
+  "h2h_BUF-CBJ": {
+    "fetched": "2026-11-06T17:35:13Z",
+    "value": [
+      [
+        "2026-10-01",
+        "BUF",
+        "CBJ",
+        26,
+        23
+      ],
+      [
+        "2026-04-09",
+        "CBJ",
+        "BUF",
+        37,
+        24
+      ],
+      [
+        "2026-01-03",
+        "BUF",
+        "CBJ",
+        33,
+        35
+      ],
+      [
+        "2025-10-28",
+        "CBJ",
+        "BUF",
+        39,
+        38
       ]
     ]
   },
@@ -11053,7 +11097,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-11-04T15:37:11Z",
+    "fetched": "2026-11-06T17:35:13Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -11068,7 +11112,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-11-05T16:36:13Z",
+    "fetched": "2026-11-06T17:35:13Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -11718,6 +11762,12 @@
       "book": null,
       "event_id": "94142b31815d8bfcef178b16cadfe92f",
       "goalie": "Jesper Wallstedt"
+    },
+    "1182": {
+      "at": "2026-11-06T17:35:13Z",
+      "book": null,
+      "event_id": "8094c7dc6557caf1cc19194bf69477bb",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
