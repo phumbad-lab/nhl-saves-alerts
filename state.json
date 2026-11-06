@@ -9229,12 +9229,10 @@
       "status": "OUT"
     },
     "DAL:8480036": {
-      "alerted": true,
-      "out_at": "2026-11-05T17:51:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-06T18:59:10Z",
+      "alerted": false,
+      "out_at": "2026-11-06T19:04:11Z",
       "seen": "2026-11-04T02:01:12Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "EDM:8475786": {
       "alerted": true,
