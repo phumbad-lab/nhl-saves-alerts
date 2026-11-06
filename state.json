@@ -230,7 +230,7 @@
     }
   },
   "corrections_checked": "2026-11-06",
-  "credits_remaining": 19341,
+  "credits_remaining": 19340,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -499,7 +499,7 @@
     "8094c7dc6557caf1cc19194bf69477bb": {
       "commence_time": "2026-11-07T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T18:52:13Z",
+      "last_paid_check": "2026-11-06T19:07:22Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
@@ -512,17 +512,17 @@
         },
         "fanduel": {
           "Jet Greaves": {
-            "over": -104,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623289646&selectionId=77747671",
             "point": 25.5,
-            "under": -128,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623289646&selectionId=77747672"
           },
           "Ukko-Pekka Luukkonen": {
-            "over": -122,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623303989&selectionId=77455874",
-            "point": 22.5,
-            "under": -106,
+            "point": 23.5,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623303989&selectionId=77455873"
           }
         }
