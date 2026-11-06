@@ -252,7 +252,7 @@
     }
   },
   "corrections_checked": "2026-11-05",
-  "credits_remaining": 19370,
+  "credits_remaining": 19369,
   "events": {
     "18dd8ea86db020028f8d1c130b99d616": {
       "commence_time": "2026-11-06T00:10:00Z",
@@ -337,11 +337,18 @@
     "446de9651d2d2948326d970e9f858a33": {
       "commence_time": "2026-11-06T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-06T02:11:10Z",
+      "last_paid_check": "2026-11-06T02:12:11Z",
       "lines": {
         "draftkings": {
-          "Mackenzie Blackwood": {
+          "Justus Annunen": {
             "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386520730%232352916037_13L42133Q1827957987Q20",
+            "point": 28.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386520730%232352916038_15L42133Q1-245490255Q20"
+          },
+          "Mackenzie Blackwood": {
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386059072%232352361067_13L42133Q1-659212771Q20",
             "point": 21.5,
             "under": -120,
@@ -11696,6 +11703,12 @@
     "1174": {
       "at": "2026-11-06T02:10:15Z",
       "book": null,
+      "event_id": "446de9651d2d2948326d970e9f858a33",
+      "goalie": "Justus Annunen"
+    },
+    "1175": {
+      "at": "2026-11-06T02:12:11Z",
+      "book": "DK",
       "event_id": "446de9651d2d2948326d970e9f858a33",
       "goalie": "Justus Annunen"
     }
