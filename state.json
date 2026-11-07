@@ -218,7 +218,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19281,
+  "credits_remaining": 19279,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -287,7 +287,7 @@
     "1f21bf798afede04880e7a391f3990ed": {
       "commence_time": "2026-11-08T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T16:49:11Z",
+      "last_paid_check": "2026-11-07T17:04:11Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
@@ -300,17 +300,17 @@
         },
         "fanduel": {
           "Alex Nedeljkovic": {
-            "over": 100,
+            "over": 102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623515745&selectionId=75304747",
             "point": 23.5,
-            "under": -132,
+            "under": -136,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623515745&selectionId=75304746"
           },
           "Jake Oettinger": {
-            "over": -122,
+            "over": -128,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549474&selectionId=74880669",
             "point": 22.5,
-            "under": -108,
+            "under": -104,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549474&selectionId=74880671"
           }
         }
@@ -716,7 +716,7 @@
     "b7da08b293b1ae703c71b26ad69eb52b": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T16:49:11Z",
+      "last_paid_check": "2026-11-07T17:04:11Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -729,10 +729,10 @@
         },
         "fanduel": {
           "Sergei Bobrovsky": {
-            "over": -112,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623532156&selectionId=74802629",
             "point": 25.5,
-            "under": -118,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623532156&selectionId=74802631"
           }
         }
@@ -9506,6 +9506,12 @@
       "out_at": "2026-10-24T17:52:10Z",
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
+    },
+    "STL:8482745": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-11-07T17:04:11Z",
+      "status": "DTD"
     },
     "VAN:8480078": {
       "alerted": true,
