@@ -250,7 +250,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19250,
+  "credits_remaining": 19249,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -728,15 +728,15 @@
     "8cc95915d5faf0205f042002d771ad88": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T18:35:12Z",
+      "last_paid_check": "2026-11-07T18:50:15Z",
       "lines": {
         "draftkings": {
           "Samuel Ersson": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675720%232353745081_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675720%232353745082_15L42133Q184490156Q20"
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675720%232355164229_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675720%232355164230_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -13552,6 +13552,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088200,
+  "tg_offset": 69088202,
   "watch": {}
 }
