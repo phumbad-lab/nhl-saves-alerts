@@ -240,7 +240,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19236,
+  "credits_remaining": 19234,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -409,7 +409,7 @@
     "41bd62e63799d7bb81e18169092a82bd": {
       "commence_time": "2026-11-08T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T19:31:11Z",
+      "last_paid_check": "2026-11-07T19:36:13Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
@@ -428,6 +428,13 @@
           }
         },
         "fanduel": {
+          "Darcy Kuemper": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623599841&selectionId=74879770",
+            "point": 23.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623599841&selectionId=74879771"
+          },
           "Sergei Murashov": {
             "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623592305&selectionId=91004572",
@@ -751,7 +758,7 @@
     "8cc95915d5faf0205f042002d771ad88": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T19:21:10Z",
+      "last_paid_check": "2026-11-07T19:36:13Z",
       "lines": {
         "draftkings": {
           "Samuel Ersson": {
@@ -12467,6 +12474,12 @@
       "book": null,
       "event_id": "41bd62e63799d7bb81e18169092a82bd",
       "goalie": "Darcy Kuemper"
+    },
+    "1256": {
+      "at": "2026-11-07T19:36:13Z",
+      "book": "FD",
+      "event_id": "41bd62e63799d7bb81e18169092a82bd",
+      "goalie": "Darcy Kuemper"
     }
   },
   "shot_stats": {
@@ -13611,7 +13624,7 @@
   "tg_offset": 69088207,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
-      "last": "2026-11-07T19:31:11Z",
+      "last": "2026-11-07T19:36:13Z",
       "seen": {
         "DK": {
           "over": -135,
