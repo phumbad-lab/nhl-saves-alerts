@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19268,
+  "credits_remaining": 19267,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -664,7 +664,7 @@
     "8cc95915d5faf0205f042002d771ad88": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T17:34:10Z",
+      "last_paid_check": "2026-11-07T17:49:10Z",
       "lines": {
         "draftkings": {
           "Samuel Ersson": {
@@ -9632,6 +9632,7 @@
     },
     "STL:8482745": {
       "alerted": false,
+      "missing_since": "2026-11-07T17:49:10Z",
       "out_at": null,
       "seen": "2026-11-07T17:04:11Z",
       "status": "DTD"
