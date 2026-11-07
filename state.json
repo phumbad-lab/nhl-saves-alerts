@@ -218,7 +218,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19279,
+  "credits_remaining": 19278,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -538,14 +538,23 @@
     "71da6461cbc3fc6a42b98080244958e7": {
       "commence_time": "2026-11-07T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T16:52:10Z",
+      "last_paid_check": "2026-11-07T17:08:12Z",
       "lines": {
+        "draftkings": {
+          "Joel Hofer": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386763931%232353955285_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386763931%232353955286_15L42133Q1731448625Q20"
+          }
+        },
         "fanduel": {
           "Joel Hofer": {
-            "over": -110,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623552736&selectionId=74882014",
             "point": 24.5,
-            "under": -120,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623552736&selectionId=74882015"
           }
         }
@@ -12105,6 +12114,12 @@
       "book": null,
       "event_id": "6f96012d11d189a02761d58e0c314906",
       "goalie": "Jake Allen"
+    },
+    "1221": {
+      "at": "2026-11-07T17:08:12Z",
+      "book": "DK",
+      "event_id": "71da6461cbc3fc6a42b98080244958e7",
+      "goalie": "Joel Hofer"
     }
   },
   "shot_stats": {
