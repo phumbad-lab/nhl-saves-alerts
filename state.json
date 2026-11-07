@@ -240,7 +240,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19123,
+  "credits_remaining": 19122,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -371,7 +371,7 @@
     "2ccc92070bd6f92703efc538ba500d21": {
       "commence_time": "2026-11-08T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T23:14:11Z",
+      "last_paid_check": "2026-11-07T23:30:18Z",
       "lines": {
         "draftkings": {
           "Mackenzie Blackwood": {
