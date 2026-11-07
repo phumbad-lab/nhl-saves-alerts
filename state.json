@@ -693,6 +693,12 @@
       },
       "matchup": "San Jose Sharks @ Minnesota Wild"
     },
+    "975144d492cf89a8637be0fc0fdee85e": {
+      "commence_time": "2026-11-08T23:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Tampa Bay Lightning @ Winnipeg Jets"
+    },
     "9e57c39752bfbc587ce341650fcd5a19": {
       "commence_time": "2026-11-06T00:10:00Z",
       "h2h_sent": true,
@@ -11652,12 +11658,6 @@
     ]
   },
   "sent": {
-    "1114": {
-      "at": "2026-11-04T17:09:16Z",
-      "book": "DK",
-      "event_id": "1a1782b9fde64acd952ea9fd3aff7d83",
-      "goalie": "Colten Ellis"
-    },
     "1115": {
       "at": "2026-11-04T17:46:11Z",
       "book": null,
