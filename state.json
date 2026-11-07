@@ -41,6 +41,16 @@
       "start": "2026-11-08T00:10:00Z",
       "text": "Allen (NJD) - NJD@NYI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387001017%232355110498_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549606&selectionId=74675854\u0004u24.5\u0005"
     },
+    "8fe46a5692910faf8de7ac94676f4029|Devon Levi": {
+      "lines": {
+        "DK": 21.5,
+        "FD": 20.5
+      },
+      "mid": 176,
+      "side": "UNDER",
+      "start": "2026-11-08T03:10:00Z",
+      "text": "Levi (EDM) - VAN@EDM 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210606_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676066\u0004u20.5\u0005"
+    },
     "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
       "done": true,
       "lines": {
@@ -13537,6 +13547,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088198,
+  "tg_offset": 69088199,
   "watch": {}
 }
