@@ -9134,11 +9134,9 @@
     },
     "BOS:8485395": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-07T15:17:09Z",
+      "out_at": "2026-11-07T15:22:10Z",
       "seen": "2026-11-06T12:09:10Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CGY:8480860": {
       "alerted": true,
