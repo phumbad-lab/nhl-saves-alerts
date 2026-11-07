@@ -220,7 +220,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19273,
+  "credits_remaining": 19272,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -563,7 +563,7 @@
     "71da6461cbc3fc6a42b98080244958e7": {
       "commence_time": "2026-11-07T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T17:24:10Z",
+      "last_paid_check": "2026-11-07T17:25:13Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
