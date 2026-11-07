@@ -190,7 +190,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19309,
+  "credits_remaining": 19308,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -241,7 +241,7 @@
     "1f21bf798afede04880e7a391f3990ed": {
       "commence_time": "2026-11-08T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T15:01:10Z",
+      "last_paid_check": "2026-11-07T15:16:10Z",
       "lines": {
         "fanduel": {
           "Alex Nedeljkovic": {
@@ -9135,8 +9135,6 @@
     "BOS:8485395": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-07T15:15:17Z",
       "seen": "2026-11-06T12:09:10Z",
       "status": "DTD"
     },
