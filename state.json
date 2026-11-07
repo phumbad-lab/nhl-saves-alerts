@@ -1,16 +1,5 @@
 {
   "channel_posts": {
-    "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood": {
-      "done": true,
-      "lines": {
-        "DK": 25.5,
-        "FD": 24.5
-      },
-      "mid": 149,
-      "side": "UNDER",
-      "start": "2026-11-04T00:10:00Z",
-      "text": "Wedgewood (COL) - COL@CBJ 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265802%232349038887_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622337717&selectionId=74880668\u0004u24.5\u0005"
-    },
     "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
       "done": true,
       "lines": {
@@ -21,17 +10,6 @@
       "side": "UNDER",
       "start": "2026-11-05T00:40:00Z",
       "text": "Ellis (BUF) - OTT@BUF 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647377%232349255488_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834\u0004u22.5\u0005"
-    },
-    "71d674d1a6ac60893018bd115d42d624|Tristan Jarry": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 151,
-      "side": "UNDER",
-      "start": "2026-11-04T00:40:00Z",
-      "text": "Jarry (EDM) - EDM@NJD 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385265478%232347481135_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622353086&selectionId=74843126\u0004u27.5\u0005"
     },
     "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
       "done": true,
@@ -54,39 +32,6 @@
       "side": "UNDER",
       "start": "2026-11-05T03:10:00Z",
       "text": "Askarov (SJS) - SJS@LAK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385757\u0004u27.5\u0005"
-    },
-    "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
-      "done": true,
-      "lines": {
-        "DK": 23.5,
-        "FD": 23.5
-      },
-      "mid": 153,
-      "side": "UNDER",
-      "start": "2026-11-04T00:10:00Z",
-      "text": "Oettinger (DAL) - DAL@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385267568%232349180989_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622344223&selectionId=74880671\u0004u23.5\u0005"
-    },
-    "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 23.5
-      },
-      "mid": 152,
-      "side": "UNDER",
-      "start": "2026-11-04T00:10:00Z",
-      "text": "Cossa (UTA) - UTA@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385624761%232349180973_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622342492&selectionId=103689735\u0004u23.5\u0005"
-    },
-    "f84f85e8c5fdd0a70594563b0041d706|John Gibson": {
-      "done": true,
-      "lines": {
-        "DK": 26.5,
-        "FD": 26.5
-      },
-      "mid": 150,
-      "side": "UNDER",
-      "start": "2026-11-04T00:10:00Z",
-      "text": "Gibson (DET) - DET@TBL 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385262267%232349473979_15L42133Q11150106798Q20\u0004u26.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622426648&selectionId=76247481\u0004u26.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-06",
@@ -11051,7 +10996,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-06": [
-      "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov"
+      "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov",
+      "8094c7dc6557caf1cc19194bf69477bb|Ukko-Pekka Luukkonen"
     ]
   },
   "picks_channel": {
@@ -12838,6 +12784,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088193,
+  "tg_offset": 69088194,
   "watch": {}
 }
