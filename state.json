@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19267,
+  "credits_remaining": 19265,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -353,8 +353,28 @@
     },
     "2ccc92070bd6f92703efc538ba500d21": {
       "commence_time": "2026-11-08T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-07T17:52:10Z",
+      "lines": {
+        "draftkings": {
+          "Mackenzie Blackwood": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386715205%232355208455_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386715205%232355208456_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Mackenzie Blackwood": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623570959&selectionId=74101473",
+            "point": 23.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623570959&selectionId=74101476"
+          }
+        }
+      },
       "matchup": "Detroit Red Wings @ Colorado Avalanche"
     },
     "361013dde7926deac786fabf1aae59e5": {
@@ -799,7 +819,7 @@
     "b7da08b293b1ae703c71b26ad69eb52b": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T17:36:11Z",
+      "last_paid_check": "2026-11-07T17:52:10Z",
       "lines": {
         "draftkings": {
           "Sergei Bobrovsky": {
@@ -5700,6 +5720,39 @@
         "DAL",
         29,
         21
+      ]
+    ]
+  },
+  "h2h_COL-DET": {
+    "fetched": "2026-11-07T17:52:10Z",
+    "value": [
+      [
+        "2026-02-02",
+        "DET",
+        "COL",
+        25,
+        21
+      ],
+      [
+        "2026-01-31",
+        "COL",
+        "DET",
+        21,
+        28
+      ],
+      [
+        "2025-03-25",
+        "DET",
+        "COL",
+        23,
+        28
+      ],
+      [
+        "2024-12-07",
+        "COL",
+        "DET",
+        25,
+        30
       ]
     ]
   },
@@ -11563,7 +11616,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-11-05T17:45:15Z",
+    "fetched": "2026-11-07T17:52:10Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -11577,7 +11630,7 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-11-05T15:34:12Z",
+    "fetched": "2026-11-07T17:52:10Z",
     "value": [
       "John Gibson",
       "Michal Postava",
@@ -12265,6 +12318,12 @@
       "book": null,
       "event_id": "8fe46a5692910faf8de7ac94676f4029",
       "goalie": "Devon Levi"
+    },
+    "1230": {
+      "at": "2026-11-07T17:52:10Z",
+      "book": null,
+      "event_id": "2ccc92070bd6f92703efc538ba500d21",
+      "goalie": "Mackenzie Blackwood"
     }
   },
   "shot_stats": {
