@@ -240,7 +240,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19116,
+  "credits_remaining": 19115,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -767,14 +767,14 @@
     "8cc95915d5faf0205f042002d771ad88": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T23:40:15Z",
+      "last_paid_check": "2026-11-07T23:50:15Z",
       "lines": {
         "draftkings": {
           "Karel Vejmelka": {
             "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675789%232355608644_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": -125,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675789%232355608645_15L42133Q1731448625Q20"
           },
           "Samuel Ersson": {
@@ -786,11 +786,18 @@
           }
         },
         "fanduel": {
+          "Karel Vejmelka": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623643898&selectionId=75028426",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623643898&selectionId=75028425"
+          },
           "Samuel Ersson": {
-            "over": -128,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623546573&selectionId=74932576",
             "point": 23.5,
-            "under": -104,
+            "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623546573&selectionId=74932577"
           }
         }
@@ -12494,6 +12501,12 @@
     "1265": {
       "at": "2026-11-07T23:40:15Z",
       "book": null,
+      "event_id": "8cc95915d5faf0205f042002d771ad88",
+      "goalie": "Karel Vejmelka"
+    },
+    "1266": {
+      "at": "2026-11-07T23:50:15Z",
+      "book": "FD",
       "event_id": "8cc95915d5faf0205f042002d771ad88",
       "goalie": "Karel Vejmelka"
     }
