@@ -9755,13 +9755,6 @@
       "seen": "2026-11-04T02:01:12Z",
       "status": "OUT"
     },
-    "EDM:8475786": {
-      "alerted": true,
-      "missing_since": "2026-11-07T18:17:11Z",
-      "out_at": "2026-10-28T16:11:14Z",
-      "seen": "2026-10-27T06:39:47Z",
-      "status": "OUT"
-    },
     "FLA:8473419": {
       "alerted": true,
       "out_at": "2026-10-28T12:02:12Z",
@@ -11903,12 +11896,6 @@
     ]
   },
   "sent": {
-    "1120": {
-      "at": "2026-11-04T18:47:11Z",
-      "book": "DK",
-      "event_id": "bc22bdc8d7cca6b3695672a8ebf84456",
-      "goalie": "Spencer Knight"
-    },
     "1121": {
       "at": "2026-11-04T19:31:23Z",
       "book": "DK",
