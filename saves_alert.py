@@ -1804,7 +1804,11 @@ def parse_message(text):
     t = text.lower().strip()
     m = re.match(r"^(?:i\s+am\s+|i['\u2019]?m\s+|i\s+)?(in|took|taking|take|out)\b[\s.!:,-]*(.*)$", t, re.S)
     if not m:
-        return None, []
+        # Owner Nov 7: "how do I say I cashed out or cancelled a bet?" -> same as out.
+        c = re.match(r"^(?:i\s+|i['\u2019]?ve\s+|i\s+have\s+)?(?:cash(?:ed)?\s*out|cancel(?:led|ed)?)\b[\s.!:,-]*(.*)$", t, re.S)
+        if not c:
+            return None, []
+        m = re.match(r"^(out)\b[\s.!:,-]*(.*)$", "out " + c.group(1), re.S)
     cmd = "out" if m.group(1) == "out" else "in"
     chunks = [c.split() for c in re.split(r",|\n|;|\band\b|&", m.group(2))]
     bets = [parse_bet(c) for c in chunks if c] or [parse_bet([])]
