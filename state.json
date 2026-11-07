@@ -9195,29 +9195,18 @@
     "WSH"
   ],
   "keys_ANA": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Cutter",
-        "gp": 91,
+        "gp": 92,
         "id": 8483445,
         "last": "Gauthier",
         "pos": "L",
         "role": "shooter",
-        "shots": 347,
+        "shots": 351,
         "sog": 3.8,
         "toi": 17.4
-      },
-      {
-        "first": "Leo",
-        "gp": 86,
-        "id": 8484153,
-        "last": "Carlsson",
-        "pos": "C",
-        "role": "shooter",
-        "shots": 220,
-        "sog": 2.6,
-        "toi": 19.3
       },
       {
         "first": "Troy",
@@ -9231,31 +9220,42 @@
         "toi": 18.3
       },
       {
+        "first": "Leo",
+        "gp": 87,
+        "id": 8484153,
+        "last": "Carlsson",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 221,
+        "sog": 2.5,
+        "toi": 19.4
+      },
+      {
         "first": "Jackson",
-        "gp": 98,
+        "gp": 99,
         "id": 8481605,
         "last": "LaCombe",
         "pos": "D",
         "role": "defense",
-        "shots": 167,
+        "shots": 169,
         "sog": 1.7,
         "toi": 24.7
       },
       {
         "first": "Tristan",
-        "gp": 17,
+        "gp": 18,
         "id": 8483482,
         "last": "Luneau",
         "pos": "D",
         "role": "defense",
-        "shots": 20,
-        "sog": 1.2,
-        "toi": 19.9
+        "shots": 23,
+        "sog": 1.3,
+        "toi": 19.7
       }
     ]
   },
   "keys_BOS": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "David",
@@ -9315,56 +9315,56 @@
     ]
   },
   "keys_BUF": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Tage",
-        "gp": 96,
+        "gp": 97,
         "id": 8479420,
         "last": "Thompson",
         "pos": "C",
         "role": "shooter",
-        "shots": 337,
+        "shots": 340,
         "sog": 3.5,
         "toi": 19.3
       },
       {
         "first": "Rasmus",
-        "gp": 89,
+        "gp": 90,
         "id": 8480839,
         "last": "Dahlin",
         "pos": "D",
         "role": "shooter",
-        "shots": 229,
+        "shots": 233,
         "sog": 2.6,
         "toi": 24.2
       },
       {
         "first": "Jack",
-        "gp": 97,
+        "gp": 98,
         "id": 8482097,
         "last": "Quinn",
         "pos": "R",
         "role": "shooter",
-        "shots": 232,
+        "shots": 235,
         "sog": 2.4,
         "toi": 16.2
       },
       {
         "first": "Mattias",
-        "gp": 93,
+        "gp": 94,
         "id": 8480807,
         "last": "Samuelsson",
         "pos": "D",
         "role": "defense",
-        "shots": 130,
+        "shots": 131,
         "sog": 1.4,
         "toi": 23.0
       }
     ]
   },
   "keys_CAR": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Seth",
@@ -9424,22 +9424,22 @@
     ]
   },
   "keys_CBJ": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Zach",
-        "gp": 89,
+        "gp": 90,
         "id": 8478460,
         "last": "Werenski",
         "pos": "D",
         "role": "shooter",
-        "shots": 301,
+        "shots": 304,
         "sog": 3.4,
         "toi": 26.9
       },
       {
         "first": "Adam",
-        "gp": 96,
+        "gp": 97,
         "id": 8484166,
         "last": "Fantilli",
         "pos": "C",
@@ -9450,62 +9450,62 @@
       },
       {
         "first": "Ivan",
-        "gp": 85,
+        "gp": 86,
         "id": 8478500,
         "last": "Provorov",
         "pos": "D",
         "role": "shooter",
-        "shots": 165,
-        "sog": 1.9,
+        "shots": 168,
+        "sog": 2.0,
         "toi": 24.7
       }
     ]
   },
   "keys_CGY": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Matt",
-        "gp": 96,
+        "gp": 97,
         "id": 8482679,
         "last": "Coronato",
         "pos": "R",
         "role": "shooter",
-        "shots": 230,
+        "shots": 233,
         "sog": 2.4,
         "toi": 16.8
       },
       {
         "first": "Mikael",
-        "gp": 96,
+        "gp": 97,
         "id": 8474150,
         "last": "Backlund",
         "pos": "C",
         "role": "shooter",
-        "shots": 224,
+        "shots": 226,
         "sog": 2.3,
         "toi": 18.0
       },
       {
         "first": "Matvei",
-        "gp": 53,
+        "gp": 54,
         "id": 8484860,
         "last": "Gridin",
         "pos": "R",
         "role": "shooter",
-        "shots": 106,
+        "shots": 107,
         "sog": 2.0,
         "toi": 15.3
       },
       {
         "first": "Zach",
-        "gp": 47,
+        "gp": 48,
         "id": 8480727,
         "last": "Whitecloud",
         "pos": "D",
         "role": "defense",
         "shots": 50,
-        "sog": 1.1,
+        "sog": 1.0,
         "toi": 21.9
       },
       {
@@ -9522,7 +9522,7 @@
     ]
   },
   "keys_CHI": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Connor",
@@ -9582,7 +9582,7 @@
     ]
   },
   "keys_COL": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Nathan",
@@ -9631,7 +9631,7 @@
     ]
   },
   "keys_DAL": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Jason",
@@ -9691,7 +9691,7 @@
     ]
   },
   "keys_DET": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Alex",
@@ -9751,7 +9751,7 @@
     ]
   },
   "keys_EDM": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Connor",
@@ -9811,7 +9811,7 @@
     ]
   },
   "keys_FLA": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Brady",
@@ -9871,7 +9871,7 @@
     ]
   },
   "keys_LAK": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Adrian",
@@ -9931,49 +9931,49 @@
     ]
   },
   "keys_MIN": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Matt",
-        "gp": 93,
+        "gp": 94,
         "id": 8481557,
         "last": "Boldy",
         "pos": "L",
         "role": "shooter",
-        "shots": 326,
+        "shots": 333,
         "sog": 3.5,
-        "toi": 20.8
+        "toi": 20.7
       },
       {
         "first": "Kirill",
-        "gp": 95,
+        "gp": 96,
         "id": 8478864,
         "last": "Kaprizov",
         "pos": "L",
         "role": "shooter",
-        "shots": 323,
+        "shots": 326,
         "sog": 3.4,
-        "toi": 22.1
+        "toi": 22.0
       },
       {
         "first": "Joel",
-        "gp": 87,
+        "gp": 88,
         "id": 8478493,
         "last": "Eriksson Ek",
         "pos": "C",
         "role": "shooter",
-        "shots": 252,
+        "shots": 254,
         "sog": 2.9,
         "toi": 19.3
       },
       {
         "first": "Quinn",
-        "gp": 65,
+        "gp": 66,
         "id": 8480800,
         "last": "Hughes",
         "pos": "D",
         "role": "defense",
-        "shots": 161,
+        "shots": 163,
         "sog": 2.5,
         "toi": 27.9
       },
@@ -9991,7 +9991,7 @@
     ]
   },
   "keys_MTL": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Cole",
@@ -10051,7 +10051,7 @@
     ]
   },
   "keys_NJD": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Jack",
@@ -10100,7 +10100,7 @@
     ]
   },
   "keys_NSH": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Filip",
@@ -10149,7 +10149,7 @@
     ]
   },
   "keys_NYI": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Bo",
@@ -10198,7 +10198,7 @@
     ]
   },
   "keys_NYR": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Pavel",
@@ -10258,7 +10258,7 @@
     ]
   },
   "keys_OTT": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Dylan",
@@ -10318,7 +10318,7 @@
     ]
   },
   "keys_PHI": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Owen",
@@ -10378,7 +10378,7 @@
     ]
   },
   "keys_PIT": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Rickard",
@@ -10438,7 +10438,7 @@
     ]
   },
   "keys_SEA": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Bobby",
@@ -10487,67 +10487,67 @@
     ]
   },
   "keys_SJS": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Macklin",
-        "gp": 97,
+        "gp": 98,
         "id": 8484801,
         "last": "Celebrini",
         "pos": "C",
         "role": "shooter",
-        "shots": 346,
+        "shots": 352,
         "sog": 3.6,
-        "toi": 21.5
+        "toi": 21.6
       },
       {
         "first": "Will",
-        "gp": 86,
+        "gp": 87,
         "id": 8484227,
         "last": "Smith",
         "pos": "C",
         "role": "shooter",
-        "shots": 209,
+        "shots": 211,
         "sog": 2.4,
         "toi": 18.4
       },
       {
         "first": "Tyler",
-        "gp": 96,
+        "gp": 97,
         "id": 8475726,
         "last": "Toffoli",
         "pos": "C",
         "role": "shooter",
-        "shots": 208,
+        "shots": 210,
         "sog": 2.2,
         "toi": 14.7
       },
       {
         "first": "Jacob",
-        "gp": 17,
+        "gp": 18,
         "id": 8476885,
         "last": "Trouba",
         "pos": "D",
         "role": "defense",
         "shots": 27,
-        "sog": 1.6,
-        "toi": 22.3
+        "sog": 1.5,
+        "toi": 22.2
       },
       {
         "first": "Darnell",
-        "gp": 16,
+        "gp": 17,
         "id": 8477498,
         "last": "Nurse",
         "pos": "D",
         "role": "defense",
-        "shots": 26,
-        "sog": 1.6,
-        "toi": 21.3
+        "shots": 29,
+        "sog": 1.7,
+        "toi": 21.4
       }
     ]
   },
   "keys_STL": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Mason",
@@ -10607,7 +10607,7 @@
     ]
   },
   "keys_TBL": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Brandon",
@@ -10667,7 +10667,7 @@
     ]
   },
   "keys_TOR": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Auston",
@@ -10727,7 +10727,7 @@
     ]
   },
   "keys_UTA": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Dylan",
@@ -10787,7 +10787,7 @@
     ]
   },
   "keys_VAN": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Jake",
@@ -10847,7 +10847,7 @@
     ]
   },
   "keys_VGK": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Jack",
@@ -10907,7 +10907,7 @@
     ]
   },
   "keys_WPG": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Kyle",
@@ -10967,7 +10967,7 @@
     ]
   },
   "keys_WSH": {
-    "fetched": "2026-11-07T00:09:12Z",
+    "fetched": "2026-11-07T12:10:15Z",
     "value": [
       {
         "first": "Alex",
