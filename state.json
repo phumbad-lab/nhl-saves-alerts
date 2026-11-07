@@ -240,7 +240,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19237,
+  "credits_remaining": 19236,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -409,7 +409,7 @@
     "41bd62e63799d7bb81e18169092a82bd": {
       "commence_time": "2026-11-08T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T19:26:10Z",
+      "last_paid_check": "2026-11-07T19:31:11Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
@@ -420,11 +420,11 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386763621%232353947588_15L42133Q184490156Q20"
           },
           "Sergei Murashov": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387047414%232355294665_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387047414%232355294666_15L42133Q1458571637Q20"
+            "over": -135,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387047414%232355296324_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": 100,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387047414%232355296325_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -13629,12 +13629,12 @@
   "tg_offset": 69088207,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
-      "last": "2026-11-07T19:26:10Z",
+      "last": "2026-11-07T19:31:11Z",
       "seen": {
         "DK": {
-          "over": -110,
-          "point": 25.5,
-          "under": -125
+          "over": -135,
+          "point": 24.5,
+          "under": 100
         },
         "FD": {
           "over": -122,
