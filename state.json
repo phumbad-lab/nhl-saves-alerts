@@ -582,46 +582,6 @@
       },
       "matchup": "Boston Bruins @ Pittsburgh Penguins"
     },
-    "a3c2f39dce2dbf9e8cb78acce24cd379": {
-      "commence_time": "2026-11-05T03:20:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-04T20:02:20Z",
-      "lines": {
-        "draftkings": {
-          "Darcy Kuemper": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647774%232350019870_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647774%232350019871_15L42133Q184490156Q20"
-          },
-          "Yaroslav Askarov": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996457_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20"
-          }
-        },
-        "fanduel": {
-          "Darcy Kuemper": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708986&selectionId=74879770",
-            "point": 23.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622708986&selectionId=74879771"
-          },
-          "Yaroslav Askarov": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385758",
-            "point": 27.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385757"
-          }
-        }
-      },
-      "matchup": "San Jose Sharks @ Los Angeles Kings"
-    },
     "b5934d2ce05af5dac632f1e8b7ce5fb6": {
       "commence_time": "2026-11-08T01:10:00Z",
       "last_paid_check": null,
