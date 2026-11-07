@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19264,
+  "credits_remaining": 19263,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -721,14 +721,23 @@
     "8fe46a5692910faf8de7ac94676f4029": {
       "commence_time": "2026-11-08T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T17:41:10Z",
+      "last_paid_check": "2026-11-07T17:56:10Z",
       "lines": {
+        "draftkings": {
+          "Devon Levi": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210605_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210606_15L42133Q1888607062Q20"
+          }
+        },
         "fanduel": {
           "Devon Levi": {
-            "over": -118,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676067",
             "point": 20.5,
-            "under": -112,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676066"
           }
         }
@@ -12373,6 +12382,12 @@
       "book": null,
       "event_id": "79334eedea6908f995f13dd5a8f11d20",
       "goalie": "Joey Daccord"
+    },
+    "1232": {
+      "at": "2026-11-07T17:56:10Z",
+      "book": "DK",
+      "event_id": "8fe46a5692910faf8de7ac94676f4029",
+      "goalie": "Devon Levi"
     }
   },
   "shot_stats": {
