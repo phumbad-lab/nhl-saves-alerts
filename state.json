@@ -220,7 +220,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19270,
+  "credits_remaining": 19269,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -563,7 +563,7 @@
     "71da6461cbc3fc6a42b98080244958e7": {
       "commence_time": "2026-11-07T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T17:25:13Z",
+      "last_paid_check": "2026-11-07T17:40:15Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
@@ -572,6 +572,13 @@
             "point": 24.5,
             "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386763931%232353955286_15L42133Q1731448625Q20"
+          },
+          "Juuse Saros": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386764340%232355184773_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386764340%232355184774_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -581,6 +588,13 @@
             "point": 24.5,
             "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623552736&selectionId=74882015"
+          },
+          "Juuse Saros": {
+            "over": -120,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623567349&selectionId=74973972",
+            "point": 22.5,
+            "under": -110,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623567349&selectionId=74973971"
           }
         }
       },
@@ -12191,6 +12205,12 @@
       "book": null,
       "event_id": "b7da08b293b1ae703c71b26ad69eb52b",
       "goalie": "Jacob Fowler"
+    },
+    "1227": {
+      "at": "2026-11-07T17:40:15Z",
+      "book": null,
+      "event_id": "71da6461cbc3fc6a42b98080244958e7",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
