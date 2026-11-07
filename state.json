@@ -9509,7 +9509,6 @@
     },
     "STL:8482745": {
       "alerted": false,
-      "missing_since": "2026-11-07T17:05:12Z",
       "out_at": null,
       "seen": "2026-11-07T17:04:11Z",
       "status": "DTD"
