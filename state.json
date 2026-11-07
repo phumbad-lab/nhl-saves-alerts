@@ -1,5 +1,14 @@
 {
   "channel_posts": {
+    "08d54b8e2b0d49e172fd8d2087576066|Spencer Knight": {
+      "lines": {
+        "FD": 28.5
+      },
+      "mid": 168,
+      "side": "UNDER",
+      "start": "2026-11-08T01:10:00Z",
+      "text": "Knight (CHI) - CHI@CAR 8:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623535981&selectionId=74973969\u0004u28.5\u0005"
+    },
     "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
       "done": true,
       "lines": {
@@ -13153,6 +13162,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088194,
+  "tg_offset": 69088195,
   "watch": {}
 }
