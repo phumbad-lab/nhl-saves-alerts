@@ -11952,24 +11952,6 @@
     ]
   },
   "sent": {
-    "1121": {
-      "at": "2026-11-04T19:31:23Z",
-      "book": "DK",
-      "event_id": "7cc07a9c5a886203f238a3fe0b83dfd1",
-      "goalie": "Joey Daccord"
-    },
-    "1122": {
-      "at": "2026-11-04T19:31:23Z",
-      "book": null,
-      "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
-      "goalie": "Yaroslav Askarov"
-    },
-    "1123": {
-      "at": "2026-11-04T19:31:23Z",
-      "book": "DK",
-      "event_id": "a3c2f39dce2dbf9e8cb78acce24cd379",
-      "goalie": "Darcy Kuemper"
-    },
     "1124": {
       "at": "2026-11-04T20:02:20Z",
       "book": "FD",
