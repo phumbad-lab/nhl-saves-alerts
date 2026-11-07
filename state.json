@@ -2,12 +2,13 @@
   "channel_posts": {
     "08d54b8e2b0d49e172fd8d2087576066|Spencer Knight": {
       "lines": {
+        "DK": 28.5,
         "FD": 28.5
       },
       "mid": 168,
       "side": "UNDER",
       "start": "2026-11-08T01:10:00Z",
-      "text": "Knight (CHI) - CHI@CAR 8:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623535981&selectionId=74973969\u0004u28.5\u0005"
+      "text": "Knight (CHI) - CHI@CAR 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386766256%232355143134_15L42133Q1-245490255Q20\u0004u28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623535981&selectionId=74973969\u0004u28.5\u0005"
     },
     "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
       "done": true,
@@ -218,13 +219,29 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19278,
+  "credits_remaining": 19277,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T16:54:10Z",
+      "last_paid_check": "2026-11-07T17:09:11Z",
       "lines": {
+        "draftkings": {
+          "Pyotr Kochetkov": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386766407%232355150178_13L42133Q1980555505Q20",
+            "point": 19.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386766407%232355150179_15L42133Q1-767247327Q20"
+          },
+          "Spencer Knight": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386766256%232355143133_13L42133Q1827957987Q20",
+            "point": 28.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386766256%232355143134_15L42133Q1-245490255Q20"
+          }
+        },
         "fanduel": {
           "Pyotr Kochetkov": {
             "over": -114,
@@ -12120,6 +12137,18 @@
       "book": "DK",
       "event_id": "71da6461cbc3fc6a42b98080244958e7",
       "goalie": "Joel Hofer"
+    },
+    "1222": {
+      "at": "2026-11-07T17:09:11Z",
+      "book": "DK",
+      "event_id": "08d54b8e2b0d49e172fd8d2087576066",
+      "goalie": "Pyotr Kochetkov"
+    },
+    "1223": {
+      "at": "2026-11-07T17:09:11Z",
+      "book": "DK",
+      "event_id": "08d54b8e2b0d49e172fd8d2087576066",
+      "goalie": "Spencer Knight"
     }
   },
   "shot_stats": {
