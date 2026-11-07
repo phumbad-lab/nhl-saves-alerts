@@ -51,6 +51,16 @@
       "start": "2026-11-08T03:10:00Z",
       "text": "Levi (EDM) - VAN@EDM 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210606_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676066\u0004u20.5\u0005"
     },
+    "8fe46a5692910faf8de7ac94676f4029|Leevi Merilainen": {
+      "lines": {
+        "DK": 25.5,
+        "FD": 24.5
+      },
+      "mid": 177,
+      "side": "UNDER",
+      "start": "2026-11-08T03:10:00Z",
+      "text": "Merilainen (VAN) - VAN@EDM 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386788780%232354900321_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623581136&selectionId=78174826\u0004u24.5\u0005"
+    },
     "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
       "done": true,
       "lines": {
@@ -13567,6 +13577,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088199,
+  "tg_offset": 69088200,
   "watch": {}
 }
