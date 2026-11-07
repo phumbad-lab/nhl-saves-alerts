@@ -199,7 +199,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19288,
+  "credits_remaining": 19287,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -547,14 +547,14 @@
     "8cc95915d5faf0205f042002d771ad88": {
       "commence_time": "2026-11-08T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-07T16:32:10Z",
+      "last_paid_check": "2026-11-07T16:47:10Z",
       "lines": {
         "fanduel": {
           "Samuel Ersson": {
-            "over": -122,
+            "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623546573&selectionId=74932576",
-            "point": 23.5,
-            "under": -108,
+            "point": 24.5,
+            "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623546573&selectionId=74932577"
           }
         }
