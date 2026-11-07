@@ -30,3 +30,4 @@ noted_at,date,goalie,team,game,tag,line,expected_saves,note,event_id
 2026-10-31T20:55:13Z,2026-10-31,Joel Hofer,STL,Blues @ Wings,OVER,25.5,26.0,missed on the hook,f0eeae1be040fca9b93b46bc8c55068d
 2026-11-01T20:00:22Z,2026-11-01,,,,,,,"Philly at home.  H2H looks good, Philly has Tippett back",
 2026-11-07T04:06:11Z,2026-11-06,Ukko-Pekka Luukkonen,BUF,Jackets @ Sabres,UNDER,22.5,22.0,lucky,8094c7dc6557caf1cc19194bf69477bb
+2026-11-07T16:51:10Z,2026-11-07,Jake Oettinger,DAL,Sharks @ Stars,UNDER,22.5,21.6,heiskanen injury,1f21bf798afede04880e7a391f3990ed

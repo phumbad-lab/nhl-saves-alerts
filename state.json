@@ -20,6 +20,15 @@
       "start": "2026-11-05T00:40:00Z",
       "text": "Ellis (BUF) - OTT@BUF 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647377%232349255488_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834\u0004u22.5\u0005"
     },
+    "1f21bf798afede04880e7a391f3990ed|Jake Oettinger": {
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 169,
+      "side": "OVER",
+      "start": "2026-11-08T01:10:00Z",
+      "text": "Oettinger (DAL) - SJS@DAL 8:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549474&selectionId=74880669\u0004o22.5\u0005"
+    },
     "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
       "done": true,
       "lines": {
@@ -13190,6 +13199,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088195,
+  "tg_offset": 69088196,
   "watch": {}
 }
