@@ -190,7 +190,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19310,
+  "credits_remaining": 19309,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -240,8 +240,19 @@
     },
     "1f21bf798afede04880e7a391f3990ed": {
       "commence_time": "2026-11-08T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-07T15:01:10Z",
+      "lines": {
+        "fanduel": {
+          "Alex Nedeljkovic": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623515745&selectionId=75304747",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623515745&selectionId=75304746"
+          }
+        }
+      },
       "matchup": "San Jose Sharks @ Dallas Stars"
     },
     "2ccc92070bd6f92703efc538ba500d21": {
@@ -2926,7 +2937,7 @@
     ]
   },
   "gl_8480036": {
-    "fetched": "2026-11-05T17:53:11Z",
+    "fetched": "2026-11-07T15:01:10Z",
     "value": [
       "2026-10-02",
       "2026-10-03",
@@ -5745,6 +5756,39 @@
         "PIT",
         40,
         21
+      ]
+    ]
+  },
+  "h2h_DAL-SJS": {
+    "fetched": "2026-11-07T15:01:10Z",
+    "value": [
+      [
+        "2026-10-05",
+        "SJS",
+        "DAL",
+        13,
+        26
+      ],
+      [
+        "2026-01-10",
+        "DAL",
+        "SJS",
+        20,
+        31
+      ],
+      [
+        "2025-12-18",
+        "DAL",
+        "SJS",
+        30,
+        37
+      ],
+      [
+        "2025-12-05",
+        "SJS",
+        "DAL",
+        17,
+        24
       ]
     ]
   },
@@ -11080,7 +11124,7 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-11-05T16:36:13Z",
+    "fetched": "2026-11-07T15:01:10Z",
     "value": [
       "Casey DeSmith",
       "Jake Oettinger"
@@ -11193,7 +11237,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-11-06T16:37:11Z",
+    "fetched": "2026-11-07T15:01:10Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -11660,6 +11704,12 @@
       "book": "DK",
       "event_id": "8094c7dc6557caf1cc19194bf69477bb",
       "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "1201": {
+      "at": "2026-11-07T15:01:10Z",
+      "book": null,
+      "event_id": "1f21bf798afede04880e7a391f3990ed",
+      "goalie": "Alex Nedeljkovic"
     }
   },
   "shot_stats": {
