@@ -229,7 +229,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19265,
+  "credits_remaining": 19264,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -631,8 +631,19 @@
     },
     "79334eedea6908f995f13dd5a8f11d20": {
       "commence_time": "2026-11-07T22:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-07T17:54:12Z",
+      "lines": {
+        "draftkings": {
+          "Joey Daccord": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386747194%232353890939_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386747194%232353890940_15L42133Q1731448625Q20"
+          }
+        }
+      },
       "matchup": "New York Rangers @ Seattle Kraken"
     },
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
@@ -3135,7 +3146,7 @@
     ]
   },
   "gl_8477955": {
-    "fetched": "2026-11-04T18:44:11Z",
+    "fetched": "2026-11-07T17:54:12Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -8594,6 +8605,39 @@
       ]
     ]
   },
+  "h2h_NYR-SEA": {
+    "fetched": "2026-11-07T17:54:12Z",
+    "value": [
+      [
+        "2026-01-12",
+        "SEA",
+        "NYR",
+        29,
+        22
+      ],
+      [
+        "2025-11-01",
+        "NYR",
+        "SEA",
+        27,
+        13
+      ],
+      [
+        "2024-12-08",
+        "SEA",
+        "NYR",
+        22,
+        37
+      ],
+      [
+        "2024-11-17",
+        "NYR",
+        "SEA",
+        23,
+        24
+      ]
+    ]
+  },
   "h2h_NYR-STL": {
     "fetched": "2026-11-03T15:44:17Z",
     "value": [
@@ -11698,11 +11742,10 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-11-05T15:52:12Z",
+    "fetched": "2026-11-07T17:54:12Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
-      "James Reimer",
       "Igor Shesterkin"
     ]
   },
@@ -11729,7 +11772,7 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-11-04T18:44:11Z",
+    "fetched": "2026-11-07T17:54:12Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
@@ -12324,6 +12367,12 @@
       "book": null,
       "event_id": "2ccc92070bd6f92703efc538ba500d21",
       "goalie": "Mackenzie Blackwood"
+    },
+    "1231": {
+      "at": "2026-11-07T17:54:12Z",
+      "book": null,
+      "event_id": "79334eedea6908f995f13dd5a8f11d20",
+      "goalie": "Joey Daccord"
     }
   },
   "shot_stats": {
