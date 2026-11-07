@@ -208,7 +208,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19285,
+  "credits_remaining": 19284,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -513,8 +513,19 @@
     },
     "71da6461cbc3fc6a42b98080244958e7": {
       "commence_time": "2026-11-07T18:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-07T16:52:10Z",
+      "lines": {
+        "fanduel": {
+          "Joel Hofer": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623552736&selectionId=74882014",
+            "point": 24.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623552736&selectionId=74882015"
+          }
+        }
+      },
       "matchup": "St Louis Blues @ Nashville Predators"
     },
     "79334eedea6908f995f13dd5a8f11d20": {
@@ -8054,8 +8065,15 @@
     ]
   },
   "h2h_NSH-STL": {
-    "fetched": "2026-10-17T17:53:09Z",
+    "fetched": "2026-11-07T16:52:10Z",
     "value": [
+      [
+        "2026-10-17",
+        "STL",
+        "NSH",
+        26,
+        24
+      ],
       [
         "2026-02-02",
         "STL",
@@ -8076,13 +8094,6 @@
         "STL",
         26,
         22
-      ],
-      [
-        "2025-12-11",
-        "STL",
-        "NSH",
-        26,
-        32
       ]
     ]
   },
@@ -11466,7 +11477,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-11-05T17:45:15Z",
+    "fetched": "2026-11-07T16:52:10Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
@@ -11525,7 +11536,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-11-05T16:35:12Z",
+    "fetched": "2026-11-07T16:52:10Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -12058,6 +12069,12 @@
       "book": "DK",
       "event_id": "1f21bf798afede04880e7a391f3990ed",
       "goalie": "Alex Nedeljkovic"
+    },
+    "1218": {
+      "at": "2026-11-07T16:52:10Z",
+      "book": null,
+      "event_id": "71da6461cbc3fc6a42b98080244958e7",
+      "goalie": "Joel Hofer"
     }
   },
   "shot_stats": {
