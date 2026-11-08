@@ -11,17 +11,6 @@
       "start": "2026-11-08T01:10:00Z",
       "text": "Knight (CHI) - CHI@CAR 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386766256%232355143134_15L42133Q1-245490255Q20\u0004u28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623535981&selectionId=74973969\u0004u28.5\u0005"
     },
-    "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 22.5
-      },
-      "mid": 160,
-      "side": "UNDER",
-      "start": "2026-11-05T00:40:00Z",
-      "text": "Ellis (BUF) - OTT@BUF 7:40PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647377%232349255488_15L42133Q1874096526Q20\u0004u22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622651568&selectionId=90265834\u0004u22.5\u0005"
-    },
     "1f21bf798afede04880e7a391f3990ed|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -65,17 +54,6 @@
       "side": "UNDER",
       "start": "2026-11-07T01:10:00Z",
       "text": "Askarov (SJS) - SJS@MIN 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386714398%232353758221_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623302221&selectionId=77385757\u0004u27.5\u0005"
-    },
-    "a3c2f39dce2dbf9e8cb78acce24cd379|Yaroslav Askarov": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 161,
-      "side": "UNDER",
-      "start": "2026-11-05T03:10:00Z",
-      "text": "Askarov (SJS) - SJS@LAK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385757\u0004u27.5\u0005"
     },
     "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler": {
       "done": true,
@@ -11443,7 +11421,9 @@
       "6f96012d11d189a02761d58e0c314906|Jake Allen",
       "08d54b8e2b0d49e172fd8d2087576066|Spencer Knight",
       "1f21bf798afede04880e7a391f3990ed|Jake Oettinger",
-      "8fe46a5692910faf8de7ac94676f4029|Devon Levi"
+      "8fe46a5692910faf8de7ac94676f4029|Devon Levi",
+      "2ccc92070bd6f92703efc538ba500d21|Daniil Tarasov",
+      "8fe46a5692910faf8de7ac94676f4029|Leevi Merilainen"
     ]
   },
   "picks_channel": {
@@ -13368,7 +13348,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088210,
+  "tg_offset": 69088212,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
