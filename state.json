@@ -1058,6 +1058,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "New York Rangers @ Edmonton Oilers"
+    },
+    "d6c28acaab1a3d7db58968f5f33fbf3a": {
+      "commence_time": "2026-11-10T02:30:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Philadelphia Flyers @ Vancouver Canucks"
     }
   },
   "game_log": {
