@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 19010,
+  "credits_remaining": 19008,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -412,7 +412,7 @@
     "361013dde7926deac786fabf1aae59e5": {
       "commence_time": "2026-11-08T20:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T13:44:10Z",
+      "last_paid_check": "2026-11-08T13:59:10Z",
       "lines": {
         "fanduel": {
           "Colten Ellis": {
@@ -645,14 +645,14 @@
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
       "commence_time": "2026-11-08T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T13:44:10Z",
+      "last_paid_check": "2026-11-08T13:59:10Z",
       "lines": {
         "fanduel": {
           "Jacob Markstrom": {
-            "over": -125,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770577&selectionId=74591079",
             "point": 22.5,
-            "under": -106,
+            "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770577&selectionId=74591081"
           }
         }
