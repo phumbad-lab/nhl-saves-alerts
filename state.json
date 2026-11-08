@@ -272,7 +272,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18937,
+  "credits_remaining": 18934,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -437,15 +437,15 @@
     "361013dde7926deac786fabf1aae59e5": {
       "commence_time": "2026-11-08T20:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T17:18:11Z",
+      "last_paid_check": "2026-11-08T17:33:11Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386993565%232356693558_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386993565%232356693559_15L42133Q1874096526Q20"
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386993565%232356676581_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386993565%232356676582_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
@@ -463,7 +463,7 @@
     "41a3f4e9221afae1081031d9f6af0db4": {
       "commence_time": "2026-11-09T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T17:18:11Z",
+      "last_paid_check": "2026-11-08T17:33:11Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -569,7 +569,7 @@
     "5abfa3c29e722130d055164350facd72": {
       "commence_time": "2026-11-09T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T17:18:11Z",
+      "last_paid_check": "2026-11-08T17:33:11Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
