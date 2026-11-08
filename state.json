@@ -9801,12 +9801,10 @@
       "status": "OUT"
     },
     "CGY:8480860": {
-      "alerted": true,
-      "out_at": "2026-11-07T00:56:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-08T15:51:09Z",
+      "alerted": false,
+      "out_at": "2026-11-08T15:56:10Z",
       "seen": "2026-11-07T00:56:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CHI:8481524": {
       "alerted": true,
