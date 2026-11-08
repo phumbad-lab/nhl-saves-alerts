@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18992,
+  "credits_remaining": 18991,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -833,7 +833,7 @@
     "975144d492cf89a8637be0fc0fdee85e": {
       "commence_time": "2026-11-08T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T14:33:10Z",
+      "last_paid_check": "2026-11-08T14:48:11Z",
       "lines": {
         "fanduel": {
           "Andrei Vasilevskiy": {
@@ -842,6 +842,13 @@
             "point": 23.5,
             "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770916&selectionId=74932793"
+          },
+          "Stuart Skinner": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623783499&selectionId=74079397",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623783499&selectionId=74079396"
           }
         }
       },
@@ -12537,6 +12544,12 @@
       "book": null,
       "event_id": "41a3f4e9221afae1081031d9f6af0db4",
       "goalie": "Arturs Silovs"
+    },
+    "1292": {
+      "at": "2026-11-08T14:48:11Z",
+      "book": null,
+      "event_id": "975144d492cf89a8637be0fc0fdee85e",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
