@@ -855,32 +855,6 @@
         }
       },
       "matchup": "Anaheim Ducks @ Calgary Flames"
-    },
-    "c672f144ecbb937d3b15b483847129d2": {
-      "commence_time": "2026-11-06T01:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-06T01:06:11Z",
-      "lines": {
-        "draftkings": {
-          "Laurent Brossoit": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386431105%232352592458_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386431105%232352592459_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Laurent Brossoit": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623056950&selectionId=96409455",
-            "point": 25.5,
-            "under": -120,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623056950&selectionId=96409454"
-          }
-        }
-      },
-      "matchup": "Anaheim Ducks @ Edmonton Oilers"
     }
   },
   "game_log": {
