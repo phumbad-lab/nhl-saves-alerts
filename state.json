@@ -22,6 +22,15 @@
       "start": "2026-11-08T01:10:00Z",
       "text": "Oettinger (DAL) - SJS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386770090%232355162663_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549474&selectionId=74880669\u0004o22.5\u0005"
     },
+    "26c46faca681cd1f742dee05c5d7730b|Dan Vladar": {
+      "lines": {
+        "FD": 25.5
+      },
+      "mid": 185,
+      "side": "UNDER",
+      "start": "2026-11-09T00:10:00Z",
+      "text": "Vladar (PHI) - PHI@CGY 7:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623771188&selectionId=74843678\u0004u25.5\u0005"
+    },
     "5abfa3c29e722130d055164350facd72|Anthony Stolarz": {
       "lines": {
         "FD": 24.5
@@ -13610,7 +13619,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088213,
+  "tg_offset": 69088214,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
