@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 19011,
+  "credits_remaining": 19010,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -822,7 +822,7 @@
     "975144d492cf89a8637be0fc0fdee85e": {
       "commence_time": "2026-11-08T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T13:32:11Z",
+      "last_paid_check": "2026-11-08T13:47:11Z",
       "lines": {
         "fanduel": {
           "Andrei Vasilevskiy": {
@@ -9757,6 +9757,8 @@
     "DAL:8480036": {
       "alerted": true,
       "out_at": "2026-11-06T19:04:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-08T13:47:11Z",
       "seen": "2026-11-04T02:01:12Z",
       "status": "OUT"
     },
