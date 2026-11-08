@@ -32,6 +32,7 @@
       "text": "Oettinger (DAL) - SJS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386770090%232355162663_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549474&selectionId=74880669\u0004o22.5\u0005"
     },
     "6f96012d11d189a02761d58e0c314906|Jake Allen": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 24.5
@@ -158,6 +159,10 @@
     "5f16cb74336431221c132f05c0e31d04|Lukas Dostal": {
       "d": "2026-10-27",
       "r": "L"
+    },
+    "6f96012d11d189a02761d58e0c314906|Jake Allen": {
+      "d": "2026-11-07",
+      "r": "W"
     },
     "71d674d1a6ac60893018bd115d42d624|Tristan Jarry": {
       "d": "2026-11-03",
@@ -11334,7 +11339,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-07": [
-      "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler"
+      "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler",
+      "6f96012d11d189a02761d58e0c314906|Jake Allen"
     ]
   },
   "picks_channel": {
