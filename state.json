@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18969,
+  "credits_remaining": 18968,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -840,14 +840,14 @@
     "975144d492cf89a8637be0fc0fdee85e": {
       "commence_time": "2026-11-08T23:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T15:36:11Z",
+      "last_paid_check": "2026-11-08T15:52:12Z",
       "lines": {
         "fanduel": {
           "Andrei Vasilevskiy": {
-            "over": -102,
+            "over": -104,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770916&selectionId=74932792",
             "point": 23.5,
-            "under": -130,
+            "under": -128,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770916&selectionId=74932793"
           },
           "Stuart Skinner": {
@@ -11972,12 +11972,6 @@
     ]
   },
   "sent": {
-    "1135": {
-      "at": "2026-11-05T15:52:12Z",
-      "book": null,
-      "event_id": "b945b7133224c704b734e04becd109f0",
-      "goalie": "Dylan Garand"
-    },
     "1136": {
       "at": "2026-11-05T15:57:14Z",
       "book": null,
