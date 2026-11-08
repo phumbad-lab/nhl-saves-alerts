@@ -243,7 +243,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 19018,
+  "credits_remaining": 19016,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -373,8 +373,19 @@
     },
     "361013dde7926deac786fabf1aae59e5": {
       "commence_time": "2026-11-08T20:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-08T13:29:09Z",
+      "lines": {
+        "fanduel": {
+          "Colten Ellis": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770722&selectionId=90265835",
+            "point": 22.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770722&selectionId=90265834"
+          }
+        }
+      },
       "matchup": "Vegas Golden Knights @ Buffalo Sabres"
     },
     "41a3f4e9221afae1081031d9f6af0db4": {
@@ -577,8 +588,19 @@
     },
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
       "commence_time": "2026-11-08T18:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-08T13:29:09Z",
+      "lines": {
+        "fanduel": {
+          "Jacob Markstrom": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770577&selectionId=74591079",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770577&selectionId=74591081"
+          }
+        }
+      },
       "matchup": "Florida Panthers @ Boston Bruins"
     },
     "8094c7dc6557caf1cc19194bf69477bb": {
@@ -2836,7 +2858,7 @@
     ]
   },
   "gl_8473419": {
-    "fetched": "2026-11-07T15:23:10Z",
+    "fetched": "2026-11-08T13:29:09Z",
     "value": [
       "2026-10-04",
       "2026-10-06"
@@ -3149,6 +3171,28 @@
   "gl_8484144": {
     "fetched": "2026-10-13T15:35:13Z",
     "value": []
+  },
+  "gl_8485395": {
+    "fetched": "2026-11-08T13:29:09Z",
+    "value": [
+      "2026-09-29",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-05",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-13",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-24",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-10-31",
+      "2026-11-02",
+      "2026-11-05"
+    ]
   },
   "h2h_ANA-BOS": {
     "fetched": "2026-10-16T17:54:11Z",
@@ -3609,6 +3653,39 @@
         "BOS",
         32,
         27
+      ]
+    ]
+  },
+  "h2h_BOS-FLA": {
+    "fetched": "2026-11-08T13:29:09Z",
+    "value": [
+      [
+        "2026-04-02",
+        "BOS",
+        "FLA",
+        29,
+        24
+      ],
+      [
+        "2026-02-04",
+        "BOS",
+        "FLA",
+        29,
+        26
+      ],
+      [
+        "2025-10-21",
+        "FLA",
+        "BOS",
+        23,
+        31
+      ],
+      [
+        "2025-03-11",
+        "FLA",
+        "BOS",
+        28,
+        24
       ]
     ]
   },
@@ -4203,6 +4280,39 @@
         "BUF",
         28,
         25
+      ]
+    ]
+  },
+  "h2h_BUF-VGK": {
+    "fetched": "2026-11-08T13:29:09Z",
+    "value": [
+      [
+        "2026-03-17",
+        "BUF",
+        "VGK",
+        25,
+        29
+      ],
+      [
+        "2026-03-03",
+        "VGK",
+        "BUF",
+        29,
+        28
+      ],
+      [
+        "2025-03-15",
+        "VGK",
+        "BUF",
+        19,
+        37
+      ],
+      [
+        "2025-01-04",
+        "BUF",
+        "VGK",
+        24,
+        33
       ]
     ]
   },
@@ -11440,14 +11550,14 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-11-05T16:06:19Z",
+    "fetched": "2026-11-08T13:29:09Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-11-06T17:35:13Z",
+    "fetched": "2026-11-08T13:29:09Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -11514,7 +11624,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-11-07T15:23:10Z",
+    "fetched": "2026-11-08T13:29:09Z",
     "value": [
       "Jacob Markstrom",
       "Akira Schmid"
@@ -11646,7 +11756,7 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-11-05T15:34:12Z",
+    "fetched": "2026-11-08T13:29:09Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
@@ -12208,6 +12318,18 @@
       "book": "FD",
       "event_id": "2ccc92070bd6f92703efc538ba500d21",
       "goalie": "Daniil Tarasov"
+    },
+    "1282": {
+      "at": "2026-11-08T13:29:09Z",
+      "book": null,
+      "event_id": "7fda7dbcff11e44f6cfc1c1da498fafb",
+      "goalie": "Jacob Markstrom"
+    },
+    "1283": {
+      "at": "2026-11-08T13:29:09Z",
+      "book": null,
+      "event_id": "361013dde7926deac786fabf1aae59e5",
+      "goalie": "Colten Ellis"
     }
   },
   "shot_stats": {
