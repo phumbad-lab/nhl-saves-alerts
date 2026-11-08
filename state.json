@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18999,
+  "credits_remaining": 18997,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -412,7 +412,7 @@
     "361013dde7926deac786fabf1aae59e5": {
       "commence_time": "2026-11-08T20:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T14:14:12Z",
+      "last_paid_check": "2026-11-08T14:30:19Z",
       "lines": {
         "fanduel": {
           "Colten Ellis": {
@@ -656,7 +656,7 @@
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
       "commence_time": "2026-11-08T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T14:14:12Z",
+      "last_paid_check": "2026-11-08T14:30:19Z",
       "lines": {
         "fanduel": {
           "Jacob Markstrom": {
