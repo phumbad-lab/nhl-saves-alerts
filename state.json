@@ -74,6 +74,7 @@
       "text": "Askarov (SJS) - SJS@LAK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA385647846%232349996458_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.622728778&selectionId=77385757\u0004u27.5\u0005"
     },
     "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler": {
+      "done": true,
       "lines": {
         "DK": 24.5,
         "FD": 25.5
@@ -193,6 +194,10 @@
     "b07a2b3d9d717c9eb693422aef404555|Yaroslav Askarov": {
       "d": "2026-10-29",
       "r": "W"
+    },
+    "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler": {
+      "d": "2026-11-07",
+      "r": "L"
     },
     "b84cb3612b5d88f48e5ce81a79b84b96|Jake Oettinger": {
       "d": "2026-11-03",
@@ -11327,7 +11332,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-07": [
+      "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
