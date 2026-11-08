@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18991,
+  "credits_remaining": 18989,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -355,7 +355,7 @@
     "26c46faca681cd1f742dee05c5d7730b": {
       "commence_time": "2026-11-09T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T14:41:11Z",
+      "last_paid_check": "2026-11-08T14:57:10Z",
       "lines": {
         "fanduel": {
           "Dan Vladar": {
@@ -526,7 +526,7 @@
     "5abfa3c29e722130d055164350facd72": {
       "commence_time": "2026-11-09T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T14:41:11Z",
+      "last_paid_check": "2026-11-08T14:57:10Z",
       "lines": {
         "fanduel": {
           "Anthony Stolarz": {
