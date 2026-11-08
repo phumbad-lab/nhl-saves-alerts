@@ -272,7 +272,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18946,
+  "credits_remaining": 18942,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -437,7 +437,7 @@
     "361013dde7926deac786fabf1aae59e5": {
       "commence_time": "2026-11-08T20:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T16:47:10Z",
+      "last_paid_check": "2026-11-08T17:02:11Z",
       "lines": {
         "draftkings": {
           "Colten Ellis": {
@@ -463,7 +463,7 @@
     "41a3f4e9221afae1081031d9f6af0db4": {
       "commence_time": "2026-11-09T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T16:46:10Z",
+      "last_paid_check": "2026-11-08T17:02:11Z",
       "lines": {
         "draftkings": {
           "Arturs Silovs": {
@@ -569,7 +569,7 @@
     "5abfa3c29e722130d055164350facd72": {
       "commence_time": "2026-11-09T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T16:46:10Z",
+      "last_paid_check": "2026-11-08T17:02:11Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -708,24 +708,31 @@
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
       "commence_time": "2026-11-08T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T16:47:10Z",
+      "last_paid_check": "2026-11-08T17:02:11Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
-            "over": -120,
+            "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386992128%232356651902_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -115,
+            "under": -135,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386992128%232356651903_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
           "Jacob Markstrom": {
-            "over": -130,
+            "over": -125,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770577&selectionId=74591079",
             "point": 22.5,
-            "under": -102,
+            "under": -106,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770577&selectionId=74591081"
+          },
+          "Jeremy Swayman": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623817657&selectionId=74879760",
+            "point": 23.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623817657&selectionId=74879759"
           }
         }
       },
@@ -12603,6 +12610,12 @@
       "book": "DK",
       "event_id": "41a3f4e9221afae1081031d9f6af0db4",
       "goalie": "Arturs Silovs"
+    },
+    "1303": {
+      "at": "2026-11-08T17:02:11Z",
+      "book": null,
+      "event_id": "7fda7dbcff11e44f6cfc1c1da498fafb",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
