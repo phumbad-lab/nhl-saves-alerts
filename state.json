@@ -272,7 +272,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18953,
+  "credits_remaining": 18951,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -437,8 +437,17 @@
     "361013dde7926deac786fabf1aae59e5": {
       "commence_time": "2026-11-08T20:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T16:17:10Z",
+      "last_paid_check": "2026-11-08T16:32:10Z",
       "lines": {
+        "draftkings": {
+          "Colten Ellis": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386993565%232356676581_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386993565%232356676582_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
           "Colten Ellis": {
             "over": -130,
@@ -690,14 +699,14 @@
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
       "commence_time": "2026-11-08T18:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T16:17:10Z",
+      "last_paid_check": "2026-11-08T16:32:10Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
-            "over": -105,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386992128%232356651902_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -125,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386992128%232356651903_15L42133Q184490156Q20"
           }
         },
@@ -12569,6 +12578,12 @@
       "book": "DK",
       "event_id": "5abfa3c29e722130d055164350facd72",
       "goalie": "Connor Hellebuyck"
+    },
+    "1299": {
+      "at": "2026-11-08T16:32:10Z",
+      "book": "DK",
+      "event_id": "361013dde7926deac786fabf1aae59e5",
+      "goalie": "Colten Ellis"
     }
   },
   "shot_stats": {
