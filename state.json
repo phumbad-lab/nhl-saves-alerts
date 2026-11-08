@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 19007,
+  "credits_remaining": 19005,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -355,7 +355,7 @@
     "26c46faca681cd1f742dee05c5d7730b": {
       "commence_time": "2026-11-09T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T13:32:11Z",
+      "last_paid_check": "2026-11-08T14:10:16Z",
       "lines": {
         "fanduel": {
           "Dan Vladar": {
@@ -515,21 +515,21 @@
     "5abfa3c29e722130d055164350facd72": {
       "commence_time": "2026-11-09T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T13:30:17Z",
+      "last_paid_check": "2026-11-08T14:10:16Z",
       "lines": {
         "fanduel": {
           "Anthony Stolarz": {
-            "over": -102,
+            "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770806&selectionId=74842534",
             "point": 24.5,
-            "under": -130,
+            "under": -106,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770806&selectionId=74842533"
           },
           "Connor Hellebuyck": {
-            "over": -114,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770805&selectionId=74843125",
-            "point": 25.5,
-            "under": -114,
+            "point": 24.5,
+            "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770805&selectionId=74843124"
           }
         }
