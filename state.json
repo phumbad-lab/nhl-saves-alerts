@@ -40,6 +40,15 @@
       "start": "2026-11-09T00:10:00Z",
       "text": "Stolarz (TOR) - NJD@TOR 7:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770806&selectionId=74842534\u0004o24.5\u0005"
     },
+    "5abfa3c29e722130d055164350facd72|Connor Hellebuyck": {
+      "lines": {
+        "FD": 25.5
+      },
+      "mid": 186,
+      "side": "UNDER",
+      "start": "2026-11-09T00:10:00Z",
+      "text": "Hellebuyck (NJD) - NJD@TOR 7:10PM\nDK not yet \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770805&selectionId=74843124\u0004u25.5\u0005"
+    },
     "6f96012d11d189a02761d58e0c314906|Jake Allen": {
       "done": true,
       "lines": {
@@ -13619,7 +13628,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088214,
+  "tg_offset": 69088215,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
