@@ -9801,7 +9801,7 @@
       "status": "OUT"
     },
     "CGY:8480860": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-08T15:56:10Z",
       "seen": "2026-11-07T00:56:11Z",
       "status": "OUT"
