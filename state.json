@@ -270,7 +270,7 @@
     }
   },
   "corrections_checked": "2026-11-08",
-  "credits_remaining": 18986,
+  "credits_remaining": 18985,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -429,7 +429,7 @@
     "41a3f4e9221afae1081031d9f6af0db4": {
       "commence_time": "2026-11-09T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T14:15:15Z",
+      "last_paid_check": "2026-11-08T15:10:15Z",
       "lines": {
         "fanduel": {
           "Arturs Silovs": {
@@ -12555,7 +12555,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.3,
-    "fetched": "2026-11-08T09:09:31Z",
+    "fetched": "2026-11-08T15:10:15Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.88235,
