@@ -240,7 +240,7 @@
     }
   },
   "corrections_checked": "2026-11-07",
-  "credits_remaining": 19090,
+  "credits_remaining": 19089,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -369,7 +369,7 @@
     "41bd62e63799d7bb81e18169092a82bd": {
       "commence_time": "2026-11-08T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-08T00:17:10Z",
+      "last_paid_check": "2026-11-08T00:22:10Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
@@ -13293,7 +13293,7 @@
   "tg_offset": 69088210,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
-      "last": "2026-11-08T00:17:10Z",
+      "last": "2026-11-08T00:22:10Z",
       "seen": {
         "DK": {
           "over": -130,
