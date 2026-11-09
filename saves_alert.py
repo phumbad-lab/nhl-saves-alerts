@@ -50,6 +50,7 @@ import json
 import os
 import re
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -158,8 +159,33 @@ def fmt_time(commence, now=None):
     return t if local.date() == today else f"{local.strftime('%a')} {t}"
 
 
+class OddsDown(Exception):
+    """The Odds API kept failing (502s, dropped connections) after retries."""
+
+
+ODDS_RETRY_WAITS = (2, 5)  # seconds between tries on a 5xx / dropped connection
+
+
 def api_get(path, params):
-    """GET from The Odds API. Returns (data, remaining_credits or None)."""
+    """GET from The Odds API. Returns (data, remaining_credits or None).
+    Owner Nov 9 (GitHub 'run failed' emails): ~3 runs a day crashed on a 502 Bad Gateway (mostly on
+    the hour) or a reset connection, which also threw away that run's work (messages read, alerts
+    sent). Now: retry twice; if it's still down, raise OddsDown so main() saves and ends cleanly."""
+    for wait in ODDS_RETRY_WAITS + (None,):
+        try:
+            return _api_get_once(path, params)
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or wait is None:
+                if e.code >= 500:
+                    raise OddsDown(f"HTTP {e.code}") from e
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+            if wait is None:
+                raise OddsDown(str(e)) from e
+        time.sleep(wait)
+
+
+def _api_get_once(path, params):
     params = dict(params, apiKey=ODDS_API_KEY)
     url = f"{API}{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"User-Agent": "nhl-saves-alerts/2.0"})
@@ -2664,6 +2690,16 @@ def main():
 
     state = load_state()
     now = datetime.now(timezone.utc)
+    try:
+        run(state, now)
+    except OddsDown as e:
+        # Keep what this run already did (messages read, alerts sent, bets logged) and finish
+        # cleanly; the next run (a minute later) picks up the rest.
+        save_state(state)
+        print(f"The Odds API is having trouble ({e}); saved progress, will try again next run.")
+
+
+def run(state, now):
 
     resends, manual_lines = process_replies(state, now)  # your "in" replies and "resend" requests (free)
 
