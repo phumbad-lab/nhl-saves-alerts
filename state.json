@@ -9964,10 +9964,8 @@
     "TOR:8478458": {
       "alerted": true,
       "out_at": "2026-11-09T00:22:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-09T14:43:10Z",
       "seen": "2026-11-09T00:22:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "VAN:8480078": {
       "alerted": true,
