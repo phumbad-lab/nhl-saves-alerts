@@ -288,7 +288,7 @@
     }
   },
   "corrections_checked": "2026-11-09",
-  "credits_remaining": 18861,
+  "credits_remaining": 18860,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -997,7 +997,7 @@
     "d6c28acaab1a3d7db58968f5f33fbf3a": {
       "commence_time": "2026-11-10T02:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-09T16:56:13Z",
+      "last_paid_check": "2026-11-09T17:12:14Z",
       "lines": {
         "draftkings": {
           "Joseph Woll": {
