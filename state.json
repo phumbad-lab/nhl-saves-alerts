@@ -306,7 +306,7 @@
     }
   },
   "corrections_checked": "2026-11-09",
-  "credits_remaining": 18852,
+  "credits_remaining": 18851,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -608,8 +608,19 @@
     },
     "4b345990c8a04ff88ce31d233a406011": {
       "commence_time": "2026-11-10T03:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-09T19:00:23Z",
+      "lines": {
+        "fanduel": {
+          "Ilya Sorokin": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624048528&selectionId=75039652",
+            "point": 23.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624048528&selectionId=75039651"
+          }
+        }
+      },
       "matchup": "New York Islanders @ San Jose Sharks"
     },
     "54a0d86217b79fbc969d6fca0e1564e8": {
@@ -8678,6 +8689,39 @@
       ]
     ]
   },
+  "h2h_NYI-SJS": {
+    "fetched": "2026-11-09T19:00:23Z",
+    "value": [
+      [
+        "2026-03-07",
+        "NYI",
+        "SJS",
+        34,
+        31
+      ],
+      [
+        "2025-10-21",
+        "SJS",
+        "NYI",
+        36,
+        27
+      ],
+      [
+        "2025-03-08",
+        "NYI",
+        "SJS",
+        28,
+        40
+      ],
+      [
+        "2025-01-18",
+        "SJS",
+        "NYI",
+        19,
+        31
+      ]
+    ]
+  },
   "h2h_NYI-TBL": {
     "fetched": "2026-10-10T14:40:15Z",
     "value": [
@@ -12003,7 +12047,7 @@
     ]
   },
   "roster_NYI": {
-    "fetched": "2026-11-07T15:52:10Z",
+    "fetched": "2026-11-09T19:00:23Z",
     "value": [
       "Ilya Sorokin",
       "Semyon Varlamov"
@@ -12047,7 +12091,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-11-07T15:01:10Z",
+    "fetched": "2026-11-09T19:00:23Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -12533,6 +12577,12 @@
       "book": "DK",
       "event_id": "d6c28acaab1a3d7db58968f5f33fbf3a",
       "goalie": "Leevi Merilainen"
+    },
+    "1323": {
+      "at": "2026-11-09T19:00:23Z",
+      "book": null,
+      "event_id": "4b345990c8a04ff88ce31d233a406011",
+      "goalie": "Ilya Sorokin"
     }
   },
   "shot_stats": {
