@@ -2099,8 +2099,13 @@ def channel_lines(rows, state, event_id, goalie):
         ln = rec.get("lines", {}).get(full, {}).get(goalie)
         if ln and ln.get("point") is not None:
             lines[short] = {"point": ln["point"], "url": ln.get(first["taken"].lower() + "_link")}
-    if first["book"] not in lines:  # the line you took, if the feed lost it
-        lines[first["book"]] = {"point": float(first["taken_line"]), "url": None}
+    # The book you bet always shows YOUR line (owner Nov 8: took Stolarz o24.5 at FD, FD moved to
+    # 26.5 and the post was rewritten as o26.5). If it has moved, the current number is shown too.
+    mine, cur = float(first["taken_line"]), lines.get(first["book"])
+    if cur and float(cur["point"]) != mine:
+        lines[first["book"]] = {"point": mine, "url": None, "now": cur["point"], "now_url": cur["url"]}
+    elif not cur:  # the feed lost it
+        lines[first["book"]] = {"point": mine, "url": None}
     return lines, first["taken"], first
 
 
@@ -2111,7 +2116,11 @@ def channel_book_parts(lines, side):
     for b in BOOK_SHORT.values():
         if b in lines:
             play = f"{s}{float(lines[b]['point']):g}"
-            parts.append(f"{b} {link(play, lines[b].get('url'))}")
+            now = lines[b].get("now")
+            if now is not None:  # your line, plus where it is now: 'FD o24.5 (now o26.5)'
+                parts.append(f"{b} {play} (now {link(f'{s}{float(now):g}', lines[b].get('now_url'))})")
+            else:
+                parts.append(f"{b} {link(play, lines[b].get('url'))}")
         else:
             parts.append(f"{b} not yet")
     return " · ".join(parts)
