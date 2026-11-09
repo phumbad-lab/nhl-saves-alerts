@@ -2093,36 +2093,26 @@ def channel_lines(rows, state, event_id, goalie):
     if not bets:
         return {}, None, None
     first = bets[0]
+    # Owner Nov 8: "The channel should only post the line I took. If it moves that's up to people
+    # following to play at their own risk." Only his book and his line; linked to that bet's slip
+    # while the book still has that number.
     rec = state["events"].get(event_id, {})
-    lines = {}
-    for full, short in BOOK_SHORT.items():
-        ln = rec.get("lines", {}).get(full, {}).get(goalie)
-        if ln and ln.get("point") is not None:
-            lines[short] = {"point": ln["point"], "url": ln.get(first["taken"].lower() + "_link")}
-    # The book you bet always shows YOUR line (owner Nov 8: took Stolarz o24.5 at FD, FD moved to
-    # 26.5 and the post was rewritten as o26.5). If it has moved, the current number is shown too.
-    mine, cur = float(first["taken_line"]), lines.get(first["book"])
-    if cur and float(cur["point"]) != mine:
-        lines[first["book"]] = {"point": mine, "url": None, "now": cur["point"], "now_url": cur["url"]}
-    elif not cur:  # the feed lost it
-        lines[first["book"]] = {"point": mine, "url": None}
-    return lines, first["taken"], first
+    full = next((f for f, sh in BOOK_SHORT.items() if sh == first["book"]), None)
+    ln = rec.get("lines", {}).get(full, {}).get(goalie) or {}
+    mine = float(first["taken_line"])
+    url = (ln.get(first["taken"].lower() + "_link")
+           if ln.get("point") is not None and float(ln["point"]) == mine else None)
+    return {first["book"]: {"point": mine, "url": url}}, first["taken"], first
 
 
 def channel_book_parts(lines, side):
-    """'DK u23.5 · FD not yet', each posted line linked to that book's slip for your side."""
+    """'FD o24.5': the line you took, linked to that book's slip (owner Nov 8: only his line)."""
     s = side[0].lower()
     parts = []
     for b in BOOK_SHORT.values():
         if b in lines:
             play = f"{s}{float(lines[b]['point']):g}"
-            now = lines[b].get("now")
-            if now is not None:  # your line, plus where it is now: 'FD o24.5 (now o26.5)'
-                parts.append(f"{b} {play} (now {link(f'{s}{float(now):g}', lines[b].get('now_url'))})")
-            else:
-                parts.append(f"{b} {link(play, lines[b].get('url'))}")
-        else:
-            parts.append(f"{b} not yet")
+            parts.append(f"{b} {link(play, lines[b].get('url'))}")
     return " · ".join(parts)
 
 
