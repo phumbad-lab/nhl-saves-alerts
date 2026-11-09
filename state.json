@@ -306,7 +306,7 @@
     }
   },
   "corrections_checked": "2026-11-09",
-  "credits_remaining": 18849,
+  "credits_remaining": 18848,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -609,8 +609,24 @@
     "4b345990c8a04ff88ce31d233a406011": {
       "commence_time": "2026-11-10T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-09T19:31:12Z",
+      "last_paid_check": "2026-11-09T19:46:13Z",
       "lines": {
+        "draftkings": {
+          "Ilya Sorokin": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387430117%232358114534_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387430117%232358114535_15L42133Q184490156Q20"
+          },
+          "Yaroslav Askarov": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387430237%232358114797_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387430237%232358114798_15L42133Q1731448625Q20"
+          }
+        },
         "fanduel": {
           "Ilya Sorokin": {
             "over": -106,
@@ -620,10 +636,10 @@
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624048528&selectionId=75039651"
           },
           "Yaroslav Askarov": {
-            "over": -125,
+            "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624051011&selectionId=77385758",
-            "point": 22.5,
-            "under": -106,
+            "point": 23.5,
+            "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624051011&selectionId=77385757"
           }
         }
@@ -12600,6 +12616,18 @@
     "1324": {
       "at": "2026-11-09T19:16:12Z",
       "book": null,
+      "event_id": "4b345990c8a04ff88ce31d233a406011",
+      "goalie": "Yaroslav Askarov"
+    },
+    "1325": {
+      "at": "2026-11-09T19:46:13Z",
+      "book": "DK",
+      "event_id": "4b345990c8a04ff88ce31d233a406011",
+      "goalie": "Ilya Sorokin"
+    },
+    "1326": {
+      "at": "2026-11-09T19:46:13Z",
+      "book": "DK",
       "event_id": "4b345990c8a04ff88ce31d233a406011",
       "goalie": "Yaroslav Askarov"
     }
