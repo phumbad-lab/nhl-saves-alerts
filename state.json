@@ -9892,13 +9892,6 @@
       "seen": "2026-10-30T00:03:10Z",
       "status": "OUT"
     },
-    "BOS:8485395": {
-      "alerted": true,
-      "missing_since": "2026-11-09T00:11:12Z",
-      "out_at": "2026-11-07T15:22:10Z",
-      "seen": "2026-11-06T12:09:10Z",
-      "status": "OUT"
-    },
     "CGY:8480860": {
       "alerted": true,
       "out_at": "2026-11-08T15:56:10Z",
