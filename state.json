@@ -732,32 +732,6 @@
       },
       "matchup": "New Jersey Devils @ New York Islanders"
     },
-    "79334eedea6908f995f13dd5a8f11d20": {
-      "commence_time": "2026-11-07T22:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-07T22:09:09Z",
-      "lines": {
-        "draftkings": {
-          "Joey Daccord": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386747194%232353890939_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386747194%232353890940_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Joey Daccord": {
-            "over": -104,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623627070&selectionId=74979817",
-            "point": 24.5,
-            "under": -128,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623627070&selectionId=74979816"
-          }
-        }
-      },
-      "matchup": "New York Rangers @ Seattle Kraken"
-    },
     "7fda7dbcff11e44f6cfc1c1da498fafb": {
       "commence_time": "2026-11-08T18:10:00Z",
       "h2h_sent": true,
