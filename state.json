@@ -306,7 +306,7 @@
     }
   },
   "corrections_checked": "2026-11-09",
-  "credits_remaining": 18851,
+  "credits_remaining": 18850,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -609,7 +609,7 @@
     "4b345990c8a04ff88ce31d233a406011": {
       "commence_time": "2026-11-10T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-09T19:00:23Z",
+      "last_paid_check": "2026-11-09T19:16:12Z",
       "lines": {
         "fanduel": {
           "Ilya Sorokin": {
@@ -618,6 +618,13 @@
             "point": 23.5,
             "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624048528&selectionId=75039651"
+          },
+          "Yaroslav Askarov": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624051011&selectionId=77385758",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624051011&selectionId=77385757"
           }
         }
       },
@@ -12589,6 +12596,12 @@
       "book": null,
       "event_id": "4b345990c8a04ff88ce31d233a406011",
       "goalie": "Ilya Sorokin"
+    },
+    "1324": {
+      "at": "2026-11-09T19:16:12Z",
+      "book": null,
+      "event_id": "4b345990c8a04ff88ce31d233a406011",
+      "goalie": "Yaroslav Askarov"
     }
   },
   "shot_stats": {
