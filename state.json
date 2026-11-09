@@ -9932,6 +9932,12 @@
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
+    "TOR:8478458": {
+      "alerted": false,
+      "out_at": "2026-11-09T00:22:11Z",
+      "seen": "2026-11-09T00:22:11Z",
+      "status": "OUT"
+    },
     "VAN:8480078": {
       "alerted": true,
       "out_at": "2026-10-30T20:36:11Z",
