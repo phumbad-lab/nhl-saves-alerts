@@ -579,46 +579,6 @@
       },
       "matchup": "Pittsburgh Penguins @ Los Angeles Kings"
     },
-    "422f0f2b990a051c35afd2ea6e9abe24": {
-      "commence_time": "2026-11-07T17:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-07T15:38:11Z",
-      "lines": {
-        "draftkings": {
-          "Akira Schmid": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386758148%232354600211_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386758148%232354600212_15L42133Q1731448625Q20"
-          },
-          "Logan Thompson": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386447832%232355006414_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386447832%232355006415_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Akira Schmid": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623524795&selectionId=82335730",
-            "point": 23.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623524795&selectionId=82335729"
-          },
-          "Logan Thompson": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623524797&selectionId=75074479",
-            "point": 23.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623524797&selectionId=75074478"
-          }
-        }
-      },
-      "matchup": "Florida Panthers @ Washington Capitals"
-    },
     "4b345990c8a04ff88ce31d233a406011": {
       "commence_time": "2026-11-10T03:10:00Z",
       "last_paid_check": null,
