@@ -281,7 +281,7 @@ Beat = under taken_line > close_line, over taken_line < close_line; same line �
 - 2026-11-08: three bets, all on FD, all logged 8:32–8:35 AM ET (~10.5h before puck drop), 3-0. Right on volume 3 of 3 (Stolarz: below the model, above his number). No reasoning notes; his "I took Stolarz 24o" message was about the channel showing the wrong line.
   - Stolarz (TOR) vs NJD · model 🔥 OVER 24.5 FD (exp 28.3, 🎯 over; DK later OVER 27.5) · **owner took o24.5 FD** → NJD 29 (exp 32.0; ~27.7 needed), 25 saves, won, right for his number (volume short of the model, above the line). Followed the model. Closed 27.5 (+3.0 saves): the early bet was the whole win — DK's 27.5 lost.
   - Hellebuyck (NJD) @ TOR · NO EDGE 25.5 FD (exp 25.4; DK later 23.5) · **owner took u25.5 FD** → TOR 23 (exp 28.7; ~28.8 needed), 23-save shutout, won, right on volume. H2H (TOR on NJD 30.8) pointed the other way and missed. Closed 23.5 (+2.0).
-  - Vladar (PHI) @ CGY · model OVER 25.5 FD/DK (exp 26.0, ⬇️, 📍 UNDER) · **owner took u25.5 FD** → CGY 26 (exp 29.4; ~28.8 needed), 22 saves, won, right on volume. Beat the model's tag, matched the ⬇️. Third Vladar under he has won against the read of the alert (Oct 27, Nov 1, Nov 8). Closed 24.5 (+1.0).
+  - Vladar (PHI) @ CGY · model OVER 25.5 FD/DK (exp 26.0, ⬇️, 📍 UNDER) · **owner took u25.5 FD** → CGY 26 (exp 29.4; ~28.8 needed), 22 saves, won, right on volume. Beat the model's tag, matched the ⬇️. Third Vladar under he has logged and won (Oct 27, Nov 1, Nov 8). Closed 24.5 (+1.0).
   - Against a model tag 10-4. NO EDGE bets 31-16. His season, each goalie once (picks.csv): 70-50.
 
 ## Weekly: where your losses are
