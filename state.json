@@ -297,7 +297,7 @@
     }
   },
   "corrections_checked": "2026-11-09",
-  "credits_remaining": 18860,
+  "credits_remaining": 18859,
   "events": {
     "08d54b8e2b0d49e172fd8d2087576066": {
       "commence_time": "2026-11-08T01:10:00Z",
@@ -980,23 +980,23 @@
     "c0de79c9c801e5fc0d1bb3873b10a164": {
       "commence_time": "2026-11-10T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-09T17:02:13Z",
+      "last_paid_check": "2026-11-09T17:18:13Z",
       "lines": {
         "draftkings": {
           "Devon Levi": {
-            "over": -125,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387417519%232357850905_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -110,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387417519%232357850906_15L42133Q1874096526Q20"
           }
         },
         "fanduel": {
           "Devon Levi": {
-            "over": -110,
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624024445&selectionId=74676067",
             "point": 22.5,
-            "under": -120,
+            "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624024445&selectionId=74676066"
           }
         }
