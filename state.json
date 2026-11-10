@@ -100,6 +100,7 @@
       "text": "Fowler (MTL) - MTL@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386679414%232355210732_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623564481&selectionId=92532105\u0004u25.5\u0005"
     },
     "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi": {
+      "done": true,
       "lines": {
         "DK": 22.5
       },
@@ -109,6 +110,7 @@
       "text": "Levi (EDM) - NYR@EDM 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387417519%232357850906_15L42133Q1874096526Q20\u0004u22.5\u0005"
     },
     "c0de79c9c801e5fc0d1bb3873b10a164|Dylan Garand": {
+      "done": true,
       "lines": {
         "DK": 25.5
       },
@@ -266,6 +268,14 @@
     },
     "b8f3c483149e46a5f7c24ea941be8649|Arturs Silovs": {
       "d": "2026-10-29",
+      "r": "W"
+    },
+    "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi": {
+      "d": "2026-11-09",
+      "r": "L"
+    },
+    "c0de79c9c801e5fc0d1bb3873b10a164|Dylan Garand": {
+      "d": "2026-11-09",
       "r": "W"
     },
     "c8abddd6d4a9c96f45dcdd287f392537|Colten Ellis": {
@@ -11599,7 +11609,12 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-09": [
+      "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi",
+      "c0de79c9c801e5fc0d1bb3873b10a164|Dylan Garand"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
