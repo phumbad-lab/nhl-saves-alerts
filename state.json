@@ -314,7 +314,7 @@
     }
   },
   "corrections_checked": "2026-11-10",
-  "credits_remaining": 18802,
+  "credits_remaining": 18801,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -809,7 +809,7 @@
     "d85899eb0ddff2e6e18a63b0c83bc7b8": {
       "commence_time": "2026-11-11T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-10T17:11:11Z",
+      "last_paid_check": "2026-11-10T17:26:11Z",
       "lines": {
         "draftkings": {
           "Cam Talbot": {
@@ -827,6 +827,13 @@
             "point": 24.5,
             "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624302084&selectionId=74101478"
+          },
+          "Jacob Markstrom": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624329191&selectionId=74591079",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624329191&selectionId=74591081"
           }
         }
       },
@@ -12474,6 +12481,12 @@
       "book": "DK",
       "event_id": "d85899eb0ddff2e6e18a63b0c83bc7b8",
       "goalie": "Cam Talbot"
+    },
+    "1352": {
+      "at": "2026-11-10T17:26:11Z",
+      "book": null,
+      "event_id": "d85899eb0ddff2e6e18a63b0c83bc7b8",
+      "goalie": "Jacob Markstrom"
     }
   },
   "shot_stats": {
