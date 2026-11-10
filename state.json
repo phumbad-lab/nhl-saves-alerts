@@ -332,23 +332,30 @@
     }
   },
   "corrections_checked": "2026-11-10",
-  "credits_remaining": 18767,
+  "credits_remaining": 18766,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-10T20:35:12Z",
+      "last_paid_check": "2026-11-10T20:50:15Z",
       "lines": {
         "draftkings": {
           "Samuel Ersson": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387610524%232359469557_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387610524%232359469558_15L42133Q1874096526Q20"
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387610524%232358870625_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387610524%232358870626_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
+          "Logan Thompson": {
+            "over": -128,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624387575&selectionId=75074479",
+            "point": 24.5,
+            "under": -104,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624387575&selectionId=75074478"
+          },
           "Samuel Ersson": {
             "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624316386&selectionId=74932576",
@@ -12185,12 +12192,6 @@
     ]
   },
   "sent": {
-    "1263": {
-      "at": "2026-11-07T20:50:15Z",
-      "book": null,
-      "event_id": "b7da08b293b1ae703c71b26ad69eb52b",
-      "goalie": "Sergei Bobrovsky"
-    },
     "1264": {
       "at": "2026-11-07T21:40:16Z",
       "book": "FD",
@@ -12544,6 +12545,12 @@
       "book": null,
       "event_id": "e71ce66a01d66fc935632b206d2dedbd",
       "goalie": "Anton Forsberg"
+    },
+    "1364": {
+      "at": "2026-11-10T20:50:15Z",
+      "book": null,
+      "event_id": "0e5af7e0f9734ecda4b3c3013712deb6",
+      "goalie": "Logan Thompson"
     }
   },
   "shot_stats": {
