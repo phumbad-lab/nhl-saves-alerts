@@ -10055,6 +10055,12 @@
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
+    "UTA:8482699": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-11-10T19:54:12Z",
+      "status": "DTD"
+    },
     "VAN:8480078": {
       "alerted": true,
       "out_at": "2026-10-30T20:36:11Z",
