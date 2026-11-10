@@ -10057,7 +10057,6 @@
     },
     "UTA:8482699": {
       "alerted": false,
-      "missing_since": "2026-11-10T19:56:12Z",
       "out_at": null,
       "seen": "2026-11-10T19:54:12Z",
       "status": "DTD"
