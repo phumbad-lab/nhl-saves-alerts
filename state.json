@@ -77,17 +77,6 @@
       "start": "2026-11-08T03:10:00Z",
       "text": "Levi (EDM) - VAN@EDM 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210606_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676066\u0004u20.5\u0005"
     },
-    "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
-      "done": true,
-      "lines": {
-        "DK": 27.5,
-        "FD": 27.5
-      },
-      "mid": 165,
-      "side": "UNDER",
-      "start": "2026-11-07T01:10:00Z",
-      "text": "Askarov (SJS) - SJS@MIN 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386714398%232353758221_15L42133Q1-941301704Q20\u0004u27.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623302221&selectionId=77385757\u0004u27.5\u0005"
-    },
     "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler": {
       "done": true,
       "lines": {
@@ -11634,7 +11623,8 @@
   "night_graded": {
     "2026-11-09": [
       "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi",
-      "c0de79c9c801e5fc0d1bb3873b10a164|Dylan Garand"
+      "c0de79c9c801e5fc0d1bb3873b10a164|Dylan Garand",
+      "d6c28acaab1a3d7db58968f5f33fbf3a|Leevi Merilainen"
     ]
   },
   "picks_channel": {
@@ -13450,7 +13440,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088219,
+  "tg_offset": 69088220,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
