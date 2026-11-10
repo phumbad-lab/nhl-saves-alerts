@@ -314,7 +314,7 @@
     }
   },
   "corrections_checked": "2026-11-10",
-  "credits_remaining": 18799,
+  "credits_remaining": 18797,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -345,9 +345,16 @@
     "11f3c6f0f406c5ffb575dbcd671cf964": {
       "commence_time": "2026-11-11T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-10T17:17:10Z",
+      "last_paid_check": "2026-11-10T17:32:11Z",
       "lines": {
         "draftkings": {
+          "Jake Allen": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945627_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945628_15L42133Q1458571637Q20"
+          },
           "Nico Daws": {
             "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387624117%232359502050_13L42133Q1-54034395Q20",
@@ -371,14 +378,14 @@
     "18d63193c9a696acd715bc27d9fb65f6": {
       "commence_time": "2026-11-11T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-10T17:17:10Z",
+      "last_paid_check": "2026-11-10T17:32:11Z",
       "lines": {
         "draftkings": {
           "Jacob Fowler": {
-            "over": -120,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387622907%232358001291_13L42133Q1-54034395Q20",
             "point": 26.5,
-            "under": -115,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387622907%232358001317_15L42133Q11150106798Q20"
           }
         },
@@ -12500,6 +12507,12 @@
       "book": null,
       "event_id": "54a0d86217b79fbc969d6fca0e1564e8",
       "goalie": "Mackenzie Blackwood"
+    },
+    "1354": {
+      "at": "2026-11-10T17:32:11Z",
+      "book": null,
+      "event_id": "11f3c6f0f406c5ffb575dbcd671cf964",
+      "goalie": "Jake Allen"
     }
   },
   "shot_stats": {
