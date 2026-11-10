@@ -732,46 +732,6 @@
       },
       "matchup": "Florida Panthers @ Boston Bruins"
     },
-    "8cc95915d5faf0205f042002d771ad88": {
-      "commence_time": "2026-11-08T00:20:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-07T23:50:15Z",
-      "lines": {
-        "draftkings": {
-          "Karel Vejmelka": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675789%232355608644_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675789%232355608645_15L42133Q1731448625Q20"
-          },
-          "Samuel Ersson": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675720%232355164229_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386675720%232355164230_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Karel Vejmelka": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623643898&selectionId=75028426",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623643898&selectionId=75028425"
-          },
-          "Samuel Ersson": {
-            "over": -130,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623546573&selectionId=74932576",
-            "point": 23.5,
-            "under": -102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623546573&selectionId=74932577"
-          }
-        }
-      },
-      "matchup": "Utah Mammoth @ Ottawa Senators"
-    },
     "8fe46a5692910faf8de7ac94676f4029": {
       "commence_time": "2026-11-08T03:15:00Z",
       "h2h_sent": true,
