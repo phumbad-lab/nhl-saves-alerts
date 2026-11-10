@@ -10122,6 +10122,12 @@
       "out_at": "2026-10-30T20:36:11Z",
       "seen": "2026-10-30T19:14:11Z",
       "status": "OUT"
+    },
+    "VGK:8478396": {
+      "alerted": false,
+      "out_at": "2026-11-10T20:42:11Z",
+      "seen": "2026-11-10T20:42:11Z",
+      "status": "OUT"
     }
   },
   "injury_teams": [
