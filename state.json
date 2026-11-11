@@ -65,6 +65,7 @@
       "text": "Levi (EDM) - VAN@EDM 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210606_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676066\u0004u20.5\u0005"
     },
     "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
+      "done": true,
       "lines": {
         "FD": 22.5
       },
@@ -230,6 +231,10 @@
     },
     "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
       "d": "2026-11-06",
+      "r": "W"
+    },
+    "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
+      "d": "2026-11-10",
       "r": "W"
     },
     "a3c2f39dce2dbf9e8cb78acce24cd379|Yaroslav Askarov": {
@@ -11805,7 +11810,8 @@
     "2026-11-10": [
       "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen",
       "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky",
-      "54a0d86217b79fbc969d6fca0e1564e8|Mackenzie Blackwood"
+      "54a0d86217b79fbc969d6fca0e1564e8|Mackenzie Blackwood",
+      "9600ca13a787cb4772bf21e6e61bdf07|John Gibson"
     ]
   },
   "picks_channel": {
