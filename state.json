@@ -44,6 +44,7 @@
       "text": "Vladar (PHI) - PHI@CGY 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387059481%232355338940_15L42133Q1458571637Q20\u0004u25.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623771188&selectionId=74843678\u0004u25.5\u0005"
     },
     "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky": {
+      "done": true,
       "lines": {
         "DK": 28.5
       },
@@ -214,6 +215,10 @@
     "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka": {
       "d": "2026-11-01",
       "r": "L"
+    },
+    "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky": {
+      "d": "2026-11-10",
+      "r": "W"
     },
     "5abfa3c29e722130d055164350facd72|Anthony Stolarz": {
       "d": "2026-11-08",
@@ -11828,7 +11833,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-10": [
-      "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen"
+      "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen",
+      "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky"
     ]
   },
   "picks_channel": {
