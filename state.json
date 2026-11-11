@@ -91,6 +91,15 @@
       "side": "UNDER",
       "start": "2026-11-10T01:10:00Z",
       "text": "Garand (NYR) - NYR@EDM 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387418521%232358035872_15L42133Q1458571637Q20\u0004u25.5\u0005"
+    },
+    "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 208,
+      "side": "OVER",
+      "start": "2026-11-12T03:10:00Z",
+      "text": "Murashov (PIT) - PIT@SJS 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004572\u0004o22.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-11",
@@ -14013,7 +14022,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088229,
+  "tg_offset": 69088230,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
