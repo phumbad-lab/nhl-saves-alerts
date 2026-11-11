@@ -1,16 +1,5 @@
 {
   "channel_posts": {
-    "08d54b8e2b0d49e172fd8d2087576066|Spencer Knight": {
-      "done": true,
-      "lines": {
-        "DK": 28.5,
-        "FD": 28.5
-      },
-      "mid": 168,
-      "side": "UNDER",
-      "start": "2026-11-08T01:10:00Z",
-      "text": "Knight (CHI) - CHI@CAR 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386766256%232355143134_15L42133Q1-245490255Q20\u0004u28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623535981&selectionId=74973969\u0004u28.5\u0005"
-    },
     "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen": {
       "done": true,
       "lines": {
@@ -20,17 +9,6 @@
       "side": "UNDER",
       "start": "2026-11-11T00:10:00Z",
       "text": "Allen (NJD) - NJD@WPG 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945628_15L42133Q1458571637Q20\u0004u25.5\u0005"
-    },
-    "1f21bf798afede04880e7a391f3990ed|Jake Oettinger": {
-      "done": true,
-      "lines": {
-        "DK": 22.5,
-        "FD": 22.5
-      },
-      "mid": 169,
-      "side": "OVER",
-      "start": "2026-11-08T01:10:00Z",
-      "text": "Oettinger (DAL) - SJS@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386770090%232355162663_13L42133Q1-598579072Q20\u0004o22.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549474&selectionId=74880669\u0004o22.5\u0005"
     },
     "26c46faca681cd1f742dee05c5d7730b|Dan Vladar": {
       "done": true,
@@ -75,17 +53,6 @@
       "start": "2026-11-09T00:10:00Z",
       "text": "Hellebuyck (NJD) - NJD@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386999577%232356680218_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770805&selectionId=74843124\u0004u24.5\u0005"
     },
-    "6f96012d11d189a02761d58e0c314906|Jake Allen": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 24.5
-      },
-      "mid": 171,
-      "side": "UNDER",
-      "start": "2026-11-08T00:10:00Z",
-      "text": "Allen (NJD) - NJD@NYI 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387001017%232355110498_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623549606&selectionId=74675854\u0004u24.5\u0005"
-    },
     "8fe46a5692910faf8de7ac94676f4029|Devon Levi": {
       "done": true,
       "lines": {
@@ -105,17 +72,6 @@
       "side": "OVER",
       "start": "2026-11-11T01:10:00Z",
       "text": "Gibson (DET) - DET@STL 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624338834&selectionId=76247482\u0004o22.5\u0005"
-    },
-    "b7da08b293b1ae703c71b26ad69eb52b|Jacob Fowler": {
-      "done": true,
-      "lines": {
-        "DK": 24.5,
-        "FD": 25.5
-      },
-      "mid": 174,
-      "side": "UNDER",
-      "start": "2026-11-08T00:10:00Z",
-      "text": "Fowler (MTL) - MTL@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386679414%232355210732_15L42133Q1731448625Q20\u0004u24.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623564481&selectionId=92532105\u0004u25.5\u0005"
     },
     "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi": {
       "done": true,
@@ -11841,7 +11797,8 @@
   "night_graded": {
     "2026-11-10": [
       "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen",
-      "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky"
+      "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky",
+      "54a0d86217b79fbc969d6fca0e1564e8|Mackenzie Blackwood"
     ]
   },
   "picks_channel": {
@@ -13570,7 +13527,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088224,
+  "tg_offset": 69088225,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
