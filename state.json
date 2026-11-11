@@ -12,6 +12,7 @@
       "text": "Knight (CHI) - CHI@CAR 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386766256%232355143134_15L42133Q1-245490255Q20\u0004u28.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623535981&selectionId=74973969\u0004u28.5\u0005"
     },
     "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen": {
+      "done": true,
       "lines": {
         "DK": 25.5
       },
@@ -156,6 +157,10 @@
     },
     "11d4cfe51153e45bb3a9fc6e5f23535a|Casey DeSmith": {
       "d": "2026-10-27",
+      "r": "W"
+    },
+    "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen": {
+      "d": "2026-11-10",
       "r": "W"
     },
     "1358a7c35b103e3242da6a96468d61f9|Devin Cooley": {
@@ -11821,7 +11826,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-10": [
+      "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
