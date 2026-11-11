@@ -1853,7 +1853,7 @@ BET_WORDS = {"i", "in", "took", "taking", "take", "i'm", "i\u2019m", "im", "am",
              "o", "u", "over", "under"}
 
 
-def split_bet_note(text, is_reply):
+def split_bet_note(text, is_reply, goalie=None):
     """Owner Oct 16: he adds his reasoning after the bet without typing 'note'.
     Swipe reply ('in for 26o. h2h history looks good'): the bet ends at the first word that
     isn't part of a bet; the rest is a note. Typed bets ('I took Wally 26o. VGK weak at home'):
@@ -1861,9 +1861,15 @@ def split_bet_note(text, is_reply):
     if not re.match(r"^\s*" + BET_START, text, re.I):
         return text, None
     if is_reply:
+        # Owner Nov 11: "in Blackwood 24u" logged a bare "in" (his name started the note). The
+        # alert's goalie (last name or one of your nicknames for him) is part of the bet.
+        names = set()
+        if goalie:
+            names = {team_key(last_name(goalie))}
+            names |= {nick for nick, gs in load_nicknames().items() if names & gs}
         for m in re.finditer(r"\S+", text):
             w = m.group().strip(".,!?;:").lower()
-            if w and w not in BET_WORDS and not BET_TOKEN.match(w):
+            if w and w not in BET_WORDS and not BET_TOKEN.match(w) and team_key(w) not in names:
                 note = text[m.start():].strip()
                 return text[:m.start()], note or None
         return text, None
@@ -2009,7 +2015,9 @@ def process_replies(state, now):
         if both:
             text, note_text = both.group(1), both.group(2).strip()
         else:  # "in for 26o. h2h looks good and BOS shooting" -> the bet, plus the rest as a note
-            text, note_text = split_bet_note(text, bool((msg.get("reply_to_message") or {}).get("message_id")))
+            replied = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
+            text, note_text = split_bet_note(text, bool((msg.get("reply_to_message") or {}).get("message_id")),
+                                             (replied or {}).get("goalie"))
         cmd, bets = parse_message(text)
         if not cmd:
             # Owner Oct 28: never stay silent. A message the bot can't read gets a short hint.
