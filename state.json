@@ -53,16 +53,14 @@
       "start": "2026-11-09T00:10:00Z",
       "text": "Hellebuyck (NJD) - NJD@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA386999577%232356680218_15L42133Q184490156Q20\u0004u23.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623770805&selectionId=74843124\u0004u24.5\u0005"
     },
-    "8fe46a5692910faf8de7ac94676f4029|Devon Levi": {
-      "done": true,
+    "78267bbb84304764c453515236c3ccce|Dan Vladar": {
       "lines": {
-        "DK": 21.5,
-        "FD": 20.5
+        "FD": 25.5
       },
-      "mid": 176,
+      "mid": 207,
       "side": "UNDER",
-      "start": "2026-11-08T03:10:00Z",
-      "text": "Levi (EDM) - VAN@EDM 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387024275%232355210606_15L42133Q1888607062Q20\u0004u21.5\u0005 \u00b7 FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.623568137&selectionId=74676066\u0004u20.5\u0005"
+      "start": "2026-11-12T02:10:00Z",
+      "text": "Vladar (PHI) - PHI@EDM 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843678\u0004u25.5\u0005"
     },
     "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
       "done": true,
@@ -10194,6 +10192,8 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-10-31T15:44:16Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-11T17:58:12Z",
       "seen": "2026-10-29T23:41:10Z",
       "status": "OUT"
     },
@@ -13752,7 +13752,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088226,
+  "tg_offset": 69088228,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
