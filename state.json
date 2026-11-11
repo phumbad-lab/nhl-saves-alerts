@@ -454,46 +454,6 @@
       },
       "matchup": "Minnesota Wild @ Montr\u00e9al Canadiens"
     },
-    "41a3f4e9221afae1081031d9f6af0db4": {
-      "commence_time": "2026-11-09T01:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-09T00:40:18Z",
-      "lines": {
-        "draftkings": {
-          "Arturs Silovs": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387044506%232356121450_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387044506%232356121451_15L42133Q1731448625Q20"
-          },
-          "Laurent Brossoit": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA386995645%232357308512_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA386995645%232357308513_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Arturs Silovs": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623778953&selectionId=74843679",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623778953&selectionId=74843680"
-          },
-          "Laurent Brossoit": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623890627&selectionId=96409455",
-            "point": 24.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.623890627&selectionId=96409454"
-          }
-        }
-      },
-      "matchup": "Pittsburgh Penguins @ Anaheim Ducks"
-    },
     "43a0ad5ba8bff6cdca19964348b53eff": {
       "commence_time": "2026-11-12T03:10:00Z",
       "last_paid_check": null,
