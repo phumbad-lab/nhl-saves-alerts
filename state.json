@@ -10192,8 +10192,6 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-10-31T15:44:16Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-11T17:58:12Z",
       "seen": "2026-10-29T23:41:10Z",
       "status": "OUT"
     },
@@ -13752,7 +13750,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088228,
+  "tg_offset": 69088229,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
