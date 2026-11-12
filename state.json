@@ -849,7 +849,7 @@
       "matchup": "Philadelphia Flyers @ Vancouver Canucks"
     },
     "d6fb69c3f844f53b1bb2619066cd7947": {
-      "commence_time": "2026-11-12T00:40:00Z",
+      "commence_time": "2026-11-12T00:45:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-11T17:04:12Z",
       "lines": {
@@ -12606,12 +12606,6 @@
     ]
   },
   "sent": {
-    "1307": {
-      "at": "2026-11-09T00:40:18Z",
-      "book": null,
-      "event_id": "41a3f4e9221afae1081031d9f6af0db4",
-      "goalie": "Laurent Brossoit"
-    },
     "1314": {
       "at": "2026-11-09T14:17:11Z",
       "book": null,
