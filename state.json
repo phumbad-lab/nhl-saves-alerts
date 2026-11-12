@@ -374,7 +374,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18451,
+  "credits_remaining": 18449,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -935,7 +935,7 @@
     "8b83d890c678327027f602ee80fe58cb": {
       "commence_time": "2026-11-13T00:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T23:05:13Z",
+      "last_paid_check": "2026-11-12T23:20:15Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -944,14 +944,21 @@
             "point": 22.5,
             "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595673_15L42133Q1874096526Q20"
+          },
+          "Logan Thompson": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388724423%232362860527_13L42133Q1833536087Q20",
+            "point": 29.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388724423%232362860528_15L42133Q11580205260Q20"
           }
         },
         "fanduel": {
           "Connor Hellebuyck": {
-            "over": -108,
+            "over": -104,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624964101&selectionId=74843125",
             "point": 22.5,
-            "under": -122,
+            "under": -128,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624964101&selectionId=74843124"
           }
         }
@@ -1001,9 +1008,16 @@
     "a25eef409ec7d9f7e872d37603bb0243": {
       "commence_time": "2026-11-13T01:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T23:05:13Z",
+      "last_paid_check": "2026-11-12T23:20:15Z",
       "lines": {
         "draftkings": {
+          "Alex Lyon": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388695380%232362711794_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388695380%232362711795_15L42133Q184490156Q20"
+          },
           "Spencer Knight": {
             "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388361887%232362631153_13L42133Q1-389637312Q20",
@@ -1013,11 +1027,18 @@
           }
         },
         "fanduel": {
+          "Alex Lyon": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624998495&selectionId=75038974",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624998495&selectionId=75038973"
+          },
           "Spencer Knight": {
-            "over": -114,
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624963089&selectionId=74973970",
             "point": 24.5,
-            "under": -114,
+            "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624963089&selectionId=74973969"
           }
         }
@@ -13707,6 +13728,18 @@
       "book": "FD",
       "event_id": "2df93287814e2ffcbf1186e138b4a3d8",
       "goalie": "Darcy Kuemper"
+    },
+    "1471": {
+      "at": "2026-11-12T23:20:15Z",
+      "book": null,
+      "event_id": "8b83d890c678327027f602ee80fe58cb",
+      "goalie": "Logan Thompson"
+    },
+    "1472": {
+      "at": "2026-11-12T23:20:15Z",
+      "book": null,
+      "event_id": "a25eef409ec7d9f7e872d37603bb0243",
+      "goalie": "Alex Lyon"
     }
   },
   "shot_stats": {
