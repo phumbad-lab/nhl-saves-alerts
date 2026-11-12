@@ -338,7 +338,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18493,
+  "credits_remaining": 18492,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -882,7 +882,7 @@
     "8b83d890c678327027f602ee80fe58cb": {
       "commence_time": "2026-11-13T00:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T19:43:10Z",
+      "last_paid_check": "2026-11-12T19:58:12Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -891,6 +891,15 @@
             "point": 22.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595673_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Connor Hellebuyck": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624964101&selectionId=74843125",
+            "point": 22.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624964101&selectionId=74843124"
           }
         }
       },
@@ -13639,6 +13648,12 @@
       "book": "DK",
       "event_id": "a25eef409ec7d9f7e872d37603bb0243",
       "goalie": "Spencer Knight"
+    },
+    "1463": {
+      "at": "2026-11-12T19:58:12Z",
+      "book": "FD",
+      "event_id": "8b83d890c678327027f602ee80fe58cb",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
