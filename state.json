@@ -88,6 +88,15 @@
       "start": "2026-11-11T01:10:00Z",
       "text": "Gibson (DET) - DET@STL 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624338834&selectionId=76247482\u0004o22.5\u0005"
     },
+    "a837b9f2f6922e8208a6ccbb1534bb85|Jake Oettinger": {
+      "lines": {
+        "DK": 22.5
+      },
+      "mid": 222,
+      "side": "UNDER",
+      "start": "2026-11-13T01:10:00Z",
+      "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388374182%232362085955_15L42133Q1874096526Q20\u0004u22.5\u0005"
+    },
     "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi": {
       "done": true,
       "lines": {
@@ -14839,7 +14848,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088240,
+  "tg_offset": 69088241,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
