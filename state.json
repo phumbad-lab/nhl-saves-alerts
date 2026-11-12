@@ -328,7 +328,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18539,
+  "credits_remaining": 18534,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -413,7 +413,7 @@
     "1837f2fc2df35820948cc5b686a6b12a": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T17:16:12Z",
+      "last_paid_check": "2026-11-12T17:32:12Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
@@ -425,11 +425,18 @@
           }
         },
         "fanduel": {
+          "Jacob Fowler": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624931895&selectionId=92532103",
+            "point": 23.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624931895&selectionId=92532105"
+          },
           "Jeremy Swayman": {
-            "over": -110,
+            "over": -108,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624913344&selectionId=74879760",
             "point": 24.5,
-            "under": -120,
+            "under": -122,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624913344&selectionId=74879759"
           }
         }
@@ -771,7 +778,7 @@
     "89806a3740a856eb0cb991e427d5dcfa": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T17:16:12Z",
+      "last_paid_check": "2026-11-12T17:32:12Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
@@ -849,7 +856,7 @@
     "a837b9f2f6922e8208a6ccbb1534bb85": {
       "commence_time": "2026-11-13T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T17:16:12Z",
+      "last_paid_check": "2026-11-12T17:32:12Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -862,10 +869,10 @@
         },
         "fanduel": {
           "Jake Oettinger": {
-            "over": -120,
+            "over": -132,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624919303&selectionId=74880669",
-            "point": 22.5,
-            "under": -110,
+            "point": 21.5,
+            "under": 100,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624919303&selectionId=74880671"
           }
         }
@@ -1035,7 +1042,7 @@
     "f269492a367221a7a50738844eda8469": {
       "commence_time": "2026-11-13T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T17:16:12Z",
+      "last_paid_check": "2026-11-12T17:32:12Z",
       "lines": {
         "draftkings": {
           "Akira Schmid": {
@@ -1061,7 +1068,7 @@
     "fe4c6dbd3b40768336356b2a02966544": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T17:16:12Z",
+      "last_paid_check": "2026-11-12T17:32:12Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
@@ -1070,6 +1077,13 @@
             "point": 25.5,
             "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388580877%232362453869_15L42133Q1458571637Q20"
+          },
+          "Jesper Wallstedt": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388341668%232362039120_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388341668%232362039121_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -13335,6 +13349,18 @@
       "book": null,
       "event_id": "206230c7db215749b099353074bb5c13",
       "goalie": "Scott Wedgewood"
+    },
+    "1443": {
+      "at": "2026-11-12T17:32:12Z",
+      "book": null,
+      "event_id": "1837f2fc2df35820948cc5b686a6b12a",
+      "goalie": "Jacob Fowler"
+    },
+    "1444": {
+      "at": "2026-11-12T17:32:12Z",
+      "book": "DK",
+      "event_id": "fe4c6dbd3b40768336356b2a02966544",
+      "goalie": "Jesper Wallstedt"
     }
   },
   "shot_stats": {
