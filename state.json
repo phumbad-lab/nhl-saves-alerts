@@ -10364,6 +10364,7 @@
     },
     "UTA:8477951": {
       "alerted": false,
+      "missing_since": "2026-11-12T04:49:10Z",
       "out_at": null,
       "seen": "2026-11-12T04:46:11Z",
       "status": "DTD"
