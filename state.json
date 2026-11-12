@@ -328,7 +328,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18507,
+  "credits_remaining": 18506,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -855,8 +855,19 @@
     },
     "8b83d890c678327027f602ee80fe58cb": {
       "commence_time": "2026-11-13T00:09:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-12T19:12:11Z",
+      "lines": {
+        "draftkings": {
+          "Connor Hellebuyck": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595672_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595673_15L42133Q1874096526Q20"
+          }
+        }
+      },
       "matchup": "Washington Capitals @ New Jersey Devils"
     },
     "9600ca13a787cb4772bf21e6e61bdf07": {
@@ -9116,8 +9127,15 @@
     ]
   },
   "h2h_NJD-WSH": {
-    "fetched": "2026-10-17T14:57:11Z",
+    "fetched": "2026-11-12T19:12:11Z",
     "value": [
+      [
+        "2026-10-17",
+        "NJD",
+        "WSH",
+        31,
+        25
+      ],
       [
         "2026-04-02",
         "WSH",
@@ -9138,13 +9156,6 @@
         "NJD",
         33,
         38
-      ],
-      [
-        "2025-11-15",
-        "NJD",
-        "WSH",
-        31,
-        31
       ]
     ]
   },
@@ -12910,7 +12921,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-11-10T15:29:11Z",
+    "fetched": "2026-11-12T19:12:11Z",
     "value": [
       "Jake Allen",
       "Connor Hellebuyck"
@@ -13026,7 +13037,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-11-10T16:28:13Z",
+    "fetched": "2026-11-12T19:12:11Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -13506,6 +13517,12 @@
       "book": "DK",
       "event_id": "2df93287814e2ffcbf1186e138b4a3d8",
       "goalie": "Ilya Sorokin"
+    },
+    "1454": {
+      "at": "2026-11-12T19:12:11Z",
+      "book": null,
+      "event_id": "8b83d890c678327027f602ee80fe58cb",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
