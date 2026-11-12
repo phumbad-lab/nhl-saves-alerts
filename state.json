@@ -310,7 +310,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18604,
+  "credits_remaining": 18603,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -675,8 +675,19 @@
     },
     "89806a3740a856eb0cb991e427d5dcfa": {
       "commence_time": "2026-11-13T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-12T15:45:16Z",
+      "lines": {
+        "fanduel": {
+          "Jet Greaves": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624908814&selectionId=77747671",
+            "point": 24.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624908814&selectionId=77747672"
+          }
+        }
+      },
       "matchup": "Tampa Bay Lightning @ Columbus Blue Jackets"
     },
     "8b83d890c678327027f602ee80fe58cb": {
@@ -5362,6 +5373,39 @@
         "CBJ",
         33,
         39
+      ]
+    ]
+  },
+  "h2h_CBJ-TBL": {
+    "fetched": "2026-11-12T15:45:16Z",
+    "value": [
+      [
+        "2026-03-10",
+        "CBJ",
+        "TBL",
+        32,
+        18
+      ],
+      [
+        "2026-01-24",
+        "TBL",
+        "CBJ",
+        30,
+        31
+      ],
+      [
+        "2025-10-18",
+        "TBL",
+        "CBJ",
+        24,
+        31
+      ],
+      [
+        "2025-03-04",
+        "CBJ",
+        "TBL",
+        33,
+        40
       ]
     ]
   },
@@ -12385,7 +12429,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-11-10T15:39:11Z",
+    "fetched": "2026-11-12T15:45:16Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -12536,7 +12580,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-11-11T15:40:16Z",
+    "fetched": "2026-11-12T15:45:16Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -12947,6 +12991,12 @@
       "book": null,
       "event_id": "5a2820b80e20b69258bd5eb25c18eb78",
       "goalie": "Philipp Grubauer"
+    },
+    "1422": {
+      "at": "2026-11-12T15:45:16Z",
+      "book": null,
+      "event_id": "89806a3740a856eb0cb991e427d5dcfa",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
