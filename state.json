@@ -328,7 +328,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18530,
+  "credits_remaining": 18529,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -651,8 +651,19 @@
     },
     "7785f669a86814b552e0979e06e4d202": {
       "commence_time": "2026-11-13T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-12T17:55:12Z",
+      "lines": {
+        "fanduel": {
+          "Karel Vejmelka": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624941027&selectionId=75028426",
+            "point": 21.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624941027&selectionId=75028425"
+          }
+        }
+      },
       "matchup": "St Louis Blues @ Utah Mammoth"
     },
     "78267bbb84304764c453515236c3ccce": {
@@ -3607,6 +3618,29 @@
   "gl_8482122": {
     "fetched": "2026-11-12T15:50:16Z",
     "value": []
+  },
+  "gl_8482699": {
+    "fetched": "2026-11-12T17:55:12Z",
+    "value": [
+      "2026-10-01",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-22",
+      "2026-10-24",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-01",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-07"
+    ]
   },
   "gl_8482740": {
     "fetched": "2026-10-14T16:51:13Z",
@@ -10386,6 +10420,39 @@
       ]
     ]
   },
+  "h2h_STL-UTA": {
+    "fetched": "2026-11-12T17:55:12Z",
+    "value": [
+      [
+        "2026-04-16",
+        "STL",
+        "UTA",
+        29,
+        23
+      ],
+      [
+        "2026-01-09",
+        "STL",
+        "UTA",
+        28,
+        23
+      ],
+      [
+        "2025-11-29",
+        "UTA",
+        "STL",
+        18,
+        19
+      ],
+      [
+        "2025-10-23",
+        "UTA",
+        "STL",
+        25,
+        20
+      ]
+    ]
+  },
   "h2h_STL-VGK": {
     "fetched": "2026-10-22T16:36:12Z",
     "value": [
@@ -12859,7 +12926,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-11-10T16:35:14Z",
+    "fetched": "2026-11-12T17:55:12Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -12881,7 +12948,7 @@
     ]
   },
   "roster_UTA": {
-    "fetched": "2026-11-11T19:09:11Z",
+    "fetched": "2026-11-12T17:55:12Z",
     "value": [
       "Sebastian Cossa",
       "Karel Vejmelka"
@@ -13361,6 +13428,12 @@
       "book": null,
       "event_id": "a837b9f2f6922e8208a6ccbb1534bb85",
       "goalie": "Stuart Skinner"
+    },
+    "1447": {
+      "at": "2026-11-12T17:55:12Z",
+      "book": null,
+      "event_id": "7785f669a86814b552e0979e06e4d202",
+      "goalie": "Karel Vejmelka"
     }
   },
   "shot_stats": {
