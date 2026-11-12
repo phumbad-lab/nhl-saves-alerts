@@ -69,6 +69,15 @@
       "start": "2026-11-12T02:10:00Z",
       "text": "Vladar (PHI) - PHI@EDM 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843678\u0004u25.5\u0005"
     },
+    "8b83d890c678327027f602ee80fe58cb|Connor Hellebuyck": {
+      "lines": {
+        "DK": 22.5
+      },
+      "mid": 220,
+      "side": "UNDER",
+      "start": "2026-11-13T00:09:00Z",
+      "text": "Hellebuyck (NJD) - WSH@NJD 7:09PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595673_15L42133Q1874096526Q20\u0004u22.5\u0005"
+    },
     "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
       "done": true,
       "lines": {
@@ -14821,7 +14830,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088238,
+  "tg_offset": 69088239,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
