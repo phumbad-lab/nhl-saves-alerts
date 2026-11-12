@@ -310,7 +310,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18603,
+  "credits_remaining": 18602,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -916,8 +916,19 @@
     },
     "fe4c6dbd3b40768336356b2a02966544": {
       "commence_time": "2026-11-13T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-12T15:50:16Z",
+      "lines": {
+        "fanduel": {
+          "Anthony Stolarz": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624909755&selectionId=74842534",
+            "point": 24.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624909755&selectionId=74842533"
+          }
+        }
+      },
       "matchup": "Minnesota Wild @ Toronto Maple Leafs"
     }
   },
@@ -3413,7 +3424,7 @@
     ]
   },
   "gl_8482122": {
-    "fetched": "2026-11-10T16:15:21Z",
+    "fetched": "2026-11-12T15:50:16Z",
     "value": []
   },
   "gl_8482740": {
@@ -8049,6 +8060,39 @@
       ]
     ]
   },
+  "h2h_MIN-TOR": {
+    "fetched": "2026-11-12T15:50:16Z",
+    "value": [
+      [
+        "2026-03-15",
+        "TOR",
+        "MIN",
+        26,
+        38
+      ],
+      [
+        "2026-01-19",
+        "MIN",
+        "TOR",
+        39,
+        30
+      ],
+      [
+        "2025-01-29",
+        "MIN",
+        "TOR",
+        25,
+        33
+      ],
+      [
+        "2024-11-03",
+        "TOR",
+        "MIN",
+        28,
+        33
+      ]
+    ]
+  },
   "h2h_MIN-UTA": {
     "fetched": "2026-10-27T17:32:16Z",
     "value": [
@@ -12493,7 +12537,7 @@
     ]
   },
   "roster_MIN": {
-    "fetched": "2026-11-10T16:15:21Z",
+    "fetched": "2026-11-12T15:50:16Z",
     "value": [
       "Filip Gustavsson",
       "Calvin Pickard",
@@ -12587,7 +12631,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-11-10T15:43:11Z",
+    "fetched": "2026-11-12T15:50:16Z",
     "value": [
       "Artur Akhtyamov",
       "Sergei Bobrovsky",
@@ -12997,6 +13041,12 @@
       "book": null,
       "event_id": "89806a3740a856eb0cb991e427d5dcfa",
       "goalie": "Jet Greaves"
+    },
+    "1423": {
+      "at": "2026-11-12T15:50:16Z",
+      "book": null,
+      "event_id": "fe4c6dbd3b40768336356b2a02966544",
+      "goalie": "Anthony Stolarz"
     }
   },
   "shot_stats": {
