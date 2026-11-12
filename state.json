@@ -338,7 +338,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18469,
+  "credits_remaining": 18468,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -873,7 +873,7 @@
     "89806a3740a856eb0cb991e427d5dcfa": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T21:40:16Z",
+      "last_paid_check": "2026-11-12T21:56:12Z",
       "lines": {
         "draftkings": {
           "Jet Greaves": {
@@ -886,10 +886,10 @@
         },
         "fanduel": {
           "Jet Greaves": {
-            "over": -108,
+            "over": -110,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624908814&selectionId=77747671",
             "point": 24.5,
-            "under": -122,
+            "under": -120,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624908814&selectionId=77747672"
           }
         }
