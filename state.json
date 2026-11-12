@@ -11004,6 +11004,7 @@
     },
     "LAK:8474563": {
       "alerted": false,
+      "missing_since": "2026-11-12T20:04:17Z",
       "out_at": null,
       "seen": "2026-11-11T20:56:35Z",
       "status": "DTD"
