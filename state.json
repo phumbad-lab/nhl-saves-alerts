@@ -319,7 +319,7 @@
     }
   },
   "corrections_checked": "2026-11-11",
-  "credits_remaining": 18641,
+  "credits_remaining": 18639,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -462,7 +462,7 @@
     "43a0ad5ba8bff6cdca19964348b53eff": {
       "commence_time": "2026-11-12T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T01:54:10Z",
+      "last_paid_check": "2026-11-12T02:09:10Z",
       "lines": {
         "draftkings": {
           "Justus Annunen": {
@@ -473,10 +473,10 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943519%232361157489_15L42133Q1-941301704Q20"
           },
           "Laurent Brossoit": {
-            "over": -125,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943380%232361152894_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -110,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943380%232361152895_15L42133Q1874096526Q20"
           }
         },
