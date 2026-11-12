@@ -78,6 +78,15 @@
       "start": "2026-11-13T00:09:00Z",
       "text": "Hellebuyck (NJD) - WSH@NJD 7:09PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595673_15L42133Q1874096526Q20\u0004u22.5\u0005"
     },
+    "8b83d890c678327027f602ee80fe58cb|Logan Thompson": {
+      "lines": {
+        "DK": 29.5
+      },
+      "mid": 223,
+      "side": "UNDER",
+      "start": "2026-11-13T00:09:00Z",
+      "text": "Thompson (WSH) - WSH@NJD 7:09PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388724423%232362860528_15L42133Q11580205260Q20\u0004u29.5\u0005"
+    },
     "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
       "done": true,
       "lines": {
@@ -14881,7 +14890,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088241,
+  "tg_offset": 69088242,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
