@@ -10,6 +10,15 @@
       "start": "2026-11-11T00:10:00Z",
       "text": "Allen (NJD) - NJD@WPG 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945628_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
+    "2df93287814e2ffcbf1186e138b4a3d8|Ilya Sorokin": {
+      "lines": {
+        "FD": 24.5
+      },
+      "mid": 219,
+      "side": "OVER",
+      "start": "2026-11-13T03:10:00Z",
+      "text": "Sorokin (NYI) - NYI@LAK 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624952520&selectionId=75039652\u0004o24.5\u0005"
+    },
     "43a0ad5ba8bff6cdca19964348b53eff|Justus Annunen": {
       "done": true,
       "lines": {
@@ -14812,7 +14821,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088237,
+  "tg_offset": 69088238,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
