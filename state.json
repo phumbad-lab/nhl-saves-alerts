@@ -338,7 +338,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18487,
+  "credits_remaining": 18485,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -549,30 +549,35 @@
     "2df93287814e2ffcbf1186e138b4a3d8": {
       "commence_time": "2026-11-13T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T20:12:12Z",
+      "last_paid_check": "2026-11-12T20:28:20Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
-            "over": 100,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395649%232361396042_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -135,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395649%232361396086_15L42133Q184490156Q20"
           },
           "Ilya Sorokin": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395973%232362077174_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395973%232362077175_15L42133Q1731448625Q20"
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395973%232362074543_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395973%232362074544_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
+          "Darcy Kuemper": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624972775&selectionId=74879770",
+            "point": 23.5
+          },
           "Ilya Sorokin": {
-            "over": -112,
+            "over": -118,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624952520&selectionId=75039652",
             "point": 24.5,
-            "under": -118,
+            "under": -112,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624952520&selectionId=75039651"
           }
         }
@@ -954,14 +959,14 @@
     "a25eef409ec7d9f7e872d37603bb0243": {
       "commence_time": "2026-11-13T01:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T20:12:12Z",
+      "last_paid_check": "2026-11-12T20:28:20Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
-            "over": -120,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388361887%232362631153_13L42133Q1-389637312Q20",
             "point": 25.5,
-            "under": -110,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388361887%232362631154_15L42133Q1458571637Q20"
           }
         },
@@ -13661,6 +13666,12 @@
       "book": "FD",
       "event_id": "8b83d890c678327027f602ee80fe58cb",
       "goalie": "Connor Hellebuyck"
+    },
+    "1464": {
+      "at": "2026-11-12T20:28:20Z",
+      "book": "FD",
+      "event_id": "2df93287814e2ffcbf1186e138b4a3d8",
+      "goalie": "Darcy Kuemper"
     }
   },
   "shot_stats": {
