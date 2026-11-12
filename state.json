@@ -374,7 +374,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18460,
+  "credits_remaining": 18458,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -935,7 +935,7 @@
     "8b83d890c678327027f602ee80fe58cb": {
       "commence_time": "2026-11-13T00:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T22:18:12Z",
+      "last_paid_check": "2026-11-12T22:34:10Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -1001,7 +1001,7 @@
     "a25eef409ec7d9f7e872d37603bb0243": {
       "commence_time": "2026-11-13T01:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T22:18:12Z",
+      "last_paid_check": "2026-11-12T22:34:10Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
