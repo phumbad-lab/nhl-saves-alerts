@@ -338,7 +338,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18491,
+  "credits_remaining": 18489,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -549,18 +549,18 @@
     "2df93287814e2ffcbf1186e138b4a3d8": {
       "commence_time": "2026-11-13T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T19:57:10Z",
+      "last_paid_check": "2026-11-12T20:12:12Z",
       "lines": {
         "draftkings": {
           "Darcy Kuemper": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395649%232362597100_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395649%232362597101_15L42133Q1731448625Q20"
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395649%232361396042_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395649%232361396086_15L42133Q184490156Q20"
           },
           "Ilya Sorokin": {
-            "over": -130,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388395973%232362077174_13L42133Q1-1695742073Q20",
             "point": 24.5,
             "under": -105,
@@ -954,7 +954,7 @@
     "a25eef409ec7d9f7e872d37603bb0243": {
       "commence_time": "2026-11-13T01:09:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T19:57:10Z",
+      "last_paid_check": "2026-11-12T20:12:12Z",
       "lines": {
         "draftkings": {
           "Spencer Knight": {
