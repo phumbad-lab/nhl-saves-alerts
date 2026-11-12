@@ -310,7 +310,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18594,
+  "credits_remaining": 18592,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -395,7 +395,7 @@
     "1837f2fc2df35820948cc5b686a6b12a": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T16:00:23Z",
+      "last_paid_check": "2026-11-12T16:16:11Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
@@ -404,6 +404,15 @@
             "point": 25.5,
             "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388262359%232360880051_15L42133Q1458571637Q20"
+          }
+        },
+        "fanduel": {
+          "Jeremy Swayman": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624913344&selectionId=74879760",
+            "point": 24.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624913344&selectionId=74879759"
           }
         }
       },
@@ -687,7 +696,7 @@
     "89806a3740a856eb0cb991e427d5dcfa": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-12T16:00:23Z",
+      "last_paid_check": "2026-11-12T16:16:11Z",
       "lines": {
         "fanduel": {
           "Jet Greaves": {
@@ -13129,6 +13138,12 @@
       "book": "DK",
       "event_id": "f269492a367221a7a50738844eda8469",
       "goalie": "Akira Schmid"
+    },
+    "1427": {
+      "at": "2026-11-12T16:16:11Z",
+      "book": "FD",
+      "event_id": "1837f2fc2df35820948cc5b686a6b12a",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
