@@ -310,7 +310,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18590,
+  "credits_remaining": 18589,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
       "commence_time": "2026-11-11T00:10:00Z",
@@ -460,8 +460,19 @@
     },
     "206230c7db215749b099353074bb5c13": {
       "commence_time": "2026-11-13T00:08:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-12T16:27:12Z",
+      "lines": {
+        "fanduel": {
+          "Linus Ullmark": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624916417&selectionId=74880127",
+            "point": 24.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624916417&selectionId=74880126"
+          }
+        }
+      },
       "matchup": "Colorado Avalanche @ Ottawa Senators"
     },
     "2df93287814e2ffcbf1186e138b4a3d8": {
@@ -6348,6 +6359,39 @@
         "NSH",
         42,
         31
+      ]
+    ]
+  },
+  "h2h_COL-OTT": {
+    "fetched": "2026-11-12T16:27:12Z",
+    "value": [
+      [
+        "2026-01-28",
+        "COL",
+        "OTT",
+        18,
+        23
+      ],
+      [
+        "2026-01-08",
+        "OTT",
+        "COL",
+        31,
+        34
+      ],
+      [
+        "2025-03-20",
+        "COL",
+        "OTT",
+        33,
+        16
+      ],
+      [
+        "2024-10-27",
+        "OTT",
+        "COL",
+        30,
+        32
       ]
     ]
   },
@@ -12567,7 +12611,7 @@
     ]
   },
   "roster_COL": {
-    "fetched": "2026-11-10T15:43:11Z",
+    "fetched": "2026-11-12T16:27:12Z",
     "value": [
       "Mackenzie Blackwood",
       "Scott Wedgewood"
@@ -12655,7 +12699,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-11-10T16:28:13Z",
+    "fetched": "2026-11-12T16:27:12Z",
     "value": [
       "Samuel Ersson",
       "Linus Ullmark"
@@ -13144,6 +13188,12 @@
       "book": "FD",
       "event_id": "1837f2fc2df35820948cc5b686a6b12a",
       "goalie": "Jeremy Swayman"
+    },
+    "1428": {
+      "at": "2026-11-12T16:27:12Z",
+      "book": null,
+      "event_id": "206230c7db215749b099353074bb5c13",
+      "goalie": "Linus Ullmark"
     }
   },
   "shot_stats": {
