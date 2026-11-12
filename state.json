@@ -775,46 +775,6 @@
       "lines": {},
       "matchup": "Winnipeg Jets @ Dallas Stars"
     },
-    "d6c28acaab1a3d7db58968f5f33fbf3a": {
-      "commence_time": "2026-11-10T02:45:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-09T18:33:13Z",
-      "lines": {
-        "draftkings": {
-          "Joseph Woll": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387444995%232357644364_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387444995%232357644365_15L42133Q1888607062Q20"
-          },
-          "Leevi Merilainen": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387444800%232358074136_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387444800%232358074137_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Joseph Woll": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624000310&selectionId=75454783",
-            "point": 22.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624000310&selectionId=75454784"
-          },
-          "Leevi Merilainen": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624031382&selectionId=78174825",
-            "point": 22.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624031382&selectionId=78174826"
-          }
-        }
-      },
-      "matchup": "Philadelphia Flyers @ Vancouver Canucks"
-    },
     "d6fb69c3f844f53b1bb2619066cd7947": {
       "commence_time": "2026-11-12T00:50:00Z",
       "h2h_sent": true,
