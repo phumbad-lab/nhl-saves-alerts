@@ -300,7 +300,7 @@
       "r": "L"
     }
   },
-  "corrections_checked": "2026-11-11",
+  "corrections_checked": "2026-11-12",
   "credits_remaining": 18626,
   "events": {
     "0e5af7e0f9734ecda4b3c3013712deb6": {
@@ -12285,13 +12285,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-11": [
-      "78267bbb84304764c453515236c3ccce|Dan Vladar",
-      "43a0ad5ba8bff6cdca19964348b53eff|Justus Annunen",
-      "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
