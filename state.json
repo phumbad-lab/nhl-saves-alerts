@@ -974,46 +974,6 @@
       },
       "matchup": "New York Rangers @ Calgary Flames"
     },
-    "d85899eb0ddff2e6e18a63b0c83bc7b8": {
-      "commence_time": "2026-11-11T00:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-10T17:56:11Z",
-      "lines": {
-        "draftkings": {
-          "Cam Talbot": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387617069%232357982981_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387617069%232357982982_15L42133Q1731448625Q20"
-          },
-          "Jacob Markstrom": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387614442%232358981210_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387614442%232358981211_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Cam Talbot": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624302084&selectionId=74101477",
-            "point": 24.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624302084&selectionId=74101478"
-          },
-          "Jacob Markstrom": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624329191&selectionId=74591079",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624329191&selectionId=74591081"
-          }
-        }
-      },
-      "matchup": "Florida Panthers @ Columbus Blue Jackets"
-    },
     "e71ce66a01d66fc935632b206d2dedbd": {
       "commence_time": "2026-11-11T03:10:00Z",
       "h2h_sent": true,
