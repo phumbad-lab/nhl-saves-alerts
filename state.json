@@ -391,46 +391,6 @@
       "lines": {},
       "matchup": "New York Rangers @ Vancouver Canucks"
     },
-    "0e5af7e0f9734ecda4b3c3013712deb6": {
-      "commence_time": "2026-11-11T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-10T21:22:13Z",
-      "lines": {
-        "draftkings": {
-          "Logan Thompson": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387611140%232358864087_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387611140%232358864088_15L42133Q1731448625Q20"
-          },
-          "Samuel Ersson": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387610524%232358870625_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387610524%232358870626_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Logan Thompson": {
-            "over": -128,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624387575&selectionId=75074479",
-            "point": 24.5,
-            "under": -104,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624387575&selectionId=75074478"
-          },
-          "Samuel Ersson": {
-            "over": -130,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624316386&selectionId=74932576",
-            "point": 22.5,
-            "under": -102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624316386&selectionId=74932577"
-          }
-        }
-      },
-      "matchup": "Washington Capitals @ Ottawa Senators"
-    },
     "11f3c6f0f406c5ffb575dbcd671cf964": {
       "commence_time": "2026-11-11T00:15:00Z",
       "h2h_sent": true,
