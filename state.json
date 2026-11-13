@@ -59,6 +59,15 @@
       "start": "2026-11-12T17:00:00Z",
       "text": "Grubauer (SEA) - CAR@SEA 12:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624869983&selectionId=74802625\u0004o26.5\u0005"
     },
+    "7785f669a86814b552e0979e06e4d202|Joel Hofer": {
+      "lines": {
+        "FD": 25.5
+      },
+      "mid": 225,
+      "side": "UNDER",
+      "start": "2026-11-13T02:10:00Z",
+      "text": "Hofer (STL) - STL@UTA 9:10PM\nFD u25.5"
+    },
     "7785f669a86814b552e0979e06e4d202|Karel Vejmelka": {
       "lines": {
         "FD": 21.5
@@ -14639,7 +14648,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088244,
+  "tg_offset": 69088245,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
