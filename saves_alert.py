@@ -1588,23 +1588,64 @@ def injury_report(state, events, abbrevs, now):
                 newly_out.append((t, k))
             new = any(x and parse_iso(x).astimezone(LOCAL_TZ).date() == today
                       for x in (prev["seen"], prev["out_at"]))
-            report.setdefault(t, []).append(dict(k, status=prev["status"], new=new))
+            if not prev.get("activated"):
+                report.setdefault(t, []).append(dict(k, status=prev["status"], new=new))
         for kid in [x for x in book if x.startswith(f"{t}:") and x not in current]:
             entry = book[kid]
             k = next((k for k in keys[t] if f"{t}:{k['id']}" == kid), None)
             missing = entry.setdefault("missing_since", iso(now))
             if now - parse_iso(missing) < INJURY_CLEAR:
-                if k:  # probably a feed blip; keep treating him as injured for now
+                if k and not entry.get("activated"):  # probably a feed blip; still injured for now
                     report.setdefault(t, []).append(dict(k, status=entry["status"], new=False))
                 continue
             was = book.pop(kid)  # off the injury list long enough: back in the lineup
-            if k and not first_look and (
+            if k and not first_look and not was.get("activated") and (
                     (was.get("status") == "OUT" and was.get("alerted", True))
                     or was.get("status") == "DTD"):  # day-to-day player cleared (owner Oct 14, Makar)
                 newly_back.append((t, dict(k, was=was.get("status"))))
         seeded.add(t)
     state["injury_teams"] = sorted(seeded)
+    activation_check(state, events, abbrevs, book, report, newly_back, now)
     return report, newly_out, newly_back
+
+
+ACTIVATION_GAMEDAY = timedelta(minutes=20)  # roster check on game day, before puck drop
+ACTIVATION_OTHER = timedelta(hours=6)       # otherwise
+
+
+def load_skater_ids(abbrev):
+    roster = nhl_get(f"{NHL_WEB}/roster/{abbrev}/current")
+    return sorted(p["id"] for grp in ("forwards", "defensemen") for p in roster.get(grp, []))
+
+
+def activation_check(state, events, abbrevs, book, report, newly_back, now):
+    """Owner Nov 13 (Fiala back Nov 12, no alert; he'd have skipped a Laferriere shots bet):
+    a key player who's OUT and off his team's NHL roster (IR) gets an alert the moment he's back
+    on it ('ACTIVATED'), often before ESPN clears him. Free NHL calls: every 20 min on game day
+    before puck drop, every 6 hours otherwise. One alert per absence; ESPN's later clear is then
+    quiet, and he no longer shows as INJ on alerts."""
+    today = now.astimezone(LOCAL_TZ).date()
+    playing = set()
+    for ev in events:
+        start = parse_iso(ev["commence_time"])
+        if start > now and start.astimezone(LOCAL_TZ).date() == today:
+            playing |= {abbrevs.get(team_key(ev[f"{x}_team"])) for x in ("away", "home")}
+    for kid, e in list(book.items()):
+        k = e.get("player")
+        if e.get("status") != "OUT" or not k or e.get("activated"):
+            continue
+        t = kid.split(":")[0]
+        ids = cached(state, f"skaters_{t}", now,
+                     ACTIVATION_GAMEDAY if t in playing else ACTIVATION_OTHER,
+                     lambda t=t: load_skater_ids(t))
+        if ids is None:
+            continue
+        if k["id"] not in ids:
+            e["off_roster"] = True
+        elif e.get("off_roster"):
+            e["activated"] = iso(now)
+            newly_back.append((t, dict(k, was="ACTIVATED")))
+            report[t] = [x for x in report.get(t, []) if x["id"] != k["id"]]
 
 
 def nhl_get_any(url):
@@ -1699,6 +1740,7 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
         sides = goalie_sides(event, posted, state, now) if m else {}
         head = (f"⚠️ {k['last']} {pos(k)} ({team}) OUT" if not back else
                 f"⚠️ {k['last']} {pos(k)} ({team}) CLEARED (off day-to-day)" if k.get("was") == "DTD" else
+                f"⚠️ {k['last']} {pos(k)} ({team}) ACTIVATED (back on roster)" if k.get("was") == "ACTIVATED" else
                 f"⚠️ {k['last']} {pos(k)} ({team}) BACK")  # owner Nov 13: ✅ looked like a goalie result
         lines = [f"{head} - {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
         for player in sorted(p for p in posted if sides.get(p) == hit_side):
