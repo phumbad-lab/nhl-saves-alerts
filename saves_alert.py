@@ -2062,6 +2062,8 @@ def process_replies(state, now):
             state.pop("channel_paused", None)
             tg_reply(msg, "📣 Channel back on. Bets you log before puck drop will post again.")
             continue
+        if len(words) >= 2 and words[0] == "stop" and words[1].strip(".!:?") in ("watching", "watch"):
+            words = ["unwatch"] + words[2:]  # owner Nov 13: "stop watching desmith" = unwatch
         if words and words[0].strip(".!:?") in ("watch", "unwatch", "watching"):
             rows = rows if rows is not None else load_picks()
             target = state["sent"].get(str((msg.get("reply_to_message") or {}).get("message_id")))
