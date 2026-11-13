@@ -1524,6 +1524,15 @@ def injury_report(state, events, abbrevs, now):
     teams = set(abbrevs.values())  # every team, so "NEW" really means it happened today
     keys = {t: cached(state, f"keys_{t}", now, timedelta(hours=12), lambda t=t: load_key_players(t, now)) or []
             for t in sorted(teams)}
+    # Owner Nov 13 (Fiala): a team moving a hurt key player to IR takes him off the current
+    # roster, so the twice-daily key refresh dropped him while he was still out, and his return
+    # went unnoticed. Anyone still in the injury book stays a key player until he's cleared.
+    for t in keys:
+        ids = {k["id"] for k in keys[t]}
+        extra = [e["player"] for kid, e in state.get("injuries", {}).items()
+                 if kid.startswith(f"{t}:") and e.get("player") and e["player"]["id"] not in ids]
+        if extra:
+            keys[t] = list(keys[t]) + extra
     try:
         feed = nhl_get_any(INJURY_URL).get("injuries", [])
     except Exception as e:
@@ -1562,6 +1571,7 @@ def injury_report(state, events, abbrevs, now):
                                     "out_at": stamp if st == "OUT" else None,
                                     "alerted": first_look}  # first look at a team: nothing is news
             prev.pop("missing_since", None)
+            prev["player"] = k  # remembered so he stays tracked if he's moved off the roster
             if st != prev["status"]:
                 if prev.get("pending") != st:
                     prev["pending"], prev["pending_since"] = st, iso(now)
@@ -1688,8 +1698,8 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
         m = matchup(event, stats)
         sides = goalie_sides(event, posted, state, now) if m else {}
         head = (f"⚠️ {k['last']} {pos(k)} ({team}) OUT" if not back else
-                f"✅ {k['last']} {pos(k)} ({team}) CLEARED (off day-to-day)" if k.get("was") == "DTD" else
-                f"✅ {k['last']} {pos(k)} ({team}) BACK")
+                f"⚠️ {k['last']} {pos(k)} ({team}) CLEARED (off day-to-day)" if k.get("was") == "DTD" else
+                f"⚠️ {k['last']} {pos(k)} ({team}) BACK")  # owner Nov 13: ✅ looked like a goalie result
         lines = [f"{head} - {ab['away']}@{ab['home']} {fmt_time(event['commence_time'])}"]
         for player in sorted(p for p in posted if sides.get(p) == hit_side):
             g = m[hit_side]
