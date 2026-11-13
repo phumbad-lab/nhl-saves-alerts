@@ -1,5 +1,14 @@
 {
   "channel_posts": {
+    "069bea369487ef0cd3017c9ceea68817|Leevi Merilainen": {
+      "lines": {
+        "DK": 25.5
+      },
+      "mid": 237,
+      "side": "UNDER",
+      "start": "2026-11-14T02:10:00Z",
+      "text": "Merilainen (VAN) - NYR@VAN 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388646975%232363332463_15L42133Q1458571637Q20\u0004u25.5\u0005"
+    },
     "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen": {
       "done": true,
       "lines": {
@@ -15136,7 +15145,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088246,
+  "tg_offset": 69088247,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
