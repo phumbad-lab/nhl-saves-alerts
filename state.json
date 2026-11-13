@@ -10901,85 +10901,237 @@
     "CGY:8480860": {
       "alerted": true,
       "out_at": "2026-11-08T15:56:10Z",
+      "player": {
+        "first": "Kevin",
+        "gp": 92,
+        "id": 8480860,
+        "last": "Bahl",
+        "pos": "D",
+        "role": "defense",
+        "shots": 69,
+        "sog": 0.8,
+        "toi": 21.9
+      },
       "seen": "2026-11-07T00:56:11Z",
       "status": "OUT"
     },
     "CHI:8481524": {
       "alerted": true,
       "out_at": "2026-11-02T18:01:12Z",
+      "player": {
+        "first": "Bowen",
+        "gp": 6,
+        "id": 8481524,
+        "last": "Byram",
+        "pos": "D",
+        "role": "defense",
+        "shots": 5,
+        "sog": 0.8,
+        "toi": 24.7
+      },
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
     },
     "COL:8477492": {
       "alerted": false,
       "out_at": null,
+      "player": {
+        "first": "Nathan",
+        "gp": 100,
+        "id": 8477492,
+        "last": "MacKinnon",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 421,
+        "sog": 4.2,
+        "toi": 21.9
+      },
       "seen": "2026-11-13T02:08:11Z",
       "status": "DTD"
     },
     "COL:8480069": {
       "alerted": false,
       "out_at": null,
+      "player": {
+        "first": "Cale",
+        "gp": 94,
+        "id": 8480069,
+        "last": "Makar",
+        "pos": "D",
+        "role": "shooter",
+        "shots": 248,
+        "sog": 2.6,
+        "toi": 24.4
+      },
       "seen": "2026-11-13T02:18:10Z",
       "status": "DTD"
     },
     "DAL:8480036": {
       "alerted": true,
       "out_at": "2026-11-11T18:45:34Z",
+      "player": {
+        "first": "Miro",
+        "gp": 92,
+        "id": 8480036,
+        "last": "Heiskanen",
+        "pos": "D",
+        "role": "defense",
+        "shots": 174,
+        "sog": 1.9,
+        "toi": 25.4
+      },
       "seen": "2026-11-04T02:01:12Z",
       "status": "DTD"
     },
     "FLA:8473419": {
       "alerted": true,
       "out_at": "2026-10-28T12:02:12Z",
+      "player": {
+        "first": "Brad",
+        "gp": 54,
+        "id": 8473419,
+        "last": "Marchand",
+        "pos": "L",
+        "role": "shooter",
+        "shots": 143,
+        "sog": 2.6,
+        "toi": 17.5
+      },
       "seen": "2026-10-28T12:02:12Z",
       "status": "OUT"
     },
     "MIN:8478493": {
       "alerted": false,
       "out_at": null,
+      "player": {
+        "first": "Joel",
+        "gp": 91,
+        "id": 8478493,
+        "last": "Eriksson Ek",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 261,
+        "sog": 2.9,
+        "toi": 19.1
+      },
       "seen": "2026-11-13T03:18:10Z",
       "status": "DTD"
     },
     "MIN:8482122": {
       "out_at": "2026-10-10T13:58:11Z",
+      "player": {
+        "first": "Brock",
+        "gp": 80,
+        "id": 8482122,
+        "last": "Faber",
+        "pos": "D",
+        "role": "defense",
+        "shots": 173,
+        "sog": 2.2,
+        "toi": 24.7
+      },
       "seen": "2026-10-10T13:58:11Z",
       "status": "OUT"
     },
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-22T14:16:11Z",
+      "player": {
+        "first": "Bryan",
+        "gp": 79,
+        "id": 8475810,
+        "last": "Rust",
+        "pos": "R",
+        "role": "shooter",
+        "shots": 192,
+        "sog": 2.4,
+        "toi": 19.7
+      },
       "seen": "2026-10-20T03:36:12Z",
       "status": "OUT"
     },
     "SEA:8477955": {
       "alerted": true,
       "out_at": "2026-10-24T17:52:10Z",
+      "player": {
+        "first": "Jared",
+        "gp": 63,
+        "id": 8477955,
+        "last": "McCann",
+        "pos": "L",
+        "role": "shooter",
+        "shots": 145,
+        "sog": 2.3,
+        "toi": 16.4
+      },
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
     "UTA:8477951": {
       "alerted": true,
       "out_at": "2026-11-13T01:48:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-13T14:13:10Z",
+      "player": {
+        "first": "Nick",
+        "gp": 101,
+        "id": 8477951,
+        "last": "Schmaltz",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 254,
+        "sog": 2.5,
+        "toi": 19.2
+      },
       "seen": "2026-11-12T04:46:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "UTA:8482699": {
       "alerted": true,
       "out_at": "2026-11-12T01:32:11Z",
+      "player": {
+        "first": "Dylan",
+        "gp": 97,
+        "id": 8482699,
+        "last": "Guenther",
+        "pos": "R",
+        "role": "shooter",
+        "shots": 288,
+        "sog": 3.0,
+        "toi": 17.4
+      },
       "seen": "2026-11-10T19:54:12Z",
       "status": "OUT"
     },
     "VAN:8480078": {
       "alerted": true,
       "out_at": "2026-10-30T20:36:11Z",
+      "player": {
+        "first": "Filip",
+        "gp": 19,
+        "id": 8480078,
+        "last": "Chytil",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 37,
+        "sog": 1.9,
+        "toi": 16.8
+      },
       "seen": "2026-10-30T19:14:11Z",
       "status": "OUT"
     },
     "VGK:8478396": {
       "alerted": true,
       "out_at": "2026-11-10T20:42:11Z",
+      "player": {
+        "first": "Noah",
+        "gp": 90,
+        "id": 8478396,
+        "last": "Hanifin",
+        "pos": "D",
+        "role": "defense",
+        "shots": 162,
+        "sog": 1.8,
+        "toi": 22.1
+      },
       "seen": "2026-11-10T20:42:11Z",
       "status": "OUT"
     }
