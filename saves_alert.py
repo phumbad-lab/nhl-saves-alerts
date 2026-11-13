@@ -249,6 +249,8 @@ def send_push(title, message, silent=None, chat_id=None, reply_to=None):
     }
     if reply_to:
         fields["reply_to_message_id"] = reply_to
+        # The post may have been deleted in Telegram (Nov 13: Hellebuyck's); send anyway, never crash.
+        fields["allow_sending_without_reply"] = "true"
     if UL in text or LINK in text:
         fields["text"] = to_html(text)[:4096]
         fields["parse_mode"] = "HTML"
