@@ -15234,25 +15234,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088251,
-  "watch": {
-    "21cd36d8c877a851efe2016178ff0bd1|Juuse Saros": {
-      "last": "2026-11-13T19:42:29Z",
-      "seen": {
-        "DK": {
-          "over": -130,
-          "point": 26.5,
-          "under": -105
-        },
-        "FD": {
-          "over": -112,
-          "point": 26.5,
-          "under": -118
-        }
-      },
-      "set": "2026-11-13T19:25:12Z",
-      "side": "OVER",
-      "start": "2026-11-14T03:10:00Z"
-    }
-  }
+  "tg_offset": 69088252,
+  "watch": {}
 }
