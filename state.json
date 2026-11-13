@@ -391,46 +391,6 @@
       "lines": {},
       "matchup": "New York Rangers @ Vancouver Canucks"
     },
-    "11f3c6f0f406c5ffb575dbcd671cf964": {
-      "commence_time": "2026-11-11T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-10T17:47:12Z",
-      "lines": {
-        "draftkings": {
-          "Jake Allen": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945627_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945628_15L42133Q1458571637Q20"
-          },
-          "Nico Daws": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387624117%232359502050_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387624117%232359502051_15L42133Q11150106798Q20"
-          }
-        },
-        "fanduel": {
-          "Jake Allen": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624336282&selectionId=74675853",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624336282&selectionId=74675854"
-          },
-          "Nico Daws": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624299117&selectionId=79796961",
-            "point": 26.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624299117&selectionId=79796960"
-          }
-        }
-      },
-      "matchup": "New Jersey Devils @ Winnipeg Jets"
-    },
     "1837f2fc2df35820948cc5b686a6b12a": {
       "commence_time": "2026-11-13T00:10:00Z",
       "h2h_sent": true,
@@ -634,46 +594,6 @@
         }
       },
       "matchup": "Nashville Predators @ Anaheim Ducks"
-    },
-    "54a0d86217b79fbc969d6fca0e1564e8": {
-      "commence_time": "2026-11-11T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-10T18:01:10Z",
-      "lines": {
-        "draftkings": {
-          "Mackenzie Blackwood": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623121%232358974344_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623121%232358974345_15L42133Q1731448625Q20"
-          },
-          "Sergei Bobrovsky": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623322%232359420754_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387623322%232359420755_15L42133Q1-245490255Q20"
-          }
-        },
-        "fanduel": {
-          "Mackenzie Blackwood": {
-            "over": -132,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624330071&selectionId=74101473",
-            "point": 23.5,
-            "under": 100,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624330071&selectionId=74101476"
-          },
-          "Sergei Bobrovsky": {
-            "over": 100,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624303115&selectionId=74802629",
-            "point": 28.5,
-            "under": -132,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624303115&selectionId=74802631"
-          }
-        }
-      },
-      "matchup": "Colorado Avalanche @ Toronto Maple Leafs"
     },
     "5a2820b80e20b69258bd5eb25c18eb78": {
       "commence_time": "2026-11-12T17:22:00Z",
@@ -11122,7 +11042,7 @@
     "WSH"
   ],
   "keys_ANA": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Cutter",
@@ -11182,7 +11102,7 @@
     ]
   },
   "keys_BOS": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "David",
@@ -11242,7 +11162,7 @@
     ]
   },
   "keys_BUF": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Tage",
@@ -11291,67 +11211,67 @@
     ]
   },
   "keys_CAR": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Seth",
-        "gp": 79,
+        "gp": 80,
         "id": 8482093,
         "last": "Jarvis",
         "pos": "R",
         "role": "shooter",
-        "shots": 239,
+        "shots": 240,
         "sog": 3.0,
         "toi": 18.6
       },
       {
         "first": "Andrei",
-        "gp": 98,
+        "gp": 99,
         "id": 8480830,
         "last": "Svechnikov",
         "pos": "R",
         "role": "shooter",
-        "shots": 259,
+        "shots": 262,
         "sog": 2.6,
         "toi": 17.1
       },
       {
         "first": "Nikolaj",
-        "gp": 101,
+        "gp": 102,
         "id": 8477940,
         "last": "Ehlers",
         "pos": "L",
         "role": "shooter",
-        "shots": 250,
+        "shots": 253,
         "sog": 2.5,
         "toi": 16.5
       },
       {
         "first": "K'Andre",
-        "gp": 91,
+        "gp": 92,
         "id": 8480817,
         "last": "Miller",
         "pos": "D",
         "role": "defense",
-        "shots": 152,
+        "shots": 153,
         "sog": 1.7,
         "toi": 22.3
       },
       {
         "first": "Sean",
-        "gp": 100,
+        "gp": 101,
         "id": 8480336,
         "last": "Walker",
         "pos": "D",
         "role": "defense",
-        "shots": 217,
+        "shots": 218,
         "sog": 2.2,
         "toi": 21.7
       }
     ]
   },
   "keys_CBJ": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Zach",
@@ -11389,7 +11309,7 @@
     ]
   },
   "keys_CGY": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Matt",
@@ -11449,7 +11369,7 @@
     ]
   },
   "keys_CHI": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Connor",
@@ -11509,7 +11429,7 @@
     ]
   },
   "keys_COL": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Nathan",
@@ -11558,7 +11478,7 @@
     ]
   },
   "keys_DAL": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Jason",
@@ -11618,7 +11538,7 @@
     ]
   },
   "keys_DET": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Alex",
@@ -11678,7 +11598,7 @@
     ]
   },
   "keys_EDM": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Connor",
@@ -11738,7 +11658,7 @@
     ]
   },
   "keys_FLA": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Brady",
@@ -11798,7 +11718,7 @@
     ]
   },
   "keys_LAK": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Adrian",
@@ -11858,7 +11778,7 @@
     ]
   },
   "keys_MIN": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Matt",
@@ -11918,7 +11838,7 @@
     ]
   },
   "keys_MTL": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Cole",
@@ -11978,7 +11898,7 @@
     ]
   },
   "keys_NJD": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Jack",
@@ -12038,7 +11958,7 @@
     ]
   },
   "keys_NSH": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Filip",
@@ -12087,7 +12007,7 @@
     ]
   },
   "keys_NYI": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Bo",
@@ -12136,7 +12056,7 @@
     ]
   },
   "keys_NYR": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Pavel",
@@ -12196,7 +12116,7 @@
     ]
   },
   "keys_OTT": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Dylan",
@@ -12245,7 +12165,7 @@
     ]
   },
   "keys_PHI": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Owen",
@@ -12305,7 +12225,7 @@
     ]
   },
   "keys_PIT": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Rickard",
@@ -12365,27 +12285,27 @@
     ]
   },
   "keys_SEA": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Bobby",
-        "gp": 34,
+        "gp": 35,
         "id": 8482259,
         "last": "McMann",
         "pos": "C",
         "role": "shooter",
-        "shots": 102,
-        "sog": 3.0,
+        "shots": 103,
+        "sog": 2.9,
         "toi": 17.5
       },
       {
         "first": "Brandon",
-        "gp": 79,
+        "gp": 80,
         "id": 8477986,
         "last": "Montour",
         "pos": "D",
         "role": "shooter",
-        "shots": 201,
+        "shots": 203,
         "sog": 2.5,
         "toi": 22.9
       },
@@ -12402,19 +12322,19 @@
       },
       {
         "first": "Vince",
-        "gp": 97,
+        "gp": 98,
         "id": 8478407,
         "last": "Dunn",
         "pos": "D",
         "role": "defense",
-        "shots": 213,
+        "shots": 214,
         "sog": 2.2,
         "toi": 21.9
       }
     ]
   },
   "keys_SJS": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Macklin",
@@ -12474,7 +12394,7 @@
     ]
   },
   "keys_STL": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Dylan",
@@ -12534,7 +12454,7 @@
     ]
   },
   "keys_TBL": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Brandon",
@@ -12594,7 +12514,7 @@
     ]
   },
   "keys_TOR": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Auston",
@@ -12654,7 +12574,7 @@
     ]
   },
   "keys_UTA": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Dylan",
@@ -12714,7 +12634,7 @@
     ]
   },
   "keys_VAN": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Jake",
@@ -12774,7 +12694,7 @@
     ]
   },
   "keys_VGK": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Jack",
@@ -12834,7 +12754,7 @@
     ]
   },
   "keys_WPG": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Kyle",
@@ -12894,7 +12814,7 @@
     ]
   },
   "keys_WSH": {
-    "fetched": "2026-11-12T12:14:11Z",
+    "fetched": "2026-11-13T00:15:15Z",
     "value": [
       {
         "first": "Alex",
