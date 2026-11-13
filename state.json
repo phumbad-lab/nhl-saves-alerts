@@ -10925,6 +10925,8 @@
     "DAL:8480036": {
       "alerted": true,
       "out_at": "2026-11-11T18:45:34Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-13T14:06:10Z",
       "seen": "2026-11-04T02:01:12Z",
       "status": "OUT"
     },
