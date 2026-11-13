@@ -417,12 +417,23 @@
     }
   },
   "corrections_checked": "2026-11-13",
-  "credits_remaining": 18383,
+  "credits_remaining": 18382,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-13T17:31:10Z",
+      "lines": {
+        "draftkings": {
+          "Leevi Merilainen": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388646975%232363332462_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388646975%232363332463_15L42133Q1458571637Q20"
+          }
+        }
+      },
       "matchup": "New York Rangers @ Vancouver Canucks"
     },
     "1837f2fc2df35820948cc5b686a6b12a": {
@@ -3581,7 +3592,7 @@
     ]
   },
   "gl_8480078": {
-    "fetched": "2026-11-09T14:17:11Z",
+    "fetched": "2026-11-13T17:31:10Z",
     "value": [
       "2026-10-15",
       "2026-10-17",
@@ -9816,8 +9827,15 @@
     ]
   },
   "h2h_NYR-VAN": {
-    "fetched": "2026-10-11T15:06:11Z",
+    "fetched": "2026-11-13T17:31:10Z",
     "value": [
+      [
+        "2026-10-11",
+        "VAN",
+        "NYR",
+        21,
+        25
+      ],
       [
         "2025-12-16",
         "VAN",
@@ -9838,13 +9856,6 @@
         "NYR",
         39,
         12
-      ],
-      [
-        "2024-11-19",
-        "NYR",
-        "VAN",
-        33,
-        24
       ]
     ]
   },
@@ -13137,7 +13148,7 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-11-11T15:30:22Z",
+    "fetched": "2026-11-13T17:31:10Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
@@ -13209,7 +13220,7 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-11-09T14:17:11Z",
+    "fetched": "2026-11-13T17:31:10Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
@@ -13682,6 +13693,12 @@
       "book": null,
       "event_id": "a25eef409ec7d9f7e872d37603bb0243",
       "goalie": "Alex Lyon"
+    },
+    "1490": {
+      "at": "2026-11-13T17:31:10Z",
+      "book": null,
+      "event_id": "069bea369487ef0cd3017c9ceea68817",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
