@@ -19,6 +19,15 @@
       "start": "2026-11-11T00:10:00Z",
       "text": "Allen (NJD) - NJD@WPG 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945628_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
+    "21cd36d8c877a851efe2016178ff0bd1|Adin Hill": {
+      "lines": {
+        "DK": 23.5
+      },
+      "mid": 238,
+      "side": "UNDER",
+      "start": "2026-11-14T03:10:00Z",
+      "text": "Hill (VGK) - NSH@VGK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388645940%232363912436_15L42133Q184490156Q20\u0004u23.5\u0005"
+    },
     "2df93287814e2ffcbf1186e138b4a3d8|Ilya Sorokin": {
       "done": true,
       "lines": {
@@ -15188,7 +15197,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088247,
+  "tg_offset": 69088248,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
