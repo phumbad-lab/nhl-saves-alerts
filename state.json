@@ -59,6 +59,15 @@
       "start": "2026-11-12T17:00:00Z",
       "text": "Grubauer (SEA) - CAR@SEA 12:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624869983&selectionId=74802625\u0004o26.5\u0005"
     },
+    "7785f669a86814b552e0979e06e4d202|Karel Vejmelka": {
+      "lines": {
+        "FD": 21.5
+      },
+      "mid": 224,
+      "side": "OVER",
+      "start": "2026-11-13T02:10:00Z",
+      "text": "Vejmelka (UTA) - STL@UTA 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624941027&selectionId=75028426\u0004o21.5\u0005"
+    },
     "78267bbb84304764c453515236c3ccce|Dan Vladar": {
       "done": true,
       "lines": {
@@ -105,26 +114,6 @@
       "side": "UNDER",
       "start": "2026-11-13T01:10:00Z",
       "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388374182%232362085955_15L42133Q1874096526Q20\u0004u22.5\u0005"
-    },
-    "c0de79c9c801e5fc0d1bb3873b10a164|Devon Levi": {
-      "done": true,
-      "lines": {
-        "DK": 22.5
-      },
-      "mid": 195,
-      "side": "UNDER",
-      "start": "2026-11-10T01:10:00Z",
-      "text": "Levi (EDM) - NYR@EDM 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387417519%232357850906_15L42133Q1874096526Q20\u0004u22.5\u0005"
-    },
-    "c0de79c9c801e5fc0d1bb3873b10a164|Dylan Garand": {
-      "done": true,
-      "lines": {
-        "DK": 25.5
-      },
-      "mid": 196,
-      "side": "UNDER",
-      "start": "2026-11-10T01:10:00Z",
-      "text": "Garand (NYR) - NYR@EDM 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387418521%232358035872_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
     "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
       "done": true,
@@ -14650,7 +14639,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088243,
+  "tg_offset": 69088244,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
