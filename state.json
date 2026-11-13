@@ -10987,8 +10987,6 @@
     "DAL:8480036": {
       "alerted": true,
       "out_at": "2026-11-11T18:45:34Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-13T17:46:13Z",
       "player": {
         "first": "Miro",
         "gp": 92,
@@ -13252,12 +13250,6 @@
     ]
   },
   "sent": {
-    "1355": {
-      "at": "2026-11-10T17:47:12Z",
-      "book": "FD",
-      "event_id": "11f3c6f0f406c5ffb575dbcd671cf964",
-      "goalie": "Jake Allen"
-    },
     "1356": {
       "at": "2026-11-10T17:54:11Z",
       "book": null,
