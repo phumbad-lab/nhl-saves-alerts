@@ -10833,9 +10833,14 @@
     },
     "COL:8477492": {
       "alerted": false,
-      "missing_since": "2026-11-13T02:15:17Z",
       "out_at": null,
       "seen": "2026-11-13T02:08:11Z",
+      "status": "DTD"
+    },
+    "COL:8480069": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-11-13T02:18:10Z",
       "status": "DTD"
     },
     "DAL:8480036": {
