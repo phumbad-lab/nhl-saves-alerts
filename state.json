@@ -10985,7 +10985,7 @@
       "status": "DTD"
     },
     "DAL:8480036": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-13T17:55:13Z",
       "player": {
         "first": "Miro",
