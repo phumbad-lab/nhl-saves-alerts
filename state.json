@@ -97,6 +97,7 @@
       "text": "Hellebuyck (NJD) - WSH@NJD 7:09PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388357203%232362595673_15L42133Q1874096526Q20\u0004u22.5\u0005"
     },
     "8b83d890c678327027f602ee80fe58cb|Logan Thompson": {
+      "done": true,
       "lines": {
         "DK": 29.5
       },
@@ -144,6 +145,7 @@
       "text": "Schmid (FLA) - DET@FLA 7:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624910282&selectionId=82335730\u0004o23.5\u0005"
     },
     "fe4c6dbd3b40768336356b2a02966544|Anthony Stolarz": {
+      "done": true,
       "lines": {
         "FD": 26.5
       },
@@ -299,6 +301,10 @@
       "d": "2026-11-01",
       "r": "L"
     },
+    "8b83d890c678327027f602ee80fe58cb|Logan Thompson": {
+      "d": "2026-11-12",
+      "r": "W"
+    },
     "8fe46a5692910faf8de7ac94676f4029|Devon Levi": {
       "d": "2026-11-07",
       "r": "W"
@@ -378,6 +384,10 @@
     "fa8413d05f6c8b2d8f68cc0d17551fa9|Sergei Murashov": {
       "d": "2026-10-31",
       "r": "L"
+    },
+    "fe4c6dbd3b40768336356b2a02966544|Anthony Stolarz": {
+      "d": "2026-11-12",
+      "r": "W"
     }
   },
   "corrections_checked": "2026-11-12",
@@ -12756,7 +12766,9 @@
   "night_graded": {
     "2026-11-12": [
       "5a2820b80e20b69258bd5eb25c18eb78|Brandon Bussi",
-      "5a2820b80e20b69258bd5eb25c18eb78|Philipp Grubauer"
+      "5a2820b80e20b69258bd5eb25c18eb78|Philipp Grubauer",
+      "8b83d890c678327027f602ee80fe58cb|Logan Thompson",
+      "fe4c6dbd3b40768336356b2a02966544|Anthony Stolarz"
     ]
   },
   "picks_channel": {
