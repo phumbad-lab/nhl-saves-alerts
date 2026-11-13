@@ -6,7 +6,8 @@ Nothing here changes the model by itself (owner's rule: no rules on hunches; tes
 
 ## Read accuracy (season to date, from Oct 12)
 Judges the read on shot volume, not just the bet result.
-- **Through Nov 11:** Right reads ✅ 58 · Lucky wins 🍀 4 · Unlucky losses 😬 6 · Wrong reads ❌ 69 (volume read right ✅+😬 = 64/137 = 47%)
+- **Through Nov 12:** Right reads ✅ 60 · Lucky wins 🍀 4 · Unlucky losses 😬 7 · Wrong reads ❌ 70 (volume read right ✅+😬 = 67/141 = 48%)
+- Nov 12: ✅2 😬1 ❌1 (11 games, 4 OVER tags). Sorokin ✅ (LAK 28 vs 29.7 exp, ~28.2 needed). Hofer ✅ (UTA 29, 29 saves). Gibson 😬 (FLA 29, volume right, 5 goals). Grubauer ❌ (CAR 30 vs 31.5 exp, ~30.5 needed).
 - Nov 11: ❌1 (6 games, 1 tagged goalie). Jarry ❌ (EDM LEAN UNDER 21.5; PHI 32 vs 24.7 exp, ~24.3 needed).
 - Nov 10: ✅2 ❌1 (7 games, 3 tagged goalies). Blackwood ✅ (TOR 31 vs 29.4 exp, ~27.7 needed). Saros ✅ narrow (LAK 30 vs 30.6, ~29.9 needed; 30-save shutout). Daws ❌ (NJD 21 vs 29.9 exp, ~29.9 needed).
 - Nov 9: ❌1 (3 games, 1 tagged goalie). Levi ❌ (EDM UNDER 22.5; NYR 29 vs 24.9 exp, ~25.4 needed).
@@ -40,9 +41,9 @@ Judges the read on shot volume, not just the bet result.
 
 ## 🎯 and ⚠️ markers (started Oct 24; each goalie once, first line)
 Backtest baseline Oct 7–23: 🎯 unders 14-6, 🎯 overs 12-14; model tags with a conflicting top/bottom-10 rank 7-2; owner's bets with a conflicting rank 2-8.
-- **Running (live, from Oct 24):** 🎯 under → under 9-10 · 🎯 over → over 11-20 · model tag with ⚠️ 0-4 · without ⚠️ 33-45.
-- **📍 home/road L5 callout (from Oct 31; baseline 18-6, overs 8-2, unders 10-4):** 9-6 (OVER 0-2, UNDER 9-4).
-- **Owner's theory "OVER tags are really under targets" (from Oct 30; baselines OVER tags since Oct 21 under 16-7, lines ≥28.5 under 11-4 Oct 7–29):** under on model OVER/LEAN OVER tags (first line) **37-22** since Oct 21 (Oct 30 2-0, Oct 31 3-1, Nov 1 1-0, Nov 2 3-0, Nov 3 3-2, Nov 4 2-1, Nov 5 3-4, Nov 6 1-0, Nov 7 1-4, Nov 8 1-1, Nov 9 none, Nov 10 1-2, Nov 11 none) · lines ≥28.5 under **14-6**.
+- **Running (live, from Oct 24):** 🎯 under → under 10-10 · 🎯 over → over 12-23 · model tag with ⚠️ 0-4 · without ⚠️ 35-47.
+- **📍 home/road L5 callout (from Oct 31; baseline 18-6, overs 8-2, unders 10-4):** 10-8 (OVER 0-3, UNDER 10-5).
+- **Owner's theory "OVER tags are really under targets" (from Oct 30; baselines OVER tags since Oct 21 under 16-7, lines ≥28.5 under 11-4 Oct 7–29):** under on model OVER/LEAN OVER tags (first line) **39-24** since Oct 21 (Oct 30 2-0, Oct 31 3-1, Nov 1 1-0, Nov 2 3-0, Nov 3 3-2, Nov 4 2-1, Nov 5 3-4, Nov 6 1-0, Nov 7 1-4, Nov 8 1-1, Nov 9 none, Nov 10 1-2, Nov 11 none, Nov 12 2-2) · lines ≥28.5 under **15-6**.
 - Oct 24: 🎯 under Wallstedt DK u22.5 ❌ (23; FD 25.5 would have won). 🎯 over Cooley ✅ (28 vs 26.5), Daccord ✅ (31 vs 26.5), Forsberg ❌ (23 vs 28.5). ⚠️ Vejmelka UNDER (TBL 5th most for) ❌ — warning was right (TBL 32 shots).
 - Oct 25: 🎯 under Schmid FD u20.5 ✅ (19), Pickard DK u20.5 ✅ (15). 🎯 over Merilainen FD o25.5 ✅ (30), Annunen FD o29.5 ❌ (19; COL shot 21), Skinner DK o25.5 ❌ (19; MTL shot 21). All five were NO EDGE goalies. No ⚠️. Oettinger UNDER (no ⚠️) ✅.
 - Oct 26: 🎯 over Bobrovsky DK o26.5 ✅ (29; CGY 34 shots). 🎯 under Postava u25.5 ✅ (25, by half a save; EDM 28 ≈ 27.7 exp; NO EDGE goalie). No ⚠️.
@@ -65,7 +66,7 @@ Backtest baseline Oct 7–23: 🎯 unders 14-6, 🎯 overs 12-14; model tags wit
 
 ## Playbook ⬇️⬆️ (from Nov 6; each goalie once, first row with a `play` value)
 Baselines (Nov 5 study): ⬇️ (a) road goalie with OVER/LEAN OVER tag 27-9 since Oct 21 (8-13 Oct 7–20); ⬇️ (b) UNDER tag with line 2+ above expected 22-9; ⬆️ line ≤22.5 with expected 2+ above 16-10 (3+ cushion 10-3). Thin UNDER tags (line 0–2 above expected, no ⬇️), over record: 14-10 baseline.
-- **Season (live calls, from Nov 7):** ⬇️ 3-5 ((a) 3-5, (b) 0-0) · ⬆️ 2-0 (3+ cushion 0-0) · pulled-goalie wins 1 (Knight). Would-have-been calls before the feature went live: ⬇️ (a) 1-0.
+- **Season (live calls, from Nov 7):** ⬇️ 4-7 ((a) 4-7, (b) 0-0) · ⬆️ 2-0 (3+ cushion 0-0) · pulled-goalie wins 1 (Knight). Would-have-been calls before the feature went live: ⬇️ (a) 1-0.
 - **Thin UNDER tags → over:** 16-11 (Nov 6 1-0, Nov 7 0-1, Nov 8 none, Nov 9 1-0, Nov 10 none, Nov 11 none).
 - Nov 6: no live calls — the play feature was pushed at 4:16 PM ET, after every alert had gone out (last 4:11 PM). Would have been: ⬇️ (a) Askarov (SJS, road OVER 27.5, no-vig under .50 DK) ✅ 25. No ⬆️ spot (Wallstedt 22.5 vs 23.1, Luukkonen 22.5 vs 22.0). Thin UNDER: Luukkonen 22.5 vs 22.0 → over ✅ (24).
 - Nov 7 (first live night): ⬇️ (a) 2-3 — Knight FD u27.5 ✅ (11, left early; DK 28.5 too), Tarasov FD u26.5 ✅ (25; his DK 27.5 was NO EDGE, no call), Fowler FD u25.5 ❌ (26; DK 24.5 ❌), Merilainen DK u25.5 ❌ (26; FD 24.5 ❌), Murashov FD u24.5 ❌ (26; DK 25.5 ❌). The three losses all landed on 26 saves against 24.5–25.5 lines (lower than the 27.5 lines that won). No (b) spot, no ⬆️ spot (closest: Kochetkov 19.5 vs 20.9, Blackwood 22.5 vs 23.9). Thin UNDER: Oettinger 22.5 vs 21.6 → under (20), over ❌; Levi's DK UNDER 21.5 vs 21.4 (his first line was FD LEAN UNDER) also went under.
@@ -76,13 +77,14 @@ Baselines (Nov 5 study): ⬇️ (a) road goalie with OVER/LEAN OVER tag 27-9 sin
 
 ## Closing line (from Nov 6; his bets with `close_line`)
 Beat = under taken_line > close_line, over taken_line < close_line; same line → cheaper price than the close.
-- **Season:** beat 12 · tie 2 · lost 3 · avg saves gained +0.8 (n=17). By timing: 6h+ 10-1-3 · under 6h 2-1-0 (beat-tie-lost). Unders 8-2-3 · overs 4-0-0. All three losses so far are on price at the same line (paid 3–14 cents more than the close), not on the number.
+- **Season:** beat 18 · tie 5 · lost 3 · avg saves gained +0.7 (n=26). By timing: 6h+ 11-1-3 · under 6h 7-4-0 (beat-tie-lost). Unders 11-4-3 · overs 7-1-0. All three losses so far are on price at the same line (paid 3–14 cents more than the close), not on the number.
 - Nov 6: Askarov u27.5 DK (4.8h before puck drop) closed 27.5, under −105 → tie on the line; his price wasn't logged (taken_odds went live at 5:07 PM, after his bet). Guess: DK's under was −115 at the alert, so he likely paid a bit more than the close. Luukkonen o22.5 FD was logged after the game, no close.
 - Nov 7: beat 2 of 5, avg +0.2 saves (all 6h+). Beat: Allen u24.5 DK → closed 23.5 (+1.0 save); Oettinger o22.5 FD → closed 22.5, over −122 → −130 (price). Lost on price at the same line: Knight u28.5 FD (−128 → −114), Levi u21.5 DK (−130 → −125), Fowler u25.5 FD (−128 → −125). Merilainen o24.5 FD and Tarasov u27.5 DK were logged the next morning, no close.
 - Nov 8: beat 3 of 3, avg **+2.0 saves**, all logged ~10.5h before puck drop (8:32–8:35 AM ET). Stolarz o24.5 FD → closed 27.5 (+3.0); Hellebuyck u25.5 FD → closed 23.5 (+2.0); Vladar u25.5 FD → closed 24.5 (+1.0). All three won; the early number mattered on Stolarz (25 saves: over at 24.5, under at the 27.5 close).
 - Nov 9: beat 2 of 2 (both DK unders, ~7–8h early), avg +0.5 saves. Garand u25.5 → closed 24.5 (+1.0; won). Levi u22.5 −110 → closed 22.5 −125 (beat on price; lost). Merilainen o22.5 FD logged next morning, skipped.
 - Nov 10: beat 2 of 3, avg +0.7 saves. Allen u25.5 DK (4.4h early) → closed 23.5 (+2.0; won). Gibson o22.5 FD (5.4h early) −128 → closed 22.5 −132 (beat on price; won). Bobrovsky u28.5 DK (~7h early) −125 → closed 28.5 −125 (tie; won). Blackwood logged after the game, skipped.
 - Nov 11: beat 3 of 3, avg +1.3 saves, all 7–8h early. Vladar u25.5 FD → closed 24.5 (+1.0); Annunen u27.5 DK → closed 26.5 (+1.0; 27 saves — the close would have lost); Murashov o22.5 FD → closed 24.5 (+2.0). All three won.
+- Nov 12: beat 6 of 9, 3 ties, no losses, avg +0.6 saves. Beat: Grubauer o26.5 → 27.5 (+1.0), Sorokin o24.5 → 25.5 (+1.0), Stolarz u26.5 → 25.5 (+1.0), Oettinger u22.5 → 21.5 (+1.0), Thompson u29.5 → 28.5 (+1.0), Schmid o23.5 → 23.5 −106 vs −108 (price). Tie: Bussi u21.5 (same −110), Vejmelka o21.5 (same −130), Hofer u25.5 (same line). His early number mattered nowhere tonight — every bet either won or lost regardless.
 
 ## Patterns to watch (update as evidence builds; note game count)
 - **H2H low-volume matchups vs. an OVER/LEAN OVER read** (1 game). Owner faded Wallstedt o26.5 (Oct 12) because VGK had shot little on MIN in H2H (avg 24.0) — model said 25.7 expected. Went under (21). Test idea: does H2H avg below line predict unders when the model leans over?
@@ -193,6 +195,7 @@ Beat = under taken_line > close_line, over taken_line < close_line; same line �
   - Nov 7: Fowler 🍀 (TOR 28 vs 30.2; won on save%), Merilainen ✅ (EDM 30 vs 30.4), Murashov ✅ (LAK 28 vs 29.3, narrow), Knight 😬 (CAR 33 vs 31.2; left early). **9-26** since Oct 27. Murashov was nudge-made (A and B NO EDGE): nudge-made since live **9-21**. Road goalies −0.9 shots vs live (n=10), home +1.1 (n=11; −0.9 without Sorokin's 50).
   - Nov 8: Vladar ❌ (CGY 26 vs 29.4; nudge-made, A and B NO EDGE; ⬇️ and the owner's under won). **9-27** since Oct 27; nudge-made since live **9-22**. Road goalies −0.8 shots vs live (n=6; Markstrom +9.2, Hellebuyck −5.7), home +2.9 (n=6; Swayman +13.5, Cooley +8.3).
   - Nov 10: Blackwood ✅ (TOR 31 vs 29.4; nudge-made, A and B NO EDGE) and Saros ✅ (LAK 30 vs 30.6, narrow; B LEAN OVER without the nudge). **11-27** since Oct 27; nudge-made since live **10-22**. Both ⬇️ unders lost. Road goalies +1.7 shots vs live (n=7; Markstrom +9.9), home −2.1 (n=7; Ersson −10.2, Daws −8.9).
+  - Nov 12: all four live OVER tags were road and nudge-made (A and B NO EDGE on every one) — Sorokin ✅ (LAK 28 vs 29.7), Hofer ✅ (UTA 29, 29 saves), Gibson 😬 (FLA 29, right on volume, 5 goals), Grubauer was home ❌. Road OVER by volume **3-0 right** — the first clean road-OVER night in a while; **13-28** by result since Oct 27, nudge-made since live **12-23**. Road goalies −0.6 shots vs live (n=6), home −1.4 (n=5). All three ⬇️ unders here: Gibson's won (goals), the two that held on volume lost.
 
 - **Model over tags on a goalie's second night of a back-to-back** (new Nov 3; 10 games, from the Oct 28 b2b check in CLAUDE.md). First-line OVER 0-6, LEAN OVER 2-2 = **2-8** since Oct 7 (all tags 5-12); tonight Wedgewood and Gibson both lost and both left early (5 and 11 saves). Not the shot total alone: CBJ 24 and TBL 27 missed, but a starter's exit also caps saves. Test: over at the line on b2b goalies, split by whether he also played night one and by pulls, once ~20 games. Too few to act on. Nov 4: no case (nobody on a second night). Nov 5: Soderblom (CHI; second night, but Knight played night one) ✅ → **3-8** (all tags 6-12). That's the split the test needs: this one was a fresh goalie. Nov 6: Askarov (SJS) played night one, no b2b over case. Nov 7: SJS on a second night with Nedeljkovic (fresh goalie, NO EDGE → 26 vs 23.5 over); no over-tag case. Nov 8: Stolarz (TOR; second night, Bobrovsky played night one) 🔥 OVER ✅ at FD 24.5 (25; DK 27.5 lost) → **4-8** (all tags 7-12). Fresh goalie again. FLA, NJD and PIT were also on second nights with fresh goalies (all NO EDGE: Markstrom over, Hellebuyck and Silovs under). Nov 9: PHI on a second night with a fresh goalie (Woll, NO EDGE → 18 vs 22.5 under); no over-tag case.
 
@@ -323,6 +326,12 @@ Beat = under taken_line > close_line, over taken_line < close_line; same line �
   - Annunen (NSH) @ ANA · NO EDGE 27.5 DK (exp 25.7; FD later 26.5) · **owner took u27.5 DK** → ANA 29 (exp 29.0; ~31 needed), 27 saves, won, right. Took the higher number again, 1.8 above the model; H2H (ANA on NSH 37.5) pointed hard over and missed. FD's 26.5 and the 26.5 close both went over — the early higher number was the win.
   - Murashov (PIT) @ SJS · NO EDGE 22.5 FD (exp 25.2; ⬆️) · **owner took o22.5 FD** → SJS 36 (exp 28.4), 34 saves, won, right. Followed the ⬆️. Closed 24.5 (+2.0).
   - "Higher of two numbers" unders (Nov 10 Bobrovsky, Allen; Nov 11 Annunen): 3-0. NO EDGE bets 38-17. His season, each goalie once (picks.csv, Blackwood now fixed as u24.5 L): **77-53**.
+
+- 2026-11-12: nine bets, **7-2**, right on volume 6 of 9. No reasoning notes (only line-move confirmations: Bussi/Stolarz "line moved", Schmid "had 24 it's a win").
+  - Schmid (FLA) o23.5 ✅ (FLA 28, right), Bussi (CAR) u21.5 ✅ (SEA 13, right — CAR blowout), Sorokin (NYI) o24.5 ✅ (LAK 28, right; with the OVER tag, against the ⬇️), Thompson (WSH) u29.5 ✅ (NJD 29, right; line ≥28.5), Vejmelka (UTA) o21.5 ✅ (22, narrow), Stolarz (TOR) u26.5 ✅ (MIN 26, right; took the higher number).
+  - Oettinger (DAL) u22.5 ✅ **lucky** — DAL gave up 30 shots and 9 goals, so the volume was over; the under won only on the 9-goal beatdown (21 saves).
+  - Grubauer (SEA) o26.5 ❌ — CAR 30 vs 31.5 expected, 1.5 under, 26 saves. Hofer (STL) u25.5 ❌ — he faded the model's OVER/🎯 and the tag was right (UTA 29, 29 saves). Both his losses were wrong on volume.
+  - NO EDGE bets 41-18. His season, each goalie once (picks.csv): **84-55**.
 
 ## Weekly: where your losses are
 ### 2026-11-08 (117 goalies logged Oct 10–Nov 7, each once; week Nov 1–7 alone 13-10)
@@ -755,3 +764,17 @@ First row per goalie per game. Avg line / range / lines ≤21.5 / lines ≥28.5 
 - Closing line: beat 3 of 3, avg **+1.3 saves** (Murashov +2.0, Vladar +1.0, Annunen +1.0). Season beat 12 · tie 2 · lost 3, +0.8.
 - **Owner's reads:** 3-0, right on volume 3 of 3, all on NO EDGE goalies (model had no view). Beat the model's only tag by not touching Jarry. Annunen: took the higher DK number (1.8 above the model) and it cleared by half a save — FD's 26.5 lost. Blackwood (Nov 10) is now logged right in picks.csv (u24.5 L).
 - Limit: scores and goalie exits inferred from saves vs team shots; one search didn't confirm the TBL–BUF score or why Luukkonen left.
+
+### 2026-11-12
+- **Night (11 games, 4 tagged goalies — all OVER):** OVER 2-2 (model 2-2); no 🔥. Read accuracy ✅2 😬1 ❌1. NO EDGE 9 over / 7 under. Owner's bets **7-2** (9 goalies). 27.4 shots a side vs 28.3 expected.
+- ✅ Sorokin (NYI) OVER 24.5 FD/DK — exp 26.3 sv / 29.7 shots; LAK 28 (~28.2 needed), 26 saves. Road, H2H (NYI on LAK 30.3) agreed. ⬇️ under lost. Owner bet the over ✅.
+- ✅ Hofer (STL) 🎯 OVER 24.5 FD/DK — exp 26.3 / 29.7; UTA 29, 29 saves. Road; H2H (STL on UTA 22.3) disagreed and missed. ⬇️ under lost. Owner bet it UNDER (25.5) ❌ — he faded the tag and lost on volume.
+- 😬 Gibson (DET) OVER 24.5 FD/DK — exp 26.2 / 29.6; FLA 29 (volume right at the number), 24 saves on 29 (5 goals). Road, ⬇️ under won on the goals. Owner didn't bet it.
+- ❌ Grubauer (SEA) 🎯 OVER 26.5 FD / 27.5 DK — exp 27.9 / 31.5; CAR 30 (~30.5 needed), 26 saves. Home; H2H (CAR on SEA 32.5) agreed but the volume came in 1.5 under expected. McCann (SEA) out. Owner bet the over ❌ — his only losing read on volume with Hofer.
+- NO EDGE far past the line: Swayman (BOS) 13 vs 25.5 DK / 24.5 FD way under — **pulled** (BOS faced MTL 31; Fowler's 30 saves at the other end). Kuemper (LAK) 16 vs 25.5 DK (NYI shot only 21; low game). Bussi (CAR) 12 vs 22.5 (SEA shot 13; CAR blowout, owner's under ✅). Fowler (MTL) 30 vs 23.5 way over (BOS 32). Skinner (WPG) 30 vs 23.5 over (DAL 33; owner passed). Wallstedt (MIN) 26 vs 24.5 over, Hellebuyck (NJD) 26 vs 22.5 over (📍 UNDER ❌), Ullmark (OTT) 26 vs 24.5 over. Under: Thompson (WSH) 24 vs 29.5 (owner ✅), Wedgewood (COL) 22 vs 24.5 (📍 OVER ❌), Vejmelka (UTA) 22 vs 21.5 over (owner ✅, narrow), Oettinger (DAL) 21 vs 22.5 (owner's under ✅ but 30 shots — 9 goals, lucky on the read), Stolarz (TOR) 21 vs 24.5/25.5 (owner ✅), Knight (CHI) 21 vs 24.5 (🎯 over missed), Lyon (BUF) 22 vs 23.5, Greaves (CBJ) 25 vs 24.5 over, Schmid (FLA) 24 vs 23.5 over (owner ✅).
+- Shadows: A and B both NO EDGE on all four live OVER tags (every tag was nudge-made) → A/B 0-0, live 2-2. The live model's four extra plays split.
+- 🎯 over 1-3 (Hofer ✅; Grubauer, Stolarz, Knight ❌), 🎯 under 1-0 (Bussi ✅). No ⚠️. 📍 1-2 (Bussi UNDER ✅; Wedgewood OVER, Hellebuyck UNDER ❌) → **10-8**. Under on OVER tags 2-2 (Grubauer, Gibson ✅; Sorokin, Hofer ❌) → **39-24** since Oct 21. Lines ≥28.5 under: Thompson ✅ → **15-6**. Road OVER tags on volume 3-0 right (Sorokin, Hofer, Gibson) — a clean night for the nudge; since Oct 27 **13-28** by result. H2H when it disagrees 0-1 (Hofer over won, H2H under) → **30-16**.
+- Playbook: ⬇️ (a) **1-2** — Gibson u24.5 ✅ (24), Sorokin u24.5 ❌ (26), Hofer u24.5 ❌ (29). Season ⬇️ **4-7** ((a) 4-7). No ⬆️ spot (no low lines with 2+ cushion). No thin UNDER tag.
+- Closing line: beat 6 of 9, 3 ties, no losses, avg **+0.6 saves** (Grubauer, Sorokin, Stolarz, Oettinger, Thompson, Schmid-on-price beat; Bussi, Vejmelka, Hofer same line/price tie). Season beat 18 · tie 5 · lost 3, +0.7 (n=26).
+- **Owner's reads:** 7-2, right on volume 6 of 9 (Schmid, Bussi, Sorokin, Thompson, Vejmelka, Stolarz). Oettinger's under won lucky (DAL gave up 30 shots and 9 goals — volume was over). Grubauer and Hofer were his two losses, both wrong on volume; on Hofer he faded the model's OVER/🎯 and the tag was right. No reasoning notes — his only texts were line-move confirmations ("had 24 it's a win").
+- Limit: scores, pulls and goalie exits inferred from saves vs team shots; Swayman's pull and the final scores weren't confirmed by recap.
