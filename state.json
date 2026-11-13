@@ -383,7 +383,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18396,
+  "credits_remaining": 18395,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -14690,7 +14690,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088242,
+  "tg_offset": 69088243,
   "watch": {
     "41bd62e63799d7bb81e18169092a82bd|Sergei Murashov": {
       "last": "2026-11-08T02:04:10Z",
