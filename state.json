@@ -136,6 +136,7 @@
       "text": "Murashov (PIT) - PIT@SJS 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004572\u0004o22.5\u0005"
     },
     "f269492a367221a7a50738844eda8469|Akira Schmid": {
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -365,6 +366,10 @@
       "d": "2026-10-27",
       "r": "W"
     },
+    "f269492a367221a7a50738844eda8469|Akira Schmid": {
+      "d": "2026-11-12",
+      "r": "L"
+    },
     "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner": {
       "d": "2026-10-29",
       "r": "L"
@@ -391,7 +396,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18385,
+  "credits_remaining": 18384,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -12768,7 +12773,8 @@
       "5a2820b80e20b69258bd5eb25c18eb78|Brandon Bussi",
       "5a2820b80e20b69258bd5eb25c18eb78|Philipp Grubauer",
       "8b83d890c678327027f602ee80fe58cb|Logan Thompson",
-      "fe4c6dbd3b40768336356b2a02966544|Anthony Stolarz"
+      "fe4c6dbd3b40768336356b2a02966544|Anthony Stolarz",
+      "f269492a367221a7a50738844eda8469|Akira Schmid"
     ]
   },
   "picks_channel": {
