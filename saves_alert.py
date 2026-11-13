@@ -2370,7 +2370,10 @@ def channel_recap(state, now):
     if not last:
         state["channel_recap_sent"] = today  # no plays last night: nothing to post
         return
-    pending = [k for k in last if not (state["channel_posts"][k].get("done"))]
+    # A play you cashed out after puck drop keeps its post but never gets a result (owner Nov 13:
+    # Hellebuyck u22.5 held the recap until 11 AM). Only plays still logged are waited on.
+    still_in = {f"{r['event_id']}|{r['goalie']}" for r in rows if r.get("taken")}
+    pending = [k for k in last if not state["channel_posts"][k].get("done") and k in still_in]
     if pending and local.hour < CHANNEL_RECAP_LATEST:
         return  # wait for the last result (stat corrections, late grading)
     rec = state["channel_record"]
