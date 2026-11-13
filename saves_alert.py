@@ -2233,6 +2233,21 @@ def channel_sync(state, rows, now):
         lines, side, first = channel_lines(rows, state, event_id, goalie)
         if not first:
             continue
+        if not any(v.get("url") for v in lines.values()) and event_id in state.get("events", {}):
+            # Owner Nov 13 (Stolarz u26.5, Hofer u25.5 posted without links): he took a number the
+            # bot hadn't seen yet. One fresh look (1 credit); linked only if the book has his number.
+            try:
+                if refresh_lines({"id": event_id}, state["events"][event_id], state, now):
+                    lines, side, first = channel_lines(rows, state, event_id, goalie)
+                    if not first.get("taken_odds"):
+                        full = next((f for f, sh in BOOK_SHORT.items() if sh == first["book"]), None)
+                        seen = state["events"][event_id]["lines"].get(full, {}).get(goalie, {})
+                        if (seen.get("point") is not None and float(seen["point"]) == float(first["taken_line"])
+                                and seen.get(first["taken"].lower()) is not None):
+                            first["taken_odds"] = fmt_odds(seen[first["taken"].lower()])
+                            save_picks(rows)
+            except Exception as e:
+                print(f"Couldn't re-check odds for the channel post ({e}).")
         text = channel_post_text(state, first, goalie, lines, side)
         mid = send_push("", text, chat_id=ch["id"])
         if mid:
@@ -2321,6 +2336,17 @@ def channel_catchup(state):
                     key=lambda r: r.get("taken_at", ""), default=None)
         if first and first.get("taken_result") in ("W", "L", "P", "VOID"):
             channel_result(state, rows, event_id, goalie)
+        elif (not first and post.get("mid") and post.get("lines")
+              and parse_iso(post["start"]) <= datetime.now(timezone.utc)):
+            # Owner Nov 13 (Hellebuyck u22.5): taken off after puck drop = cashed out. The post
+            # stays, so followers get a line saying so; it never counts in the record.
+            ch = state["picks_channel"]
+            r = next((r for r in rows if r["event_id"] == event_id and r["goalie"] == goalie), {})
+            name = f"{last_name(goalie)} ({r['team']})" if r.get("team") else last_name(goalie)
+            s = (post.get("side") or "U")[0].lower()
+            plays = " · ".join(f"{b} {s}{float(pt):g}" for b, pt in post["lines"].items())
+            if send_push("", f"{name} {plays}: cashed out", chat_id=ch["id"], reply_to=post["mid"]):
+                post["done"] = True
 
 
 # ---- channel record (owner Oct 28): "put last night's record and the season record in the
