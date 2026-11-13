@@ -2358,7 +2358,7 @@ def channel_catchup(state):
 # dates up to CHANNEL_BASE_UNTIL) were rebuilt from the bot's history on Oct 28 and start it off.
 CHANNEL_BASE_UNTIL = "2026-10-25"
 CHANNEL_BASE = (14, 13, 0)  # Oct 18-25 channel plays (W, L, P)
-CHANNEL_RECAP_HOUR = 8      # ET
+CHANNEL_RECAP_HOUR = 7      # ET
 CHANNEL_RECAP_LATEST = 11   # post by 11 AM even if a play from last night is still ungraded
 
 
