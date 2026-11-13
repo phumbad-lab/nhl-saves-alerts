@@ -28,6 +28,15 @@
       "start": "2026-11-14T03:10:00Z",
       "text": "Hill (VGK) - NSH@VGK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388645940%232363912436_15L42133Q184490156Q20\u0004u23.5\u0005"
     },
+    "21cd36d8c877a851efe2016178ff0bd1|Juuse Saros": {
+      "lines": {
+        "DK": 26.5
+      },
+      "mid": 240,
+      "side": "UNDER",
+      "start": "2026-11-14T03:10:00Z",
+      "text": "Saros (NSH) - NSH@VGK 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388646092%232363910012_15L42133Q11150106798Q20\u0004u26.5\u0005"
+    },
     "2df93287814e2ffcbf1186e138b4a3d8|Ilya Sorokin": {
       "done": true,
       "lines": {
@@ -15222,6 +15231,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088252,
+  "tg_offset": 69088253,
   "watch": {}
 }
