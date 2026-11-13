@@ -10852,7 +10852,7 @@
       "status": "OUT"
     },
     "UTA:8477951": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-13T01:48:11Z",
       "seen": "2026-11-12T04:46:11Z",
       "status": "OUT"
