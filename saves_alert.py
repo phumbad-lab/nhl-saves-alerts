@@ -713,9 +713,23 @@ def target_tag(expected, point, delta, side=None, ctx=None, ln=None):
     code = tag_code(expected, point, delta)
     ln = ln or {}
     fire = " 🔥" if code in BET_SIDE and is_fire(code, expected, point, side, ctx) else ""
-    ou = (f" {link('O', ln.get('over_link'))}/{link('U', ln.get('under_link'))}"
+    ou = (f" {link('O', ln.get('over_link'))}{fav_juice(ln, 'over')}/{link('U', ln.get('under_link'))}{fav_juice(ln, 'under')}"
           if ln.get("over_link") or ln.get("under_link") else "")
     return (f" {TAG_LABELS[code]}" if code else "") + fire + ou
+
+
+def implied(price):
+    return None if price is None else (-price / (-price + 100) if price < 0 else 100 / (price + 100))
+
+
+def fav_juice(ln, side):
+    """Owner Nov 13: the price on the favored side only, after its O or U: 'O/U(-125)'.
+    Nothing when both sides are priced the same (e.g. -110/-110) or a price is missing."""
+    o, u = implied(ln.get("over")), implied(ln.get("under"))
+    if o is None or u is None or abs(o - u) < 1e-9:
+        return ""
+    fav = "over" if o > u else "under"
+    return f"({fmt_odds(ln[fav])})" if side == fav else ""
 
 
 # ---------- pick log & grading ----------
