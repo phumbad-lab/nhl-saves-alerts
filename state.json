@@ -10832,6 +10832,7 @@
     },
     "MIN:8478493": {
       "alerted": false,
+      "missing_since": "2026-11-13T03:20:17Z",
       "out_at": null,
       "seen": "2026-11-13T03:18:10Z",
       "status": "DTD"
