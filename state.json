@@ -11268,6 +11268,7 @@
     },
     "VAN:8480078": {
       "alerted": true,
+      "missing_since": "2026-11-13T23:00:25Z",
       "out_at": "2026-10-30T20:36:11Z",
       "player": {
         "first": "Filip",
