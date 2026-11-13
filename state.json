@@ -381,7 +381,7 @@
     }
   },
   "corrections_checked": "2026-11-12",
-  "credits_remaining": 18391,
+  "credits_remaining": 18390,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:10:00Z",
@@ -10830,6 +10830,12 @@
       "out_at": "2026-11-02T18:01:12Z",
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
+    },
+    "COL:8477492": {
+      "alerted": false,
+      "out_at": null,
+      "seen": "2026-11-13T02:08:11Z",
+      "status": "DTD"
     },
     "DAL:8480036": {
       "alerted": true,
