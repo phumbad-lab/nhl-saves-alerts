@@ -10854,6 +10854,8 @@
     "UTA:8477951": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-13T01:38:10Z",
       "seen": "2026-11-12T04:46:11Z",
       "status": "DTD"
     },
