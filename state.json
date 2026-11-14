@@ -14517,7 +14517,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.38,
-    "fetched": "2026-11-14T14:45:15Z",
+    "fetched": "2026-11-14T20:46:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.94736,
@@ -14581,7 +14581,7 @@
       },
       "nashvillepredators": {
         "sa": 29.65,
-        "sf": 26.3
+        "sf": 26.35
       },
       "newjerseydevils": {
         "sa": 24.95,
@@ -14593,7 +14593,7 @@
       },
       "newyorkrangers": {
         "sa": 26.47619,
-        "sf": 26.0
+        "sf": 25.95238
       },
       "ottawasenators": {
         "sa": 26.95,
@@ -14632,11 +14632,11 @@
         "sf": 29.2
       },
       "vancouvercanucks": {
-        "sa": 30.47619,
+        "sa": 30.42857,
         "sf": 22.04761
       },
       "vegasgoldenknights": {
-        "sa": 25.71428,
+        "sa": 25.7619,
         "sf": 29.14285
       },
       "washingtoncapitals": {
