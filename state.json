@@ -10,16 +10,6 @@
       "start": "2026-11-14T02:10:00Z",
       "text": "Merilainen (VAN) - NYR@VAN 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388646975%232363332463_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
-    "11f3c6f0f406c5ffb575dbcd671cf964|Jake Allen": {
-      "done": true,
-      "lines": {
-        "DK": 25.5
-      },
-      "mid": 201,
-      "side": "UNDER",
-      "start": "2026-11-11T00:10:00Z",
-      "text": "Allen (NJD) - NJD@WPG 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387623916%232358945628_15L42133Q1458571637Q20\u0004u25.5\u0005"
-    },
     "21cd36d8c877a851efe2016178ff0bd1|Adin Hill": {
       "done": true,
       "lines": {
@@ -59,16 +49,6 @@
       "side": "UNDER",
       "start": "2026-11-12T03:10:00Z",
       "text": "Annunen (NSH) - NSH@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387943519%232361157489_15L42133Q1-941301704Q20\u0004u27.5\u0005"
-    },
-    "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky": {
-      "done": true,
-      "lines": {
-        "DK": 28.5
-      },
-      "mid": 200,
-      "side": "UNDER",
-      "start": "2026-11-11T00:10:00Z",
-      "text": "Bobrovsky (TOR) - COL@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387623322%232359420755_15L42133Q1-245490255Q20\u0004u28.5\u0005"
     },
     "5a2820b80e20b69258bd5eb25c18eb78|Brandon Bussi": {
       "done": true,
@@ -140,16 +120,6 @@
       "start": "2026-11-13T00:09:00Z",
       "text": "Thompson (WSH) - WSH@NJD 7:09PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388724423%232362860528_15L42133Q11580205260Q20\u0004u29.5\u0005"
     },
-    "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
-      "done": true,
-      "lines": {
-        "FD": 22.5
-      },
-      "mid": 202,
-      "side": "OVER",
-      "start": "2026-11-11T01:10:00Z",
-      "text": "Gibson (DET) - DET@STL 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624338834&selectionId=76247482\u0004o22.5\u0005"
-    },
     "a837b9f2f6922e8208a6ccbb1534bb85|Jake Oettinger": {
       "done": true,
       "lines": {
@@ -159,6 +129,15 @@
       "side": "UNDER",
       "start": "2026-11-13T01:10:00Z",
       "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388374182%232362085955_15L42133Q1874096526Q20\u0004u22.5\u0005"
+    },
+    "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
+      "lines": {
+        "FD": 26.5
+      },
+      "mid": 247,
+      "side": "OVER",
+      "start": "2026-11-14T18:00:00Z",
+      "text": "Daccord (SEA) - SEA@CAR 1:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625391819&selectionId=74979817\u0004o26.5\u0005"
     },
     "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
       "done": true,
@@ -15039,6 +15018,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088253,
+  "tg_offset": 69088254,
   "watch": {}
 }
