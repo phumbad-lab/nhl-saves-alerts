@@ -656,46 +656,6 @@
       },
       "matchup": "New York Islanders @ Los Angeles Kings"
     },
-    "43a0ad5ba8bff6cdca19964348b53eff": {
-      "commence_time": "2026-11-12T03:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-12T02:40:15Z",
-      "lines": {
-        "draftkings": {
-          "Justus Annunen": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943519%232361157488_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943519%232361157489_15L42133Q1-941301704Q20"
-          },
-          "Laurent Brossoit": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943380%232361152894_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387943380%232361152895_15L42133Q1874096526Q20"
-          }
-        },
-        "fanduel": {
-          "Justus Annunen": {
-            "over": -130,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624762392&selectionId=75313419",
-            "point": 26.5,
-            "under": -102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624762392&selectionId=75313420"
-          },
-          "Laurent Brossoit": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624665068&selectionId=96409455",
-            "point": 22.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624665068&selectionId=96409454"
-          }
-        }
-      },
-      "matchup": "Nashville Predators @ Anaheim Ducks"
-    },
     "4d5a1a721175165a7fc09cc39fd19214": {
       "commence_time": "2026-11-15T03:10:00Z",
       "last_paid_check": null,
@@ -968,46 +928,6 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "New York Islanders @ Anaheim Ducks"
-    },
-    "e75aa3d5c3b4939e080de0739fc8196a": {
-      "commence_time": "2026-11-12T03:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-11T22:00:21Z",
-      "lines": {
-        "draftkings": {
-          "Sergei Murashov": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388376691%232361307346_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388376691%232361307347_15L42133Q1731448625Q20"
-          },
-          "Yaroslav Askarov": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387941803%232361308166_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387941803%232361308167_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Sergei Murashov": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004572",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004573"
-          },
-          "Yaroslav Askarov": {
-            "over": -120,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624668755&selectionId=77385758",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624668755&selectionId=77385757"
-          }
-        }
-      },
-      "matchup": "Pittsburgh Penguins @ San Jose Sharks"
     },
     "e7f30a1c549ae1d91aac850b81bad637": {
       "commence_time": "2026-11-15T02:10:00Z",
