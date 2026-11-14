@@ -438,7 +438,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18308,
+  "credits_remaining": 18306,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -737,7 +737,7 @@
     "624643d0e1445dfdb95d86127440548a": {
       "commence_time": "2026-11-15T00:20:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T16:08:10Z",
+      "last_paid_check": "2026-11-14T16:23:10Z",
       "lines": {
         "draftkings": {
           "Jakub Dobes": {
@@ -1085,8 +1085,19 @@
     },
     "f3b622fed365136e09be1f7b53052543": {
       "commence_time": "2026-11-15T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-14T16:23:10Z",
+      "lines": {
+        "fanduel": {
+          "Jet Greaves": {
+            "over": -120,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625452793&selectionId=77747671",
+            "point": 20.5,
+            "under": -110,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625452793&selectionId=77747672"
+          }
+        }
+      },
       "matchup": "Philadelphia Flyers @ Columbus Blue Jackets"
     },
     "fa960f164539f05a9e76c85f358b93a6": {
@@ -5719,8 +5730,15 @@
     ]
   },
   "h2h_CBJ-PHI": {
-    "fetched": "2026-10-27T14:45:17Z",
+    "fetched": "2026-11-14T16:23:10Z",
     "value": [
+      [
+        "2026-10-27",
+        "CBJ",
+        "PHI",
+        15,
+        32
+      ],
       [
         "2026-03-24",
         "CBJ",
@@ -5741,13 +5759,6 @@
         "CBJ",
         27,
         31
-      ],
-      [
-        "2025-04-15",
-        "CBJ",
-        "PHI",
-        34,
-        29
       ]
     ]
   },
@@ -13178,7 +13189,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-11-12T15:45:16Z",
+    "fetched": "2026-11-14T16:23:10Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -13295,7 +13306,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-11-11T16:35:13Z",
+    "fetched": "2026-11-14T16:23:10Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -13849,6 +13860,12 @@
       "book": null,
       "event_id": "fa960f164539f05a9e76c85f358b93a6",
       "goalie": "Charlie Lindgren"
+    },
+    "1532": {
+      "at": "2026-11-14T16:23:10Z",
+      "book": null,
+      "event_id": "f3b622fed365136e09be1f7b53052543",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
