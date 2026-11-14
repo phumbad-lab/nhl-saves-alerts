@@ -13968,24 +13968,6 @@
     ]
   },
   "sent": {
-    "1406": {
-      "at": "2026-11-11T22:00:21Z",
-      "book": "DK",
-      "event_id": "81ee484309522975fbb4df2f859fa136",
-      "goalie": "Sebastian Cossa"
-    },
-    "1407": {
-      "at": "2026-11-11T22:00:21Z",
-      "book": "DK",
-      "event_id": "e75aa3d5c3b4939e080de0739fc8196a",
-      "goalie": "Sergei Murashov"
-    },
-    "1408": {
-      "at": "2026-11-11T22:00:21Z",
-      "book": "DK",
-      "event_id": "e75aa3d5c3b4939e080de0739fc8196a",
-      "goalie": "Yaroslav Askarov"
-    },
     "1410": {
       "at": "2026-11-12T02:40:15Z",
       "book": "FD",
@@ -15833,7 +15815,7 @@
     ]
   },
   "skaters_LAK": {
-    "fetched": "2026-11-14T21:39:10Z",
+    "fetched": "2026-11-14T22:00:22Z",
     "value": [
       8470621,
       8474563,
