@@ -11230,6 +11230,7 @@
     },
     "MIN:8478493": {
       "alerted": false,
+      "missing_since": "2026-11-14T16:51:11Z",
       "out_at": null,
       "player": {
         "first": "Joel",
@@ -11246,6 +11247,7 @@
       "status": "DTD"
     },
     "MIN:8482122": {
+      "missing_since": "2026-11-14T16:51:11Z",
       "out_at": "2026-10-10T13:58:11Z",
       "player": {
         "first": "Brock",
