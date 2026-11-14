@@ -1,6 +1,7 @@
 {
   "channel_posts": {
     "069bea369487ef0cd3017c9ceea68817|Leevi Merilainen": {
+      "done": true,
       "lines": {
         "DK": 25.5
       },
@@ -201,6 +202,10 @@
     "05a8ed51399342594c33ae0faa0f9027|Pyotr Kochetkov": {
       "d": "2026-10-29",
       "r": "L"
+    },
+    "069bea369487ef0cd3017c9ceea68817|Leevi Merilainen": {
+      "d": "2026-11-13",
+      "r": "W"
     },
     "08d54b8e2b0d49e172fd8d2087576066|Spencer Knight": {
       "d": "2026-11-07",
@@ -12909,7 +12914,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-13": [
+      "069bea369487ef0cd3017c9ceea68817|Leevi Merilainen"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
