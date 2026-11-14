@@ -735,6 +735,12 @@
       },
       "matchup": "Calgary Flames @ Los Angeles Kings"
     },
+    "539a387d9fd0da9af213bf8002fdb0d4": {
+      "commence_time": "2026-11-16T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Calgary Flames @ Anaheim Ducks"
+    },
     "624643d0e1445dfdb95d86127440548a": {
       "commence_time": "2026-11-15T00:20:00Z",
       "h2h_sent": true,
@@ -1245,6 +1251,12 @@
         }
       },
       "matchup": "San Jose Sharks @ Utah Mammoth"
+    },
+    "edbb603c4a7ed77b892f7bba6dcef824": {
+      "commence_time": "2026-11-16T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Florida Panthers @ Dallas Stars"
     },
     "f269492a367221a7a50738844eda8469": {
       "commence_time": "2026-11-13T00:40:00Z",
@@ -13718,12 +13730,6 @@
     ]
   },
   "sent": {
-    "1397": {
-      "at": "2026-11-11T19:09:11Z",
-      "book": null,
-      "event_id": "81ee484309522975fbb4df2f859fa136",
-      "goalie": "Carter Hart"
-    },
     "1398": {
       "at": "2026-11-11T19:12:11Z",
       "book": null,
