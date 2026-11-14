@@ -11773,8 +11773,6 @@
     "MTL:8476875": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-14T23:44:10Z",
       "player": {
         "first": "Mike",
         "gp": 87,
