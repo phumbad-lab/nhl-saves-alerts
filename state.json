@@ -479,7 +479,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18206,
+  "credits_remaining": 18205,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1259,7 +1259,7 @@
     "ce4dd515ea49344d4707778f27669fec": {
       "commence_time": "2026-11-15T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T20:26:10Z",
+      "last_paid_check": "2026-11-14T20:42:11Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
@@ -15654,7 +15654,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-14T20:22:10Z",
+    "fetched": "2026-11-14T20:42:11Z",
     "value": [
       8470613,
       8475172,
