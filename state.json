@@ -474,7 +474,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18208,
+  "credits_remaining": 18207,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -15898,6 +15898,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088260,
+  "tg_offset": 69088261,
   "watch": {}
 }
