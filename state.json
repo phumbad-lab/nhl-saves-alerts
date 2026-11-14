@@ -167,6 +167,7 @@
       "text": "Skinner (WPG) - WPG@CHI 3:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625467181&selectionId=74079397\u0004o21.5\u0005"
     },
     "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
+      "done": true,
       "lines": {
         "FD": 27.5
       },
@@ -427,6 +428,10 @@
     "c8abddd6d4a9c96f45dcdd287f392537|Colten Ellis": {
       "d": "2026-10-29",
       "r": "L"
+    },
+    "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
+      "d": "2026-11-14",
+      "r": "W"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "d": "2026-10-26",
@@ -13640,7 +13645,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-14": [
+      "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
