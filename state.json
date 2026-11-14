@@ -130,15 +130,6 @@
       "start": "2026-11-13T01:10:00Z",
       "text": "Oettinger (DAL) - WPG@DAL 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388374182%232362085955_15L42133Q1874096526Q20\u0004u22.5\u0005"
     },
-    "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
-      "lines": {
-        "FD": 26.5
-      },
-      "mid": 247,
-      "side": "OVER",
-      "start": "2026-11-14T18:00:00Z",
-      "text": "Daccord (SEA) - SEA@CAR 1:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625391819&selectionId=74979817\u0004o26.5\u0005"
-    },
     "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
       "done": true,
       "lines": {
@@ -15018,6 +15009,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088254,
+  "tg_offset": 69088255,
   "watch": {}
 }
