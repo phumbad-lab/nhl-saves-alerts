@@ -100,6 +100,15 @@
       "start": "2026-11-12T02:10:00Z",
       "text": "Vladar (PHI) - PHI@EDM 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843678\u0004u25.5\u0005"
     },
+    "7f07a205e325038963274f255cb856cc|Anthony Stolarz": {
+      "lines": {
+        "DK": 26.5
+      },
+      "mid": 251,
+      "side": "UNDER",
+      "start": "2026-11-15T00:10:00Z",
+      "text": "Stolarz (TOR) - EDM@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389185763%232365145232_15L42133Q11150106798Q20\u0004u26.5\u0005"
+    },
     "8b83d890c678327027f602ee80fe58cb|Connor Hellebuyck": {
       "done": true,
       "lines": {
@@ -15880,6 +15889,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088258,
+  "tg_offset": 69088259,
   "watch": {}
 }
