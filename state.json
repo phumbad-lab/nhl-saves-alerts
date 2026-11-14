@@ -429,7 +429,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18334,
+  "credits_remaining": 18333,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -813,9 +813,16 @@
     "9df5283f800c7d4c2d0bd38b7c5f4846": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T14:08:10Z",
+      "last_paid_check": "2026-11-14T14:23:11Z",
       "lines": {
         "fanduel": {
+          "Andrei Vasilevskiy": {
+            "over": 100,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625415867&selectionId=74932792",
+            "point": 22.5,
+            "under": -132,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625415867&selectionId=74932793"
+          },
           "Daniil Tarasov": {
             "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625415006&selectionId=74979849",
@@ -13609,6 +13616,12 @@
       "book": null,
       "event_id": "9df5283f800c7d4c2d0bd38b7c5f4846",
       "goalie": "Daniil Tarasov"
+    },
+    "1521": {
+      "at": "2026-11-14T14:23:11Z",
+      "book": null,
+      "event_id": "9df5283f800c7d4c2d0bd38b7c5f4846",
+      "goalie": "Andrei Vasilevskiy"
     }
   },
   "shot_stats": {
@@ -14714,7 +14727,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8474150,
       8476456,
@@ -14742,7 +14755,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8474013,
       8474141,
@@ -14769,7 +14782,7 @@
     ]
   },
   "skaters_DAL": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8473994,
       8474102,
@@ -14796,7 +14809,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8473419,
       8474189,
@@ -14824,7 +14837,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8473422,
       8474567,
@@ -14850,7 +14863,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8471215,
       8471675,
@@ -14879,7 +14892,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8474586,
       8476457,
@@ -14910,7 +14923,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-14T14:03:10Z",
+    "fetched": "2026-11-14T14:23:11Z",
     "value": [
       8475314,
       8476389,
