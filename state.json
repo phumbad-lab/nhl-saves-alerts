@@ -794,46 +794,6 @@
       "lines": {},
       "matchup": "Florida Panthers @ St Louis Blues"
     },
-    "78267bbb84304764c453515236c3ccce": {
-      "commence_time": "2026-11-12T02:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-11T17:52:14Z",
-      "lines": {
-        "draftkings": {
-          "Devon Levi": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA387942244%232361046230_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA387942244%232361046231_15L42133Q1888607062Q20"
-          },
-          "Tristan Jarry": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388306821%232361065474_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388306821%232361065475_15L42133Q1888607062Q20"
-          }
-        },
-        "fanduel": {
-          "Dan Vladar": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843681",
-            "point": 25.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843678"
-          },
-          "Tristan Jarry": {
-            "over": -136,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624626604&selectionId=74843127",
-            "point": 20.5,
-            "under": 102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624626604&selectionId=74843126"
-          }
-        }
-      },
-      "matchup": "Philadelphia Flyers @ Edmonton Oilers"
-    },
     "7f07a205e325038963274f255cb856cc": {
       "commence_time": "2026-11-15T00:10:00Z",
       "last_paid_check": null,
