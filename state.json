@@ -515,7 +515,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18203,
+  "credits_remaining": 18202,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -798,7 +798,7 @@
     "4d5a1a721175165a7fc09cc39fd19214": {
       "commence_time": "2026-11-15T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T20:47:13Z",
+      "last_paid_check": "2026-11-14T21:03:10Z",
       "lines": {
         "draftkings": {
           "Anton Forsberg": {
@@ -818,11 +818,18 @@
         },
         "fanduel": {
           "Anton Forsberg": {
-            "over": -108,
+            "over": -110,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625506136&selectionId=75038726",
             "point": 22.5,
-            "under": -122,
+            "under": -120,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625506136&selectionId=75038727"
+          },
+          "Dustin Wolf": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625535448&selectionId=74079401",
+            "point": 25.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625535448&selectionId=74079383"
           }
         }
       },
@@ -14565,6 +14572,12 @@
       "book": null,
       "event_id": "4d5a1a721175165a7fc09cc39fd19214",
       "goalie": "Dustin Wolf"
+    },
+    "1589": {
+      "at": "2026-11-14T21:03:10Z",
+      "book": "FD",
+      "event_id": "4d5a1a721175165a7fc09cc39fd19214",
+      "goalie": "Dustin Wolf"
     }
   },
   "shot_stats": {
@@ -15725,7 +15738,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-14T20:42:11Z",
+    "fetched": "2026-11-14T21:03:10Z",
     "value": [
       8470613,
       8475172,
