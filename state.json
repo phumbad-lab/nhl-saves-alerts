@@ -438,7 +438,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18288,
+  "credits_remaining": 18286,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -818,8 +818,35 @@
     },
     "77dfcbc978ae3818dc04d2434342bc48": {
       "commence_time": "2026-11-15T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-14T17:01:10Z",
+      "lines": {
+        "draftkings": {
+          "Jacob Markstrom": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389003374%232365191690_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389003374%232365191691_15L42133Q184490156Q20"
+          }
+        },
+        "fanduel": {
+          "Jacob Markstrom": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462118&selectionId=74591079",
+            "point": 21.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462118&selectionId=74591081"
+          },
+          "Joel Hofer": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462114&selectionId=74882014",
+            "point": 23.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462114&selectionId=74882015"
+          }
+        }
+      },
       "matchup": "Florida Panthers @ St Louis Blues"
     },
     "7f07a205e325038963274f255cb856cc": {
@@ -850,8 +877,19 @@
     },
     "7f213f5d9c0852282bcf4d2c8c2bae9b": {
       "commence_time": "2026-11-15T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-14T17:01:10Z",
+      "lines": {
+        "fanduel": {
+          "Jake Oettinger": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462159&selectionId=74880669",
+            "point": 20.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462159&selectionId=74880671"
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ Dallas Stars"
     },
     "89806a3740a856eb0cb991e427d5dcfa": {
@@ -3479,7 +3517,7 @@
     ]
   },
   "gl_8473419": {
-    "fetched": "2026-11-12T15:54:13Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       "2026-10-04",
       "2026-10-06"
@@ -3701,7 +3739,7 @@
     ]
   },
   "gl_8480036": {
-    "fetched": "2026-11-12T16:45:06Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       "2026-10-02",
       "2026-10-03",
@@ -4841,8 +4879,15 @@
     ]
   },
   "h2h_BUF-DAL": {
-    "fetched": "2026-10-08T17:50:16Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
+      [
+        "2026-10-08",
+        "DAL",
+        "BUF",
+        18,
+        26
+      ],
       [
         "2026-04-15",
         "DAL",
@@ -4863,13 +4908,6 @@
         "DAL",
         23,
         33
-      ],
-      [
-        "2024-10-22",
-        "DAL",
-        "BUF",
-        30,
-        25
       ]
     ]
   },
@@ -8038,6 +8076,39 @@
         "SEA",
         33,
         18
+      ]
+    ]
+  },
+  "h2h_FLA-STL": {
+    "fetched": "2026-11-14T17:01:10Z",
+    "value": [
+      [
+        "2026-01-29",
+        "FLA",
+        "STL",
+        20,
+        31
+      ],
+      [
+        "2025-12-20",
+        "STL",
+        "FLA",
+        32,
+        29
+      ],
+      [
+        "2025-02-06",
+        "FLA",
+        "STL",
+        34,
+        22
+      ],
+      [
+        "2024-12-20",
+        "STL",
+        "FLA",
+        27,
+        27
       ]
     ]
   },
@@ -13244,7 +13315,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-11-12T19:42:10Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -13287,7 +13358,7 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-11-12T16:45:06Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       "Casey DeSmith",
       "Jake Oettinger",
@@ -13310,7 +13381,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-11-12T15:54:13Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       "Jacob Markstrom",
       "Akira Schmid"
@@ -13404,7 +13475,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-11-12T17:55:12Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -13972,6 +14043,24 @@
       "book": "DK",
       "event_id": "9df5283f800c7d4c2d0bd38b7c5f4846",
       "goalie": "Andrei Vasilevskiy"
+    },
+    "1541": {
+      "at": "2026-11-14T17:01:10Z",
+      "book": null,
+      "event_id": "77dfcbc978ae3818dc04d2434342bc48",
+      "goalie": "Jacob Markstrom"
+    },
+    "1542": {
+      "at": "2026-11-14T17:01:10Z",
+      "book": null,
+      "event_id": "77dfcbc978ae3818dc04d2434342bc48",
+      "goalie": "Joel Hofer"
+    },
+    "1543": {
+      "at": "2026-11-14T17:01:10Z",
+      "book": null,
+      "event_id": "7f213f5d9c0852282bcf4d2c8c2bae9b",
+      "goalie": "Jake Oettinger"
     }
   },
   "shot_stats": {
@@ -15326,7 +15415,7 @@
     ]
   },
   "skaters_VGK": {
-    "fetched": "2026-11-14T11:00:25Z",
+    "fetched": "2026-11-14T17:01:10Z",
     "value": [
       8475188,
       8475343,
