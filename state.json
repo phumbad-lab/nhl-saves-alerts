@@ -11771,7 +11771,7 @@
       "status": "OUT"
     },
     "MTL:8476875": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-14T23:52:10Z",
       "player": {
         "first": "Mike",
