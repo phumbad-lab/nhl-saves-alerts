@@ -11333,6 +11333,8 @@
     "COL:8480069": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-14T17:51:09Z",
       "player": {
         "first": "Cale",
         "gp": 94,
