@@ -438,7 +438,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18278,
+  "credits_remaining": 18275,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -603,15 +603,22 @@
     "20f100d5b4c8ce5d8c868f34ea7bddbf": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T17:04:10Z",
+      "last_paid_check": "2026-11-14T17:19:10Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365127940_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365127941_15L42133Q11150106798Q20"
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365132749_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365132750_15L42133Q1458571637Q20"
+          },
+          "Jesper Wallstedt": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388907606%232363681531_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388907606%232363681540_15L42133Q1874096526Q20"
           }
         },
         "fanduel": {
@@ -866,7 +873,7 @@
     "7f07a205e325038963274f255cb856cc": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T17:04:10Z",
+      "last_paid_check": "2026-11-14T17:19:10Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
@@ -879,10 +886,10 @@
         },
         "fanduel": {
           "Anthony Stolarz": {
-            "over": -125,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441823&selectionId=74842534",
             "point": 26.5,
-            "under": -106,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441823&selectionId=74842533"
           },
           "Devon Levi": {
@@ -1269,7 +1276,7 @@
     "fa960f164539f05a9e76c85f358b93a6": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T17:04:10Z",
+      "last_paid_check": "2026-11-14T17:19:10Z",
       "lines": {
         "fanduel": {
           "Charlie Lindgren": {
@@ -14174,6 +14181,12 @@
       "book": "DK",
       "event_id": "7f213f5d9c0852282bcf4d2c8c2bae9b",
       "goalie": "Jake Oettinger"
+    },
+    "1551": {
+      "at": "2026-11-14T17:19:10Z",
+      "book": null,
+      "event_id": "20f100d5b4c8ce5d8c868f34ea7bddbf",
+      "goalie": "Jesper Wallstedt"
     }
   },
   "shot_stats": {
