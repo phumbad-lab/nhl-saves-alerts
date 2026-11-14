@@ -99,6 +99,15 @@
       "start": "2026-11-13T02:10:00Z",
       "text": "Vejmelka (UTA) - STL@UTA 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624941027&selectionId=75028426\u0004o21.5\u0005"
     },
+    "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer": {
+      "lines": {
+        "FD": 23.5
+      },
+      "mid": 255,
+      "side": "OVER",
+      "start": "2026-11-15T00:10:00Z",
+      "text": "Hofer (STL) - FLA@STL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462114&selectionId=74882014\u0004o23.5\u0005"
+    },
     "78267bbb84304764c453515236c3ccce|Dan Vladar": {
       "done": true,
       "lines": {
@@ -15971,6 +15980,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088263,
+  "tg_offset": 69088264,
   "watch": {}
 }
