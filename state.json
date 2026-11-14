@@ -11550,7 +11550,7 @@
       "status": "OUT"
     },
     "UTA:8477951": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-14T18:58:12Z",
       "player": {
         "first": "Nick",
