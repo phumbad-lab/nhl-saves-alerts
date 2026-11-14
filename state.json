@@ -474,7 +474,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18207,
+  "credits_remaining": 18206,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -789,7 +789,7 @@
     "624643d0e1445dfdb95d86127440548a": {
       "commence_time": "2026-11-15T00:20:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T17:24:11Z",
+      "last_paid_check": "2026-11-14T20:40:15Z",
       "lines": {
         "draftkings": {
           "Jakub Dobes": {
@@ -800,26 +800,26 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389189674%232365209687_15L42133Q1731448625Q20"
           },
           "Mackenzie Blackwood": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389004992%232364824254_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389004992%232364824255_15L42133Q184490156Q20"
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389004992%232364824930_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389004992%232364824931_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
           "Jakub Dobes": {
-            "over": -108,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625442947&selectionId=78840903",
-            "point": 25.5,
-            "under": -122,
+            "point": 24.5,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625442947&selectionId=78840902"
           },
           "Mackenzie Blackwood": {
-            "over": -122,
+            "over": -125,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625468596&selectionId=74101473",
             "point": 23.5,
-            "under": -108,
+            "under": -106,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625468596&selectionId=74101476"
           }
         }
@@ -3822,6 +3822,31 @@
       "2026-10-29"
     ]
   },
+  "gl_8477492": {
+    "fetched": "2026-11-14T20:40:15Z",
+    "value": [
+      "2026-09-30",
+      "2026-10-03",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-23",
+      "2026-10-25",
+      "2026-10-28",
+      "2026-10-31",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-12"
+    ]
+  },
   "gl_8477504": {
     "fetched": "2026-11-10T15:29:11Z",
     "value": [
@@ -3988,6 +4013,30 @@
       "2026-10-29",
       "2026-10-31",
       "2026-11-03"
+    ]
+  },
+  "gl_8480069": {
+    "fetched": "2026-11-14T20:40:15Z",
+    "value": [
+      "2026-09-30",
+      "2026-10-03",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-23",
+      "2026-10-25",
+      "2026-10-28",
+      "2026-10-31",
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-12"
     ]
   },
   "gl_8480078": {
@@ -14430,6 +14479,12 @@
       "book": "DK",
       "event_id": "ce4dd515ea49344d4707778f27669fec",
       "goalie": "Semyon Varlamov"
+    },
+    "1582": {
+      "at": "2026-11-14T20:40:15Z",
+      "book": null,
+      "event_id": "624643d0e1445dfdb95d86127440548a",
+      "goalie": "Jakub Dobes"
     }
   },
   "shot_stats": {
@@ -15898,6 +15953,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088261,
+  "tg_offset": 69088262,
   "watch": {}
 }
