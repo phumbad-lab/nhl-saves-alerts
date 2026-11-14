@@ -438,7 +438,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18306,
+  "credits_remaining": 18303,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -483,11 +483,20 @@
     "13ccf67b4b7c472d4e05fdda2b440b42": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T16:10:19Z",
+      "last_paid_check": "2026-11-14T16:26:11Z",
       "lines": {
+        "draftkings": {
+          "Sergei Murashov": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389112153%232364782204_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389112153%232364782205_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
           "Linus Ullmark": {
-            "over": -128,
+            "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625447083&selectionId=74880127",
             "point": 22.5,
             "under": -102,
@@ -891,7 +900,7 @@
     "9df5283f800c7d4c2d0bd38b7c5f4846": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T16:10:19Z",
+      "last_paid_check": "2026-11-14T16:26:11Z",
       "lines": {
         "fanduel": {
           "Andrei Vasilevskiy": {
@@ -1001,15 +1010,22 @@
     "ccdee466b63a2accb1d804d5ca9e4bdc": {
       "commence_time": "2026-11-14T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T16:10:19Z",
+      "last_paid_check": "2026-11-14T16:26:11Z",
       "lines": {
         "draftkings": {
           "Joey Daccord": {
-            "over": -115,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388906003%232365090949_13L42133Q11884129982Q20",
             "point": 27.5,
             "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388906003%232365090950_15L42133Q1-941301704Q20"
+          },
+          "Pyotr Kochetkov": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388906058%232364780343_13L42133Q1980555505Q20",
+            "point": 19.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388906058%232364780344_15L42133Q1-767247327Q20"
           }
         },
         "fanduel": {
@@ -13866,6 +13882,18 @@
       "book": null,
       "event_id": "f3b622fed365136e09be1f7b53052543",
       "goalie": "Jet Greaves"
+    },
+    "1533": {
+      "at": "2026-11-14T16:26:11Z",
+      "book": "DK",
+      "event_id": "ccdee466b63a2accb1d804d5ca9e4bdc",
+      "goalie": "Pyotr Kochetkov"
+    },
+    "1534": {
+      "at": "2026-11-14T16:26:11Z",
+      "book": "DK",
+      "event_id": "13ccf67b4b7c472d4e05fdda2b440b42",
+      "goalie": "Sergei Murashov"
     }
   },
   "shot_stats": {
@@ -14971,7 +14999,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8474150,
       8476456,
@@ -14999,7 +15027,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8474013,
       8474141,
@@ -15026,7 +15054,7 @@
     ]
   },
   "skaters_DAL": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8473994,
       8474102,
@@ -15053,7 +15081,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8473419,
       8474189,
@@ -15081,7 +15109,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8473422,
       8474567,
@@ -15107,7 +15135,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8471215,
       8471675,
@@ -15135,7 +15163,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8474586,
       8476457,
@@ -15156,7 +15184,6 @@
       8482858,
       8482866,
       8482874,
-      8483012,
       8483442,
       8483497,
       8483570,
@@ -15166,7 +15193,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-14T16:05:14Z",
+    "fetched": "2026-11-14T16:26:11Z",
     "value": [
       8475314,
       8476389,
