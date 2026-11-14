@@ -515,7 +515,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18197,
+  "credits_remaining": 18196,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1309,7 +1309,7 @@
     "ce4dd515ea49344d4707778f27669fec": {
       "commence_time": "2026-11-15T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T22:18:11Z",
+      "last_paid_check": "2026-11-14T22:34:11Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
@@ -15678,7 +15678,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-14T22:13:16Z",
+    "fetched": "2026-11-14T22:34:11Z",
     "value": [
       8474150,
       8476456,
@@ -15760,7 +15760,7 @@
     ]
   },
   "skaters_DAL": {
-    "fetched": "2026-11-14T22:13:16Z",
+    "fetched": "2026-11-14T22:34:11Z",
     "value": [
       8473994,
       8474102,
@@ -15787,7 +15787,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-14T22:13:16Z",
+    "fetched": "2026-11-14T22:34:11Z",
     "value": [
       8473419,
       8474189,
@@ -15867,7 +15867,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-14T22:13:16Z",
+    "fetched": "2026-11-14T22:34:11Z",
     "value": [
       8471215,
       8471675,
@@ -15925,7 +15925,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-14T22:13:16Z",
+    "fetched": "2026-11-14T22:34:11Z",
     "value": [
       8475314,
       8476389,
