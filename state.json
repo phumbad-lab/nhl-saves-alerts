@@ -438,7 +438,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18311,
+  "credits_remaining": 18309,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -587,23 +587,23 @@
     "20f100d5b4c8ce5d8c868f34ea7bddbf": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T16:00:23Z",
+      "last_paid_check": "2026-11-14T16:16:11Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365127940_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365127941_15L42133Q11150106798Q20"
+            "over": -135,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365132749_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": 100,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365132750_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
           "Jeremy Swayman": {
-            "over": -104,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441729&selectionId=74879760",
-            "point": 26.5,
-            "under": -128,
+            "point": 25.5,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441729&selectionId=74879759"
           }
         }
@@ -809,14 +809,14 @@
     "7f07a205e325038963274f255cb856cc": {
       "commence_time": "2026-11-15T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T16:00:23Z",
+      "last_paid_check": "2026-11-14T16:16:11Z",
       "lines": {
         "fanduel": {
           "Anthony Stolarz": {
-            "over": -128,
+            "over": -125,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441823&selectionId=74842534",
             "point": 26.5,
-            "under": -104,
+            "under": -106,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441823&selectionId=74842533"
           }
         }
