@@ -11296,6 +11296,8 @@
     "COL:8477492": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-14T17:12:11Z",
       "player": {
         "first": "Nathan",
         "gp": 100,
