@@ -204,6 +204,15 @@
       "start": "2026-11-12T03:10:00Z",
       "text": "Murashov (PIT) - PIT@SJS 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004572\u0004o22.5\u0005"
     },
+    "e7f30a1c549ae1d91aac850b81bad637|Yaroslav Askarov": {
+      "lines": {
+        "FD": 27.5
+      },
+      "mid": 257,
+      "side": "UNDER",
+      "start": "2026-11-15T02:10:00Z",
+      "text": "Askarov (SJS) - SJS@UTA 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625497847&selectionId=77385757\u0004u27.5\u0005"
+    },
     "f269492a367221a7a50738844eda8469|Akira Schmid": {
       "done": true,
       "lines": {
@@ -16024,6 +16033,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088265,
+  "tg_offset": 69088266,
   "watch": {}
 }
