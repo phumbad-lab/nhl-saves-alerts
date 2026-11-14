@@ -214,6 +214,15 @@
       "start": "2026-11-13T00:40:00Z",
       "text": "Schmid (FLA) - DET@FLA 7:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624910282&selectionId=82335730\u0004o23.5\u0005"
     },
+    "f3b622fed365136e09be1f7b53052543|Jet Greaves": {
+      "lines": {
+        "FD": 20.5
+      },
+      "mid": 256,
+      "side": "OVER",
+      "start": "2026-11-15T00:10:00Z",
+      "text": "Greaves (CBJ) - PHI@CBJ 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625452793&selectionId=77747671\u0004o20.5\u0005"
+    },
     "fe4c6dbd3b40768336356b2a02966544|Anthony Stolarz": {
       "done": true,
       "lines": {
@@ -16015,6 +16024,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088264,
+  "tg_offset": 69088265,
   "watch": {}
 }
