@@ -70,6 +70,15 @@
       "start": "2026-11-12T17:00:00Z",
       "text": "Grubauer (SEA) - CAR@SEA 12:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624869983&selectionId=74802625\u0004o26.5\u0005"
     },
+    "624643d0e1445dfdb95d86127440548a|Jakub Dobes": {
+      "lines": {
+        "FD": 24.5
+      },
+      "mid": 254,
+      "side": "OVER",
+      "start": "2026-11-15T00:20:00Z",
+      "text": "Dobes (MTL) - COL@MTL 7:20PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625442947&selectionId=78840903\u0004o24.5\u0005"
+    },
     "7785f669a86814b552e0979e06e4d202|Joel Hofer": {
       "done": true,
       "lines": {
@@ -15962,6 +15971,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088262,
+  "tg_offset": 69088263,
   "watch": {}
 }
