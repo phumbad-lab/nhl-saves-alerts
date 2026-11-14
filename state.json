@@ -109,6 +109,15 @@
       "start": "2026-11-15T00:10:00Z",
       "text": "Stolarz (TOR) - EDM@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389185763%232365145232_15L42133Q11150106798Q20\u0004u26.5\u0005"
     },
+    "7f07a205e325038963274f255cb856cc|Devon Levi": {
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 252,
+      "side": "OVER",
+      "start": "2026-11-15T00:10:00Z",
+      "text": "Levi (EDM) - EDM@TOR 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625463619&selectionId=74676067\u0004o22.5\u0005"
+    },
     "8b83d890c678327027f602ee80fe58cb|Connor Hellebuyck": {
       "done": true,
       "lines": {
@@ -15889,6 +15898,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088259,
+  "tg_offset": 69088260,
   "watch": {}
 }
