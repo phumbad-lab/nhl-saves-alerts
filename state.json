@@ -444,7 +444,7 @@
     }
   },
   "corrections_checked": "2026-11-13",
-  "credits_remaining": 18361,
+  "credits_remaining": 18360,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -13229,12 +13229,6 @@
     ]
   },
   "sent": {
-    "1375": {
-      "at": "2026-11-11T03:06:10Z",
-      "book": "FD",
-      "event_id": "e71ce66a01d66fc935632b206d2dedbd",
-      "goalie": "Juuse Saros"
-    },
     "1379": {
       "at": "2026-11-11T15:30:22Z",
       "book": null,
