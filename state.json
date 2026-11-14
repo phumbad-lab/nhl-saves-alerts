@@ -438,7 +438,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18264,
+  "credits_remaining": 18263,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -11332,9 +11332,7 @@
     },
     "COL:8480069": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-14T17:51:09Z",
+      "out_at": "2026-11-14T17:56:12Z",
       "player": {
         "first": "Cale",
         "gp": 94,
@@ -11347,7 +11345,7 @@
         "toi": 24.4
       },
       "seen": "2026-11-13T02:18:10Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "DAL:8480036": {
       "alerted": true,
