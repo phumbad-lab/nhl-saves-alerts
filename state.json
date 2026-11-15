@@ -1006,46 +1006,6 @@
       },
       "matchup": "Detroit Red Wings @ Tampa Bay Lightning"
     },
-    "a25eef409ec7d9f7e872d37603bb0243": {
-      "commence_time": "2026-11-13T01:09:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-12T23:20:15Z",
-      "lines": {
-        "draftkings": {
-          "Alex Lyon": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388695380%232362711794_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388695380%232362711795_15L42133Q184490156Q20"
-          },
-          "Spencer Knight": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388361887%232362631153_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388361887%232362631154_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Alex Lyon": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624998495&selectionId=75038974",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624998495&selectionId=75038973"
-          },
-          "Spencer Knight": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624963089&selectionId=74973970",
-            "point": 24.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624963089&selectionId=74973969"
-          }
-        }
-      },
-      "matchup": "Buffalo Sabres @ Chicago Blackhawks"
-    },
     "a837b9f2f6922e8208a6ccbb1534bb85": {
       "commence_time": "2026-11-13T01:10:00Z",
       "h2h_sent": true,
