@@ -14286,7 +14286,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.38,
-    "fetched": "2026-11-14T20:46:10Z",
+    "fetched": "2026-11-15T02:46:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.94736,
@@ -14305,12 +14305,12 @@
         "sf": 27.57894
       },
       "carolinahurricanes": {
-        "sa": 21.95,
-        "sf": 33.1
+        "sa": 21.5238,
+        "sf": 33.28571
       },
       "chicagoblackhawks": {
-        "sa": 30.26315,
-        "sf": 23.05263
+        "sa": 30.3,
+        "sf": 22.95
       },
       "coloradoavalanche": {
         "sa": 27.35,
@@ -14381,8 +14381,8 @@
         "sf": 28.09523
       },
       "seattlekraken": {
-        "sa": 30.17647,
-        "sf": 24.88235
+        "sa": 30.55555,
+        "sf": 24.22222
       },
       "stlouisblues": {
         "sa": 28.89473,
@@ -14413,11 +14413,11 @@
         "sf": 27.17647
       },
       "winnipegjets": {
-        "sa": 28.45,
-        "sf": 27.6
+        "sa": 28.09523,
+        "sf": 27.7619
       }
     },
-    "save_pct": 0.8858,
+    "save_pct": 0.8856,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
