@@ -2328,7 +2328,10 @@ def channel_added(state, event_id, goalie, book, now):
                                 "text": to_html(text), "parse_mode": "HTML",
                                 "disable_web_page_preview": "true"})
     name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
-    send_push("", f"{name} {channel_alt_text(alt, side)} now up", chat_id=ch["id"], reply_to=post["mid"])
+    mine = f"{first['book']} {side[0].lower()}{float(first['taken_line']):g}"
+    # Owner Nov 15: '... now up 👉 in at DK u20.5' so followers see the original play.
+    send_push("", f"{name} {channel_alt_text(alt, side)} now up 👉 in at {mine}",
+              chat_id=ch["id"], reply_to=post["mid"])
     post["alt"] = {short: alt["point"]}
     post["text"] = text
 
