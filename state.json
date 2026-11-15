@@ -120,6 +120,7 @@
       "text": "Vladar (PHI) - PHI@EDM 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843678\u0004u25.5\u0005"
     },
     "7f07a205e325038963274f255cb856cc|Anthony Stolarz": {
+      "done": true,
       "lines": {
         "DK": 26.5
       },
@@ -129,6 +130,7 @@
       "text": "Stolarz (TOR) - EDM@TOR 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389185763%232365145232_15L42133Q11150106798Q20\u0004u26.5\u0005"
     },
     "7f07a205e325038963274f255cb856cc|Devon Levi": {
+      "done": true,
       "lines": {
         "FD": 22.5
       },
@@ -416,6 +418,14 @@
     "7da8a99a4ae4ef2ec08b3e4fa37c2485|Tristan Jarry": {
       "d": "2026-10-31",
       "r": "W"
+    },
+    "7f07a205e325038963274f255cb856cc|Anthony Stolarz": {
+      "d": "2026-11-14",
+      "r": "W"
+    },
+    "7f07a205e325038963274f255cb856cc|Devon Levi": {
+      "d": "2026-11-14",
+      "r": "L"
     },
     "875368ed11228a45263f84f54223e264|Pyotr Kochetkov": {
       "d": "2026-11-01",
@@ -13428,7 +13438,9 @@
       "c3f43b11aaf8ba26496727f557330d72|Stuart Skinner",
       "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov",
       "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer",
-      "f3b622fed365136e09be1f7b53052543|Jet Greaves"
+      "f3b622fed365136e09be1f7b53052543|Jet Greaves",
+      "7f07a205e325038963274f255cb856cc|Anthony Stolarz",
+      "7f07a205e325038963274f255cb856cc|Devon Levi"
     ]
   },
   "picks_channel": {
