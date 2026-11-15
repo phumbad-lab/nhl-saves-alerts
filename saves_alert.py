@@ -2345,8 +2345,11 @@ def channel_added(state, event_id, goalie, book, now):
     name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
     mine = f"{first['book']} {side[0].lower()}{float(first['taken_line']):g}"
     # Owner Nov 15: '... now up 👉 in at DK u20.5' so followers see the original play.
-    send_push("", f"{name} {channel_alt_text(alt, side)} now up 👉 in at {mine}",
-              chat_id=ch["id"], reply_to=post["mid"])
+    # Only when the new number is better (🍀); otherwise the post is just quietly updated
+    # (owner Nov 15, Saros: the second ping for a worse number was confusing).
+    if alt["lucky"]:
+        send_push("", f"{name} {channel_alt_text(alt, side)} now up 👉 in at {mine}",
+                  chat_id=ch["id"], reply_to=post["mid"])
     post["alt"] = {short: alt["point"]}
     post["text"] = text
 
