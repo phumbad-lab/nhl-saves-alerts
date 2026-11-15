@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-15",
-  "credits_remaining": 18128,
+  "credits_remaining": 18126,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -759,8 +759,26 @@
     },
     "539a387d9fd0da9af213bf8002fdb0d4": {
       "commence_time": "2026-11-16T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-15T14:05:12Z",
+      "lines": {
+        "fanduel": {
+          "Devin Cooley": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700800&selectionId=89998349",
+            "point": 27.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700800&selectionId=89998348"
+          },
+          "Ville Husso": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700798&selectionId=74880559",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700798&selectionId=74880558"
+          }
+        }
+      },
       "matchup": "Calgary Flames @ Anaheim Ducks"
     },
     "624643d0e1445dfdb95d86127440548a": {
@@ -1091,8 +1109,26 @@
     },
     "d2834086e817eeb75c1ea2cd312f62c5": {
       "commence_time": "2026-11-16T00:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-15T14:05:12Z",
+      "lines": {
+        "fanduel": {
+          "Dan Vladar": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700611&selectionId=74843681",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700611&selectionId=74843678"
+          },
+          "Tristan Jarry": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700651&selectionId=74843127",
+            "point": 22.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700651&selectionId=74843126"
+          }
+        }
+      },
       "matchup": "Edmonton Oilers @ Philadelphia Flyers"
     },
     "e52a5926735bcff42d3d0ce052a21938": {
@@ -3916,7 +3952,7 @@
     ]
   },
   "gl_8480860": {
-    "fetched": "2026-11-14T18:59:14Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4122,8 +4158,15 @@
     ]
   },
   "h2h_ANA-CGY": {
-    "fetched": "2026-11-06T16:29:10Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
+      [
+        "2026-11-06",
+        "ANA",
+        "CGY",
+        29,
+        21
+      ],
       [
         "2026-10-13",
         "CGY",
@@ -4144,13 +4187,6 @@
         "ANA",
         20,
         39
-      ],
-      [
-        "2026-03-26",
-        "ANA",
-        "CGY",
-        33,
-        25
       ]
     ]
   },
@@ -7950,8 +7986,15 @@
     ]
   },
   "h2h_EDM-PHI": {
-    "fetched": "2026-11-11T16:35:13Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
+      [
+        "2026-11-11",
+        "PHI",
+        "EDM",
+        33,
+        24
+      ],
       [
         "2026-01-03",
         "PHI",
@@ -7972,13 +8015,6 @@
         "PHI",
         18,
         32
-      ],
-      [
-        "2024-10-15",
-        "PHI",
-        "EDM",
-        30,
-        31
       ]
     ]
   },
@@ -13528,7 +13564,7 @@
     "title": "TheSaveMan"
   },
   "roster_ANA": {
-    "fetched": "2026-11-14T19:39:09Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
       "Laurent Brossoit",
       "Lukas Dostal",
@@ -13565,7 +13601,7 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-11-14T18:59:14Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
       "Devin Cooley",
       "Dustin Wolf"
@@ -13601,7 +13637,7 @@
     ]
   },
   "roster_EDM": {
-    "fetched": "2026-11-14T15:45:15Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
       "Frederik Andersen",
       "Tristan Jarry",
@@ -13675,7 +13711,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-11-14T16:23:10Z",
+    "fetched": "2026-11-15T14:05:12Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -14361,6 +14397,30 @@
       "book": "DK",
       "event_id": "ce4dd515ea49344d4707778f27669fec",
       "goalie": "Lukas Dostal"
+    },
+    "1603": {
+      "at": "2026-11-15T14:05:12Z",
+      "book": null,
+      "event_id": "d2834086e817eeb75c1ea2cd312f62c5",
+      "goalie": "Dan Vladar"
+    },
+    "1604": {
+      "at": "2026-11-15T14:05:12Z",
+      "book": null,
+      "event_id": "d2834086e817eeb75c1ea2cd312f62c5",
+      "goalie": "Tristan Jarry"
+    },
+    "1605": {
+      "at": "2026-11-15T14:05:12Z",
+      "book": null,
+      "event_id": "539a387d9fd0da9af213bf8002fdb0d4",
+      "goalie": "Devin Cooley"
+    },
+    "1606": {
+      "at": "2026-11-15T14:05:12Z",
+      "book": null,
+      "event_id": "539a387d9fd0da9af213bf8002fdb0d4",
+      "goalie": "Ville Husso"
     }
   },
   "shot_stats": {
