@@ -2220,13 +2220,36 @@ def channel_book_parts(lines, side):
     return " · ".join(parts)
 
 
-def channel_post_text(state, first, goalie, lines, side):
+def channel_alt(state, event_id, goalie, first, side):
+    """Owner Nov 15: the other book's number shows again, marked like his own '(FD added)'
+    nudge: 'FD u24.5 🍀' (🍀 = better for his side than the line he took). Snapshot when posted;
+    None until that book has the goalie."""
+    rec = state["events"].get(event_id, {})
+    for full, short in BOOK_SHORT.items():
+        if short == first["book"]:
+            continue
+        ln = rec.get("lines", {}).get(full, {}).get(goalie) or {}
+        if ln.get("point") is None:
+            continue
+        pt, mine = float(ln["point"]), float(first["taken_line"])
+        lucky = pt > mine if side == "UNDER" else pt < mine
+        return {"book": short, "point": pt, "url": ln.get(side.lower() + "_link"), "lucky": lucky}
+    return None
+
+
+def channel_alt_text(alt, side):
+    play = f"{side[0].lower()}{alt['point']:g}"
+    return f"{alt['book']} {link(play, alt.get('url'))}{' 🍀' if alt['lucky'] else ''}"
+
+
+def channel_post_text(state, first, goalie, lines, side, alt=None):
     abbrevs = (state.get("team_abbrevs") or {}).get("value") or {}
     away = abbrevs.get(team_key(first["away_team"])) or nickname(first["away_team"])
     home = abbrevs.get(team_key(first["home_team"])) or nickname(first["home_team"])
     name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
     return (f"{name} - {away}@{home} {fmt_time(first['commence_time'])}\n"
-            + channel_book_parts(lines, side))
+            + channel_book_parts(lines, side)
+            + (f"\n{channel_alt_text(alt, side)}" if alt else ""))
 
 
 def channel_sync(state, rows, now):
@@ -2266,11 +2289,13 @@ def channel_sync(state, rows, now):
                             save_picks(rows)
             except Exception as e:
                 print(f"Couldn't re-check odds for the channel post ({e}).")
-        text = channel_post_text(state, first, goalie, lines, side)
+        alt = channel_alt(state, event_id, goalie, first, side)
+        text = channel_post_text(state, first, goalie, lines, side, alt)
         mid = send_push("", text, chat_id=ch["id"])
         if mid:
             posts[key] = {"mid": mid, "side": side, "start": first["commence_time"], "text": text,
-                          "lines": {b: v["point"] for b, v in lines.items()}}
+                          "lines": {b: v["point"] for b, v in lines.items()},  # his line: graded
+                          "alt": {alt["book"]: alt["point"]} if alt else {}}  # shown only
     for key, post in list(posts.items()):
         event_id, goalie = key.split("|", 1)
         if post.get("mid") and parse_iso(post["start"]) > now and not any(
@@ -2282,28 +2307,30 @@ def channel_sync(state, rows, now):
 
 
 def channel_added(state, event_id, goalie, book, now):
-    """The other book just posted a goalie you're in on: fill in the channel post and ping:
-    'Markstrom (FLA) u24.5 now on FD' (owner Oct 18). Before puck drop only."""
+    """The other book just posted a goalie you're in on (owner Nov 15, back again): add its
+    number to the channel post, marked like your own nudge, and reply
+    'Markstrom (FLA) FD u24.5 🍀 now up'. Your line stays the play that's graded. Before puck drop."""
     ch = state.get("picks_channel")
     post = (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
     short = BOOK_SHORT.get(book, book)
-    if not (ch and post and post.get("mid")) or short in post["lines"] or parse_iso(post["start"]) <= now:
+    if (not (ch and post and post.get("mid")) or short in post.get("lines", {}) or post.get("alt")
+            or parse_iso(post["start"]) <= now):
         return
     rows = load_picks()
     lines, side, first = channel_lines(rows, state, event_id, goalie)
-    if short not in lines:
+    if not first:
         return
-    text = channel_post_text(state, first, goalie, lines, side)
+    alt = channel_alt(state, event_id, goalie, first, side)
+    if not alt or alt["book"] != short:
+        return
+    text = channel_post_text(state, first, goalie, lines, side, alt)
     tg_call("editMessageText", {"chat_id": ch["id"], "message_id": post["mid"],
                                 "text": to_html(text), "parse_mode": "HTML",
                                 "disable_web_page_preview": "true"})
     name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
-    play = f"{side[0].lower()}{float(lines[short]['point']):g}"
-    send_push("", f"{name} {link(play, lines[short].get('url'))} now on {short}",
-              chat_id=ch["id"], reply_to=post["mid"])
-    post["lines"] = {b: v["point"] for b, v in lines.items()}
+    send_push("", f"{name} {channel_alt_text(alt, side)} now up", chat_id=ch["id"], reply_to=post["mid"])
+    post["alt"] = {short: alt["point"]}
     post["text"] = text
-
 
 def channel_result(state, rows, event_id, goalie, correction_from=None):
     """Reply to the play's post with the result at each book posted:
