@@ -74,7 +74,7 @@ PICK_FIELDS = ["date", "game", "goalie", "team", "book", "line", "over_odds", "u
                "taken", "taken_line", "taken_result", "taken_at",
                "key_out",
                "shadow_a_exp", "shadow_a_tag", "shadow_b_exp", "shadow_b_tag",
-               "matchup", "warn", "hr_l5", "play",
+               "matchup", "warn", "hr_l5", "play", "play_road",
                "taken_odds", "close_line", "close_odds"]  # 🎯 UNDER/OVER when both raw ranks are top/bottom MATCHUP_RANK (Oct 24)  # key players injured when the line was logged, e.g. "WSH:Ovechkin;NYR:"  # taken_* = bets you logged with "in"
 GRADE_AFTER_HOUR = 7  # grade yesterday's games once it's past 7 AM Eastern
 GOALIES_PER_GAME = 2
@@ -783,6 +783,10 @@ def log_picks(event, new_pairs, lines, m, sides, abbrevs, now, h2h=None, raw=Non
             "warn": rank_warning(event, side, ab, raw, m[side]["delta"] if (m and side) else None),
             "hr_l5": (lambda v: f"{v:.1f}" if v is not None else "")(venue_l5(games, ab, side)),
             "play": play_call(m[side] if (m and side) else None, ln, side) or "",
+            # paused road-OVER-tag under (Nov 15): would it have fired? logged for the re-check
+            "play_road": "1" if (m and side and side == "away" and not play_over(m[side], ln)
+                                 and play_under(m[side], ln, side, road=True)
+                                 and not play_under(m[side], ln, side, road=False)) else "",
         })
     save_picks(rows)
 
@@ -1383,7 +1387,11 @@ PLAY_UNDER_CUSHION = 2.0  # UNDER tag: line at least this many saves above expec
 PLAY_UNDER_MIN_PROB = 0.47  # skip when the book prices the under as an underdog (no-vig chance below this)
 
 
-def play_under(g, ln, side):
+PLAY_UNDER_ROAD = False  # owner Nov 15: road-OVER-tag ⬇️ paused (6-12 live Nov 6-14; 33-21 since Oct 21).
+                         # Still logged as picks.csv play_road=1 so it can be re-checked.
+
+
+def play_under(g, ln, side, road=None):
     """Owner's under playbook (Nov 6: "at the end of the alert just say (play the Under ⬇️)").
     Two spots, from the Nov 5 study (368 goalie-games):
       - road goalie with an OVER / LEAN OVER tag (under 27-9 since Oct 21; 8-13 Oct 7-20)
@@ -1393,7 +1401,8 @@ def play_under(g, ln, side):
         return False
     point = float(ln["point"])
     code = tag_code(g["saves"], point, g["delta"])
-    spot = ((side == "away" and code in ("OVER", "LEAN_OVER"))
+    road = PLAY_UNDER_ROAD if road is None else road
+    spot = ((road and side == "away" and code in ("OVER", "LEAN_OVER"))
             or (code == "UNDER" and point - g["saves"] >= PLAY_UNDER_CUSHION))
     if not spot:
         return False
@@ -1424,6 +1433,8 @@ def play_call(g, ln, side):
     """'UNDER', 'OVER' or None for one book's line. Both at once (rare: a road OVER tag on a low
     line) -> None, so the alert never contradicts itself."""
     u, o = play_under(g, ln, side), play_over(g, ln)
+    if o and not u and play_under(g, ln, side, road=True):
+        return None  # a road OVER tag on a low line: still no call while the road ⬇️ is paused
     return "UNDER" if u and not o else "OVER" if o and not u else None
 
 
