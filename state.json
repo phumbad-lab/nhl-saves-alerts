@@ -227,6 +227,7 @@
       "text": "Schmid (FLA) - DET@FLA 7:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624910282&selectionId=82335730\u0004o23.5\u0005"
     },
     "f3b622fed365136e09be1f7b53052543|Jet Greaves": {
+      "done": true,
       "lines": {
         "FD": 20.5
       },
@@ -506,6 +507,10 @@
     },
     "f27b209b3ed34a6dfb27f1670ffa514f|Stuart Skinner": {
       "d": "2026-10-29",
+      "r": "L"
+    },
+    "f3b622fed365136e09be1f7b53052543|Jet Greaves": {
+      "d": "2026-11-14",
       "r": "L"
     },
     "f7510932dec00855b611e3685080819c|Philipp Grubauer": {
@@ -13422,7 +13427,8 @@
       "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord",
       "c3f43b11aaf8ba26496727f557330d72|Stuart Skinner",
       "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov",
-      "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer"
+      "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer",
+      "f3b622fed365136e09be1f7b53052543|Jet Greaves"
     ]
   },
   "picks_channel": {
@@ -15374,7 +15380,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-15T02:19:10Z",
+    "fetched": "2026-11-15T02:39:11Z",
     "value": [
       8474150,
       8476456,
