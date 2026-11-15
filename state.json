@@ -208,6 +208,15 @@
       "start": "2026-11-15T02:10:00Z",
       "text": "Askarov (SJS) - SJS@UTA 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625497847&selectionId=77385757\u0004u27.5\u0005"
     },
+    "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith": {
+      "lines": {
+        "FD": 20.5
+      },
+      "mid": 271,
+      "side": "OVER",
+      "start": "2026-11-16T01:10:00Z",
+      "text": "DeSmith (DAL) - FLA@DAL 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700879&selectionId=69574675\u0004o20.5\u0005"
+    },
     "f269492a367221a7a50738844eda8469|Akira Schmid": {
       "done": true,
       "lines": {
@@ -15985,6 +15994,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088268,
+  "tg_offset": 69088269,
   "watch": {}
 }
