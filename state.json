@@ -211,6 +211,7 @@
       "text": "Murashov (PIT) - PIT@SJS 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004572\u0004o22.5\u0005"
     },
     "e7f30a1c549ae1d91aac850b81bad637|Yaroslav Askarov": {
+      "done": true,
       "lines": {
         "FD": 27.5
       },
@@ -506,6 +507,10 @@
     },
     "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
       "d": "2026-11-11",
+      "r": "W"
+    },
+    "e7f30a1c549ae1d91aac850b81bad637|Yaroslav Askarov": {
+      "d": "2026-11-14",
       "r": "W"
     },
     "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
@@ -11447,6 +11452,23 @@
       "seen": "2026-11-14T17:13:10Z",
       "status": "OUT"
     },
+    "NYI:8479378": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Logan",
+        "gp": 18,
+        "id": 8479378,
+        "last": "Stanley",
+        "pos": "D",
+        "role": "defense",
+        "shots": 8,
+        "sog": 0.4,
+        "toi": 21.4
+      },
+      "seen": "2026-11-15T05:43:00Z",
+      "status": "DTD"
+    },
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-22T14:16:11Z",
@@ -13415,7 +13437,8 @@
       "f3b622fed365136e09be1f7b53052543|Jet Greaves",
       "7f07a205e325038963274f255cb856cc|Anthony Stolarz",
       "7f07a205e325038963274f255cb856cc|Devon Levi",
-      "624643d0e1445dfdb95d86127440548a|Jakub Dobes"
+      "624643d0e1445dfdb95d86127440548a|Jakub Dobes",
+      "e7f30a1c549ae1d91aac850b81bad637|Yaroslav Askarov"
     ]
   },
   "picks_channel": {
@@ -15367,7 +15390,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-15T03:00:23Z",
+    "fetched": "2026-11-15T05:43:00Z",
     "value": [
       8474150,
       8476456,
@@ -15449,7 +15472,7 @@
     ]
   },
   "skaters_DAL": {
-    "fetched": "2026-11-15T00:58:11Z",
+    "fetched": "2026-11-15T05:43:00Z",
     "value": [
       8473994,
       8474102,
@@ -15478,7 +15501,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-14T23:56:11Z",
+    "fetched": "2026-11-15T05:43:00Z",
     "value": [
       8473419,
       8474189,
@@ -15698,7 +15721,7 @@
     ]
   },
   "skaters_VGK": {
-    "fetched": "2026-11-14T23:01:10Z",
+    "fetched": "2026-11-15T05:43:00Z",
     "value": [
       8475188,
       8475343,
