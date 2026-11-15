@@ -2343,7 +2343,7 @@ def channel_added(state, event_id, goalie, book, now):
         return
     head = channel_post_text(state, first, goalie, {}, side).split("\n")[0]
     mine = float(first["taken_line"])
-    line = channel_alt_text(alt, side)
+    line = channel_alt_text(alt, side) + " now up"  # owner Nov 15: likes "now up"; "in at" only if moved
     if alt["point"] != mine:
         line += f" 👉 in at {first['book']} {side[0].lower()}{mine:g}"
     if send_push("", f"{head}\n{line}", chat_id=ch["id"]):
