@@ -157,6 +157,7 @@
       "text": "Thompson (WSH) - WSH@NJD 7:09PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA388724423%232362860528_15L42133Q11580205260Q20\u0004u29.5\u0005"
     },
     "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov": {
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -428,6 +429,10 @@
     },
     "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
       "d": "2026-11-10",
+      "r": "W"
+    },
+    "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov": {
+      "d": "2026-11-14",
       "r": "W"
     },
     "a3c2f39dce2dbf9e8cb78acce24cd379|Yaroslav Askarov": {
@@ -13393,7 +13398,8 @@
   "night_graded": {
     "2026-11-14": [
       "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord",
-      "c3f43b11aaf8ba26496727f557330d72|Stuart Skinner"
+      "c3f43b11aaf8ba26496727f557330d72|Stuart Skinner",
+      "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov"
     ]
   },
   "picks_channel": {
