@@ -2322,9 +2322,12 @@ def channel_sync(state, rows, now):
 
 
 def channel_added(state, event_id, goalie, book, now):
-    """The other book just posted a goalie you're in on (owner Nov 15, back again): add its
-    number to the channel post, marked like your own nudge, and reply
-    'Markstrom (FLA) FD u24.5 🍀 now up'. Your line stays the play that's graded. Before puck drop."""
+    """The other book just posted a goalie you're in on: a NEW channel alert so followers can grab
+    it as it releases (owner Nov 15: "I don't want you to edit in line of a previous message. I want
+    you to alert the second book posting... No additional details for the same line, message if the
+    line has moved"). Same number: 'Saros (NSH) - NSH@SJS 9:10PM' / 'DK o23.5'. Moved:
+    'DK o24.5 👉 in at FD o23.5' (🍀 when better for your side). Your line is still the graded play.
+    Before puck drop only; once per post."""
     ch = state.get("picks_channel")
     post = (state.get("channel_posts") or {}).get(f"{event_id}|{goalie}")
     short = BOOK_SHORT.get(book, book)
@@ -2338,20 +2341,13 @@ def channel_added(state, event_id, goalie, book, now):
     alt = channel_alt(state, event_id, goalie, first, side)
     if not alt or alt["book"] != short:
         return
-    text = channel_post_text(state, first, goalie, lines, side, alt)
-    tg_call("editMessageText", {"chat_id": ch["id"], "message_id": post["mid"],
-                                "text": to_html(text), "parse_mode": "HTML",
-                                "disable_web_page_preview": "true"})
-    name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
-    mine = f"{first['book']} {side[0].lower()}{float(first['taken_line']):g}"
-    # Owner Nov 15: '... now up 👉 in at DK u20.5' so followers see the original play.
-    # Only when the new number is better (🍀); otherwise the post is just quietly updated
-    # (owner Nov 15, Saros: the second ping for a worse number was confusing).
-    if alt["lucky"]:
-        send_push("", f"{name} {channel_alt_text(alt, side)} now up 👉 in at {mine}",
-                  chat_id=ch["id"], reply_to=post["mid"])
-    post["alt"] = {short: alt["point"]}
-    post["text"] = text
+    head = channel_post_text(state, first, goalie, {}, side).split("\n")[0]
+    mine = float(first["taken_line"])
+    line = channel_alt_text(alt, side)
+    if alt["point"] != mine:
+        line += f" 👉 in at {first['book']} {side[0].lower()}{mine:g}"
+    if send_push("", f"{head}\n{line}", chat_id=ch["id"]):
+        post["alt"] = {short: alt["point"]}
 
 def channel_result(state, rows, event_id, goalie, correction_from=None):
     """Reply to the play's post with the result at each book posted:
