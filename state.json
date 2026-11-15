@@ -11795,6 +11795,8 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-11-14T23:52:10Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-15T18:55:13Z",
       "player": {
         "first": "Mike",
         "gp": 87,
@@ -14020,12 +14022,6 @@
     ]
   },
   "sent": {
-    "1449": {
-      "at": "2026-11-12T18:55:13Z",
-      "book": null,
-      "event_id": "2df93287814e2ffcbf1186e138b4a3d8",
-      "goalie": "Ilya Sorokin"
-    },
     "1450": {
       "at": "2026-11-12T18:58:11Z",
       "book": null,
