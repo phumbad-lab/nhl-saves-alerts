@@ -100,6 +100,7 @@
       "text": "Vejmelka (UTA) - STL@UTA 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624941027&selectionId=75028426\u0004o21.5\u0005"
     },
     "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer": {
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -393,6 +394,10 @@
     },
     "7785f669a86814b552e0979e06e4d202|Karel Vejmelka": {
       "d": "2026-11-12",
+      "r": "W"
+    },
+    "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer": {
+      "d": "2026-11-14",
       "r": "W"
     },
     "78267bbb84304764c453515236c3ccce|Dan Vladar": {
@@ -11487,6 +11492,23 @@
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
+    "STL:8481598": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Philip",
+        "gp": 100,
+        "id": 8481598,
+        "last": "Broberg",
+        "pos": "D",
+        "role": "defense",
+        "shots": 139,
+        "sog": 1.4,
+        "toi": 23.6
+      },
+      "seen": "2026-11-15T02:38:11Z",
+      "status": "DTD"
+    },
     "UTA:8477951": {
       "alerted": true,
       "out_at": "2026-11-14T18:58:12Z",
@@ -13399,7 +13421,8 @@
     "2026-11-14": [
       "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord",
       "c3f43b11aaf8ba26496727f557330d72|Stuart Skinner",
-      "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov"
+      "9df5283f800c7d4c2d0bd38b7c5f4846|Daniil Tarasov",
+      "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer"
     ]
   },
   "picks_channel": {
