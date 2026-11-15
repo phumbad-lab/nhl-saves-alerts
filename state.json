@@ -552,7 +552,7 @@
     }
   },
   "corrections_checked": "2026-11-15",
-  "credits_remaining": 18110,
+  "credits_remaining": 18109,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1140,7 +1140,7 @@
     "e52a5926735bcff42d3d0ce052a21938": {
       "commence_time": "2026-11-16T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-15T14:06:10Z",
+      "last_paid_check": "2026-11-15T16:10:19Z",
       "lines": {
         "fanduel": {
           "Alex Nedeljkovic": {
@@ -13865,12 +13865,6 @@
     ]
   },
   "sent": {
-    "1426": {
-      "at": "2026-11-12T16:10:18Z",
-      "book": "DK",
-      "event_id": "f269492a367221a7a50738844eda8469",
-      "goalie": "Akira Schmid"
-    },
     "1427": {
       "at": "2026-11-12T16:16:11Z",
       "book": "FD",
