@@ -13904,12 +13904,6 @@
     ]
   },
   "sent": {
-    "1441": {
-      "at": "2026-11-12T17:00:27Z",
-      "book": null,
-      "event_id": "fe4c6dbd3b40768336356b2a02966544",
-      "goalie": "Jesper Wallstedt"
-    },
     "1442": {
       "at": "2026-11-12T17:16:12Z",
       "book": null,
@@ -14502,7 +14496,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.36,
-    "fetched": "2026-11-15T11:00:22Z",
+    "fetched": "2026-11-15T17:01:09Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.85,
@@ -14510,7 +14504,7 @@
       },
       "bostonbruins": {
         "sa": 28.25,
-        "sf": 27.3
+        "sf": 27.35
       },
       "buffalosabres": {
         "sa": 26.9,
@@ -14534,7 +14528,7 @@
       },
       "columbusbluejackets": {
         "sa": 27.77777,
-        "sf": 27.0
+        "sf": 27.05555
       },
       "dallasstars": {
         "sa": 23.26315,
@@ -14549,7 +14543,7 @@
         "sf": 25.38095
       },
       "floridapanthers": {
-        "sa": 26.0,
+        "sa": 26.04761,
         "sf": 29.38095
       },
       "losangeleskings": {
@@ -14557,7 +14551,7 @@
         "sf": 28.16666
       },
       "minnesotawild": {
-        "sa": 26.13636,
+        "sa": 26.18181,
         "sf": 29.04545
       },
       "montrealcanadiens": {
@@ -14585,7 +14579,7 @@
         "sf": 26.14285
       },
       "philadelphiaflyers": {
-        "sa": 28.5,
+        "sa": 28.54545,
         "sf": 24.04545
       },
       "pittsburghpenguins": {
@@ -14602,7 +14596,7 @@
       },
       "stlouisblues": {
         "sa": 28.85,
-        "sf": 26.95
+        "sf": 27.0
       },
       "tampabaylightning": {
         "sa": 25.1,
@@ -15630,7 +15624,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-15T11:00:22Z",
+    "fetched": "2026-11-15T17:01:09Z",
     "value": [
       8474013,
       8474141,
@@ -15657,7 +15651,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-15T11:00:22Z",
+    "fetched": "2026-11-15T17:01:09Z",
     "value": [
       8470613,
       8475172,
@@ -15820,7 +15814,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-15T11:00:22Z",
+    "fetched": "2026-11-15T17:01:09Z",
     "value": [
       8471215,
       8471675,
@@ -15848,7 +15842,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-15T11:00:22Z",
+    "fetched": "2026-11-15T17:01:09Z",
     "value": [
       8474586,
       8476457,
@@ -15878,7 +15872,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-15T11:00:22Z",
+    "fetched": "2026-11-15T17:01:09Z",
     "value": [
       8475314,
       8476389,
