@@ -11615,8 +11615,6 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-14T19:36:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-15T14:24:11Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -11629,13 +11627,11 @@
         "toi": 21.0
       },
       "seen": "2026-11-14T19:36:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-11-14T23:52:10Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-15T14:24:11Z",
       "player": {
         "first": "Mike",
         "gp": 87,
@@ -11648,7 +11644,7 @@
         "toi": 24.1
       },
       "seen": "2026-11-14T17:13:10Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "NYI:8477500": {
       "alerted": false,
