@@ -544,7 +544,7 @@
     }
   },
   "corrections_checked": "2026-11-15",
-  "credits_remaining": 18092,
+  "credits_remaining": 18091,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1028,8 +1028,19 @@
     },
     "c4ac537963707b247ad9e4eab06c15de": {
       "commence_time": "2026-11-16T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-15T18:16:11Z",
+      "lines": {
+        "fanduel": {
+          "Kevin Lankinen": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923651",
+            "point": 25.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923650"
+          }
+        }
+      },
       "matchup": "Vancouver Canucks @ Vegas Golden Knights"
     },
     "ccdee466b63a2accb1d804d5ca9e4bdc": {
@@ -3851,7 +3862,7 @@
     ]
   },
   "gl_8478396": {
-    "fetched": "2026-11-13T19:13:18Z",
+    "fetched": "2026-11-15T18:16:11Z",
     "value": [
       "2026-09-29",
       "2026-10-02",
@@ -11525,6 +11536,39 @@
       ]
     ]
   },
+  "h2h_VAN-VGK": {
+    "fetched": "2026-11-15T18:16:11Z",
+    "value": [
+      [
+        "2026-10-04",
+        "VGK",
+        "VAN",
+        28,
+        20
+      ],
+      [
+        "2026-04-07",
+        "VGK",
+        "VAN",
+        29,
+        11
+      ],
+      [
+        "2026-03-30",
+        "VAN",
+        "VGK",
+        24,
+        34
+      ],
+      [
+        "2026-02-04",
+        "VAN",
+        "VGK",
+        23,
+        31
+      ]
+    ]
+  },
   "h2h_VAN-WPG": {
     "fetched": "2026-11-05T15:33:15Z",
     "value": [
@@ -13875,15 +13919,16 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-11-13T17:31:10Z",
+    "fetched": "2026-11-15T18:16:11Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
-      "Leevi Meril\u00e4inen"
+      "Leevi Meril\u00e4inen",
+      "Nikita Tolopilo"
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-11-13T19:13:18Z",
+    "fetched": "2026-11-15T18:16:11Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
@@ -14462,6 +14507,12 @@
       "book": "DK",
       "event_id": "e52a5926735bcff42d3d0ce052a21938",
       "goalie": "Alex Nedeljkovic"
+    },
+    "1621": {
+      "at": "2026-11-15T18:16:11Z",
+      "book": null,
+      "event_id": "c4ac537963707b247ad9e4eab06c15de",
+      "goalie": "Kevin Lankinen"
     }
   },
   "shot_stats": {
