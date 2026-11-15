@@ -40,15 +40,14 @@
       "start": "2026-11-13T03:10:00Z",
       "text": "Sorokin (NYI) - NYI@LAK 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624952520&selectionId=75039652\u0004o24.5\u0005"
     },
-    "43a0ad5ba8bff6cdca19964348b53eff|Justus Annunen": {
-      "done": true,
+    "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley": {
       "lines": {
-        "DK": 27.5
+        "FD": 27.5
       },
-      "mid": 209,
+      "mid": 269,
       "side": "UNDER",
-      "start": "2026-11-12T03:10:00Z",
-      "text": "Annunen (NSH) - NSH@ANA 10:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA387943519%232361157489_15L42133Q1-941301704Q20\u0004u27.5\u0005"
+      "start": "2026-11-16T01:10:00Z",
+      "text": "Cooley (CGY) - CGY@ANA 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700800&selectionId=89998348\u0004u27.5\u0005"
     },
     "5a2820b80e20b69258bd5eb25c18eb78|Brandon Bussi": {
       "done": true,
@@ -109,16 +108,6 @@
       "side": "OVER",
       "start": "2026-11-15T00:10:00Z",
       "text": "Hofer (STL) - FLA@STL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462114&selectionId=74882014\u0004o23.5\u0005"
-    },
-    "78267bbb84304764c453515236c3ccce|Dan Vladar": {
-      "done": true,
-      "lines": {
-        "FD": 25.5
-      },
-      "mid": 207,
-      "side": "UNDER",
-      "start": "2026-11-12T02:10:00Z",
-      "text": "Vladar (PHI) - PHI@EDM 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624650793&selectionId=74843678\u0004u25.5\u0005"
     },
     "7f07a205e325038963274f255cb856cc|Anthony Stolarz": {
       "done": true,
@@ -200,15 +189,14 @@
       "start": "2026-11-14T18:00:00Z",
       "text": "Daccord (SEA) - SEA@CAR 1:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625391819&selectionId=74979816\u0004u27.5\u0005"
     },
-    "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
-      "done": true,
+    "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar": {
       "lines": {
-        "FD": 22.5
+        "FD": 23.5
       },
-      "mid": 208,
-      "side": "OVER",
-      "start": "2026-11-12T03:10:00Z",
-      "text": "Murashov (PIT) - PIT@SJS 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624681749&selectionId=91004572\u0004o22.5\u0005"
+      "mid": 270,
+      "side": "UNDER",
+      "start": "2026-11-16T00:40:00Z",
+      "text": "Vladar (PHI) - EDM@PHI 7:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700611&selectionId=74843678\u0004u23.5\u0005"
     },
     "e7f30a1c549ae1d91aac850b81bad637|Yaroslav Askarov": {
       "done": true,
@@ -15997,6 +15985,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088266,
+  "tg_offset": 69088268,
   "watch": {}
 }
