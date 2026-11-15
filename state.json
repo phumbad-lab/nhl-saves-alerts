@@ -11793,7 +11793,7 @@
       "status": "DTD"
     },
     "MTL:8476875": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-15T19:00:20Z",
       "player": {
         "first": "Mike",
@@ -14020,12 +14020,6 @@
     ]
   },
   "sent": {
-    "1451": {
-      "at": "2026-11-12T19:06:11Z",
-      "book": "DK",
-      "event_id": "1837f2fc2df35820948cc5b686a6b12a",
-      "goalie": "Jacob Fowler"
-    },
     "1452": {
       "at": "2026-11-12T19:10:14Z",
       "book": null,
