@@ -520,7 +520,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18135,
+  "credits_remaining": 18134,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1055,14 +1055,14 @@
     "ce4dd515ea49344d4707778f27669fec": {
       "commence_time": "2026-11-15T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-15T02:12:10Z",
+      "last_paid_check": "2026-11-15T02:25:14Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
-            "over": -130,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389260309%232365417462_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": 100,
+            "under": -105,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389260309%232365417463_15L42133Q1731448625Q20"
           }
         },
