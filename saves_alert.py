@@ -1203,12 +1203,15 @@ def venue_l5(games, ab, side):
     return (sum(sf) / len(sf) + sum(sa) / len(sa)) / 2
 
 
-def venue_marker(games, ab, side, model_shots):
-    """' · 📍 H/R L5 28.4 shots → OVER' when the home/road last 5 is HR_L5_GAP+ shots off the model."""
+def venue_marker(games, ab, side, model_shots, sv=None):
+    """' · 📍 H/R L5 26.1 saves' when the home/road last 5 is HR_L5_GAP+ shots off the model.
+    Owner Nov 15 ("make this less confusing"): shown in saves (shots x the model's save rate),
+    no arrow; it used to read '29.5 shots → UNDER', where the arrow meant vs the model, not the
+    line. When it fires is unchanged."""
     v = venue_l5(games, ab, side)
     if v is None or model_shots is None or abs(v - model_shots) < HR_L5_GAP:
         return ""
-    return f" · 📍 H/R L5 {v:.1f} shots → {'OVER' if v > model_shots else 'UNDER'}"
+    return f" · 📍 H/R L5 {v * sv:.1f} saves" if sv else f" · 📍 H/R L5 {v:.1f} shots"
 
 
 MATCHUP_RANK = 10  # 🎯 = opponent shots-for AND own shots-against both in the top/bottom this many
@@ -1354,7 +1357,8 @@ def build_messages(event, new_pairs, current, m=None, sides=None, abbrevs=None, 
             out.append(f"{g['shots']:.1f} shots, {g['saves']:.1f} saves expected"
                        + (f" · 🎯 {mk.lower()} matchup" if mk else "")
                        + (f" · ⚠️ {warn}" if warn else "")
-                       + venue_marker(games, ab, side, g["shots"]))
+                       + venue_marker(games, ab, side, g["shots"],
+                                      g["saves"] / g["shots"] if g["shots"] else None))
         elif m:
             out.append(f"Expected saves: {ab['away']} goalie {m['away']['saves']:.1f} / "
                        f"{ab['home']} goalie {m['home']['saves']:.1f} (team unknown)")
