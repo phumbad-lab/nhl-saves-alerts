@@ -1060,6 +1060,12 @@
       "last_paid_check": "2026-11-15T18:31:11Z",
       "lines": {
         "draftkings": {
+          "Carter Hart": {
+            "manual": true,
+            "over": null,
+            "point": 17.5,
+            "under": null
+          },
           "Kevin Lankinen": {
             "over": 100,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389307380%232366850476_13L42133Q1-54034395Q20",
@@ -14569,6 +14575,12 @@
       "book": "DK",
       "event_id": "c4ac537963707b247ad9e4eab06c15de",
       "goalie": "Kevin Lankinen"
+    },
+    "1627": {
+      "at": "2026-11-15T18:36:11Z",
+      "book": null,
+      "event_id": "c4ac537963707b247ad9e4eab06c15de",
+      "goalie": "Carter Hart"
     }
   },
   "shot_stats": {
@@ -16066,6 +16078,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088272,
+  "tg_offset": 69088273,
   "watch": {}
 }
