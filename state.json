@@ -544,7 +544,7 @@
     }
   },
   "corrections_checked": "2026-11-15",
-  "credits_remaining": 18091,
+  "credits_remaining": 18090,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1166,7 +1166,7 @@
     "e52a5926735bcff42d3d0ce052a21938": {
       "commence_time": "2026-11-16T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-15T18:13:10Z",
+      "last_paid_check": "2026-11-15T18:28:11Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
@@ -1179,11 +1179,18 @@
         },
         "fanduel": {
           "Alex Nedeljkovic": {
-            "over": -114,
+            "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304747",
             "point": 24.5,
-            "under": -114,
+            "under": -108,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304746"
+          },
+          "Juuse Saros": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767990&selectionId=74973972",
+            "point": 23.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767990&selectionId=74973971"
           }
         }
       },
@@ -14513,6 +14520,12 @@
       "book": null,
       "event_id": "c4ac537963707b247ad9e4eab06c15de",
       "goalie": "Kevin Lankinen"
+    },
+    "1622": {
+      "at": "2026-11-15T18:28:11Z",
+      "book": null,
+      "event_id": "e52a5926735bcff42d3d0ce052a21938",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
