@@ -520,7 +520,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18179,
+  "credits_remaining": 18174,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -642,48 +642,8 @@
       },
       "matchup": "Montr\u00e9al Canadiens @ Boston Bruins"
     },
-    "206230c7db215749b099353074bb5c13": {
-      "commence_time": "2026-11-13T00:08:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-12T17:16:12Z",
-      "lines": {
-        "draftkings": {
-          "Linus Ullmark": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388588300%232362335267_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388588300%232362335268_15L42133Q1458571637Q20"
-          },
-          "Scott Wedgewood": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388631676%232362490600_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388631676%232362490601_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Linus Ullmark": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624916417&selectionId=74880127",
-            "point": 24.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624916417&selectionId=74880126"
-          },
-          "Scott Wedgewood": {
-            "over": -104,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624926440&selectionId=74880670",
-            "point": 24.5,
-            "under": -128,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.624926440&selectionId=74880668"
-          }
-        }
-      },
-      "matchup": "Colorado Avalanche @ Ottawa Senators"
-    },
     "20f100d5b4c8ce5d8c868f34ea7bddbf": {
-      "commence_time": "2026-11-15T00:10:00Z",
+      "commence_time": "2026-11-15T00:15:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-14T17:50:15Z",
       "lines": {
@@ -967,7 +927,7 @@
       "matchup": "Florida Panthers @ St Louis Blues"
     },
     "7f07a205e325038963274f255cb856cc": {
-      "commence_time": "2026-11-15T00:10:00Z",
+      "commence_time": "2026-11-15T00:15:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-14T19:08:10Z",
       "lines": {
@@ -1314,7 +1274,7 @@
     "ce4dd515ea49344d4707778f27669fec": {
       "commence_time": "2026-11-15T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-14T23:53:14Z",
+      "last_paid_check": "2026-11-15T00:08:14Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
@@ -15928,7 +15888,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-14T18:08:10Z",
+    "fetched": "2026-11-15T00:08:14Z",
     "value": [
       8474586,
       8476457,
