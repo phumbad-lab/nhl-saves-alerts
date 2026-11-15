@@ -11615,6 +11615,8 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-14T19:36:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-15T14:21:10Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -11632,6 +11634,8 @@
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-11-14T23:52:10Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-15T14:21:10Z",
       "player": {
         "first": "Mike",
         "gp": 87,
