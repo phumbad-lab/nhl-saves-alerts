@@ -578,7 +578,7 @@
     }
   },
   "corrections_checked": "2026-11-15",
-  "credits_remaining": 18078,
+  "credits_remaining": 18077,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1069,7 +1069,7 @@
     "c4ac537963707b247ad9e4eab06c15de": {
       "commence_time": "2026-11-16T02:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-15T20:58:11Z",
+      "last_paid_check": "2026-11-15T21:14:12Z",
       "lines": {
         "draftkings": {
           "Carter Hart": {
@@ -15634,7 +15634,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-15T20:53:10Z",
+    "fetched": "2026-11-15T21:14:12Z",
     "value": [
       8474150,
       8476456,
@@ -15716,7 +15716,7 @@
     ]
   },
   "skaters_DAL": {
-    "fetched": "2026-11-15T20:53:10Z",
+    "fetched": "2026-11-15T21:14:12Z",
     "value": [
       8473994,
       8474102,
@@ -15745,7 +15745,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-15T20:53:10Z",
+    "fetched": "2026-11-15T21:14:12Z",
     "value": [
       8473419,
       8474189,
@@ -15966,7 +15966,7 @@
     ]
   },
   "skaters_VGK": {
-    "fetched": "2026-11-15T20:53:10Z",
+    "fetched": "2026-11-15T21:14:12Z",
     "value": [
       8475188,
       8475343,
