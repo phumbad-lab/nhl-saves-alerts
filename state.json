@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-15",
-  "credits_remaining": 18126,
+  "credits_remaining": 18124,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -1133,8 +1133,19 @@
     },
     "e52a5926735bcff42d3d0ce052a21938": {
       "commence_time": "2026-11-16T02:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-15T14:06:10Z",
+      "lines": {
+        "fanduel": {
+          "Alex Nedeljkovic": {
+            "over": -108,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304747",
+            "point": 24.5,
+            "under": -122,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304746"
+          }
+        }
+      },
       "matchup": "Nashville Predators @ San Jose Sharks"
     },
     "e7f30a1c549ae1d91aac850b81bad637": {
@@ -1179,8 +1190,26 @@
     },
     "edbb603c4a7ed77b892f7bba6dcef824": {
       "commence_time": "2026-11-16T01:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-15T14:06:10Z",
+      "lines": {
+        "fanduel": {
+          "Akira Schmid": {
+            "over": -104,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700849&selectionId=82335730",
+            "point": 23.5,
+            "under": -128,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700849&selectionId=82335729"
+          },
+          "Casey DeSmith": {
+            "over": -132,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700879&selectionId=69574675",
+            "point": 20.5,
+            "under": 100,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700879&selectionId=69574674"
+          }
+        }
+      },
       "matchup": "Florida Panthers @ Dallas Stars"
     },
     "f3b622fed365136e09be1f7b53052543": {
@@ -3616,7 +3645,7 @@
     ]
   },
   "gl_8473419": {
-    "fetched": "2026-11-14T17:01:10Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       "2026-10-04",
       "2026-10-06"
@@ -3885,7 +3914,7 @@
     ]
   },
   "gl_8480036": {
-    "fetched": "2026-11-14T17:01:10Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       "2026-10-02",
       "2026-10-03",
@@ -7226,6 +7255,39 @@
       ]
     ]
   },
+  "h2h_DAL-FLA": {
+    "fetched": "2026-11-15T14:06:10Z",
+    "value": [
+      [
+        "2025-12-13",
+        "FLA",
+        "DAL",
+        23,
+        15
+      ],
+      [
+        "2025-11-01",
+        "DAL",
+        "FLA",
+        22,
+        28
+      ],
+      [
+        "2024-11-02",
+        "DAL",
+        "FLA",
+        25,
+        25
+      ],
+      [
+        "2024-11-01",
+        "FLA",
+        "DAL",
+        28,
+        36
+      ]
+    ]
+  },
   "h2h_DAL-MTL": {
     "fetched": "2026-10-29T16:44:11Z",
     "value": [
@@ -9768,8 +9830,15 @@
     ]
   },
   "h2h_NSH-SJS": {
-    "fetched": "2026-10-15T17:07:12Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
+      [
+        "2026-10-15",
+        "SJS",
+        "NSH",
+        32,
+        34
+      ],
       [
         "2026-04-13",
         "SJS",
@@ -9790,13 +9859,6 @@
         "NSH",
         30,
         19
-      ],
-      [
-        "2025-03-11",
-        "NSH",
-        "SJS",
-        19,
-        27
       ]
     ]
   },
@@ -13622,11 +13684,10 @@
     ]
   },
   "roster_DAL": {
-    "fetched": "2026-11-14T17:01:10Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       "Casey DeSmith",
-      "Jake Oettinger",
-      "R\u00e9mi Poirier"
+      "Jake Oettinger"
     ]
   },
   "roster_DET": {
@@ -13645,7 +13706,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-11-14T17:01:10Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       "Jacob Markstrom",
       "Akira Schmid"
@@ -13682,7 +13743,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-11-13T19:13:18Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
@@ -13732,7 +13793,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-11-14T18:36:10Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -14421,6 +14482,24 @@
       "book": null,
       "event_id": "539a387d9fd0da9af213bf8002fdb0d4",
       "goalie": "Ville Husso"
+    },
+    "1607": {
+      "at": "2026-11-15T14:06:10Z",
+      "book": null,
+      "event_id": "edbb603c4a7ed77b892f7bba6dcef824",
+      "goalie": "Akira Schmid"
+    },
+    "1608": {
+      "at": "2026-11-15T14:06:10Z",
+      "book": null,
+      "event_id": "edbb603c4a7ed77b892f7bba6dcef824",
+      "goalie": "Casey DeSmith"
+    },
+    "1609": {
+      "at": "2026-11-15T14:06:10Z",
+      "book": null,
+      "event_id": "e52a5926735bcff42d3d0ce052a21938",
+      "goalie": "Alex Nedeljkovic"
     }
   },
   "shot_stats": {
@@ -15526,7 +15605,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-15T13:45:14Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       8474150,
       8476456,
@@ -15608,7 +15687,7 @@
     ]
   },
   "skaters_DAL": {
-    "fetched": "2026-11-15T13:45:14Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       8473994,
       8474102,
@@ -15637,7 +15716,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-15T13:45:14Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       8473419,
       8474189,
@@ -15857,7 +15936,7 @@
     ]
   },
   "skaters_VGK": {
-    "fetched": "2026-11-15T13:45:14Z",
+    "fetched": "2026-11-15T14:06:10Z",
     "value": [
       8475188,
       8475343,
