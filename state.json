@@ -520,7 +520,7 @@
     }
   },
   "corrections_checked": "2026-11-14",
-  "credits_remaining": 18144,
+  "credits_remaining": 18143,
   "events": {
     "069bea369487ef0cd3017c9ceea68817": {
       "commence_time": "2026-11-14T02:15:00Z",
@@ -15524,7 +15524,7 @@
     ]
   },
   "skaters_LAK": {
-    "fetched": "2026-11-15T01:45:16Z",
+    "fetched": "2026-11-15T02:06:10Z",
     "value": [
       8470621,
       8474563,
