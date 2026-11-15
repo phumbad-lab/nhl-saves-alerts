@@ -159,6 +159,18 @@
       "start": "2026-11-14T20:40:00Z",
       "text": "Skinner (WPG) - WPG@CHI 3:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625467181&selectionId=74079397\u0004o21.5\u0005"
     },
+    "c4ac537963707b247ad9e4eab06c15de|Kevin Lankinen": {
+      "alt": {
+        "DK": 26.5
+      },
+      "lines": {
+        "FD": 25.5
+      },
+      "mid": 273,
+      "side": "OVER",
+      "start": "2026-11-16T02:10:00Z",
+      "text": "Lankinen (VAN) - VAN@VGK 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923651\u0004o25.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389307380%232366850476_13L42133Q1-54034395Q20\u0004o26.5\u0005"
+    },
     "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
       "done": true,
       "lines": {
@@ -189,6 +201,16 @@
       "side": "OVER",
       "start": "2026-11-16T02:10:00Z",
       "text": "Nedeljkovic (SJS) - NSH@SJS 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304747\u0004o24.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389295836%232366832576_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
+    },
+    "e52a5926735bcff42d3d0ce052a21938|Juuse Saros": {
+      "alt": {},
+      "lines": {
+        "FD": 23.5
+      },
+      "mid": 274,
+      "side": "OVER",
+      "start": "2026-11-16T02:10:00Z",
+      "text": "Saros (NSH) - NSH@SJS 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767990&selectionId=74973972\u0004o23.5\u0005"
     },
     "e7f30a1c549ae1d91aac850b81bad637|Yaroslav Askarov": {
       "done": true,
@@ -16044,6 +16066,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088270,
+  "tg_offset": 69088272,
   "watch": {}
 }
