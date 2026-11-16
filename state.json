@@ -41,6 +41,7 @@
       "text": "Sorokin (NYI) - NYI@LAK 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.624952520&selectionId=75039652\u0004o24.5\u0005"
     },
     "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley": {
+      "done": true,
       "lines": {
         "FD": 27.5
       },
@@ -373,6 +374,10 @@
     },
     "4b59901ec085a0f20022fc14ffa1ba6c|Karel Vejmelka": {
       "d": "2026-11-01",
+      "r": "L"
+    },
+    "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley": {
+      "d": "2026-11-15",
       "r": "L"
     },
     "54a0d86217b79fbc969d6fca0e1564e8|Sergei Bobrovsky": {
@@ -13722,7 +13727,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-15": [
-      "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar"
+      "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar",
+      "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley"
     ]
   },
   "picks_channel": {
