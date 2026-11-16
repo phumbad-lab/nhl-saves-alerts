@@ -11890,24 +11890,6 @@
       "seen": "2026-11-14T17:13:10Z",
       "status": "OUT"
     },
-    "NYI:8477500": {
-      "alerted": false,
-      "missing_since": "2026-11-16T18:19:22Z",
-      "out_at": null,
-      "player": {
-        "first": "Bo",
-        "gp": 87,
-        "id": 8477500,
-        "last": "Horvat",
-        "pos": "C",
-        "role": "shooter",
-        "shots": 287,
-        "sog": 3.3,
-        "toi": 20.9
-      },
-      "seen": "2026-11-15T11:00:22Z",
-      "status": "DTD"
-    },
     "NYI:8479378": {
       "alerted": false,
       "out_at": null,
