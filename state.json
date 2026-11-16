@@ -283,7 +283,7 @@
       "text": "Stolarz (TOR) - MIN@TOR 7:10PM\nFD u26.5"
     }
   },
-  "channel_recap_sent": "2026-11-15",
+  "channel_recap_sent": "2026-11-16",
   "channel_record": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
       "d": "2026-10-30",
@@ -610,7 +610,7 @@
       "r": "W"
     }
   },
-  "corrections_checked": "2026-11-15",
+  "corrections_checked": "2026-11-16",
   "credits_remaining": 18020,
   "events": {
     "13ccf67b4b7c472d4e05fdda2b440b42": {
@@ -13782,17 +13782,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-15": [
-      "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar",
-      "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley",
-      "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith",
-      "e52a5926735bcff42d3d0ce052a21938|Alex Nedeljkovic",
-      "e52a5926735bcff42d3d0ce052a21938|Juuse Saros",
-      "c4ac537963707b247ad9e4eab06c15de|Carter Hart",
-      "c4ac537963707b247ad9e4eab06c15de|Kevin Lankinen"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
@@ -15826,7 +15816,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-16T11:39:15Z",
+    "fetched": "2026-11-16T12:00:22Z",
     "value": [
       8475184,
       8476479,
@@ -15913,7 +15903,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-16T11:39:15Z",
+    "fetched": "2026-11-16T12:00:22Z",
     "value": [
       8475314,
       8476389,
