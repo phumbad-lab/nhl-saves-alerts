@@ -543,7 +543,7 @@
     }
   },
   "corrections_checked": "2026-11-16",
-  "credits_remaining": 18006,
+  "credits_remaining": 18005,
   "events": {
     "03ad7eb1b11b6d15943b734624469fdf": {
       "commence_time": "2026-11-18T00:10:00Z",
@@ -1322,7 +1322,7 @@
     "f5973475196770206d4e81300ca54634": {
       "commence_time": "2026-11-17T02:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-16T19:44:10Z",
+      "last_paid_check": "2026-11-16T19:59:17Z",
       "lines": {
         "draftkings": {
           "Karel Vejmelka": {
