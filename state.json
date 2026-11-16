@@ -208,6 +208,7 @@
       "alt": {
         "DK": 24.5
       },
+      "done": true,
       "lines": {
         "FD": 24.5
       },
@@ -220,6 +221,7 @@
       "alt": {
         "DK": 24.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -540,6 +542,14 @@
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "d": "2026-10-26",
       "r": "W"
+    },
+    "e52a5926735bcff42d3d0ce052a21938|Alex Nedeljkovic": {
+      "d": "2026-11-15",
+      "r": "W"
+    },
+    "e52a5926735bcff42d3d0ce052a21938|Juuse Saros": {
+      "d": "2026-11-15",
+      "r": "L"
     },
     "e75aa3d5c3b4939e080de0739fc8196a|Sergei Murashov": {
       "d": "2026-11-11",
@@ -13734,7 +13744,9 @@
     "2026-11-15": [
       "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar",
       "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley",
-      "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith"
+      "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith",
+      "e52a5926735bcff42d3d0ce052a21938|Alex Nedeljkovic",
+      "e52a5926735bcff42d3d0ce052a21938|Juuse Saros"
     ]
   },
   "picks_channel": {
