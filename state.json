@@ -213,6 +213,16 @@
       "side": "OVER",
       "start": "2026-11-17T02:30:00Z",
       "text": "Vejmelka (UTA) - VAN@UTA 9:30PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389554944%232368011309_13L42133Q1-1959669843Q20\u0004o18.5\u0005"
+    },
+    "f5973475196770206d4e81300ca54634|Nikita Tolopilo": {
+      "alt": {},
+      "lines": {
+        "FD": 25.5
+      },
+      "mid": 290,
+      "side": "OVER",
+      "start": "2026-11-17T02:30:00Z",
+      "text": "Tolopilo (VAN) - VAN@UTA 9:30PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626087783&selectionId=82559767\u0004o25.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-16",
@@ -16056,6 +16066,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088275,
+  "tg_offset": 69088276,
   "watch": {}
 }
