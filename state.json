@@ -194,6 +194,7 @@
       "text": "Daccord (SEA) - SEA@CAR 1:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625391819&selectionId=74979816\u0004u27.5\u0005"
     },
     "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar": {
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -524,6 +525,10 @@
     },
     "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
       "d": "2026-11-14",
+      "r": "W"
+    },
+    "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar": {
+      "d": "2026-11-15",
       "r": "W"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
@@ -13715,7 +13720,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-15": [
+      "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
