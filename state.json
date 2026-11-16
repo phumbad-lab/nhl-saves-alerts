@@ -815,6 +815,12 @@
       },
       "matchup": "Colorado Avalanche @ Montr\u00e9al Canadiens"
     },
+    "6ae369b96d70482d384c0894ff450c5c": {
+      "commence_time": "2026-11-18T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Nashville Predators @ Minnesota Wild"
+    },
     "77dfcbc978ae3818dc04d2434342bc48": {
       "commence_time": "2026-11-15T00:15:00Z",
       "h2h_sent": true,
@@ -940,6 +946,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Toronto Maple Leafs @ Chicago Blackhawks"
+    },
+    "87e99dffdbf06748171533ee8ba96f75": {
+      "commence_time": "2026-11-18T01:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Anaheim Ducks @ St Louis Blues"
     },
     "9df5283f800c7d4c2d0bd38b7c5f4846": {
       "commence_time": "2026-11-15T00:10:00Z",
