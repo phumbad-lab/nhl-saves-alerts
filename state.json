@@ -164,6 +164,7 @@
       "alt": {
         "FD": 19.5
       },
+      "done": true,
       "lines": {
         "DK": 17.5
       },
@@ -176,6 +177,7 @@
       "alt": {
         "DK": 26.5
       },
+      "done": true,
       "lines": {
         "FD": 25.5
       },
@@ -526,6 +528,10 @@
     "c3f43b11aaf8ba26496727f557330d72|Stuart Skinner": {
       "d": "2026-11-14",
       "r": "L"
+    },
+    "c4ac537963707b247ad9e4eab06c15de|Carter Hart": {
+      "d": "2026-11-15",
+      "r": "W"
     },
     "c8abddd6d4a9c96f45dcdd287f392537|Colten Ellis": {
       "d": "2026-10-29",
@@ -13746,7 +13752,9 @@
       "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley",
       "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith",
       "e52a5926735bcff42d3d0ce052a21938|Alex Nedeljkovic",
-      "e52a5926735bcff42d3d0ce052a21938|Juuse Saros"
+      "e52a5926735bcff42d3d0ce052a21938|Juuse Saros",
+      "c4ac537963707b247ad9e4eab06c15de|Carter Hart",
+      "c4ac537963707b247ad9e4eab06c15de|Kevin Lankinen"
     ]
   },
   "picks_channel": {
