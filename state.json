@@ -11953,24 +11953,6 @@
       "seen": "2026-10-24T17:52:10Z",
       "status": "OUT"
     },
-    "STL:8481598": {
-      "alerted": false,
-      "missing_since": "2026-11-16T19:04:12Z",
-      "out_at": null,
-      "player": {
-        "first": "Philip",
-        "gp": 101,
-        "id": 8481598,
-        "last": "Broberg",
-        "pos": "D",
-        "role": "defense",
-        "shots": 140,
-        "sog": 1.4,
-        "toi": 23.6
-      },
-      "seen": "2026-11-15T02:38:11Z",
-      "status": "DTD"
-    },
     "UTA:8477951": {
       "alerted": true,
       "out_at": "2026-11-14T18:58:12Z",
