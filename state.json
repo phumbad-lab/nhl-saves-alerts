@@ -239,6 +239,7 @@
       "text": "Askarov (SJS) - SJS@UTA 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625497847&selectionId=77385757\u0004u27.5\u0005"
     },
     "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith": {
+      "done": true,
       "lines": {
         "FD": 20.5
       },
@@ -551,6 +552,10 @@
     "ec0cd2ebb977023698a5f16ca4de0e6c|Sebastian Cossa": {
       "d": "2026-11-03",
       "r": "L"
+    },
+    "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith": {
+      "d": "2026-11-15",
+      "r": "W"
     },
     "f1b86cba8c192fb71581b00443f4af8a|Dan Vladar": {
       "d": "2026-10-27",
@@ -13728,7 +13733,8 @@
   "night_graded": {
     "2026-11-15": [
       "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar",
-      "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley"
+      "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley",
+      "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith"
     ]
   },
   "picks_channel": {
