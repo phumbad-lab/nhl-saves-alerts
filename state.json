@@ -611,7 +611,7 @@
     }
   },
   "corrections_checked": "2026-11-16",
-  "credits_remaining": 18016,
+  "credits_remaining": 18015,
   "events": {
     "13ccf67b4b7c472d4e05fdda2b440b42": {
       "commence_time": "2026-11-15T00:20:00Z",
@@ -696,7 +696,7 @@
     "2ef747b5f529d07b71843f1b5240eb38": {
       "commence_time": "2026-11-17T00:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-16T16:41:20Z",
+      "last_paid_check": "2026-11-16T16:57:10Z",
       "lines": {
         "draftkings": {
           "Joonas Korpisalo": {
@@ -709,10 +709,10 @@
         },
         "fanduel": {
           "Joonas Korpisalo": {
-            "over": -102,
+            "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625977581&selectionId=74802630",
             "point": 22.5,
-            "under": -130,
+            "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625977581&selectionId=74802628"
           }
         }
