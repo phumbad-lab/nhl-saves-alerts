@@ -11746,6 +11746,8 @@
     "DAL:8480036": {
       "alerted": true,
       "out_at": "2026-11-13T17:55:13Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-16T14:15:15Z",
       "player": {
         "first": "Miro",
         "gp": 92,
