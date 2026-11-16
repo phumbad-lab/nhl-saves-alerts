@@ -11829,7 +11829,7 @@
       "status": "OUT"
     },
     "LAK:8478550": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-16T20:45:21Z",
       "player": {
         "first": "Artemi",
@@ -15826,7 +15826,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-16T20:30:18Z",
+    "fetched": "2026-11-16T20:51:11Z",
     "value": [
       8475184,
       8476479,
@@ -15913,7 +15913,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-16T20:30:18Z",
+    "fetched": "2026-11-16T20:51:11Z",
     "value": [
       8475314,
       8476389,
