@@ -11979,6 +11979,7 @@
     },
     "NYI:8477500": {
       "alerted": false,
+      "missing_since": "2026-11-16T18:19:22Z",
       "out_at": null,
       "player": {
         "first": "Bo",
