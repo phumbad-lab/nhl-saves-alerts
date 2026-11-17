@@ -581,7 +581,7 @@
     }
   },
   "corrections_checked": "2026-11-17",
-  "credits_remaining": 17855,
+  "credits_remaining": 17854,
   "events": {
     "03ad7eb1b11b6d15943b734624469fdf": {
       "commence_time": "2026-11-18T00:10:00Z",
@@ -954,14 +954,14 @@
     "87e99dffdbf06748171533ee8ba96f75": {
       "commence_time": "2026-11-18T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-17T19:26:15Z",
+      "last_paid_check": "2026-11-17T19:42:10Z",
       "lines": {
         "draftkings": {
           "Jordan Binnington": {
-            "over": -115,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390156783%232369615599_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": -115,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390156783%232369615600_15L42133Q1731448625Q20"
           }
         },
