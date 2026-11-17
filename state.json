@@ -12,6 +12,16 @@
       "start": "2026-11-18T00:10:00Z",
       "text": "Levi (EDM) - EDM@FLA 7:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389932176%232368649854_15L42133Q1458571637Q20\u0004u25.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626313617&selectionId=74676066\u0004u24.5\u0005"
     },
+    "3d788aa0737d2ab5b2bf92f8e40ea63f|Adin Hill": {
+      "alt": {},
+      "lines": {
+        "FD": 19.5
+      },
+      "mid": 301,
+      "side": "OVER",
+      "start": "2026-11-18T03:10:00Z",
+      "text": "Hill (VGK) - DAL@VGK 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626386481&selectionId=74843647\u0004o19.5\u0005"
+    },
     "49403a7a83c32958f485162e0c8ec655|Linus Ullmark": {
       "alt": {
         "DK": 23.5
@@ -143,16 +153,6 @@
       "side": "OVER",
       "start": "2026-11-16T02:10:00Z",
       "text": "Lankinen (VAN) - VAN@VGK 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923651\u0004o25.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389307380%232366850476_13L42133Q1-54034395Q20\u0004o26.5\u0005"
-    },
-    "ccdee466b63a2accb1d804d5ca9e4bdc|Joey Daccord": {
-      "done": true,
-      "lines": {
-        "FD": 27.5
-      },
-      "mid": 248,
-      "side": "UNDER",
-      "start": "2026-11-14T18:00:00Z",
-      "text": "Daccord (SEA) - SEA@CAR 1:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625391819&selectionId=74979816\u0004u27.5\u0005"
     },
     "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar": {
       "done": true,
@@ -16120,6 +16120,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088284,
+  "tg_offset": 69088285,
   "watch": {}
 }
