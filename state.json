@@ -12130,7 +12130,7 @@
       "status": "OUT"
     },
     "TBL:8479542": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-17T23:15:15Z",
       "player": {
         "first": "Brandon",
