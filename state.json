@@ -13376,7 +13376,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-16": [
+      "2ef747b5f529d07b71843f1b5240eb38|Joonas Korpisalo"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
