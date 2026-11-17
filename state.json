@@ -1,5 +1,17 @@
 {
   "channel_posts": {
+    "49403a7a83c32958f485162e0c8ec655|Linus Ullmark": {
+      "alt": {
+        "DK": 23.5
+      },
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 298,
+      "side": "OVER",
+      "start": "2026-11-18T00:10:00Z",
+      "text": "Ullmark (OTT) - OTT@WPG 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626318189&selectionId=74880127\u0004o22.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389853791%232368298987_13L42133Q1-1895367418Q20\u0004o23.5\u0005"
+    },
     "49403a7a83c32958f485162e0c8ec655|Stuart Skinner": {
       "alt": {
         "FD": 23.5
@@ -16020,6 +16032,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088281,
+  "tg_offset": 69088282,
   "watch": {}
 }
