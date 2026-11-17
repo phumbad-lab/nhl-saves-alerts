@@ -601,46 +601,6 @@
       },
       "matchup": "Ottawa Senators @ Pittsburgh Penguins"
     },
-    "20f100d5b4c8ce5d8c868f34ea7bddbf": {
-      "commence_time": "2026-11-15T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-14T17:50:15Z",
-      "lines": {
-        "draftkings": {
-          "Jeremy Swayman": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365132749_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388908121%232365132750_15L42133Q1458571637Q20"
-          },
-          "Jesper Wallstedt": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA388907606%232363681531_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA388907606%232363681540_15L42133Q1874096526Q20"
-          }
-        },
-        "fanduel": {
-          "Jeremy Swayman": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441729&selectionId=74879760",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625441729&selectionId=74879759"
-          },
-          "Jesper Wallstedt": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625478192&selectionId=78172460",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625478192&selectionId=78172459"
-          }
-        }
-      },
-      "matchup": "Minnesota Wild @ Boston Bruins"
-    },
     "2ef747b5f529d07b71843f1b5240eb38": {
       "commence_time": "2026-11-17T00:30:00Z",
       "h2h_sent": true,
@@ -842,46 +802,6 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Nashville Predators @ Minnesota Wild"
-    },
-    "77dfcbc978ae3818dc04d2434342bc48": {
-      "commence_time": "2026-11-15T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-14T17:16:10Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Markstrom": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389003374%232364085218_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389003374%232364085265_15L42133Q1874096526Q20"
-          },
-          "Joel Hofer": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389003215%232365204499_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389003215%232365204500_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Jacob Markstrom": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462118&selectionId=74591079",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462118&selectionId=74591081"
-          },
-          "Joel Hofer": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462114&selectionId=74882014",
-            "point": 23.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625462114&selectionId=74882015"
-          }
-        }
-      },
-      "matchup": "Florida Panthers @ St Louis Blues"
     },
     "7f07a205e325038963274f255cb856cc": {
       "commence_time": "2026-11-15T00:20:00Z",
