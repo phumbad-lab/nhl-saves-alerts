@@ -11929,7 +11929,7 @@
       "status": "OUT"
     },
     "NYI:8479378": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-17T19:18:11Z",
       "player": {
         "first": "Logan",
