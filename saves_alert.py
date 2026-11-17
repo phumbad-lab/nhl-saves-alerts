@@ -2262,9 +2262,11 @@ def channel_post_text(state, first, goalie, lines, side, alt=None):
     away = abbrevs.get(team_key(first["away_team"])) or nickname(first["away_team"])
     home = abbrevs.get(team_key(first["home_team"])) or nickname(first["home_team"])
     name = f"{last_name(goalie)} ({first['team']})" if first.get("team") else last_name(goalie)
+    mine = channel_book_parts(lines, side)
+    if alt and mine:
+        mine = f"👉 in at {mine}"  # owner Nov 17: with both books shown, mark the one he took
     return (f"{name} - {away}@{home} {fmt_time(first['commence_time'])}\n"
-            + channel_book_parts(lines, side)
-            + (f"\n{channel_alt_text(alt, side)}" if alt else ""))
+            + mine + (f"\n{channel_alt_text(alt, side)}" if alt else ""))
 
 
 def channel_sync(state, rows, now):
