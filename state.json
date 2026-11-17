@@ -66,6 +66,16 @@
       "start": "2026-11-15T00:20:00Z",
       "text": "Dobes (MTL) - COL@MTL 7:20PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625442947&selectionId=78840903\u0004o24.5\u0005"
     },
+    "6ae369b96d70482d384c0894ff450c5c|Jesper Wallstedt": {
+      "alt": {},
+      "lines": {
+        "DK": 22.5
+      },
+      "mid": 302,
+      "side": "OVER",
+      "start": "2026-11-18T01:10:00Z",
+      "text": "Wallstedt (MIN) - NSH@MIN 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389928129%232369197163_13L42133Q1-598579072Q20\u0004o22.5\u0005"
+    },
     "77dfcbc978ae3818dc04d2434342bc48|Joel Hofer": {
       "done": true,
       "lines": {
@@ -16164,6 +16174,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088285,
+  "tg_offset": 69088286,
   "watch": {}
 }
