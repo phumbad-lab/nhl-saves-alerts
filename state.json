@@ -227,7 +227,7 @@
       "text": "Tolopilo (VAN) - VAN@UTA 9:30PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626087783&selectionId=82559767\u0004o25.5\u0005"
     }
   },
-  "channel_recap_sent": "2026-11-16",
+  "channel_recap_sent": "2026-11-17",
   "channel_record": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
       "d": "2026-10-30",
@@ -562,7 +562,7 @@
       "r": "W"
     }
   },
-  "corrections_checked": "2026-11-16",
+  "corrections_checked": "2026-11-17",
   "credits_remaining": 17944,
   "events": {
     "03ad7eb1b11b6d15943b734624469fdf": {
@@ -13401,13 +13401,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-16": [
-      "2ef747b5f529d07b71843f1b5240eb38|Joonas Korpisalo",
-      "f5973475196770206d4e81300ca54634|Karel Vejmelka",
-      "f5973475196770206d4e81300ca54634|Nikita Tolopilo"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
