@@ -11985,6 +11985,7 @@
     },
     "DAL:8480036": {
       "alerted": true,
+      "missing_since": "2026-11-17T20:14:10Z",
       "out_at": "2026-11-13T17:55:13Z",
       "player": {
         "first": "Miro",
