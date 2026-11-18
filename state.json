@@ -985,46 +985,6 @@
       "lines": {},
       "matchup": "Colorado Avalanche @ Utah Mammoth"
     },
-    "c4ac537963707b247ad9e4eab06c15de": {
-      "commence_time": "2026-11-16T02:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-16T01:40:21Z",
-      "lines": {
-        "draftkings": {
-          "Carter Hart": {
-            "over": 100,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389295242%232367023213_13L42133Q1980555505Q20",
-            "point": 19.5,
-            "under": -135,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389295242%232367023214_15L42133Q1-767247327Q20"
-          },
-          "Kevin Lankinen": {
-            "over": 100,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389307380%232366850476_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -135,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389307380%232366850477_15L42133Q11150106798Q20"
-          }
-        },
-        "fanduel": {
-          "Carter Hart": {
-            "over": 102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625830343&selectionId=92390270",
-            "point": 19.5,
-            "under": -136,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625830343&selectionId=92390272"
-          },
-          "Kevin Lankinen": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923651",
-            "point": 25.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923650"
-          }
-        }
-      },
-      "matchup": "Vancouver Canucks @ Vegas Golden Knights"
-    },
     "c5e76339fef03145801250ff2216947b": {
       "commence_time": "2026-11-18T00:15:00Z",
       "h2h_sent": true,
@@ -1064,46 +1024,6 @@
         }
       },
       "matchup": "Buffalo Sabres @ Philadelphia Flyers"
-    },
-    "e52a5926735bcff42d3d0ce052a21938": {
-      "commence_time": "2026-11-16T02:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-15T18:43:11Z",
-      "lines": {
-        "draftkings": {
-          "Alex Nedeljkovic": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389295836%232366832576_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389295836%232366832577_15L42133Q1731448625Q20"
-          },
-          "Juuse Saros": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389296014%232366978147_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389296014%232366978148_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Alex Nedeljkovic": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304747",
-            "point": 24.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304746"
-          },
-          "Juuse Saros": {
-            "over": -130,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767990&selectionId=74973972",
-            "point": 23.5,
-            "under": -102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767990&selectionId=74973971"
-          }
-        }
-      },
-      "matchup": "Nashville Predators @ San Jose Sharks"
     },
     "f5973475196770206d4e81300ca54634": {
       "commence_time": "2026-11-17T02:40:00Z",
