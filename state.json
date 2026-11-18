@@ -11893,6 +11893,23 @@
       "seen": "2026-11-17T00:20:16Z",
       "status": "DTD"
     },
+    "OTT:8478469": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Thomas",
+        "gp": 74,
+        "id": 8478469,
+        "last": "Chabot",
+        "pos": "D",
+        "role": "defense",
+        "shots": 130,
+        "sog": 1.8,
+        "toi": 22.8
+      },
+      "seen": "2026-11-18T03:42:10Z",
+      "status": "DTD"
+    },
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-22T14:16:11Z",
