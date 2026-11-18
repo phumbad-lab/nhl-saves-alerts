@@ -11779,6 +11779,23 @@
       "seen": "2026-10-15T16:53:11Z",
       "status": "OUT"
     },
+    "CHI:8484144": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Connor",
+        "gp": 83,
+        "id": 8484144,
+        "last": "Bedard",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 268,
+        "sog": 3.2,
+        "toi": 20.8
+      },
+      "seen": "2026-11-18T03:47:15Z",
+      "status": "DTD"
+    },
     "COL:8477492": {
       "alerted": true,
       "out_at": "2026-11-14T17:18:12Z",
