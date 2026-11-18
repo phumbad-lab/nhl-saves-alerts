@@ -593,7 +593,7 @@
     }
   },
   "corrections_checked": "2026-11-17",
-  "credits_remaining": 17768,
+  "credits_remaining": 17767,
   "events": {
     "03ad7eb1b11b6d15943b734624469fdf": {
       "commence_time": "2026-11-18T00:10:00Z",
@@ -15753,7 +15753,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-18T00:17:12Z",
+    "fetched": "2026-11-18T00:38:10Z",
     "value": [
       8474150,
       8476456,
@@ -15780,7 +15780,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-18T00:17:12Z",
+    "fetched": "2026-11-18T00:38:10Z",
     "value": [
       8474013,
       8474141,
@@ -16089,7 +16089,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-18T00:17:12Z",
+    "fetched": "2026-11-18T00:38:10Z",
     "value": [
       8474151,
       8474590,
@@ -16173,7 +16173,7 @@
     ]
   },
   "skaters_VGK": {
-    "fetched": "2026-11-18T00:17:12Z",
+    "fetched": "2026-11-18T00:38:10Z",
     "value": [
       8475188,
       8475343,
