@@ -4,6 +4,7 @@
       "alt": {
         "FD": 24.5
       },
+      "done": true,
       "lines": {
         "DK": 25.5
       },
@@ -28,6 +29,7 @@
       "alt": {
         "DK": 23.5
       },
+      "done": true,
       "lines": {
         "FD": 22.5
       },
@@ -40,6 +42,7 @@
       "alt": {
         "FD": 23.5
       },
+      "done": true,
       "lines": {
         "DK": 25.5
       },
@@ -263,6 +266,10 @@
       "d": "2026-11-12",
       "r": "W"
     },
+    "335e0828d32c0c78646ed876d6ca4555|Devon Levi": {
+      "d": "2026-11-17",
+      "r": "W"
+    },
     "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight": {
       "d": "2026-10-29",
       "r": "W"
@@ -277,6 +284,14 @@
     },
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "d": "2026-10-28",
+      "r": "W"
+    },
+    "49403a7a83c32958f485162e0c8ec655|Linus Ullmark": {
+      "d": "2026-11-17",
+      "r": "L"
+    },
+    "49403a7a83c32958f485162e0c8ec655|Stuart Skinner": {
+      "d": "2026-11-17",
       "r": "W"
     },
     "4b59901ec085a0f20022fc14ffa1ba6c|Dan Vladar": {
@@ -13819,7 +13834,13 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-17": [
+      "335e0828d32c0c78646ed876d6ca4555|Devon Levi",
+      "49403a7a83c32958f485162e0c8ec655|Linus Ullmark",
+      "49403a7a83c32958f485162e0c8ec655|Stuart Skinner"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
