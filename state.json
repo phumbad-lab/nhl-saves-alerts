@@ -198,7 +198,7 @@
       "text": "Tolopilo (VAN) - VAN@UTA 9:30PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626087783&selectionId=82559767\u0004o25.5\u0005"
     }
   },
-  "channel_recap_sent": "2026-11-17",
+  "channel_recap_sent": "2026-11-18",
   "channel_record": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
       "d": "2026-10-30",
@@ -561,7 +561,7 @@
       "r": "W"
     }
   },
-  "corrections_checked": "2026-11-17",
+  "corrections_checked": "2026-11-18",
   "credits_remaining": 17736,
   "events": {
     "03ad7eb1b11b6d15943b734624469fdf": {
@@ -13968,18 +13968,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-17": [
-      "335e0828d32c0c78646ed876d6ca4555|Devon Levi",
-      "49403a7a83c32958f485162e0c8ec655|Linus Ullmark",
-      "49403a7a83c32958f485162e0c8ec655|Stuart Skinner",
-      "8261a14ac1f636f0b382af43b97ef915|Spencer Knight",
-      "6ae369b96d70482d384c0894ff450c5c|Jesper Wallstedt",
-      "6ae369b96d70482d384c0894ff450c5c|Justus Annunen",
-      "3d788aa0737d2ab5b2bf92f8e40ea63f|Adin Hill",
-      "3d788aa0737d2ab5b2bf92f8e40ea63f|Jake Oettinger"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
