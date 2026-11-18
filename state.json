@@ -11938,8 +11938,6 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-16T20:45:21Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-18T14:51:10Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -11952,7 +11950,7 @@
         "toi": 21.0
       },
       "seen": "2026-11-14T19:36:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "MTL:8476875": {
       "alerted": true,
@@ -12059,8 +12057,6 @@
     "TBL:8479542": {
       "alerted": true,
       "out_at": "2026-11-17T23:15:15Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-18T14:51:10Z",
       "player": {
         "first": "Brandon",
         "gp": 91,
@@ -12073,7 +12069,7 @@
         "toi": 19.9
       },
       "seen": "2026-11-17T23:15:15Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "UTA:8477951": {
       "alerted": true,
