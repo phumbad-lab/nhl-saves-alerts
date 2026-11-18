@@ -11938,6 +11938,8 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-16T20:45:21Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-18T14:51:10Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -12059,6 +12061,8 @@
     "TBL:8479542": {
       "alerted": true,
       "out_at": "2026-11-17T23:15:15Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-18T14:51:10Z",
       "player": {
         "first": "Brandon",
         "gp": 91,
