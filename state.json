@@ -101,6 +101,16 @@
       "start": "2026-11-18T00:40:00Z",
       "text": "Knight (CHI) - TOR@CHI 7:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626301688&selectionId=74973970\u0004o23.5\u0005"
     },
+    "af8d9e2567d44dcbb4a548272d876b6b|Sebastian Cossa": {
+      "alt": {},
+      "lines": {
+        "FD": 26.5
+      },
+      "mid": 315,
+      "side": "UNDER",
+      "start": "2026-11-19T03:10:00Z",
+      "text": "Cossa (UTA) - COL@UTA 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626697168&selectionId=103689735\u0004u26.5\u0005"
+    },
     "c4ac537963707b247ad9e4eab06c15de|Carter Hart": {
       "alt": {
         "FD": 19.5
@@ -16339,6 +16349,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088288,
+  "tg_offset": 69088289,
   "watch": {}
 }
