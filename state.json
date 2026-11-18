@@ -11972,6 +11972,8 @@
     "NYI:8479378": {
       "alerted": true,
       "out_at": "2026-11-17T19:18:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-18T14:46:14Z",
       "player": {
         "first": "Logan",
         "gp": 18,
