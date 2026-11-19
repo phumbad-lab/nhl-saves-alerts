@@ -103,6 +103,16 @@
       "start": "2026-11-18T01:10:00Z",
       "text": "Wallstedt (MIN) - NSH@MIN 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389928129%232369197163_13L42133Q1-598579072Q20\u0004o22.5\u0005"
     },
+    "6e1de7988dd0c9689abb85f6b8399336|Ukko-Pekka Luukkonen": {
+      "alt": {},
+      "lines": {
+        "DK": 24.5
+      },
+      "mid": 327,
+      "side": "OVER",
+      "start": "2026-11-20T00:10:00Z",
+      "text": "Luukkonen (BUF) - BUF@WSH 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390550968%232371310299_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
+    },
     "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz": {
       "alt": {
         "DK": 24.5
@@ -16881,6 +16891,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088293,
+  "tg_offset": 69088294,
   "watch": {}
 }
