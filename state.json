@@ -164,6 +164,18 @@
       "start": "2026-11-20T00:10:00Z",
       "text": "Ersson (OTT) - PHI@OTT 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626920914&selectionId=74932576\u0004o19.5\u0005"
     },
+    "8689e63a36a8d62c4eba2fc402bb4f0c|Lukas Dostal": {
+      "alt": {
+        "DK": 24.5
+      },
+      "lines": {
+        "FD": 23.5
+      },
+      "mid": 331,
+      "side": "OVER",
+      "start": "2026-11-20T02:10:00Z",
+      "text": "Dostal (ANA) - ANA@COL 9:10PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969065&selectionId=74979813\u0004o23.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390531087%232372702510_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
+    },
     "af8d9e2567d44dcbb4a548272d876b6b|Sebastian Cossa": {
       "alt": {
         "DK": 26.5
@@ -17215,6 +17227,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088295,
+  "tg_offset": 69088296,
   "watch": {}
 }
