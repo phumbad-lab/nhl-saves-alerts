@@ -78,16 +78,6 @@
       "start": "2026-11-18T00:10:00Z",
       "text": "Skinner (WPG) - OTT@WPG 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389854147%232369163218_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
-    "539a387d9fd0da9af213bf8002fdb0d4|Devin Cooley": {
-      "done": true,
-      "lines": {
-        "FD": 27.5
-      },
-      "mid": 269,
-      "side": "UNDER",
-      "start": "2026-11-16T01:10:00Z",
-      "text": "Cooley (CGY) - CGY@ANA 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700800&selectionId=89998348\u0004u27.5\u0005"
-    },
     "6ae369b96d70482d384c0894ff450c5c|Jesper Wallstedt": {
       "alt": {
         "FD": 22.5
@@ -100,6 +90,18 @@
       "side": "OVER",
       "start": "2026-11-18T01:10:00Z",
       "text": "Wallstedt (MIN) - NSH@MIN 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389928129%232369197163_13L42133Q1-598579072Q20\u0004o22.5\u0005"
+    },
+    "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz": {
+      "alt": {
+        "DK": 24.5
+      },
+      "lines": {
+        "FD": 23.5
+      },
+      "mid": 322,
+      "side": "OVER",
+      "start": "2026-11-20T00:10:00Z",
+      "text": "Stolarz (TOR) - LAK@TOR 7:10PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626916926&selectionId=74842534\u0004o23.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390805744%232372585417_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
     },
     "8261a14ac1f636f0b382af43b97ef915|Spencer Knight": {
       "alt": {
@@ -126,78 +128,6 @@
       "side": "UNDER",
       "start": "2026-11-19T03:10:00Z",
       "text": "Cossa (UTA) - COL@UTA 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626697168&selectionId=103689735\u0004u26.5\u0005"
-    },
-    "c4ac537963707b247ad9e4eab06c15de|Carter Hart": {
-      "alt": {
-        "FD": 19.5
-      },
-      "done": true,
-      "lines": {
-        "DK": 17.5
-      },
-      "mid": 275,
-      "side": "OVER",
-      "start": "2026-11-16T02:10:00Z",
-      "text": "Hart (VGK) - VAN@VGK 9:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389295242%232366983564_13L42133Q1325502457Q20\u0004o17.5\u0005"
-    },
-    "c4ac537963707b247ad9e4eab06c15de|Kevin Lankinen": {
-      "alt": {
-        "DK": 26.5
-      },
-      "done": true,
-      "lines": {
-        "FD": 25.5
-      },
-      "mid": 273,
-      "side": "OVER",
-      "start": "2026-11-16T02:10:00Z",
-      "text": "Lankinen (VAN) - VAN@VGK 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767650&selectionId=74923651\u0004o25.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389307380%232366850476_13L42133Q1-54034395Q20\u0004o26.5\u0005"
-    },
-    "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar": {
-      "done": true,
-      "lines": {
-        "FD": 23.5
-      },
-      "mid": 270,
-      "side": "UNDER",
-      "start": "2026-11-16T00:40:00Z",
-      "text": "Vladar (PHI) - EDM@PHI 7:40PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700611&selectionId=74843678\u0004u23.5\u0005"
-    },
-    "e52a5926735bcff42d3d0ce052a21938|Alex Nedeljkovic": {
-      "alt": {
-        "DK": 24.5
-      },
-      "done": true,
-      "lines": {
-        "FD": 24.5
-      },
-      "mid": 272,
-      "side": "OVER",
-      "start": "2026-11-16T02:10:00Z",
-      "text": "Nedeljkovic (SJS) - NSH@SJS 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700916&selectionId=75304747\u0004o24.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389295836%232366832576_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
-    },
-    "e52a5926735bcff42d3d0ce052a21938|Juuse Saros": {
-      "alt": {
-        "DK": 24.5
-      },
-      "done": true,
-      "lines": {
-        "FD": 23.5
-      },
-      "mid": 274,
-      "side": "OVER",
-      "start": "2026-11-16T02:10:00Z",
-      "text": "Saros (NSH) - NSH@SJS 9:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625767990&selectionId=74973972\u0004o23.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389296014%232366978147_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
-    },
-    "edbb603c4a7ed77b892f7bba6dcef824|Casey DeSmith": {
-      "done": true,
-      "lines": {
-        "FD": 20.5
-      },
-      "mid": 271,
-      "side": "OVER",
-      "start": "2026-11-16T01:10:00Z",
-      "text": "DeSmith (DAL) - FLA@DAL 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.625700879&selectionId=69574675\u0004o20.5\u0005"
     },
     "f5973475196770206d4e81300ca54634|Karel Vejmelka": {
       "alt": {
@@ -12562,6 +12492,8 @@
     "TBL:8479542": {
       "alerted": true,
       "out_at": "2026-11-17T23:15:15Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-19T15:56:11Z",
       "player": {
         "first": "Brandon",
         "gp": 91,
@@ -16677,6 +16609,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088290,
+  "tg_offset": 69088291,
   "watch": {}
 }
