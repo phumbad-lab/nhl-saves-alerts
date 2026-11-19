@@ -12951,7 +12951,6 @@
     },
     "OTT:8478469": {
       "alerted": false,
-      "missing_since": "2026-11-19T22:03:18Z",
       "out_at": null,
       "player": {
         "first": "Thomas",
@@ -15143,12 +15142,6 @@
     ]
   },
   "sent": {
-    "1647": {
-      "at": "2026-11-16T22:03:22Z",
-      "book": null,
-      "event_id": "f5973475196770206d4e81300ca54634",
-      "goalie": "Nikita Tolopilo"
-    },
     "1656": {
       "at": "2026-11-17T15:26:11Z",
       "book": null,
