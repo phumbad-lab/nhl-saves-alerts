@@ -13,6 +13,18 @@
       "start": "2026-11-18T00:10:00Z",
       "text": "Levi (EDM) - EDM@FLA 7:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389932176%232368649854_15L42133Q1458571637Q20\u0004u25.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626313617&selectionId=74676066\u0004u24.5\u0005"
     },
+    "3449054d3b59c2c7fc8cf914dbd45ea6|Jakub Dobes": {
+      "alt": {
+        "FD": 27.5
+      },
+      "lines": {
+        "DK": 28.5
+      },
+      "mid": 332,
+      "side": "UNDER",
+      "start": "2026-11-20T00:10:00Z",
+      "text": "Dobes (MTL) - MTL@CAR 7:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390493991%232372584018_15L42133Q1-245490255Q20\u0004u28.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626916041&selectionId=78840902\u0004u27.5\u0005"
+    },
     "38779d99fd6274c9008c5cc03fa504ef|Jeremy Swayman": {
       "alt": {
         "FD": 25.5
@@ -17263,6 +17275,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088296,
+  "tg_offset": 69088297,
   "watch": {}
 }
