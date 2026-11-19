@@ -12790,6 +12790,7 @@
   "injuries": {
     "BUF:8480807": {
       "alerted": false,
+      "missing_since": "2026-11-19T23:57:11Z",
       "out_at": null,
       "player": {
         "first": "Mattias",
@@ -12942,10 +12943,8 @@
       "status": "OUT"
     },
     "NYI:8479378": {
-      "alerted": true,
-      "out_at": "2026-11-17T19:18:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-19T23:52:10Z",
+      "alerted": false,
+      "out_at": "2026-11-19T23:57:11Z",
       "player": {
         "first": "Logan",
         "gp": 18,
@@ -12958,7 +12957,7 @@
         "toi": 21.4
       },
       "seen": "2026-11-15T05:43:00Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "NYR:8481604": {
       "alerted": true,
@@ -17030,7 +17029,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-18T11:00:23Z",
+    "fetched": "2026-11-19T23:57:11Z",
     "value": [
       8475151,
       8475170,
@@ -17052,7 +17051,6 @@
       8482070,
       8482476,
       8482516,
-      8484221,
       8485366,
       8485388
     ]
