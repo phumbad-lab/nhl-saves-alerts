@@ -12192,10 +12192,8 @@
       "status": "OUT"
     },
     "LAK:8478550": {
-      "alerted": true,
-      "out_at": "2026-11-16T20:45:21Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-19T13:15:14Z",
+      "alerted": false,
+      "out_at": "2026-11-19T13:20:16Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -12208,7 +12206,7 @@
         "toi": 21.0
       },
       "seen": "2026-11-14T19:36:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "MTL:8476875": {
       "alerted": true,
@@ -16046,7 +16044,7 @@
     ]
   },
   "skaters_LAK": {
-    "fetched": "2026-11-18T11:00:23Z",
+    "fetched": "2026-11-19T13:20:16Z",
     "value": [
       8470621,
       8474563,
