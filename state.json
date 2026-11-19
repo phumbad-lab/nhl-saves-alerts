@@ -12478,6 +12478,8 @@
     "CHI:8484144": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-19T16:51:16Z",
       "player": {
         "first": "Connor",
         "gp": 84,
