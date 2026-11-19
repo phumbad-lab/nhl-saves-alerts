@@ -634,46 +634,6 @@
       "lines": {},
       "matchup": "Edmonton Oilers @ Tampa Bay Lightning"
     },
-    "2ef747b5f529d07b71843f1b5240eb38": {
-      "commence_time": "2026-11-17T00:50:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-16T17:27:12Z",
-      "lines": {
-        "draftkings": {
-          "Jacob Fowler": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389550751%232367801138_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389550751%232367801139_15L42133Q184490156Q20"
-          },
-          "Joonas Korpisalo": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389550854%232368150473_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389550854%232368150474_15L42133Q1874096526Q20"
-          }
-        },
-        "fanduel": {
-          "Jacob Fowler": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626010835&selectionId=92532103",
-            "point": 23.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626010835&selectionId=92532105"
-          },
-          "Joonas Korpisalo": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625977581&selectionId=74802630",
-            "point": 22.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.625977581&selectionId=74802628"
-          }
-        }
-      },
-      "matchup": "Montr\u00e9al Canadiens @ New York Rangers"
-    },
     "335e0828d32c0c78646ed876d6ca4555": {
       "commence_time": "2026-11-18T00:10:00Z",
       "h2h_sent": true,
