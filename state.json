@@ -127,6 +127,18 @@
       "start": "2026-11-18T01:10:00Z",
       "text": "Wallstedt (MIN) - NSH@MIN 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389928129%232369197163_13L42133Q1-598579072Q20\u0004o22.5\u0005"
     },
+    "6c4d4bc698a434e4b1d5492b9bff28cb|Adin Hill": {
+      "alt": {
+        "DK": 21.5
+      },
+      "lines": {
+        "FD": 20.5
+      },
+      "mid": 333,
+      "side": "OVER",
+      "start": "2026-11-20T03:10:00Z",
+      "text": "Hill (VGK) - DAL@VGK 10:10PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626970048&selectionId=74843647\u0004o20.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390871669%232372761167_13L42133Q1-659212771Q20\u0004o21.5\u0005"
+    },
     "6e1de7988dd0c9689abb85f6b8399336|Ukko-Pekka Luukkonen": {
       "alt": {
         "FD": 24.5
@@ -17283,6 +17295,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088297,
+  "tg_offset": 69088298,
   "watch": {}
 }
