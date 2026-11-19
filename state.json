@@ -12951,6 +12951,7 @@
     },
     "OTT:8478469": {
       "alerted": false,
+      "missing_since": "2026-11-19T22:07:12Z",
       "out_at": null,
       "player": {
         "first": "Thomas",
