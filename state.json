@@ -12478,6 +12478,8 @@
     "CHI:8484144": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-19T16:47:11Z",
       "player": {
         "first": "Connor",
         "gp": 84,
@@ -16677,7 +16679,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-19T16:26:20Z",
+    "fetched": "2026-11-19T16:47:11Z",
     "value": [
       8474151,
       8474590,
