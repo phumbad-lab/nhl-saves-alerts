@@ -12511,7 +12511,7 @@
       "status": "OUT"
     },
     "TBL:8479542": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-19T16:06:10Z",
       "player": {
         "first": "Brandon",
@@ -14653,12 +14653,6 @@
     ]
   },
   "sent": {
-    "1642": {
-      "at": "2026-11-16T16:10:16Z",
-      "book": "DK",
-      "event_id": "2ef747b5f529d07b71843f1b5240eb38",
-      "goalie": "Joonas Korpisalo"
-    },
     "1643": {
       "at": "2026-11-16T17:27:12Z",
       "book": null,
