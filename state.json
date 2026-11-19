@@ -90,6 +90,16 @@
       "start": "2026-11-18T00:10:00Z",
       "text": "Skinner (WPG) - OTT@WPG 7:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA389854147%232369163218_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
+    "64955eccc864e1b34e23754d71319db4|Philipp Grubauer": {
+      "alt": {},
+      "lines": {
+        "FD": 21.5
+      },
+      "mid": 329,
+      "side": "OVER",
+      "start": "2026-11-20T02:50:00Z",
+      "text": "Grubauer (SEA) - VAN@SEA 9:50PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626946571&selectionId=74802625\u0004o21.5\u0005"
+    },
     "6ae369b96d70482d384c0894ff450c5c|Jesper Wallstedt": {
       "alt": {
         "FD": 22.5
@@ -16975,6 +16985,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088294,
+  "tg_offset": 69088295,
   "watch": {}
 }
