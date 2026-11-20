@@ -12602,24 +12602,6 @@
     ]
   },
   "injuries": {
-    "BUF:8480807": {
-      "alerted": false,
-      "missing_since": "2026-11-20T00:04:11Z",
-      "out_at": null,
-      "player": {
-        "first": "Mattias",
-        "gp": 99,
-        "id": 8480807,
-        "last": "Samuelsson",
-        "pos": "D",
-        "role": "defense",
-        "shots": 139,
-        "sog": 1.4,
-        "toi": 23.0
-      },
-      "seen": "2026-11-19T16:40:15Z",
-      "status": "DTD"
-    },
     "CGY:8480860": {
       "alerted": true,
       "out_at": "2026-11-08T15:56:10Z",
