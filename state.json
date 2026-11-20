@@ -15347,11 +15347,11 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.34,
-    "fetched": "2026-11-20T17:01:10Z",
+    "fetched": "2026-11-20T23:01:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.65217,
-        "sf": 25.86956
+        "sf": 25.95652
       },
       "bostonbruins": {
         "sa": 27.68181,
@@ -15359,10 +15359,10 @@
       },
       "buffalosabres": {
         "sa": 27.63636,
-        "sf": 27.0909
+        "sf": 27.13636
       },
       "calgaryflames": {
-        "sa": 29.3913,
+        "sa": 29.34782,
         "sf": 27.0
       },
       "carolinahurricanes": {
@@ -15374,7 +15374,7 @@
         "sf": 23.13636
       },
       "coloradoavalanche": {
-        "sa": 27.26086,
+        "sa": 27.34782,
         "sf": 30.08695
       },
       "columbusbluejackets": {
@@ -15390,7 +15390,7 @@
         "sf": 28.18181
       },
       "edmontonoilers": {
-        "sa": 26.41666,
+        "sa": 26.45833,
         "sf": 24.75
       },
       "floridapanthers": {
@@ -15403,7 +15403,7 @@
       },
       "minnesotawild": {
         "sa": 26.125,
-        "sf": 29.125
+        "sf": 29.08333
       },
       "montrealcanadiens": {
         "sa": 28.04347,
@@ -15419,7 +15419,7 @@
       },
       "newyorkislanders": {
         "sa": 28.7619,
-        "sf": 26.23809
+        "sf": 26.28571
       },
       "newyorkrangers": {
         "sa": 26.40909,
@@ -15443,7 +15443,7 @@
       },
       "seattlekraken": {
         "sa": 30.15789,
-        "sf": 25.21052
+        "sf": 25.26315
       },
       "stlouisblues": {
         "sa": 29.13636,
@@ -15451,7 +15451,7 @@
       },
       "tampabaylightning": {
         "sa": 25.04545,
-        "sf": 28.81818
+        "sf": 28.86363
       },
       "torontomapleleafs": {
         "sa": 28.79166,
@@ -15462,7 +15462,7 @@
         "sf": 29.65217
       },
       "vancouvercanucks": {
-        "sa": 31.5,
+        "sa": 31.54166,
         "sf": 22.375
       },
       "vegasgoldenknights": {
@@ -15470,11 +15470,11 @@
         "sf": 29.41666
       },
       "washingtoncapitals": {
-        "sa": 27.4,
+        "sa": 27.45,
         "sf": 28.6
       },
       "winnipegjets": {
-        "sa": 27.91304,
+        "sa": 27.95652,
         "sf": 27.21739
       }
     },
@@ -16557,7 +16557,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-20T17:01:10Z",
+    "fetched": "2026-11-20T23:01:10Z",
     "value": [
       8473419,
       8474189,
@@ -16752,7 +16752,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-20T17:01:10Z",
+    "fetched": "2026-11-20T23:01:10Z",
     "value": [
       8474586,
       8476457,
@@ -16841,7 +16841,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-20T17:01:10Z",
+    "fetched": "2026-11-20T23:01:10Z",
     "value": [
       8475314,
       8476389,
