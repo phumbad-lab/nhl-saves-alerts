@@ -773,7 +773,7 @@
       "matchup": "Dallas Stars @ Vegas Golden Knights"
     },
     "3e6894e350f62db024db622aedba4507": {
-      "commence_time": "2026-11-20T01:10:00Z",
+      "commence_time": "2026-11-20T01:15:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-19T17:58:11Z",
       "lines": {
@@ -931,46 +931,6 @@
         }
       },
       "matchup": "New York Islanders @ Winnipeg Jets"
-    },
-    "6ae369b96d70482d384c0894ff450c5c": {
-      "commence_time": "2026-11-18T01:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-18T01:06:10Z",
-      "lines": {
-        "draftkings": {
-          "Jesper Wallstedt": {
-            "over": 100,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389928129%232369691876_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -135,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389928129%232369691879_15L42133Q184490156Q20"
-          },
-          "Justus Annunen": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390273212%232370142675_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390273212%232370142676_15L42133Q1-941301704Q20"
-          }
-        },
-        "fanduel": {
-          "Jesper Wallstedt": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626453680&selectionId=78172460",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626453680&selectionId=78172459"
-          },
-          "Justus Annunen": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626453549&selectionId=75313419",
-            "point": 26.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626453549&selectionId=75313420"
-          }
-        }
-      },
-      "matchup": "Nashville Predators @ Minnesota Wild"
     },
     "6c4d4bc698a434e4b1d5492b9bff28cb": {
       "commence_time": "2026-11-20T03:10:00Z",
@@ -1211,46 +1171,6 @@
         }
       },
       "matchup": "Anaheim Ducks @ Colorado Avalanche"
-    },
-    "87e99dffdbf06748171533ee8ba96f75": {
-      "commence_time": "2026-11-18T01:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-18T01:06:10Z",
-      "lines": {
-        "draftkings": {
-          "Jordan Binnington": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390156783%232369615599_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390156783%232369615600_15L42133Q1731448625Q20"
-          },
-          "Ville Husso": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389877249%232368390468_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389877249%232368390469_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Jordan Binnington": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626314063&selectionId=74801977",
-            "point": 24.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626314063&selectionId=74801976"
-          },
-          "Ville Husso": {
-            "over": 100,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455059&selectionId=74880559",
-            "point": 23.5,
-            "under": -132,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455059&selectionId=74880558"
-          }
-        }
-      },
-      "matchup": "Anaheim Ducks @ St Louis Blues"
     },
     "8cd65f19317595a31a8e98aee88027a5": {
       "commence_time": "2026-11-20T00:10:00Z",
