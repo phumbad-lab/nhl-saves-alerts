@@ -246,7 +246,7 @@
       "text": "Tolopilo (VAN) - VAN@UTA 9:30PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626087783&selectionId=82559767\u0004o25.5\u0005"
     }
   },
-  "channel_recap_sent": "2026-11-19",
+  "channel_recap_sent": "2026-11-20",
   "channel_record": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
       "d": "2026-10-30",
@@ -649,7 +649,7 @@
       "r": "W"
     }
   },
-  "corrections_checked": "2026-11-19",
+  "corrections_checked": "2026-11-20",
   "credits_remaining": 17463,
   "events": {
     "147b0b6f883cce916d06b7aaa9b9594c": {
@@ -14625,18 +14625,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-19": [
-      "3449054d3b59c2c7fc8cf914dbd45ea6|Jakub Dobes",
-      "6e1de7988dd0c9689abb85f6b8399336|Ukko-Pekka Luukkonen",
-      "84d6f3a55d9aac25cd001f3d94aab44b|Samuel Ersson",
-      "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz",
-      "3e6894e350f62db024db622aedba4507|Dustin Wolf",
-      "8689e63a36a8d62c4eba2fc402bb4f0c|Lukas Dostal",
-      "64955eccc864e1b34e23754d71319db4|Philipp Grubauer",
-      "6c4d4bc698a434e4b1d5492b9bff28cb|Adin Hill"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
