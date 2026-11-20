@@ -12702,6 +12702,7 @@
     },
     "PIT:8471215": {
       "alerted": false,
+      "missing_since": "2026-11-20T16:21:11Z",
       "out_at": "2026-11-20T16:20:16Z",
       "player": {
         "first": "Evgeni",
@@ -14910,12 +14911,6 @@
     ]
   },
   "sent": {
-    "1673": {
-      "at": "2026-11-17T16:21:11Z",
-      "book": "DK",
-      "event_id": "335e0828d32c0c78646ed876d6ca4555",
-      "goalie": "Jacob Markstrom"
-    },
     "1674": {
       "at": "2026-11-17T16:26:11Z",
       "book": null,
