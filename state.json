@@ -12520,6 +12520,23 @@
       "seen": "2026-11-14T19:36:11Z",
       "status": "OUT"
     },
+    "MIN:8480800": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Quinn",
+        "gp": 71,
+        "id": 8480800,
+        "last": "Hughes",
+        "pos": "D",
+        "role": "defense",
+        "shots": 174,
+        "sog": 2.5,
+        "toi": 27.9
+      },
+      "seen": "2026-11-20T04:13:09Z",
+      "status": "DTD"
+    },
     "MTL:8476875": {
       "alerted": true,
       "out_at": "2026-11-15T19:00:20Z",
