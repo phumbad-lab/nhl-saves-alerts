@@ -12790,6 +12790,7 @@
   "injuries": {
     "BUF:8480807": {
       "alerted": false,
+      "missing_since": "2026-11-20T00:04:11Z",
       "out_at": null,
       "player": {
         "first": "Mattias",
