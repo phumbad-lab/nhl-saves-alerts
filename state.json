@@ -12700,6 +12700,23 @@
       "seen": "2026-11-17T00:20:16Z",
       "status": "DTD"
     },
+    "PIT:8471215": {
+      "alerted": false,
+      "out_at": "2026-11-20T16:20:16Z",
+      "player": {
+        "first": "Evgeni",
+        "gp": 75,
+        "id": 8471215,
+        "last": "Malkin",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 186,
+        "sog": 2.5,
+        "toi": 17.6
+      },
+      "seen": "2026-11-20T16:20:16Z",
+      "status": "OUT"
+    },
     "PIT:8475810": {
       "alerted": true,
       "out_at": "2026-10-22T14:16:11Z",
