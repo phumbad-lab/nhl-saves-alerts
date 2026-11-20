@@ -610,10 +610,10 @@
     }
   },
   "corrections_checked": "2026-11-19",
-  "credits_remaining": 17497,
+  "credits_remaining": 17496,
   "events": {
     "147b0b6f883cce916d06b7aaa9b9594c": {
-      "commence_time": "2026-11-20T00:45:00Z",
+      "commence_time": "2026-11-20T00:49:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-20T00:20:15Z",
       "lines": {
@@ -1135,15 +1135,22 @@
     "7f30902099116c9c5824e85201be7d60": {
       "commence_time": "2026-11-20T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-20T00:25:12Z",
+      "last_paid_check": "2026-11-20T00:40:15Z",
       "lines": {
         "draftkings": {
           "Cam Talbot": {
-            "over": -115,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390606987%232371528016_13L42133Q1-1959470774Q20",
             "point": 20.5,
-            "under": -120,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390606987%232371528017_15L42133Q1-1449474Q20"
+          },
+          "Spencer Knight": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390492694%232372230361_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390492694%232372230362_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
@@ -1157,46 +1164,6 @@
         }
       },
       "matchup": "Columbus Blue Jackets @ Chicago Blackhawks"
-    },
-    "8261a14ac1f636f0b382af43b97ef915": {
-      "commence_time": "2026-11-18T00:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-17T17:58:10Z",
-      "lines": {
-        "draftkings": {
-          "Sergei Bobrovsky": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389866692%232369004555_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389866692%232369004556_15L42133Q184490156Q20"
-          },
-          "Spencer Knight": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA389866954%232369177228_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA389866954%232369177229_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Sergei Bobrovsky": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626314280&selectionId=74802629",
-            "point": 23.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626314280&selectionId=74802631"
-          },
-          "Spencer Knight": {
-            "over": -130,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626301688&selectionId=74973970",
-            "point": 23.5,
-            "under": -102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626301688&selectionId=74973969"
-          }
-        }
-      },
-      "matchup": "Toronto Maple Leafs @ Chicago Blackhawks"
     },
     "84d6f3a55d9aac25cd001f3d94aab44b": {
       "commence_time": "2026-11-20T00:10:00Z",
@@ -4368,7 +4335,7 @@
     ]
   },
   "gl_8481524": {
-    "fetched": "2026-11-19T18:29:10Z",
+    "fetched": "2026-11-20T00:40:15Z",
     "value": [
       "2026-09-29",
       "2026-10-01",
@@ -4442,7 +4409,7 @@
     ]
   },
   "gl_8484144": {
-    "fetched": "2026-11-19T18:29:10Z",
+    "fetched": "2026-11-20T00:40:15Z",
     "value": [
       "2026-10-13",
       "2026-10-15",
@@ -15511,6 +15478,12 @@
       "book": "DK",
       "event_id": "147b0b6f883cce916d06b7aaa9b9594c",
       "goalie": "Andrei Vasilevskiy"
+    },
+    "1794": {
+      "at": "2026-11-20T00:40:15Z",
+      "book": null,
+      "event_id": "7f30902099116c9c5824e85201be7d60",
+      "goalie": "Spencer Knight"
     }
   },
   "shot_stats": {
