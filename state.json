@@ -610,7 +610,7 @@
     }
   },
   "corrections_checked": "2026-11-19",
-  "credits_remaining": 17507,
+  "credits_remaining": 17503,
   "events": {
     "147b0b6f883cce916d06b7aaa9b9594c": {
       "commence_time": "2026-11-20T00:40:00Z",
@@ -1128,7 +1128,7 @@
     "7f30902099116c9c5824e85201be7d60": {
       "commence_time": "2026-11-20T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-19T23:56:15Z",
+      "last_paid_check": "2026-11-20T00:12:15Z",
       "lines": {
         "draftkings": {
           "Cam Talbot": {
