@@ -818,6 +818,12 @@
       "lines": {},
       "matchup": "Edmonton Oilers @ Carolina Hurricanes"
     },
+    "627813427faf8d3b73ff1fe4be6bc7d6": {
+      "commence_time": "2026-11-21T23:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Buffalo Sabres @ Florida Panthers"
+    },
     "64955eccc864e1b34e23754d71319db4": {
       "commence_time": "2026-11-20T02:50:00Z",
       "h2h_sent": true,
@@ -1263,6 +1269,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Chicago Blackhawks @ Calgary Flames"
+    },
+    "d393852cc4dc6ab621ca0cd1f6ccaccc": {
+      "commence_time": "2026-11-21T23:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Pittsburgh Penguins @ Nashville Predators"
     }
   },
   "game_log": {
