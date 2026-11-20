@@ -17,6 +17,7 @@
       "alt": {
         "FD": 27.5
       },
+      "done": true,
       "lines": {
         "DK": 28.5
       },
@@ -316,6 +317,10 @@
       "d": "2026-11-17",
       "r": "W"
     },
+    "3449054d3b59c2c7fc8cf914dbd45ea6|Jakub Dobes": {
+      "d": "2026-11-19",
+      "r": "W"
+    },
     "35f166bc5dbb833315fe376ae27e63a3|Spencer Knight": {
       "d": "2026-10-29",
       "r": "W"
@@ -610,7 +615,7 @@
     }
   },
   "corrections_checked": "2026-11-19",
-  "credits_remaining": 17472,
+  "credits_remaining": 17471,
   "events": {
     "147b0b6f883cce916d06b7aaa9b9594c": {
       "commence_time": "2026-11-20T00:49:00Z",
@@ -14563,7 +14568,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-19": [
+      "3449054d3b59c2c7fc8cf914dbd45ea6|Jakub Dobes"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
