@@ -12618,8 +12618,6 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-19T13:20:16Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-20T14:50:16Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -12632,7 +12630,7 @@
         "toi": 21.0
       },
       "seen": "2026-11-14T19:36:11Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "MIN:8480800": {
       "alerted": false,
