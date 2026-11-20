@@ -108,6 +108,7 @@
       "alt": {
         "DK": 21.5
       },
+      "done": true,
       "lines": {
         "FD": 21.5
       },
@@ -133,6 +134,7 @@
       "alt": {
         "DK": 21.5
       },
+      "done": true,
       "lines": {
         "FD": 20.5
       },
@@ -414,9 +416,17 @@
       "d": "2026-11-14",
       "r": "L"
     },
+    "64955eccc864e1b34e23754d71319db4|Philipp Grubauer": {
+      "d": "2026-11-19",
+      "r": "W"
+    },
     "6ae369b96d70482d384c0894ff450c5c|Jesper Wallstedt": {
       "d": "2026-11-17",
       "r": "W"
+    },
+    "6c4d4bc698a434e4b1d5492b9bff28cb|Adin Hill": {
+      "d": "2026-11-19",
+      "r": "L"
     },
     "6e1de7988dd0c9689abb85f6b8399336|Ukko-Pekka Luukkonen": {
       "d": "2026-11-19",
@@ -14537,7 +14547,9 @@
       "84d6f3a55d9aac25cd001f3d94aab44b|Samuel Ersson",
       "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz",
       "3e6894e350f62db024db622aedba4507|Dustin Wolf",
-      "8689e63a36a8d62c4eba2fc402bb4f0c|Lukas Dostal"
+      "8689e63a36a8d62c4eba2fc402bb4f0c|Lukas Dostal",
+      "64955eccc864e1b34e23754d71319db4|Philipp Grubauer",
+      "6c4d4bc698a434e4b1d5492b9bff28cb|Adin Hill"
     ]
   },
   "picks_channel": {
@@ -16458,7 +16470,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-20T00:59:11Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8474150,
       8476456,
@@ -16485,7 +16497,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-20T00:59:11Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8474013,
       8474141,
@@ -16512,7 +16524,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-20T02:00:22Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8470613,
       8475172,
@@ -16598,7 +16610,7 @@
     ]
   },
   "skaters_LAK": {
-    "fetched": "2026-11-19T23:56:15Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8470621,
       8474563,
@@ -16650,7 +16662,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-19T23:56:15Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8475184,
       8476479,
@@ -16679,7 +16691,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-19T23:57:11Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8475151,
       8475170,
@@ -16736,7 +16748,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-19T23:56:15Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8471215,
       8471675,
@@ -16794,7 +16806,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-20T00:38:11Z",
+    "fetched": "2026-11-20T08:18:08Z",
     "value": [
       8474151,
       8474590,
