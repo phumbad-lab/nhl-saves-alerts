@@ -12872,24 +12872,6 @@
       },
       "seen": "2026-11-10T19:54:12Z",
       "status": "OUT"
-    },
-    "VGK:8478396": {
-      "alerted": true,
-      "missing_since": "2026-11-20T19:26:11Z",
-      "out_at": "2026-11-10T20:42:11Z",
-      "player": {
-        "first": "Noah",
-        "gp": 90,
-        "id": 8478396,
-        "last": "Hanifin",
-        "pos": "D",
-        "role": "defense",
-        "shots": 162,
-        "sog": 1.8,
-        "toi": 22.1
-      },
-      "seen": "2026-11-10T20:42:11Z",
-      "status": "OUT"
     }
   },
   "injury_teams": [
