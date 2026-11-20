@@ -197,6 +197,7 @@
       "alt": {
         "DK": 24.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -478,6 +479,10 @@
       "r": "W"
     },
     "84d6f3a55d9aac25cd001f3d94aab44b|Samuel Ersson": {
+      "d": "2026-11-19",
+      "r": "L"
+    },
+    "8689e63a36a8d62c4eba2fc402bb4f0c|Lukas Dostal": {
       "d": "2026-11-19",
       "r": "L"
     },
@@ -14531,7 +14536,8 @@
       "6e1de7988dd0c9689abb85f6b8399336|Ukko-Pekka Luukkonen",
       "84d6f3a55d9aac25cd001f3d94aab44b|Samuel Ersson",
       "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz",
-      "3e6894e350f62db024db622aedba4507|Dustin Wolf"
+      "3e6894e350f62db024db622aedba4507|Dustin Wolf",
+      "8689e63a36a8d62c4eba2fc402bb4f0c|Lukas Dostal"
     ]
   },
   "picks_channel": {
