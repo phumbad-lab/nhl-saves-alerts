@@ -12625,13 +12625,13 @@
       "out_at": null,
       "player": {
         "first": "Quinn",
-        "gp": 71,
+        "gp": 72,
         "id": 8480800,
         "last": "Hughes",
         "pos": "D",
         "role": "defense",
-        "shots": 174,
-        "sog": 2.5,
+        "shots": 176,
+        "sog": 2.4,
         "toi": 27.9
       },
       "seen": "2026-11-20T04:13:09Z",
@@ -12739,6 +12739,23 @@
       "seen": "2026-11-17T23:15:15Z",
       "status": "OUT"
     },
+    "TOR:8480893": {
+      "alerted": false,
+      "out_at": "2026-11-20T12:23:10Z",
+      "player": {
+        "first": "Kirill",
+        "gp": 14,
+        "id": 8480893,
+        "last": "Marchenko",
+        "pos": "R",
+        "role": "shooter",
+        "shots": 35,
+        "sog": 2.5,
+        "toi": 17.6
+      },
+      "seen": "2026-11-20T12:23:10Z",
+      "status": "OUT"
+    },
     "UTA:8477951": {
       "alerted": true,
       "out_at": "2026-11-14T18:58:12Z",
@@ -12826,67 +12843,67 @@
     "WSH"
   ],
   "keys_ANA": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Cutter",
-        "gp": 97,
+        "gp": 98,
         "id": 8483445,
         "last": "Gauthier",
         "pos": "L",
         "role": "shooter",
-        "shots": 380,
+        "shots": 383,
         "sog": 3.9,
         "toi": 17.6
       },
       {
         "first": "Troy",
-        "gp": 65,
+        "gp": 66,
         "id": 8478873,
         "last": "Terry",
         "pos": "R",
         "role": "shooter",
-        "shots": 165,
+        "shots": 167,
         "sog": 2.5,
-        "toi": 18.1
+        "toi": 18.0
       },
       {
         "first": "Leo",
-        "gp": 92,
+        "gp": 93,
         "id": 8484153,
         "last": "Carlsson",
         "pos": "C",
         "role": "shooter",
-        "shots": 232,
+        "shots": 233,
         "sog": 2.5,
         "toi": 19.5
       },
       {
         "first": "Jackson",
-        "gp": 104,
+        "gp": 105,
         "id": 8481605,
         "last": "LaCombe",
         "pos": "D",
         "role": "defense",
-        "shots": 174,
+        "shots": 177,
         "sog": 1.7,
         "toi": 24.8
       },
       {
         "first": "Tristan",
-        "gp": 23,
+        "gp": 24,
         "id": 8483482,
         "last": "Luneau",
         "pos": "D",
         "role": "defense",
-        "shots": 33,
+        "shots": 34,
         "sog": 1.4,
-        "toi": 19.6
+        "toi": 19.8
       }
     ]
   },
   "keys_BOS": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "David",
@@ -12946,44 +12963,44 @@
     ]
   },
   "keys_BUF": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Tage",
-        "gp": 102,
+        "gp": 103,
         "id": 8479420,
         "last": "Thompson",
         "pos": "C",
         "role": "shooter",
-        "shots": 357,
+        "shots": 361,
         "sog": 3.5,
         "toi": 19.3
       },
       {
         "first": "Rasmus",
-        "gp": 95,
+        "gp": 96,
         "id": 8480839,
         "last": "Dahlin",
         "pos": "D",
         "role": "shooter",
-        "shots": 244,
+        "shots": 246,
         "sog": 2.6,
         "toi": 24.3
       },
       {
         "first": "Jack",
-        "gp": 103,
+        "gp": 104,
         "id": 8482097,
         "last": "Quinn",
         "pos": "R",
         "role": "shooter",
-        "shots": 252,
-        "sog": 2.4,
+        "shots": 255,
+        "sog": 2.5,
         "toi": 16.3
       },
       {
         "first": "Mattias",
-        "gp": 99,
+        "gp": 100,
         "id": 8480807,
         "last": "Samuelsson",
         "pos": "D",
@@ -12995,120 +13012,109 @@
     ]
   },
   "keys_CAR": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Seth",
-        "gp": 81,
+        "gp": 82,
         "id": 8482093,
         "last": "Jarvis",
         "pos": "R",
         "role": "shooter",
-        "shots": 242,
+        "shots": 243,
         "sog": 3.0,
         "toi": 18.5
       },
       {
         "first": "Andrei",
-        "gp": 100,
+        "gp": 101,
         "id": 8480830,
         "last": "Svechnikov",
         "pos": "R",
         "role": "shooter",
-        "shots": 266,
+        "shots": 268,
         "sog": 2.7,
         "toi": 17.1
       },
       {
         "first": "Nikolaj",
-        "gp": 103,
+        "gp": 104,
         "id": 8477940,
         "last": "Ehlers",
         "pos": "L",
         "role": "shooter",
-        "shots": 255,
+        "shots": 259,
         "sog": 2.5,
         "toi": 16.5
       },
       {
         "first": "K'Andre",
-        "gp": 93,
+        "gp": 94,
         "id": 8480817,
         "last": "Miller",
         "pos": "D",
         "role": "defense",
-        "shots": 154,
-        "sog": 1.7,
+        "shots": 155,
+        "sog": 1.6,
         "toi": 22.3
       },
       {
         "first": "Sean",
-        "gp": 102,
+        "gp": 103,
         "id": 8480336,
         "last": "Walker",
         "pos": "D",
         "role": "defense",
         "shots": 221,
-        "sog": 2.2,
+        "sog": 2.1,
         "toi": 21.6
       }
     ]
   },
   "keys_CBJ": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Zach",
-        "gp": 94,
+        "gp": 95,
         "id": 8478460,
         "last": "Werenski",
         "pos": "D",
         "role": "shooter",
-        "shots": 322,
+        "shots": 324,
         "sog": 3.4,
         "toi": 26.8
       },
       {
         "first": "Adam",
-        "gp": 101,
+        "gp": 102,
         "id": 8484166,
         "last": "Fantilli",
         "pos": "C",
         "role": "shooter",
-        "shots": 267,
-        "sog": 2.6,
+        "shots": 272,
+        "sog": 2.7,
         "toi": 19.2
       },
       {
         "first": "Ivan",
-        "gp": 90,
+        "gp": 91,
         "id": 8478500,
         "last": "Provorov",
         "pos": "D",
         "role": "shooter",
-        "shots": 177,
+        "shots": 180,
         "sog": 2.0,
         "toi": 24.5
       }
     ]
   },
   "keys_CGY": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
-        "first": "Mikael",
-        "gp": 102,
-        "id": 8474150,
-        "last": "Backlund",
-        "pos": "C",
-        "role": "shooter",
-        "shots": 240,
-        "sog": 2.4,
-        "toi": 18.1
-      },
-      {
         "first": "Matt",
-        "gp": 102,
+        "gp": 103,
         "id": 8482679,
         "last": "Coronato",
         "pos": "R",
@@ -13118,24 +13124,35 @@
         "toi": 16.9
       },
       {
-        "first": "Matvei",
-        "gp": 59,
-        "id": 8484860,
-        "last": "Gridin",
-        "pos": "R",
+        "first": "Mikael",
+        "gp": 103,
+        "id": 8474150,
+        "last": "Backlund",
+        "pos": "C",
         "role": "shooter",
-        "shots": 116,
-        "sog": 2.0,
-        "toi": 15.5
+        "shots": 240,
+        "sog": 2.3,
+        "toi": 18.1
+      },
+      {
+        "first": "Joel",
+        "gp": 105,
+        "id": 8480797,
+        "last": "Farabee",
+        "pos": "L",
+        "role": "shooter",
+        "shots": 203,
+        "sog": 1.9,
+        "toi": 17.4
       },
       {
         "first": "Zach",
-        "gp": 53,
+        "gp": 54,
         "id": 8480727,
         "last": "Whitecloud",
         "pos": "D",
         "role": "defense",
-        "shots": 53,
+        "shots": 54,
         "sog": 1.0,
         "toi": 22.0
       },
@@ -13153,7 +13170,7 @@
     ]
   },
   "keys_CHI": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Connor",
@@ -13168,23 +13185,23 @@
       },
       {
         "first": "Anton",
-        "gp": 33,
+        "gp": 34,
         "id": 8485391,
         "last": "Frondell",
         "pos": "C",
         "role": "shooter",
-        "shots": 74,
+        "shots": 75,
         "sog": 2.2,
-        "toi": 16.9
+        "toi": 17.0
       },
       {
         "first": "Frank",
-        "gp": 85,
+        "gp": 86,
         "id": 8483493,
         "last": "Nazar",
         "pos": "C",
         "role": "shooter",
-        "shots": 175,
+        "shots": 179,
         "sog": 2.1,
         "toi": 18.2
       },
@@ -13201,19 +13218,19 @@
       },
       {
         "first": "Alex",
-        "gp": 102,
+        "gp": 103,
         "id": 8481568,
         "last": "Vlasic",
         "pos": "D",
         "role": "defense",
         "shots": 110,
         "sog": 1.1,
-        "toi": 21.2
+        "toi": 21.1
       }
     ]
   },
   "keys_COL": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Nathan",
@@ -13228,12 +13245,12 @@
       },
       {
         "first": "Nazem",
-        "gp": 38,
+        "gp": 39,
         "id": 8475172,
         "last": "Kadri",
         "pos": "C",
         "role": "shooter",
-        "shots": 100,
+        "shots": 101,
         "sog": 2.6,
         "toi": 18.1
       },
@@ -13250,79 +13267,79 @@
       },
       {
         "first": "Devon",
-        "gp": 90,
+        "gp": 91,
         "id": 8478038,
         "last": "Toews",
         "pos": "D",
         "role": "defense",
-        "shots": 154,
+        "shots": 156,
         "sog": 1.7,
-        "toi": 22.2
+        "toi": 22.3
       }
     ]
   },
   "keys_DAL": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Jason",
-        "gp": 103,
+        "gp": 104,
         "id": 8480027,
         "last": "Robertson",
         "pos": "L",
         "role": "shooter",
-        "shots": 362,
+        "shots": 366,
         "sog": 3.5,
         "toi": 20.1
       },
       {
         "first": "Wyatt",
-        "gp": 101,
+        "gp": 102,
         "id": 8482740,
         "last": "Johnston",
         "pos": "C",
         "role": "shooter",
-        "shots": 258,
+        "shots": 262,
         "sog": 2.6,
         "toi": 20.0
       },
       {
         "first": "Roope",
-        "gp": 74,
+        "gp": 75,
         "id": 8478449,
         "last": "Hintz",
         "pos": "C",
         "role": "shooter",
-        "shots": 163,
+        "shots": 165,
         "sog": 2.2,
         "toi": 17.1
       },
       {
         "first": "Miro",
-        "gp": 93,
+        "gp": 94,
         "id": 8480036,
         "last": "Heiskanen",
         "pos": "D",
         "role": "defense",
-        "shots": 175,
+        "shots": 176,
         "sog": 1.9,
         "toi": 25.4
       },
       {
         "first": "Thomas",
-        "gp": 91,
+        "gp": 92,
         "id": 8481581,
         "last": "Harley",
         "pos": "D",
         "role": "defense",
-        "shots": 152,
+        "shots": 155,
         "sog": 1.7,
-        "toi": 23.6
+        "toi": 23.7
       }
     ]
   },
   "keys_DET": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Alex",
@@ -13382,56 +13399,56 @@
     ]
   },
   "keys_EDM": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Connor",
-        "gp": 105,
+        "gp": 106,
         "id": 8478402,
         "last": "McDavid",
         "pos": "C",
         "role": "shooter",
-        "shots": 370,
+        "shots": 372,
         "sog": 3.5,
         "toi": 23.1
       },
       {
         "first": "Leon",
-        "gp": 88,
+        "gp": 89,
         "id": 8477934,
         "last": "Draisaitl",
         "pos": "C",
         "role": "shooter",
-        "shots": 273,
+        "shots": 278,
         "sog": 3.1,
         "toi": 21.6
       },
       {
         "first": "Evan",
-        "gp": 105,
+        "gp": 106,
         "id": 8480803,
         "last": "Bouchard",
         "pos": "D",
         "role": "shooter",
-        "shots": 280,
+        "shots": 284,
         "sog": 2.7,
         "toi": 24.8
       },
       {
         "first": "Ryan",
-        "gp": 23,
+        "gp": 24,
         "id": 8478854,
         "last": "Shea",
         "pos": "D",
         "role": "defense",
-        "shots": 17,
-        "sog": 0.7,
-        "toi": 22.9
+        "shots": 18,
+        "sog": 0.8,
+        "toi": 23.0
       }
     ]
   },
   "keys_FLA": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Brady",
@@ -13491,17 +13508,17 @@
     ]
   },
   "keys_LAK": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Adrian",
-        "gp": 99,
+        "gp": 100,
         "id": 8477960,
         "last": "Kempe",
         "pos": "R",
         "role": "shooter",
-        "shots": 282,
-        "sog": 2.8,
+        "shots": 285,
+        "sog": 2.9,
         "toi": 19.4
       },
       {
@@ -13517,29 +13534,29 @@
       },
       {
         "first": "Alex",
-        "gp": 101,
+        "gp": 102,
         "id": 8482155,
         "last": "Laferriere",
         "pos": "R",
         "role": "shooter",
-        "shots": 266,
-        "sog": 2.6,
+        "shots": 272,
+        "sog": 2.7,
         "toi": 18.5
       },
       {
         "first": "Drew",
-        "gp": 90,
+        "gp": 91,
         "id": 8474563,
         "last": "Doughty",
         "pos": "D",
         "role": "defense",
-        "shots": 120,
+        "shots": 121,
         "sog": 1.3,
         "toi": 22.8
       },
       {
         "first": "Mikey",
-        "gp": 99,
+        "gp": 100,
         "id": 8479998,
         "last": "Anderson",
         "pos": "D",
@@ -13551,98 +13568,98 @@
     ]
   },
   "keys_MIN": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Matt",
-        "gp": 99,
+        "gp": 100,
         "id": 8481557,
         "last": "Boldy",
         "pos": "L",
         "role": "shooter",
-        "shots": 348,
+        "shots": 351,
         "sog": 3.5,
         "toi": 20.7
       },
       {
         "first": "Kirill",
-        "gp": 101,
+        "gp": 102,
         "id": 8478864,
         "last": "Kaprizov",
         "pos": "L",
         "role": "shooter",
-        "shots": 342,
+        "shots": 343,
         "sog": 3.4,
         "toi": 22.0
       },
       {
         "first": "Joel",
-        "gp": 93,
+        "gp": 94,
         "id": 8478493,
         "last": "Eriksson Ek",
         "pos": "C",
         "role": "shooter",
-        "shots": 267,
+        "shots": 269,
         "sog": 2.9,
         "toi": 19.1
       },
       {
         "first": "Quinn",
-        "gp": 71,
+        "gp": 72,
         "id": 8480800,
         "last": "Hughes",
         "pos": "D",
         "role": "defense",
-        "shots": 174,
-        "sog": 2.5,
+        "shots": 176,
+        "sog": 2.4,
         "toi": 27.9
       },
       {
         "first": "Brock",
-        "gp": 82,
+        "gp": 83,
         "id": 8482122,
         "last": "Faber",
         "pos": "D",
         "role": "defense",
-        "shots": 177,
-        "sog": 2.2,
+        "shots": 178,
+        "sog": 2.1,
         "toi": 24.7
       }
     ]
   },
   "keys_MTL": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Cole",
-        "gp": 103,
+        "gp": 104,
         "id": 8481540,
         "last": "Caufield",
         "pos": "R",
         "role": "shooter",
-        "shots": 328,
+        "shots": 334,
         "sog": 3.2,
         "toi": 18.3
       },
       {
         "first": "Nick",
-        "gp": 98,
+        "gp": 99,
         "id": 8480018,
         "last": "Suzuki",
         "pos": "C",
         "role": "shooter",
-        "shots": 226,
+        "shots": 229,
         "sog": 2.3,
         "toi": 20.8
       },
       {
         "first": "Juraj",
-        "gp": 104,
+        "gp": 105,
         "id": 8483515,
         "last": "Slafkovsk\u00fd",
         "pos": "L",
         "role": "shooter",
-        "shots": 231,
+        "shots": 234,
         "sog": 2.2,
         "toi": 18.5
       },
@@ -13659,19 +13676,19 @@
       },
       {
         "first": "Lane",
-        "gp": 104,
+        "gp": 105,
         "id": 8483457,
         "last": "Hutson",
         "pos": "D",
         "role": "defense",
-        "shots": 167,
+        "shots": 170,
         "sog": 1.6,
         "toi": 24.1
       }
     ]
   },
   "keys_NJD": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Jack",
@@ -13720,7 +13737,7 @@
     ]
   },
   "keys_NSH": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Filip",
@@ -13769,11 +13786,11 @@
     ]
   },
   "keys_NYI": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Bo",
-        "gp": 88,
+        "gp": 89,
         "id": 8477500,
         "last": "Horvat",
         "pos": "C",
@@ -13784,41 +13801,41 @@
       },
       {
         "first": "Matthew",
-        "gp": 102,
+        "gp": 103,
         "id": 8485366,
         "last": "Schaefer",
         "pos": "D",
         "role": "shooter",
-        "shots": 296,
+        "shots": 300,
         "sog": 2.9,
         "toi": 25.1
       },
       {
         "first": "Kyle",
-        "gp": 45,
+        "gp": 46,
         "id": 8475151,
         "last": "Palmieri",
         "pos": "C",
         "role": "shooter",
-        "shots": 111,
-        "sog": 2.5,
-        "toi": 17.9
+        "shots": 112,
+        "sog": 2.4,
+        "toi": 17.8
       },
       {
         "first": "Adam",
-        "gp": 102,
+        "gp": 103,
         "id": 8476917,
         "last": "Pelech",
         "pos": "D",
         "role": "defense",
-        "shots": 146,
+        "shots": 147,
         "sog": 1.4,
         "toi": 20.8
       }
     ]
   },
   "keys_NYR": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Pavel",
@@ -13878,33 +13895,33 @@
     ]
   },
   "keys_OTT": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Dylan",
-        "gp": 104,
+        "gp": 105,
         "id": 8481528,
         "last": "Cozens",
         "pos": "C",
         "role": "shooter",
-        "shots": 250,
+        "shots": 254,
         "sog": 2.4,
         "toi": 17.1
       },
       {
         "first": "Tim",
-        "gp": 102,
+        "gp": 103,
         "id": 8482116,
         "last": "St\u00fctzle",
         "pos": "C",
         "role": "shooter",
-        "shots": 247,
+        "shots": 248,
         "sog": 2.4,
         "toi": 20.6
       },
       {
         "first": "Jake",
-        "gp": 81,
+        "gp": 82,
         "id": 8482105,
         "last": "Sanderson",
         "pos": "D",
@@ -13915,94 +13932,94 @@
       },
       {
         "first": "Thomas",
-        "gp": 75,
+        "gp": 76,
         "id": 8478469,
         "last": "Chabot",
         "pos": "D",
         "role": "defense",
-        "shots": 131,
+        "shots": 132,
         "sog": 1.7,
         "toi": 22.8
       }
     ]
   },
   "keys_PHI": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Owen",
-        "gp": 99,
+        "gp": 100,
         "id": 8480015,
         "last": "Tippett",
         "pos": "R",
         "role": "shooter",
-        "shots": 261,
+        "shots": 264,
         "sog": 2.6,
         "toi": 16.5
       },
       {
         "first": "Travis",
-        "gp": 91,
+        "gp": 92,
         "id": 8478439,
         "last": "Konecny",
         "pos": "R",
         "role": "shooter",
-        "shots": 197,
+        "shots": 199,
         "sog": 2.2,
         "toi": 18.8
       },
       {
         "first": "Trevor",
-        "gp": 105,
+        "gp": 106,
         "id": 8481533,
         "last": "Zegras",
         "pos": "C",
         "role": "shooter",
-        "shots": 217,
+        "shots": 218,
         "sog": 2.1,
         "toi": 18.6
       },
       {
         "first": "Travis",
-        "gp": 105,
+        "gp": 106,
         "id": 8477948,
         "last": "Sanheim",
         "pos": "D",
         "role": "defense",
-        "shots": 138,
+        "shots": 140,
         "sog": 1.3,
         "toi": 24.4
       },
       {
         "first": "Cam",
-        "gp": 90,
+        "gp": 91,
         "id": 8481546,
         "last": "York",
         "pos": "D",
         "role": "defense",
-        "shots": 107,
+        "shots": 110,
         "sog": 1.2,
         "toi": 22.0
       }
     ]
   },
   "keys_PIT": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Rickard",
-        "gp": 80,
+        "gp": 81,
         "id": 8476483,
         "last": "Rakell",
         "pos": "R",
         "role": "shooter",
-        "shots": 214,
+        "shots": 221,
         "sog": 2.7,
         "toi": 19.2
       },
       {
         "first": "Evgeni",
-        "gp": 74,
+        "gp": 75,
         "id": 8471215,
         "last": "Malkin",
         "pos": "C",
@@ -14024,50 +14041,50 @@
       },
       {
         "first": "Erik",
-        "gp": 95,
+        "gp": 96,
         "id": 8474578,
         "last": "Karlsson",
         "pos": "D",
         "role": "defense",
-        "shots": 217,
+        "shots": 219,
         "sog": 2.3,
         "toi": 23.6
       },
       {
         "first": "Kris",
-        "gp": 94,
+        "gp": 95,
         "id": 8471724,
         "last": "Letang",
         "pos": "D",
         "role": "defense",
-        "shots": 140,
+        "shots": 143,
         "sog": 1.5,
         "toi": 21.3
       }
     ]
   },
   "keys_SEA": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Bobby",
-        "gp": 36,
+        "gp": 37,
         "id": 8482259,
         "last": "McMann",
         "pos": "C",
         "role": "shooter",
-        "shots": 104,
+        "shots": 106,
         "sog": 2.9,
         "toi": 17.5
       },
       {
         "first": "Brandon",
-        "gp": 81,
+        "gp": 82,
         "id": 8477986,
         "last": "Montour",
         "pos": "D",
         "role": "shooter",
-        "shots": 206,
+        "shots": 208,
         "sog": 2.5,
         "toi": 22.9
       },
@@ -14084,19 +14101,19 @@
       },
       {
         "first": "Vince",
-        "gp": 99,
+        "gp": 100,
         "id": 8478407,
         "last": "Dunn",
         "pos": "D",
         "role": "defense",
-        "shots": 215,
+        "shots": 217,
         "sog": 2.2,
         "toi": 21.9
       }
     ]
   },
   "keys_SJS": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Macklin",
@@ -14156,67 +14173,67 @@
     ]
   },
   "keys_STL": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Dylan",
-        "gp": 80,
+        "gp": 81,
         "id": 8482077,
         "last": "Holloway",
         "pos": "L",
         "role": "shooter",
-        "shots": 212,
-        "sog": 2.6,
+        "shots": 215,
+        "sog": 2.7,
         "toi": 18.1
       },
       {
         "first": "Mason",
-        "gp": 21,
+        "gp": 22,
         "id": 8482745,
         "last": "McTavish",
         "pos": "C",
         "role": "shooter",
-        "shots": 53,
+        "shots": 54,
         "sog": 2.5,
-        "toi": 16.3
+        "toi": 16.1
       },
       {
         "first": "Jimmy",
-        "gp": 91,
+        "gp": 92,
         "id": 8483516,
         "last": "Snuggerud",
         "pos": "R",
         "role": "shooter",
-        "shots": 215,
+        "shots": 219,
         "sog": 2.4,
-        "toi": 16.9
+        "toi": 17.0
       },
       {
         "first": "Philip",
-        "gp": 102,
+        "gp": 103,
         "id": 8481598,
         "last": "Broberg",
         "pos": "D",
         "role": "defense",
-        "shots": 141,
+        "shots": 142,
         "sog": 1.4,
         "toi": 23.6
       },
       {
         "first": "Colton",
-        "gp": 96,
+        "gp": 97,
         "id": 8476892,
         "last": "Parayko",
         "pos": "D",
         "role": "defense",
         "shots": 129,
         "sog": 1.3,
-        "toi": 21.9
+        "toi": 21.8
       }
     ]
   },
   "keys_TBL": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Brandon",
@@ -14231,29 +14248,29 @@
       },
       {
         "first": "Nikita",
-        "gp": 97,
+        "gp": 98,
         "id": 8476453,
         "last": "Kucherov",
         "pos": "R",
         "role": "shooter",
         "shots": 298,
-        "sog": 3.1,
+        "sog": 3.0,
         "toi": 20.5
       },
       {
         "first": "Jake",
-        "gp": 102,
+        "gp": 103,
         "id": 8477404,
         "last": "Guentzel",
         "pos": "C",
         "role": "shooter",
-        "shots": 278,
+        "shots": 279,
         "sog": 2.7,
         "toi": 20.5
       },
       {
         "first": "J.J.",
-        "gp": 100,
+        "gp": 101,
         "id": 8482655,
         "last": "Moser",
         "pos": "D",
@@ -14264,67 +14281,67 @@
       },
       {
         "first": "John",
-        "gp": 21,
+        "gp": 22,
         "id": 8474590,
         "last": "Carlson",
         "pos": "D",
         "role": "defense",
-        "shots": 49,
+        "shots": 51,
         "sog": 2.3,
-        "toi": 19.3
+        "toi": 19.5
       }
     ]
   },
   "keys_TOR": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Auston",
-        "gp": 83,
+        "gp": 84,
         "id": 8479318,
         "last": "Matthews",
         "pos": "C",
         "role": "shooter",
-        "shots": 299,
+        "shots": 304,
         "sog": 3.6,
-        "toi": 20.7
+        "toi": 20.8
       },
       {
         "first": "Jack",
-        "gp": 22,
+        "gp": 23,
         "id": 8478458,
         "last": "Roslovic",
         "pos": "C",
         "role": "shooter",
-        "shots": 59,
+        "shots": 61,
         "sog": 2.7,
         "toi": 17.5
       },
       {
-        "first": "William",
-        "gp": 88,
-        "id": 8477939,
-        "last": "Nylander",
+        "first": "Kirill",
+        "gp": 14,
+        "id": 8480893,
+        "last": "Marchenko",
         "pos": "R",
         "role": "shooter",
-        "shots": 216,
+        "shots": 35,
         "sog": 2.5,
-        "toi": 19.6
+        "toi": 17.6
       },
       {
         "first": "Darren",
-        "gp": 23,
+        "gp": 24,
         "id": 8478178,
         "last": "Raddysh",
         "pos": "D",
         "role": "defense",
-        "shots": 52,
-        "sog": 2.3,
-        "toi": 23.8
+        "shots": 57,
+        "sog": 2.4,
+        "toi": 23.9
       },
       {
         "first": "Jake",
-        "gp": 103,
+        "gp": 104,
         "id": 8476931,
         "last": "McCabe",
         "pos": "D",
@@ -14336,7 +14353,7 @@
     ]
   },
   "keys_UTA": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Dylan",
@@ -14396,55 +14413,55 @@
     ]
   },
   "keys_VAN": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Jake",
-        "gp": 102,
+        "gp": 103,
         "id": 8478498,
         "last": "DeBrusk",
         "pos": "L",
         "role": "shooter",
-        "shots": 270,
+        "shots": 271,
         "sog": 2.6,
         "toi": 16.8
       },
       {
         "first": "Brock",
-        "gp": 98,
+        "gp": 99,
         "id": 8478444,
         "last": "Boeser",
         "pos": "R",
         "role": "shooter",
-        "shots": 203,
+        "shots": 206,
         "sog": 2.1,
-        "toi": 19.1
+        "toi": 19.2
       },
       {
         "first": "Filip",
-        "gp": 22,
+        "gp": 23,
         "id": 8480078,
         "last": "Chytil",
         "pos": "C",
         "role": "shooter",
         "shots": 47,
-        "sog": 2.1,
-        "toi": 17.0
+        "sog": 2.0,
+        "toi": 17.2
       },
       {
         "first": "Filip",
-        "gp": 105,
+        "gp": 106,
         "id": 8479425,
         "last": "Hronek",
         "pos": "D",
         "role": "defense",
-        "shots": 165,
+        "shots": 167,
         "sog": 1.6,
-        "toi": 25.3
+        "toi": 25.4
       },
       {
         "first": "Zeev",
-        "gp": 68,
+        "gp": 69,
         "id": 8484798,
         "last": "Buium",
         "pos": "D",
@@ -14456,51 +14473,51 @@
     ]
   },
   "keys_VGK": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Jack",
-        "gp": 97,
+        "gp": 98,
         "id": 8478403,
         "last": "Eichel",
         "pos": "C",
         "role": "shooter",
-        "shots": 322,
+        "shots": 324,
         "sog": 3.3,
-        "toi": 21.0
+        "toi": 21.1
       },
       {
         "first": "Tomas",
-        "gp": 105,
+        "gp": 106,
         "id": 8476881,
         "last": "Hertl",
         "pos": "C",
         "role": "shooter",
-        "shots": 260,
+        "shots": 262,
         "sog": 2.5,
         "toi": 16.8
       },
       {
         "first": "Victor",
-        "gp": 10,
+        "gp": 11,
         "id": 8478109,
         "last": "Olofsson",
         "pos": "L",
         "role": "shooter",
-        "shots": 25,
+        "shots": 27,
         "sog": 2.5,
-        "toi": 15.0
+        "toi": 15.3
       },
       {
         "first": "Shea",
-        "gp": 93,
+        "gp": 94,
         "id": 8477447,
         "last": "Theodore",
         "pos": "D",
         "role": "defense",
-        "shots": 169,
+        "shots": 171,
         "sog": 1.8,
-        "toi": 22.6
+        "toi": 22.7
       },
       {
         "first": "Noah",
@@ -14516,55 +14533,55 @@
     ]
   },
   "keys_WPG": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Kyle",
-        "gp": 104,
+        "gp": 105,
         "id": 8478398,
         "last": "Connor",
         "pos": "L",
         "role": "shooter",
-        "shots": 371,
+        "shots": 373,
         "sog": 3.6,
         "toi": 21.5
       },
       {
-        "first": "Mark",
-        "gp": 104,
-        "id": 8476460,
-        "last": "Scheifele",
-        "pos": "C",
-        "role": "shooter",
-        "shots": 224,
-        "sog": 2.2,
-        "toi": 21.5
-      },
-      {
         "first": "Cole",
-        "gp": 90,
+        "gp": 91,
         "id": 8482149,
         "last": "Perfetti",
         "pos": "C",
         "role": "shooter",
-        "shots": 197,
+        "shots": 201,
         "sog": 2.2,
         "toi": 16.3
       },
       {
+        "first": "Mark",
+        "gp": 105,
+        "id": 8476460,
+        "last": "Scheifele",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 225,
+        "sog": 2.1,
+        "toi": 21.5
+      },
+      {
         "first": "Josh",
-        "gp": 85,
+        "gp": 86,
         "id": 8477504,
         "last": "Morrissey",
         "pos": "D",
         "role": "defense",
-        "shots": 166,
+        "shots": 168,
         "sog": 2.0,
         "toi": 24.6
       },
       {
         "first": "Neal",
-        "gp": 73,
+        "gp": 74,
         "id": 8480145,
         "last": "Pionk",
         "pos": "D",
@@ -14576,51 +14593,51 @@
     ]
   },
   "keys_WSH": {
-    "fetched": "2026-11-20T00:22:13Z",
+    "fetched": "2026-11-20T12:23:10Z",
     "value": [
       {
         "first": "Jakob",
-        "gp": 99,
+        "gp": 100,
         "id": 8479345,
         "last": "Chychrun",
         "pos": "D",
         "role": "shooter",
-        "shots": 281,
+        "shots": 283,
         "sog": 2.8,
         "toi": 23.5
       },
       {
         "first": "Alex",
-        "gp": 101,
+        "gp": 102,
         "id": 8471214,
         "last": "Ovechkin",
         "pos": "L",
         "role": "shooter",
-        "shots": 277,
+        "shots": 280,
         "sog": 2.7,
         "toi": 16.7
       },
       {
         "first": "Alex",
-        "gp": 19,
+        "gp": 20,
         "id": 8477949,
         "last": "Tuch",
         "pos": "R",
         "role": "shooter",
-        "shots": 48,
+        "shots": 50,
         "sog": 2.5,
         "toi": 18.9
       },
       {
         "first": "Matt",
-        "gp": 92,
+        "gp": 93,
         "id": 8478911,
         "last": "Roy",
         "pos": "D",
         "role": "defense",
-        "shots": 109,
+        "shots": 113,
         "sog": 1.2,
-        "toi": 20.6
+        "toi": 20.7
       }
     ]
   },
@@ -16904,6 +16921,38 @@
       8482929,
       8483447,
       8484770
+    ]
+  },
+  "skaters_TOR": {
+    "fetched": "2026-11-20T12:23:10Z",
+    "value": [
+      8475166,
+      8475171,
+      8475690,
+      8476853,
+      8476925,
+      8476927,
+      8476931,
+      8477425,
+      8477426,
+      8477541,
+      8477939,
+      8478057,
+      8478178,
+      8478458,
+      8479318,
+      8479442,
+      8479520,
+      8479772,
+      8480870,
+      8480893,
+      8482153,
+      8482525,
+      8483546,
+      8483565,
+      8484158,
+      8484287,
+      8486067
     ]
   },
   "skaters_UTA": {
