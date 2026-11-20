@@ -12618,6 +12618,8 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-19T13:20:16Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-20T14:50:16Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
@@ -12669,8 +12671,6 @@
     "NYI:8479378": {
       "alerted": true,
       "out_at": "2026-11-19T23:57:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-20T14:49:12Z",
       "player": {
         "first": "Logan",
         "gp": 18,
