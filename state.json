@@ -157,6 +157,7 @@
       "alt": {
         "DK": 24.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -441,6 +442,10 @@
     },
     "78267bbb84304764c453515236c3ccce|Dan Vladar": {
       "d": "2026-11-11",
+      "r": "W"
+    },
+    "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz": {
+      "d": "2026-11-19",
       "r": "W"
     },
     "7bfae1a5166976e5ca05e92319277910|Jake Oettinger": {
@@ -14582,7 +14587,8 @@
     "2026-11-19": [
       "3449054d3b59c2c7fc8cf914dbd45ea6|Jakub Dobes",
       "6e1de7988dd0c9689abb85f6b8399336|Ukko-Pekka Luukkonen",
-      "84d6f3a55d9aac25cd001f3d94aab44b|Samuel Ersson"
+      "84d6f3a55d9aac25cd001f3d94aab44b|Samuel Ersson",
+      "7bca03cc186cb70bd12d060ededa8842|Anthony Stolarz"
     ]
   },
   "picks_channel": {
