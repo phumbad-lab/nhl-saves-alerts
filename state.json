@@ -15329,7 +15329,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.37,
-    "fetched": "2026-11-19T21:33:10Z",
+    "fetched": "2026-11-20T03:33:10Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.63636,
@@ -15348,8 +15348,8 @@
         "sf": 27.18181
       },
       "carolinahurricanes": {
-        "sa": 21.5238,
-        "sf": 33.28571
+        "sa": 21.63636,
+        "sf": 33.0
       },
       "chicagoblackhawks": {
         "sa": 30.47619,
@@ -15388,8 +15388,8 @@
         "sf": 29.43478
       },
       "montrealcanadiens": {
-        "sa": 28.0909,
-        "sf": 27.63636
+        "sa": 28.04347,
+        "sf": 27.47826
       },
       "nashvillepredators": {
         "sa": 29.86363,
@@ -15400,24 +15400,24 @@
         "sf": 32.5909
       },
       "newyorkislanders": {
-        "sa": 29.1,
-        "sf": 26.3
+        "sa": 28.7619,
+        "sf": 26.23809
       },
       "newyorkrangers": {
         "sa": 26.40909,
         "sf": 25.95454
       },
       "ottawasenators": {
-        "sa": 26.22727,
-        "sf": 26.22727
+        "sa": 25.91304,
+        "sf": 26.21739
       },
       "philadelphiaflyers": {
-        "sa": 27.79166,
-        "sf": 24.91666
+        "sa": 27.72,
+        "sf": 24.68
       },
       "pittsburghpenguins": {
-        "sa": 28.15,
-        "sf": 27.2
+        "sa": 28.38095,
+        "sf": 27.47619
       },
       "sanjosesharks": {
         "sa": 30.66666,
@@ -15428,8 +15428,8 @@
         "sf": 24.22222
       },
       "stlouisblues": {
-        "sa": 28.95238,
-        "sf": 27.04761
+        "sa": 29.13636,
+        "sf": 27.31818
       },
       "tampabaylightning": {
         "sa": 25.14285,
@@ -15456,11 +15456,11 @@
         "sf": 28.15789
       },
       "winnipegjets": {
-        "sa": 28.04545,
-        "sf": 27.45454
+        "sa": 27.91304,
+        "sf": 27.21739
       }
     },
-    "save_pct": 0.8858,
+    "save_pct": 0.8856,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
@@ -16541,7 +16541,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-19T21:33:10Z",
+    "fetched": "2026-11-20T03:33:10Z",
     "value": [
       8473419,
       8474189,
@@ -16793,7 +16793,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-19T21:33:10Z",
+    "fetched": "2026-11-20T03:33:10Z",
     "value": [
       8475314,
       8476389,
