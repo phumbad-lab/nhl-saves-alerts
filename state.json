@@ -12875,6 +12875,7 @@
     },
     "VGK:8478396": {
       "alerted": true,
+      "missing_since": "2026-11-20T19:26:11Z",
       "out_at": "2026-11-10T20:42:11Z",
       "player": {
         "first": "Noah",
