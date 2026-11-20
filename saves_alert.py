@@ -1733,6 +1733,8 @@ def injury_lines(report, ab, state=None, games=None, now=None):
                 missed = games_missed(state, t, k, games, now) if live else None
                 tag = ("NEW" if k["new"] else "") if missed is None else ("NEW" if missed == 0 else f"({missed})")
                 line = f"{ul('INJ:')} {k['last']} {pos(k)} ({t}) {what}" + (f" {tag}" if tag else "")
+                if tag == "NEW":
+                    line = "⚠️ " + line  # owner Nov 20 (missed Hagel's NEW line): make it stand out
             elif SHOW_GTD:
                 line = f"{ul('GTD:')} {k['last']} {pos(k)} ({t}) {what}"
             else:
@@ -1747,7 +1749,9 @@ def injury_lines(report, ab, state=None, games=None, now=None):
 
 def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
     """'⚠️ Sanderson D (OTT) OUT - OTT@NJD 7:10PM' + which already-alerted goalie it affects.
-    Only for games today that haven't started and that you've already had an alert for."""
+    Games today that haven't started. OUT: any such game once the 10 AM injury update has gone
+    (owner Nov 20, Hagel ruled out before the game's first alert); BACK/CLEARED/ACTIVATED: only
+    games you've already had an alert for."""
     today = now.astimezone(LOCAL_TZ).date()
     for event in events:
         start = parse_iso(event["commence_time"])
@@ -1758,8 +1762,8 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
             continue
         rec = state["events"].get(event["id"], {})
         posted = {p for players in rec.get("lines", {}).values() for p in players}
-        if not posted:
-            continue  # no alert yet; the injury will show in the alert when it comes
+        if not posted and (back or state.get("injury_update_sent") != today.isoformat()):
+            continue  # before 10 AM the morning update covers it; BACK still needs an alerted game
         team_side = "away" if ab["away"] == team else "home"
         other = "home" if team_side == "away" else "away"
         # A missing shooter means fewer shots on the other goalie; a missing D means more on his own.
@@ -1785,6 +1789,46 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
             lines.append(f"{effect} shots expected on the {ab[hit_side]} goalie")
         send_push("", "\n".join(lines))
         print(f"INJURY ALERT {k['last']} ({team}) {'BACK' if back else 'OUT'}")
+
+
+INJURY_UPDATE_HOUR = 10   # ET, once a day (owner Nov 20)
+INJURY_UPDATE_MAX_MISSED = 3  # only absences of fewer than 3 games; longer ones are priced in
+
+
+def injury_update(state, events, abbrevs, injuries, now):
+    """Owner Nov 20: '🩹 Injuries · Fri Nov 20' at 10 AM, key players OUT who've missed fewer than
+    3 games, teams playing today only, in puck-drop order. After it goes out, any new key OUT on a
+    game-day team gets its own ⚠️ alert (send_injury_change)."""
+    local = now.astimezone(LOCAL_TZ)
+    today = local.date()
+    if local.hour < INJURY_UPDATE_HOUR or state.get("injury_update_sent") == today.isoformat() or not abbrevs:
+        return
+    games = (state.get("game_log") or {}).get("games")
+    seen, lines = set(), []
+    for ev in sorted(events, key=lambda e: e["commence_time"]):
+        start = parse_iso(ev["commence_time"])
+        if start.astimezone(LOCAL_TZ).date() != today:
+            continue
+        for x in ("away", "home"):
+            t = abbrevs.get(team_key(ev[f"{x}_team"]))
+            if not t or t in seen:
+                continue
+            seen.add(t)
+            for k in injuries.get(t, []):
+                if k["status"] != "OUT":
+                    continue
+                missed = games_missed(state, t, k, games, now)
+                if missed is not None and missed >= INJURY_UPDATE_MAX_MISSED:
+                    continue
+                what = f"{k['sog']} SOG/g" if k["role"] == "shooter" else f"{k['toi']:.0f} min"
+                tag = "NEW" if (missed == 0 or (missed is None and k.get("new"))) else (
+                    f"({missed})" if missed is not None else "")
+                lines.append(f"⚠️ {k['last']} {pos(k)} ({t}) {what}" + (f" · {tag}" if tag else ""))
+    if not seen:
+        return  # no games today: nothing to send, try again tomorrow
+    body = "\n".join(lines) if lines else "No new key-player injuries for today's games."
+    if send_push("", f"🩹 Injuries · {local.strftime('%a %b %-d')}\n{body}"):
+        state["injury_update_sent"] = today.isoformat()
 
 
 def key_out_summary(report, ab):
@@ -2921,6 +2965,7 @@ def run(state, now):
     # game you've already been alerted on.
     abbrevs = cached(state, "team_abbrevs", now, timedelta(days=1), load_abbrevs) or {}
     injuries, newly_out, newly_back = injury_report(state, events, abbrevs, now) if abbrevs else ({}, [], [])
+    injury_update(state, events, abbrevs, injuries, now)
     for team, k in newly_out:
         send_injury_change(state, events, stats, abbrevs, team, k, now)
     for team, k in newly_back:
