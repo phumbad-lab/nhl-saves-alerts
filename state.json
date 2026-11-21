@@ -1180,46 +1180,6 @@
       },
       "matchup": "St Louis Blues @ Pittsburgh Penguins"
     },
-    "af8d9e2567d44dcbb4a548272d876b6b": {
-      "commence_time": "2026-11-19T03:20:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-18T19:31:11Z",
-      "lines": {
-        "draftkings": {
-          "Mackenzie Blackwood": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390164410%232370484104_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390164410%232370484105_15L42133Q1458571637Q20"
-          },
-          "Sebastian Cossa": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390548430%232371287377_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390548430%232371287378_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Mackenzie Blackwood": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626702110&selectionId=74101473",
-            "point": 25.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626702110&selectionId=74101476"
-          },
-          "Sebastian Cossa": {
-            "over": -130,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626697168&selectionId=103689734",
-            "point": 25.5,
-            "under": -102,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626697168&selectionId=103689735"
-          }
-        }
-      },
-      "matchup": "Colorado Avalanche @ Utah Mammoth"
-    },
     "b1d9949c5ac7b55124c035186871f97f": {
       "commence_time": "2026-11-22T00:00:00Z",
       "last_paid_check": null,
