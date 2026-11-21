@@ -646,7 +646,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17271,
+  "credits_remaining": 17270,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1255,7 +1255,7 @@
     "7c6930f22180d748b3c0270afe1d67b4": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T20:59:13Z",
+      "last_paid_check": "2026-11-21T21:15:16Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -17311,7 +17311,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-21T20:55:12Z",
+    "fetched": "2026-11-21T21:15:16Z",
     "value": [
       8473419,
       8474189,
@@ -17391,7 +17391,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-21T20:55:12Z",
+    "fetched": "2026-11-21T21:15:16Z",
     "value": [
       8475184,
       8476479,
@@ -17478,7 +17478,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-21T20:55:12Z",
+    "fetched": "2026-11-21T21:15:16Z",
     "value": [
       8471215,
       8471675,
@@ -17507,7 +17507,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-21T20:55:12Z",
+    "fetched": "2026-11-21T21:15:16Z",
     "value": [
       8474586,
       8476457,
@@ -17563,7 +17563,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-21T20:55:12Z",
+    "fetched": "2026-11-21T21:15:16Z",
     "value": [
       8475166,
       8475171,
@@ -17595,7 +17595,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-21T20:55:12Z",
+    "fetched": "2026-11-21T21:15:16Z",
     "value": [
       8475314,
       8476389,
