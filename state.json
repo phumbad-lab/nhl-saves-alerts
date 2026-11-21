@@ -593,7 +593,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17334,
+  "credits_remaining": 17330,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -701,7 +701,7 @@
     "3e00ca5a69a2b305ed1f78590d590c7e": {
       "commence_time": "2026-11-22T03:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:41:15Z",
+      "last_paid_check": "2026-11-21T17:57:09Z",
       "lines": {
         "fanduel": {
           "Leevi Merilainen": {
@@ -1004,7 +1004,7 @@
     "6d5c13d697e753014382cb88c02b8d0a": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:41:15Z",
+      "last_paid_check": "2026-11-21T17:57:09Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
@@ -1349,7 +1349,7 @@
     "b9678f4fdeb3125258b4679e9785fffb": {
       "commence_time": "2026-11-21T20:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:41:15Z",
+      "last_paid_check": "2026-11-21T17:57:09Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -1360,11 +1360,11 @@
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391105919%232375252144_15L42133Q1-1449474Q20"
           },
           "Dustin Wolf": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391410434%232375273828_13L42133Q1-1959470774Q20",
-            "point": 20.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391410434%232375273829_15L42133Q1-1449474Q20"
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391410434%232375358170_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391410434%232375358171_15L42133Q1888607062Q20"
           }
         },
         "fanduel": {
