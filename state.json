@@ -62,6 +62,16 @@
       "start": "2026-11-20T02:50:00Z",
       "text": "Grubauer (SEA) - VAN@SEA 9:50PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626946571&selectionId=74802625\u0004o21.5\u0005"
     },
+    "6b3ca9f550a96d09fdd079e3c7e1158a|Anthony Stolarz": {
+      "alt": {},
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 347,
+      "side": "OVER",
+      "start": "2026-11-22T00:00:00Z",
+      "text": "Stolarz (TOR) - CBJ@TOR 7:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627512521&selectionId=74842534\u0004o22.5\u0005"
+    },
     "6c4d4bc698a434e4b1d5492b9bff28cb|Adin Hill": {
       "alt": {
         "DK": 21.5
@@ -17054,6 +17064,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088300,
+  "tg_offset": 69088301,
   "watch": {}
 }
