@@ -226,6 +226,16 @@
       "side": "UNDER",
       "start": "2026-11-22T00:00:00Z",
       "text": "Vladar (PHI) - PHI@MTL 7:00PM\nFD u25.5"
+    },
+    "d393852cc4dc6ab621ca0cd1f6ccaccc|Sergei Murashov": {
+      "alt": {},
+      "lines": {
+        "FD": 23.5
+      },
+      "mid": 360,
+      "side": "OVER",
+      "start": "2026-11-21T23:00:00Z",
+      "text": "Murashov (PIT) - PIT@NSH 6:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627626772&selectionId=91004572\u0004o23.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-21",
@@ -636,12 +646,12 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17272,
+  "credits_remaining": 17271,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T20:56:11Z",
+      "last_paid_check": "2026-11-21T21:12:12Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
@@ -17704,6 +17714,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088308,
+  "tg_offset": 69088309,
   "watch": {}
 }
