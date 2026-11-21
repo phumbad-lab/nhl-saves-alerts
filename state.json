@@ -648,7 +648,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17264,
+  "credits_remaining": 17263,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1569,14 +1569,14 @@
     "d393852cc4dc6ab621ca0cd1f6ccaccc": {
       "commence_time": "2026-11-21T23:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T21:36:15Z",
+      "last_paid_check": "2026-11-21T21:52:14Z",
       "lines": {
         "draftkings": {
           "Sergei Murashov": {
-            "over": -120,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391351821%232375491708_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -115,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391351821%232375491709_15L42133Q184490156Q20"
           }
         },
@@ -17425,7 +17425,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-21T21:31:11Z",
+    "fetched": "2026-11-21T21:52:14Z",
     "value": [
       8473422,
       8474567,
