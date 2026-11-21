@@ -631,7 +631,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17285,
+  "credits_remaining": 17284,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1472,7 +1472,7 @@
     "b9678f4fdeb3125258b4679e9785fffb": {
       "commence_time": "2026-11-21T20:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T20:00:21Z",
+      "last_paid_check": "2026-11-21T20:01:10Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
