@@ -607,12 +607,23 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17314,
+  "credits_remaining": 17313,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T18:39:10Z",
+      "lines": {
+        "fanduel": {
+          "Alex Nedeljkovic": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627579618&selectionId=75304747",
+            "point": 22.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627579618&selectionId=75304746"
+          }
+        }
+      },
       "matchup": "Seattle Kraken @ San Jose Sharks"
     },
     "147b0b6f883cce916d06b7aaa9b9594c": {
@@ -12210,6 +12221,39 @@
       ]
     ]
   },
+  "h2h_SEA-SJS": {
+    "fetched": "2026-11-21T18:39:10Z",
+    "value": [
+      [
+        "2025-12-20",
+        "SEA",
+        "SJS",
+        32,
+        36
+      ],
+      [
+        "2025-11-15",
+        "SJS",
+        "SEA",
+        26,
+        23
+      ],
+      [
+        "2025-11-05",
+        "SJS",
+        "SEA",
+        23,
+        30
+      ],
+      [
+        "2025-04-05",
+        "SEA",
+        "SJS",
+        22,
+        24
+      ]
+    ]
+  },
   "h2h_SEA-TBL": {
     "fetched": "2026-10-15T16:31:11Z",
     "value": [
@@ -13125,8 +13169,6 @@
     "MIN:8480800": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-21T18:38:10Z",
       "player": {
         "first": "Quinn",
         "gp": 72,
@@ -15313,14 +15355,14 @@
     ]
   },
   "roster_SEA": {
-    "fetched": "2026-11-19T17:47:11Z",
+    "fetched": "2026-11-21T18:39:10Z",
     "value": [
       "Joey Daccord",
       "Philipp Grubauer"
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-11-17T19:00:22Z",
+    "fetched": "2026-11-21T18:39:10Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -15896,6 +15938,12 @@
       "book": "DK",
       "event_id": "e491b0b72df0e6f41b1bf7f9c349a136",
       "goalie": "Anton Forsberg"
+    },
+    "1854": {
+      "at": "2026-11-21T18:39:10Z",
+      "book": null,
+      "event_id": "133b6fa32f89f05a14d7146ee5070a83",
+      "goalie": "Alex Nedeljkovic"
     }
   },
   "shot_stats": {
