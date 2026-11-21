@@ -13169,8 +13169,6 @@
     "MIN:8480800": {
       "alerted": false,
       "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-21T18:40:15Z",
       "player": {
         "first": "Quinn",
         "gp": 72,
