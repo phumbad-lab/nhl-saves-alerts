@@ -91,6 +91,7 @@
       "alt": {
         "FD": 27.5
       },
+      "done": true,
       "lines": {
         "DK": 28.5
       },
@@ -336,6 +337,10 @@
     "43a0ad5ba8bff6cdca19964348b53eff|Justus Annunen": {
       "d": "2026-11-11",
       "r": "W"
+    },
+    "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi": {
+      "d": "2026-11-21",
+      "r": "L"
     },
     "46dec80debcc79de4c248a0edd4f8d74|Joseph Woll": {
       "d": "2026-10-28",
@@ -15299,7 +15304,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-21": [
+      "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
@@ -17275,7 +17284,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-21T20:34:14Z",
+    "fetched": "2026-11-21T20:55:12Z",
     "value": [
       8473419,
       8474189,
@@ -17355,7 +17364,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-21T20:34:14Z",
+    "fetched": "2026-11-21T20:55:12Z",
     "value": [
       8475184,
       8476479,
@@ -17442,7 +17451,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-21T20:34:14Z",
+    "fetched": "2026-11-21T20:55:12Z",
     "value": [
       8471215,
       8471675,
@@ -17471,7 +17480,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-21T20:34:14Z",
+    "fetched": "2026-11-21T20:55:12Z",
     "value": [
       8474586,
       8476457,
@@ -17527,7 +17536,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-21T20:34:14Z",
+    "fetched": "2026-11-21T20:55:12Z",
     "value": [
       8475166,
       8475171,
@@ -17559,7 +17568,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-21T20:34:14Z",
+    "fetched": "2026-11-21T20:55:12Z",
     "value": [
       8475314,
       8476389,
