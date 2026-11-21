@@ -648,7 +648,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17267,
+  "credits_remaining": 17266,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1569,7 +1569,7 @@
     "d393852cc4dc6ab621ca0cd1f6ccaccc": {
       "commence_time": "2026-11-21T23:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T21:21:11Z",
+      "last_paid_check": "2026-11-21T21:36:15Z",
       "lines": {
         "draftkings": {
           "Sergei Murashov": {
@@ -13196,6 +13196,7 @@
   "injuries": {
     "CAR:8477940": {
       "alerted": false,
+      "missing_since": "2026-11-21T21:36:15Z",
       "out_at": "2026-11-21T21:35:14Z",
       "player": {
         "first": "Nikolaj",
@@ -17371,7 +17372,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-21T21:15:16Z",
+    "fetched": "2026-11-21T21:36:15Z",
     "value": [
       8473419,
       8474189,
@@ -17451,7 +17452,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-21T21:15:16Z",
+    "fetched": "2026-11-21T21:36:15Z",
     "value": [
       8475184,
       8476479,
@@ -17538,7 +17539,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-21T21:15:16Z",
+    "fetched": "2026-11-21T21:36:15Z",
     "value": [
       8471215,
       8471675,
@@ -17567,7 +17568,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-21T21:15:16Z",
+    "fetched": "2026-11-21T21:36:15Z",
     "value": [
       8474586,
       8476457,
@@ -17623,7 +17624,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-21T21:15:16Z",
+    "fetched": "2026-11-21T21:36:15Z",
     "value": [
       8475166,
       8475171,
@@ -17655,7 +17656,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-21T21:15:16Z",
+    "fetched": "2026-11-21T21:36:15Z",
     "value": [
       8475314,
       8476389,
