@@ -1791,7 +1791,7 @@ def send_injury_change(state, events, stats, abbrevs, team, k, now, back=False):
         print(f"INJURY ALERT {k['last']} ({team}) {'BACK' if back else 'OUT'}")
 
 
-INJURY_UPDATE_HOUR = 10   # ET, once a day (owner Nov 20)
+INJURY_UPDATE_HOUR = 7    # ET, once a day (owner Nov 20; moved from 10 AM Nov 21)
 INJURY_UPDATE_MAX_MISSED = 3  # only absences of fewer than 3 games; longer ones are priced in
 
 
