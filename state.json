@@ -567,7 +567,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17383,
+  "credits_remaining": 17382,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1015,8 +1015,19 @@
     },
     "7c6930f22180d748b3c0270afe1d67b4": {
       "commence_time": "2026-11-22T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T16:39:10Z",
+      "lines": {
+        "draftkings": {
+          "Connor Hellebuyck": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107615%232374901588_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107615%232374901589_15L42133Q184490156Q20"
+          }
+        }
+      },
       "matchup": "New Jersey Devils @ St Louis Blues"
     },
     "7f30902099116c9c5824e85201be7d60": {
@@ -10496,8 +10507,15 @@
     ]
   },
   "h2h_NJD-STL": {
-    "fetched": "2026-11-05T16:35:12Z",
+    "fetched": "2026-11-21T16:39:10Z",
     "value": [
+      [
+        "2026-11-05",
+        "STL",
+        "NJD",
+        32,
+        37
+      ],
       [
         "2026-02-28",
         "NJD",
@@ -10518,13 +10536,6 @@
         "STL",
         28,
         20
-      ],
-      [
-        "2024-11-27",
-        "STL",
-        "NJD",
-        20,
-        32
       ]
     ]
   },
@@ -14998,7 +15009,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-11-18T15:45:15Z",
+    "fetched": "2026-11-21T16:39:10Z",
     "value": [
       "Jake Allen",
       "Connor Hellebuyck"
@@ -15062,7 +15073,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-11-19T15:55:15Z",
+    "fetched": "2026-11-21T16:39:10Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -15546,6 +15557,12 @@
       "book": "DK",
       "event_id": "627813427faf8d3b73ff1fe4be6bc7d6",
       "goalie": "Alex Lyon"
+    },
+    "1832": {
+      "at": "2026-11-21T16:39:10Z",
+      "book": null,
+      "event_id": "7c6930f22180d748b3c0270afe1d67b4",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
