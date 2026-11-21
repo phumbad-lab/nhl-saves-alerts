@@ -650,7 +650,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17452,
+  "credits_remaining": 17451,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1188,8 +1188,19 @@
     },
     "b9678f4fdeb3125258b4679e9785fffb": {
       "commence_time": "2026-11-21T20:30:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T13:35:13Z",
+      "lines": {
+        "fanduel": {
+          "Dustin Wolf": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627478756&selectionId=74079401",
+            "point": 21.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627478756&selectionId=74079383"
+          }
+        }
+      },
       "matchup": "Chicago Blackhawks @ Calgary Flames"
     },
     "c891a951ef4b408976f84839c3d886e2": {
@@ -4192,7 +4203,7 @@
     ]
   },
   "gl_8480860": {
-    "fetched": "2026-11-19T16:24:22Z",
+    "fetched": "2026-11-21T13:35:13Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4232,7 +4243,7 @@
     ]
   },
   "gl_8481524": {
-    "fetched": "2026-11-20T00:40:15Z",
+    "fetched": "2026-11-21T13:35:13Z",
     "value": [
       "2026-09-29",
       "2026-10-01",
@@ -4306,7 +4317,7 @@
     ]
   },
   "gl_8484144": {
-    "fetched": "2026-11-20T00:40:15Z",
+    "fetched": "2026-11-21T13:35:13Z",
     "value": [
       "2026-10-13",
       "2026-10-15",
@@ -6654,6 +6665,39 @@
         "VGK",
         24,
         26
+      ]
+    ]
+  },
+  "h2h_CGY-CHI": {
+    "fetched": "2026-11-21T13:35:13Z",
+    "value": [
+      [
+        "2026-01-15",
+        "CGY",
+        "CHI",
+        23,
+        23
+      ],
+      [
+        "2025-11-18",
+        "CGY",
+        "CHI",
+        21,
+        23
+      ],
+      [
+        "2025-11-07",
+        "CHI",
+        "CGY",
+        27,
+        33
+      ],
+      [
+        "2025-01-13",
+        "CGY",
+        "CHI",
+        36,
+        25
       ]
     ]
   },
@@ -14650,14 +14694,14 @@
     ]
   },
   "roster_CGY": {
-    "fetched": "2026-11-19T16:24:22Z",
+    "fetched": "2026-11-21T13:35:13Z",
     "value": [
       "Devin Cooley",
       "Dustin Wolf"
     ]
   },
   "roster_CHI": {
-    "fetched": "2026-11-19T18:29:10Z",
+    "fetched": "2026-11-21T13:35:13Z",
     "value": [
       "Drew Commesso",
       "Spencer Knight"
@@ -15181,6 +15225,12 @@
       "book": "FD",
       "event_id": "7f30902099116c9c5824e85201be7d60",
       "goalie": "Spencer Knight"
+    },
+    "1807": {
+      "at": "2026-11-21T13:35:13Z",
+      "book": null,
+      "event_id": "b9678f4fdeb3125258b4679e9785fffb",
+      "goalie": "Dustin Wolf"
     }
   },
   "shot_stats": {
