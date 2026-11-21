@@ -569,7 +569,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17357,
+  "credits_remaining": 17354,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -665,8 +665,19 @@
     },
     "3e00ca5a69a2b305ed1f78590d590c7e": {
       "commence_time": "2026-11-22T03:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T17:26:10Z",
+      "lines": {
+        "fanduel": {
+          "Leevi Merilainen": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627547929&selectionId=78174825",
+            "point": 24.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627547929&selectionId=78174826"
+          }
+        }
+      },
       "matchup": "Minnesota Wild @ Vancouver Canucks"
     },
     "3e6894e350f62db024db622aedba4507": {
@@ -944,7 +955,7 @@
     "6d5c13d697e753014382cb88c02b8d0a": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:11:10Z",
+      "last_paid_check": "2026-11-21T17:26:10Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
@@ -1282,7 +1293,7 @@
     "b9678f4fdeb3125258b4679e9785fffb": {
       "commence_time": "2026-11-21T20:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:11:10Z",
+      "last_paid_check": "2026-11-21T17:26:10Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -9993,8 +10004,15 @@
     ]
   },
   "h2h_MIN-VAN": {
-    "fetched": "2026-10-25T17:22:11Z",
+    "fetched": "2026-11-21T17:26:10Z",
     "value": [
+      [
+        "2026-10-25",
+        "MIN",
+        "VAN",
+        34,
+        17
+      ],
       [
         "2026-04-02",
         "VAN",
@@ -10015,13 +10033,6 @@
         "MIN",
         28,
         28
-      ],
-      [
-        "2025-04-12",
-        "MIN",
-        "VAN",
-        33,
-        14
       ]
     ]
   },
@@ -15073,7 +15084,7 @@
     ]
   },
   "roster_MIN": {
-    "fetched": "2026-11-19T16:24:22Z",
+    "fetched": "2026-11-21T17:26:10Z",
     "value": [
       "Filip Gustavsson",
       "Calvin Pickard",
@@ -15182,11 +15193,12 @@
     ]
   },
   "roster_VAN": {
-    "fetched": "2026-11-19T17:47:11Z",
+    "fetched": "2026-11-21T17:26:10Z",
     "value": [
       "Thatcher Demko",
       "Kevin Lankinen",
-      "Leevi Meril\u00e4inen"
+      "Leevi Meril\u00e4inen",
+      "Nikita Tolopilo"
     ]
   },
   "roster_VGK": {
@@ -15673,6 +15685,12 @@
       "book": "FD",
       "event_id": "7c6930f22180d748b3c0270afe1d67b4",
       "goalie": "Connor Hellebuyck"
+    },
+    "1841": {
+      "at": "2026-11-21T17:26:10Z",
+      "book": null,
+      "event_id": "3e00ca5a69a2b305ed1f78590d590c7e",
+      "goalie": "Leevi Merilainen"
     }
   },
   "shot_stats": {
