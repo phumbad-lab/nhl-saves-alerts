@@ -569,7 +569,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17367,
+  "credits_remaining": 17365,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -712,14 +712,23 @@
     "43b2e285559dbe2bb5ddc1665bccddf2": {
       "commence_time": "2026-11-21T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T16:53:10Z",
+      "last_paid_check": "2026-11-21T17:08:12Z",
       "lines": {
+        "draftkings": {
+          "Pyotr Kochetkov": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109122%232374025117_13L42133Q1-1959470774Q20",
+            "point": 20.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109122%232374025118_15L42133Q1-1449474Q20"
+          }
+        },
         "fanduel": {
           "Pyotr Kochetkov": {
-            "over": -110,
+            "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074342",
             "point": 20.5,
-            "under": -120,
+            "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074343"
           }
         }
@@ -1355,18 +1364,32 @@
     "eeea62e46492df32a80a6b28f87d5f9e": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T16:53:10Z",
+      "last_paid_check": "2026-11-21T17:08:12Z",
       "lines": {
         "draftkings": {
+          "Charlie Lindgren": {
+            "over": -135,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391417007%232375313160_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": 100,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391417007%232375313161_15L42133Q184490156Q20"
+          },
           "Jeremy Swayman": {
-            "over": -110,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107232%232375122977_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -125,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107232%232375122978_15L42133Q184490156Q20"
           }
         },
         "fanduel": {
+          "Charlie Lindgren": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627539862&selectionId=74975035",
+            "point": 24.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627539862&selectionId=74975034"
+          },
           "Jeremy Swayman": {
             "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627479861&selectionId=74879760",
@@ -15629,6 +15652,18 @@
       "book": null,
       "event_id": "6b3ca9f550a96d09fdd079e3c7e1158a",
       "goalie": "Cam Talbot"
+    },
+    "1838": {
+      "at": "2026-11-21T17:08:12Z",
+      "book": "DK",
+      "event_id": "43b2e285559dbe2bb5ddc1665bccddf2",
+      "goalie": "Pyotr Kochetkov"
+    },
+    "1839": {
+      "at": "2026-11-21T17:08:12Z",
+      "book": null,
+      "event_id": "eeea62e46492df32a80a6b28f87d5f9e",
+      "goalie": "Charlie Lindgren"
     }
   },
   "shot_stats": {
@@ -16734,7 +16769,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8474150,
       8476456,
@@ -16761,7 +16796,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8474013,
       8474141,
@@ -16844,7 +16879,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8473419,
       8474189,
@@ -16924,7 +16959,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8475184,
       8476479,
@@ -17011,7 +17046,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8471215,
       8471675,
@@ -17040,7 +17075,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8474586,
       8476457,
@@ -17097,7 +17132,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8475166,
       8475171,
@@ -17129,7 +17164,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-21T16:48:10Z",
+    "fetched": "2026-11-21T17:08:12Z",
     "value": [
       8475314,
       8476389,
