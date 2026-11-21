@@ -631,12 +631,12 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17281,
+  "credits_remaining": 17280,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T19:54:10Z",
+      "last_paid_check": "2026-11-21T20:10:15Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
@@ -17329,7 +17329,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-21T19:49:15Z",
+    "fetched": "2026-11-21T20:10:15Z",
     "value": [
       8473422,
       8474567,
