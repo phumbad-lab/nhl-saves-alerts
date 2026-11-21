@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17421,
+  "credits_remaining": 17420,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -704,9 +704,16 @@
     "627813427faf8d3b73ff1fe4be6bc7d6": {
       "commence_time": "2026-11-21T23:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T15:17:10Z",
+      "last_paid_check": "2026-11-21T15:32:12Z",
       "lines": {
         "fanduel": {
+          "Alex Lyon": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627513295&selectionId=75038974",
+            "point": 25.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627513295&selectionId=75038973"
+          },
           "Jacob Markstrom": {
             "over": -114,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627509646&selectionId=74591079",
@@ -15424,6 +15431,12 @@
       "book": null,
       "event_id": "6b3ca9f550a96d09fdd079e3c7e1158a",
       "goalie": "Anthony Stolarz"
+    },
+    "1820": {
+      "at": "2026-11-21T15:32:12Z",
+      "book": null,
+      "event_id": "627813427faf8d3b73ff1fe4be6bc7d6",
+      "goalie": "Alex Lyon"
     }
   },
   "shot_stats": {
