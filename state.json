@@ -16165,7 +16165,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.34,
-    "fetched": "2026-11-21T17:00:22Z",
+    "fetched": "2026-11-21T23:00:23Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.65217,
@@ -16184,8 +16184,8 @@
         "sf": 27.0
       },
       "carolinahurricanes": {
-        "sa": 21.63636,
-        "sf": 33.0
+        "sa": 21.34782,
+        "sf": 33.13043
       },
       "chicagoblackhawks": {
         "sa": 30.5909,
@@ -16208,8 +16208,8 @@
         "sf": 28.18181
       },
       "edmontonoilers": {
-        "sa": 26.45833,
-        "sf": 24.75
+        "sa": 26.84,
+        "sf": 24.36
       },
       "floridapanthers": {
         "sa": 25.52173,
@@ -16296,7 +16296,7 @@
         "sf": 27.21739
       }
     },
-    "save_pct": 0.8857,
+    "save_pct": 0.8855,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
@@ -17345,7 +17345,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-21T17:00:22Z",
+    "fetched": "2026-11-21T23:00:23Z",
     "value": [
       8470613,
       8475172,
@@ -17625,7 +17625,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-21T17:00:22Z",
+    "fetched": "2026-11-21T23:00:23Z",
     "value": [
       8474151,
       8474590,
