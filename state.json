@@ -650,7 +650,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17446,
+  "credits_remaining": 17445,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1200,7 +1200,7 @@
     "b9678f4fdeb3125258b4679e9785fffb": {
       "commence_time": "2026-11-21T20:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T13:50:15Z",
+      "last_paid_check": "2026-11-21T14:06:10Z",
       "lines": {
         "fanduel": {
           "Dustin Wolf": {
