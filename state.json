@@ -636,7 +636,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17273,
+  "credits_remaining": 17272,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1556,8 +1556,19 @@
     },
     "d393852cc4dc6ab621ca0cd1f6ccaccc": {
       "commence_time": "2026-11-21T23:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T21:06:10Z",
+      "lines": {
+        "fanduel": {
+          "Sergei Murashov": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627626772&selectionId=91004572",
+            "point": 23.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627626772&selectionId=91004573"
+          }
+        }
+      },
       "matchup": "Pittsburgh Penguins @ Nashville Predators"
     },
     "d58a81d96dc96c937a865548f3a1a7c5": {
@@ -4218,7 +4229,7 @@
     "season": "20262027"
   },
   "gl_8471215": {
-    "fetched": "2026-11-21T14:00:20Z",
+    "fetched": "2026-11-21T21:06:10Z",
     "value": [
       "2026-09-30",
       "2026-10-03",
@@ -4273,7 +4284,7 @@
     ]
   },
   "gl_8475810": {
-    "fetched": "2026-11-21T14:00:20Z",
+    "fetched": "2026-11-21T21:06:10Z",
     "value": [
       "2026-10-07",
       "2026-10-09",
@@ -11149,8 +11160,15 @@
     ]
   },
   "h2h_NSH-PIT": {
-    "fetched": "2026-10-24T16:25:14Z",
+    "fetched": "2026-11-21T21:06:10Z",
     "value": [
+      [
+        "2026-10-24",
+        "NSH",
+        "PIT",
+        26,
+        37
+      ],
       [
         "2025-11-16",
         "NSH",
@@ -11171,13 +11189,6 @@
         "PIT",
         25,
         36
-      ],
-      [
-        "2024-12-19",
-        "PIT",
-        "NSH",
-        20,
-        26
       ]
     ]
   },
@@ -15431,7 +15442,7 @@
     ]
   },
   "roster_NSH": {
-    "fetched": "2026-11-17T19:45:16Z",
+    "fetched": "2026-11-21T21:06:10Z",
     "value": [
       "Justus Annunen",
       "Juuse Saros"
@@ -15467,7 +15478,7 @@
     ]
   },
   "roster_PIT": {
-    "fetched": "2026-11-19T15:55:15Z",
+    "fetched": "2026-11-21T21:06:10Z",
     "value": [
       "Sergei Murashov",
       "Arturs Silovs"
@@ -16069,6 +16080,12 @@
       "book": null,
       "event_id": "b9678f4fdeb3125258b4679e9785fffb",
       "goalie": "Spencer Knight"
+    },
+    "1865": {
+      "at": "2026-11-21T21:06:10Z",
+      "book": null,
+      "event_id": "d393852cc4dc6ab621ca0cd1f6ccaccc",
+      "goalie": "Sergei Murashov"
     }
   },
   "shot_stats": {
