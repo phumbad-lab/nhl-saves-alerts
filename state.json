@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17424,
+  "credits_remaining": 17423,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1152,8 +1152,19 @@
     },
     "c891a951ef4b408976f84839c3d886e2": {
       "commence_time": "2026-11-22T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T15:27:09Z",
+      "lines": {
+        "fanduel": {
+          "Stuart Skinner": {
+            "over": -128,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627511716&selectionId=74079397",
+            "point": 23.5,
+            "under": -104,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627511716&selectionId=74079396"
+          }
+        }
+      },
       "matchup": "Vegas Golden Knights @ Winnipeg Jets"
     },
     "d393852cc4dc6ab621ca0cd1f6ccaccc": {
@@ -12581,6 +12592,39 @@
       ]
     ]
   },
+  "h2h_VGK-WPG": {
+    "fetched": "2026-11-21T15:27:09Z",
+    "value": [
+      [
+        "2026-04-13",
+        "WPG",
+        "VGK",
+        23,
+        38
+      ],
+      [
+        "2026-03-24",
+        "VGK",
+        "WPG",
+        27,
+        21
+      ],
+      [
+        "2026-01-06",
+        "VGK",
+        "WPG",
+        31,
+        20
+      ],
+      [
+        "2025-04-03",
+        "WPG",
+        "VGK",
+        22,
+        26
+      ]
+    ]
+  },
   "injuries": {
     "CGY:8480860": {
       "alerted": true,
@@ -14941,14 +14985,14 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-11-19T19:35:14Z",
+    "fetched": "2026-11-21T15:27:09Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-11-19T15:28:19Z",
+    "fetched": "2026-11-21T15:27:09Z",
     "value": [
       "Nico Daws",
       "Stuart Skinner",
@@ -15340,6 +15384,12 @@
       "book": null,
       "event_id": "627813427faf8d3b73ff1fe4be6bc7d6",
       "goalie": "Jacob Markstrom"
+    },
+    "1817": {
+      "at": "2026-11-21T15:27:09Z",
+      "book": null,
+      "event_id": "c891a951ef4b408976f84839c3d886e2",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
