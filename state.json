@@ -569,7 +569,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17353,
+  "credits_remaining": 17352,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -723,7 +723,7 @@
     "43b2e285559dbe2bb5ddc1665bccddf2": {
       "commence_time": "2026-11-21T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:15:16Z",
+      "last_paid_check": "2026-11-21T17:30:18Z",
       "lines": {
         "draftkings": {
           "Pyotr Kochetkov": {
@@ -735,6 +735,13 @@
           }
         },
         "fanduel": {
+          "Devon Levi": {
+            "over": -106,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676067",
+            "point": 27.5,
+            "under": -125,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676066"
+          },
           "Pyotr Kochetkov": {
             "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074342",
@@ -15691,6 +15698,12 @@
       "book": null,
       "event_id": "3e00ca5a69a2b305ed1f78590d590c7e",
       "goalie": "Leevi Merilainen"
+    },
+    "1842": {
+      "at": "2026-11-21T17:30:18Z",
+      "book": null,
+      "event_id": "43b2e285559dbe2bb5ddc1665bccddf2",
+      "goalie": "Devon Levi"
     }
   },
   "shot_stats": {
