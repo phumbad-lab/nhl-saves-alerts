@@ -12867,6 +12867,8 @@
     "NYR:8481604": {
       "alerted": true,
       "out_at": "2026-11-17T00:20:16Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-21T16:16:12Z",
       "player": {
         "first": "Pavel",
         "gp": 21,
