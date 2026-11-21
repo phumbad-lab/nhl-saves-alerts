@@ -744,46 +744,6 @@
       },
       "matchup": "Montr\u00e9al Canadiens @ Carolina Hurricanes"
     },
-    "38779d99fd6274c9008c5cc03fa504ef": {
-      "commence_time": "2026-11-19T00:40:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-18T18:10:15Z",
-      "lines": {
-        "draftkings": {
-          "Daniil Tarasov": {
-            "over": 100,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390172895%232369931919_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -135,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390172895%232369931920_15L42133Q184490156Q20"
-          },
-          "Jeremy Swayman": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390172892%232369665393_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390172892%232369665394_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Daniil Tarasov": {
-            "over": -132,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626684648&selectionId=74979849",
-            "point": 22.5,
-            "under": 100,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626684648&selectionId=74979848"
-          },
-          "Jeremy Swayman": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626681046&selectionId=74879760",
-            "point": 25.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626681046&selectionId=74879759"
-          }
-        }
-      },
-      "matchup": "Boston Bruins @ Detroit Red Wings"
-    },
     "3e00ca5a69a2b305ed1f78590d590c7e": {
       "commence_time": "2026-11-22T03:00:00Z",
       "last_paid_check": null,
@@ -14965,12 +14925,6 @@
     ]
   },
   "sent": {
-    "1707": {
-      "at": "2026-11-18T00:40:16Z",
-      "book": null,
-      "event_id": "87e99dffdbf06748171533ee8ba96f75",
-      "goalie": "Ville Husso"
-    },
     "1708": {
       "at": "2026-11-18T00:50:16Z",
       "book": null,
