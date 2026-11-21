@@ -13168,9 +13168,7 @@
     },
     "MIN:8480800": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-21T18:42:11Z",
+      "out_at": "2026-11-21T18:48:10Z",
       "player": {
         "first": "Quinn",
         "gp": 72,
@@ -13183,7 +13181,7 @@
         "toi": 27.9
       },
       "seen": "2026-11-20T04:13:09Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "MTL:8476875": {
       "alerted": true,
@@ -17215,7 +17213,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-14T17:07:10Z",
+    "fetched": "2026-11-21T18:48:10Z",
     "value": [
       8473422,
       8474567,
