@@ -13269,6 +13269,23 @@
       "seen": "2026-11-18T03:47:15Z",
       "status": "OUT"
     },
+    "CHI:8485391": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Anton",
+        "gp": 34,
+        "id": 8485391,
+        "last": "Frondell",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 75,
+        "sog": 2.2,
+        "toi": 17.0
+      },
+      "seen": "2026-11-21T22:54:11Z",
+      "status": "DTD"
+    },
     "COL:8477492": {
       "alerted": true,
       "out_at": "2026-11-14T17:18:12Z",
