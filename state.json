@@ -48,6 +48,18 @@
       "start": "2026-11-19T00:40:00Z",
       "text": "Swayman (BOS) - BOS@DET 7:40PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390172892%232369665394_15L42133Q1458571637Q20\u0004u25.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626681046&selectionId=74879759\u0004u25.5\u0005"
     },
+    "3e00ca5a69a2b305ed1f78590d590c7e|Jesper Wallstedt": {
+      "alt": {
+        "FD": 20.5
+      },
+      "lines": {
+        "DK": 19.5
+      },
+      "mid": 357,
+      "side": "OVER",
+      "start": "2026-11-22T03:00:00Z",
+      "text": "Wallstedt (MIN) - MIN@VAN 10:00PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391111407%232374950423_13L42133Q1980555505Q20\u0004o19.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627584415&selectionId=78172460\u0004o20.5\u0005"
+    },
     "3e00ca5a69a2b305ed1f78590d590c7e|Leevi Merilainen": {
       "alt": {
         "DK": 26.5
@@ -17620,6 +17632,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088307,
+  "tg_offset": 69088308,
   "watch": {}
 }
