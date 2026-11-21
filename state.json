@@ -607,7 +607,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17320,
+  "credits_remaining": 17316,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -658,15 +658,15 @@
     "2c807988a077495f0a1349ddd3ab6936": {
       "commence_time": "2026-11-22T02:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T18:11:11Z",
+      "last_paid_check": "2026-11-21T18:27:10Z",
       "lines": {
         "draftkings": {
           "Sebastian Cossa": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391352770%232375069137_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391352770%232375069138_15L42133Q1874096526Q20"
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391352770%232375410625_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391352770%232375410626_15L42133Q1888607062Q20"
           }
         },
         "fanduel": {
@@ -1036,7 +1036,7 @@
     "6d5c13d697e753014382cb88c02b8d0a": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T18:12:10Z",
+      "last_paid_check": "2026-11-21T18:27:10Z",
       "lines": {
         "draftkings": {
           "John Gibson": {
@@ -1155,7 +1155,7 @@
     "7c6930f22180d748b3c0270afe1d67b4": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T18:11:11Z",
+      "last_paid_check": "2026-11-21T18:27:10Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
@@ -1387,7 +1387,7 @@
     "b9678f4fdeb3125258b4679e9785fffb": {
       "commence_time": "2026-11-21T20:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T18:12:10Z",
+      "last_paid_check": "2026-11-21T18:27:10Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
