@@ -39,18 +39,6 @@
       "start": "2026-11-20T01:10:00Z",
       "text": "Wolf (CGY) - MIN@CGY 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390533504%232372184865_15L42133Q1-941301704Q20\u0004u27.5\u0005"
     },
-    "627813427faf8d3b73ff1fe4be6bc7d6|Jacob Markstrom": {
-      "alt": {
-        "DK": 22.5
-      },
-      "lines": {
-        "FD": 22.5
-      },
-      "mid": 345,
-      "side": "UNDER",
-      "start": "2026-11-21T23:00:00Z",
-      "text": "Markstrom (FLA) - BUF@FLA 6:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627509646&selectionId=74591081\u0004u22.5\u0005"
-    },
     "64955eccc864e1b34e23754d71319db4|Philipp Grubauer": {
       "alt": {
         "DK": 21.5
@@ -567,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17411,
+  "credits_remaining": 17410,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -709,8 +697,19 @@
     },
     "43b2e285559dbe2bb5ddc1665bccddf2": {
       "commence_time": "2026-11-21T18:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T15:51:13Z",
+      "lines": {
+        "fanduel": {
+          "Pyotr Kochetkov": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074342",
+            "point": 20.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074343"
+          }
+        }
+      },
       "matchup": "Edmonton Oilers @ Carolina Hurricanes"
     },
     "627813427faf8d3b73ff1fe4be6bc7d6": {
@@ -5983,8 +5982,15 @@
     ]
   },
   "h2h_CAR-EDM": {
-    "fetched": "2026-10-22T17:24:14Z",
+    "fetched": "2026-11-21T15:51:13Z",
     "value": [
+      [
+        "2026-10-22",
+        "CAR",
+        "EDM",
+        27,
+        21
+      ],
       [
         "2026-03-06",
         "CAR",
@@ -6005,13 +6011,6 @@
         "CAR",
         31,
         36
-      ],
-      [
-        "2024-10-22",
-        "CAR",
-        "EDM",
-        33,
-        35
       ]
     ]
   },
@@ -14853,7 +14852,7 @@
     ]
   },
   "roster_CAR": {
-    "fetched": "2026-11-19T15:28:19Z",
+    "fetched": "2026-11-21T15:51:13Z",
     "value": [
       "Brandon Bussi",
       "Pyotr Kochetkov"
@@ -14902,7 +14901,7 @@
     ]
   },
   "roster_EDM": {
-    "fetched": "2026-11-19T16:43:11Z",
+    "fetched": "2026-11-21T15:51:13Z",
     "value": [
       "Frederik Andersen",
       "Tristan Jarry",
@@ -15063,12 +15062,6 @@
     ]
   },
   "sent": {
-    "1726": {
-      "at": "2026-11-18T15:51:09Z",
-      "book": null,
-      "event_id": "38779d99fd6274c9008c5cc03fa504ef",
-      "goalie": "Daniil Tarasov"
-    },
     "1727": {
       "at": "2026-11-18T16:00:25Z",
       "book": "DK",
@@ -15464,6 +15457,12 @@
       "book": "DK",
       "event_id": "627813427faf8d3b73ff1fe4be6bc7d6",
       "goalie": "Jacob Markstrom"
+    },
+    "1825": {
+      "at": "2026-11-21T15:51:13Z",
+      "book": null,
+      "event_id": "43b2e285559dbe2bb5ddc1665bccddf2",
+      "goalie": "Pyotr Kochetkov"
     }
   },
   "shot_stats": {
@@ -17081,6 +17080,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088301,
+  "tg_offset": 69088302,
   "watch": {}
 }
