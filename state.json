@@ -13404,6 +13404,7 @@
     },
     "NYI:8479378": {
       "alerted": true,
+      "missing_since": "2026-11-21T23:44:10Z",
       "out_at": "2026-11-19T23:57:11Z",
       "player": {
         "first": "Logan",
