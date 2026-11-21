@@ -1,5 +1,15 @@
 {
   "channel_posts": {
+    "133b6fa32f89f05a14d7146ee5070a83|Alex Nedeljkovic": {
+      "alt": {},
+      "lines": {
+        "FD": 22.5
+      },
+      "mid": 356,
+      "side": "OVER",
+      "start": "2026-11-22T03:00:00Z",
+      "text": "Nedeljkovic (SJS) - SEA@SJS 10:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627579618&selectionId=75304747\u0004o22.5\u0005"
+    },
     "2c807988a077495f0a1349ddd3ab6936|Sebastian Cossa": {
       "alt": {
         "DK": 22.5
@@ -17562,6 +17572,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088306,
+  "tg_offset": 69088307,
   "watch": {}
 }
