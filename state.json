@@ -13150,7 +13150,7 @@
       "status": "OUT"
     },
     "LAK:8478550": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-21T18:38:10Z",
       "player": {
         "first": "Artemi",
