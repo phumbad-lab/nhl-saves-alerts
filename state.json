@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17403,
+  "credits_remaining": 17401,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -698,7 +698,7 @@
     "43b2e285559dbe2bb5ddc1665bccddf2": {
       "commence_time": "2026-11-21T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T15:51:13Z",
+      "last_paid_check": "2026-11-21T16:06:13Z",
       "lines": {
         "fanduel": {
           "Pyotr Kochetkov": {
@@ -1237,7 +1237,7 @@
     "eeea62e46492df32a80a6b28f87d5f9e": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T15:50:16Z",
+      "last_paid_check": "2026-11-21T16:06:13Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
