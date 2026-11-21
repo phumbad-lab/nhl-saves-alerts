@@ -39,6 +39,18 @@
       "start": "2026-11-20T01:10:00Z",
       "text": "Wolf (CGY) - MIN@CGY 8:10PM\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390533504%232372184865_15L42133Q1-941301704Q20\u0004u27.5\u0005"
     },
+    "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi": {
+      "alt": {
+        "FD": 27.5
+      },
+      "lines": {
+        "DK": 28.5
+      },
+      "mid": 352,
+      "side": "UNDER",
+      "start": "2026-11-21T18:00:00Z",
+      "text": "Levi (EDM) - EDM@CAR 1:00PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391109097%232374020383_15L42133Q1-245490255Q20\u0004u28.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676066\u0004u27.5\u0005"
+    },
     "627813427faf8d3b73ff1fe4be6bc7d6|Jacob Markstrom": {
       "alt": {
         "FD": 22.5
@@ -17420,6 +17432,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088303,
+  "tg_offset": 69088304,
   "watch": {}
 }
