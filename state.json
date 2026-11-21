@@ -617,7 +617,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17309,
+  "credits_remaining": 17308,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -745,9 +745,16 @@
     "3e00ca5a69a2b305ed1f78590d590c7e": {
       "commence_time": "2026-11-22T03:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T18:38:10Z",
+      "last_paid_check": "2026-11-21T18:53:10Z",
       "lines": {
         "draftkings": {
+          "Jesper Wallstedt": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391111407%232374950423_13L42133Q1980555505Q20",
+            "point": 19.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391111407%232374950424_15L42133Q1-767247327Q20"
+          },
           "Leevi Merilainen": {
             "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391111442%232375405384_13L42133Q1-54034395Q20",
@@ -757,6 +764,13 @@
           }
         },
         "fanduel": {
+          "Jesper Wallstedt": {
+            "over": -104,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627584415&selectionId=78172460",
+            "point": 20.5,
+            "under": -128,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627584415&selectionId=78172459"
+          },
           "Leevi Merilainen": {
             "over": -112,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627547929&selectionId=78174825",
@@ -4538,6 +4552,35 @@
       "2026-10-25",
       "2026-10-27",
       "2026-10-29"
+    ]
+  },
+  "gl_8480800": {
+    "fetched": "2026-11-21T18:53:10Z",
+    "value": [
+      "2026-10-01",
+      "2026-10-03",
+      "2026-10-06",
+      "2026-10-08",
+      "2026-10-10",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-15",
+      "2026-10-18",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-01",
+      "2026-11-03",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-14",
+      "2026-11-17",
+      "2026-11-19"
     ]
   },
   "gl_8480839": {
@@ -13177,7 +13220,7 @@
       "status": "OUT"
     },
     "MIN:8480800": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-21T18:48:10Z",
       "player": {
         "first": "Quinn",
@@ -15954,6 +15997,12 @@
       "book": null,
       "event_id": "133b6fa32f89f05a14d7146ee5070a83",
       "goalie": "Alex Nedeljkovic"
+    },
+    "1858": {
+      "at": "2026-11-21T18:53:10Z",
+      "book": null,
+      "event_id": "3e00ca5a69a2b305ed1f78590d590c7e",
+      "goalie": "Jesper Wallstedt"
     }
   },
   "shot_stats": {
