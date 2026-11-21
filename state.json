@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17398,
+  "credits_remaining": 17397,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1210,7 +1210,7 @@
     "c891a951ef4b408976f84839c3d886e2": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T15:58:12Z",
+      "last_paid_check": "2026-11-21T16:14:11Z",
       "lines": {
         "fanduel": {
           "Stuart Skinner": {
@@ -12867,8 +12867,6 @@
     "NYR:8481604": {
       "alerted": true,
       "out_at": "2026-11-17T00:20:16Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-21T16:13:09Z",
       "player": {
         "first": "Pavel",
         "gp": 21,
