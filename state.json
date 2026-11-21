@@ -648,7 +648,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17254,
+  "credits_remaining": 17253,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1569,14 +1569,21 @@
     "d393852cc4dc6ab621ca0cd1f6ccaccc": {
       "commence_time": "2026-11-21T23:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T22:31:18Z",
+      "last_paid_check": "2026-11-21T22:40:14Z",
       "lines": {
         "draftkings": {
+          "Juuse Saros": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391105240%232373838072_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391105240%232373838159_15L42133Q1458571637Q20"
+          },
           "Sergei Murashov": {
-            "over": -115,
+            "over": -125,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391351821%232375491708_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -120,
+            "under": -110,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391351821%232375491709_15L42133Q184490156Q20"
           }
         },
@@ -16130,6 +16137,12 @@
       "book": "DK",
       "event_id": "d393852cc4dc6ab621ca0cd1f6ccaccc",
       "goalie": "Sergei Murashov"
+    },
+    "1868": {
+      "at": "2026-11-21T22:40:14Z",
+      "book": null,
+      "event_id": "d393852cc4dc6ab621ca0cd1f6ccaccc",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
