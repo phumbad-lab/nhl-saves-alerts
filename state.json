@@ -650,7 +650,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17451,
+  "credits_remaining": 17450,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1223,8 +1223,19 @@
     },
     "eeea62e46492df32a80a6b28f87d5f9e": {
       "commence_time": "2026-11-22T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-21T13:44:11Z",
+      "lines": {
+        "fanduel": {
+          "Jeremy Swayman": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627479861&selectionId=74879760",
+            "point": 23.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627479861&selectionId=74879759"
+          }
+        }
+      },
       "matchup": "Washington Capitals @ Boston Bruins"
     }
   },
@@ -5344,6 +5355,39 @@
         "VGK",
         "BOS",
         38,
+        24
+      ]
+    ]
+  },
+  "h2h_BOS-WSH": {
+    "fetched": "2026-11-21T13:44:11Z",
+    "value": [
+      [
+        "2026-03-14",
+        "BOS",
+        "WSH",
+        34,
+        28
+      ],
+      [
+        "2026-03-07",
+        "WSH",
+        "BOS",
+        23,
+        30
+      ],
+      [
+        "2025-10-08",
+        "BOS",
+        "WSH",
+        22,
+        36
+      ],
+      [
+        "2025-04-01",
+        "WSH",
+        "BOS",
+        32,
         24
       ]
     ]
@@ -14665,7 +14709,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-11-18T15:51:09Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -14883,7 +14927,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-11-19T15:58:11Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -15231,6 +15275,12 @@
       "book": null,
       "event_id": "b9678f4fdeb3125258b4679e9785fffb",
       "goalie": "Dustin Wolf"
+    },
+    "1808": {
+      "at": "2026-11-21T13:44:11Z",
+      "book": null,
+      "event_id": "eeea62e46492df32a80a6b28f87d5f9e",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
@@ -16336,7 +16386,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8474150,
       8476456,
@@ -16363,7 +16413,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8474013,
       8474141,
@@ -16446,7 +16496,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8473419,
       8474189,
@@ -16526,7 +16576,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8475184,
       8476479,
@@ -16612,7 +16662,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8471215,
       8471675,
@@ -16641,7 +16691,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8474586,
       8476457,
@@ -16698,7 +16748,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8475166,
       8475171,
@@ -16730,7 +16780,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-21T13:23:16Z",
+    "fetched": "2026-11-21T13:44:11Z",
     "value": [
       8475314,
       8476389,
