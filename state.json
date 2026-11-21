@@ -13196,7 +13196,6 @@
   "injuries": {
     "CAR:8477940": {
       "alerted": false,
-      "missing_since": "2026-11-21T21:36:15Z",
       "out_at": "2026-11-21T21:35:14Z",
       "player": {
         "first": "Nikolaj",
