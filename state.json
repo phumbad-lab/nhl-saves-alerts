@@ -1074,6 +1074,12 @@
       },
       "matchup": "Buffalo Sabres @ Washington Capitals"
     },
+    "7472170e7ddebcf27cc4e03a8b32edcc": {
+      "commence_time": "2026-11-23T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Edmonton Oilers @ St Louis Blues"
+    },
     "7bca03cc186cb70bd12d060ededa8842": {
       "commence_time": "2026-11-20T00:15:00Z",
       "h2h_sent": true,
@@ -1424,6 +1430,12 @@
       "last_paid_check": null,
       "lines": {},
       "matchup": "Pittsburgh Penguins @ Nashville Predators"
+    },
+    "d58a81d96dc96c937a865548f3a1a7c5": {
+      "commence_time": "2026-11-23T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Pittsburgh Penguins @ Dallas Stars"
     },
     "e491b0b72df0e6f41b1bf7f9c349a136": {
       "commence_time": "2026-11-22T00:00:00Z",
@@ -15327,18 +15339,6 @@
     ]
   },
   "sent": {
-    "1731": {
-      "at": "2026-11-18T18:10:15Z",
-      "book": "FD",
-      "event_id": "38779d99fd6274c9008c5cc03fa504ef",
-      "goalie": "Daniil Tarasov"
-    },
-    "1732": {
-      "at": "2026-11-18T18:10:15Z",
-      "book": "FD",
-      "event_id": "38779d99fd6274c9008c5cc03fa504ef",
-      "goalie": "Jeremy Swayman"
-    },
     "1733": {
       "at": "2026-11-18T19:00:21Z",
       "book": null,
@@ -16929,7 +16929,7 @@
     "version": 5
   },
   "skaters_CGY": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8474150,
       8476456,
@@ -16956,7 +16956,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8474013,
       8474141,
@@ -17039,7 +17039,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8473419,
       8474189,
@@ -17119,7 +17119,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8475184,
       8476479,
@@ -17206,7 +17206,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8471215,
       8471675,
@@ -17235,7 +17235,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8474586,
       8476457,
@@ -17292,7 +17292,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8475166,
       8475171,
@@ -17324,7 +17324,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-21T17:49:14Z",
+    "fetched": "2026-11-21T18:10:15Z",
     "value": [
       8475314,
       8476389,
