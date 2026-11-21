@@ -569,7 +569,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17365,
+  "credits_remaining": 17364,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1057,15 +1057,24 @@
     "7c6930f22180d748b3c0270afe1d67b4": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T16:54:10Z",
+      "last_paid_check": "2026-11-21T17:09:15Z",
       "lines": {
         "draftkings": {
           "Connor Hellebuyck": {
-            "over": -130,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107615%232374901588_13L42133Q1-1895367418Q20",
             "point": 23.5,
-            "under": -105,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107615%232374901589_15L42133Q184490156Q20"
+          }
+        },
+        "fanduel": {
+          "Connor Hellebuyck": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627537704&selectionId=74843125",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627537704&selectionId=74843124"
           }
         }
       },
@@ -15664,6 +15673,12 @@
       "book": null,
       "event_id": "eeea62e46492df32a80a6b28f87d5f9e",
       "goalie": "Charlie Lindgren"
+    },
+    "1840": {
+      "at": "2026-11-21T17:09:15Z",
+      "book": "FD",
+      "event_id": "7c6930f22180d748b3c0270afe1d67b4",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
