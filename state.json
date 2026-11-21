@@ -555,7 +555,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17394,
+  "credits_remaining": 17392,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -698,7 +698,7 @@
     "43b2e285559dbe2bb5ddc1665bccddf2": {
       "commence_time": "2026-11-21T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T16:06:13Z",
+      "last_paid_check": "2026-11-21T16:22:17Z",
       "lines": {
         "fanduel": {
           "Pyotr Kochetkov": {
@@ -1250,7 +1250,7 @@
     "eeea62e46492df32a80a6b28f87d5f9e": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T16:06:13Z",
+      "last_paid_check": "2026-11-21T16:22:17Z",
       "lines": {
         "draftkings": {
           "Jeremy Swayman": {
@@ -12865,10 +12865,8 @@
       "status": "DTD"
     },
     "NYR:8481604": {
-      "alerted": true,
-      "out_at": "2026-11-17T00:20:16Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-21T16:16:12Z",
+      "alerted": false,
+      "out_at": "2026-11-21T16:22:17Z",
       "player": {
         "first": "Pavel",
         "gp": 21,
@@ -12881,7 +12879,7 @@
         "toi": 16.8
       },
       "seen": "2026-11-17T00:20:16Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "PIT:8471215": {
       "alerted": true,
@@ -16829,7 +16827,7 @@
     ]
   },
   "skaters_NYR": {
-    "fetched": "2026-11-17T11:00:22Z",
+    "fetched": "2026-11-21T16:22:17Z",
     "value": [
       8476459,
       8476468,
@@ -16839,12 +16837,12 @@
       8478446,
       8478882,
       8479323,
+      8479390,
       8480009,
       8480434,
       8480813,
       8481525,
       8481604,
-      8481743,
       8481789,
       8482073,
       8482109,
@@ -16854,6 +16852,7 @@
       8482877,
       8483669,
       8483690,
+      8484136,
       8484210,
       8485957
     ]
