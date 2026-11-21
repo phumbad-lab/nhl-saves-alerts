@@ -650,7 +650,7 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17445,
+  "credits_remaining": 17444,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1235,8 +1235,17 @@
     "eeea62e46492df32a80a6b28f87d5f9e": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-21T14:00:20Z",
+      "last_paid_check": "2026-11-21T14:16:10Z",
       "lines": {
+        "draftkings": {
+          "Jeremy Swayman": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107232%232375122977_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391107232%232375122978_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
           "Jeremy Swayman": {
             "over": -114,
@@ -15338,6 +15347,12 @@
       "book": null,
       "event_id": "6d5c13d697e753014382cb88c02b8d0a",
       "goalie": "John Gibson"
+    },
+    "1811": {
+      "at": "2026-11-21T14:16:10Z",
+      "book": "DK",
+      "event_id": "eeea62e46492df32a80a6b28f87d5f9e",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
