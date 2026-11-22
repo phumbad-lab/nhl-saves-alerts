@@ -52,6 +52,18 @@
       "start": "2026-11-20T00:10:00Z",
       "text": "Dobes (MTL) - MTL@CAR 7:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390493991%232372584018_15L42133Q1-245490255Q20\u0004u28.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626916041&selectionId=78840902\u0004u27.5\u0005"
     },
+    "3a8553e25e16a66e676afc349395fec6|Drew Commesso": {
+      "alt": {
+        "FD": 23.5
+      },
+      "lines": {
+        "DK": 22.5
+      },
+      "mid": 378,
+      "side": "OVER",
+      "start": "2026-11-23T01:10:00Z",
+      "text": "Commesso (CHI) - CHI@VAN 8:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391479170%232376863715_13L42133Q1-598579072Q20\u0004o22.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627800007&selectionId=74315236\u0004o23.5\u0005"
+    },
     "3e00ca5a69a2b305ed1f78590d590c7e|Jesper Wallstedt": {
       "alt": {
         "FD": 20.5
@@ -15607,12 +15619,6 @@
     ]
   },
   "sent": {
-    "1760": {
-      "at": "2026-11-19T16:44:12Z",
-      "book": "FD",
-      "event_id": "6e1de7988dd0c9689abb85f6b8399336",
-      "goalie": "Logan Thompson"
-    },
     "1761": {
       "at": "2026-11-19T16:57:10Z",
       "book": "DK",
@@ -17790,6 +17796,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088313,
+  "tg_offset": 69088314,
   "watch": {}
 }
