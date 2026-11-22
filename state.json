@@ -257,7 +257,9 @@
       "text": "Silovs (PIT) - PIT@DAL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627802933&selectionId=74843679\u0004o23.5\u0005"
     },
     "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger": {
-      "alt": {},
+      "alt": {
+        "DK": 22.5
+      },
       "lines": {
         "FD": 24.5
       },
@@ -711,7 +713,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17140,
+  "credits_remaining": 17138,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1019,7 +1021,7 @@
     "7472170e7ddebcf27cc4e03a8b32edcc": {
       "commence_time": "2026-11-23T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T16:16:16Z",
+      "last_paid_check": "2026-11-22T16:32:14Z",
       "lines": {
         "draftkings": {
           "Joel Hofer": {
@@ -1278,21 +1280,30 @@
     "d58a81d96dc96c937a865548f3a1a7c5": {
       "commence_time": "2026-11-23T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T16:16:16Z",
+      "last_paid_check": "2026-11-22T16:32:14Z",
       "lines": {
+        "draftkings": {
+          "Jake Oettinger": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391475728%232376489012_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391475728%232376489013_15L42133Q1874096526Q20"
+          }
+        },
         "fanduel": {
           "Arturs Silovs": {
-            "over": -120,
+            "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627802933&selectionId=74843679",
             "point": 22.5,
-            "under": -110,
+            "under": -108,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627802933&selectionId=74843680"
           },
           "Jake Oettinger": {
-            "over": 100,
+            "over": -106,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627830444&selectionId=74880669",
-            "point": 24.5,
-            "under": -132,
+            "point": 22.5,
+            "under": -125,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627830444&selectionId=74880671"
           }
         }
@@ -16123,6 +16134,12 @@
     "1895": {
       "at": "2026-11-22T16:00:26Z",
       "book": null,
+      "event_id": "d58a81d96dc96c937a865548f3a1a7c5",
+      "goalie": "Jake Oettinger"
+    },
+    "1898": {
+      "at": "2026-11-22T16:32:14Z",
+      "book": "DK",
       "event_id": "d58a81d96dc96c937a865548f3a1a7c5",
       "goalie": "Jake Oettinger"
     }
