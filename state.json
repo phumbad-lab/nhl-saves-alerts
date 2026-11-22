@@ -13163,6 +13163,7 @@
     },
     "UTA:8479343": {
       "alerted": false,
+      "missing_since": "2026-11-22T01:36:11Z",
       "out_at": "2026-11-22T01:34:10Z",
       "player": {
         "first": "Clayton",
