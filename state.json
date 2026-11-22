@@ -13418,6 +13418,8 @@
     "UTA:8479343": {
       "alerted": true,
       "out_at": "2026-11-22T01:34:10Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-22T13:50:15Z",
       "player": {
         "first": "Clayton",
         "gp": 105,
