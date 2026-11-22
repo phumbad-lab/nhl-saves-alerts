@@ -224,6 +224,7 @@
       "alt": {
         "FD": 20.5
       },
+      "done": true,
       "lines": {
         "DK": 21.5
       },
@@ -580,6 +581,10 @@
     "94142b31815d8bfcef178b16cadfe92f|Yaroslav Askarov": {
       "d": "2026-11-06",
       "r": "W"
+    },
+    "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi": {
+      "d": "2026-11-22",
+      "r": "L"
     },
     "9600ca13a787cb4772bf21e6e61bdf07|John Gibson": {
       "d": "2026-11-10",
@@ -15460,7 +15465,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-22": [
+      "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
