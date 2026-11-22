@@ -727,7 +727,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17116,
+  "credits_remaining": 17115,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -930,8 +930,19 @@
     },
     "5a749c9d02c984e711e097f31a446542": {
       "commence_time": "2026-11-22T22:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-22T20:13:15Z",
+      "lines": {
+        "fanduel": {
+          "Ukko-Pekka Luukkonen": {
+            "over": -128,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627884954&selectionId=77455874",
+            "point": 24.5,
+            "under": -104,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627884954&selectionId=77455873"
+          }
+        }
+      },
       "matchup": "Buffalo Sabres @ Tampa Bay Lightning"
     },
     "627813427faf8d3b73ff1fe4be6bc7d6": {
@@ -4460,7 +4471,7 @@
     ]
   },
   "gl_8479542": {
-    "fetched": "2026-11-22T12:00:21Z",
+    "fetched": "2026-11-22T20:13:15Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -6144,8 +6155,15 @@
     ]
   },
   "h2h_BUF-TBL": {
-    "fetched": "2026-11-11T15:40:16Z",
+    "fetched": "2026-11-22T20:13:15Z",
     "value": [
+      [
+        "2026-11-11",
+        "TBL",
+        "BUF",
+        22,
+        31
+      ],
       [
         "2026-04-06",
         "TBL",
@@ -6166,13 +6184,6 @@
         "TBL",
         35,
         38
-      ],
-      [
-        "2026-02-03",
-        "BUF",
-        "TBL",
-        26,
-        35
       ]
     ]
   },
@@ -15470,7 +15481,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-11-21T15:17:10Z",
+    "fetched": "2026-11-22T20:13:15Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -15636,7 +15647,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-11-19T16:43:11Z",
+    "fetched": "2026-11-22T20:13:15Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -16108,6 +16119,12 @@
       "book": null,
       "event_id": "3a8553e25e16a66e676afc349395fec6",
       "goalie": "Nikita Tolopilo"
+    },
+    "1905": {
+      "at": "2026-11-22T20:13:15Z",
+      "book": null,
+      "event_id": "5a749c9d02c984e711e097f31a446542",
+      "goalie": "Ukko-Pekka Luukkonen"
     }
   },
   "shot_stats": {
