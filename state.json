@@ -13248,8 +13248,6 @@
     "LAK:8478550": {
       "alerted": true,
       "out_at": "2026-11-21T18:38:10Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-22T13:44:10Z",
       "player": {
         "first": "Artemi",
         "gp": 43,
