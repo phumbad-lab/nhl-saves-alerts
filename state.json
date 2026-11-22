@@ -12768,6 +12768,23 @@
     ]
   },
   "injuries": {
+    "ANA:8484153": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Leo",
+        "gp": 93,
+        "id": 8484153,
+        "last": "Carlsson",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 233,
+        "sog": 2.5,
+        "toi": 19.5
+      },
+      "seen": "2026-11-22T04:17:15Z",
+      "status": "DTD"
+    },
     "CAR:8477940": {
       "alerted": true,
       "out_at": "2026-11-21T21:35:14Z",
