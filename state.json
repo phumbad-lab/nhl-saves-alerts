@@ -104,6 +104,7 @@
       "alt": {
         "FD": 22.5
       },
+      "done": true,
       "lines": {
         "DK": 22.5
       },
@@ -413,6 +414,10 @@
     "624643d0e1445dfdb95d86127440548a|Jakub Dobes": {
       "d": "2026-11-14",
       "r": "L"
+    },
+    "627813427faf8d3b73ff1fe4be6bc7d6|Jacob Markstrom": {
+      "d": "2026-11-21",
+      "r": "W"
     },
     "64955eccc864e1b34e23754d71319db4|Philipp Grubauer": {
       "d": "2026-11-19",
@@ -15034,7 +15039,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-21": [
-      "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi"
+      "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi",
+      "627813427faf8d3b73ff1fe4be6bc7d6|Jacob Markstrom"
     ]
   },
   "picks_channel": {
@@ -17116,7 +17122,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-22T01:18:11Z",
+    "fetched": "2026-11-22T01:38:14Z",
     "value": [
       8473422,
       8474567,
