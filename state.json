@@ -13162,24 +13162,6 @@
       "seen": "2026-11-14T17:13:10Z",
       "status": "OUT"
     },
-    "NYI:8479378": {
-      "alerted": true,
-      "missing_since": "2026-11-21T23:47:09Z",
-      "out_at": "2026-11-19T23:57:11Z",
-      "player": {
-        "first": "Logan",
-        "gp": 18,
-        "id": 8479378,
-        "last": "Stanley",
-        "pos": "D",
-        "role": "defense",
-        "shots": 8,
-        "sog": 0.4,
-        "toi": 21.4
-      },
-      "seen": "2026-11-15T05:43:00Z",
-      "status": "DTD"
-    },
     "NYR:8481604": {
       "alerted": true,
       "out_at": "2026-11-21T16:22:17Z",
