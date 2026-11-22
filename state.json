@@ -1088,91 +1088,11 @@
       },
       "matchup": "New York Islanders @ Detroit Red Wings"
     },
-    "6e1de7988dd0c9689abb85f6b8399336": {
-      "commence_time": "2026-11-20T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-19T17:16:12Z",
-      "lines": {
-        "draftkings": {
-          "Logan Thompson": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390529280%232372596426_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390529280%232372596427_15L42133Q1731448625Q20"
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390550968%232371296238_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390550968%232371296239_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Logan Thompson": {
-            "over": -122,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626932127&selectionId=75074479",
-            "point": 23.5,
-            "under": -108,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626932127&selectionId=75074478"
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626938983&selectionId=77455874",
-            "point": 24.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626938983&selectionId=77455873"
-          }
-        }
-      },
-      "matchup": "Buffalo Sabres @ Washington Capitals"
-    },
     "7472170e7ddebcf27cc4e03a8b32edcc": {
       "commence_time": "2026-11-23T00:10:00Z",
       "last_paid_check": null,
       "lines": {},
       "matchup": "Edmonton Oilers @ St Louis Blues"
-    },
-    "7bca03cc186cb70bd12d060ededa8842": {
-      "commence_time": "2026-11-20T00:15:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-19T19:06:10Z",
-      "lines": {
-        "draftkings": {
-          "Anthony Stolarz": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390805744%232372585417_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390805744%232372585418_15L42133Q1731448625Q20"
-          },
-          "Darcy Kuemper": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390557449%232371478498_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390557449%232371478499_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Anthony Stolarz": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626916926&selectionId=74842534",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626916926&selectionId=74842533"
-          },
-          "Darcy Kuemper": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626962049&selectionId=74879770",
-            "point": 24.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626962049&selectionId=74879771"
-          }
-        }
-      },
-      "matchup": "Los Angeles Kings @ Toronto Maple Leafs"
     },
     "7c6930f22180d748b3c0270afe1d67b4": {
       "commence_time": "2026-11-22T00:00:00Z",
