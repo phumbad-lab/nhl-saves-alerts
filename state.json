@@ -744,7 +744,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17079,
+  "credits_remaining": 17078,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -15757,12 +15757,6 @@
     ]
   },
   "sent": {
-    "1787": {
-      "at": "2026-11-19T22:11:10Z",
-      "book": null,
-      "event_id": "3449054d3b59c2c7fc8cf914dbd45ea6",
-      "goalie": "Pyotr Kochetkov"
-    },
     "1790": {
       "at": "2026-11-19T23:13:11Z",
       "book": "DK",
