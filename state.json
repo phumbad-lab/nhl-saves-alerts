@@ -13498,6 +13498,23 @@
       "seen": "2026-11-17T23:15:15Z",
       "status": "OUT"
     },
+    "TOR:8478458": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Jack",
+        "gp": 24,
+        "id": 8478458,
+        "last": "Roslovic",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 61,
+        "sog": 2.5,
+        "toi": 17.4
+      },
+      "seen": "2026-11-22T17:14:10Z",
+      "status": "DTD"
+    },
     "TOR:8480893": {
       "alerted": true,
       "out_at": "2026-11-20T12:23:10Z",
