@@ -208,19 +208,6 @@
       "start": "2026-11-20T02:10:00Z",
       "text": "Dostal (ANA) - ANA@COL 9:10PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969065&selectionId=74979813\u0004o23.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390531087%232372702510_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
     },
-    "af8d9e2567d44dcbb4a548272d876b6b|Sebastian Cossa": {
-      "alt": {
-        "DK": 26.5
-      },
-      "done": true,
-      "lines": {
-        "FD": 26.5
-      },
-      "mid": 315,
-      "side": "UNDER",
-      "start": "2026-11-19T03:10:00Z",
-      "text": "Cossa (UTA) - COL@UTA 10:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626697168&selectionId=103689735\u0004u26.5\u0005"
-    },
     "b1d9949c5ac7b55124c035186871f97f|Dan Vladar": {
       "alt": {
         "DK": 23.5
@@ -246,6 +233,16 @@
       "side": "OVER",
       "start": "2026-11-21T23:00:00Z",
       "text": "Murashov (PIT) - PIT@NSH 6:00PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627626772&selectionId=91004572\u0004o23.5\u0005"
+    },
+    "d58a81d96dc96c937a865548f3a1a7c5|Arturs Silovs": {
+      "alt": {},
+      "lines": {
+        "FD": 23.5
+      },
+      "mid": 374,
+      "side": "OVER",
+      "start": "2026-11-23T00:10:00Z",
+      "text": "Silovs (PIT) - PIT@DAL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627802933&selectionId=74843679\u0004o23.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-22",
@@ -17249,7 +17246,7 @@
     "version": 5
   },
   "skaters_CAR": {
-    "fetched": "2026-11-22T14:24:16Z",
+    "fetched": "2026-11-22T14:45:16Z",
     "value": [
       8473533,
       8475235,
@@ -17302,7 +17299,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-22T14:24:16Z",
+    "fetched": "2026-11-22T14:45:16Z",
     "value": [
       8474013,
       8474141,
@@ -17521,7 +17518,7 @@
     ]
   },
   "skaters_NYR": {
-    "fetched": "2026-11-22T14:24:16Z",
+    "fetched": "2026-11-22T14:45:16Z",
     "value": [
       8476459,
       8476468,
@@ -17552,7 +17549,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-22T14:24:16Z",
+    "fetched": "2026-11-22T14:45:16Z",
     "value": [
       8471215,
       8471675,
@@ -17609,7 +17606,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-22T14:24:16Z",
+    "fetched": "2026-11-22T14:45:16Z",
     "value": [
       8474151,
       8474590,
@@ -17788,6 +17785,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088310,
+  "tg_offset": 69088311,
   "watch": {}
 }
