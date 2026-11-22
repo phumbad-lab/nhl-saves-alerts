@@ -648,16 +648,16 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17217,
+  "credits_remaining": 17216,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T01:20:15Z",
+      "last_paid_check": "2026-11-22T01:35:16Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
-            "over": -115,
+            "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391456543%232375483062_13L42133Q1-598579072Q20",
             "point": 22.5,
             "under": -115,
