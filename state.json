@@ -689,7 +689,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17150,
+  "credits_remaining": 17149,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1070,14 +1070,14 @@
     "95e13bf4ee868af6f8fe243270b31835": {
       "commence_time": "2026-11-22T17:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T15:38:11Z",
+      "last_paid_check": "2026-11-22T15:53:14Z",
       "lines": {
         "draftkings": {
           "Brandon Bussi": {
-            "over": -115,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391487708%232376445368_13L42133Q1-659212771Q20",
             "point": 21.5,
-            "under": -115,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391487708%232376445369_15L42133Q1888607062Q20"
           }
         },
