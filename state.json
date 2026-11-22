@@ -232,6 +232,7 @@
       "alt": {
         "DK": 23.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -577,6 +578,10 @@
     },
     "d2834086e817eeb75c1ea2cd312f62c5|Dan Vladar": {
       "d": "2026-11-15",
+      "r": "W"
+    },
+    "d393852cc4dc6ab621ca0cd1f6ccaccc|Sergei Murashov": {
+      "d": "2026-11-21",
       "r": "W"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
@@ -13167,8 +13172,7 @@
       "status": "OUT"
     },
     "UTA:8479343": {
-      "alerted": false,
-      "missing_since": "2026-11-22T01:36:11Z",
+      "alerted": true,
       "out_at": "2026-11-22T01:34:10Z",
       "player": {
         "first": "Clayton",
@@ -15040,7 +15044,8 @@
   "night_graded": {
     "2026-11-21": [
       "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi",
-      "627813427faf8d3b73ff1fe4be6bc7d6|Jacob Markstrom"
+      "627813427faf8d3b73ff1fe4be6bc7d6|Jacob Markstrom",
+      "d393852cc4dc6ab621ca0cd1f6ccaccc|Sergei Murashov"
     ]
   },
   "picks_channel": {
