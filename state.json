@@ -732,7 +732,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17107,
+  "credits_remaining": 17106,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -823,7 +823,7 @@
     "3a8553e25e16a66e676afc349395fec6": {
       "commence_time": "2026-11-23T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T20:36:11Z",
+      "last_paid_check": "2026-11-22T20:52:15Z",
       "lines": {
         "draftkings": {
           "Drew Commesso": {
@@ -17299,7 +17299,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-22T20:32:11Z",
+    "fetched": "2026-11-22T20:52:15Z",
     "value": [
       8474013,
       8474141,
@@ -17547,7 +17547,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-22T20:32:11Z",
+    "fetched": "2026-11-22T20:52:15Z",
     "value": [
       8471215,
       8471675,
@@ -17604,7 +17604,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-22T20:32:11Z",
+    "fetched": "2026-11-22T20:52:15Z",
     "value": [
       8474151,
       8474590,
