@@ -117,7 +117,9 @@
       "text": "Levi (EDM) - EDM@CAR 1:00PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391109097%232374020383_15L42133Q1-245490255Q20\u0004u28.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676066\u0004u27.5\u0005"
     },
     "5a749c9d02c984e711e097f31a446542|Dennis Hildeby": {
-      "alt": {},
+      "alt": {
+        "DK": 22.5
+      },
       "lines": {
         "FD": 23.5
       },
@@ -742,7 +744,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17101,
+  "credits_remaining": 17100,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -958,14 +960,21 @@
     "5a749c9d02c984e711e097f31a446542": {
       "commence_time": "2026-11-22T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T21:10:20Z",
+      "last_paid_check": "2026-11-22T21:16:15Z",
       "lines": {
         "draftkings": {
+          "Dennis Hildeby": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391821938%232377416659_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391821938%232377416660_15L42133Q1874096526Q20"
+          },
           "Ukko-Pekka Luukkonen": {
             "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391532461%232377389294_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": -125,
+            "under": -120,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391532461%232377389295_15L42133Q1731448625Q20"
           }
         },
@@ -16185,6 +16194,12 @@
       "book": "DK",
       "event_id": "5a749c9d02c984e711e097f31a446542",
       "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "1915": {
+      "at": "2026-11-22T21:16:15Z",
+      "book": "DK",
+      "event_id": "5a749c9d02c984e711e097f31a446542",
+      "goalie": "Dennis Hildeby"
     }
   },
   "shot_stats": {
@@ -17831,12 +17846,12 @@
   "tg_offset": 69088317,
   "watch": {
     "5a749c9d02c984e711e097f31a446542|Ukko-Pekka Luukkonen": {
-      "last": "2026-11-22T21:10:20Z",
+      "last": "2026-11-22T21:16:15Z",
       "seen": {
         "DK": {
           "over": -110,
           "point": 24.5,
-          "under": -125
+          "under": -120
         },
         "FD": {
           "over": -128,
