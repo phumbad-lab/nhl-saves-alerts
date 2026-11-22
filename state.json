@@ -663,12 +663,12 @@
     }
   },
   "corrections_checked": "2026-11-21",
-  "credits_remaining": 17194,
+  "credits_remaining": 17193,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T02:43:11Z",
+      "last_paid_check": "2026-11-22T02:44:16Z",
       "lines": {
         "draftkings": {
           "Alex Nedeljkovic": {
@@ -677,6 +677,13 @@
             "point": 22.5,
             "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391456543%232375483063_15L42133Q1874096526Q20"
+          },
+          "Philipp Grubauer": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109679%232374864278_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -135,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109679%232374864279_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
@@ -15809,6 +15816,12 @@
     "1873": {
       "at": "2026-11-22T02:35:13Z",
       "book": null,
+      "event_id": "133b6fa32f89f05a14d7146ee5070a83",
+      "goalie": "Philipp Grubauer"
+    },
+    "1875": {
+      "at": "2026-11-22T02:44:16Z",
+      "book": "DK",
       "event_id": "133b6fa32f89f05a14d7146ee5070a83",
       "goalie": "Philipp Grubauer"
     }
