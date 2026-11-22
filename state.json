@@ -13390,6 +13390,8 @@
     "CHI:8485391": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-22T23:58:11Z",
       "player": {
         "first": "Anton",
         "gp": 35,
