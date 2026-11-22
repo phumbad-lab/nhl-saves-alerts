@@ -1094,46 +1094,6 @@
       },
       "matchup": "New Jersey Devils @ St Louis Blues"
     },
-    "7f30902099116c9c5824e85201be7d60": {
-      "commence_time": "2026-11-20T01:12:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-20T00:47:18Z",
-      "lines": {
-        "draftkings": {
-          "Cam Talbot": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390606987%232371528016_13L42133Q1-1959470774Q20",
-            "point": 20.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390606987%232371528017_15L42133Q1-1449474Q20"
-          },
-          "Spencer Knight": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390492694%232372230361_13L42133Q1-389637312Q20",
-            "point": 25.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390492694%232372230362_15L42133Q1458571637Q20"
-          }
-        },
-        "fanduel": {
-          "Cam Talbot": {
-            "over": -128,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626955369&selectionId=74101477",
-            "point": 20.5,
-            "under": -104,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626955369&selectionId=74101478"
-          },
-          "Spencer Knight": {
-            "over": -110,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627024536&selectionId=74973970",
-            "point": 25.5,
-            "under": -120,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627024536&selectionId=74973969"
-          }
-        }
-      },
-      "matchup": "Columbus Blue Jackets @ Chicago Blackhawks"
-    },
     "8689e63a36a8d62c4eba2fc402bb4f0c": {
       "commence_time": "2026-11-20T02:15:00Z",
       "h2h_sent": true,
