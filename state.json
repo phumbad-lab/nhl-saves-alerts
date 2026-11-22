@@ -208,6 +208,18 @@
       "start": "2026-11-20T02:10:00Z",
       "text": "Dostal (ANA) - ANA@COL 9:10PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969065&selectionId=74979813\u0004o23.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA390531087%232372702510_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
     },
+    "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi": {
+      "alt": {
+        "FD": 20.5
+      },
+      "lines": {
+        "DK": 21.5
+      },
+      "mid": 376,
+      "side": "UNDER",
+      "start": "2026-11-22T17:40:00Z",
+      "text": "Bussi (CAR) - CAR@NYR 12:40PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391487708%232376445369_15L42133Q1888607062Q20\u0004u21.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627797252&selectionId=89960227\u0004u20.5\u0005"
+    },
     "b1d9949c5ac7b55124c035186871f97f|Dan Vladar": {
       "alt": {
         "DK": 23.5
@@ -17769,6 +17781,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088312,
+  "tg_offset": 69088313,
   "watch": {}
 }
