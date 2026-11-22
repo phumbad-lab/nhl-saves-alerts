@@ -12770,7 +12770,6 @@
   "injuries": {
     "ANA:8484153": {
       "alerted": false,
-      "missing_since": "2026-11-22T04:18:10Z",
       "out_at": null,
       "player": {
         "first": "Leo",
