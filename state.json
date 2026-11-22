@@ -692,7 +692,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17176,
+  "credits_remaining": 17175,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1064,7 +1064,7 @@
     "95e13bf4ee868af6f8fe243270b31835": {
       "commence_time": "2026-11-22T17:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T13:33:09Z",
+      "last_paid_check": "2026-11-22T13:48:10Z",
       "lines": {
         "fanduel": {
           "Brandon Bussi": {
