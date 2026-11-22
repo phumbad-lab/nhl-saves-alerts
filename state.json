@@ -744,7 +744,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17089,
+  "credits_remaining": 17088,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -960,7 +960,7 @@
     "5a749c9d02c984e711e097f31a446542": {
       "commence_time": "2026-11-22T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T21:58:09Z",
+      "last_paid_check": "2026-11-22T22:03:10Z",
       "lines": {
         "draftkings": {
           "Dennis Hildeby": {
@@ -980,17 +980,17 @@
         },
         "fanduel": {
           "Dennis Hildeby": {
-            "over": -132,
+            "over": -128,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627891089&selectionId=74486096",
             "point": 22.5,
-            "under": 100,
+            "under": -104,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627891089&selectionId=74486095"
           },
           "Ukko-Pekka Luukkonen": {
-            "over": -118,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627884954&selectionId=77455874",
             "point": 24.5,
-            "under": -112,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627884954&selectionId=77455873"
           }
         }
@@ -17846,7 +17846,7 @@
   "tg_offset": 69088317,
   "watch": {
     "5a749c9d02c984e711e097f31a446542|Ukko-Pekka Luukkonen": {
-      "last": "2026-11-22T21:58:09Z",
+      "last": "2026-11-22T22:03:10Z",
       "seen": {
         "DK": {
           "over": -115,
@@ -17854,9 +17854,9 @@
           "under": -115
         },
         "FD": {
-          "over": -118,
+          "over": -120,
           "point": 24.5,
-          "under": -112
+          "under": -110
         }
       },
       "set": "2026-11-22T20:18:11Z",
