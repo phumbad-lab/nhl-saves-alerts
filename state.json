@@ -243,6 +243,16 @@
       "side": "OVER",
       "start": "2026-11-23T00:10:00Z",
       "text": "Silovs (PIT) - PIT@DAL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627802933&selectionId=74843679\u0004o23.5\u0005"
+    },
+    "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger": {
+      "alt": {},
+      "lines": {
+        "FD": 24.5
+      },
+      "mid": 375,
+      "side": "UNDER",
+      "start": "2026-11-23T00:10:00Z",
+      "text": "Oettinger (DAL) - PIT@DAL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627830444&selectionId=74880671\u0004u24.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-22",
@@ -17759,6 +17769,6 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088311,
+  "tg_offset": 69088312,
   "watch": {}
 }
