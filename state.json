@@ -13500,6 +13500,7 @@
     },
     "TOR:8478458": {
       "alerted": false,
+      "missing_since": "2026-11-22T17:17:12Z",
       "out_at": null,
       "player": {
         "first": "Jack",
@@ -15659,12 +15660,6 @@
     ]
   },
   "sent": {
-    "1766": {
-      "at": "2026-11-19T17:16:12Z",
-      "book": "FD",
-      "event_id": "6e1de7988dd0c9689abb85f6b8399336",
-      "goalie": "Ukko-Pekka Luukkonen"
-    },
     "1767": {
       "at": "2026-11-19T17:27:12Z",
       "book": null,
