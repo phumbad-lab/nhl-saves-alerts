@@ -689,7 +689,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17149,
+  "credits_remaining": 17148,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -774,14 +774,14 @@
     "3a8553e25e16a66e676afc349395fec6": {
       "commence_time": "2026-11-23T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T15:41:09Z",
+      "last_paid_check": "2026-11-22T15:56:10Z",
       "lines": {
         "fanduel": {
           "Drew Commesso": {
-            "over": -106,
+            "over": -102,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627800007&selectionId=74315236",
             "point": 23.5,
-            "under": -125,
+            "under": -130,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627800007&selectionId=74315237"
           }
         }
@@ -15551,18 +15551,6 @@
     ]
   },
   "sent": {
-    "1748": {
-      "at": "2026-11-19T15:55:15Z",
-      "book": null,
-      "event_id": "84d6f3a55d9aac25cd001f3d94aab44b",
-      "goalie": "Samuel Ersson"
-    },
-    "1749": {
-      "at": "2026-11-19T15:55:15Z",
-      "book": null,
-      "event_id": "8cd65f19317595a31a8e98aee88027a5",
-      "goalie": "Arturs Silovs"
-    },
     "1752": {
       "at": "2026-11-19T15:58:11Z",
       "book": null,
