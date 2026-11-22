@@ -732,7 +732,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17108,
+  "credits_remaining": 17107,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -936,7 +936,7 @@
     "5a749c9d02c984e711e097f31a446542": {
       "commence_time": "2026-11-22T22:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-22T20:42:12Z",
+      "last_paid_check": "2026-11-22T20:48:11Z",
       "lines": {
         "fanduel": {
           "Ukko-Pekka Luukkonen": {
@@ -15467,7 +15467,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-22": [
-      "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi"
+      "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi",
+      "95e13bf4ee868af6f8fe243270b31835|Dylan Garand"
     ]
   },
   "picks_channel": {
@@ -17777,10 +17778,10 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088315,
+  "tg_offset": 69088316,
   "watch": {
     "5a749c9d02c984e711e097f31a446542|Ukko-Pekka Luukkonen": {
-      "last": "2026-11-22T20:42:12Z",
+      "last": "2026-11-22T20:48:11Z",
       "seen": {
         "FD": {
           "over": -128,
