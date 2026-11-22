@@ -882,46 +882,6 @@
       },
       "matchup": "Buffalo Sabres @ Florida Panthers"
     },
-    "64955eccc864e1b34e23754d71319db4": {
-      "commence_time": "2026-11-20T02:50:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-19T19:20:15Z",
-      "lines": {
-        "draftkings": {
-          "Leevi Merilainen": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390532169%232372726596_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390532169%232372726597_15L42133Q1731448625Q20"
-          },
-          "Philipp Grubauer": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA390531898%232372710877_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA390531898%232372710878_15L42133Q1888607062Q20"
-          }
-        },
-        "fanduel": {
-          "Leevi Merilainen": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626961329&selectionId=78174825",
-            "point": 24.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626961329&selectionId=78174826"
-          },
-          "Philipp Grubauer": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626946571&selectionId=74802625",
-            "point": 21.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626946571&selectionId=74802624"
-          }
-        }
-      },
-      "matchup": "Vancouver Canucks @ Seattle Kraken"
-    },
     "6b3ca9f550a96d09fdd079e3c7e1158a": {
       "commence_time": "2026-11-22T00:00:00Z",
       "h2h_sent": true,
