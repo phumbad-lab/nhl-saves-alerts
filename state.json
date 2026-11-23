@@ -880,46 +880,6 @@
       "lines": {},
       "matchup": "Minnesota Wild @ San Jose Sharks"
     },
-    "43b2e285559dbe2bb5ddc1665bccddf2": {
-      "commence_time": "2026-11-21T18:00:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-21T17:34:16Z",
-      "lines": {
-        "draftkings": {
-          "Devon Levi": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109097%232374020382_13L42133Q1827957987Q20",
-            "point": 28.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109097%232374020383_15L42133Q1-245490255Q20"
-          },
-          "Pyotr Kochetkov": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109122%232374025117_13L42133Q1-1959470774Q20",
-            "point": 20.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391109122%232374025118_15L42133Q1-1449474Q20"
-          }
-        },
-        "fanduel": {
-          "Devon Levi": {
-            "over": -106,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676067",
-            "point": 27.5,
-            "under": -125,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676066"
-          },
-          "Pyotr Kochetkov": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074342",
-            "point": 20.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627517493&selectionId=75074343"
-          }
-        }
-      },
-      "matchup": "Edmonton Oilers @ Carolina Hurricanes"
-    },
     "5074be0d13d60cc7fd82b06c4d8ddd31": {
       "commence_time": "2026-11-24T02:50:00Z",
       "last_paid_check": null,
