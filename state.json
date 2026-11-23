@@ -696,7 +696,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16951,
+  "credits_remaining": 16950,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1173,7 +1173,7 @@
     "806787e1b3ac73d09e3ae05f6d595865": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T23:54:10Z",
+      "last_paid_check": "2026-11-23T23:55:18Z",
       "lines": {
         "draftkings": {
           "Jakub Dobes": {
@@ -17959,7 +17959,7 @@
     ]
   },
   "skaters_SJS": {
-    "fetched": "2026-11-23T23:35:14Z",
+    "fetched": "2026-11-23T23:55:18Z",
     "value": [
       8475200,
       8475726,
