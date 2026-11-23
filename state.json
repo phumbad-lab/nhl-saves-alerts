@@ -672,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16990,
+  "credits_remaining": 16989,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -883,14 +883,21 @@
     "43376208ec2111794696249fe50f5e84": {
       "commence_time": "2026-11-24T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T19:01:11Z",
+      "last_paid_check": "2026-11-23T19:16:11Z",
       "lines": {
         "fanduel": {
+          "Filip Gustavsson": {
+            "over": -118,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628109674&selectionId=74880672",
+            "point": 23.5,
+            "under": -112,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628109674&selectionId=74880673"
+          },
           "Yaroslav Askarov": {
-            "over": -114,
+            "over": -112,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628106320&selectionId=77385758",
             "point": 25.5,
-            "under": -114,
+            "under": -118,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628106320&selectionId=77385757"
           }
         }
@@ -16544,6 +16551,12 @@
       "book": null,
       "event_id": "43376208ec2111794696249fe50f5e84",
       "goalie": "Yaroslav Askarov"
+    },
+    "1949": {
+      "at": "2026-11-23T19:16:11Z",
+      "book": null,
+      "event_id": "43376208ec2111794696249fe50f5e84",
+      "goalie": "Filip Gustavsson"
     }
   },
   "shot_stats": {
