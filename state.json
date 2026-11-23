@@ -13389,9 +13389,7 @@
     },
     "CHI:8485391": {
       "alerted": false,
-      "out_at": null,
-      "pending": "OUT",
-      "pending_since": "2026-11-22T23:58:11Z",
+      "out_at": "2026-11-23T00:04:11Z",
       "player": {
         "first": "Anton",
         "gp": 35,
@@ -13404,7 +13402,7 @@
         "toi": 16.8
       },
       "seen": "2026-11-21T22:54:11Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "COL:8477492": {
       "alerted": true,
