@@ -1391,6 +1391,11 @@ PLAY_UNDER_CUSHION = 2.0  # UNDER tag: line at least this many saves above expec
 PLAY_UNDER_MIN_PROB = 0.47  # skip when the book prices the under as an underdog (no-vig chance below this)
 
 
+PLAY_UNDER_ON = False  # owner Nov 23: no ⬇️ calls at all ("poor tags with low hit rates just add noise";
+                       # ⬇️ was 6-13 live: road spot 6-12, UNDER-tag-with-cushion spot 0-1). ⬆️ stays.
+                       # The cushion spot can still be re-graded from picks.csv tag/line/expected/odds.
+
+
 PLAY_UNDER_ROAD = False  # owner Nov 15: road-OVER-tag ⬇️ paused (6-12 live Nov 6-14; 33-21 since Oct 21).
                          # Still logged as picks.csv play_road=1 so it can be re-checked.
 
@@ -1436,7 +1441,7 @@ def play_over(g, ln):
 def play_call(g, ln, side):
     """'UNDER', 'OVER' or None for one book's line. Both at once (rare: a road OVER tag on a low
     line) -> None, so the alert never contradicts itself."""
-    u, o = play_under(g, ln, side), play_over(g, ln)
+    u, o = PLAY_UNDER_ON and play_under(g, ln, side), play_over(g, ln)
     if o and not u and play_under(g, ln, side, road=True):
         return None  # a road OVER tag on a low line: still no call while the road ⬇️ is paused
     return "UNDER" if u and not o else "OVER" if o and not u else None
