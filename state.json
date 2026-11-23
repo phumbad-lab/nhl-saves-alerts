@@ -300,7 +300,7 @@
       "text": "Oettinger (DAL) - PIT@DAL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627830444&selectionId=74880671\u0004u24.5\u0005"
     }
   },
-  "channel_recap_sent": "2026-11-22",
+  "channel_recap_sent": "2026-11-23",
   "channel_record": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
       "d": "2026-10-30",
@@ -763,7 +763,7 @@
       "r": "W"
     }
   },
-  "corrections_checked": "2026-11-22",
+  "corrections_checked": "2026-11-23",
   "credits_remaining": 17056,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
@@ -4335,7 +4335,7 @@
     ]
   },
   "gl_8476875": {
-    "fetched": "2026-11-21T14:00:20Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-09-29",
       "2026-10-03",
@@ -4448,7 +4448,7 @@
     ]
   },
   "gl_8477951": {
-    "fetched": "2026-11-21T14:00:20Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4472,7 +4472,7 @@
     ]
   },
   "gl_8477955": {
-    "fetched": "2026-11-22T02:35:13Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4695,7 +4695,7 @@
     ]
   },
   "gl_8480800": {
-    "fetched": "2026-11-21T18:53:10Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4735,7 +4735,7 @@
     ]
   },
   "gl_8480860": {
-    "fetched": "2026-11-21T20:04:10Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -4756,7 +4756,7 @@
     ]
   },
   "gl_8480893": {
-    "fetched": "2026-11-21T14:00:20Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-09-29",
       "2026-09-30",
@@ -4832,7 +4832,7 @@
     "value": []
   },
   "gl_8482699": {
-    "fetched": "2026-11-21T14:00:20Z",
+    "fetched": "2026-11-23T12:00:23Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -13774,7 +13774,7 @@
     "WPG",
     "WSH"
   ],
-  "injury_update_sent": "2026-11-22",
+  "injury_update_sent": "2026-11-23",
   "keys_ANA": {
     "fetched": "2026-11-23T00:26:10Z",
     "value": [
@@ -15575,16 +15575,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-22": [
-      "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi",
-      "95e13bf4ee868af6f8fe243270b31835|Dylan Garand",
-      "5a749c9d02c984e711e097f31a446542|Dennis Hildeby",
-      "d58a81d96dc96c937a865548f3a1a7c5|Arturs Silovs",
-      "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger",
-      "3a8553e25e16a66e676afc349395fec6|Drew Commesso"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
