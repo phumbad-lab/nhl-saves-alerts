@@ -749,7 +749,7 @@
     }
   },
   "corrections_checked": "2026-11-22",
-  "credits_remaining": 17062,
+  "credits_remaining": 17061,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -840,21 +840,21 @@
     "3a8553e25e16a66e676afc349395fec6": {
       "commence_time": "2026-11-23T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T00:25:12Z",
+      "last_paid_check": "2026-11-23T00:40:15Z",
       "lines": {
         "draftkings": {
           "Drew Commesso": {
-            "over": -115,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391479170%232376863715_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -120,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391479170%232376863716_15L42133Q1874096526Q20"
           },
           "Nikita Tolopilo": {
-            "over": -110,
+            "over": -105,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391497118%232376866282_13L42133Q1-598579072Q20",
             "point": 22.5,
-            "under": -125,
+            "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391497118%232376866283_15L42133Q1874096526Q20"
           }
         },
@@ -865,6 +865,13 @@
             "point": 22.5,
             "under": -114,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627800007&selectionId=74315237"
+          },
+          "Nikita Tolopilo": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627907199&selectionId=82559767",
+            "point": 22.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.627907199&selectionId=82559766"
           }
         }
       },
@@ -15763,12 +15770,6 @@
     ]
   },
   "sent": {
-    "1794": {
-      "at": "2026-11-20T00:40:15Z",
-      "book": null,
-      "event_id": "7f30902099116c9c5824e85201be7d60",
-      "goalie": "Spencer Knight"
-    },
     "1795": {
       "at": "2026-11-20T00:47:18Z",
       "book": "FD",
@@ -16182,6 +16183,12 @@
       "book": "DK",
       "event_id": "5a749c9d02c984e711e097f31a446542",
       "goalie": "Dennis Hildeby"
+    },
+    "1918": {
+      "at": "2026-11-23T00:40:15Z",
+      "book": "FD",
+      "event_id": "3a8553e25e16a66e676afc349395fec6",
+      "goalie": "Nikita Tolopilo"
     }
   },
   "shot_stats": {
