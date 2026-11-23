@@ -672,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16999,
+  "credits_remaining": 16998,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1448,14 +1448,14 @@
     "e2efcb24b2d9689232946057b7e43d23": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T18:18:11Z",
+      "last_paid_check": "2026-11-23T18:33:17Z",
       "lines": {
         "draftkings": {
           "Stuart Skinner": {
-            "over": -105,
+            "over": -110,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391803051%232377271573_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": -130,
+            "under": -125,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391803051%232377271610_15L42133Q1731448625Q20"
           }
         },
