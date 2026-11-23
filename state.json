@@ -696,7 +696,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16956,
+  "credits_remaining": 16955,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1173,15 +1173,15 @@
     "806787e1b3ac73d09e3ae05f6d595865": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T23:07:15Z",
+      "last_paid_check": "2026-11-23T23:23:10Z",
       "lines": {
         "draftkings": {
           "Jakub Dobes": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392029847%232378454572_13L42133Q1-1695742073Q20",
-            "point": 24.5,
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392029847%232378454415_13L42133Q1-389637312Q20",
+            "point": 25.5,
             "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392029847%232378454573_15L42133Q1731448625Q20"
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392029847%232378454416_15L42133Q1458571637Q20"
           }
         },
         "fanduel": {
