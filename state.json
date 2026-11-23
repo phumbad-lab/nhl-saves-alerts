@@ -670,7 +670,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17033,
+  "credits_remaining": 17032,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1420,7 +1420,7 @@
     "e2efcb24b2d9689232946057b7e43d23": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T16:14:12Z",
+      "last_paid_check": "2026-11-23T16:30:20Z",
       "lines": {
         "fanduel": {
           "Stuart Skinner": {
