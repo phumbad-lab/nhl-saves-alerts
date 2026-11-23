@@ -672,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17012,
+  "credits_remaining": 17011,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1348,7 +1348,7 @@
     "d127e1e72a1b9087aca692f3b5812532": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T17:20:16Z",
+      "last_paid_check": "2026-11-23T17:35:21Z",
       "lines": {
         "draftkings": {
           "Linus Ullmark": {
