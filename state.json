@@ -672,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17001,
+  "credits_remaining": 17000,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -883,8 +883,17 @@
     "5074be0d13d60cc7fd82b06c4d8ddd31": {
       "commence_time": "2026-11-24T02:50:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T18:04:11Z",
+      "last_paid_check": "2026-11-23T18:20:17Z",
       "lines": {
+        "draftkings": {
+          "Joey Daccord": {
+            "over": 100,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392052848%232378547991_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392052848%232378547992_15L42133Q1458571637Q20"
+          }
+        },
         "fanduel": {
           "Joey Daccord": {
             "over": -102,
@@ -16493,6 +16502,12 @@
       "book": null,
       "event_id": "e2efcb24b2d9689232946057b7e43d23",
       "goalie": "Sebastian Cossa"
+    },
+    "1946": {
+      "at": "2026-11-23T18:20:17Z",
+      "book": "DK",
+      "event_id": "5074be0d13d60cc7fd82b06c4d8ddd31",
+      "goalie": "Joey Daccord"
     }
   },
   "shot_stats": {
