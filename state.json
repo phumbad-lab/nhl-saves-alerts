@@ -670,7 +670,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17039,
+  "credits_remaining": 17038,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1143,8 +1143,19 @@
     },
     "806787e1b3ac73d09e3ae05f6d595865": {
       "commence_time": "2026-11-24T00:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-23T16:07:11Z",
+      "lines": {
+        "fanduel": {
+          "Jakub Dobes": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628073125&selectionId=78840903",
+            "point": 24.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628073125&selectionId=78840902"
+          }
+        }
+      },
       "matchup": "Los Angeles Kings @ Montr\u00e9al Canadiens"
     },
     "95e13bf4ee868af6f8fe243270b31835": {
@@ -9882,6 +9893,39 @@
       ]
     ]
   },
+  "h2h_LAK-MTL": {
+    "fetched": "2026-11-23T16:07:11Z",
+    "value": [
+      [
+        "2026-03-07",
+        "MTL",
+        "LAK",
+        23,
+        39
+      ],
+      [
+        "2025-11-11",
+        "LAK",
+        "MTL",
+        26,
+        22
+      ],
+      [
+        "2025-02-05",
+        "MTL",
+        "LAK",
+        21,
+        37
+      ],
+      [
+        "2024-10-17",
+        "LAK",
+        "MTL",
+        32,
+        27
+      ]
+    ]
+  },
   "h2h_LAK-NJD": {
     "fetched": "2026-10-24T17:58:13Z",
     "value": [
@@ -15717,7 +15761,7 @@
     ]
   },
   "roster_LAK": {
-    "fetched": "2026-11-21T15:30:18Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       "Anton Forsberg",
       "Darcy Kuemper"
@@ -15732,11 +15776,10 @@
     ]
   },
   "roster_MTL": {
-    "fetched": "2026-11-21T14:34:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       "Jakub Dobes",
-      "Jacob Fowler",
-      "Samuel Montembeault"
+      "Jacob Fowler"
     ]
   },
   "roster_NJD": {
@@ -16300,6 +16343,12 @@
       "book": null,
       "event_id": "e9429c68a48753de9779d88e6cf393ad",
       "goalie": "Connor Hellebuyck"
+    },
+    "1930": {
+      "at": "2026-11-23T16:07:11Z",
+      "book": null,
+      "event_id": "806787e1b3ac73d09e3ae05f6d595865",
+      "goalie": "Jakub Dobes"
     }
   },
   "shot_stats": {
@@ -17431,7 +17480,7 @@
     ]
   },
   "skaters_CGY": {
-    "fetched": "2026-11-23T15:47:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       8474150,
       8476456,
@@ -17596,7 +17645,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-23T15:47:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       8473422,
       8474567,
@@ -17622,7 +17671,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-23T15:47:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       8475184,
       8476479,
@@ -17735,7 +17784,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-23T15:47:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       8474586,
       8476457,
@@ -17791,7 +17840,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-23T15:47:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       8475166,
       8475171,
@@ -17824,7 +17873,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-23T15:47:10Z",
+    "fetched": "2026-11-23T16:07:11Z",
     "value": [
       8475314,
       8476389,
