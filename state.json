@@ -670,7 +670,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17031,
+  "credits_remaining": 17030,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -755,7 +755,7 @@
     "2d095386ab1321c89df24896d98495ee": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T16:20:16Z",
+      "last_paid_check": "2026-11-23T16:35:20Z",
       "lines": {
         "fanduel": {
           "Ilya Sorokin": {
