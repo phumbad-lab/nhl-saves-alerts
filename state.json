@@ -218,6 +218,18 @@
       "side": "UNDER",
       "start": "2026-11-23T00:10:00Z",
       "text": "Oettinger (DAL) - PIT@DAL 7:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627830444&selectionId=74880671\u0004u24.5\u0005"
+    },
+    "e2efcb24b2d9689232946057b7e43d23|Stuart Skinner": {
+      "alt": {
+        "DK": 24.5
+      },
+      "lines": {
+        "FD": 24.5
+      },
+      "mid": 392,
+      "side": "OVER",
+      "start": "2026-11-24T00:40:00Z",
+      "text": "Skinner (WPG) - UTA@WPG 7:40PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065160&selectionId=74079397\u0004o24.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391803051%232377271573_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
     }
   },
   "channel_recap_sent": "2026-11-23",
@@ -18226,7 +18238,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088319,
+  "tg_offset": 69088320,
   "watch": {
     "5a749c9d02c984e711e097f31a446542|Ukko-Pekka Luukkonen": {
       "last": "2026-11-22T22:08:10Z",
