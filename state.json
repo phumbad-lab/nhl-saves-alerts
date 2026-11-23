@@ -13874,24 +13874,6 @@
       "seen": "2026-11-12T04:46:11Z",
       "status": "OUT"
     },
-    "UTA:8479343": {
-      "alerted": true,
-      "missing_since": "2026-11-23T17:43:10Z",
-      "out_at": "2026-11-22T01:34:10Z",
-      "player": {
-        "first": "Clayton",
-        "gp": 105,
-        "id": 8479343,
-        "last": "Keller",
-        "pos": "R",
-        "role": "shooter",
-        "shots": 285,
-        "sog": 2.7,
-        "toi": 19.1
-      },
-      "seen": "2026-11-22T01:34:10Z",
-      "status": "DTD"
-    },
     "UTA:8482699": {
       "alerted": true,
       "out_at": "2026-11-12T01:32:11Z",
