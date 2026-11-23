@@ -684,7 +684,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16963,
+  "credits_remaining": 16962,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -935,7 +935,7 @@
     "5074be0d13d60cc7fd82b06c4d8ddd31": {
       "commence_time": "2026-11-24T02:50:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T22:14:11Z",
+      "last_paid_check": "2026-11-23T22:29:13Z",
       "lines": {
         "draftkings": {
           "Joey Daccord": {
@@ -13924,24 +13924,6 @@
         "toi": 19.2
       },
       "seen": "2026-11-12T04:46:11Z",
-      "status": "OUT"
-    },
-    "UTA:8482699": {
-      "alerted": true,
-      "missing_since": "2026-11-23T21:59:11Z",
-      "out_at": "2026-11-12T01:32:11Z",
-      "player": {
-        "first": "Dylan",
-        "gp": 97,
-        "id": 8482699,
-        "last": "Guenther",
-        "pos": "R",
-        "role": "shooter",
-        "shots": 288,
-        "sog": 3.0,
-        "toi": 17.4
-      },
-      "seen": "2026-11-10T19:54:12Z",
       "status": "OUT"
     }
   },
