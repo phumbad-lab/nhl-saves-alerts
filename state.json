@@ -670,7 +670,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17046,
+  "credits_remaining": 17045,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1310,14 +1310,14 @@
     "d127e1e72a1b9087aca692f3b5812532": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T15:30:21Z",
+      "last_paid_check": "2026-11-23T15:46:11Z",
       "lines": {
         "fanduel": {
           "Linus Ullmark": {
-            "over": -118,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065651&selectionId=74880127",
             "point": 21.5,
-            "under": -112,
+            "under": -110,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065651&selectionId=74880126"
           }
         }
