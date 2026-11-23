@@ -764,7 +764,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17048,
+  "credits_remaining": 17047,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1550,8 +1550,19 @@
     },
     "e9429c68a48753de9779d88e6cf393ad": {
       "commence_time": "2026-11-24T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-23T15:35:12Z",
+      "lines": {
+        "fanduel": {
+          "Connor Hellebuyck": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628067260&selectionId=74843125",
+            "point": 23.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628067260&selectionId=74843124"
+          }
+        }
+      },
       "matchup": "Columbus Blue Jackets @ New Jersey Devils"
     },
     "eeea62e46492df32a80a6b28f87d5f9e": {
@@ -7091,6 +7102,39 @@
         "MIN",
         33,
         26
+      ]
+    ]
+  },
+  "h2h_CBJ-NJD": {
+    "fetched": "2026-11-23T15:35:12Z",
+    "value": [
+      [
+        "2026-02-03",
+        "CBJ",
+        "NJD",
+        25,
+        24
+      ],
+      [
+        "2025-12-31",
+        "NJD",
+        "CBJ",
+        33,
+        35
+      ],
+      [
+        "2025-12-01",
+        "CBJ",
+        "NJD",
+        25,
+        33
+      ],
+      [
+        "2025-10-13",
+        "NJD",
+        "CBJ",
+        28,
+        33
       ]
     ]
   },
@@ -15710,7 +15754,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-11-21T15:31:13Z",
+    "fetched": "2026-11-23T15:35:12Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -15790,7 +15834,7 @@
     ]
   },
   "roster_NJD": {
-    "fetched": "2026-11-21T16:39:10Z",
+    "fetched": "2026-11-23T15:35:12Z",
     "value": [
       "Jake Allen",
       "Connor Hellebuyck"
@@ -16344,6 +16388,12 @@
       "book": null,
       "event_id": "2d095386ab1321c89df24896d98495ee",
       "goalie": "Ilya Sorokin"
+    },
+    "1928": {
+      "at": "2026-11-23T15:35:12Z",
+      "book": null,
+      "event_id": "e9429c68a48753de9779d88e6cf393ad",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
