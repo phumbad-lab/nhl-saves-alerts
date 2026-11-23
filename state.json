@@ -120,6 +120,7 @@
       "alt": {
         "DK": 22.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -465,6 +466,10 @@
     "5a2820b80e20b69258bd5eb25c18eb78|Philipp Grubauer": {
       "d": "2026-11-12",
       "r": "L"
+    },
+    "5a749c9d02c984e711e097f31a446542|Dennis Hildeby": {
+      "d": "2026-11-22",
+      "r": "W"
     },
     "5abfa3c29e722130d055164350facd72|Anthony Stolarz": {
       "d": "2026-11-08",
@@ -15515,7 +15520,8 @@
   "night_graded": {
     "2026-11-22": [
       "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi",
-      "95e13bf4ee868af6f8fe243270b31835|Dylan Garand"
+      "95e13bf4ee868af6f8fe243270b31835|Dylan Garand",
+      "5a749c9d02c984e711e097f31a446542|Dennis Hildeby"
     ]
   },
   "picks_channel": {
