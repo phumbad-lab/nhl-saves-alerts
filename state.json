@@ -276,6 +276,7 @@
       "alt": {
         "DK": 23.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -288,6 +289,7 @@
       "alt": {
         "DK": 22.5
       },
+      "done": true,
       "lines": {
         "FD": 24.5
       },
@@ -674,6 +676,14 @@
     "d393852cc4dc6ab621ca0cd1f6ccaccc|Sergei Murashov": {
       "d": "2026-11-21",
       "r": "W"
+    },
+    "d58a81d96dc96c937a865548f3a1a7c5|Arturs Silovs": {
+      "d": "2026-11-22",
+      "r": "L"
+    },
+    "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger": {
+      "d": "2026-11-22",
+      "r": "L"
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "d": "2026-10-26",
@@ -15528,7 +15538,9 @@
     "2026-11-22": [
       "95e13bf4ee868af6f8fe243270b31835|Brandon Bussi",
       "95e13bf4ee868af6f8fe243270b31835|Dylan Garand",
-      "5a749c9d02c984e711e097f31a446542|Dennis Hildeby"
+      "5a749c9d02c984e711e097f31a446542|Dennis Hildeby",
+      "d58a81d96dc96c937a865548f3a1a7c5|Arturs Silovs",
+      "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger"
     ]
   },
   "picks_channel": {
