@@ -13385,6 +13385,8 @@
     "CAR:8477940": {
       "alerted": true,
       "out_at": "2026-11-21T21:35:14Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-23T14:18:12Z",
       "player": {
         "first": "Nikolaj",
         "gp": 105,
@@ -13453,6 +13455,8 @@
     "CHI:8485391": {
       "alerted": true,
       "out_at": "2026-11-23T00:04:11Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-23T14:18:12Z",
       "player": {
         "first": "Anton",
         "gp": 35,
