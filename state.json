@@ -56,6 +56,7 @@
       "alt": {
         "FD": 23.5
       },
+      "done": true,
       "lines": {
         "DK": 22.5
       },
@@ -400,6 +401,10 @@
     "38779d99fd6274c9008c5cc03fa504ef|Jeremy Swayman": {
       "d": "2026-11-18",
       "r": "W"
+    },
+    "3a8553e25e16a66e676afc349395fec6|Drew Commesso": {
+      "d": "2026-11-22",
+      "r": "L"
     },
     "3d788aa0737d2ab5b2bf92f8e40ea63f|Adin Hill": {
       "d": "2026-11-17",
@@ -15540,7 +15545,8 @@
       "95e13bf4ee868af6f8fe243270b31835|Dylan Garand",
       "5a749c9d02c984e711e097f31a446542|Dennis Hildeby",
       "d58a81d96dc96c937a865548f3a1a7c5|Arturs Silovs",
-      "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger"
+      "d58a81d96dc96c937a865548f3a1a7c5|Jake Oettinger",
+      "3a8553e25e16a66e676afc349395fec6|Drew Commesso"
     ]
   },
   "picks_channel": {
