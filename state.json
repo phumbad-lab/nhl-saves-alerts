@@ -764,7 +764,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17049,
+  "credits_remaining": 17048,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -848,8 +848,19 @@
     },
     "2d095386ab1321c89df24896d98495ee": {
       "commence_time": "2026-11-24T00:40:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-23T15:32:11Z",
+      "lines": {
+        "fanduel": {
+          "Ilya Sorokin": {
+            "over": -128,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065728&selectionId=75039652",
+            "point": 23.5,
+            "under": -104,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065728&selectionId=75039651"
+          }
+        }
+      },
       "matchup": "Toronto Maple Leafs @ New York Islanders"
     },
     "3a8553e25e16a66e676afc349395fec6": {
@@ -11704,8 +11715,15 @@
     ]
   },
   "h2h_NYI-TOR": {
-    "fetched": "2026-10-17T15:00:23Z",
+    "fetched": "2026-11-23T15:32:11Z",
     "value": [
+      [
+        "2026-10-17",
+        "NYI",
+        "TOR",
+        20,
+        29
+      ],
       [
         "2026-09-30",
         "NYI",
@@ -11726,13 +11744,6 @@
         "TOR",
         34,
         27
-      ],
-      [
-        "2026-01-03",
-        "TOR",
-        "NYI",
-        21,
-        25
       ]
     ]
   },
@@ -15793,7 +15804,7 @@
     ]
   },
   "roster_NYI": {
-    "fetched": "2026-11-21T13:48:12Z",
+    "fetched": "2026-11-23T15:32:11Z",
     "value": [
       "Ilya Sorokin",
       "Semyon Varlamov"
@@ -15857,7 +15868,7 @@
     ]
   },
   "roster_TOR": {
-    "fetched": "2026-11-21T15:31:13Z",
+    "fetched": "2026-11-23T15:32:11Z",
     "value": [
       "Artur Akhtyamov",
       "Sergei Bobrovsky",
@@ -16327,6 +16338,12 @@
       "book": null,
       "event_id": "d127e1e72a1b9087aca692f3b5812532",
       "goalie": "Linus Ullmark"
+    },
+    "1927": {
+      "at": "2026-11-23T15:32:11Z",
+      "book": null,
+      "event_id": "2d095386ab1321c89df24896d98495ee",
+      "goalie": "Ilya Sorokin"
     }
   },
   "shot_stats": {
