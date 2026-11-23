@@ -670,7 +670,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17044,
+  "credits_remaining": 17043,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1457,7 +1457,7 @@
     "e9429c68a48753de9779d88e6cf393ad": {
       "commence_time": "2026-11-24T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T15:35:12Z",
+      "last_paid_check": "2026-11-23T15:50:17Z",
       "lines": {
         "fanduel": {
           "Connor Hellebuyck": {
@@ -16305,7 +16305,7 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.36,
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-23T15:50:17Z",
     "raw": {
       "anaheimducks": {
         "sa": 26.04166,
@@ -17458,7 +17458,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-23T15:50:17Z",
     "value": [
       8474013,
       8474141,
@@ -17486,7 +17486,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-23T15:50:17Z",
     "value": [
       8470613,
       8475172,
@@ -17542,7 +17542,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-23T15:50:17Z",
     "value": [
       8473419,
       8474189,
@@ -17676,7 +17676,7 @@
     ]
   },
   "skaters_NYR": {
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-23T15:50:17Z",
     "value": [
       8476459,
       8476468,
@@ -17706,7 +17706,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-23T15:50:17Z",
     "value": [
       8471215,
       8471675,
