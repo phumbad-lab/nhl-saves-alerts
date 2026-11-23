@@ -672,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16995,
+  "credits_remaining": 16994,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -883,7 +883,7 @@
     "5074be0d13d60cc7fd82b06c4d8ddd31": {
       "commence_time": "2026-11-24T02:50:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T18:36:16Z",
+      "last_paid_check": "2026-11-23T18:52:16Z",
       "lines": {
         "draftkings": {
           "Joey Daccord": {
@@ -17652,7 +17652,7 @@
     ]
   },
   "skaters_CGY": {
-    "fetched": "2026-11-23T18:31:12Z",
+    "fetched": "2026-11-23T18:52:16Z",
     "value": [
       8474150,
       8476456,
@@ -17818,7 +17818,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-23T18:31:12Z",
+    "fetched": "2026-11-23T18:52:16Z",
     "value": [
       8473422,
       8474567,
@@ -17844,7 +17844,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-23T18:31:12Z",
+    "fetched": "2026-11-23T18:52:16Z",
     "value": [
       8475184,
       8476479,
@@ -17957,7 +17957,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-23T18:31:12Z",
+    "fetched": "2026-11-23T18:52:16Z",
     "value": [
       8474586,
       8476457,
@@ -18012,7 +18012,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-23T18:31:12Z",
+    "fetched": "2026-11-23T18:52:16Z",
     "value": [
       8475166,
       8475171,
@@ -18045,7 +18045,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-23T18:31:12Z",
+    "fetched": "2026-11-23T18:52:16Z",
     "value": [
       8475314,
       8476389,
