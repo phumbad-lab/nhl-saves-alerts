@@ -13388,7 +13388,7 @@
       "status": "OUT"
     },
     "CHI:8485391": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-23T00:04:11Z",
       "player": {
         "first": "Anton",
@@ -15757,12 +15757,6 @@
     ]
   },
   "sent": {
-    "1792": {
-      "at": "2026-11-20T00:10:14Z",
-      "book": null,
-      "event_id": "147b0b6f883cce916d06b7aaa9b9594c",
-      "goalie": "Andrei Vasilevskiy"
-    },
     "1793": {
       "at": "2026-11-20T00:20:15Z",
       "book": "DK",
