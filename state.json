@@ -13589,8 +13589,6 @@
     "PIT:8471215": {
       "alerted": true,
       "out_at": "2026-11-20T16:20:16Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-23T14:12:12Z",
       "player": {
         "first": "Evgeni",
         "gp": 75,
@@ -13603,7 +13601,7 @@
         "toi": 17.6
       },
       "seen": "2026-11-20T16:20:16Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "PIT:8475810": {
       "alerted": true,
