@@ -13670,24 +13670,6 @@
       "seen": "2026-10-28T12:02:12Z",
       "status": "OUT"
     },
-    "LAK:8478550": {
-      "alerted": true,
-      "missing_since": "2026-11-23T17:04:11Z",
-      "out_at": "2026-11-21T18:38:10Z",
-      "player": {
-        "first": "Artemi",
-        "gp": 43,
-        "id": 8478550,
-        "last": "Panarin",
-        "pos": "L",
-        "role": "shooter",
-        "shots": 122,
-        "sog": 2.8,
-        "toi": 21.0
-      },
-      "seen": "2026-11-14T19:36:11Z",
-      "status": "DTD"
-    },
     "MIN:8480800": {
       "alerted": true,
       "out_at": "2026-11-21T18:48:10Z",
