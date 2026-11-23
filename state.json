@@ -40,7 +40,9 @@
       "text": "Cossa (UTA) - ANA@UTA 9:00PM\nFD u22.5"
     },
     "2d095386ab1321c89df24896d98495ee|Ilya Sorokin": {
-      "alt": {},
+      "alt": {
+        "DK": 23.5
+      },
       "lines": {
         "FD": 23.5
       },
@@ -670,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17016,
+  "credits_remaining": 17015,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -755,9 +757,25 @@
     "2d095386ab1321c89df24896d98495ee": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T17:05:21Z",
+      "last_paid_check": "2026-11-23T17:21:13Z",
       "lines": {
+        "draftkings": {
+          "Ilya Sorokin": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391802233%232378500728_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391802233%232378500729_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
+          "Anthony Stolarz": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628087933&selectionId=74842534",
+            "point": 25.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628087933&selectionId=74842533"
+          },
           "Ilya Sorokin": {
             "over": -128,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065728&selectionId=75039652",
@@ -16393,6 +16411,18 @@
       "book": "DK",
       "event_id": "d127e1e72a1b9087aca692f3b5812532",
       "goalie": "Linus Ullmark"
+    },
+    "1934": {
+      "at": "2026-11-23T17:21:13Z",
+      "book": null,
+      "event_id": "2d095386ab1321c89df24896d98495ee",
+      "goalie": "Anthony Stolarz"
+    },
+    "1935": {
+      "at": "2026-11-23T17:21:13Z",
+      "book": "DK",
+      "event_id": "2d095386ab1321c89df24896d98495ee",
+      "goalie": "Ilya Sorokin"
     }
   },
   "shot_stats": {
