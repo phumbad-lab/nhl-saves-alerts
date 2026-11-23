@@ -672,7 +672,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 17015,
+  "credits_remaining": 17013,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -1162,14 +1162,14 @@
     "806787e1b3ac73d09e3ae05f6d595865": {
       "commence_time": "2026-11-24T00:40:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T17:09:11Z",
+      "last_paid_check": "2026-11-23T17:24:17Z",
       "lines": {
         "draftkings": {
           "Jakub Dobes": {
-            "over": -110,
+            "over": -115,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392029847%232378454572_13L42133Q1-1695742073Q20",
             "point": 24.5,
-            "under": -120,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392029847%232378454573_15L42133Q1731448625Q20"
           }
         },
@@ -1511,9 +1511,25 @@
     "e9429c68a48753de9779d88e6cf393ad": {
       "commence_time": "2026-11-24T00:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T17:08:15Z",
+      "last_paid_check": "2026-11-23T17:24:17Z",
       "lines": {
+        "draftkings": {
+          "Connor Hellebuyck": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391798504%232378498762_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391798504%232378498763_15L42133Q184490156Q20"
+          }
+        },
         "fanduel": {
+          "Cam Talbot": {
+            "over": -122,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628085886&selectionId=74101477",
+            "point": 27.5,
+            "under": -108,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628085886&selectionId=74101478"
+          },
           "Connor Hellebuyck": {
             "over": -110,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628067260&selectionId=74843125",
@@ -16423,6 +16439,18 @@
       "book": "DK",
       "event_id": "2d095386ab1321c89df24896d98495ee",
       "goalie": "Ilya Sorokin"
+    },
+    "1936": {
+      "at": "2026-11-23T17:24:17Z",
+      "book": null,
+      "event_id": "e9429c68a48753de9779d88e6cf393ad",
+      "goalie": "Cam Talbot"
+    },
+    "1937": {
+      "at": "2026-11-23T17:24:17Z",
+      "book": "DK",
+      "event_id": "e9429c68a48753de9779d88e6cf393ad",
+      "goalie": "Connor Hellebuyck"
     }
   },
   "shot_stats": {
