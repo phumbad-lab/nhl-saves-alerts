@@ -684,7 +684,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16973,
+  "credits_remaining": 16972,
   "events": {
     "133b6fa32f89f05a14d7146ee5070a83": {
       "commence_time": "2026-11-22T03:00:00Z",
@@ -935,7 +935,7 @@
     "5074be0d13d60cc7fd82b06c4d8ddd31": {
       "commence_time": "2026-11-24T02:50:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-23T20:57:11Z",
+      "last_paid_check": "2026-11-23T21:12:16Z",
       "lines": {
         "draftkings": {
           "Joey Daccord": {
