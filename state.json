@@ -90,6 +90,18 @@
       "start": "2026-11-22T03:00:00Z",
       "text": "Merilainen (VAN) - MIN@VAN 10:00PM\n\ud83d\udc49 in at FD o24.5\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391111442%232375405384_13L42133Q1-54034395Q20\u0004o26.5\u0005"
     },
+    "43376208ec2111794696249fe50f5e84|Yaroslav Askarov": {
+      "alt": {
+        "FD": 25.5
+      },
+      "lines": {
+        "DK": 27.5
+      },
+      "mid": 391,
+      "side": "UNDER",
+      "start": "2026-11-24T03:10:00Z",
+      "text": "Askarov (SJS) - MIN@SJS 10:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391805321%232378591767_15L42133Q1-941301704Q20\u0004u27.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.628106320&selectionId=77385757\u0004u25.5\u0005"
+    },
     "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi": {
       "alt": {
         "FD": 27.5
@@ -18273,7 +18285,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088318,
+  "tg_offset": 69088319,
   "watch": {
     "5a749c9d02c984e711e097f31a446542|Ukko-Pekka Luukkonen": {
       "last": "2026-11-22T22:08:10Z",
