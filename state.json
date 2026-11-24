@@ -13249,7 +13249,7 @@
       "status": "DTD"
     },
     "CAR:8477940": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-24T17:45:22Z",
       "player": {
         "first": "Nikolaj",
