@@ -13221,6 +13221,8 @@
     "ANA:8484153": {
       "alerted": true,
       "out_at": "2026-11-24T02:50:15Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-24T14:19:12Z",
       "player": {
         "first": "Leo",
         "gp": 94,
@@ -13408,6 +13410,8 @@
     "NYI:8475151": {
       "alerted": true,
       "out_at": "2026-11-24T02:45:15Z",
+      "pending": "DTD",
+      "pending_since": "2026-11-24T14:19:12Z",
       "player": {
         "first": "Kyle",
         "gp": 48,
@@ -15649,12 +15653,6 @@
     ]
   },
   "sent": {
-    "1812": {
-      "at": "2026-11-21T14:19:11Z",
-      "book": "DK",
-      "event_id": "6d5c13d697e753014382cb88c02b8d0a",
-      "goalie": "John Gibson"
-    },
     "1813": {
       "at": "2026-11-21T14:34:10Z",
       "book": null,
