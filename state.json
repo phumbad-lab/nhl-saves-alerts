@@ -235,7 +235,7 @@
       "text": "Skinner (WPG) - UTA@WPG 7:40PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.628065160&selectionId=74079397\u0004o24.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391803051%232377271573_13L42133Q1-1695742073Q20\u0004o24.5\u0005"
     }
   },
-  "channel_recap_sent": "2026-11-23",
+  "channel_recap_sent": "2026-11-24",
   "channel_record": {
     "026d37181dd4ace0df7565d9b208ce7e|Dustin Wolf": {
       "d": "2026-10-30",
@@ -710,7 +710,7 @@
       "r": "W"
     }
   },
-  "corrections_checked": "2026-11-23",
+  "corrections_checked": "2026-11-24",
   "credits_remaining": 16909,
   "events": {
     "155fbdda10b6474a41649023baadfdf3": {
@@ -13610,7 +13610,7 @@
     "WPG",
     "WSH"
   ],
-  "injury_update_sent": "2026-11-23",
+  "injury_update_sent": "2026-11-24",
   "keys_ANA": {
     "fetched": "2026-11-24T00:26:13Z",
     "value": [
@@ -15411,13 +15411,7 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {
-    "2026-11-23": [
-      "2d095386ab1321c89df24896d98495ee|Ilya Sorokin",
-      "e2efcb24b2d9689232946057b7e43d23|Stuart Skinner",
-      "43376208ec2111794696249fe50f5e84|Yaroslav Askarov"
-    ]
-  },
+  "night_graded": {},
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
