@@ -13249,10 +13249,8 @@
       "status": "DTD"
     },
     "CAR:8477940": {
-      "alerted": true,
-      "out_at": "2026-11-21T21:35:14Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-24T17:40:16Z",
+      "alerted": false,
+      "out_at": "2026-11-24T17:45:22Z",
       "player": {
         "first": "Nikolaj",
         "gp": 105,
@@ -13265,7 +13263,7 @@
         "toi": 16.5
       },
       "seen": "2026-11-21T21:35:14Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CGY:8480860": {
       "alerted": true,
@@ -17194,7 +17192,7 @@
     ]
   },
   "skaters_CAR": {
-    "fetched": "2026-11-23T09:49:36Z",
+    "fetched": "2026-11-24T17:45:22Z",
     "value": [
       8473533,
       8475235,
