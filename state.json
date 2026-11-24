@@ -43,6 +43,7 @@
       "alt": {
         "DK": 23.5
       },
+      "done": true,
       "lines": {
         "FD": 23.5
       },
@@ -313,6 +314,10 @@
     "2c807988a077495f0a1349ddd3ab6936|Sebastian Cossa": {
       "d": "2026-11-21",
       "r": "L"
+    },
+    "2d095386ab1321c89df24896d98495ee|Ilya Sorokin": {
+      "d": "2026-11-23",
+      "r": "W"
     },
     "2df93287814e2ffcbf1186e138b4a3d8|Ilya Sorokin": {
       "d": "2026-11-12",
@@ -696,7 +701,7 @@
     }
   },
   "corrections_checked": "2026-11-23",
-  "credits_remaining": 16913,
+  "credits_remaining": 16912,
   "events": {
     "155fbdda10b6474a41649023baadfdf3": {
       "commence_time": "2026-11-25T01:00:00Z",
@@ -15346,7 +15351,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-23": [
+      "2d095386ab1321c89df24896d98495ee|Ilya Sorokin"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
