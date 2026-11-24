@@ -13574,6 +13574,23 @@
       "seen": "2026-11-23T19:49:13Z",
       "status": "OUT"
     },
+    "STL:8483516": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Jimmy",
+        "gp": 94,
+        "id": 8483516,
+        "last": "Snuggerud",
+        "pos": "R",
+        "role": "shooter",
+        "shots": 222,
+        "sog": 2.4,
+        "toi": 17.0
+      },
+      "seen": "2026-11-24T18:34:14Z",
+      "status": "DTD"
+    },
     "TBL:8479542": {
       "alerted": true,
       "out_at": "2026-11-19T16:06:10Z",
