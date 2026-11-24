@@ -224,6 +224,7 @@
       "alt": {
         "DK": 24.5
       },
+      "done": true,
       "lines": {
         "FD": 24.5
       },
@@ -629,6 +630,10 @@
     },
     "daa5166685c4ca1a4f033d8bff91a6ba|James Reimer": {
       "d": "2026-10-26",
+      "r": "W"
+    },
+    "e2efcb24b2d9689232946057b7e43d23|Stuart Skinner": {
+      "d": "2026-11-23",
       "r": "W"
     },
     "e52a5926735bcff42d3d0ce052a21938|Alex Nedeljkovic": {
@@ -15353,7 +15358,8 @@
   "low_credit_warned": false,
   "night_graded": {
     "2026-11-23": [
-      "2d095386ab1321c89df24896d98495ee|Ilya Sorokin"
+      "2d095386ab1321c89df24896d98495ee|Ilya Sorokin",
+      "e2efcb24b2d9689232946057b7e43d23|Stuart Skinner"
     ]
   },
   "picks_channel": {
