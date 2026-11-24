@@ -13221,8 +13221,6 @@
     "ANA:8484153": {
       "alerted": true,
       "out_at": "2026-11-24T02:50:15Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-24T14:19:12Z",
       "player": {
         "first": "Leo",
         "gp": 94,
@@ -13235,7 +13233,7 @@
         "toi": 19.3
       },
       "seen": "2026-11-22T04:17:15Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "CAR:8477940": {
       "alerted": true,
@@ -13410,8 +13408,6 @@
     "NYI:8475151": {
       "alerted": true,
       "out_at": "2026-11-24T02:45:15Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-24T14:19:12Z",
       "player": {
         "first": "Kyle",
         "gp": 48,
@@ -13424,7 +13420,7 @@
         "toi": 17.6
       },
       "seen": "2026-11-24T02:45:15Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "NYR:8481604": {
       "alerted": true,
