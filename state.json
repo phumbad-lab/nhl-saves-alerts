@@ -95,6 +95,7 @@
       "alt": {
         "FD": 25.5
       },
+      "done": true,
       "lines": {
         "DK": 27.5
       },
@@ -367,6 +368,10 @@
     "3ec4c9abb60e5bf086a0460336248b16|Ukko-Pekka Luukkonen": {
       "d": "2026-10-31",
       "r": "L"
+    },
+    "43376208ec2111794696249fe50f5e84|Yaroslav Askarov": {
+      "d": "2026-11-23",
+      "r": "W"
     },
     "43a0ad5ba8bff6cdca19964348b53eff|Justus Annunen": {
       "d": "2026-11-11",
@@ -15359,7 +15364,8 @@
   "night_graded": {
     "2026-11-23": [
       "2d095386ab1321c89df24896d98495ee|Ilya Sorokin",
-      "e2efcb24b2d9689232946057b7e43d23|Stuart Skinner"
+      "e2efcb24b2d9689232946057b7e43d23|Stuart Skinner",
+      "43376208ec2111794696249fe50f5e84|Yaroslav Askarov"
     ]
   },
   "picks_channel": {
@@ -17689,7 +17695,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-23T23:02:15Z",
+    "fetched": "2026-11-24T05:49:41Z",
     "value": [
       8474151,
       8474590,
