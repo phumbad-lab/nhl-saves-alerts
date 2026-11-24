@@ -13494,6 +13494,8 @@
     "NYI:8475151": {
       "alerted": true,
       "out_at": "2026-11-24T02:45:15Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-24T20:04:11Z",
       "player": {
         "first": "Kyle",
         "gp": 48,
@@ -15752,12 +15754,6 @@
     ]
   },
   "sent": {
-    "1863": {
-      "at": "2026-11-21T20:04:10Z",
-      "book": null,
-      "event_id": "b9678f4fdeb3125258b4679e9785fffb",
-      "goalie": "Spencer Knight"
-    },
     "1865": {
       "at": "2026-11-21T21:06:10Z",
       "book": null,
