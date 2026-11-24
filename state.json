@@ -13222,6 +13222,8 @@
     "ANA:8484153": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-24T02:45:15Z",
       "player": {
         "first": "Leo",
         "gp": 94,
@@ -13404,6 +13406,23 @@
         "toi": 24.1
       },
       "seen": "2026-11-14T17:13:10Z",
+      "status": "OUT"
+    },
+    "NYI:8475151": {
+      "alerted": false,
+      "out_at": "2026-11-24T02:45:15Z",
+      "player": {
+        "first": "Kyle",
+        "gp": 47,
+        "id": 8475151,
+        "last": "Palmieri",
+        "pos": "C",
+        "role": "shooter",
+        "shots": 114,
+        "sog": 2.4,
+        "toi": 17.8
+      },
+      "seen": "2026-11-24T02:45:15Z",
       "status": "OUT"
     },
     "NYR:8481604": {
@@ -17545,7 +17564,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-20T14:18:12Z",
+    "fetched": "2026-11-24T02:45:15Z",
     "value": [
       8475151,
       8475170,
