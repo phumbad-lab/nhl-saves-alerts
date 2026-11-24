@@ -13234,7 +13234,7 @@
   },
   "injuries": {
     "ANA:8484153": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-24T02:50:15Z",
       "player": {
         "first": "Leo",
