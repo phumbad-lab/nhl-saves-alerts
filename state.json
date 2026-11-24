@@ -13492,7 +13492,7 @@
       "status": "OUT"
     },
     "NYI:8475151": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-24T20:09:11Z",
       "player": {
         "first": "Kyle",
