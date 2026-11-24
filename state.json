@@ -26,6 +26,16 @@
       "start": "2026-11-22T03:00:00Z",
       "text": "Grubauer (SEA) - SEA@SJS 10:00PM\n\ud83d\udc49 in at FD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627692573&selectionId=74802624\u0004u25.5\u0005\nDK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391109679%232374864279_15L42133Q1458571637Q20\u0004u25.5\u0005"
     },
+    "155fbdda10b6474a41649023baadfdf3|Carter Hart": {
+      "alt": {},
+      "lines": {
+        "FD": 21.5
+      },
+      "mid": 398,
+      "side": "OVER",
+      "start": "2026-11-25T01:10:00Z",
+      "text": "Hart (VGK) - VGK@EDM 8:10PM\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.628370246&selectionId=92390270\u0004o21.5\u0005"
+    },
     "2c807988a077495f0a1349ddd3ab6936|Sebastian Cossa": {
       "alt": {
         "DK": 22.5
@@ -103,19 +113,6 @@
       "side": "UNDER",
       "start": "2026-11-24T03:10:00Z",
       "text": "Askarov (SJS) - MIN@SJS 10:10PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391805321%232378591767_15L42133Q1-941301704Q20\u0004u27.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.628106320&selectionId=77385757\u0004u25.5\u0005"
-    },
-    "43b2e285559dbe2bb5ddc1665bccddf2|Devon Levi": {
-      "alt": {
-        "FD": 27.5
-      },
-      "done": true,
-      "lines": {
-        "DK": 28.5
-      },
-      "mid": 352,
-      "side": "UNDER",
-      "start": "2026-11-21T18:00:00Z",
-      "text": "Levi (EDM) - EDM@CAR 1:00PM\n\ud83d\udc49 in at DK \u0003https://sportsbook.draftkings.com/?outcomes=0QA391109097%232374020383_15L42133Q1-245490255Q20\u0004u28.5\u0005\nFD \u0003https://sportsbook.fanduel.com/addToBetslip?marketId=42.627548894&selectionId=74676066\u0004u27.5\u0005"
     },
     "5a749c9d02c984e711e097f31a446542|Dennis Hildeby": {
       "alt": {
@@ -17793,7 +17790,7 @@
       "winnipegjets": "WPG"
     }
   },
-  "tg_offset": 69088320,
+  "tg_offset": 69088321,
   "watch": {
     "5a749c9d02c984e711e097f31a446542|Ukko-Pekka Luukkonen": {
       "last": "2026-11-22T22:08:10Z",
