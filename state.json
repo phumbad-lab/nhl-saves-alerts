@@ -13803,6 +13803,7 @@
     },
     "PIT:8471215": {
       "alerted": true,
+      "missing_since": "2026-11-25T16:28:11Z",
       "out_at": "2026-11-20T16:20:16Z",
       "player": {
         "first": "Evgeni",
