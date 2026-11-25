@@ -715,12 +715,12 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16844,
+  "credits_remaining": 16842,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T16:00:24Z",
+      "last_paid_check": "2026-11-25T16:17:12Z",
       "lines": {
         "draftkings": {
           "Jacob Markstrom": {
@@ -987,8 +987,28 @@
     },
     "71f3e5885a8f467260baa9aa31c62332": {
       "commence_time": "2026-11-26T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-25T16:17:12Z",
+      "lines": {
+        "draftkings": {
+          "Jeremy Swayman": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392309640%232379777804_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -125,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392309640%232379777832_15L42133Q1731448625Q20"
+          }
+        },
+        "fanduel": {
+          "Jeremy Swayman": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628626960&selectionId=74879760",
+            "point": 23.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628626960&selectionId=74879759"
+          }
+        }
+      },
       "matchup": "Winnipeg Jets @ Boston Bruins"
     },
     "73d5e978fab618f46090f2dc47721bda": {
@@ -5774,6 +5794,39 @@
         "BOS",
         38,
         24
+      ]
+    ]
+  },
+  "h2h_BOS-WPG": {
+    "fetched": "2026-11-25T16:17:12Z",
+    "value": [
+      [
+        "2026-10-02",
+        "BOS",
+        "WPG",
+        30,
+        33
+      ],
+      [
+        "2026-03-19",
+        "WPG",
+        "BOS",
+        24,
+        27
+      ],
+      [
+        "2025-12-11",
+        "BOS",
+        "WPG",
+        24,
+        29
+      ],
+      [
+        "2025-01-30",
+        "WPG",
+        "BOS",
+        28,
+        28
       ]
     ]
   },
@@ -13653,24 +13706,6 @@
       "seen": "2026-11-13T02:18:10Z",
       "status": "OUT"
     },
-    "FLA:8473419": {
-      "alerted": true,
-      "missing_since": "2026-11-25T15:45:24Z",
-      "out_at": "2026-10-28T12:02:12Z",
-      "player": {
-        "first": "Brad",
-        "gp": 54,
-        "id": 8473419,
-        "last": "Marchand",
-        "pos": "L",
-        "role": "shooter",
-        "shots": 143,
-        "sog": 2.6,
-        "toi": 17.5
-      },
-      "seen": "2026-10-28T12:02:12Z",
-      "status": "OUT"
-    },
     "MIN:8480800": {
       "alerted": true,
       "out_at": "2026-11-21T18:48:10Z",
@@ -15743,7 +15778,7 @@
     ]
   },
   "roster_BOS": {
-    "fetched": "2026-11-21T13:44:11Z",
+    "fetched": "2026-11-25T16:17:12Z",
     "value": [
       "Michael DiPietro",
       "Jeremy Swayman"
@@ -15953,7 +15988,7 @@
     ]
   },
   "roster_WPG": {
-    "fetched": "2026-11-23T15:27:11Z",
+    "fetched": "2026-11-25T16:17:12Z",
     "value": [
       "Nico Daws",
       "Stuart Skinner"
@@ -16284,6 +16319,12 @@
       "book": null,
       "event_id": "52d88f1e2ea2e8165d992430998b84f1",
       "goalie": "Dustin Wolf"
+    },
+    "1987": {
+      "at": "2026-11-25T16:17:12Z",
+      "book": null,
+      "event_id": "71f3e5885a8f467260baa9aa31c62332",
+      "goalie": "Jeremy Swayman"
     }
   },
   "shot_stats": {
