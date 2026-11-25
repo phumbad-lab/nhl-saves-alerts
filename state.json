@@ -14032,24 +14032,6 @@
       "seen": "2026-11-13T02:08:11Z",
       "status": "OUT"
     },
-    "COL:8480069": {
-      "alerted": true,
-      "missing_since": "2026-11-25T18:16:11Z",
-      "out_at": "2026-11-14T17:56:12Z",
-      "player": {
-        "first": "Cale",
-        "gp": 94,
-        "id": 8480069,
-        "last": "Makar",
-        "pos": "D",
-        "role": "shooter",
-        "shots": 248,
-        "sog": 2.6,
-        "toi": 24.4
-      },
-      "seen": "2026-11-13T02:18:10Z",
-      "status": "OUT"
-    },
     "MIN:8480800": {
       "alerted": true,
       "out_at": "2026-11-21T18:48:10Z",
