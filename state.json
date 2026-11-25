@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16860,
+  "credits_remaining": 16858,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
@@ -1003,8 +1003,19 @@
     },
     "a96a74be66899182f7eea8d72ec0e0fb": {
       "commence_time": "2026-11-26T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-25T15:34:11Z",
+      "lines": {
+        "fanduel": {
+          "Ukko-Pekka Luukkonen": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628618764&selectionId=77455874",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628618764&selectionId=77455873"
+          }
+        }
+      },
       "matchup": "New York Rangers @ Buffalo Sabres"
     },
     "b06dda80256fb0e1b5efc78c0fca6d97": {
@@ -1016,7 +1027,7 @@
     "b8dd63eeebfa6db1cdb18fb101d4a323": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:19:10Z",
+      "last_paid_check": "2026-11-25T15:34:11Z",
       "lines": {
         "fanduel": {
           "Pyotr Kochetkov": {
@@ -5929,6 +5940,39 @@
         "BUF",
         26,
         36
+      ]
+    ]
+  },
+  "h2h_BUF-NYR": {
+    "fetched": "2026-11-25T15:34:11Z",
+    "value": [
+      [
+        "2026-04-08",
+        "BUF",
+        "NYR",
+        27,
+        20
+      ],
+      [
+        "2026-01-08",
+        "BUF",
+        "NYR",
+        21,
+        32
+      ],
+      [
+        "2025-10-09",
+        "NYR",
+        "BUF",
+        33,
+        37
+      ],
+      [
+        "2025-02-22",
+        "NYR",
+        "BUF",
+        28,
+        33
       ]
     ]
   },
@@ -15589,7 +15633,7 @@
     ]
   },
   "roster_BUF": {
-    "fetched": "2026-11-22T20:13:15Z",
+    "fetched": "2026-11-25T15:34:11Z",
     "value": [
       "Colten Ellis",
       "Ukko-Pekka Luukkonen",
@@ -15705,7 +15749,7 @@
     ]
   },
   "roster_NYR": {
-    "fetched": "2026-11-22T13:17:11Z",
+    "fetched": "2026-11-25T15:34:11Z",
     "value": [
       "Dylan Garand",
       "Joonas Korpisalo",
@@ -16093,6 +16137,12 @@
       "book": "DK",
       "event_id": "54f5b5907980a875945c22ecce9a7537",
       "goalie": "Daniil Tarasov"
+    },
+    "1979": {
+      "at": "2026-11-25T15:34:11Z",
+      "book": null,
+      "event_id": "a96a74be66899182f7eea8d72ec0e0fb",
+      "goalie": "Ukko-Pekka Luukkonen"
     }
   },
   "shot_stats": {
