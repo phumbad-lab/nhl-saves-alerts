@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16850,
+  "credits_remaining": 16845,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
@@ -923,14 +923,14 @@
     "54f5b5907980a875945c22ecce9a7537": {
       "commence_time": "2026-11-26T00:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:49:13Z",
+      "last_paid_check": "2026-11-25T16:04:13Z",
       "lines": {
         "draftkings": {
           "Daniil Tarasov": {
             "over": -120,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392362970%232380970233_13L42133Q1-1959470774Q20",
             "point": 20.5,
-            "under": -110,
+            "under": -115,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392362970%232380970234_15L42133Q1-1449474Q20"
           }
         },
@@ -955,7 +955,7 @@
     "70e9e98dccc07e86adad8349ad0c07fa": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:49:13Z",
+      "last_paid_check": "2026-11-25T16:04:13Z",
       "lines": {
         "draftkings": {
           "Ilya Sorokin": {
@@ -1033,7 +1033,7 @@
     "a96a74be66899182f7eea8d72ec0e0fb": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:49:13Z",
+      "last_paid_check": "2026-11-25T16:04:13Z",
       "lines": {
         "draftkings": {
           "Ukko-Pekka Luukkonen": {
@@ -1046,10 +1046,10 @@
         },
         "fanduel": {
           "Ukko-Pekka Luukkonen": {
-            "over": -110,
+            "over": -112,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628618764&selectionId=77455874",
             "point": 22.5,
-            "under": -120,
+            "under": -118,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628618764&selectionId=77455873"
           }
         }
@@ -1065,7 +1065,7 @@
     "b8dd63eeebfa6db1cdb18fb101d4a323": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:49:13Z",
+      "last_paid_check": "2026-11-25T16:04:13Z",
       "lines": {
         "fanduel": {
           "Pyotr Kochetkov": {
@@ -1088,7 +1088,7 @@
     "c29af8a41ac40846cff6811e8a345682": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:49:13Z",
+      "last_paid_check": "2026-11-25T16:04:13Z",
       "lines": {
         "draftkings": {
           "Logan Thompson": {
@@ -13510,6 +13510,23 @@
       "seen": "2026-11-22T04:17:15Z",
       "status": "DTD"
     },
+    "BUF:8480807": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "Mattias",
+        "gp": 102,
+        "id": 8480807,
+        "last": "Samuelsson",
+        "pos": "D",
+        "role": "defense",
+        "shots": 139,
+        "sog": 1.4,
+        "toi": 22.9
+      },
+      "seen": "2026-11-25T16:04:13Z",
+      "status": "DTD"
+    },
     "CAR:8477940": {
       "alerted": true,
       "out_at": "2026-11-24T17:45:22Z",
@@ -15943,12 +15960,6 @@
     ]
   },
   "sent": {
-    "1895": {
-      "at": "2026-11-22T16:00:26Z",
-      "book": null,
-      "event_id": "d58a81d96dc96c937a865548f3a1a7c5",
-      "goalie": "Jake Oettinger"
-    },
     "1898": {
       "at": "2026-11-22T16:32:14Z",
       "book": "DK",
