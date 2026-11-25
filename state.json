@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16857,
+  "credits_remaining": 16852,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
@@ -912,7 +912,7 @@
     "54f5b5907980a875945c22ecce9a7537": {
       "commence_time": "2026-11-26T00:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:33:10Z",
+      "last_paid_check": "2026-11-25T15:49:13Z",
       "lines": {
         "draftkings": {
           "Daniil Tarasov": {
@@ -944,8 +944,17 @@
     "70e9e98dccc07e86adad8349ad0c07fa": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:32:10Z",
+      "last_paid_check": "2026-11-25T15:49:13Z",
       "lines": {
+        "draftkings": {
+          "Ilya Sorokin": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311791%232381294916_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311791%232381294917_15L42133Q1874096526Q20"
+          }
+        },
         "fanduel": {
           "Ilya Sorokin": {
             "over": -125,
@@ -1013,8 +1022,17 @@
     "a96a74be66899182f7eea8d72ec0e0fb": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:34:11Z",
+      "last_paid_check": "2026-11-25T15:49:13Z",
       "lines": {
+        "draftkings": {
+          "Ukko-Pekka Luukkonen": {
+            "over": -110,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392625020%232381296563_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392625020%232381296564_15L42133Q1874096526Q20"
+          }
+        },
         "fanduel": {
           "Ukko-Pekka Luukkonen": {
             "over": -110,
@@ -1036,7 +1054,7 @@
     "b8dd63eeebfa6db1cdb18fb101d4a323": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:34:11Z",
+      "last_paid_check": "2026-11-25T15:49:13Z",
       "lines": {
         "fanduel": {
           "Pyotr Kochetkov": {
@@ -1058,8 +1076,28 @@
     },
     "c29af8a41ac40846cff6811e8a345682": {
       "commence_time": "2026-11-26T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-25T15:49:13Z",
+      "lines": {
+        "draftkings": {
+          "Logan Thompson": {
+            "over": -115,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392315799%232380902252_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -120,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392315799%232380902253_15L42133Q1874096526Q20"
+          }
+        },
+        "fanduel": {
+          "Logan Thompson": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628621290&selectionId=75074479",
+            "point": 21.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628621290&selectionId=75074478"
+          }
+        }
+      },
       "matchup": "Philadelphia Flyers @ Washington Capitals"
     },
     "c68f7a448ea05f866093dfb4221e076e": {
@@ -12388,8 +12426,15 @@
     ]
   },
   "h2h_PHI-WSH": {
-    "fetched": "2026-10-28T17:45:19Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
+      [
+        "2026-10-28",
+        "PHI",
+        "WSH",
+        25,
+        30
+      ],
       [
         "2026-03-31",
         "PHI",
@@ -12410,13 +12455,6 @@
         "WSH",
         24,
         29
-      ],
-      [
-        "2026-02-03",
-        "WSH",
-        "PHI",
-        28,
-        22
       ]
     ]
   },
@@ -13720,6 +13758,7 @@
     },
     "TBL:8479542": {
       "alerted": true,
+      "missing_since": "2026-11-25T15:49:13Z",
       "out_at": "2026-11-19T16:06:10Z",
       "player": {
         "first": "Brandon",
@@ -15774,7 +15813,7 @@
     ]
   },
   "roster_PHI": {
-    "fetched": "2026-11-21T14:34:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       "Dan Vladar",
       "Joseph Woll"
@@ -15853,7 +15892,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-11-21T13:44:11Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -16153,6 +16192,24 @@
       "book": "DK",
       "event_id": "03b050660209b2ef14e1e40ef22a585e",
       "goalie": "Jacob Markstrom"
+    },
+    "1981": {
+      "at": "2026-11-25T15:49:13Z",
+      "book": "DK",
+      "event_id": "a96a74be66899182f7eea8d72ec0e0fb",
+      "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "1982": {
+      "at": "2026-11-25T15:49:13Z",
+      "book": "DK",
+      "event_id": "70e9e98dccc07e86adad8349ad0c07fa",
+      "goalie": "Ilya Sorokin"
+    },
+    "1983": {
+      "at": "2026-11-25T15:49:13Z",
+      "book": null,
+      "event_id": "c29af8a41ac40846cff6811e8a345682",
+      "goalie": "Logan Thompson"
     }
   },
   "shot_stats": {
@@ -17288,7 +17345,7 @@
     ]
   },
   "skaters_CAR": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8473533,
       8475235,
@@ -17314,7 +17371,7 @@
     ]
   },
   "skaters_CGY": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8474150,
       8476456,
@@ -17336,13 +17393,12 @@
       8484154,
       8484234,
       8484768,
-      8484821,
       8484860,
       8484958
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8474013,
       8474141,
@@ -17370,7 +17426,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8470613,
       8475172,
@@ -17426,7 +17482,7 @@
     ]
   },
   "skaters_FLA": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8473419,
       8474189,
@@ -17479,7 +17535,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8473422,
       8474567,
@@ -17505,7 +17561,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8475184,
       8476479,
@@ -17534,7 +17590,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8475151,
       8475170,
@@ -17562,7 +17618,7 @@
     ]
   },
   "skaters_NYR": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8476459,
       8476468,
@@ -17592,7 +17648,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8471215,
       8471675,
@@ -17621,7 +17677,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8474586,
       8476457,
@@ -17649,7 +17705,7 @@
     ]
   },
   "skaters_SJS": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8475200,
       8475726,
@@ -17677,7 +17733,7 @@
     ]
   },
   "skaters_TBL": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8474151,
       8474590,
@@ -17735,7 +17791,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-25T15:27:10Z",
+    "fetched": "2026-11-25T15:49:13Z",
     "value": [
       8475314,
       8476389,
