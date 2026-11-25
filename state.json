@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16866,
+  "credits_remaining": 16865,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
@@ -914,8 +914,19 @@
     },
     "70e9e98dccc07e86adad8349ad0c07fa": {
       "commence_time": "2026-11-26T00:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-25T15:16:12Z",
+      "lines": {
+        "fanduel": {
+          "Ilya Sorokin": {
+            "over": -125,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628615065&selectionId=75039652",
+            "point": 22.5,
+            "under": -106,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628615065&selectionId=75039651"
+          }
+        }
+      },
       "matchup": "St Louis Blues @ New York Islanders"
     },
     "71f3e5885a8f467260baa9aa31c62332": {
@@ -11467,6 +11478,39 @@
       ]
     ]
   },
+  "h2h_NYI-STL": {
+    "fetched": "2026-11-25T15:16:12Z",
+    "value": [
+      [
+        "2026-03-10",
+        "NYI",
+        "STL",
+        49,
+        23
+      ],
+      [
+        "2025-11-22",
+        "STL",
+        "NYI",
+        22,
+        30
+      ],
+      [
+        "2024-11-23",
+        "STL",
+        "NYI",
+        25,
+        31
+      ],
+      [
+        "2024-10-17",
+        "NYI",
+        "STL",
+        34,
+        30
+      ]
+    ]
+  },
   "h2h_NYI-TBL": {
     "fetched": "2026-10-10T14:40:15Z",
     "value": [
@@ -15589,7 +15633,7 @@
     ]
   },
   "roster_NYI": {
-    "fetched": "2026-11-23T15:32:11Z",
+    "fetched": "2026-11-25T15:16:12Z",
     "value": [
       "Ilya Sorokin",
       "Semyon Varlamov"
@@ -15639,7 +15683,7 @@
     ]
   },
   "roster_STL": {
-    "fetched": "2026-11-22T13:30:18Z",
+    "fetched": "2026-11-25T15:16:12Z",
     "value": [
       "Jordan Binnington",
       "Joel Hofer"
@@ -15961,6 +16005,12 @@
       "book": null,
       "event_id": "03b050660209b2ef14e1e40ef22a585e",
       "goalie": "Jacob Markstrom"
+    },
+    "1975": {
+      "at": "2026-11-25T15:16:12Z",
+      "book": null,
+      "event_id": "70e9e98dccc07e86adad8349ad0c07fa",
+      "goalie": "Ilya Sorokin"
     }
   },
   "shot_stats": {
