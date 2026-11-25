@@ -13540,6 +13540,7 @@
     },
     "FLA:8473419": {
       "alerted": true,
+      "missing_since": "2026-11-25T15:42:17Z",
       "out_at": "2026-10-28T12:02:12Z",
       "player": {
         "first": "Brad",
