@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16714,
+  "credits_remaining": 16713,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
@@ -1351,9 +1351,16 @@
     "c68f7a448ea05f866093dfb4221e076e": {
       "commence_time": "2026-11-26T03:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T19:52:11Z",
+      "last_paid_check": "2026-11-25T20:07:11Z",
       "lines": {
         "draftkings": {
+          "Alex Nedeljkovic": {
+            "over": -125,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392675198%232381506129_13L42133Q1-389637312Q20",
+            "point": 25.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392675198%232381506130_15L42133Q1458571637Q20"
+          },
           "Laurent Brossoit": {
             "over": -135,
             "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392662113%232381445068_13L42133Q1-659212771Q20",
@@ -1363,6 +1370,13 @@
           }
         },
         "fanduel": {
+          "Alex Nedeljkovic": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628681834&selectionId=75304747",
+            "point": 25.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628681834&selectionId=75304746"
+          },
           "Laurent Brossoit": {
             "over": -130,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628657123&selectionId=96409455",
@@ -4967,6 +4981,35 @@
       "2026-11-12",
       "2026-11-14",
       "2026-11-17"
+    ]
+  },
+  "gl_8484153": {
+    "fetched": "2026-11-25T20:07:11Z",
+    "value": [
+      "2026-10-02",
+      "2026-10-04",
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-13",
+      "2026-10-16",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-22",
+      "2026-10-24",
+      "2026-10-27",
+      "2026-10-29",
+      "2026-11-01",
+      "2026-11-03",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-08",
+      "2026-11-11",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-17",
+      "2026-11-19",
+      "2026-11-21"
     ]
   },
   "gl_8485395": {
@@ -16771,6 +16814,12 @@
       "book": null,
       "event_id": "b99129d0236ae270cae2b42a0befc503",
       "goalie": "Jacob Fowler"
+    },
+    "2021": {
+      "at": "2026-11-25T20:07:11Z",
+      "book": null,
+      "event_id": "c68f7a448ea05f866093dfb4221e076e",
+      "goalie": "Alex Nedeljkovic"
     }
   },
   "shot_stats": {
