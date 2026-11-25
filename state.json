@@ -715,19 +715,28 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16858,
+  "credits_remaining": 16857,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-25T15:30:20Z",
+      "last_paid_check": "2026-11-25T15:45:24Z",
       "lines": {
+        "draftkings": {
+          "Jacob Markstrom": {
+            "over": -105,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392310903%232381296264_13L42133Q1-598579072Q20",
+            "point": 22.5,
+            "under": -130,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392310903%232381296265_15L42133Q1874096526Q20"
+          }
+        },
         "fanduel": {
           "Jacob Markstrom": {
-            "over": 100,
+            "over": -132,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628614700&selectionId=74591079",
-            "point": 22.5,
-            "under": -132,
+            "point": 21.5,
+            "under": 100,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628614700&selectionId=74591081"
           }
         }
@@ -13540,6 +13549,7 @@
     },
     "FLA:8473419": {
       "alerted": true,
+      "missing_since": "2026-11-25T15:45:24Z",
       "out_at": "2026-10-28T12:02:12Z",
       "player": {
         "first": "Brad",
@@ -16137,6 +16147,12 @@
       "book": null,
       "event_id": "a96a74be66899182f7eea8d72ec0e0fb",
       "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "1980": {
+      "at": "2026-11-25T15:45:24Z",
+      "book": "DK",
+      "event_id": "03b050660209b2ef14e1e40ef22a585e",
+      "goalie": "Jacob Markstrom"
     }
   },
   "shot_stats": {
