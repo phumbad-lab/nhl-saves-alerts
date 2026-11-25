@@ -13905,6 +13905,8 @@
     "ANA:8484153": {
       "alerted": true,
       "out_at": "2026-11-24T02:50:15Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-25T19:09:10Z",
       "player": {
         "first": "Leo",
         "gp": 94,
@@ -14177,6 +14179,8 @@
     "STL:8483516": {
       "alerted": false,
       "out_at": null,
+      "pending": "OUT",
+      "pending_since": "2026-11-25T19:09:10Z",
       "player": {
         "first": "Jimmy",
         "gp": 94,
