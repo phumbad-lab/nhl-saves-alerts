@@ -13903,7 +13903,7 @@
   },
   "injuries": {
     "ANA:8484153": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-25T19:14:11Z",
       "player": {
         "first": "Leo",
@@ -14175,7 +14175,7 @@
       "status": "OUT"
     },
     "STL:8483516": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-25T19:14:11Z",
       "player": {
         "first": "Jimmy",
