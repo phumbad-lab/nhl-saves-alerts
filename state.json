@@ -13776,6 +13776,23 @@
       "seen": "2026-11-21T21:35:14Z",
       "status": "OUT"
     },
+    "CAR:8480817": {
+      "alerted": false,
+      "out_at": null,
+      "player": {
+        "first": "K'Andre",
+        "gp": 96,
+        "id": 8480817,
+        "last": "Miller",
+        "pos": "D",
+        "role": "defense",
+        "shots": 161,
+        "sog": 1.7,
+        "toi": 22.2
+      },
+      "seen": "2026-11-25T17:31:10Z",
+      "status": "DTD"
+    },
     "CGY:8480860": {
       "alerted": true,
       "out_at": "2026-11-08T15:56:10Z",
