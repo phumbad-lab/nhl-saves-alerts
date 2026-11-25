@@ -30,6 +30,7 @@
       "alt": {
         "DK": 21.5
       },
+      "done": true,
       "lines": {
         "FD": 21.5
       },
@@ -283,6 +284,10 @@
     "13ced29ffb36afa9ac1436ef60bda139|Scott Wedgewood": {
       "d": "2026-11-03",
       "r": "W"
+    },
+    "155fbdda10b6474a41649023baadfdf3|Carter Hart": {
+      "d": "2026-11-24",
+      "r": "L"
     },
     "1a1782b9fde64acd952ea9fd3aff7d83|Colten Ellis": {
       "d": "2026-11-04",
@@ -15378,7 +15383,11 @@
     ]
   },
   "low_credit_warned": false,
-  "night_graded": {},
+  "night_graded": {
+    "2026-11-24": [
+      "155fbdda10b6474a41649023baadfdf3|Carter Hart"
+    ]
+  },
   "picks_channel": {
     "id": -1004494282683,
     "title": "TheSaveMan"
