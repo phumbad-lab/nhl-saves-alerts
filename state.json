@@ -13924,8 +13924,6 @@
     "CAR:8477940": {
       "alerted": true,
       "out_at": "2026-11-24T17:45:22Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-26T14:21:10Z",
       "player": {
         "first": "Nikolaj",
         "gp": 105,
@@ -13938,13 +13936,11 @@
         "toi": 16.5
       },
       "seen": "2026-11-21T21:35:14Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "CAR:8480817": {
       "alerted": true,
       "out_at": "2026-11-25T23:55:17Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-26T14:21:10Z",
       "player": {
         "first": "K'Andre",
         "gp": 96,
@@ -13957,7 +13953,7 @@
         "toi": 22.2
       },
       "seen": "2026-11-25T17:31:10Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "CGY:8480860": {
       "alerted": true,
