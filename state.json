@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-25",
-  "credits_remaining": 16581,
+  "credits_remaining": 16579,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -1000,7 +1000,7 @@
     "696cf3d8787917f769a8d9a18560e2f0": {
       "commence_time": "2026-11-26T01:10:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-26T00:40:16Z",
+      "last_paid_check": "2026-11-26T00:41:11Z",
       "lines": {
         "draftkings": {
           "Jesper Wallstedt": {
@@ -1013,7 +1013,7 @@
         },
         "fanduel": {
           "Jesper Wallstedt": {
-            "over": -118,
+            "over": -120,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628638194&selectionId=78172460",
             "point": 24.5,
             "under": -110,
@@ -1113,7 +1113,7 @@
     "73d5e978fab618f46090f2dc47721bda": {
       "commence_time": "2026-11-26T01:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-26T00:40:16Z",
+      "last_paid_check": "2026-11-26T00:41:11Z",
       "lines": {
         "draftkings": {
           "Jake Oettinger": {
@@ -1122,6 +1122,13 @@
             "point": 21.5,
             "under": -130,
             "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392318168%232381358525_15L42133Q1888607062Q20"
+          },
+          "Juuse Saros": {
+            "over": -130,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392318040%232381746829_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -105,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392318040%232381746830_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -16827,6 +16834,12 @@
       "book": null,
       "event_id": "696cf3d8787917f769a8d9a18560e2f0",
       "goalie": "Karel Vejmelka"
+    },
+    "2028": {
+      "at": "2026-11-26T00:41:11Z",
+      "book": "DK",
+      "event_id": "73d5e978fab618f46090f2dc47721bda",
+      "goalie": "Juuse Saros"
     }
   },
   "shot_stats": {
@@ -17932,7 +17945,7 @@
     "version": 5
   },
   "skaters_ANA": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8473986,
       8475798,
@@ -18014,7 +18027,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8474013,
       8474141,
@@ -18042,7 +18055,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8470613,
       8475172,
@@ -18152,7 +18165,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8473422,
       8474567,
@@ -18178,7 +18191,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8475184,
       8476479,
@@ -18294,7 +18307,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8474586,
       8476457,
@@ -18322,7 +18335,7 @@
     ]
   },
   "skaters_SJS": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8475200,
       8475726,
@@ -18438,7 +18451,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-26T00:21:10Z",
+    "fetched": "2026-11-26T00:41:11Z",
     "value": [
       8475314,
       8476389,
