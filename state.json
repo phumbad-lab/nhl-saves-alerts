@@ -1024,7 +1024,7 @@
       "matchup": "Utah Mammoth @ Minnesota Wild"
     },
     "70e9e98dccc07e86adad8349ad0c07fa": {
-      "commence_time": "2026-11-26T00:18:00Z",
+      "commence_time": "2026-11-26T00:20:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-25T23:30:20Z",
       "lines": {
@@ -13971,24 +13971,6 @@
       },
       "seen": "2026-11-22T04:17:15Z",
       "status": "OUT"
-    },
-    "BUF:8480807": {
-      "alerted": false,
-      "missing_since": "2026-11-25T23:49:12Z",
-      "out_at": null,
-      "player": {
-        "first": "Mattias",
-        "gp": 102,
-        "id": 8480807,
-        "last": "Samuelsson",
-        "pos": "D",
-        "role": "defense",
-        "shots": 139,
-        "sog": 1.4,
-        "toi": 22.9
-      },
-      "seen": "2026-11-25T16:04:13Z",
-      "status": "DTD"
     },
     "CAR:8477940": {
       "alerted": true,
