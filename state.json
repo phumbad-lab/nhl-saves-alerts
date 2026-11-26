@@ -14186,6 +14186,8 @@
     "TOR:8478458": {
       "alerted": true,
       "out_at": "2026-11-24T00:24:11Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-26T17:06:11Z",
       "player": {
         "first": "Jack",
         "gp": 24,
