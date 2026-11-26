@@ -13907,8 +13907,6 @@
     "ANA:8484153": {
       "alerted": true,
       "out_at": "2026-11-25T19:14:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-26T14:14:10Z",
       "player": {
         "first": "Leo",
         "gp": 94,
@@ -13921,7 +13919,7 @@
         "toi": 19.3
       },
       "seen": "2026-11-22T04:17:15Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "CAR:8477940": {
       "alerted": true,
@@ -14147,8 +14145,6 @@
     "STL:8483516": {
       "alerted": true,
       "out_at": "2026-11-25T19:14:11Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-26T14:14:10Z",
       "player": {
         "first": "Jimmy",
         "gp": 94,
@@ -14161,7 +14157,7 @@
         "toi": 17.0
       },
       "seen": "2026-11-24T18:34:14Z",
-      "status": "OUT"
+      "status": "DTD"
     },
     "TOR:8478458": {
       "alerted": true,
