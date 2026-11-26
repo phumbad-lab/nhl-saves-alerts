@@ -14184,10 +14184,8 @@
       "status": "DTD"
     },
     "TOR:8478458": {
-      "alerted": true,
-      "out_at": "2026-11-24T00:24:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-26T17:06:11Z",
+      "alerted": false,
+      "out_at": "2026-11-26T17:12:10Z",
       "player": {
         "first": "Jack",
         "gp": 24,
@@ -14200,7 +14198,7 @@
         "toi": 17.4
       },
       "seen": "2026-11-22T17:14:10Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "TOR:8480893": {
       "alerted": true,
