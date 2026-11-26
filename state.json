@@ -14184,7 +14184,7 @@
       "status": "DTD"
     },
     "TOR:8478458": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-26T17:12:10Z",
       "player": {
         "first": "Jack",
