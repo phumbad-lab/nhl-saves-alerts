@@ -13927,6 +13927,7 @@
     },
     "CHI:8485391": {
       "alerted": true,
+      "missing_since": "2026-11-26T01:34:11Z",
       "out_at": "2026-11-23T00:04:11Z",
       "player": {
         "first": "Anton",
