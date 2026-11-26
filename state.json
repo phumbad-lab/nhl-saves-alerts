@@ -883,6 +883,12 @@
       },
       "matchup": "Vancouver Canucks @ Detroit Red Wings"
     },
+    "634c54722c6860c9773604c369f6e062": {
+      "commence_time": "2026-11-27T21:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Los Angeles Kings @ Anaheim Ducks"
+    },
     "696cf3d8787917f769a8d9a18560e2f0": {
       "commence_time": "2026-11-26T01:10:00Z",
       "h2h_sent": true,
@@ -1042,6 +1048,12 @@
         }
       },
       "matchup": "Nashville Predators @ Dallas Stars"
+    },
+    "80ad2e83d5b53a2f48a70cfdecd3dc5c": {
+      "commence_time": "2026-11-27T21:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Vegas Golden Knights @ San Jose Sharks"
     },
     "978dfc077c2cba5159882a1f65088b8d": {
       "commence_time": "2026-11-27T18:00:00Z",
@@ -1340,6 +1352,12 @@
         }
       },
       "matchup": "Chicago Blackhawks @ Seattle Kraken"
+    },
+    "d86dc755fe06568141403800fce290fb": {
+      "commence_time": "2026-11-27T21:00:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Colorado Avalanche @ Minnesota Wild"
     },
     "e455a88aa787a29717a862a536046895": {
       "commence_time": "2026-11-27T20:00:00Z",
