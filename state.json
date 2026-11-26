@@ -797,46 +797,6 @@
       },
       "matchup": "Vegas Golden Knights @ Edmonton Oilers"
     },
-    "43376208ec2111794696249fe50f5e84": {
-      "commence_time": "2026-11-24T03:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-23T19:47:09Z",
-      "lines": {
-        "draftkings": {
-          "Filip Gustavsson": {
-            "over": -135,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392064465%232378586982_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": 100,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392064465%232378586983_15L42133Q1874096526Q20"
-          },
-          "Yaroslav Askarov": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA391805321%232378591766_13L42133Q11884129982Q20",
-            "point": 27.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA391805321%232378591767_15L42133Q1-941301704Q20"
-          }
-        },
-        "fanduel": {
-          "Filip Gustavsson": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628109674&selectionId=74880672",
-            "point": 23.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628109674&selectionId=74880673"
-          },
-          "Yaroslav Askarov": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628106320&selectionId=77385758",
-            "point": 25.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628106320&selectionId=77385757"
-          }
-        }
-      },
-      "matchup": "Minnesota Wild @ San Jose Sharks"
-    },
     "52d88f1e2ea2e8165d992430998b84f1": {
       "commence_time": "2026-11-26T00:10:00Z",
       "h2h_sent": true,
