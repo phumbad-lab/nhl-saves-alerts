@@ -13924,8 +13924,6 @@
     "CAR:8477940": {
       "alerted": true,
       "out_at": "2026-11-24T17:45:22Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-26T14:10:16Z",
       "player": {
         "first": "Nikolaj",
         "gp": 105,
@@ -13943,8 +13941,6 @@
     "CAR:8480817": {
       "alerted": true,
       "out_at": "2026-11-25T23:55:17Z",
-      "pending": "DTD",
-      "pending_since": "2026-11-26T14:10:16Z",
       "player": {
         "first": "K'Andre",
         "gp": 96,
