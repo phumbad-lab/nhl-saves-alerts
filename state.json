@@ -15132,6 +15132,7 @@
     },
     "PHI:8480015": {
       "alerted": false,
+      "missing_since": "2026-11-27T21:16:11Z",
       "out_at": "2026-11-27T21:13:10Z",
       "player": {
         "first": "Owen",
