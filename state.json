@@ -17994,23 +17994,23 @@
   "shot_stats": {
     "adjusted": true,
     "avg_shots": 27.33,
-    "fetched": "2026-11-27T17:00:27Z",
+    "fetched": "2026-11-27T23:00:27Z",
     "raw": {
       "anaheimducks": {
         "sa": 25.73076,
         "sf": 26.30769
       },
       "bostonbruins": {
-        "sa": 27.625,
-        "sf": 27.20833
+        "sa": 27.24,
+        "sf": 27.28
       },
       "buffalosabres": {
         "sa": 27.96,
         "sf": 26.96
       },
       "calgaryflames": {
-        "sa": 29.5,
-        "sf": 27.65384
+        "sa": 29.66666,
+        "sf": 27.7037
       },
       "carolinahurricanes": {
         "sa": 22.04,
@@ -18029,8 +18029,8 @@
         "sf": 27.34782
       },
       "dallasstars": {
-        "sa": 24.375,
-        "sf": 25.70833
+        "sa": 24.2,
+        "sf": 25.8
       },
       "detroitredwings": {
         "sa": 26.25,
@@ -18057,12 +18057,12 @@
         "sf": 27.42307
       },
       "nashvillepredators": {
-        "sa": 29.375,
-        "sf": 26.91666
+        "sa": 29.6,
+        "sf": 26.68
       },
       "newjerseydevils": {
-        "sa": 25.64,
-        "sf": 32.64
+        "sa": 25.76923,
+        "sf": 32.6923
       },
       "newyorkislanders": {
         "sa": 28.33333,
@@ -18093,20 +18093,20 @@
         "sf": 25.5
       },
       "stlouisblues": {
-        "sa": 29.76,
-        "sf": 26.96
+        "sa": 29.6923,
+        "sf": 26.6923
       },
       "tampabaylightning": {
         "sa": 25.375,
         "sf": 29.125
       },
       "torontomapleleafs": {
-        "sa": 28.76923,
-        "sf": 27.96153
+        "sa": 28.77777,
+        "sf": 27.59259
       },
       "utahmammoth": {
-        "sa": 24.96153,
-        "sf": 28.84615
+        "sa": 24.81481,
+        "sf": 29.07407
       },
       "vancouvercanucks": {
         "sa": 31.03703,
@@ -18125,7 +18125,7 @@
         "sf": 26.5
       }
     },
-    "save_pct": 0.885,
+    "save_pct": 0.8848,
     "season": "20262027",
     "teams": {
       "anaheimducks": {
@@ -19342,7 +19342,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-27T17:00:27Z",
+    "fetched": "2026-11-27T23:00:27Z",
     "value": [
       8475184,
       8476479,
@@ -19371,7 +19371,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-27T22:40:17Z",
+    "fetched": "2026-11-27T23:00:27Z",
     "value": [
       8475151,
       8475170,
@@ -19457,7 +19457,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-27T22:40:17Z",
+    "fetched": "2026-11-27T23:00:27Z",
     "value": [
       8471215,
       8471675,
@@ -19487,7 +19487,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-27T22:40:17Z",
+    "fetched": "2026-11-27T23:00:27Z",
     "value": [
       8474586,
       8476457,
