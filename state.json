@@ -1410,6 +1410,12 @@
       },
       "matchup": "New Jersey Devils @ Columbus Blue Jackets"
     },
+    "b23cbb8c5378e792e7ac624fec34b7f5": {
+      "commence_time": "2026-11-29T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "San Jose Sharks @ Colorado Avalanche"
+    },
     "b5234ea5788fb4f5393efc6c33c8e5e7": {
       "commence_time": "2026-11-27T18:14:00Z",
       "h2h_sent": true,
@@ -1449,6 +1455,12 @@
         }
       },
       "matchup": "Utah Mammoth @ Nashville Predators"
+    },
+    "b593db6702ca42144f478008ba894214": {
+      "commence_time": "2026-11-29T02:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Anaheim Ducks @ Los Angeles Kings"
     },
     "b8dd63eeebfa6db1cdb18fb101d4a323": {
       "commence_time": "2026-11-26T00:14:00Z",
