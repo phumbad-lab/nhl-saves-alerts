@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16389,
+  "credits_remaining": 16388,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -1210,8 +1210,19 @@
     },
     "80ad2e83d5b53a2f48a70cfdecd3dc5c": {
       "commence_time": "2026-11-27T21:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-27T18:47:18Z",
+      "lines": {
+        "fanduel": {
+          "Yaroslav Askarov": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629205426&selectionId=77385758",
+            "point": 24.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629205426&selectionId=77385757"
+          }
+        }
+      },
       "matchup": "Vegas Golden Knights @ San Jose Sharks"
     },
     "978dfc077c2cba5159882a1f65088b8d": {
@@ -4708,7 +4719,7 @@
     ]
   },
   "gl_8476885": {
-    "fetched": "2026-11-27T12:00:23Z",
+    "fetched": "2026-11-27T18:47:18Z",
     "value": [
       "2026-10-01",
       "2026-10-03",
@@ -14038,6 +14049,39 @@
       ]
     ]
   },
+  "h2h_SJS-VGK": {
+    "fetched": "2026-11-27T18:47:18Z",
+    "value": [
+      [
+        "2026-01-11",
+        "VGK",
+        "SJS",
+        32,
+        20
+      ],
+      [
+        "2025-12-23",
+        "SJS",
+        "VGK",
+        23,
+        26
+      ],
+      [
+        "2025-11-29",
+        "SJS",
+        "VGK",
+        21,
+        24
+      ],
+      [
+        "2025-10-09",
+        "VGK",
+        "SJS",
+        31,
+        23
+      ]
+    ]
+  },
   "h2h_STL-UTA": {
     "fetched": "2026-11-12T17:55:12Z",
     "value": [
@@ -16881,7 +16925,7 @@
     ]
   },
   "roster_SJS": {
-    "fetched": "2026-11-25T18:18:18Z",
+    "fetched": "2026-11-27T18:47:18Z",
     "value": [
       "Yaroslav Askarov",
       "Alex Nedeljkovic"
@@ -16925,7 +16969,7 @@
     ]
   },
   "roster_VGK": {
-    "fetched": "2026-11-24T16:46:11Z",
+    "fetched": "2026-11-27T18:47:18Z",
     "value": [
       "Carter Hart",
       "Adin Hill"
@@ -17455,6 +17499,12 @@
       "book": null,
       "event_id": "a76ba8f9808ac21b09342afdd5df0b32",
       "goalie": "Dan Vladar"
+    },
+    "2072": {
+      "at": "2026-11-27T18:47:18Z",
+      "book": null,
+      "event_id": "80ad2e83d5b53a2f48a70cfdecd3dc5c",
+      "goalie": "Yaroslav Askarov"
     }
   },
   "shot_stats": {
@@ -18560,7 +18610,7 @@
     "version": 5
   },
   "skaters_ANA": {
-    "fetched": "2026-11-27T18:26:12Z",
+    "fetched": "2026-11-27T18:47:18Z",
     "value": [
       8473986,
       8475798,
