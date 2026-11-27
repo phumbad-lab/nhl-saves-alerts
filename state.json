@@ -14245,6 +14245,7 @@
     },
     "CAR:8480817": {
       "alerted": true,
+      "missing_since": "2026-11-27T16:23:11Z",
       "out_at": "2026-11-25T23:55:17Z",
       "player": {
         "first": "K'Andre",
