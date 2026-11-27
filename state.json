@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-26",
-  "credits_remaining": 16562,
+  "credits_remaining": 16561,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -772,7 +772,7 @@
     "27cb678af08c1929cf19d9350d9f511e": {
       "commence_time": "2026-11-27T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T11:33:11Z",
+      "last_paid_check": "2026-11-27T11:48:15Z",
       "lines": {
         "fanduel": {
           "Anthony Stolarz": {
