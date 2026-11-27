@@ -14483,6 +14483,7 @@
     },
     "TOR:8480893": {
       "alerted": true,
+      "missing_since": "2026-11-27T16:12:15Z",
       "out_at": "2026-11-20T12:23:10Z",
       "player": {
         "first": "Kirill",
