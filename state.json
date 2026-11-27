@@ -763,6 +763,12 @@
       "lines": {},
       "matchup": "New York Rangers @ Chicago Blackhawks"
     },
+    "13c3edd2c9dc19cce0a916e9db43cc44": {
+      "commence_time": "2026-11-29T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Washington Capitals @ St Louis Blues"
+    },
     "26c93a0fb3baf8842c064fe3aad7082d": {
       "commence_time": "2026-11-28T00:30:00Z",
       "h2h_sent": true,
@@ -803,6 +809,12 @@
       },
       "matchup": "Winnipeg Jets @ New York Islanders"
     },
+    "274d3542bf8eff313ed96f04ff26e743": {
+      "commence_time": "2026-11-29T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Winnipeg Jets @ New Jersey Devils"
+    },
     "27cb678af08c1929cf19d9350d9f511e": {
       "commence_time": "2026-11-27T18:12:00Z",
       "h2h_sent": true,
@@ -842,6 +854,12 @@
         }
       },
       "matchup": "Toronto Maple Leafs @ Boston Bruins"
+    },
+    "2eb8dba3fd1115cc292ba861af377253": {
+      "commence_time": "2026-11-29T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Toronto Maple Leafs @ Pittsburgh Penguins"
     },
     "3553bd967a739912ede178eb373433b8": {
       "commence_time": "2026-11-28T01:00:00Z",
@@ -962,6 +980,12 @@
         }
       },
       "matchup": "Vancouver Canucks @ Detroit Red Wings"
+    },
+    "5b55930ad4bc2fc98ab0d37fa53d7a59": {
+      "commence_time": "2026-11-29T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Nashville Predators @ Detroit Red Wings"
     },
     "634c54722c6860c9773604c369f6e062": {
       "commence_time": "2026-11-27T21:00:00Z",
@@ -1171,6 +1195,12 @@
         }
       },
       "matchup": "Nashville Predators @ Dallas Stars"
+    },
+    "79a04197d6f55ccaf3fbccea1207874b": {
+      "commence_time": "2026-11-29T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Calgary Flames @ New York Rangers"
     },
     "80ad2e83d5b53a2f48a70cfdecd3dc5c": {
       "commence_time": "2026-11-27T21:00:00Z",
@@ -1565,6 +1595,12 @@
         }
       },
       "matchup": "Ottawa Senators @ Tampa Bay Lightning"
+    },
+    "e52a03fb10019b305f480dbb4b76f824": {
+      "commence_time": "2026-11-29T00:10:00Z",
+      "last_paid_check": null,
+      "lines": {},
+      "matchup": "Ottawa Senators @ Carolina Hurricanes"
     },
     "f23fc3f7fb3bfb06c2bee42fcfe8f050": {
       "commence_time": "2026-11-27T19:00:00Z",
@@ -14753,10 +14789,8 @@
       "status": "OUT"
     },
     "STL:8483516": {
-      "alerted": true,
-      "out_at": "2026-11-25T19:14:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-27T18:04:10Z",
+      "alerted": false,
+      "out_at": "2026-11-27T18:10:17Z",
       "player": {
         "first": "Jimmy",
         "gp": 94,
@@ -14769,7 +14803,7 @@
         "toi": 17.0
       },
       "seen": "2026-11-24T18:34:14Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "TOR:8478458": {
       "alerted": true,
@@ -18903,7 +18937,7 @@
     ]
   },
   "skaters_STL": {
-    "fetched": "2026-11-26T11:00:29Z",
+    "fetched": "2026-11-27T18:10:17Z",
     "value": [
       8475764,
       8476892,
