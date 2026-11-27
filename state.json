@@ -763,46 +763,6 @@
       "lines": {},
       "matchup": "New York Rangers @ Chicago Blackhawks"
     },
-    "155fbdda10b6474a41649023baadfdf3": {
-      "commence_time": "2026-11-25T01:16:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-24T21:40:17Z",
-      "lines": {
-        "draftkings": {
-          "Carter Hart": {
-            "over": -130,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392047129%232378620454_13L42133Q1-659212771Q20",
-            "point": 21.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392047129%232378620455_15L42133Q1888607062Q20"
-          },
-          "Devon Levi": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392047351%232379848455_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392047351%232379848456_15L42133Q184490156Q20"
-          }
-        },
-        "fanduel": {
-          "Carter Hart": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628370246&selectionId=92390270",
-            "point": 21.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628370246&selectionId=92390272"
-          },
-          "Devon Levi": {
-            "over": -108,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628339468&selectionId=74676067",
-            "point": 23.5,
-            "under": -122,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628339468&selectionId=74676066"
-          }
-        }
-      },
-      "matchup": "Vegas Golden Knights @ Edmonton Oilers"
-    },
     "26c93a0fb3baf8842c064fe3aad7082d": {
       "commence_time": "2026-11-28T00:30:00Z",
       "last_paid_check": null,
