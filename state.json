@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16340,
+  "credits_remaining": 16339,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -1671,15 +1671,22 @@
     "e455a88aa787a29717a862a536046895": {
       "commence_time": "2026-11-27T20:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T19:40:17Z",
+      "last_paid_check": "2026-11-27T19:56:11Z",
       "lines": {
         "draftkings": {
-          "Linus Ullmark": {
+          "Dennis Hildeby": {
             "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392898014%232383954044_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392898014%232383954045_15L42133Q1874096526Q20"
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA393238541%232384028428_13L42133Q1-1895367418Q20",
+            "point": 23.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA393238541%232384028429_15L42133Q184490156Q20"
+          },
+          "Linus Ullmark": {
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392898014%232382548658_13L42133Q1-1695742073Q20",
+            "point": 24.5,
+            "under": -115,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392898014%232382548791_15L42133Q1731448625Q20"
           }
         },
         "fanduel": {
@@ -17675,6 +17682,12 @@
       "book": "DK",
       "event_id": "a76ba8f9808ac21b09342afdd5df0b32",
       "goalie": "Leevi Merilainen"
+    },
+    "2083": {
+      "at": "2026-11-27T19:56:11Z",
+      "book": "DK",
+      "event_id": "e455a88aa787a29717a862a536046895",
+      "goalie": "Dennis Hildeby"
     }
   },
   "shot_stats": {
