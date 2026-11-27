@@ -14290,10 +14290,8 @@
   },
   "injuries": {
     "ANA:8484153": {
-      "alerted": true,
-      "out_at": "2026-11-25T19:14:11Z",
-      "pending": "OUT",
-      "pending_since": "2026-11-27T17:19:14Z",
+      "alerted": false,
+      "out_at": "2026-11-27T17:25:13Z",
       "player": {
         "first": "Leo",
         "gp": 94,
@@ -14306,7 +14304,7 @@
         "toi": 19.3
       },
       "seen": "2026-11-22T04:17:15Z",
-      "status": "DTD"
+      "status": "OUT"
     },
     "CAR:8477940": {
       "alerted": true,
@@ -18149,7 +18147,7 @@
     "version": 5
   },
   "skaters_ANA": {
-    "fetched": "2026-11-26T11:00:29Z",
+    "fetched": "2026-11-27T17:25:13Z",
     "value": [
       8473986,
       8475798,
