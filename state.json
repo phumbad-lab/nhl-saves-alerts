@@ -1656,7 +1656,7 @@
       "matchup": "Ottawa Senators @ Carolina Hurricanes"
     },
     "f23fc3f7fb3bfb06c2bee42fcfe8f050": {
-      "commence_time": "2026-11-27T19:00:00Z",
+      "commence_time": "2026-11-27T19:02:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-27T18:15:17Z",
       "lines": {
@@ -14709,6 +14709,23 @@
         "toi": 21.9
       },
       "seen": "2026-11-07T00:56:11Z",
+      "status": "OUT"
+    },
+    "CHI:8474141": {
+      "alerted": false,
+      "out_at": "2026-11-27T18:58:10Z",
+      "player": {
+        "first": "Patrick",
+        "gp": 22,
+        "id": 8474141,
+        "last": "Kane",
+        "pos": "R",
+        "role": "shooter",
+        "shots": 47,
+        "sog": 2.1,
+        "toi": 18.0
+      },
+      "seen": "2026-11-27T18:58:10Z",
       "status": "OUT"
     },
     "CHI:8481524": {
