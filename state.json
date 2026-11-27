@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16480,
+  "credits_remaining": 16478,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -766,7 +766,7 @@
     "26c93a0fb3baf8842c064fe3aad7082d": {
       "commence_time": "2026-11-28T00:30:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T16:29:12Z",
+      "last_paid_check": "2026-11-27T16:44:12Z",
       "lines": {
         "draftkings": {
           "Semyon Varlamov": {
@@ -784,6 +784,13 @@
             "point": 22.5,
             "under": -102,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629153241&selectionId=74880667"
+          },
+          "Stuart Skinner": {
+            "over": -132,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629166197&selectionId=74079397",
+            "point": 23.5,
+            "under": 100,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629166197&selectionId=74079396"
           }
         }
       },
@@ -792,7 +799,7 @@
     "27cb678af08c1929cf19d9350d9f511e": {
       "commence_time": "2026-11-27T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T16:29:12Z",
+      "last_paid_check": "2026-11-27T16:44:12Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
@@ -805,10 +812,10 @@
         },
         "fanduel": {
           "Anthony Stolarz": {
-            "over": -120,
+            "over": -122,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629093430&selectionId=74842534",
             "point": 24.5,
-            "under": -110,
+            "under": -108,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629093430&selectionId=74842533"
           }
         }
@@ -16977,6 +16984,12 @@
       "book": "DK",
       "event_id": "3553bd967a739912ede178eb373433b8",
       "goalie": "Ukko-Pekka Luukkonen"
+    },
+    "2048": {
+      "at": "2026-11-27T16:44:12Z",
+      "book": null,
+      "event_id": "26c93a0fb3baf8842c064fe3aad7082d",
+      "goalie": "Stuart Skinner"
     }
   },
   "shot_stats": {
