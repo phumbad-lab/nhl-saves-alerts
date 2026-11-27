@@ -14491,24 +14491,6 @@
       "seen": "2026-11-22T17:14:10Z",
       "status": "OUT"
     },
-    "TOR:8480893": {
-      "alerted": true,
-      "missing_since": "2026-11-27T16:12:15Z",
-      "out_at": "2026-11-20T12:23:10Z",
-      "player": {
-        "first": "Kirill",
-        "gp": 14,
-        "id": 8480893,
-        "last": "Marchenko",
-        "pos": "R",
-        "role": "shooter",
-        "shots": 35,
-        "sog": 2.5,
-        "toi": 17.6
-      },
-      "seen": "2026-11-20T12:23:10Z",
-      "status": "OUT"
-    },
     "UTA:8477951": {
       "alerted": true,
       "out_at": "2026-11-14T18:58:12Z",
