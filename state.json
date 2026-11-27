@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-26",
-  "credits_remaining": 16563,
+  "credits_remaining": 16562,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -1379,8 +1379,19 @@
     },
     "f4f067c12199285d9589564210a2a7d5": {
       "commence_time": "2026-11-27T20:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-27T11:44:12Z",
+      "lines": {
+        "fanduel": {
+          "Jet Greaves": {
+            "over": -130,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629095517&selectionId=77747671",
+            "point": 23.5,
+            "under": -102,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629095517&selectionId=77747672"
+          }
+        }
+      },
       "matchup": "Detroit Red Wings @ Columbus Blue Jackets"
     },
     "f59fbb4eb34e72efeecfce2b7adc2198": {
@@ -7354,6 +7365,39 @@
         "CBJ",
         22,
         29
+      ]
+    ]
+  },
+  "h2h_CBJ-DET": {
+    "fetched": "2026-11-27T11:44:12Z",
+    "value": [
+      [
+        "2026-04-07",
+        "CBJ",
+        "DET",
+        35,
+        37
+      ],
+      [
+        "2025-12-04",
+        "DET",
+        "CBJ",
+        33,
+        32
+      ],
+      [
+        "2025-11-22",
+        "CBJ",
+        "DET",
+        35,
+        33
+      ],
+      [
+        "2025-03-01",
+        "DET",
+        "CBJ",
+        46,
+        21
       ]
     ]
   },
@@ -16202,7 +16246,7 @@
     ]
   },
   "roster_CBJ": {
-    "fetched": "2026-11-25T16:23:10Z",
+    "fetched": "2026-11-27T11:44:12Z",
     "value": [
       "Jet Greaves",
       "Cam Talbot"
@@ -16237,7 +16281,7 @@
     ]
   },
   "roster_DET": {
-    "fetched": "2026-11-25T15:17:11Z",
+    "fetched": "2026-11-27T11:44:12Z",
     "value": [
       "John Gibson",
       "Samuel Montembeault",
@@ -16745,6 +16789,12 @@
       "book": null,
       "event_id": "634c54722c6860c9773604c369f6e062",
       "goalie": "Laurent Brossoit"
+    },
+    "2036": {
+      "at": "2026-11-27T11:44:12Z",
+      "book": null,
+      "event_id": "f4f067c12199285d9589564210a2a7d5",
+      "goalie": "Jet Greaves"
     }
   },
   "shot_stats": {
