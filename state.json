@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16412,
+  "credits_remaining": 16411,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -804,7 +804,7 @@
       "matchup": "Winnipeg Jets @ New York Islanders"
     },
     "27cb678af08c1929cf19d9350d9f511e": {
-      "commence_time": "2026-11-27T18:04:00Z",
+      "commence_time": "2026-11-27T18:06:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-27T17:30:19Z",
       "lines": {
@@ -1179,9 +1179,9 @@
       "matchup": "Vegas Golden Knights @ San Jose Sharks"
     },
     "978dfc077c2cba5159882a1f65088b8d": {
-      "commence_time": "2026-11-27T18:04:00Z",
+      "commence_time": "2026-11-27T18:06:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T18:01:10Z",
+      "last_paid_check": "2026-11-27T18:02:12Z",
       "lines": {
         "draftkings": {
           "Devin Cooley": {
@@ -1298,7 +1298,7 @@
       "matchup": "New Jersey Devils @ Columbus Blue Jackets"
     },
     "b5234ea5788fb4f5393efc6c33c8e5e7": {
-      "commence_time": "2026-11-27T18:04:00Z",
+      "commence_time": "2026-11-27T18:06:00Z",
       "h2h_sent": true,
       "last_paid_check": "2026-11-27T17:36:09Z",
       "lines": {
