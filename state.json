@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16456,
+  "credits_remaining": 16454,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -1167,7 +1167,7 @@
     "978dfc077c2cba5159882a1f65088b8d": {
       "commence_time": "2026-11-27T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T17:31:11Z",
+      "last_paid_check": "2026-11-27T17:32:12Z",
       "lines": {
         "draftkings": {
           "Jake Allen": {
@@ -1534,8 +1534,19 @@
     },
     "f59fbb4eb34e72efeecfce2b7adc2198": {
       "commence_time": "2026-11-27T20:00:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-27T17:32:12Z",
+      "lines": {
+        "fanduel": {
+          "Jacob Markstrom": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629181016&selectionId=74591079",
+            "point": 23.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629181016&selectionId=74591081"
+          }
+        }
+      },
       "matchup": "Florida Panthers @ Washington Capitals"
     }
   },
@@ -10675,8 +10686,15 @@
     ]
   },
   "h2h_FLA-WSH": {
-    "fetched": "2026-11-07T15:23:10Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
+      [
+        "2026-11-07",
+        "FLA",
+        "WSH",
+        29,
+        31
+      ],
       [
         "2026-01-17",
         "FLA",
@@ -10697,13 +10715,6 @@
         "FLA",
         40,
         28
-      ],
-      [
-        "2025-03-22",
-        "FLA",
-        "WSH",
-        36,
-        33
       ]
     ]
   },
@@ -16500,7 +16511,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-11-25T15:15:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       "Jacob Markstrom",
       "Akira Schmid"
@@ -16644,7 +16655,7 @@
     ]
   },
   "roster_WSH": {
-    "fetched": "2026-11-25T15:49:13Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       "Charlie Lindgren",
       "Logan Thompson"
@@ -17070,6 +17081,12 @@
       "book": null,
       "event_id": "978dfc077c2cba5159882a1f65088b8d",
       "goalie": "Devin Cooley"
+    },
+    "2055": {
+      "at": "2026-11-27T17:32:12Z",
+      "book": null,
+      "event_id": "f59fbb4eb34e72efeecfce2b7adc2198",
+      "goalie": "Jacob Markstrom"
     }
   },
   "shot_stats": {
@@ -18230,7 +18247,7 @@
     ]
   },
   "skaters_CGY": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8474150,
       8476456,
@@ -18257,7 +18274,7 @@
     ]
   },
   "skaters_CHI": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8474013,
       8474141,
@@ -18270,6 +18287,7 @@
       8481524,
       8481568,
       8482062,
+      8482172,
       8482176,
       8482807,
       8483450,
@@ -18285,7 +18303,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8470613,
       8475172,
@@ -18396,7 +18414,7 @@
     ]
   },
   "skaters_MIN": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8473422,
       8474567,
@@ -18451,7 +18469,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8475151,
       8475170,
@@ -18479,7 +18497,7 @@
     ]
   },
   "skaters_NYR": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8476459,
       8476468,
@@ -18510,7 +18528,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8471215,
       8471675,
@@ -18540,7 +18558,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8474586,
       8476457,
@@ -18568,7 +18586,7 @@
     ]
   },
   "skaters_SJS": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8475200,
       8475726,
@@ -18653,7 +18671,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8475166,
       8475171,
@@ -18684,7 +18702,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-27T17:11:16Z",
+    "fetched": "2026-11-27T17:32:12Z",
     "value": [
       8475314,
       8476389,
