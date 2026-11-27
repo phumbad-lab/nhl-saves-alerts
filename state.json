@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16459,
+  "credits_remaining": 16457,
   "events": {
     "03b050660209b2ef14e1e40ef22a585e": {
       "commence_time": "2026-11-26T00:16:00Z",
@@ -806,7 +806,7 @@
     "27cb678af08c1929cf19d9350d9f511e": {
       "commence_time": "2026-11-27T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T17:15:17Z",
+      "last_paid_check": "2026-11-27T17:30:19Z",
       "lines": {
         "draftkings": {
           "Anthony Stolarz": {
@@ -826,11 +826,18 @@
         },
         "fanduel": {
           "Anthony Stolarz": {
-            "over": -122,
+            "over": -128,
             "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629093430&selectionId=74842534",
             "point": 24.5,
-            "under": -108,
+            "under": -104,
             "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629093430&selectionId=74842533"
+          },
+          "Jeremy Swayman": {
+            "over": -132,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629177294&selectionId=74879760",
+            "point": 23.5,
+            "under": 100,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629177294&selectionId=74879759"
           }
         }
       },
@@ -1160,15 +1167,24 @@
     "978dfc077c2cba5159882a1f65088b8d": {
       "commence_time": "2026-11-27T18:00:00Z",
       "h2h_sent": true,
-      "last_paid_check": "2026-11-27T17:15:17Z",
+      "last_paid_check": "2026-11-27T17:30:19Z",
       "lines": {
         "draftkings": {
           "Jake Allen": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA393160421%232383722291_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA393160421%232383722292_15L42133Q1874096526Q20"
+            "over": -120,
+            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA393160421%232383797644_13L42133Q1-659212771Q20",
+            "point": 21.5,
+            "under": -110,
+            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA393160421%232383797645_15L42133Q1888607062Q20"
+          }
+        },
+        "fanduel": {
+          "Devin Cooley": {
+            "over": -114,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629180352&selectionId=89998349",
+            "point": 27.5,
+            "under": -114,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629180352&selectionId=89998348"
           }
         }
       },
@@ -14290,7 +14306,7 @@
   },
   "injuries": {
     "ANA:8484153": {
-      "alerted": false,
+      "alerted": true,
       "out_at": "2026-11-27T17:25:13Z",
       "player": {
         "first": "Leo",
@@ -17042,6 +17058,18 @@
       "book": "DK",
       "event_id": "26c93a0fb3baf8842c064fe3aad7082d",
       "goalie": "Stuart Skinner"
+    },
+    "2053": {
+      "at": "2026-11-27T17:30:19Z",
+      "book": "FD",
+      "event_id": "27cb678af08c1929cf19d9350d9f511e",
+      "goalie": "Jeremy Swayman"
+    },
+    "2054": {
+      "at": "2026-11-27T17:30:19Z",
+      "book": null,
+      "event_id": "978dfc077c2cba5159882a1f65088b8d",
+      "goalie": "Devin Cooley"
     }
   },
   "shot_stats": {
