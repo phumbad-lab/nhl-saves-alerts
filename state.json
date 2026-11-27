@@ -14292,6 +14292,8 @@
     "ANA:8484153": {
       "alerted": true,
       "out_at": "2026-11-25T19:14:11Z",
+      "pending": "OUT",
+      "pending_since": "2026-11-27T17:19:14Z",
       "player": {
         "first": "Leo",
         "gp": 94,
