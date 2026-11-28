@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16309,
+  "credits_remaining": 16308,
   "events": {
     "05bd16c51ce4454e77900af56cd8997c": {
       "commence_time": "2026-11-27T22:40:00Z",
@@ -1178,8 +1178,19 @@
     },
     "caa1c061c2ace9568a038a36abf48a25": {
       "commence_time": "2026-11-28T23:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-28T11:08:10Z",
+      "lines": {
+        "fanduel": {
+          "Andrei Vasilevskiy": {
+            "over": -112,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629391448&selectionId=74932792",
+            "point": 24.5,
+            "under": -118,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629391448&selectionId=74932793"
+          }
+        }
+      },
       "matchup": "Tampa Bay Lightning @ Florida Panthers"
     },
     "d86dc755fe06568141403800fce290fb": {
@@ -10690,6 +10701,39 @@
       ]
     ]
   },
+  "h2h_FLA-TBL": {
+    "fetched": "2026-11-28T11:08:10Z",
+    "value": [
+      [
+        "2026-02-05",
+        "FLA",
+        "TBL",
+        34,
+        28
+      ],
+      [
+        "2025-12-27",
+        "TBL",
+        "FLA",
+        25,
+        26
+      ],
+      [
+        "2025-12-15",
+        "FLA",
+        "TBL",
+        24,
+        28
+      ],
+      [
+        "2025-11-15",
+        "TBL",
+        "FLA",
+        20,
+        23
+      ]
+    ]
+  },
   "h2h_FLA-VAN": {
     "fetched": "2026-10-15T16:06:12Z",
     "value": [
@@ -16749,7 +16793,7 @@
     ]
   },
   "roster_FLA": {
-    "fetched": "2026-11-27T17:32:12Z",
+    "fetched": "2026-11-28T11:08:10Z",
     "value": [
       "Jacob Markstrom",
       "Akira Schmid"
@@ -16849,7 +16893,7 @@
     ]
   },
   "roster_TBL": {
-    "fetched": "2026-11-27T18:08:16Z",
+    "fetched": "2026-11-28T11:08:10Z",
     "value": [
       "Dennis Hildeby",
       "Andrei Vasilevskiy"
@@ -17535,6 +17579,12 @@
       "book": "DK",
       "event_id": "05bd16c51ce4454e77900af56cd8997c",
       "goalie": "Spencer Knight"
+    },
+    "2095": {
+      "at": "2026-11-28T11:08:10Z",
+      "book": null,
+      "event_id": "caa1c061c2ace9568a038a36abf48a25",
+      "goalie": "Andrei Vasilevskiy"
     }
   },
   "shot_stats": {
