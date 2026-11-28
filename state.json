@@ -941,46 +941,6 @@
       },
       "matchup": "Pittsburgh Penguins @ Buffalo Sabres"
     },
-    "52d88f1e2ea2e8165d992430998b84f1": {
-      "commence_time": "2026-11-26T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-25T18:31:13Z",
-      "lines": {
-        "draftkings": {
-          "Arturs Silovs": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311314%232380891280_13L42133Q1-1895367418Q20",
-            "point": 23.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311314%232380891281_15L42133Q184490156Q20"
-          },
-          "Dustin Wolf": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311619%232379783037_13L42133Q1-54034395Q20",
-            "point": 26.5,
-            "under": -125,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311619%232379783163_15L42133Q11150106798Q20"
-          }
-        },
-        "fanduel": {
-          "Arturs Silovs": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628622860&selectionId=74843679",
-            "point": 23.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628622860&selectionId=74843680"
-          },
-          "Dustin Wolf": {
-            "over": -102,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628623641&selectionId=74079401",
-            "point": 26.5,
-            "under": -130,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628623641&selectionId=74079383"
-          }
-        }
-      },
-      "matchup": "Calgary Flames @ Pittsburgh Penguins"
-    },
     "54f5b5907980a875945c22ecce9a7537": {
       "commence_time": "2026-11-26T00:50:00Z",
       "h2h_sent": true,
@@ -1193,46 +1153,6 @@
       },
       "matchup": "St Louis Blues @ New York Islanders"
     },
-    "71f3e5885a8f467260baa9aa31c62332": {
-      "commence_time": "2026-11-26T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-25T17:19:11Z",
-      "lines": {
-        "draftkings": {
-          "Jeremy Swayman": {
-            "over": -105,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392309640%232379777804_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -130,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392309640%232379777832_15L42133Q1731448625Q20"
-          },
-          "Nico Daws": {
-            "over": -115,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392633984%232381351475_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392633984%232381351476_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Jeremy Swayman": {
-            "over": -118,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628626960&selectionId=74879760",
-            "point": 23.5,
-            "under": -112,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628626960&selectionId=74879759"
-          },
-          "Nico Daws": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628631759&selectionId=79796961",
-            "point": 23.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628631759&selectionId=79796960"
-          }
-        }
-      },
-      "matchup": "Winnipeg Jets @ Boston Bruins"
-    },
     "73d5e978fab618f46090f2dc47721bda": {
       "commence_time": "2026-11-26T01:12:00Z",
       "h2h_sent": true,
@@ -1397,46 +1317,6 @@
         }
       },
       "matchup": "Vancouver Canucks @ Philadelphia Flyers"
-    },
-    "a96a74be66899182f7eea8d72ec0e0fb": {
-      "commence_time": "2026-11-26T00:10:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-25T18:24:11Z",
-      "lines": {
-        "draftkings": {
-          "Joonas Korpisalo": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392654866%232381415709_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -105,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392654866%232381415710_15L42133Q1731448625Q20"
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -110,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392625020%232381296563_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -120,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392625020%232381296564_15L42133Q1874096526Q20"
-          }
-        },
-        "fanduel": {
-          "Joonas Korpisalo": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628634172&selectionId=74802630",
-            "point": 24.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628634172&selectionId=74802628"
-          },
-          "Ukko-Pekka Luukkonen": {
-            "over": -112,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628618764&selectionId=77455874",
-            "point": 22.5,
-            "under": -118,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628618764&selectionId=77455873"
-          }
-        }
-      },
-      "matchup": "New York Rangers @ Buffalo Sabres"
     },
     "b06dda80256fb0e1b5efc78c0fca6d97": {
       "commence_time": "2026-11-26T00:12:00Z",
