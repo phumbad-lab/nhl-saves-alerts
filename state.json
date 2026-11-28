@@ -715,7 +715,7 @@
     }
   },
   "corrections_checked": "2026-11-27",
-  "credits_remaining": 16305,
+  "credits_remaining": 16304,
   "events": {
     "05bd16c51ce4454e77900af56cd8997c": {
       "commence_time": "2026-11-27T22:40:00Z",
@@ -1311,8 +1311,26 @@
     },
     "e52a03fb10019b305f480dbb4b76f824": {
       "commence_time": "2026-11-29T00:10:00Z",
-      "last_paid_check": null,
-      "lines": {},
+      "h2h_sent": true,
+      "last_paid_check": "2026-11-28T11:42:10Z",
+      "lines": {
+        "fanduel": {
+          "Pyotr Kochetkov": {
+            "over": -102,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629402509&selectionId=75074342",
+            "point": 19.5,
+            "under": -130,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629402509&selectionId=75074343"
+          },
+          "Samuel Ersson": {
+            "over": -110,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629402162&selectionId=74932576",
+            "point": 26.5,
+            "under": -120,
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.629402162&selectionId=74932577"
+          }
+        }
+      },
       "matchup": "Ottawa Senators @ Carolina Hurricanes"
     },
     "f23fc3f7fb3bfb06c2bee42fcfe8f050": {
@@ -7236,6 +7254,39 @@
         "NYR",
         32,
         26
+      ]
+    ]
+  },
+  "h2h_CAR-OTT": {
+    "fetched": "2026-11-28T11:42:10Z",
+    "value": [
+      [
+        "2026-04-25",
+        "CAR",
+        "OTT",
+        30,
+        27
+      ],
+      [
+        "2026-04-23",
+        "CAR",
+        "OTT",
+        27,
+        22
+      ],
+      [
+        "2026-04-20",
+        "OTT",
+        "CAR",
+        39,
+        49
+      ],
+      [
+        "2026-04-18",
+        "OTT",
+        "CAR",
+        22,
+        29
       ]
     ]
   },
@@ -16804,7 +16855,7 @@
     ]
   },
   "roster_CAR": {
-    "fetched": "2026-11-25T15:19:10Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       "Brandon Bussi",
       "Pyotr Kochetkov"
@@ -16920,7 +16971,7 @@
     ]
   },
   "roster_OTT": {
-    "fetched": "2026-11-27T18:08:16Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       "Samuel Ersson",
       "Linus Ullmark"
@@ -17678,6 +17729,18 @@
       "book": null,
       "event_id": "79a04197d6f55ccaf3fbccea1207874b",
       "goalie": "Joonas Korpisalo"
+    },
+    "2100": {
+      "at": "2026-11-28T11:42:10Z",
+      "book": null,
+      "event_id": "e52a03fb10019b305f480dbb4b76f824",
+      "goalie": "Pyotr Kochetkov"
+    },
+    "2101": {
+      "at": "2026-11-28T11:42:10Z",
+      "book": null,
+      "event_id": "e52a03fb10019b305f480dbb4b76f824",
+      "goalie": "Samuel Ersson"
     }
   },
   "shot_stats": {
@@ -18783,7 +18846,7 @@
     "version": 5
   },
   "skaters_ANA": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8473986,
       8475798,
@@ -18838,7 +18901,7 @@
     ]
   },
   "skaters_CGY": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8474150,
       8476456,
@@ -18894,7 +18957,7 @@
     ]
   },
   "skaters_COL": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8470613,
       8475172,
@@ -19031,7 +19094,7 @@
     ]
   },
   "skaters_MTL": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8475184,
       8476479,
@@ -19060,7 +19123,7 @@
     ]
   },
   "skaters_NYI": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8475151,
       8475170,
@@ -19088,7 +19151,7 @@
     ]
   },
   "skaters_NYR": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8476459,
       8476468,
@@ -19119,7 +19182,7 @@
     ]
   },
   "skaters_PHI": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8476372,
       8476461,
@@ -19146,7 +19209,7 @@
     ]
   },
   "skaters_PIT": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8471215,
       8471675,
@@ -19176,7 +19239,7 @@
     ]
   },
   "skaters_SEA": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8474586,
       8476457,
@@ -19204,7 +19267,7 @@
     ]
   },
   "skaters_SJS": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8475200,
       8475726,
@@ -19232,7 +19295,7 @@
     ]
   },
   "skaters_STL": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8475764,
       8476892,
@@ -19289,7 +19352,7 @@
     ]
   },
   "skaters_TOR": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8475166,
       8475171,
@@ -19320,7 +19383,7 @@
     ]
   },
   "skaters_UTA": {
-    "fetched": "2026-11-28T11:21:11Z",
+    "fetched": "2026-11-28T11:42:10Z",
     "value": [
       8475314,
       8476389,
