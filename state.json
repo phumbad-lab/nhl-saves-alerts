@@ -1073,46 +1073,6 @@
       },
       "matchup": "Seattle Kraken @ Edmonton Oilers"
     },
-    "70e9e98dccc07e86adad8349ad0c07fa": {
-      "commence_time": "2026-11-26T00:20:00Z",
-      "h2h_sent": true,
-      "last_paid_check": "2026-11-25T23:30:20Z",
-      "lines": {
-        "draftkings": {
-          "Ilya Sorokin": {
-            "over": -120,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311791%232381294916_13L42133Q1-598579072Q20",
-            "point": 22.5,
-            "under": -115,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392311791%232381294917_15L42133Q1874096526Q20"
-          },
-          "Joel Hofer": {
-            "over": -125,
-            "over_link": "https://sportsbook.draftkings.com/?outcomes=0QA392312296%232379803189_13L42133Q1-1695742073Q20",
-            "point": 24.5,
-            "under": -110,
-            "under_link": "https://sportsbook.draftkings.com/?outcomes=0QA392312296%232379803190_15L42133Q1731448625Q20"
-          }
-        },
-        "fanduel": {
-          "Ilya Sorokin": {
-            "over": -125,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628615065&selectionId=75039652",
-            "point": 22.5,
-            "under": -106,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628615065&selectionId=75039651"
-          },
-          "Joel Hofer": {
-            "over": -114,
-            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628711485&selectionId=74882014",
-            "point": 24.5,
-            "under": -114,
-            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.628711485&selectionId=74882015"
-          }
-        }
-      },
-      "matchup": "St Louis Blues @ New York Islanders"
-    },
     "73d5e978fab618f46090f2dc47721bda": {
       "commence_time": "2026-11-26T01:12:00Z",
       "h2h_sent": true,
