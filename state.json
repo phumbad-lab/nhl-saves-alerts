@@ -14783,7 +14783,6 @@
     },
     "CHI:8474141": {
       "alerted": true,
-      "missing_since": "2026-11-28T12:03:10Z",
       "out_at": "2026-11-27T18:58:10Z",
       "player": {
         "first": "Patrick",
@@ -14852,7 +14851,6 @@
     },
     "MIN:8480800": {
       "alerted": true,
-      "missing_since": "2026-11-28T12:03:10Z",
       "out_at": "2026-11-21T18:48:10Z",
       "player": {
         "first": "Quinn",
