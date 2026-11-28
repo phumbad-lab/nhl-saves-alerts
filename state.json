@@ -14720,7 +14720,6 @@
     },
     "CHI:8474141": {
       "alerted": true,
-      "missing_since": "2026-11-28T11:56:12Z",
       "out_at": "2026-11-27T18:58:10Z",
       "player": {
         "first": "Patrick",
